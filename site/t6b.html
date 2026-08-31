@@ -1,0 +1,354 @@
+/* ================= COMPARAR ================= */
+function keyOf(p){return (p.sub||'—').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').trim();}
+function drawComp(){
+  var el=document.getElementById('v-comp');
+  var CC=cands().filter(function(c){return S.selC.has(c.sq);});
+  var ss=selSet();
+  el.innerHTML='<section><div class="sechead"><h2>⇄ Comparar lado a lado</h2>'+
+    '<span class="pill-n">'+CC.length+' candidato'+(CC.length===1?'':'s')+'</span></div>'+
+    '<p class="lead">Cada linha é um assunto; cada coluna, um candidato. Quando dois planos tratam do <b>mesmo assunto</b>, as propostas aparecem lado a lado na mesma linha. Clique numa proposta para abrir a ficha inteira.</p>'+
+    '<div class="chips" style="margin-bottom:12px">'+
+      '<button class="chip" data-only="1" aria-pressed="'+S.soCom+'"'+(S.soCom?' style="background:var(--accent-2);border-color:var(--accent-2)"':'')+
+      '>⇄ Só assuntos em que mais de um propõe</button></div>'+
+    filtChips()+'<div id="cmpout"></div></section>';
+  bindFilt(el,drawComp);
+  var ob=el.querySelector('[data-only]');
+  if(ob)ob.onclick=function(){S.soCom=!S.soCom;drawComp();};
+  var out=document.getElementById('cmpout');
+  if(!CC.length||!ss.size){out.innerHTML='<p class="empty">Ligue ao menos um candidato e um tema acima.</p>';return;}
+  var cols='240px repeat('+CC.length+',minmax(215px,1fr))';
+  var html='',any=false;
+  SET.filter(function(s){return ss.has(s.id);}).forEach(function(s){
+    var here=props().filter(function(p){return p.setor===s.id&&S.selC.has(p.sq);});
+    if(!here.length)return;
+    var keys={};
+    here.forEach(function(p){var k=keyOf(p);(keys[k]=keys[k]||{lab:p.sub||'Outros',cand:{}});
+      (keys[k].cand[p.sq]=keys[k].cand[p.sq]||[]).push(p);});
+    var rows=Object.keys(keys).map(function(k){
+      return {k:k,lab:keys[k].lab,cand:keys[k].cand,nc:Object.keys(keys[k].cand).length,
+              n:Object.keys(keys[k].cand).reduce(function(a,q){return a+keys[k].cand[q].length;},0)};});
+    if(S.soCom) rows=rows.filter(function(r){return r.nc>1;});
+    if(!rows.length)return;
+    any=true;
+    rows.sort(function(a,b){return b.nc-a.nc||a.lab.localeCompare(b.lab);});
+    html+='<div class="cmpwrap"><div class="cmptable" style="grid-template-columns:'+cols+'">'+
+      '<div class="cmpsecrow"><span class="tagsec" style="background:'+sc(s.id)+'">'+s.ic+' '+esc(s.nome)+'</span>'+
+        '<span class="pill-n">'+rows.length+' assunto'+(rows.length===1?'':'s')+'</span></div>'+
+      '<div class="cmph rowhead">Assunto</div>'+
+      CC.map(function(c){return '<div class="cmph">'+foto(c,'xs')+'<div><b style="color:'+pc(c)+'">'+esc(c.nome)+'</b>'+
+        '<span>'+esc(c.partido)+'</span></div></div>';}).join('')+
+      rows.map(function(r){
+        return '<div class="cmpkey"><b>'+esc(r.lab)+'</b><span class="kn">'+r.nc+' de '+CC.length+' propõem</span></div>'+
+          CC.map(function(c){
+            var mine=r.cand[c.sq]||[];
+            if(!mine.length)return '<div class="cmpcell"><div class="cmpnone">não trata</div></div>';
+            return '<div class="cmpcell">'+mine.map(function(p){var v=VT[p.vt];
+              return '<button class="cmpitem" data-pid="'+p.id+'" style="border-left-color:'+v[1]+'">'+
+                '<span class="ct">'+esc(p.t)+'</span>'+
+                '<span class="cv" style="color:'+v[1]+'">'+v[0]+'</span>'+
+                '<span class="cax mn">'+(p.e>0?'+':'')+p.e+' / '+(p.s>0?'+':'')+p.s+'</span></button>';}).join('')+'</div>';}).join('');
+      }).join('')+'</div></div>';
+  });
+  out.innerHTML=any?html:'<p class="empty">Nenhum assunto em comum entre os candidatos e temas selecionados. Desligue o filtro acima para ver todos.</p>';
+  out.querySelectorAll('[data-pid]').forEach(function(b){b.onclick=function(){
+    var p=P.filter(function(x){return x.id===b.dataset.pid;})[0];
+    var box=document.getElementById('cmpdrill');
+    if(!box){box=document.createElement('div');box.id='cmpdrill';out.appendChild(box);}
+    box.innerHTML='<div class="sechead" style="margin-top:22px"><h3>Proposta completa</h3></div>'+ficha(p,true);
+    var f=box.querySelector('.fhead');f.click();f.scrollIntoView({behavior:'smooth',block:'center'});};});
+}
+/* ================= CHANCES ================= */
+function dsign(v){if(v==null)return '<span class="dlt eq">—</span>';
+  var c=v>0.05?'up':(v<-0.05?'dn':'eq'),a=v>0.05?'▲':(v<-0.05?'▼':'=');
+  return '<span class="dlt '+c+'">'+a+' '+(v>0?'+':'')+v.toFixed(1)+'</span>';}
+function drawOdds(){
+  var el=document.getElementById('v-odds'),O=D.odds[S.esf];
+  function bars(rows,key){
+    var mx=Math.max.apply(null,rows.map(function(r){return r[key];}))||1;
+    return rows.map(function(r){
+      var c=r.sq?byId[r.sq]:null,col=c?pc(c):'var(--ink-3)';
+      return '<div class="rrow"><span class="nm" style="color:'+col+'">'+(c?'':'· ')+esc(r.curto||r.nome)+'</span>'+
+        '<span class="rbar"><i style="width:'+Math.max(r[key]/mx*100,1.2)+'%;background:'+col+'"></i></span>'+
+        '<span class="rval">'+r[key].toFixed(1)+'%</span></div>';}).join('');}
+  var h='<section><div class="sechead"><h2>🎲 Chances de vitória</h2>'+
+    '<span class="pill-n">capturado em 28.08.2026</span></div>'+
+    '<div class="note warn"><b>⚠ Isto não é proposta de ninguém</b>Esta aba é a única do site que não vem dos planos registrados no TSE. '+
+    'São estimativas de terceiros sobre quem vence, que <b>mudam todo dia</b>. Probabilidade não é previsão: '+
+    'um candidato com 3% de chance vence 3 em cada 100 eleições parecidas.</div>';
+  var md=O.deltas,mkd=(O.mercado&&O.mercado.deltas)||null;
+  if(md){
+    var ds=Object.keys(md).map(function(k){return {k:k,v:md[k]};}).sort(function(a,b){return b.v.agora-a.v.agora;});
+    h+='<div class="sechead" style="margin-top:24px"><h3>📊 Como mudou</h3>'+
+       '<span class="pill-n">probabilidade de vitória</span></div>'+
+      '<p class="lead" style="font-size:15px">Variação em pontos percentuais contra o dia, a semana e o mês anteriores. '+
+      'Duas fontes independentes: o <b>modelo</b> sobre pesquisas e o <b>mercado</b> de apostas.</p>'+
+      '<div class="delta-strip">'+ds.map(function(o){
+        var d=o.v,c=d.sq?byId[d.sq]:null,col=c?pc(c):'var(--ink-3)';
+        var m=mkd?mkd[o.k]:null;
+        return '<div class="dcard" style="border-left-color:'+col+'">'+
+          '<div class="dn2">'+(c?mark(c,16):'')+'<span style="color:'+col+'">'+esc(o.k)+'</span></div>'+
+          '<div class="dv">'+d.agora.toFixed(1)+'%</div>'+
+          '<div class="dgrid2"><div><div class="dh">📈 modelo</div>'+
+            '<div class="dr"><span><b>dia</b>'+dsign(d.d1)+'</span><span><b>sem</b>'+dsign(d.d7)+'</span><span><b>mês</b>'+dsign(d.d30)+'</span></div></div>'+
+          '<div><div class="dh">💵 mercado'+(m?' ('+m.agora.toFixed(1)+'%)':'')+'</div>'+
+            (m?'<div class="dr"><span><b>dia</b>'+dsign(m.d1)+'</span><span><b>sem</b>'+dsign(m.d7)+'</span><span><b>mês</b>'+dsign(m.d30)+'</span></div>'
+              :'<div class="dr"><span style="color:var(--ink-3);font-size:10.5px">sem histórico</span></div>')+
+          '</div></div></div>';}).join('')+'</div>';
+  }
+  if(O.mercado){
+    var mk=O.mercado;
+    h+='<div class="sechead" style="margin-top:26px"><h3>💵 Mercado de apostas</h3>'+
+      '<span class="pill-n">'+esc(mk.fonte)+'</span><span class="pill-n mn">US$ '+(mk.volume/1e6).toFixed(0)+' mi negociados</span></div>'+
+      '<p class="lead">Preço que apostadores reais estão pagando por cada resultado. Com esse volume, o preço incorpora informação rápido — e também reflete quem tem dinheiro para apostar, não o eleitorado.</p>'+
+      '<div class="rank">'+bars(mk.linhas,'p')+
+      '<span class="cap" style="margin-top:12px;display:block">Fonte: '+esc(mk.fonte)+' · dados de '+esc(mk.atualizado)+' · “·” marca quem não tem plano neste site</span></div>';
+  }
+  var mo=O.modelo;
+  h+='<div class="sechead" style="margin-top:30px"><h3>📈 Modelo estatístico</h3>'+
+    '<span class="pill-n">'+esc(mo.fonte)+'</span><span class="pill-n mn">'+esc(mo.npesq)+'</span></div>'+
+    '<p class="lead">Projeção construída a partir de pesquisas agregadas e simulações. Não é uma pesquisa: é um modelo sobre pesquisas.</p>'+
+    '<div class="g2sym"><div class="rank"><h4>🏆 Probabilidade de vitória</h4><span class="cap">Em 100 eleições simuladas</span>'+
+    bars(mo.linhas,'pwin')+'</div>'+
+    '<div class="rank"><h4>🗳 Votos no primeiro turno</h4><span class="cap">Mediana das simulações, votos válidos</span>'+
+    mo.linhas.map(function(r){
+      var c=r.sq?byId[r.sq]:null,col=c?pc(c):'var(--ink-3)',mx=Math.max.apply(null,mo.linhas.map(function(x){return x.hi;}));
+      return '<div class="rrow"><span class="nm" style="color:'+col+'">'+(c?'':'· ')+esc(r.curto||r.nome)+'</span>'+
+        '<span class="rbar"><i style="left:'+(r.lo/mx*100)+'%;width:'+Math.max((r.hi-r.lo)/mx*100,1)+'%;background:'+col+';opacity:.28"></i>'+
+        '<i style="left:'+(r.r1/mx*100)+'%;width:2.5px;background:'+col+';border-radius:1px"></i></span>'+
+        '<span class="rval">'+r.r1.toFixed(1)+'%</span></div>';}).join('')+
+    '<span class="cap" style="margin-top:10px;display:block">Barra clara = faixa de 90% · traço = mediana</span></div></div>';
+  if(S.esf==='br'&&mo.t2){
+    h+='<div class="sechead" style="margin-top:26px"><h3>⚔ Se houver segundo turno</h3></div>'+
+      '<div class="tblwrap"><table class="tbl"><thead><tr><th>Adversário de Lula</th><th style="text-align:right">Chance deste 2º turno</th>'+
+      '<th style="text-align:right">Votos de Lula</th><th style="text-align:right">Lula vence</th></tr></thead><tbody>'+
+      Object.keys(mo.t2).map(function(k){var t=mo.t2[k];
+        return '<tr><td><b>'+esc(k)+'</b></td><td class="mn" style="text-align:right">'+t.chance+'%</td>'+
+        '<td class="mn" style="text-align:right">'+t.lulaVotos+'%</td>'+
+        '<td class="mn" style="text-align:right;color:'+(t.lulaVence>50?'var(--v-forte)':'var(--v-falh)')+'">'+t.lulaVence+'%</td></tr>';}).join('')+
+      '</tbody></table></div><p class="lead" style="margin-top:12px">A eleição se decide no primeiro turno em apenas <b>'+mo.t1out+'%</b> das simulações.</p>';
+  }
+  if(S.esf==='df')h+='<p class="lead" style="margin-top:20px">O modelo aponta segundo turno no DF em <b>'+mo.pRunoff+'%</b> das simulações. Não existe mercado de apostas para o governo do Distrito Federal — só para a Presidência e alguns estados.</p>';
+  if(S.esf==='br'&&D.odds.br.hist)h+=histChart();
+  if(S.esf==='br'&&O.mercado&&O.mercado.hist)h+=mktChart();
+  if(S.esf==='br'&&D.pesquisas)h+=pollsBlock();
+  h+='<div class="note info" style="margin-top:26px"><b>Fontes</b>'+
+    (O.mercado?'Mercado: <a href="'+esc(O.mercado.url)+'" target="_blank" rel="noopener">'+esc(O.mercado.fonte)+'</a>. ':'')+
+    'Modelo e pesquisas: <a href="'+esc(mo.url)+'" target="_blank" rel="noopener">'+esc(mo.fonte)+'</a>. '+
+    'Tudo capturado em 28 de agosto de 2026 — esta página não se atualiza sozinha.</div></section>';
+  el.innerHTML=h;
+  bindHist(); bindMkt(); bindPolls();
+}
+var HIST_GEO=null;
+function histChart(){
+  var H=D.odds.br.hist,W=860,Ht=300,m={l:46,r:120,t:18,b:34};
+  var pw=W-m.l-m.r,ph=Ht-m.t-m.b;
+  var names=Object.keys(H[H.length-1].p);
+  var NM={"Lula":"280002542548","Flávio":"280002551544","Renan":"280002540694","Caiado":"280002551932","Zema":"280002539826"};
+  var X=function(i){return m.l+i/(H.length-1)*pw;},Y=function(v){return m.t+(1-v/100)*ph;};
+  HIST_GEO={H:H,names:names,NM:NM,m:m,pw:pw,ph:ph,W:W,Ht:Ht};
+  var s='';
+  [0,25,50,75,100].forEach(function(g){
+    s+='<line class="grid-l" x1="'+m.l+'" y1="'+Y(g)+'" x2="'+(m.l+pw)+'" y2="'+Y(g)+'"/>'+
+       '<text class="tick" x="'+(m.l-8)+'" y="'+(Y(g)+3.5)+'" text-anchor="end">'+g+'%</text>';});
+  names.forEach(function(n){
+    var c=NM[n]?byId[NM[n]]:null,col=c?pc(c):'var(--ink-3)';
+    var d=H.map(function(h,i){return (i?'L':'M')+X(i).toFixed(1)+' '+Y(h.p[n]||0).toFixed(1);}).join('');
+    s+='<path d="'+d+'" fill="none" stroke="'+col+'" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>';
+    var last=H[H.length-1].p[n]||0;
+    s+='<text class="dotlab" x="'+(m.l+pw+8)+'" y="'+(Y(last)+4)+'" fill="'+col+'" font-size="12">'+esc(n)+' '+last.toFixed(0)+'%</text>';});
+  [0,Math.floor(H.length/3),Math.floor(2*H.length/3),H.length-1].forEach(function(i){
+    s+='<text class="tick" x="'+X(i)+'" y="'+(m.t+ph+18)+'" text-anchor="middle">'+H[i].d.split('-').reverse().slice(0,2).join('/')+'</text>';});
+  s+='<line id="hx" x1="0" y1="'+m.t+'" x2="0" y2="'+(m.t+ph)+'" stroke="var(--ink-3)" stroke-width="1" opacity="0"/>';
+  s+='<rect id="hcap" x="'+m.l+'" y="'+m.t+'" width="'+pw+'" height="'+ph+'" fill="transparent" style="cursor:crosshair"/>';
+  return '<div class="sechead" style="margin-top:30px"><h3>📉 Como mudou desde abril</h3>'+
+    '<span class="pill-n">passe o mouse para ver cada dia</span></div>'+
+    '<div class="plotwrap"><svg class="plot" id="histsvg" viewBox="0 0 '+W+' '+Ht+'" role="img" aria-label="Evolução da probabilidade de vitória">'+s+'</svg>'+
+    '<div class="legend"><span class="lgi">'+H.length+' medições diárias entre '+H[0].d+' e '+H[H.length-1].d+'</span></div></div>';
+}
+function bindHist(){
+  var g=HIST_GEO,svg=document.getElementById('histsvg');if(!g||!svg)return;
+  var cap=document.getElementById('hcap'),line=document.getElementById('hx');
+  cap.addEventListener('mousemove',function(ev){
+    var r=svg.getBoundingClientRect(),sx=(ev.clientX-r.left)/r.width*g.W;
+    var i=Math.round((sx-g.m.l)/g.pw*(g.H.length-1));
+    i=Math.max(0,Math.min(g.H.length-1,i));
+    var x=g.m.l+i/(g.H.length-1)*g.pw;
+    line.setAttribute('x1',x);line.setAttribute('x2',x);line.setAttribute('opacity','.55');
+    var h=g.H[i];
+    var rows=g.names.map(function(n){var c=g.NM[n]?byId[g.NM[n]]:null;
+      return '<div style="display:flex;gap:7px;align-items:center;font-size:12.5px"><i style="width:9px;height:9px;border-radius:50%;background:'+
+        (c?pc(c):'var(--ink-3)')+';display:inline-block"></i>'+esc(n)+
+        '<b class="mn" style="margin-left:auto">'+(h.p[n]||0).toFixed(1)+'%</b></div>';}).join('');
+    showTip('<span class="tm">'+h.d.split('-').reverse().join('/')+'</span><div style="margin-top:6px;display:flex;flex-direction:column;gap:3px">'+rows+'</div>',ev);
+  });
+  cap.addEventListener('mouseleave',function(){line.setAttribute('opacity','0');hideTip();});
+}
+function mtag(m){
+  var col={'Presencial':'var(--v-forte)','Telefone':'var(--v-prom)','Internet':'var(--v-risc)','Misto':'var(--v-sem)'}[m]||'var(--v-sem)';
+  var ic={'Presencial':'🚶','Telefone':'📞','Internet':'💻','Misto':'🔀'}[m]||'❓';
+  return '<span class="mtag" style="color:'+col+';border-color:'+col+'">'+ic+' '+esc(m||'não informado')+'</span>';}
+function pollRows(sh,vr){
+  var ks=Object.keys(sh).filter(function(k){return k!=='Indecisos'&&k!=='Outros';})
+    .sort(function(a,b){return sh[b]-sh[a];});
+  var mx=Math.max.apply(null,ks.map(function(k){return sh[k];}))||1;
+  var NM={"Lula":"280002542548","Flávio Bolsonaro":"280002551544","Renan Santos":"280002540694",
+          "Ronaldo Caiado":"280002551932","Romeu Zema":"280002539826","Augusto Cury":"280002551547"};
+  return ks.map(function(k){var c=NM[k]?byId[NM[k]]:null,col=c?pc(c):'var(--ink-3)';
+    return '<div class="pbrow"><span class="pn" style="color:'+col+'">'+esc(k)+'</span>'+
+      '<span class="pbar"><i style="width:'+Math.max(sh[k]/mx*100,1)+'%;background:'+col+'"></i></span>'+
+      '<span class="pbv">'+sh[k].toFixed(1)+'%'+(vr&&vr[k]!=null?dsign(vr[k]):'')+'</span></div>';}).join('');
+}
+function pollsBlock(){
+  var Q=D.pesquisas;
+  function bloco(lst,tit,sub,pref){
+    return '<div class="sechead" style="margin-top:24px"><h3>'+tit+'</h3><span class="pill-n">'+lst.length+' institutos</span></div>'+
+      '<p class="lead" style="font-size:15px">'+sub+'</p>'+
+      lst.map(function(r,i){var a=r.atual;
+        return '<button class="pollcard" data-poll="'+pref+i+'">'+
+          '<div class="pollhead"><h5>'+esc(r.inst)+'</h5>'+mtag(a.m)+
+          '<span class="pill-n mn">'+esc(a.fim||'')+'</span>'+
+          (a.n?'<span class="pill-n mn">n='+a.n+'</span>':'')+
+          '<span class="pill-n">'+r.n_hist+' pesquisa'+(r.n_hist===1?'':'s')+'</span>'+
+          '<span style="margin-left:auto;font-family:Archivo;font-size:11.5px;font-weight:700;color:var(--accent-2)">ver histórico ▾</span></div>'+
+          '<div class="pollbars">'+pollRows(a.s,r.var)+'</div>'+
+          '<div class="polldet" hidden>'+
+            '<div class="ph2">📉 histórico de '+esc(r.inst)+' — '+r.n_hist+' pesquisa'+(r.n_hist===1?'':'s')+' nacionais</div>'+
+            pollHist(r,pref+i)+
+          '</div></button>';}).join('');
+  }
+  return '<div class="sechead" style="margin-top:32px"><h2>📋 Pesquisas nacionais</h2>'+
+    '<span class="pill-n">'+esc(Q.fonte)+'</span></div>'+
+    '<p class="lead">A pesquisa nacional mais recente de cada instituto, com o método de coleta e a variação contra a pesquisa nacional anterior <em>do mesmo instituto</em> — comparar institutos diferentes entre si mede metodologia, não movimento do eleitorado. Clique para abrir todo o histórico.</p>'+
+    bloco(Q.t1,'🗳 Primeiro turno','Intenção de voto estimulada, como divulgada pelo instituto.','a')+
+    bloco(Q.t2,'⚔ Segundo turno','Cenário Lula contra Flávio Bolsonaro.','b');
+}
+function bindPolls(){
+  document.querySelectorAll('[data-poll]').forEach(function(b){b.onclick=function(){
+    var d=b.querySelector('.polldet'),lab=b.querySelector('.pollhead span:last-child');
+    d.hidden=!d.hidden; if(lab)lab.textContent=d.hidden?'ver histórico ▾':'fechar ▴'; if(!d.hidden)bindPP();};});
+}
+/* ================= MERCADO: histórico de preço ================= */
+var MKT_GEO=null;
+function mktChart(){
+  var Hm=D.odds.br.mercado.hist,DL=D.odds.br.mercado.deltas||{};
+  var names=Object.keys(Hm),ds={};
+  names.forEach(function(n){Hm[n].pts.forEach(function(q){ds[q.d]=1;});});
+  var dates=Object.keys(ds).sort();
+  var W=860,Ht=320,m={l:48,r:118,t:18,b:34},pw=W-m.l-m.r,ph=Ht-m.t-m.b;
+  var X=function(i){return m.l+i/(dates.length-1)*pw;},Y=function(v){return m.t+(1-v/100)*ph;};
+  var idx={};dates.forEach(function(d,i){idx[d]=i;});
+  var series=names.map(function(n){
+    var c=Hm[n].sq?byId[Hm[n].sq]:null,mp={};
+    Hm[n].pts.forEach(function(q){mp[q.d]=q.p;});
+    return {n:n,c:c,col:c?pc(c):'var(--ink-3)',mp:mp,last:Hm[n].pts[Hm[n].pts.length-1].p};});
+  MKT_GEO={dates:dates,series:series,m:m,pw:pw,W:W};
+  var s='';
+  [0,25,50,75,100].forEach(function(g){
+    s+='<line class="grid-l" x1="'+m.l+'" y1="'+Y(g)+'" x2="'+(m.l+pw)+'" y2="'+Y(g)+'"/>'+
+       '<text class="tick" x="'+(m.l-8)+'" y="'+(Y(g)+3.5)+'" text-anchor="end">'+g+'¢</text>';});
+  series.forEach(function(o){
+    var d='',open=false;
+    dates.forEach(function(dt,i){
+      var v=o.mp[dt];
+      if(v==null){open=false;return;}
+      d+=(open?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1);open=true;});
+    if(d)s+='<path d="'+d+'" fill="none" stroke="'+o.col+'" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity=".92"/>';});
+  var lb=series.slice().sort(function(a,b){return b.last-a.last;}),ly=[];
+  lb.forEach(function(o){var y=Y(o.last)+4;
+    while(ly.some(function(u){return Math.abs(u-y)<13;}))y+=13;
+    ly.push(y);
+    s+='<text class="dotlab" x="'+(m.l+pw+8)+'" y="'+y.toFixed(1)+'" fill="'+o.col+'" font-size="12">'+
+       esc(o.n)+' '+o.last.toFixed(0)+'¢</text>';});
+  [0,Math.floor(dates.length/3),Math.floor(2*dates.length/3),dates.length-1].forEach(function(i){
+    s+='<text class="tick" x="'+X(i)+'" y="'+(m.t+ph+18)+'" text-anchor="middle">'+dates[i].split('-').reverse().slice(0,2).join('/')+'</text>';});
+  s+='<line id="mx" x1="0" y1="'+m.t+'" x2="0" y2="'+(m.t+ph)+'" stroke="var(--ink-3)" stroke-width="1" opacity="0"/>'+
+     '<rect id="mcap" x="'+m.l+'" y="'+m.t+'" width="'+pw+'" height="'+ph+'" fill="transparent" style="cursor:crosshair"/>';
+  var cards=names.map(function(n){var o=DL[n];if(!o)return '';
+    var c=o.sq?byId[o.sq]:null;
+    return '<div class="mkdc"><b style="color:'+(c?pc(c):'var(--ink-3)')+'">'+esc(n)+'</b>'+
+      '<span class="big">'+o.agora.toFixed(1)+'¢</span>'+
+      '<span class="dl"><span>1d '+dsign(o.d1)+'</span><span>7d '+dsign(o.d7)+'</span><span>30d '+dsign(o.d30)+'</span></span></div>';}).join('');
+  return '<div class="sechead" style="margin-top:30px"><h3>💹 Preço no mercado de apostas, dia a dia</h3>'+
+    '<span class="pill-n">'+dates.length+' pregões</span></div>'+
+    '<p class="lead">Cada contrato paga 100¢ se o candidato vencer, então o preço é lido direto como probabilidade. Abaixo, a variação em 1 dia, 7 dias e 30 dias.</p>'+
+    '<div class="mkd">'+cards+'</div>'+
+    '<div class="plotwrap"><svg class="plot" id="mktsvg" viewBox="0 0 '+W+' '+Ht+'" role="img" aria-label="Histórico de preço no mercado de apostas">'+s+'</svg>'+
+    '<div class="legend"><span class="lgi">'+dates[0].split('-').reverse().join('/')+' a '+dates[dates.length-1].split('-').reverse().join('/')+
+    '</span><span class="lgi">linha começa quando o contrato passou a ser negociado</span></div></div>';
+}
+function bindMkt(){
+  var g=MKT_GEO,svg=document.getElementById('mktsvg');if(!g||!svg)return;
+  var cap=document.getElementById('mcap'),line=document.getElementById('mx');
+  if(!cap||!line)return;
+  cap.addEventListener('mousemove',function(ev){
+    var r=svg.getBoundingClientRect(),sx=(ev.clientX-r.left)/r.width*g.W;
+    var i=Math.round((sx-g.m.l)/g.pw*(g.dates.length-1));
+    i=Math.max(0,Math.min(g.dates.length-1,i));
+    var x=g.m.l+i/(g.dates.length-1)*g.pw,dt=g.dates[i];
+    line.setAttribute('x1',x);line.setAttribute('x2',x);line.setAttribute('opacity','.55');
+    var rows=g.series.filter(function(o){return o.mp[dt]!=null;})
+      .sort(function(a,b){return b.mp[dt]-a.mp[dt];})
+      .map(function(o){return '<div style="display:flex;gap:7px;align-items:center;font-size:12.5px">'+
+        '<i style="width:9px;height:9px;border-radius:50%;background:'+o.col+';display:inline-block"></i>'+esc(o.n)+
+        '<b class="mn" style="margin-left:auto">'+o.mp[dt].toFixed(1)+'¢</b></div>';}).join('');
+    showTip('<span class="tm">'+dt.split('-').reverse().join('/')+'</span><div style="margin-top:6px;display:flex;flex-direction:column;gap:3px">'+rows+'</div>',ev);});
+  cap.addEventListener('mouseleave',function(){line.setAttribute('opacity','0');hideTip();});
+}
+/* ================= PESQUISAS: histórico por instituto ================= */
+var POLL_NM={"Lula":"280002542548","Flávio Bolsonaro":"280002551544","Renan Santos":"280002540694",
+  "Ronaldo Caiado":"280002551932","Romeu Zema":"280002539826","Augusto Cury":"280002551547"};
+function pollTable(r){
+  return '<div class="tblwrap"><table class="hsttbl"><thead><tr><th>Campo</th><th>Método</th><th>Amostra</th><th>Registro TSE</th></tr></thead><tbody>'+
+    r.hist.slice().reverse().map(function(h){
+      return '<tr><td>'+esc((h.ini||'').split('-').reverse().join('/'))+' a '+esc((h.fim||'').split('-').reverse().join('/'))+'</td>'+
+        '<td>'+esc(h.m||'—')+'</td><td>'+(h.n?'n='+h.n:'—')+'</td><td>'+esc(h.reg||'—')+'</td></tr>';}).join('')+
+    '</tbody></table></div>';
+}
+function pollHist(r,id){
+  var Hs=r.hist||[];
+  if(Hs.length<2)return '<p class="cap" style="display:block;padding:6px 2px">Este instituto divulgou uma única pesquisa nacional — não há série para traçar.</p>'+pollTable(r);
+  var tot={};
+  Hs.forEach(function(h){Object.keys(h.s).forEach(function(k){
+    if(k==='Indecisos'||k==='Outros')return;
+    tot[k]=Math.max(tot[k]||0,h.s[k]);});});
+  var ks=Object.keys(tot).filter(function(k){return tot[k]>=2||POLL_NM[k];})
+    .sort(function(a,b){return tot[b]-tot[a];}).slice(0,7);
+  var W=820,Ht=230,m={l:40,r:132,t:14,b:30},pw=W-m.l-m.r,ph=Ht-m.t-m.b;
+  var t=function(d){return Date.parse(d+'T00:00:00Z')||0;};
+  var t0=t(Hs[0].fim),t1=t(Hs[Hs.length-1].fim),sp=(t1-t0)||1;
+  var mx=Math.max.apply(null,ks.map(function(k){return tot[k];}));
+  var top=Math.ceil((mx+3)/10)*10;
+  var X=function(h){return m.l+(t(h.fim)-t0)/sp*pw;},Y=function(v){return m.t+(1-v/top)*ph;};
+  var s='';
+  for(var g=0;g<=top;g+=10)
+    s+='<line class="grid-l" x1="'+m.l+'" y1="'+Y(g)+'" x2="'+(m.l+pw)+'" y2="'+Y(g)+'"/>'+
+       '<text class="tick" x="'+(m.l-7)+'" y="'+(Y(g)+3.5)+'" text-anchor="end">'+g+'%</text>';
+  var ly=[];
+  ks.forEach(function(k){
+    var c=POLL_NM[k]?byId[POLL_NM[k]]:null,col=c?pc(c):'var(--ink-3)',d='',open=false;
+    Hs.forEach(function(h){var v=h.s[k];
+      if(v==null){open=false;return;}
+      d+=(open?'L':'M')+X(h).toFixed(1)+' '+Y(v).toFixed(1);open=true;});
+    s+='<path d="'+d+'" fill="none" stroke="'+col+'" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>';
+    Hs.forEach(function(h){var v=h.s[k];if(v==null)return;
+      s+='<circle class="pp" cx="'+X(h).toFixed(1)+'" cy="'+Y(v).toFixed(1)+'" r="3.6" fill="'+col+
+         '" stroke="var(--surface)" stroke-width="1.6" data-ptt="'+esc(k)+' · '+v.toFixed(1)+'% — '+
+         esc((h.fim||'').split('-').reverse().join('/'))+(h.n?' · n='+h.n:'')+(h.m?' · '+esc(h.m):'')+'"/>';});
+    var lv=Hs[Hs.length-1].s[k];
+    if(lv!=null){var y=Y(lv)+4;
+      while(ly.some(function(u){return Math.abs(u-y)<12;}))y+=12;
+      ly.push(y);
+      s+='<text class="dotlab" x="'+(m.l+pw+8)+'" y="'+y.toFixed(1)+'" fill="'+col+'" font-size="11.5">'+
+         esc(k.split(' ')[0])+' '+lv.toFixed(1)+'%</text>';}});
+  [Hs[0],Hs[Hs.length-1]].forEach(function(h,i){
+    s+='<text class="tick" x="'+X(h).toFixed(1)+'" y="'+(m.t+ph+16)+'" text-anchor="'+(i?'end':'start')+'">'+
+       (h.fim||'').split('-').reverse().slice(0,2).join('/')+'</text>';});
+  return '<div class="plotwrap" style="padding:10px;background:var(--surface-2)">'+
+    '<svg class="plot" viewBox="0 0 '+W+' '+Ht+'" role="img" aria-label="Histórico de '+esc(r.inst)+'">'+s+'</svg></div>'+
+    pollTable(r);
+}
+function bindPP(){
+  document.querySelectorAll('.pp[data-ptt]').forEach(function(i){
+    i.addEventListener('mousemove',function(ev){ev.stopPropagation();showTip('<span class="tt">'+i.dataset.ptt+'</span>',ev);});
+    i.addEventListener('mouseleave',hideTip);});
+}

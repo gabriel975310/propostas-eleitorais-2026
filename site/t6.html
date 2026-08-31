@@ -1,0 +1,160 @@
+/* ================= CANDIDATOS ================= */
+function rankSpectrum(title,cap,rows,esq,dir,icon){
+  var mx=Math.max.apply(null,rows.map(function(r){return Math.abs(r.v);}))||1;
+  return '<div class="rank"><h4>'+icon+' '+esc(title)+'</h4><span class="cap">'+esc(cap)+'</span>'+
+    '<div class="axends"><span style="color:var(--pole-a)">◀ '+esc(esq)+'</span><span style="color:var(--pole-b)">'+esc(dir)+' ▶</span></div>'+
+    rows.map(function(r){
+      var w=Math.abs(r.v)/mx*46;
+      var left=r.v<0?50-w:50;
+      return '<div class="rrow"><span class="nm" style="color:'+r.col+'">'+esc(r.nm)+'</span>'+
+        '<span class="rbar"><i style="left:50%;width:1.5px;background:var(--ink-3);opacity:.55;border-radius:0"></i>'+
+        '<i style="left:'+left+'%;width:'+Math.max(w,1.5)+'%;background:'+r.col+'"></i></span>'+
+        '<span class="rval" style="color:'+(r.v<0?'var(--pole-a)':'var(--pole-b)')+'">'+f1(r.v)+'</span></div>';}).join('')+'</div>';
+}
+function vtBars(CC){
+  var K=Object.keys(VT);
+  var rows=CC.map(function(c){
+    var v=c.vts||{},tot=K.reduce(function(a,k){return a+(v[k]||0);},0)||1;
+    return {c:c,tot:tot,seg:K.map(function(k){return {k:k,n:v[k]||0,p:(v[k]||0)/tot*100};})};
+  }).sort(function(a,b){
+    var f=function(o){var g=function(k){return (o.seg.filter(function(x){return x.k===k;})[0]||{p:0}).p;};
+      return g('forte')+g('promissora');};
+    return f(b)-f(a);});
+  return '<div class="rank wide"><h4>🧪 Que tipo de proposta cada um faz</h4>'+
+    '<span class="cap">Distribuição do veredito editorial sobre o histórico de cada proposta — % do plano de cada candidato</span>'+
+    '<div class="legend" style="margin:2px 0 12px">'+K.map(function(k){
+      return '<span class="lgi"><b style="width:9px;height:9px;border-radius:3px;background:'+VT[k][1]+
+        ';display:inline-block"></b>'+VT[k][0]+'</span>';}).join('')+'</div>'+
+    rows.map(function(r){
+      var acc=0;
+      return '<div class="rrow stk"><span class="nm" style="color:'+pc(r.c)+'">'+esc(curto(r.c))+'</span>'+
+        '<span class="rbar stk">'+r.seg.map(function(g){
+          if(g.p<=0)return '';
+          var left=acc;acc+=g.p;
+          return '<i class="sg" style="left:'+left.toFixed(2)+'%;width:'+g.p.toFixed(2)+'%;background:'+VT[g.k][1]+
+            '" data-vtt="'+esc(VT[g.k][0])+' — '+g.n+' de '+r.tot+' ('+Math.round(g.p)+'%)"></i>'+
+            (g.p>=11?'<u style="left:'+(left+g.p/2).toFixed(2)+'%">'+Math.round(g.p)+'%</u>':'');
+        }).join('')+'</span>'+
+        '<span class="rval mn">'+r.tot+'</span></div>';}).join('')+'</div>';
+}
+function bindVtBars(el){
+  el.querySelectorAll('.sg[data-vtt]').forEach(function(i){
+    i.addEventListener('mousemove',function(ev){showTip('<span class="tt">'+i.dataset.vtt+'</span>',ev);});
+    i.addEventListener('mouseleave',hideTip);});
+}
+function drawCands(){
+  var el=document.getElementById('v-cands'),CC=cands();
+  if(!S.cand){
+    var mk=function(arr,key){return arr.map(function(c){return{nm:c.nome,v:c[key],col:pc(c)};});};
+    var byAge=CC.slice().sort(function(a,b){return b.idadePosse-a.idadePosse;});
+    var byBens=CC.slice().sort(function(a,b){return b.totalBens-a.totalBens;});
+    var byE=CC.slice().sort(function(a,b){return a.econ-b.econ;});
+    var byS=CC.slice().sort(function(a,b){return a.social-b.social;});
+    el.innerHTML='<section><div class="sechead"><h2>Quem são</h2>'+
+      '<span class="pill-n">'+CC.length+' candidaturas</span></div>'+
+      '<p class="lead">Clique num cartão para ver o plano inteiro, proposta por proposta. Cada candidato tem uma <b>cor</b> e uma <b>forma</b> que o acompanham em todos os gráficos.</p>'+
+      '<div class="grid g3">'+CC.map(function(c){
+        return '<button class="ccard" data-sq="'+c.sq+'"><div class="top" style="background:'+pc(c)+'"></div>'+
+        '<div class="cw">'+foto(c,'lg')+'<div class="ci"><h3>'+esc(c.nome)+'</h3>'+
+        '<div class="sub">'+esc(c.partido)+' · nº '+esc(c.numero)+'</div>'+
+        '<div class="sub" style="margin-top:5px;color:var(--ink-3)">'+c.n+' propostas</div></div>'+
+        '<span class="badge">'+mark(c,20)+'</span></div></button>';}).join('')+'</div></section>'+
+      '<section><div class="sechead"><h2>Como se comparam</h2></div>'+
+      '<div class="g2sym">'+
+      rankSpectrum('Posição econômica','Média ponderada pelo peso das propostas',mk(byE,'econ'),'Estado, redistribuição','Mercado, iniciativa privada','📊')+
+      rankSpectrum('Posição social','Média ponderada pelo peso das propostas',mk(byS,'social'),'Progressista, libertário','Conservador, autoridade','⚖')+
+      rankChart('Idade ao assumir o cargo','Em 1º de janeiro de 2027',mk(byAge,'idadePosse'),function(v){return v+' anos';},'🎂')+
+      rankChart('Bens declarados ao TSE','Soma dos bens informados no registro',mk(byBens,'totalBens'),brl,'💰')+
+      '</div>'+vtBars(CC)+'</section>';
+    el.querySelectorAll('[data-sq]').forEach(function(b){b.onclick=function(){S.cand=b.dataset.sq;drawCands();scrollTo(0,0);};});
+    bindVtBars(el);
+    return;
+  }
+  var c=byId[S.cand],mine=props().filter(function(p){return p.sq===c.sq;});
+  var G={};mine.forEach(function(p){(G[p.setor]=G[p.setor]||[]).push(p);});
+  var order=SET.map(function(s){return s.id;}).filter(function(i){return G[i];});
+  var vt=c.vts||{};
+  var vtrow=Object.keys(VT).filter(function(k){return vt[k];}).map(function(k){
+    return '<span class="lgi" style="border-color:'+VT[k][1]+'"><b style="width:9px;height:9px;border-radius:50%;background:'+
+      VT[k][1]+';display:inline-block"></b>'+VT[k][0]+' <b class="mn">'+vt[k]+'</b></span>;'.replace(';','');}).join('');
+  var jud=c.jud&&c.jud.length;
+  el.innerHTML='<button class="backlink" id="bk">← todos os candidatos</button>'+
+   '<section><div class="sechead">'+foto(c,'lg')+'<h2 style="color:'+pc(c)+'">'+esc(c.nome)+'</h2>'+mark(c,22)+
+   '<span class="pill-n">'+esc(c.partido)+' · nº '+esc(c.numero)+'</span>'+
+   (jud?'<span class="pill-n" style="background:var(--v-falh);color:#fff">⚖ tem ficha judicial</span>':'')+'</div>'+
+   '<div class="stat-strip">'+
+     '<div class="st"><b>'+c.n+'</b><span>Propostas</span></div>'+
+     '<div class="st"><b>'+c.idadePosse+'</b><span>Anos na posse</span></div>'+
+     '<div class="st"><b style="color:'+(c.econ<0?'var(--pole-a)':'var(--pole-b)')+'">'+f1(c.econ)+'</b><span>Eixo econômico</span></div>'+
+     '<div class="st"><b style="color:'+(c.social<0?'var(--pole-a)':'var(--pole-b)')+'">'+f1(c.social)+'</b><span>Eixo social</span></div>'+
+     '<div class="st"><b style="font-size:18px">'+brl(c.totalBens)+'</b><span>Bens declarados</span></div>'+
+   '</div>'+
+   '<p class="lead">'+esc(c.resumoDoc)+'</p>'+
+   (c.alertaDoc?'<div class="note warn"><b>⚠ Sobre o documento</b>'+esc(c.alertaDoc)+'</div>':'')+
+   '<div class="legend" style="margin:6px 0 18px">'+vtrow+'</div>'+
+   '<div class="tblwrap"><table class="tbl"><tbody>'+
+   '<tr><th>Nome completo</th><td>'+esc(c.nomeCompleto)+'</td><th>Coligação</th><td>'+esc(c.coligacao||c.partido)+'</td></tr>'+
+   '<tr><th>Nascimento</th><td class="mn">'+esc(c.nasc)+' · '+esc(c.ufNasc)+' — <b>'+c.idadePosse+' anos</b> ao assumir</td>'+
+   '<th>Ocupação declarada</th><td>'+esc(c.ocupacao)+'</td></tr>'+
+   '<tr><th>Instrução</th><td>'+esc(c.instrucao)+'</td><th>Gênero · cor declarada</th><td>'+esc(c.genero)+' · '+esc(c.raca)+'</td></tr>'+
+   '<tr><th>Bens declarados</th><td class="mn">'+brl(c.totalBens)+' em '+c.nBens+' itens</td>'+
+   '<th>Documento no TSE</th><td class="mn">'+esc(c.doc)+'</td></tr>'+
+   '</tbody></table></div>'+
+   (c.bens&&c.bens.length?'<div class="sechead" style="margin-top:22px"><h3>💰 Maiores bens declarados</h3></div>'+
+     '<div class="tblwrap"><table class="tbl"><tbody>'+c.bens.map(function(b){
+       return '<tr><th style="width:170px">'+esc(b.t)+'</th><td>'+esc(b.d)+'</td><td class="mn" style="text-align:right;white-space:nowrap">'+brl(b.v||0)+'</td></tr>';}).join('')+'</tbody></table></div>':'')+
+   '</section>'+
+   order.map(function(id){var s=setById[id];
+     return '<section><div class="sechead"><span class="tagsec" style="background:'+sc(id)+';font-size:12px;padding:5px 12px">'+s.ic+' '+esc(s.nome)+'</span>'+
+       '<span class="pill-n">'+G[id].length+' propostas</span></div>'+
+       G[id].map(function(p){return ficha(p,false);}).join('')+'</section>';}).join('');
+  document.getElementById('bk').onclick=function(){S.cand=null;drawCands();scrollTo(0,0);};
+}
+/* ================= TEMAS ================= */
+function drawTemas(){
+  var el=document.getElementById('v-temas'),PP=props();
+  var t=S.tema||SET[0].id;
+  var chips=SET.map(function(s){
+    var n=PP.filter(function(p){return p.setor===s.id;}).length,on=t===s.id;
+    return '<button class="chip" data-t="'+s.id+'" aria-pressed="'+on+'"'+(on?' style="background:'+sc(s.id)+'"':'')+
+      '><span class="sw" style="background:'+sc(s.id)+'"></span>'+s.ic+' '+esc(s.nome)+' <b class="mn">'+n+'</b></button>';}).join('');
+  var s=setById[t],list=PP.filter(function(p){return p.setor===t;});
+  var byC={};list.forEach(function(p){(byC[p.sq]=byC[p.sq]||[]).push(p);});
+  var ord=cands().filter(function(c){return byC[c.sq];});
+  el.innerHTML='<section><div class="sechead"><h2>Propostas por tema</h2><span class="pill-n">'+PP.length+' no total</span></div>'+
+    '<div class="chips">'+chips+'</div>'+
+    '<div class="note info" style="border-color:'+sc(t)+'"><b style="color:'+sc(t)+'">'+s.ic+' '+esc(s.nome)+'</b>'+esc(s.desc)+'</div></section>'+
+    ord.map(function(c){var sd=c.setores[t];
+      return '<section><div class="sechead">'+foto(c,'tn')+'<h3 style="color:'+pc(c)+'">'+esc(c.nome)+'</h3>'+
+      '<span class="pill-n">'+esc(c.partido)+' · '+byC[c.sq].length+' propostas</span>'+
+      (sd?'<span class="pill-n mn">econ '+f1(sd.econ)+' · social '+f1(sd.social)+'</span>':'')+'</div>'+
+      byC[c.sq].map(function(p){return ficha(p,false);}).join('')+'</section>';}).join('');
+  el.querySelectorAll('[data-t]').forEach(function(b){b.onclick=function(){S.tema=b.dataset.t;drawTemas();scrollTo(0,0);};});
+}
+/* ================= POLÊMICAS ================= */
+function drawPolem(){
+  var el=document.getElementById('v-polem'),T=TOP[S.esf]||[];
+  if(S.topico===null){
+    el.innerHTML='<section><div class="sechead"><h2>⚡ Onde eles divergem</h2></div>'+
+      '<p class="lead">Temas em que a diferença entre os planos é grande — ou em que a proposta é polêmica por natureza. Clique para ver, lado a lado, o que cada candidato escreveu.</p>'+
+      '<div class="topics">'+T.map(function(tp,i){
+        return '<button class="topic" data-i="'+i+'"><span class="em">'+tp.ic+'</span>'+
+          '<h4>'+esc(tp.nome)+'</h4><span class="n">'+tp.n+' propostas · '+tp.nc+' de '+cands().length+' candidatos</span></button>';}).join('')+
+      '</div></section>';
+    el.querySelectorAll('[data-i]').forEach(function(b){b.onclick=function(){S.topico=+b.dataset.i;drawPolem();scrollTo(0,0);};});
+    return;
+  }
+  var tp=T[S.topico],ids={};tp.ids.forEach(function(i){ids[i]=1;});
+  var list=props().filter(function(p){return ids[p.id];});
+  var byC={};list.forEach(function(p){(byC[p.sq]=byC[p.sq]||[]).push(p);});
+  el.innerHTML='<button class="backlink" id="bk2">← todas as polêmicas</button>'+
+    '<section><div class="sechead"><h2>'+tp.ic+' '+esc(tp.nome)+'</h2><span class="pill-n">'+list.length+' propostas</span></div></section>'+
+    cands().map(function(c){
+      if(!byC[c.sq])return '<section><div class="sechead">'+foto(c,'tn')+'<h3 style="color:'+pc(c)+'">'+esc(c.nome)+'</h3>'+
+        '<span class="pill-n">'+esc(c.partido)+'</span></div>'+
+        '<div class="note info">Nenhuma proposta deste plano trata do tema.</div></section>';
+      return '<section><div class="sechead">'+foto(c,'tn')+'<h3 style="color:'+pc(c)+'">'+esc(c.nome)+'</h3>'+
+        '<span class="pill-n">'+esc(c.partido)+' · '+byC[c.sq].length+'</span></div>'+
+        byC[c.sq].map(function(p){return ficha(p,false);}).join('')+'</section>';}).join('');
+  document.getElementById('bk2').onclick=function(){S.topico=null;drawPolem();scrollTo(0,0);};
+}

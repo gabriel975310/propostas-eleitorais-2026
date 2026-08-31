@@ -1,0 +1,178 @@
+/* ================= FICHA JUDICIAL ================= */
+var JS_={anulado:['Condenação anulada','var(--v-sem)'],arquivado:['Investigação arquivada','var(--v-sem)'],
+ cassado:['Mandato cassado','var(--v-falh)'],misto:['Desfechos divergentes','var(--v-risc)'],
+ condenado:['Condenação vigente','var(--v-falh)']};
+function drawJud(){
+  var el=document.getElementById('v-jud'),CC=cands();
+  var comFicha=CC.filter(function(c){return c.jud&&c.jud.length;}).length;
+  el.innerHTML='<section><div class="sechead"><h2>⚖ Ficha judicial</h2>'+
+    '<span class="pill-n">'+comFicha+' de '+CC.length+' com registro</span></div>'+
+    '<div class="note crit"><b>⚠ Leia isto antes</b>'+
+    'As certidões criminais não estão neste site — e não é por escolha. Elas não fazem parte do pacote de dados abertos do TSE: '+
+    'só existem no DivulgaCandContas, consultadas uma candidatura por vez. As tentativas de baixá-las deste ambiente foram bloqueadas '+
+    'pelo firewall do TSE, que recusa conexões vindas de fora do Brasil. O arquivo de motivos de cassação do TSE para 2026, também baixado, '+
+    'está vazio: só o cabeçalho, sem nenhum registro.</div>'+
+    '<div class="note info"><b>Como ler</b>'+
+    'Abaixo, cada processo aparece como uma linha do tempo, passo a passo. <b>Processo em curso não é condenação</b>, e condenação anulada '+
+    'não é condenação. Ausência de registro significa que não localizamos processo criminal de conhecimento público — <em>não</em> equivale '+
+    'a certidão negativa.</div>'+
+    CC.map(function(c){
+      var it=c.jud||[];
+      return '<div class="judcard"><div class="jh" style="border-left:6px solid '+pc(c)+'">'+foto(c,'sm')+
+        '<h3 style="font-size:18px">'+esc(c.nome)+'</h3><span class="pill-n">'+esc(c.partido)+'</span>'+
+        (it.length?'<span class="pill-n" style="background:var(--v-risc);color:#fff">'+it.length+' processo'+(it.length>1?'s':'')+'</span>'
+                  :'<span class="pill-n">sem registro localizado</span>')+'</div>'+
+        '<div class="jb">'+(it.length?it.map(function(j){var st=JS_[j.s]||['—','var(--v-sem)'];
+          return '<div class="jitem" style="border-color:'+st[1]+'"><h5>'+esc(j.t)+'</h5>'+
+            '<span class="yr">'+esc(j.a)+' · <b style="color:'+st[1]+'">'+st[0]+'</b></span>'+
+            '<div class="tline">'+(j.tl||[]).map(function(e){
+              var MK={grave:['hi','var(--v-falh)','momento decisivo'],virada:['hi2','var(--v-prom)','virada'],
+                      atencao:['hi3','var(--v-risc)','em disputa']};
+              var k=MK[e.mk],cls=k?' '+k[0]:'',dot=k?k[1]:st[1];
+              return '<div class="tev'+cls+'"><span style="position:absolute;left:-19px;top:'+(k?13:5)+'px;width:'+(k?11:9)+'px;height:'+(k?11:9)+
+                'px;border-radius:50%;background:var(--surface);border:'+(k?3:2.5)+'px solid '+dot+';display:block"></span>'+
+                '<span class="tdt">'+esc(e.d)+(k?'<span class="mkl" style="background:'+dot+'">'+k[2]+'</span>':'')+'</span>'+
+                '<p'+(k?' style="font-weight:600"':'')+'>'+esc(e.t)+'</p></div>';}).join('')+'</div></div>';}).join('')
+          :'<p style="margin:0;color:var(--ink-2);font-size:15px">Não localizamos, no registro público consolidado, processo criminal com condenação ou cassação. '+
+           'Isso não substitui a certidão criminal, que segue indisponível.</p>')+'</div></div>';}).join('')+
+    '<div class="note info"><b>Como obter as certidões</b>'+
+    'De uma conexão brasileira, a consulta pode ser feita em divulgacandcontas.tse.jus.br, buscando cada candidato pelo número de registro '+
+    'que aparece na ficha dele neste site. As certidões cobrem Justiça Estadual, Federal, Eleitoral e Militar.</div></section>';
+}
+/* ================= BUSCA ================= */
+function nrm(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
+var STOP={};'a o e de da do das dos que para com uma um os as no na nos nas por como mais mas foi ser sem sobre tem ate apos onde quando ja ha entre pelo pela seu sua seus suas isso esse essa este esta ao aos nao sao tambem porque muito pode podem deve devem sao ou se lhe nem tal cada todo toda todos todas outro outra outros outras mesmo mesma ainda apenas depois antes desde durante contra sob sobre entao assim tanto quanto qual quais cujo cuja em plano proposta propostas governo brasil brasileiro brasileira df distrito federal candidato'.split(' ').forEach(function(w){STOP[w]=1;});
+function tokens(s){return nrm(s).split(/[^a-z0-9]+/).filter(function(w){return w.length>=4&&!STOP[w];});}
+function drawBusca(){
+  var el=document.getElementById('v-busca');
+  el.innerHTML='<section><div class="sechead"><h2>⌕ Buscar</h2>'+
+    '<span class="pill-n">'+props().length+' propostas</span></div>'+
+    '<input type="search" id="q" placeholder="reconhecimento facial, creche, El Salvador, imposto, fila do SUS…" autocomplete="off">'+
+    '<div class="sugg" id="sug"></div>'+
+    '<p class="lead" style="margin-top:12px;font-size:14.5px">Busca em títulos, resumos, citações, vereditos e nas notas históricas. Todas as palavras digitadas precisam aparecer.</p>'+
+    '<div id="res"></div></section>';
+  var inp=el.querySelector('#q');
+  if(inp){inp.value=S.q;inp.addEventListener('input',function(){S.q=inp.value;runBusca();});if(S.q)inp.focus();}
+  runBusca();
+}
+function matches(p,terms){
+  var c=byId[p.sq];
+  var blob=nrm(p.t+' '+p.r+' '+p.c+' '+p.hb+' '+p.hm+' '+p.vd+' '+(p.sub||'')+' '+c.nome+' '+c.partido);
+  return terms.every(function(t){return blob.indexOf(t)>=0;});
+}
+function runBusca(){
+  var r=document.getElementById('res'),sg=document.getElementById('sug');if(!r)return;
+  var terms=nrm(S.q).split(/\s+/).filter(function(t){return t.length>=2;});
+  if(!terms.length){r.innerHTML='<p class="empty">Digite ao menos duas letras.</p>';sg.innerHTML='';return;}
+  var hits=props().filter(function(p){return matches(p,terms);});
+  var freq={},tot=hits.length;
+  hits.forEach(function(p){
+    var seen={};
+    tokens(p.t+' '+p.r+' '+(p.sub||'')+' '+p.vd).forEach(function(w){
+      if(seen[w])return;seen[w]=1;
+      if(terms.some(function(t){return w.indexOf(t)>=0||t.indexOf(w)>=0;}))return;
+      freq[w]=(freq[w]||0)+1;});});
+  var sug=Object.keys(freq).filter(function(w){return freq[w]>=2&&freq[w]<tot;})
+    .sort(function(a,b){return freq[b]-freq[a];}).slice(0,10);
+  sg.innerHTML=(tot&&sug.length)?'<span class="sl">Refinar com</span>'+sug.map(function(w){
+      return '<button class="sgb" data-add="'+esc(w)+'">+ '+esc(w)+'<b>'+freq[w]+'</b></button>';}).join(''):'';
+  sg.querySelectorAll('[data-add]').forEach(function(b){b.onclick=function(){
+    S.q=(S.q.trim()+' '+b.dataset.add).trim();
+    var i=document.getElementById('q');if(i)i.value=S.q;
+    runBusca();};});
+  r.innerHTML='<div class="sechead" style="margin-top:20px"><h3>'+hits.length+' resultado'+(hits.length===1?'':'s')+'</h3></div>'+
+    (hits.length?hits.slice(0,120).map(function(p){return ficha(p,true);}).join('')+
+      (hits.length>120?'<p class="empty">Mostrando os 120 primeiros. Refine a busca.</p>':'')
+     :'<p class="empty">Nada encontrado.</p>');
+}
+/* ================= MÉTODO ================= */
+function drawMetodo(){
+  var el=document.getElementById('v-metodo');
+  var tot=P.length,ap=P.filter(function(p){return p.ap;}).length;
+  var cv={};P.forEach(function(p){cv[p.vt]=(cv[p.vt]||0)+1;});
+  var cb={},cm={};P.forEach(function(p){cb[p.hbr]=(cb[p.hbr]||0)+1;cm[p.hmr]=(cm[p.hmr]||0)+1;});
+  el.innerHTML='<section class="prose"><div class="sechead"><h2>☰ Método e limites</h2></div>'+
+  '<p>Tudo parte de uma fonte só: os arquivos públicos de dados abertos do TSE para 2026 — as propostas de governo em PDF registradas com cada candidatura, mais candidatos, bens declarados, fotos e coligações. Nenhum discurso, entrevista ou material de campanha entrou. A única exceção é a aba Chances, explicada adiante.</p>'+
+  '<h3>🔀 Por que as duas disputas são separadas</h3>'+
+  '<p>Presidência e Governo do DF disputam poderes diferentes, com competências diferentes. Comparar a posição econômica de quem propõe reforma tributária federal com a de quem propõe regularização fundiária distrital produziria um número sem significado. Por isso os dois ambientes não se cruzam em nenhum gráfico, lista ou ranking.</p>'+
+  '<h3>📐 Os dois eixos</h3>'+
+  '<p>Cada proposta recebe duas notas de −2 a +2. O eixo <b>econômico</b> vai de Estado e redistribuição a mercado e iniciativa privada. O <b>social</b>, de progressista e libertário a conservador e de autoridade. Uma proposta genuinamente neutra num eixo — um prontuário interoperável não é de esquerda nem de direita — recebe 0, e puxa a média para o centro. Planos mais técnicos aparecem mais perto da origem, e isso é informação sobre eles.</p>'+
+  '<p>Cada proposta tem ainda um <b>peso de 1 a 3</b> conforme o quanto altera a estrutura do Estado ou da economia; a média é ponderada por ele, para que uma reforma tributária não valha o mesmo que a criação de um selo.</p>'+
+  '<h3>⚖ O veredito</h3>'+
+  '<p>Cada proposta recebe uma leitura editorial explícita, em cinco graus. Não é previsão de resultado — é o que o histórico da política sugere sobre ela.</p>'+
+  '<div class="tblwrap"><table class="tbl"><thead><tr><th>Veredito</th><th>Significado</th><th style="text-align:right">Propostas</th></tr></thead><tbody>'+
+  [['forte','A evidência disponível sustenta a proposta com clareza.'],
+   ['promissora','Funciona sob condições específicas, e a nota diz quais.'],
+   ['arriscada','Evidência mista ou risco relevante de repetir um erro conhecido.'],
+   ['ja_falhou','Já foi tentada e falhou, aqui ou fora, sem mudança de desenho que justifique outro resultado.'],
+   ['sem_precedente','Ninguém tentou em escala comparável; não há histórico para julgar.']].map(function(x){
+    return '<tr><td><span class="pill" style="background:'+VT[x[0]][1]+'">'+VT[x[0]][0]+'</span></td><td>'+x[1]+'</td>'+
+      '<td class="mn" style="text-align:right">'+(cv[x[0]]||0)+'</td></tr>';}).join('')+'</tbody></table></div>'+
+  '<h3>🕰 O histórico</h3>'+
+  '<p>Para cada uma das '+tot+' propostas há duas notas — o que já foi tentado no Brasil e o que foi tentado fora — com o desfecho classificado e um nível de confiança declarado.</p>'+
+  '<div class="tblwrap"><table class="tbl"><thead><tr><th>Desfecho</th><th style="text-align:right">Brasil</th><th style="text-align:right">Exterior</th></tr></thead><tbody>'+
+  Object.keys(RES).map(function(k){
+    return '<tr><td>'+pill(k)+'</td><td class="mn" style="text-align:right">'+(cb[k]||0)+'</td><td class="mn" style="text-align:right">'+(cm[k]||0)+'</td></tr>';}).join('')+'</tbody></table></div>'+
+  '<h3>❝ Fidelidade das citações</h3>'+
+  '<p>'+(tot-ap)+' das '+tot+' citações foram recuperadas caractere a caractere do PDF original, com a página localizada automaticamente. As outras '+ap+' aparecem marcadas como paráfrase: o trecho existe no documento, mas a colagem exata não pôde ser confirmada por quebra de linha ou hifenização.</p>'+
+  '<h3>🎨 Sobre as cores</h3>'+
+  '<p>Cada partido tem uma cor e uma <b>forma de marcador</b> própria. A forma existe porque seis cores distinguíveis por quem enxerga bem não são necessariamente distinguíveis por quem tem daltonismo: as combinações foram testadas em simulação de protanopia, deuteranopia e tritanopia, e a forma garante a leitura quando a cor falha. As doze cores dos temas formam uma roda de matizes e vêm <em>sempre</em> acompanhadas do nome do tema, nunca sozinhas.</p>'+
+  '<p>As cores dos eixos são deliberadamente neutras — verde-azulado e âmbar — para não importar a carga das cores partidárias brasileiras.</p>'+
+  '<h3>🎲 Sobre a aba Chances</h3>'+
+  '<p>É a única parte do site que não vem dos planos do TSE. Traz três coisas de terceiros: um mercado de apostas, um modelo estatístico sobre pesquisas agregadas e as pesquisas nacionais mais recentes de cada instituto — tudo capturado em 28 de agosto de 2026 e sem atualização automática. As variações de dia, semana e mês vêm da série do modelo, não do mercado, que só foi capturado uma vez. Não existe mercado de apostas para o governo do DF.</p>'+'<p>Nas pesquisas, a variação é sempre contra a pesquisa nacional anterior <em>do mesmo instituto</em>. Comparar institutos diferentes entre si mede diferença de metodologia — presencial, telefone ou internet mudam o resultado de forma sistemática — e não movimento do eleitorado.</p>'+
+  '<h3>🚫 O que este site não é</h3>'+
+  '<ul>'+
+  '<li><b>As coordenadas e os vereditos não são dado oficial.</b> São classificação editorial deste projeto aplicada ao texto literal registrado. Outro leitor classificaria diferente em vários casos, e isso é esperado.</li>'+
+  '<li><b>Plano registrado não é promessa de governo.</b> O TSE exige o registro do documento e não verifica conteúdo, viabilidade ou custo.</li>'+
+  '<li><b>O histórico não é veredito sobre a pessoa.</b> Política que fracassou antes pode funcionar em outro desenho; política que funcionou fora pode não sobreviver ao contexto brasileiro.</li>'+
+  '</ul>'+
+  '<h3>🕳 O que ficou faltando</h3>'+
+  '<ul>'+
+  '<li><b>Certidões criminais.</b> Não estão nos dados abertos e o firewall do TSE bloqueia conexões de fora do Brasil. Ver a aba Ficha judicial.</li>'+
+  '<li><b>Prestação de contas e doadores.</b> Pacote separado do TSE, não incluído nos arquivos desta pasta.</li>'+
+  '<li><b>Situação final das candidaturas.</b> O campo de deferimento veio vazio em todos os registros deste extrato, o que é esperado num arquivo gerado antes do julgamento dos pedidos.</li>'+
+  '<li><b>Quinze outros planos.</b> Foram extraídos e ficaram fora desta publicação, que cobre os dez com maior densidade programática nas duas disputas.</li>'+
+  '</ul></section>';
+}
+/* ================= ROUTER ================= */
+var draws={matriz:drawMatriz,cands:drawCands,temas:drawTemas,comp:drawComp,polem:drawPolem,
+           odds:drawOdds,jud:drawJud,busca:drawBusca,metodo:drawMetodo};
+function go(v){S.view=v;
+  document.querySelectorAll('.tab').forEach(function(t){t.setAttribute('aria-selected',String(t.dataset.v===v));});
+  document.querySelectorAll('.panel').forEach(function(p){p.hidden=(p.id!=='v-'+v);});
+  draws[v]();}
+function setEsf(e){
+  S.esf=e;S.cand=null;S.tema=null;S.topico=null;
+  S.selC=new Set(C.filter(function(c){return c.esfera===e;}).map(function(c){return c.sq;}));
+  S.selS=new Set(SET.map(function(s){return s.id;}));
+  document.querySelectorAll('[data-sw]').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.sw===e));});
+  document.getElementById('gate').hidden=true;
+  document.getElementById('app').hidden=false;
+  go(S.view);}
+document.querySelectorAll('.tab').forEach(function(t){t.onclick=function(){
+  var v=t.dataset.v;
+  if(v==='cands')S.cand=null;
+  if(v==='polem')S.topico=null;
+  if(v==='temas')S.tema=null;
+  go(v);scrollTo(0,0);};});
+document.querySelectorAll('[data-sw]').forEach(function(b){b.onclick=function(){setEsf(b.dataset.sw);scrollTo(0,0);};});
+document.querySelectorAll('[data-esf]').forEach(function(b){b.onclick=function(){setEsf(b.dataset.esf);scrollTo(0,0);};});
+try{var st=localStorage.getItem('tema');if(st)root.setAttribute('data-theme',st);}catch(e){}
+document.getElementById('tg').onclick=function(){
+  var cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+  var nx=cur==='dark'?'light':'dark';root.setAttribute('data-theme',nx);
+  try{localStorage.setItem('tema',nx);}catch(e){}
+  paintStatic(); if(S.esf) go(S.view);};
+function paintStatic(){
+  document.getElementById('topspec').innerHTML=specHTML();
+  ['br','df'].forEach(function(e){
+    var bar=document.getElementById('bar-'+e);
+    if(bar)bar.innerHTML=C.filter(function(c){return c.esfera===e;}).map(function(c){
+      return '<i style="background:'+pc(c)+'"></i>';}).join('');
+    var f=document.getElementById('faces-'+e);
+    if(f)f.innerHTML=C.filter(function(c){return c.esfera===e;}).map(function(c){
+      return '<span class="face"><b style="background:'+pc(c)+'"></b>'+esc(c.nome)+'</span>';}).join('');});
+}
+paintStatic();
+})();
+</script>

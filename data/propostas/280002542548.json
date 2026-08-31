@@ -1,0 +1,1842 @@
+{
+ "sq": "280002542548",
+ "doc": "2026BR280002542548_01",
+ "resumo_doc": "Programa de reeleição organizado em 13 diretrizes programáticas, apresentado como 'continuidade de um projeto concreto'. Boa parte do texto e prestação de contas do mandato 2023-2026, com números de execução (Novo PAC de R$ 1,3 trilhão, 8 milhões de empregos, Gini de 0,504, desmatamento na menor taxa da história da Amazonia, 2 milhões de moradias contratadas no MCMV), seguida de compromissos de continuidade e ampliação. E o único plano presidencial que se organiza majoritariamente como aprofundamento de políticas já em execução, e não como ruptura. Assinado pela Federação Brasil da Esperança (PT, PV, PCdoB), Federação PSOL/REDE, PSB e PDT.",
+ "propostas": [
+  {
+   "id": "pt-br-01",
+   "titulo": "Reforma política e eleitoral e debate público sobre as emendas parlamentares",
+   "setor": "estado",
+   "subtema": "Sistema político",
+   "resumo": "O plano trata as emendas impositivas e o orçamento secreto como prática que 'sequestra o orçamento público', citando R$ 50 bilhões em 2026, cerca de um quinto dos recursos discricionários do Executivo, e propoe levar o tema ao debate com a sociedade.",
+   "citacao": "As emendas impositivas e o orçamento secreto são práticas que mudaram as relações entre o Executivo e o Legislativo, sequestram o orçamento público, dispersam os recursos e reduzem a eficiência alocativa.",
+   "econ": 0,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "orcamento-secreto-rp9",
+    "emendas-impositivas-ec-86",
+    "adi-emendas-stf",
+    "reforma-politica-brasil"
+   ],
+   "historico": {
+    "br": "O orçamento secreto (RP9) foi criado em 2019 e declarado inconstitucional pelo STF em dezembro de 2022, mas o volume de emendas não caiu: migrou para emendas de comissão e de bancada. As emendas impositivas vieram das ECs 86/2015 e 100/2019, aprovadas justamente para reduzir a barganha do Executivo, e produziram o efeito oposto. Em 2024 o STF (ADI 7688, min. Flavio Dino) suspendeu pagamentos e impos rastreabilidade; o Congresso respondeu com a LC 210/2024. Nenhuma reforma política ampla passou desde 1988 - as tentativas de 1995, 2007, 2015 e 2021 morreram na Camara.",
+    "br_res": "fracassou",
+    "mundo": "Earmarks nos EUA foram banidos pela Camara em 2011 após escandalos e reintroduzidos em 2021 com regras de transparência, autoria nominal e teto de 1% da despesa discricionária - o modelo que a LC 210 tenta imitar. O Chile e a Coreia do Sul restringem constitucionalmente a iniciativa parlamentar de despesa, o que reduz a barganha mas concentra poder no Executivo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "citacao_aprox": true,
+   "vt": "ja_falhou",
+   "vd": "Todas as reformas políticas desde 1988 morreram na Câmara, e é a Câmara que teria de aprovar esta. O STF já derrubou o orçamento secreto e o dinheiro só mudou de nome. Sem teto percentual e autoria nominal, é conversa."
+  },
+  {
+   "id": "pt-br-02",
+   "titulo": "Regulação democrática das redes sociais e das plataformas digitais",
+   "setor": "estado",
+   "subtema": "Plataformas",
+   "resumo": "Avançar na regulação para impedir difusao de desinformação e campanhas de odio, com a ressalva de que 'nenhuma democracia sobrevive sem uma opinião pública plural e sem a garantia plena da liberdade de expressao'.",
+   "citacao": "avançar ainda mais na regulação democrática das redes sociais e das plataformas digitais, de modo a impedir que elas difundam desinformação, acolham campanhas de ódio e outras formas de comunicação nocivas para a democracia.",
+   "econ": -1,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "pl-2630-fake-news",
+    "dsa-uniao-europeia",
+    "eca-digital-2025",
+    "secao-230-eua"
+   ],
+   "historico": {
+    "br": "O PL 2630 (das fake news) foi aprovado no Senado em 2020, travou na Camara e foi retirado de pauta em 2024 sob pressão das plataformas e da oposição. O Marco Civil (2014) segue como base, mas o STF julgou em 2025 o Tema 987 e restringiu o art. 19, ampliando a responsabilidade das plataformas por via judicial em vez de legislativa. O ECA Digital (Lei 15.211/2025) foi a única peça aprovada, e só alcanca crianças e adolescentes.",
+    "br_res": "fracassou",
+    "mundo": "A União Europeia aprovou o Digital Services Act em 2022, em vigor desde 2024, com auditoria de risco sistemico e multas de até 6% do faturamento global - a primeira aplicação contra a X e a Meta ainda corre. A Alemanha (NetzDG, 2017) foi pioneira e acabou criticada por incentivar remoção excessiva. A Australia proibiu redes para menores de 16 em 2024. Nos EUA a Seção 230 contínua intacta e blinda as plataformas.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 16,
+   "vt": "arriscada",
+   "vd": "O desenho europeu de regular processo e transparência funciona; o brasileiro nunca foi votado e o STF acabou legislando pela via judicial. A proposta é vaga demais para se saber qual dos dois caminhos ela pega."
+  },
+  {
+   "id": "pt-br-03",
+   "titulo": "PPA 2028-2031 ainda mais participativo e ciclo orçamentário aberto a participação",
+   "setor": "estado",
+   "subtema": "Participação",
+   "resumo": "Aprofundar o modelo do PPA atual, que teve plenárias em todos os estados e mais de 1,4 milhão de participantes na plataforma Brasil Participativo, estendendo a participação a todo o ciclo orçamentário.",
+   "citacao": "Queremos que o PPA 2028-2031 seja ainda mais participativo e que o ciclo orçamentário federal brasileiro também seja objeto de participação social.",
+   "econ": 0,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "brasil-participativo",
+    "orcamento-participativo-porto-alegre",
+    "conferencias-nacionais-brasil"
+   ],
+   "historico": {
+    "br": "O orçamento participativo nasceu em Porto Alegre em 1989 e se espalhou por centenas de municípios, com evidência razoável de melhora em saneamento e mortalidade infantil nas cidades que o adotaram por mais tempo; encolheu depois de 2004 na própria Porto Alegre. Na esfera federal, os PPAs participativos de 2004 e 2008 tiveram baixa influência sobre a execução: o plano plurianual não vincula o gasto, que e definido na LOA e no contingenciamento.",
+    "br_res": "parcial",
+    "mundo": "Porto Alegre virou modelo exportado pelo Banco Mundial para mais de 3.000 cidades. Paris destinou 5% do orçamento de investimento ao voto popular entre 2014 e 2020 e reduziu o programa depois. A experiência comparada mostra impacto real quando há percentual carimbado e decisão vinculante, e efeito quase nulo quando e apenas consulta.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 15,
+   "citacao_aprox": true,
+   "vt": "promissora",
+   "vd": "Orçamento participativo entrega quando há percentual carimbado e decisão vinculante. O PPA não vincula execução — sem isso, é consulta cara e sem consequência."
+  },
+  {
+   "id": "pt-br-04",
+   "titulo": "Política Nacional de Letramento Digital e Conselho Nacional pela Soberania Digital",
+   "setor": "cti",
+   "subtema": "Cidadania digital",
+   "resumo": "Capacitar cidadãos de todas as idades a navegar criticamente na rede, combater desinformação e proteger a privacidade, com conselho dedicado a soberania digital com participação da sociedade.",
+   "citacao": "Instituiremos uma Política Nacional de Letramento Digital [...] Propomos a criação de um Conselho Nacional pela Soberania Digital, com participação da sociedade. Aprimoraremos o modelo de centralização e compartilhamento de serviços de suporte (gestão de pessoas, orçamento, contratações etc.) entre ministérios e órgãos do Executivo federal, que tanto contribui para racionalizar o uso dos recursos e conferir mais qualidade ao gasto público.",
+   "econ": -1,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "educacao-midiatica-finlandia",
+    "letramento-digital-unesco",
+    "lgpd"
+   ],
+   "historico": {
+    "br": "O Brasil já teve programas de inclusão digital com resultados irregulares: Casa Brasil, Telecentros e o Computador para Todos foram descontinuados. A LGPD (2018) criou a ANPD, que opera com quadro reduzido. Não há política nacional de letramento digital consolidada; a Lei 14.533/2023 criou a Política Nacional de Educação Digital, ainda em implantação inicial.",
+    "br_res": "em_curso",
+    "mundo": "A Finlandia trata alfabetização midiática como política de Estado desde 2013 e lidera os índices europeus de resiliência a desinformação; a Estonia e Taiwan combinam letramento digital com checagem cívica. Avaliações mostram efeito mensurável na capacidade de identificar noticia falsa, mas efeito pequeno sobre polarização.",
+    "mundo_res": "funcionou",
+    "conf": "media"
+   },
+   "pagina": 17,
+   "vt": "promissora",
+   "vd": "Letramento midiático tem efeito comprovado na Finlândia sobre identificar notícia falsa. Não move polarização, e a proposta promete demais ao sugerir que sim."
+  },
+  {
+   "id": "pt-br-05",
+   "titulo": "Portal da Transparência com dados abertos e inteligência artificial",
+   "setor": "estado",
+   "subtema": "Transparência",
+   "resumo": "Aprofundar o Plano de Integridade e Combate a Corrupção 2025-2027, fortalecendo prevenção, investigação e responsabilização 'inclusive os do andar de cima'.",
+   "citacao": "O Portal da Transparência receberá investimentos para evoluir para uma plataforma inteligente baseada em dados abertos e inteligência artificial. Fortaleceremos ainda mais organismos como a Ouvidoria-Geral da União e as consultas públicas, em laboratórios de inovação cívica, consultas digitais, uso de inteligência artificial, observatórios temáticos, fortalecendo uma nova cultura democrática baseada na participação da sociedade no combate à corrupção.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "lai-lei-12527",
+    "alice-cgu",
+    "portal-transparencia-brasil",
+    "lei-anticorrupcao-12846"
+   ],
+   "historico": {
+    "br": "O Portal da Transparência existe desde 2004 e a Lei de Acesso a Informação desde 2011; o Brasil chegou a liderar rankings de transparência ativa. A CGU já opera o sistema Alice, de mineração de editais por IA, desde 2018. O problema recorrente não e a públicação, e a responsabilização: a Lei de Improbidade foi flexibilizada pela Lei 14.230/2021 e a taxa de recuperação de ativos permanece baixa.",
+    "br_res": "parcial",
+    "mundo": "A Open Government Partnership, criada em 2011 com o Brasil entre os fundadores, mostra ganho consistente de transparência e ganho fraco de responsabilização. A Ucrania com o ProZorro e a Coreia do Sul com o KONEPS obtiveram economia mensurável em compras públicas ao abrir os dados e automatizar alertas.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 18,
+   "vt": "arriscada",
+   "vd": "O Brasil já é bom em publicar e ruim em punir. Sem reverter a Lei 14.230/2021, que esvaziou a improbidade, mais transparência só documenta melhor a impunidade."
+  },
+  {
+   "id": "pt-br-06",
+   "titulo": "Manter a valorização real do salário mínimo como política permanente",
+   "setor": "trabalho",
+   "subtema": "Salário mínimo",
+   "resumo": "Continuar a política que assegurou ganhos reais anuais para trabalhadores, aposentados e beneficiários do BPC, tratada como meio estratégico de distribuição de renda.",
+   "citacao": "o novo mandato de Lula dará continuidade à política de valorização do salário mínimo como meio estratégico de distribuição de renda, combate à pobreza e promoção do desenvolvimento econômico e social.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "politica-valorizacao-salario-minimo",
+    "salario-minimo-dieese",
+    "salario-minimo-15-seattle"
+   ],
+   "historico": {
+    "br": "A política de valorização real do mínimo vigorou por acordo em 2007, virou lei em 2011 (Lei 12.382), foi suspensa entre 2019 e 2022 e retomada pela Lei 14.663/2023. Reduziu desigualdade e pobreza de forma documentada, e ao mesmo tempo indexou cerca de 70% da despesa primária: previdência, BPC, abono e seguro-desemprego sobem junto. E a razão pela qual a despesa obrigatória cresce acima do arcabouco - o custo que o próprio pacote fiscal de 2024 teve de limitar, atrelando o ganho real ao teto de 2,5%.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido criou o National Living Wage em 2016 com uma Low Pay Commission que fixa o valor a partir de evidência de emprego, e não por formula automática; o desemprego não subiu. A Alemanha adotou mínimo nacional só em 2015, também com comissão. Formulas automáticas de indexação foram abandonadas na maioria da OCDE por engessarem o orçamento.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 74,
+   "vt": "arriscada",
+   "vd": "Reduziu pobreza de forma documentada e indexou 70% da despesa obrigatória — as duas coisas são verdade. Manter como política permanente sem enfrentar essa indexação é escolher o problema fiscal conscientemente."
+  },
+  {
+   "id": "pt-br-07",
+   "titulo": "Aprofundar a justiça tributária iniciada com a isenção de IR até R$ 5 mil",
+   "setor": "economia",
+   "subtema": "Tributação",
+   "resumo": "Continuar a diretriz de 'colocar o pobre no orçamento e o rico no Imposto de Renda', após tributar offshores, fundos exclusivos e a renda dos super-ricos, com cerca de 140 mil contribuintes do topo passando a contribuir mais para aliviar 15 milhões.",
+   "citacao": "Tributamos a renda dos super ricos e fechamos diversas brechas que só geravam distorções na economia, como a tributação de offshores e fundos exclusivos. Ao mesmo tempo, reduzimos o peso dos impostos sobre os mais pobres, com medidas de isenção total ou parcial do Imposto de Renda.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "isencao-ir-5-mil-2025",
+    "tributacao-offshores-2023",
+    "tributacao-lucros-dividendos",
+    "igf-art-153-cf",
+    "regressividade-tributaria-brasil"
+   ],
+   "historico": {
+    "br": "A tributação de offshores e fundos exclusivos (Lei 14.754/2023) e a isenção até R$ 5 mil com tributação mínima de altas rendas (Lei 15.270/2025) são as primeiras mudanças distributivas relevantes no IR desde 1995, quando a Lei 9.249 isentou dividendos - exceção rara no mundo. Tentativas anteriores de tributar dividendos fracassaram em 2003, 2008 e 2021 (o PL 2337/2021 passou na Camara e morreu no Senado).",
+    "br_res": "em_curso",
+    "mundo": "Praticamente toda a OCDE tributa dividendos na pessoa física. A tributação mínima global de multinacionais (Pilar 2 da OCDE) entrou em vigor em 2024 em mais de 30 paises. Impostos sobre patrimônio liquido, porém, foram abandonados por Suecia, Dinamarca, Alemanha, Austria e Franca entre 1990 e 2018 por fuga de capital e custo de fiscalização - restam Espanha, Noruega e Suica.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 11,
+   "vt": "forte",
+   "vd": "Tributar dividendos e altas rendas é padrão em quase toda a OCDE e o Brasil era exceção desde 1995. É a mudança distributiva mais sólida do plano."
+  },
+  {
+   "id": "pt-br-08",
+   "titulo": "Manter o arcabouco fiscal e criar condições para reduzir os juros",
+   "setor": "economia",
+   "subtema": "Regra fiscal",
+   "resumo": "O plano defende explicitamente a manutenção da regra fiscal vigente, argumentando que ela controlou o crescimento das despesas sem prejudicar políticas sociais, e trata a taxa de juros como o novo equivalente da inflação do passado: fator de concentração de renda.",
+   "citacao": "A taxa de juros e hoje o que a inflação foi no passado no Brasil: promove concentração de renda e desorganiza a nossa economia... manteremos o novo arcabouco fiscal.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "arcabouco-fiscal-2023",
+    "teto-gastos-ec95",
+    "lrf-2000",
+    "metas-inflacao-brasil",
+    "independencia-bacen-lc-179"
+   ],
+   "historico": {
+    "br": "O Brasil já testou meta de superávit primário (1999-2013), que funcionou enquanto houve crescimento e ruiu na recessao; o teto de gastos da EC 95/2016, que foi furado por nove emendas em seis anos; e o arcabouco de 2023, que limita a despesa a 70% da variação real da receita com piso e teto. O ponto fraco declarado por analistas e o mesmo das regras anteriores: a despesa obrigatória indexada cresce acima do limite, o que joga todo o ajuste sobre o investimento discricionário.",
+    "br_res": "em_curso",
+    "mundo": "O Chile opera desde 2001 uma regra de balanco estrutural com conselho fiscal independente e e o caso latino-americano de maior sucesso. A União Europeia reformou suas regras em 2024 após duas decadas de descumprimento sistemático do Pacto de Estabilidade. A lição comparada e que regra sem instituição fiscal independente e sem controle da despesa indexada tende a ser burlada.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 49,
+   "citacao_aprox": true,
+   "vt": "arriscada",
+   "vd": "O arcabouço tem o mesmo ponto cego do teto que substituiu: a despesa obrigatória cresce acima do limite. Defender sua manutenção sem tocar nas vinculações é apostar que o problema não chega no mandato."
+  },
+  {
+   "id": "pt-br-09",
+   "titulo": "Regulamentar o Fundo Nacional de Desenvolvimento Regional da reforma tributária",
+   "setor": "economia",
+   "subtema": "Desenvolvimento regional",
+   "resumo": "Usar o novo fundo como substituto da guerra fiscal do ICMS, ao lado dos fundos constitucionais FNE, FNO e FCO, com critério de equilibrio territorial em compras públicas e fomento a inovação.",
+   "citacao": "foi criado o Fundo Nacional de Desenvolvimento Regional que será regulamentado no próximo período [...] em substituição da predatória guerra tributária do ICMS. Continuaremos garantindo que o fomento à inovação, às compras públicas e aos programas de infraestrutura, operem sob o critério de equilíbrio territorial, revertendo a concentração de investimentos em poucos polos do país.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "reforma-tributaria-ec132",
+    "guerra-fiscal-icms",
+    "fundos-constitucionais-fne-fno-fco",
+    "politica-regional-uniao-europeia"
+   ],
+   "historico": {
+    "br": "Os fundos constitucionais FNE, FNO e FCO existem desde 1989 e tem avaliações de impacto positivas sobre emprego e massa salarial no Nordeste, embora concentradas em grandes tomadores. A Sudene e a Sudam foram extintas em 2001 por captura e fraude e recriadas em 2007. O FNDR da EC 132/2023, com R$ 40 bilhões anuais a partir de 2033, e a peça desenhada para substituir a guerra fiscal do ICMS - que a Lei Kandir e as sucessivas convalidações nunca conseguiram encerrar.",
+    "br_res": "parcial",
+    "mundo": "Os fundos estruturais da União Europeia movem cerca de um terco do orçamento comunitário há três decadas: houve convergência clara em Irlanda, Portugal e Polonia e convergência fraca no sul da Italia, onde o gargalo foi capacidade institucional local, não volume de recurso.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 56,
+   "vt": "promissora",
+   "vd": "Os fundos constitucionais têm impacto medido sobre emprego no Nordeste. O FNDR só substitui a guerra fiscal se vier com capacidade de execução local — foi aí que o Mezzogiorno italiano falhou por décadas."
+  },
+  {
+   "id": "pt-br-10",
+   "titulo": "Continuar a titulação de territórios quilombolas e a demarcação de terras indígenas",
+   "setor": "direitos",
+   "subtema": "Povos tradicionais",
+   "resumo": "O plano cita 65 titulações quilombolas e 72 decretos de desapropriação desde 2023, além de 20 terras indígenas homologadas somando 3,2 milhões de hectares e desintrusao em 9 terras, e propoe acelerar os procedimentos.",
+   "citacao": "Homologamos 20 novas terras indígenas, somando cerca de 3,2 milhões de hectares de terras protegidas em 11 estados [...] Vamos dar continuidade a este processo de reconhecimento do direito ao território, buscando acelerar os procedimentos e garantir que sejam acompanhados de políticas de desenvolvimento territorial.",
+   "econ": 0,
+   "social": -2,
+   "peso": 3,
+   "precedentes": [
+    "marco-temporal-indigena",
+    "lei-14701-2023",
+    "titulacao-quilombola",
+    "demarcacao-raposa-serra-do-sol"
+   ],
+   "historico": {
+    "br": "A demarcação de terras indígenas e obrigação do art. 231 da Constituição e tinha prazo de cinco anos, vencido em 1993. Entre 2019 e 2022 nenhuma terra foi homologada. A titulação quilombola pelo Decreto 4.887/2003 foi confirmada pelo STF em 2018 (ADI 3239) mas avanca a passo lento: a maioria dos processos no Incra está parada há mais de uma decada. A Lei 14.701/2023 reintroduziu o marco temporal já rejeitado pelo STF e criou um impasse ainda em julgamento.",
+    "br_res": "parcial",
+    "mundo": "O Canada reconheceu título aborigine no caso Tsilhqot in (2014); a Australia, no caso Mabo (1992), com o Native Title Act. Nos dois casos o reconhecimento judicial veio antes da política administrativa e produziu litigio prolongado. A Colombia titulou resguardos indígenas em larga escala nos anos 1990 e mostra menor desmatamento dentro dos territórios - o mesmo padrão observado no Brasil.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 20,
+   "vt": "forte",
+   "vd": "Territórios demarcados desmatam menos, no Brasil e na Colômbia. É obrigação constitucional vencida desde 1993 e a evidência ambiental é das mais sólidas que existem."
+  },
+  {
+   "id": "pt-br-11",
+   "titulo": "Implantar plenamente a Universidade Indígena criada em 2026",
+   "setor": "educacao",
+   "subtema": "Educação indígena",
+   "resumo": "Política de educação escolar indígena fundada em autonomia, interculturalidade e multilinguismo, com atenção especial aos Yanomami após a emergência sanitária.",
+   "citacao": "Vamos implantar plenamente a Universidade Indígena, criada em 2026. Manteremos nossos esforços para a elevação da qualidade de vida e da preservação dos direitos de todos os povos, com atenção especial aos yanomamis, submetidos na gestão anterior a um verdadeiro genocídio, cuja 21 reversão dos impactos ainda está em curso.",
+   "econ": -1,
+   "social": -2,
+   "peso": 2,
+   "precedentes": [
+    "educacao-escolar-indigena",
+    "universidades-indigenas-america-latina",
+    "emergencia-yanomami-2023"
+   ],
+   "historico": {
+    "br": "A educação escolar indígena diferenciada está na Constituição e na LDB, mas até 2025 não havia instituição federal dedicada. Licenciaturas interculturais existem desde 2005 em universidades federais e formaram milhares de professores indígenas, com evasao alta por falta de assistência estudantil. A emergência Yanomami de 2023 expos o colapso simultaneo de saúde e educação nesses territórios.",
+    "br_res": "em_curso",
+    "mundo": "O Mexico criou universidades interculturais em 2003; a Bolivia, três universidades indígenas em 2008; o Equador criou a Amawtay Wasi em 2004, fechada em 2013 e reaberta em 2018. O padrão regional e de instituições cronicamente subfinanciadas, com bons resultados de permanência quando há bolsa integral e ensino na lingua materna.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 20,
+   "vt": "promissora",
+   "vd": "Licenciaturas interculturais formam professores indígenas há vinte anos com evasão alta por falta de bolsa. A universidade nova repete o erro se não vier com assistência estudantil integral."
+  },
+  {
+   "id": "pt-br-12",
+   "titulo": "Concluir as 30 Casas da Mulher Brasileira e 15 Centros de Referência",
+   "setor": "direitos",
+   "subtema": "Mulheres",
+   "resumo": "Dar sequência ao Pacto de Enfrentamento ao Feminicídio, que reduziu de 16 para 3 dias o tempo de expedição de medidas protetivas, ampliando Salas Lilas e distribuindo kits de monitoramento de agressores aos estados.",
+   "citacao": "Vamos dar sequência ao Pacto, ampliando a rede de proteção às mulheres – concluiremos as 30 Casas da Mulher Brasileira e os 15 Centros de Referência da Mulher Brasileira.",
+   "econ": -1,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "casa-da-mulher-brasileira",
+    "lei-maria-da-penha",
+    "botao-do-panico-espanha-viogen",
+    "tornozeleira-medida-protetiva"
+   ],
+   "historico": {
+    "br": "A Lei Maria da Penha (2006) e reconhecida pela ONU como uma das três melhores legislações do mundo no tema, e a Lei do Feminicídio e de 2015. Ainda assim os feminicídios não cairam: o gargalo documentado e a rede de atendimento. As Casas da Mulher Brasileira foram lancadas em 2013 com meta de 27 unidades; até 2022 apenas 7 funcionavam, por abandono de obras e conflito federativo. A retomada desde 2023 chegou a cerca de 15.",
+    "br_res": "parcial",
+    "mundo": "El Salvador criou as Ciudad Mujer em 2011, replicadas por Honduras e Republica Dominicana; a avaliação do BID encontrou ganho de acesso a serviços e efeito não demonstrado sobre a violência. Os Family Justice Centers dos EUA, que inspiraram o modelo, mostram melhora na denúncia e na sobrevivência quando há equipe integrada no mesmo prédio.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 21,
+   "vt": "promissora",
+   "vd": "O modelo de porta única com delegacia, Justiça e acolhimento no mesmo prédio funciona. O problema nunca foi o desenho: das 27 prometidas em 2013, 7 funcionavam em 2022 porque ninguém definiu quem custeia a operação."
+  },
+  {
+   "id": "pt-br-13",
+   "titulo": "Tornar obrigatórios os Planos de Ação da Lei de Igualdade Salarial",
+   "setor": "trabalho",
+   "subtema": "Mulheres",
+   "resumo": "Metas progressivas de redução das disparidades salariais e ampliação da presença de mulheres, especialmente negras e com deficiência, nas empresas onde a desigualdade for identificada.",
+   "citacao": "A execução dos Planos de Ação nas empresas com desigualdades identificadas será tornada obrigatória, com metas progressivas de redução das disparidades salariais e ampliação da presença de mulheres, especialmente negras e pessoas com deficiência.",
+   "econ": -1,
+   "social": -2,
+   "peso": 3,
+   "precedentes": [
+    "lei-igualdade-salarial-14611",
+    "transparencia-salarial-islandia",
+    "pay-gap-reporting-reino-unido"
+   ],
+   "historico": {
+    "br": "A igualdade salarial e regra na CLT desde 1943 (art. 461) e nunca foi cumprida. A Lei 14.611/2023 inovou ao exigir relatório semestral de transparência salarial das empresas com mais de 100 empregados e ao prever plano de ação quando há disparidade; teve liminares suspendendo a públicação em 2024, depois derrubadas. A diferença média permanece em torno de 20%.",
+    "br_res": "em_curso",
+    "mundo": "A Islandia foi mais longe: desde 2018 exige certificação previa de equidade salarial, com multa diária, e a diferença caiu de forma mensurável. O Reino Unido obriga a públicação do gender pay gap desde 2017 e a redução foi lenta - transparência isolada move pouco. A diretiva europeia de 2023 combina transparência com direito de ação individual, o desenho com melhor evidência.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 75,
+   "vt": "promissora",
+   "vd": "Transparência salarial sozinha move pouco — o Reino Unido publica desde 2017 e a diferença cai devagar. O que funciona é o modelo islandês: certificação prévia com multa diária."
+  },
+  {
+   "id": "pt-br-14",
+   "titulo": "Dar escala a Política Nacional de Cuidados com Cuidotecas e lavanderias públicas",
+   "setor": "direitos",
+   "subtema": "Cuidado",
+   "resumo": "Cuidotecas para crianças de 3 a 12 anos que liberam o tempo das mulheres, infraestrutura de cuidados indiretos (lavanderias, cozinhas solidárias, restaurantes populares) e programa de capacitação de cuidadores com currículos inclusivos.",
+   "citacao": "Apoiaremos as Cuidotecas, espaços de acolhida de crianças de 3 a 12 anos, que liberam o tempo das mulheres responsáveis pelo cuidado das crianças. Fomentaremos a construção de infraestruturas que ampliam os cuidados indiretos e comunitários, como as lavanderias públicas, as cozinhas solidárias e os restaurantes populares.",
+   "econ": -1,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "politica-nacional-cuidados",
+    "sistema-cuidados-uruguai",
+    "lavanderias-publicas",
+    "bom-prato-sp"
+   ],
+   "historico": {
+    "br": "O Brasil nunca teve política nacional de cuidados; a Lei 15.069/2024 criou a política e o plano, sem orçamento próprio definido. Experiências locais existem: creches noturnas em São Paulo, lavanderias comunitárias no Ceara e restaurantes populares desde os anos 1990, todos com continuidade dependente da gestão municipal.",
+    "br_res": "em_curso",
+    "mundo": "O Uruguai criou o Sistema Nacional Integrado de Cuidados em 2015, com financiamento tributário próprio e cobertura crescente - e a referência latino-americana. A Cidade do Mexico implantou o Sistema de Cuidados a partir de 2019 com Utopias e lavanderias públicas. A avaliação uruguaia mostra aumento de participação feminina no mercado de trabalho, com custo fiscal relevante.",
+    "mundo_res": "funcionou",
+    "conf": "media"
+   },
+   "pagina": 26,
+   "vt": "forte",
+   "vd": "O Uruguai criou o sistema em 2015 com fonte tributária própria e aumentou participação feminina no mercado de trabalho. É a política de gênero com melhor relação custo-efeito disponível — e a Lei 15.069 nasceu sem financiamento."
+  },
+  {
+   "id": "pt-br-15",
+   "titulo": "Dar escala nacional ao PADI de atenção domiciliar a pessoa idosa",
+   "setor": "saude",
+   "subtema": "Envelhecimento",
+   "resumo": "Levar a todo o território o programa já implantado em 2.655 municípios, com atendimento 'de porta em porta' e ampliação de Centros-Dia e de vagas públicas em ILPIs, com fiscalização reforcada.",
+   "citacao": "O Programa de Atenção Domiciliar ao Idoso - PADI Brasil... já está implantado em 2.655 municípios. Vamos dar escala a esse programa do SUS.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "atencao-domiciliar-melhor-em-casa",
+    "centros-dia-idoso",
+    "ilpi-brasil-ipea",
+    "japao-seguro-cuidados-ltci"
+   ],
+   "historico": {
+    "br": "A atenção domiciliar no SUS existe desde 2011 pelo Melhor em Casa, que sofreu com cobertura desigual e financiamento instável. O Brasil envelhece mais rapido do que qualquer país europeu envelheceu, sem rede de cuidado de longa duração: as ILPIs são majoritariamente privadas ou filantropicas e a fiscalização e fraca.",
+    "br_res": "parcial",
+    "mundo": "O Japao criou o seguro público de cuidados de longa duração em 2000, financiado por contribuição compulsoria acima dos 40 anos, e e o sistema mais consolidado do mundo; a Alemanha adotou modelo semelhante em 1995. A Dinamarca privilegia o cuidado domiciliar sobre a institucionalização desde os anos 1980, com custo por pessoa menor. Todos exigiram fonte de financiamento dedicada.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 22,
+   "citacao_aprox": true,
+   "vt": "forte",
+   "vd": "Japão, Alemanha e Dinamarca provaram que cuidado domiciliar custa menos e entrega melhor desfecho funcional que institucionalizar idoso. O Brasil envelhece rápido demais para adiar."
+  },
+  {
+   "id": "pt-br-16",
+   "titulo": "Aprimorar o ECA Digital e regulamentar o uso de telas por faixa etária",
+   "setor": "direitos",
+   "subtema": "Crianças",
+   "resumo": "Proteção digital de crianças e adolescentes com regulamentação das plataformas de jogos e dos ambientes digitais, somada a proibição de celular nas escolas já adotada.",
+   "citacao": "Não recuaremos um passo sequer na proteção digital de crianças e adolescentes, com aprimoramento do ECA Digital, regulamentação do uso de telas por faixa etária, promoção do uso seguro das tecnologias e regulamentação das plataformas de jogos e dos ambientes digitais.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "eca-digital-2025",
+    "lei-felca-2025",
+    "lei-celular-escolas-15100",
+    "age-appropriate-design-reino-unido",
+    "proibicao-redes-menores-australia"
+   ],
+   "historico": {
+    "br": "O ECA Digital (Lei 15.211/2025) foi aprovado com rara velocidade após repercussao pública sobre adultização infantil nas redes. A proibição de celular nas escolas veio pela Lei 15.100/2025, depois de leis estaduais e municipais anteriores. São normas novas demais para avaliação de efeito no Brasil.",
+    "br_res": "em_curso",
+    "mundo": "O Reino Unido implantou o Age Appropriate Design Code em 2020, que levou plataformas a mudar padrões globais de privacidade para menores. A Franca proibiu celular nas escolas em 2018 e a Holanda em 2024, com relatos de melhora de concentração mas avaliação causal ainda escassa. A Australia aprovou em 2024 a proibição de redes para menores de 16, ainda sem resultado conhecido.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 24,
+   "vt": "promissora",
+   "vd": "O Reino Unido mudou o padrão global de privacidade infantil com o Age Appropriate Design Code. Sobre celular na escola há relato e pouca evidência causal — a lei foi aprovada mais rápido do que a pesquisa."
+  },
+  {
+   "id": "pt-br-17",
+   "titulo": "Criar o Ministério da Segurança Pública após a PEC da Segurança",
+   "setor": "seguranca",
+   "subtema": "Arquitetura institucional",
+   "resumo": "O plano informa ter enviado ao Congresso PEC para revisar as atribuições dos entes federados e ampliar o escopo de ação do poder federal, com o novo ministério coordenando o SUSP.",
+   "citacao": "Uma vez aprovada a PEC da Segurança Pública proposta pelo Executivo, criaremos o Ministério da Segurança Pública para coordenar [...] a execução das políticas nacionais de segurança pública no âmbito do Sistema Único de Segurança Pública (SUSP).",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "susp-sistema-unico-seguranca",
+    "pec-seguranca-publica-2025",
+    "ministerio-seguranca-2018",
+    "federalizacao-seguranca-debate"
+   ],
+   "historico": {
+    "br": "O Ministério da Segurança Pública já existiu entre fevereiro de 2018 e janeiro de 2019, criado após a intervenção federal no Rio e extinto na troca de governo - vida útil de onze meses. O Susp foi criado pela Lei 13.675/2018 sem força vinculante. A PEC da Segurança (PEC 18/2025) e a tentativa de constitucionalizar o que até hoje foi lei ordinária; a resistência histórica vem dos governadores, que controlam as polícias.",
+    "br_res": "fracassou",
+    "mundo": "A Colombia e o Chile operam polícia nacional única sob ministério próprio, com coordenação muito maior e custo de centralização política. O Mexico criou a Guardia Nacional em 2019 e o resultado sobre homicídios e contestado. Federações comparáveis - EUA, Alemanha - mantem polícia estadual e coordenam por bases de dados e condicionalidade de repasse, o caminho que o Susp tentou sem sanção efetiva.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 30,
+   "vt": "arriscada",
+   "vd": "O ministério já existiu por onze meses em 2018 e morreu na troca de governo. Sem a PEC 18/2025 aprovada, é reorganograma: quem manda nas polícias continua sendo o governador."
+  },
+  {
+   "id": "pt-br-18",
+   "titulo": "Manter a asfixia financeira do crime organizado após a Lei Antifacção",
+   "setor": "seguranca",
+   "subtema": "Crime organizado",
+   "resumo": "O plano afirma que a estratégia já causou R$ 35,8 bilhões de prejuízos as organizações criminosas desde 2023 e propoe fortalecer o Programa Brasil Contra o Crime Organizado, com R$ 10 bilhões do FIIS para estados e municípios.",
+   "citacao": "Manteremos a estratégia de asfixia financeira do crime organizado por meio de ações articuladas, que já permitiu, desde 2023, causar R$ 35,8 bilhões de prejuízos às organizações criminosas.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "lei-antifaccao-2026",
+    "lei-organizacoes-criminosas-12850",
+    "confisco-alargado",
+    "coaf-uif",
+    "asset-recovery-italia-antimafia"
+   ],
+   "historico": {
+    "br": "A Lei 12.850/2013 criou o tipo de organização criminosa e a colaboração premiada, que produziu resultados na Lava Jato e depois teve vários acordos anulados por vicios processuais. A asfixia financeira ganhou instrumentos com a Lei 13.964/2019 (confisco alargado) e com a atuação do COAF. Operações recentes contra o PCC no setor de combustíveis e fintechs mostraram capacidade de rastreio inédita, e também o quanto o dinheiro já estava na economia formal.",
+    "br_res": "em_curso",
+    "mundo": "A Italia e o caso de referência: a lei Rognoni-La Torre (1982) criou o crime de associação mafiosa e o confisco de bens, e a Agenzia Nazionale gere ativos apreendidos até hoje. O efeito veio em decadas, não em anos, e dependeu de estabilidade institucional. Os EUA obtiveram resultado semelhante com o RICO Act (1970) contra a Cosa Nostra.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 27,
+   "vt": "forte",
+   "vd": "Itália e EUA quebraram máfia e Cosa Nostra pelo dinheiro, não pelo confronto. As operações de 2025 contra o PCC em combustíveis mostram que a capacidade existe — falta agência dedicada a gerir o que é apreendido."
+  },
+  {
+   "id": "pt-br-19",
+   "titulo": "Manter o controle de armas e munições e ampliar a rastreabilidade",
+   "setor": "seguranca",
+   "subtema": "Armas",
+   "resumo": "Manter a revogação dos decretos que facilitavam o acesso a armas e reforcar a fiscalização da PF e do Exercito sobre segurança privada e registros de cacadores, atiradores e colecionadores.",
+   "citacao": "manteremos uma política de controle de armas e munições, fundamental para reduzir a violência [...] Aprimoraremos os mecanismos de rastreabilidade de armas e munições e reforçaremos a capacidade de fiscalização da Polícia Federal e do Exército sobre empresas de segurança privada, defesa pessoal e registros de caçadores, atiradores e colecionadores.",
+   "econ": 0,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "estatuto-desarmamento-2003",
+    "referendo-armas-2005",
+    "decretos-armas-2019",
+    "cacs-fiscalizacao"
+   ],
+   "historico": {
+    "br": "O Estatuto do Desarmamento (2003) e associado a redução de homicídios nos anos seguintes, e o referendo de 2005 rejeitou por 64% a proibição do comércio de armas. Entre 2019 e 2022 mais de 40 decretos e portárias ampliaram o acesso: o número de CACs saltou de cerca de 117 mil para mais de 700 mil. Os decretos foram revogados em 2023 e o Exercito reassumiu o controle do cadastro, com recadastramento ainda incompleto.",
+    "br_res": "revertido",
+    "mundo": "A Australia recomprou e destruiu 650 mil armas após o massacre de Port Arthur (1996) e não teve outro tiroteio em massa por mais de duas decadas. O Reino Unido endureceu a lei após Dunblane (1996). Os EUA são o contraexemplo: sem controle federal efetivo, com taxa de homicídio por arma várias vezes maior que a de qualquer outro país rico.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 28,
+   "vt": "forte",
+   "vd": "O Estatuto do Desarmamento é associado à queda de homicídios e a Austrália é o caso mais limpo do mundo. Entre 2019 e 2022 o número de CACs sextuplicou com desvio documentado para o crime; reverter foi tecnicamente correto."
+  },
+  {
+   "id": "pt-br-20",
+   "titulo": "Ampliar o programa de estímulo a câmeras corporais com padrões nacionais",
+   "setor": "seguranca",
+   "subtema": "Controle policial",
+   "resumo": "Construir programas de policiamento de proximidade com os entes federados e fortalecer o controle interno e externo da atividade policial.",
+   "citacao": "Ampliaremos o programa de estímulos para uso de câmeras corporais, com padrões nacionais para utilização, gestão e preservação das imagens. Estimularemos o fortalecimento dos mecanismos de controle interno e externo da atividade policial.",
+   "econ": 0,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "camera-corporal-sp",
+    "portaria-camera-mj",
+    "camera-corporal-eua",
+    "policiamento-comunitario"
+   ],
+   "historico": {
+    "br": "São Paulo implantou câmeras corporais em 2020 e estudos do Instituto Sou da Paz e da FGV associaram o programa a queda expressiva de mortes decorrentes de intervenção policial nos batalhões equipados; em 2023-2024 a mudança de protocolo de gravação contínua para acionamento manual coincidiu com aumento da letalidade, o que reforca que o desenho importa mais que o equipamento. Santa Catarina e o Rio de Janeiro tem programas com regras distintas.",
+    "br_res": "funcionou",
+    "mundo": "Nos EUA a evidência e mista: o ensaio de Washington DC (2017) não achou efeito, enquanto metanalises encontram redução de uso de força e de queixas quando há gravação obrigatória e sanção por desligamento. O consenso e que a câmera funciona como parte de um regime de controle, e não sozinha.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 30,
+   "vt": "forte",
+   "vd": "São Paulo mediu queda expressiva de letalidade policial nos batalhões equipados e o aumento voltou quando a gravação virou manual. O detalhe do protocolo importa mais que a câmera, e é justamente ele que a proposta precisa fixar."
+  },
+  {
+   "id": "pt-br-21",
+   "titulo": "Cumprir o Plano Pena Justa e criar protocolo nacional de presos de alta periculosidade",
+   "setor": "seguranca",
+   "subtema": "Sistema prisional",
+   "resumo": "Instituir o Pacto Nacional de Execução Penal, fortalecer o sistema penitenciário federal para isolamento de liderancas criminosas e apoiar estados na modernização das penitenciárias.",
+   "citacao": "Cumpriremos as metas do Plano Pena Justa e instituiremos o Pacto Nacional de Execução Penal para o Enfrentamento ao Crime Organizado, fortalecendo a governança do sistema prisional e a cooperação entre União, estados e sistema de justiça.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pena-justa-adpf-347",
+    "superlotacao-prisional-brasil",
+    "rdd-regime-disciplinar",
+    "41-bis-italia"
+   ],
+   "historico": {
+    "br": "O STF declarou o sistema prisional em estado de coisas inconstitucional na ADPF 347, em 2015, e só em 2023 determinou a apresentação do Plano Pena Justa, homologado em 2025. O sistema penitenciário federal existe desde 2006 e tem cinco unidades para um país com mais de 800 mil presos - a capacidade de isolar liderancas e uma fração da demanda, e os mutirões carcerários do CNJ mostraram déficit crônico de assistência jurídica.",
+    "br_res": "em_curso",
+    "mundo": "A Italia aplica o regime 41-bis a chefes mafiosos desde 1992 e ele e apontado como fator central na quebra da Cosa Nostra, sob críticas recorrentes da Corte Europeia de Direitos Humanos. Os supermax americanos, como a ADX Florence, isolam efetivamente mas produzem dano psiquiátrico documentado. A Noruega segue o caminho oposto, com reincidência entre as menores do mundo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 28,
+   "vt": "promissora",
+   "vd": "A ADPF 347 é de 2015 e o plano só saiu em 2025 — dez anos para responder ao STF. Cinco unidades federais e 1.500 vagas não isolam o comando de um sistema com 800 mil presos."
+  },
+  {
+   "id": "pt-br-22",
+   "titulo": "Urbanização de favelas e periferias como parte da política de segurança",
+   "setor": "cidade",
+   "subtema": "Prevenção",
+   "resumo": "Priorizar investimentos continuados em urbanização, requalificação de espacos públicos e serviços essenciais para estimular atividades econômicas licitas e reduzir mercados explorados pelo crime.",
+   "citacao": "priorizaremos investimentos continuados na urbanização de favelas e periferias, na requalificação de espaços públicos e na ampliação do acesso a serviços públicos essenciais para estimular atividades econômicas lícitas e reduzir mercados explorados pelo crime organizado.",
+   "econ": -1,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "periferia-viva",
+    "medellin-urbanismo-social",
+    "upp-rio-de-janeiro",
+    "favela-bairro"
+   ],
+   "historico": {
+    "br": "O Favela-Bairro no Rio (1994-2008), financiado pelo BID, urbanizou mais de 100 comunidades e teve avaliação positiva em acesso a serviços e valorização imobiliária, mas não alterou o controle armado do território nem foi mantido após o fim do financiamento. O PAC Favelas (2007) deixou obras inacabadas em várias capitais. A tese de que urbanização e política de segurança só se sustenta quando vem com presença continuada do Estado - o que as UPPs tentaram e abandonaram.",
+    "br_res": "parcial",
+    "mundo": "Medellin e o caso mais citado: entre 2004 e 2011 combinou metrocable, bibliotecas-parque e serviços nas comunas com policiamento, e a queda de homicídios foi expressiva, ainda que parte seja atribuida a acordos entre grupos armados. O Programa Favela-Bairro inspirou intervenções em Buenos Aires e na Cidade do Mexico, com resultados sociais melhores que os de segurança.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 28,
+   "vt": "arriscada",
+   "vd": "Favela-Bairro e Medellín melhoraram saúde e renda; nenhum dos dois quebrou o controle armado sozinho. Urbanizar é necessário e vender isso como política de segurança é exagero."
+  },
+  {
+   "id": "pt-br-23",
+   "titulo": "Chegar a 80% das crianças alfabetizadas na idade certa",
+   "setor": "educacao",
+   "subtema": "Alfabetização",
+   "resumo": "Continuar o Compromisso Nacional Criança Alfabetizada, que alcançou 66% em 2025 acima da meta de 64%, e instituir estratégia nacional permanente de recomposição de aprendizagens com foco nos anos finais e no ensino médio.",
+   "citacao": "Seguiremos com as ações e políticas já pactuadas com os estados e municípios brasileiros para chegarmos à meta de 80% das nossas crianças alfabetizadas na idade certa. Ao mesmo tempo, continuaremos fortalecendo as políticas de enfrentamento do analfabetismo na população adulta e vamos instituir uma estratégia nacional permanente de recomposição e aceleração das aprendizagens, com atenção especial aos anos finais do ensino fundamental e ao ensino médio.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "compromisso-alfabetizacao-mec",
+    "alfabetiza-ceara",
+    "pnaic",
+    "tarefa-aprendizagem-pos-pandemia"
+   ],
+   "historico": {
+    "br": "O Ceara e a referência domestica: o PAIC, iniciado em 2007, combinou meta clara, avaliação externa anual, formação continuada e repasse de ICMS por resultado de alfabetização, e levou o estado do fim ao topo dos indicadores nacionais. A tentativa federal anterior, o Pnaic (2012), teve escala mas pouco efeito por falta de avaliação e de incentivo. O Compromisso Criança Alfabetizada (2023) copia o desenho cearense.",
+    "br_res": "funcionou",
+    "mundo": "Portugal e a Inglaterra elevaram desempenho em leitura com foco em ensino sistemático de fonica e avaliação censitária - a Inglaterra pelo Phonics Screening Check (2012), associado a ganho no PIRLS. Os EUA passaram três decadas nas reading wars até a virada da science of reading em vários estados a partir de 2019.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 31,
+   "vt": "forte",
+   "vd": "O Ceará levou o estado do último ao primeiro lugar com meta, avaliação externa anual e ICMS por resultado. É o caso brasileiro mais bem documentado de política educacional que funciona."
+  },
+  {
+   "id": "pt-br-24",
+   "titulo": "Prioridade absoluta a expansão da educação em tempo integral via Fundeb",
+   "setor": "educacao",
+   "subtema": "Jornada escolar",
+   "resumo": "Acelerar a ampliação com o financiamento adicional do Fundeb ao tempo integral incluido em 2026, após 1,8 milhão de novas matriculas entre 2023 e 2025.",
+   "citacao": "O fomento à expansão da educação em tempo integral terá absoluta prioridade no novo mandato [...] com a inclusão, no Fundeb, do financiamento à educação em tempo integral, a expectativa é que a ampliação dessa modalidade se acelere, garantindo melhores condições de aprendizado para os estudantes.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "fundeb-vaat",
+    "politica-tempo-integral-lei-14640",
+    "escola-tempo-integral-pernambuco",
+    "mais-educacao"
+   ],
+   "historico": {
+    "br": "A meta de 50% das escolas e 25% dos alunos em tempo integral está no PNE de 2014 e não foi cumprida até 2024. O Mais Educação (2007) ampliou matriculas com contraturno de baixa qualidade e foi reformulado em 2016. Pernambuco e o Ceara mostraram que o modelo funciona quando há escola desenhada para o dia inteiro, professor com dedicação exclusiva e não apenas horas adicionais.",
+    "br_res": "parcial",
+    "mundo": "O Chile implantou a Jornada Escolar Completa em 1997 em quase toda a rede; as avaliações encontraram ganho modesto de aprendizagem e ganho maior de proteção social e de trabalho feminino. A lição comum e que tempo integral só melhora aprendizagem quando muda o que se faz com o tempo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 31,
+   "vt": "arriscada",
+   "vd": "A meta do PNE de 2014 não foi cumprida e o Mais Educação virou contraturno de baixa qualidade. Tempo integral só melhora aprendizagem quando muda o que se faz com o tempo — o Chile provou isso em escala."
+  },
+  {
+   "id": "pt-br-25",
+   "titulo": "Fortalecer e dar continuidade ao Pe-de-Meia contra a evasao no ensino médio",
+   "setor": "educacao",
+   "subtema": "Permanência",
+   "resumo": "O programa já beneficiou 7,3 milhões de jovens e mostrou impacto sobre permanência e participação no Enem, com o compromisso de que nenhum jovem em pobreza deixe a escola por falta de renda.",
+   "citacao": "Vamos dar continuidade e fortalecer o Pé-de-Meia. Nenhum jovem em situação de pobreza ou vulnerabilidade social no Brasil deve deixar a escola por falta de renda. Lançamos o MEC Livros e o MEC Idiomas, iniciativas que, ao permitir o acesso via celular, democratizam o acesso a leitura e aprendizagem de inglês e espanhol.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pe-de-meia",
+    "conditional-cash-transfer-avaliacoes",
+    "renova-educacao-sp",
+    "bolsa-familia"
+   ],
+   "historico": {
+    "br": "O Pe-de-Meia (2024) e a primeira poupanca de permanência em escala nacional. Antes dele, o Bolsa Família já condicionava a frequência e o Renda Melhor Jovem no Rio (2011) e o Poupanca Jovem em Minas testaram o desenho de deposito com saque no fim do ciclo, com resultados positivos sobre conclusao. A avaliação inicial do Pe-de-Meia aponta aumento de matricula e de participação no Enem.",
+    "br_res": "em_curso",
+    "mundo": "O Mexico (Progresa/Oportunidades, 1997) e a origem da transferência condicionada com avaliação experimental e mostrou aumento de escolaridade sustentado por decadas. A Colombia testou em Bogota o desenho de guardar parte da transferência para a matricula seguinte e obteve mais efeito sobre a permanência do que o pagamento mensal - exatamente a lógica do Pe-de-Meia.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 32,
+   "vt": "forte",
+   "vd": "Poupança de permanência tem evidência experimental desde o Progresa mexicano de 1997, e a Colômbia mostrou que guardar parte para a matrícula seguinte rende mais que pagar mensalmente. O desenho está certo."
+  },
+  {
+   "id": "pt-br-26",
+   "titulo": "Universalizar internet de qualidade nas escolas, hoje em 75%",
+   "setor": "educacao",
+   "subtema": "Conectividade",
+   "resumo": "Concluir a conectividade em parametros adequados em todas as escolas com recursos do Novo PAC.",
+   "citacao": "estamos levando internet de qualidade às escolas brasileiras, já tendo alcançado 75% delas com conectividade nos parâmetros adequados.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "conectividade-escolas-brasil",
+    "educacao-conectada",
+    "fust"
+   ],
+   "historico": {
+    "br": "O Brasil promete internet nas escolas desde o Proinfo (1997). A Lei 14.172/2021 destinou R$ 3,5 bilhões a conectividade escolar após veto derrubado, e o programa Escolas Conectadas e o Wi-Fi Brasil ampliaram a cobertura, mas conectar não equivale a conectar com banda adequada: a diferença entre 'tem internet' e 'tem internet que suporta uso pedagógico' e o ponto onde os programas anteriores falharam.",
+    "br_res": "parcial",
+    "mundo": "O Uruguai universalizou conectividade e um laptop por aluno com o Plan Ceibal (2007), o caso mais completo da região: adesao alta, efeito direto sobre aprendizagem pequeno, efeito sobre inclusão digital grande. A conclusao internacional (OCDE, 2015) e que equipamento sem mudança pedagógica não melhora resultado.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 32,
+   "vt": "promissora",
+   "vd": "O Brasil promete internet na escola desde 1997. O Plan Ceibal uruguaio mostrou que equipamento sem mudança pedagógica não melhora aprendizagem — conectar é o piso, não o resultado."
+  },
+  {
+   "id": "pt-br-27",
+   "titulo": "Continuar a expansão dos institutos federais com foco em vazios educacionais",
+   "setor": "educacao",
+   "subtema": "Ensino técnico",
+   "resumo": "Após anunciar mais 111 institutos federais em 106 municípios, priorizar interiorização, periferias urbanas e municípios com baixa oferta de cursos técnicos, mantendo o cursinho gratuito Partiu IF.",
+   "citacao": "continuaremos a expansão da nossa rede de institutos federais, priorizando a interiorização, os vazios educacionais, as periferias urbanas e os municípios com baixa oferta de cursos técnicos.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "expansao-ifs-2008",
+    "reuni-expansao-federais",
+    "pronatec-bolsa-formacao",
+    "dual-system-alemanha"
+   ],
+   "historico": {
+    "br": "A rede federal saltou de 140 para mais de 640 unidades entre 2003 e 2016, uma das maiores expansões de ensino técnico do mundo, e depois ficou praticamente congelada por restrição orçamentária, com institutos entregues sem custeio para funcionar. O gargalo histórico não e construir campus, e financiar operação e fixar professor no interior.",
+    "br_res": "parcial",
+    "mundo": "A Alemanha e a Suica sustentam o ensino dual com contrapartida obrigatória das empresas, o que o Brasil nunca conseguiu replicar. A Coreia do Sul expandiu ensino técnico nos anos 1970 vinculado ao plano industrial e depois migrou para o ensino superior. Onde a expansão técnica funcionou, havia demanda produtiva local identificada antes da obra.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 33,
+   "vt": "promissora",
+   "vd": "A expansão de 2003-2016 foi das maiores do mundo em ensino técnico e travou por falta de custeio, com campus entregue sem dinheiro para funcionar. Prometer mais unidades sem resolver operação repete o erro."
+  },
+  {
+   "id": "pt-br-28",
+   "titulo": "Novo ciclo de expansão e interiorização do ensino superior público",
+   "setor": "educacao",
+   "subtema": "Ensino superior",
+   "resumo": "Concluir a nova unidade do ITA no Ceara, a Universidade Indígena e a Universidade do Esporte, aperfeicoar a assistência estudantil e ampliar a pos-graduação em regiões pouco atendidas.",
+   "citacao": "Haverá também novo ciclo expansão e interiorização da educação superior pública para superar os vazios educacionais e as assimetrias regionais. Adotaremos medidas para aperfeiçoar a assistência estudantil, para garantir a permanência e a conclusão dos cursos pelos estudantes nas instituições públicas.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "reuni-expansao-federais",
+    "permanencia-pnaes",
+    "lei-cotas-12711"
+   ],
+   "historico": {
+    "br": "O Reuni (2007) dobrou vagas nas federais e criou dezenas de campi no interior; a expansão foi seguida de evasao alta e de crise de custeio a partir de 2015. As cotas (Lei 12.711/2012) mudaram o perfil racial e social das universidades públicas sem queda de desempenho, conforme avaliações do Inep e de grupos acadêmicos, e foram renovadas em 2023.",
+    "br_res": "parcial",
+    "mundo": "O Chile expandiu o ensino superior sobretudo pelo setor privado com crédito estudantil e enfrentou crise de endividamento e protestos em 2011, revertida com gratuidade parcial em 2016. A Alemanha manteve gratuidade com seleção forte. A lição e que expansão sem assistência estudantil se converte em evasao.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 33,
+   "vt": "arriscada",
+   "vd": "O Reuni dobrou vagas e produziu evasão alta quando faltou assistência estudantil. Expandir de novo sem essa peça converte acesso em abandono."
+  },
+  {
+   "id": "pt-br-29",
+   "titulo": "Prontuário único do cidadão e IA para triagem e regulação por risco clinico",
+   "setor": "saude",
+   "subtema": "Saúde digital",
+   "resumo": "Consolidar a Rede Nacional de Dados em Saúde para disponibilizar marcação de consultas e resultados de exames no celular, com uso de IA para priorização de casos graves e diagnóstico onde faltam especialistas.",
+   "citacao": "Vamos acelerar a utilização de inteligência artificial para a triagem, a priorização de casos graves, a regulação por risco clínico e o diagnóstico em áreas com escassez de especialistas.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "rnds-prontuario",
+    "lei-telemedicina-14510",
+    "ia-clinica-fda-regulacao",
+    "estonia-x-road"
+   ],
+   "historico": {
+    "br": "O Brasil tenta prontuário único desde o Cartao SUS (1999). O e-SUS APS chegou a boa cobertura na atenção primária; o Conecte SUS e a RNDS avancaram na pandemia com o certificado de vacinação, mas a interoperabilidade com hospitais, laboratórios e rede privada segue parcial. Regulação por risco existe no Sisreg, com filas ainda geridas localmente e sem transparência ao paciente.",
+    "br_res": "em_curso",
+    "mundo": "A Estonia opera prontuário nacional interoperável desde 2008 sobre a infraestrutura X-Road, com consentimento e trilha de auditoria - o padrão ouro. O Reino Unido gastou cerca de 10 bilhões de libras no National Programme for IT e o cancelou em 2011, o maior fracasso de TI em saúde já documentado, por centralização excessiva e falta de adesao clinica.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 35,
+   "vt": "promissora",
+   "vd": "A Estônia opera prontuário nacional desde 2008; o Reino Unido queimou 10 bilhões de libras tentando o sistema único monolítico. O Brasil tem CPF e Gov.br — a base existe, o risco é a arquitetura."
+  },
+  {
+   "id": "pt-br-30",
+   "titulo": "Ampliar o Agora Tem Especialistas com terceiro turno e fila única digital por risco",
+   "setor": "saude",
+   "subtema": "Filas",
+   "resumo": "Expandir carretas da saúde, mutirões e parceria com hospitais privados em troca de créditos financeiros ou de dívidas, com fila única ordenada por risco clinico e transporte sanitário em todas as regiões de saúde. O plano cita 15 milhões de cirurgias em 2025, maior volume da história do SUS.",
+   "citacao": "Aprimoraremos ainda mais a regulação do acesso à atenção especializada, garantindo maior transparência das filas e utilizando inteligência artificial, com fila única digital e ordenada pelo risco clínico, com transporte sanitário em todas as regiões de saúde.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "agora-tem-especialistas",
+    "fila-cirurgica-sus",
+    "independent-sector-treatment-centres-nhs",
+    "opera-parana"
+   ],
+   "historico": {
+    "br": "Mutirões cirurgicos são política recorrente desde os anos 2000 e reduzem estoque de fila temporariamente sem alterar a capacidade de regulação. O Agora Tem Especialistas (2025) e a primeira tentativa de fila única nacional por risco com compra de capacidade privada em troca de créditos tributários e de dívidas. O AME paulista, desde 2007, mostrou que ambulatório dedicado a eletivas, sem urgência, eleva produtividade de forma sustentada.",
+    "br_res": "em_curso",
+    "mundo": "O Reino Unido reduziu a espera máxima de 18 meses para 18 semanas entre 2000 e 2008 combinando meta legal, dinheiro novo, compra de capacidade privada e públicação por hospital - e perdeu o ganho depois de 2010, quando o financiamento parou. Portugal tem garantia de tempo máximo com cheque-cirurgia desde 2004. O padrão internacional e claro: meta com consequência mais capacidade adicional, e não mutirao isolado.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 38,
+   "vt": "forte",
+   "vd": "O Reino Unido cortou a espera de 18 meses para 18 semanas com meta legal, dinheiro novo e publicação por hospital, e perdeu quando o dinheiro parou. Fila única por risco é o desenho certo; sem capacidade adicional só reordena."
+  },
+  {
+   "id": "pt-br-31",
+   "titulo": "Incluir exames laboratoriais e de monitoramento de crônicos no Farmácia Popular",
+   "setor": "saude",
+   "subtema": "Medicamentos",
+   "resumo": "Manter o programa 100% gratuito com 41 medicamentos e ampliar locais de retirada nas periferias, acrescentando exames de diagnóstico e monitoramento de hipertensao e diabetes.",
+   "citacao": "Uma inovação do programa será incluir exames laboratoriais, de diagnóstico e de monitoramento de condições crônicas de saúde, que afetam parcela significativa da população, tais como hipertensão arterial e diabetes.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "farmacia-popular",
+    "assistencia-farmaceutica-sus",
+    "rename"
+   ],
+   "historico": {
+    "br": "O Farmácia Popular começou em 2004 com copagamento, migrou para a rede privada credenciada em 2006 e virou 100% gratuito para os principais grupos em 2023. Avaliações associam o programa a maior adesao ao tratamento de hipertensao e diabetes e a redução de internações evitáveis. A inclusão de exames e uma extensão sem precedente nacional.",
+    "br_res": "funcionou",
+    "mundo": "O Mexico tentou o Seguro Popular (2003), extinto em 2020, com cobertura de medicamentos irregular. A India opera as Jan Aushadhi para genéricos de baixo custo. A evidência internacional sobre copagamento zero para crônicos e consistente: elimina barreira de preço e melhora adesao, com custo fiscal que cresce com a cobertura.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 36,
+   "vt": "forte",
+   "vd": "Copagamento zero para crônico elimina barreira de preço e reduz internação evitável — evidência consistente dentro e fora do Brasil. Incluir exames é extensão natural e inédita."
+  },
+  {
+   "id": "pt-br-32",
+   "titulo": "Consolidar a maior rede pública de cuidado ao cancer do mundo",
+   "setor": "saude",
+   "subtema": "Oncologia",
+   "resumo": "Supercentro Brasil de telediagnostico do cancer para reduzir o tempo de laudo de biopsias em regiões remotas, com expansão de centros de radioterapia e cirurgias e atualização de quimioterapicos e imunoterapicos.",
+   "citacao": "Vamos consolidar, em todo o Brasil, a maior rede pública de cuidado ao câncer do mundo, com prevenção, diagnóstico e tratamento ao câncer com equipamentos e tratamentos modernos e atualização de novos medicamentos quimioterápicos e imunoterápicos.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "lei-dos-60-dias-12732",
+    "politica-oncologia-sus",
+    "telediagnostico-brasil"
+   ],
+   "historico": {
+    "br": "A Lei dos 60 dias (Lei 12.732/2012) fixou prazo máximo entre diagnóstico e início do tratamento oncológico e nunca foi cumprida na maior parte do país, por falta de radioterapia e de patologistas. O Plano de Expansão da Radioterapia (2012) previa 100 aceleradores lineares e entregou uma fração no prazo. Telepatologia em escala nacional seria inédita.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido opera rastreamento organizado de mama, colo e intestino com convocação ativa da população-alvo, com queda documentada de mortalidade; o modelo depende de registro populacional confiável, que o Brasil só tem parcialmente. A telepatologia e rotina em redes na Suecia e no Canada para regiões remotas.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 38,
+   "vt": "promissora",
+   "vd": "A Lei dos 60 dias é de 2012 e nunca foi cumprida por falta de radioterapia e patologista. Telediagnóstico ataca o gargalo certo; sem acelerador linear instalado, o laudo chega rápido e o tratamento não."
+  },
+  {
+   "id": "pt-br-33",
+   "titulo": "Fortalecer o Complexo Econômico-Industrial da Saúde para soberania sanitária",
+   "setor": "saude",
+   "subtema": "Produção nacional",
+   "resumo": "Ampliar parcerias para desenvolvimento produtivo (31 assinadas desde 2024, incluindo a volta da produção nacional de insulina), concluir a nacionalização de hemoderivados pela Hemobras e pesquisar insumos farmaceuticos ativos a partir da biodiversidade amazonica.",
+   "citacao": "Fortaleceremos a pesquisa e o desenvolvimento de insumos farmacêuticos ativos (IFAS) a partir da biodiversidade brasileira, com destaque para o potencial da Amazônia, e ampliaremos o sequenciamento genômico voltado ao estudo de variantes associadas à resistência ou à susceptibilidade a doenças infecciosas e crônicas.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "complexo-economico-industrial-saude",
+    "pdp-parcerias-desenvolvimento-produtivo",
+    "farmanguinhos",
+    "butantan-vacinas",
+    "hemobras"
+   ],
+   "historico": {
+    "br": "O Brasil já teve política de produção pública de medicamentos com as PDPs, criadas em 2009: cerca de 100 parcerias assinadas, com resultados irregulares, várias canceladas por descumprimento e uma revisão completa das regras em 2017. A produção nacional de insulina foi descontinuada em 2019 com o fim do contrato da Biomanguinhos e retomada depois. A Fiocruz nacionalizou o IFA da vacina de Oxford, o caso de maior sucesso recente.",
+    "br_res": "parcial",
+    "mundo": "A India construiu sua indústria de genéricos a partir da lei de patentes de 1970 e virou a farmácia do mundo em desenvolvimento. Cuba desenvolveu capacidade própria de imunizantes com investimento estatal de decadas. A União Europeia e os EUA reagiram a pandemia com compromissos antecipados de compra, instrumento mais eficaz que o subsídio a fabrica.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 39,
+   "vt": "arriscada",
+   "vd": "As PDPs somam cerca de 100 parcerias com resultado irregular e várias canceladas. A nacionalização do IFA da vacina de Oxford mostra que dá certo com compromisso antecipado de compra, não com subsídio a fábrica."
+  },
+  {
+   "id": "pt-br-34",
+   "titulo": "Ampliar profissionais para pessoas com problemas relacionados a jogos de apostas",
+   "setor": "saude",
+   "subtema": "Saúde mental",
+   "resumo": "Ampliar investimentos na Rede de Atenção Psicossocial e nos CAPS com atenção a crianças e jovens, ao TEA e a mulheres em situação de violência, incluindo estratégias voltadas a ludopatia.",
+   "citacao": "Ampliaremos os profissionais e as estratégias voltadas às pessoas com problemas relacionados a jogos de apostas. O apoio ao desenvolvimento científico e tecnológico da saúde voltou a ter centralidade, por meio do fomento ao Complexo Econômico e Industrial da Saúde (CEIS).",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "regulacao-bets-lei-14790",
+    "raps-rede-psicossocial",
+    "ludopatia-saude-publica"
+   ],
+   "historico": {
+    "br": "A Raps foi criada em 2011 e sofreu mudança de rumo em 2017-2019 com o refinanciamento de comunidades terapêuticas e a revogação parcial revertida em 2023. O transtorno por jogo de azar só passou a ter demanda de serviço após a regulamentação das apostas de quota fixa (Lei 14.790/2023), com dados iniciais mostrando gasto relevante de famílias beneficiárias de programas sociais.",
+    "br_res": "em_curso",
+    "mundo": "O Reino Unido criou clinicas do NHS específicas para vicio em jogo a partir de 2019 e endureceu a publicidade; a Italia proibiu totalmente a publicidade de apostas em 2019 e a Belgica em 2023. A evidência mostra que restrição de publicidade e limite de deposito tem efeito maior sobre prevalência do que tratamento isolado.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 39,
+   "vt": "promissora",
+   "vd": "A demanda por tratamento explodiu depois da regulamentação das bets em 2023. Itália e Bélgica mostram que proibir publicidade reduz mais a prevalência do que ampliar leito — a proposta trata o sintoma."
+  },
+  {
+   "id": "pt-br-35",
+   "titulo": "Lei do direito autoral em ambiente digital: pagar quem cria quando a IA usar seu conteudo",
+   "setor": "cultura",
+   "subtema": "Direito autoral",
+   "resumo": "Trabalhar pela aprovação de lei do direito autoral digital e pela regulamentação da IA para que musicos, autores e artistas sejam remunerados pelo uso de conteudo brasileiro nas plataformas.",
+   "citacao": "Trabalharemos pela aprovação de lei do direito autoral em ambiente digital e a regulamentação da inteligência artificial, para que músicos, autores e artistas sejam pagos quando as plataformas usarem conteúdo brasileiro. Quem cria não pode ser o único a não ganhar.",
+   "econ": -1,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "direito-autoral-treinamento-ia",
+    "pl-2338-ia-brasil",
+    "ai-act-uniao-europeia",
+    "lei-direito-autoral-9610"
+   ],
+   "historico": {
+    "br": "A lei de direito autoral brasileira e de 1998 e nunca foi reformada; a tentativa de revisão do MinC em 2010-2011 foi engavetada. O ECAD passou por CPI no Senado em 2011-2012 que apontou opacidade na distribuição, resultando na Lei 12.853/2013. Remuneração por uso de obra em treinamento de IA não tem norma no Brasil: o PL 2338/2023 preve direito de remuneração, ainda sem aprovação final.",
+    "br_res": "em_curso",
+    "mundo": "A União Europeia criou na diretiva de 2019 a exceção de mineração de textos com direito de opt-out, e o AI Act (2024) obriga transparência sobre dados de treinamento. O Japao adotou a solução oposta, permitindo amplamente o uso para treinamento. Nos EUA a questão está sendo decidida caso a caso nos tribunais (NYT contra OpenAI, Getty contra Stability), sem lei federal. Nenhum país tem ainda um sistema de remuneração funcionando em escala.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 42,
+   "vt": "sem_precedente",
+   "vd": "Ninguém no mundo tem remuneração por uso de obra em treinamento de IA funcionando em escala; a UE regula transparência, os EUA decidem no tribunal, o Japão liberou. O Brasil legislaria no escuro."
+  },
+  {
+   "id": "pt-br-36",
+   "titulo": "Regulamentar o streaming (VOD) no Congresso",
+   "setor": "cultura",
+   "subtema": "Audiovisual",
+   "resumo": "Aprovar regulamentação que assegure o Brasil como produtor e exportador ativo de obras audiovisuais, após a retomada da Cota de Tela e R$ 3,6 bilhões do Fundo do Audiovisual entre 2023 e 2025.",
+   "citacao": "vamos continuar trabalhando pela aprovação, no Congresso Nacional, de uma regulamentação do streaming (VOD) que atenda ao interesse nacional e assegure o País como um produtor e exportador ativo de obras audiovisuais.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "cota-de-tela",
+    "ancine-fsa",
+    "regulacao-vod-uniao-europeia",
+    "lei-audiovisual-8685"
+   ],
+   "historico": {
+    "br": "A regulamentação do VOD tramita desde 2016 sem aprovação; o PL 8889/2017 e sucessores travaram na disputa entre streamings globais e o setor nacional. A Cota de Tela existe desde 1932 para o cinema e a Lei da TV Paga (12.485/2011) impos cota de conteudo nacional na TV por assinatura, com efeito documentado de aumento de produção independente - o precedente mais forte a favor.",
+    "br_res": "parcial",
+    "mundo": "A Franca obriga plataformas a investir 20% do faturamento local em produção nacional desde 2021, e a diretiva europeia de serviços audiovisuais exige 30% de catalogo europeu. A Coreia do Sul sustentou a cota de tela por decadas e construiu uma indústria exportadora. A evidência e de que cota mais obrigação de investimento aumenta produção local; o efeito sobre qualidade e exportação depende de política de fomento paralela.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 42,
+   "vt": "forte",
+   "vd": "A Lei da TV Paga de 2011 aumentou produção independente de forma medida, e a França com 20% de investimento obrigatório sustenta indústria própria. A regulação do VOD trava desde 2016 por lobby, não por falta de evidência."
+  },
+  {
+   "id": "pt-br-37",
+   "titulo": "Ampliar o MCMV para todas as faixas de renda com Compra Assistida",
+   "setor": "cidade",
+   "subtema": "Habitação",
+   "resumo": "Manter o foco em baixa renda enquanto amplia instrumentos, incluindo aquisição de imóveis prontos em situações excepcionais e uso de áreas da União em regiões centrais via Fundo Imobiliário da União. O plano cita meta elevada para 3 milhões de moradias até o fim de 2026.",
+   "citacao": "Serão mobilizados novos instrumentos para ampliar o acesso à moradia, como o Compra Assistida, que, em situações excepcionais, permite a aquisição de imóveis já prontos. Continuaremos melhorando o padrão construtivo, simplificando processos, apoiando os movimentos sociais a participarem do programa.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "mcmv-entidades",
+    "mcmv-localizacao-periferica",
+    "fgts-habitacao",
+    "subsidio-demanda-chile"
+   ],
+   "historico": {
+    "br": "O MCMV (2009) entregou milhões de unidades e e criticado por localização periférica: conjuntos longe de emprego e transporte, com evasao, revenda informal e, em vários casos, captura por milícia e facção. A Faixa 1 e a de melhor focalização e a de pior localização. A Compra Assistida, criada para desastres e ampliada depois, e a tentativa de corrigir isso comprando imóvel pronto em área já urbanizada.",
+    "br_res": "parcial",
+    "mundo": "Os EUA passaram do conjunto habitacional para o voucher (Section 8) depois que projetos como o Pruitt-Igoe foram demolidos; a evidência do experimento Moving to Opportunity mostra ganho de saúde e de renda dos filhos quando a família se muda para bairro melhor. O Chile mudou a política de subsídio em 2006 pelo mesmo motivo: quantidade sem localização produz segregação.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 45,
+   "vt": "promissora",
+   "vd": "O MCMV entregou milhões de unidades no lugar errado, com evasão e captura por facção. A Compra Assistida corrige exatamente isso — o experimento americano Moving to Opportunity mostra o ganho de mudar de bairro."
+  },
+  {
+   "id": "pt-br-38",
+   "titulo": "Assegurar recursos para concluir todas as obras do Periferia Viva",
+   "setor": "cidade",
+   "subtema": "Urbanização",
+   "resumo": "Garantir a conclusao das 85 obras retomadas e das 59 propostas selecionadas de urbanização de favelas e regularização fundiária, com novas rodadas de seleção.",
+   "citacao": "No próximo mandato, todas estas obras terão recursos assegurados para sua conclusão, para garantir melhores condições de vida às periferias por elas atendidas. Faremos novas rodadas de seleção, visando apoiar mais projetos e persistir em nosso compromisso de garantir que as periferias sejam parte do nosso projeto de desenvolvimento urbano sustentável.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "periferia-viva",
+    "favela-bairro",
+    "obras-paradas-tcu",
+    "regularizacao-fundiaria-lei-13465"
+   ],
+   "historico": {
+    "br": "Urbanização de favela tem histórico de obra inacabada: o PAC Favelas (2007) deixou intervenções paradas em Manguinhos, no Alemao e em várias capitais, com recursos empenhados e sem conclusao. O Periferia Viva (2023) nasce justamente da retomada dessas obras. O TCU já registrou mais de 11 mil empreendimentos federais paralisados no país.",
+    "br_res": "parcial",
+    "mundo": "O Favela-Bairro carioca foi replicado com apoio do BID em várias cidades latino-americanas; Medellin e Buenos Aires (Villa 31) mostram que a urbanização melhora indicadores de saúde e de renda quando conclui a infraestrutura e regulariza a titularidade, e produz pouco quando para na metade.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 46,
+   "vt": "promissora",
+   "vd": "O TCU registra mais de 11 mil obras federais paradas e o PAC Favelas é um dos casos clássicos. Garantir conclusão do que já começou vale mais que anunciar rodada nova."
+  },
+  {
+   "id": "pt-br-39",
+   "titulo": "Eletrificação progressiva das frotas de transporte coletivo com indústria nacional",
+   "setor": "cidade",
+   "subtema": "Mobilidade",
+   "resumo": "Manter a diretriz de apoiar investimentos que gerem demanda para a indústria nacional de equipamentos de transporte, integrando política urbana e política industrial. A carteira atual prevê 233 km de metros, trens e VLTs e 296 km de corredores BRT.",
+   "citacao": "Manteremos a diretriz de apoiar investimentos que gerem demanda para a indústria nacional de equipamentos de transporte, integrando política urbana e política industrial.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pac-mobilidade",
+    "onibus-eletrico-brasil",
+    "conteudo-local-politica",
+    "brt-transbrasil-rio"
+   ],
+   "historico": {
+    "br": "São Paulo tem lei desde 2018 obrigando a substituição da frota por veículos menos poluentes, prazo já adiado mais de uma vez por custo e capacidade industrial. O Brasil tem produção local de onibus elétrico (Marcopolo, Eletra, BYD em Camacari) e o gargalo tem sido o preço de aquisição e a infraestrutura de recarga das operadoras.",
+    "br_res": "em_curso",
+    "mundo": "A China eletrificou a frota inteira de Shenzhen (mais de 16 mil onibus) até 2017 com forte subsídio industrial e virou fornecedora global. Santiago do Chile montou a maior frota elétrica fora da China com financiamento das distribuidoras de energia, modelo que separou a compra do veículo da operação - a solução apontada como a mais replicável para paises de renda média.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 46,
+   "vt": "promissora",
+   "vd": "Santiago montou a maior frota elétrica fora da China separando a compra do veículo da operação. Sem esse arranjo financeiro, a tarifa não paga o ônibus e a meta vira adiamento, como já ocorreu em São Paulo."
+  },
+  {
+   "id": "pt-br-40",
+   "titulo": "Adaptação climática das cidades com infraestrutura verde e contenção de encostas",
+   "setor": "cidade",
+   "subtema": "Adaptação climática",
+   "resumo": "Continuar os R$ 25 bilhões do Novo PAC em contenção de encostas e drenagem sustentável priorizando áreas de risco alto e muito alto, e aprimorar a Defesa Civil.",
+   "citacao": "Queremos fomentar a adaptação climática por meio de infraestrutura verde, proteção de mananciais e ocupação resiliente do território. A gestão dos resíduos sólidos e o tratamento de esgotos continuarão a ter o apoio da União, estimulando soluções inovadoras, como a produção de biogás e biometano.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "enchentes-rs-2024",
+    "cemaden",
+    "solucoes-baseadas-natureza",
+    "plano-adaptacao-clima-brasil"
+   ],
+   "historico": {
+    "br": "O Brasil tem plano de gestão de risco desde o desastre da região serrana do Rio em 2011, que criou o Cemaden e o cadastro de áreas de risco. Ainda assim, Petropolis (2022), São Sebastiao (2023) e o Rio Grande do Sul (2024) mostraram que mapeamento existe e obra e remoção não acompanham. Boa parte dos R$ 25 bilhões anunciados está em obras de longa maturação.",
+    "br_res": "parcial",
+    "mundo": "A Holanda opera o programa Room for the River desde 2007, dando espaco ao rio em vez de apenas elevar diques, com resultado reconhecido. O Japao combina infraestrutura pesada com sistema de alerta e cultura de evacuação. A evidência comparada e consistente: alerta precoce tem a melhor relação custo-benefício entre todas as medidas de adaptação, e obra sem remoção de moradia em área de risco não evita mortes.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 47,
+   "vt": "forte",
+   "vd": "Alerta precoce tem a melhor relação custo-benefício entre todas as medidas de adaptação. Petrópolis, São Sebastião e o Rio Grande do Sul mostraram que o Brasil mapeia bem e remove mal — obra sem remoção não evita morte."
+  },
+  {
+   "id": "pt-br-41",
+   "titulo": "Política específica para minerais críticos e terras raras contra a exportação de materia-prima",
+   "setor": "economia",
+   "subtema": "Minerais críticos",
+   "resumo": "Organizar as cadeias produtivas, diferenciar usos tecnológicos e promover mapeamento, beneficiamento e agregação de valor regional para inserção soberana nas cadeias globais.",
+   "citacao": "Desenvolveremos uma política específica para minerais críticos e terras raras, capaz de organizar suas cadeias produtivas, diferenciar seus usos tecnológicos e evitar a simples exportação de matérias-primas estratégicas.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "politica-minerais-criticos-brasil",
+    "terras-raras-china",
+    "nacionalizacao-litio-chile",
+    "ira-eua-minerais"
+   ],
+   "historico": {
+    "br": "O Brasil tem histórico de exportar minério bruto e importar o produto final. O Programa Mover e o projeto MagBras (Da Mina ao Ima) são as primeiras tentativas de verticalizar terras raras; a Serra Verde (GO) iniciou produção em 2024 e exporta concentrado. A CPRM foi esvaziada por anos e a fila de processos na ANM e um gargalo reconhecido. A Política Nacional de Minerais Críticos (PL 2780/2024) ainda tramitava em 2026.",
+    "br_res": "em_curso",
+    "mundo": "A China levou três decadas e subsídio massivo para dominar mais de 90% do refino e dos imas permanentes. A Mountain Pass, nos EUA, faliu em 2015 e foi reaberta com dinheiro do Departamento de Defesa; a Lynas australiana teve de refinar na Malasia e enfrentou anos de litigio ambiental. Nenhum país quebrou a dependência chinesa por política industrial isolada - todos dependeram de compra garantida de longo prazo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 52,
+   "vt": "arriscada",
+   "vd": "A China levou três décadas e subsídio pesado para dominar o refino. Nenhum país quebrou essa dependência sem compra estatal garantida de longo prazo, e a proposta não menciona nenhuma."
+  },
+  {
+   "id": "pt-br-42",
+   "titulo": "Infraestrutura computacional soberana com supercomputadores nacionais",
+   "setor": "cti",
+   "subtema": "Soberania digital",
+   "resumo": "Desenvolver e operar supercomputadores por instituições nacionais, com salvaguardas socioambientais obrigatórias para datacenters (eficiência energética, fontes renováveis, avaliação de impacto no sistema elétrico e hídrico) e contrapartidas de conteudo local e capacidade computacional para o mercado interno.",
+   "citacao": "Vamos avançar numa infraestrutura computacional soberana, com supercomputadores desenvolvidos e operados por instituições nacionais [...] a instalação dos datacenters em solo brasileiro deve prever contrapartidas de conteúdo local e capacidade computacional para o mercado interno.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "ebia-estrategia-ia-brasil",
+    "plano-brasileiro-ia-2024",
+    "gaia-x-uniao-europeia",
+    "redata-datacenters-brasil",
+    "chips-act-eua"
+   ],
+   "historico": {
+    "br": "O Brasil opera o Santos Dumont, no LNCC, com capacidade modesta para padrões internacionais, e anunciou expansão no Plano Brasileiro de IA (2024), de R$ 23 bilhões para quatro anos, com execução lenta. A MP do Redata, que criava regime tributário para datacenters, caducou em fevereiro de 2026 sem virar lei, e em 2025 a OpenAI escolheu a Argentina, e não o Brasil, para o Stargate latino-americano.",
+    "br_res": "em_curso",
+    "mundo": "A União Europeia criou a EuroHPC em 2018 e financiou supercomputadores em consórcio entre paises - a rota viável para economias médias. Os EUA sustentam capacidade própria com o Departamento de Energia há decadas. A lição e que soberania computacional depende menos de anunciar orçamento e mais de energia barata, regime tributário estável e demanda pública garantida.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 54,
+   "vt": "arriscada",
+   "vd": "O Plano Brasileiro de IA anunciou R$ 23 bilhões e executou pouco; a MP dos data centers caducou e a Argentina levou o Stargate. Soberania computacional se decide em energia barata e regime tributário estável, não em anúncio."
+  },
+  {
+   "id": "pt-br-43",
+   "titulo": "Modelos de linguagem em português e plataforma nacional de dados para treinamento",
+   "setor": "cti",
+   "subtema": "Inteligência artificial",
+   "resumo": "Desenvolver e sustentar modelos voltados aos problemas do país, com regras e infraestrutura para uma economia de dados e difusao da IA no agro, na saúde e em serviços financeiros.",
+   "citacao": "Vamos desenvolver e sustentar modelos de linguagem em português e outras línguas, voltados aos problemas do País, apoiados numa plataforma nacional de dados para treinamento e avaliação.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "ebia-estrategia-ia-brasil",
+    "sabia-maritaca",
+    "bloom-modelo-aberto",
+    "plano-brasileiro-ia-2024"
+   ],
+   "historico": {
+    "br": "Não há precedente nacional de modelo de linguagem soberano em produção; existem iniciativas acadêmicas (Sabia, da Maritaca, e modelos da USP e do Senai) e o programa de IA do MCTI. O Brasil tem, porém, um ativo raro: bases públicas amplas (SUS, Receita, INEP) cuja abertura para treinamento esbarra na LGPD e na falta de governança de dados.",
+    "br_res": "em_curso",
+    "mundo": "A Franca financiou a Mistral e o consórcio BLOOM, treinado no supercomputador Jean Zay - o caso mais próximo de modelo soberano viável. Os Emirados construiram o Falcon com dinheiro estatal. A India lanca o BharatGPT com foco em linguas locais. O padrão e que modelo soberano só se sustenta com uso público garantido; sem demanda, vira demonstração acadêmica.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 55,
+   "vt": "sem_precedente",
+   "vd": "França e Emirados sustentam modelos próprios com uso público garantido. Sem demanda estatal contratada, modelo soberano vira demonstração acadêmica — e o Brasil ainda não tem governança de dados para treinar."
+  },
+  {
+   "id": "pt-br-44",
+   "titulo": "Centro Nacional de Transparência Algorítmica e rastreabilidade de conteudo sintético",
+   "setor": "estado",
+   "subtema": "Inteligência artificial",
+   "resumo": "Consolidar transparência algorítmica com o argumento de que 'democracia não convive com decisão automatizada que ninguém pode examinar'.",
+   "citacao": "Vamos consolidar a transparência algorítmica e a rastreabilidade de conteúdo sintético, ancoradas no Centro Nacional de Transparência Algorítmica – porque democracia não convive com decisão automatizada que ninguém pode examinar.",
+   "econ": 0,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "ai-act-uniao-europeia",
+    "pl-2338-ia-brasil",
+    "lgpd-decisao-automatizada",
+    "c2pa-procedencia-conteudo"
+   ],
+   "historico": {
+    "br": "Não existe no Brasil órgão de auditoria algorítmica. A LGPD garante o direito a revisão de decisão automatizada (art. 20) mas o dispositivo que exigia revisão humana foi vetado, e a ANPD opera com estrutura reduzida. Rotulagem de conteudo sintético só foi imposta em ambito eleitoral, pela Resolução TSE 23.732/2024, que obrigou identificação de conteudo gerado por IA nas eleições de 2024.",
+    "br_res": "em_curso",
+    "mundo": "O AI Act europeu (2024) criou o AI Office e exige rotulagem de conteudo sintético e avaliação de risco sistemico, com aplicação apenas comecando. Nova York exige auditoria de vies em algoritmos de contratação desde 2023, com baixa adesao. A China obriga registro de algoritmos de recomendação desde 2022. Ninguém ainda demonstrou fiscalização efetiva em escala.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 55,
+   "vt": "sem_precedente",
+   "vd": "Ninguém no mundo demonstrou fiscalização algorítmica efetiva em escala: o AI Office europeu mal começou e a lei de Nova York tem baixa adesão. Criar o centro é razoável; prometer que ele vai funcionar, não."
+  },
+  {
+   "id": "pt-br-45",
+   "titulo": "Reduzir o déficit de fibra optica que atinge 11% dos municípios e ampliar 5G no campo",
+   "setor": "cti",
+   "subtema": "Conectividade",
+   "resumo": "Prioridade para Norte, Nordeste e periferias, mantendo o FUST como instrumento de apoio a investimentos em conectividade.",
+   "citacao": "Vamos reduzir o déficit de fibra óptica que ainda atinge 11% dos municípios e ampliar o 5G no campo, com prioridade para Norte, Nordeste e periferias. Manteremos o uso do FUST, que voltou a operar depois de mais de duas décadas, como instrumentos de apoio a investimentos em conectividade em todo o país.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "fust",
+    "leilao-5g-2021",
+    "amazonia-conectada",
+    "banda-larga-popular-pnbl"
+   ],
+   "historico": {
+    "br": "O FUST foi criado em 2000 e teve os recursos contingenciados por duas decadas, virando simbolo de fundo setorial que não chega ao destino; a Lei 14.109/2020 permitiu finalmente sua aplicação. O leilao do 5G (2021) trouxe obrigações de cobertura de rodovias e de escolas que estão em cumprimento parcial. A cobertura de fibra avançou por investimento privado nas cidades médias, deixando o vazio exatamente onde não há mercado.",
+    "br_res": "parcial",
+    "mundo": "Os EUA aplicam o Universal Service Fund desde 1997 e o BEAD de 2021 destinou US$ 42 bilhões a banda larga rural, com execução lenta e disputas de desenho. A Coreia do Sul universalizou banda larga cedo com mandato regulatório sobre a operadora incumbente. A lição repetida e que subsídio a operadora sem obrigação de cobertura verificável gera pouca rede em área pobre.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 55,
+   "vt": "promissora",
+   "vd": "O FUST arrecadou por vinte anos contingenciado — é o símbolo brasileiro do fundo que não chega ao destino. Subsídio a operadora sem obrigação verificável de cobertura não leva rede a área pobre."
+  },
+  {
+   "id": "pt-br-46",
+   "titulo": "Transformar o Nordeste em polo de indústrias eletrointensivas com energia renovável",
+   "setor": "economia",
+   "subtema": "Política industrial",
+   "resumo": "Atrair siderurgia verde, fertilizantes, química, cimento, aluminio, processamento de minerais críticos e hidrogenio de baixo carbono para a região que concentra cerca de 70% da geração eolica e solar do país.",
+   "citacao": "Vamos transformar a região em um polo de atração de plantas industriais eletrointensivas que buscam energia renovável e previsível para produzir com baixa emissão — siderurgia verde, fertilizantes, química, cimento, alumínio, processamento de minerais críticos, hidrogênio de baixo carbono e seus derivados.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "nova-industria-brasil",
+    "hidrogenio-verde-marco-legal",
+    "siderurgia-verde-suecia",
+    "fundos-constitucionais-fne-fno-fco"
+   ],
+   "historico": {
+    "br": "A Sudene e os incentivos do FNE já tentaram industrializar o Nordeste desde 1959, com resultado concentrado em polos isolados (Camacari, Suape). O gargalo atual e diferente e documentado: a região gera energia renovável barata e perde parte dela por falta de transmissão, com curtailment elevado em meses de pico. Siderurgia verde e hidrogenio ainda não passaram de memorandos.",
+    "br_res": "parcial",
+    "mundo": "A Suecia com o projeto Hybrit e a Espanha com hidrogenio verde mostram que indústria eletrointensiva migra para onde a energia limpa e barata, mas os projetos dependem de contrato de compra de longo prazo e de precificação de carbono no destino. Vários projetos globais de hidrogenio verde foram cancelados em 2024-2025 por custo. E uma aposta com fundamento real e execução ainda não demonstrada.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 56,
+   "vt": "arriscada",
+   "vd": "A região gera energia limpa barata e desperdiça parte por falta de transmissão. Vários projetos globais de hidrogênio verde foram cancelados em 2024-2025 por custo; sem contrato de compra de longo prazo, é memorando."
+  },
+  {
+   "id": "pt-br-47",
+   "titulo": "Manter os 45% de compras da agricultura familiar e 80% de alimentos in natura na merenda",
+   "setor": "educacao",
+   "subtema": "Alimentação escolar",
+   "resumo": "Apoiar estados e municípios a cumprir os percentuais, inclusive por plataformas como o Contrata+Brasil, e usar o Imposto Seletivo da reforma tributária para desestimular produtos nocivos a saúde.",
+   "citacao": "Já ampliamos para 45% o percentual da alimentação escolar a ser comprada da agricultura familiar.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pnae-agricultura-familiar",
+    "paa-programa-aquisicao-alimentos",
+    "imposto-seletivo-reforma",
+    "rotulagem-frontal-anvisa"
+   ],
+   "historico": {
+    "br": "O PNAE exige desde 2009 (Lei 11.947) que ao menos 30% dos recursos comprem da agricultura familiar; o percentual subiu para 45% em 2023. O cumprimento e desigual: municípios pequenos alegam dificuldade de chamada pública e de logística. E, mesmo assim, um dos programas de alimentação escolar mais elogiados internacionalmente, adotado como referência pela FAO.",
+    "br_res": "funcionou",
+    "mundo": "A FAO exporta o modelo brasileiro de compra institucional da agricultura familiar para paises africanos e latino-americanos. Nos EUA o Farm to School cresceu por incentivo federal desde 2010. A restrição a ultraprocessados na escola e regra no Chile desde 2016 (Lei de Rotulagem), com redução documentada de compra de produtos com selo de advertência.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 59,
+   "vt": "forte",
+   "vd": "O PNAE é exportado pela FAO como modelo e a regra dos 30% existe desde 2009. Elevar para 45% é ampliar algo que comprovadamente funciona — o desafio é logístico, em município pequeno."
+  },
+  {
+   "id": "pt-br-48",
+   "titulo": "Continuar a reforma agrária e acelerar a titulação quilombola",
+   "setor": "ambiente",
+   "subtema": "Reforma agrária",
+   "resumo": "Assentar famílias acampadas, estruturar assentamentos, ampliar o crédito fundiário e fazer a regularização fundiária no Norte, com ampliação do PRONERA para acesso ao ensino técnico e superior no campo.",
+   "citacao": "Continuaremos a avançar na política de reforma agrária, assentando as famílias acampadas, estruturando os assentamentos e ampliando o acesso ao crédito fundiário. A regularização fundiária, especialmente na região Norte, também é essencial para a segurança jurídica dos produtores rurais e incentivo aos investimentos.",
+   "econ": -1,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "reforma-agraria-brasil-incra",
+    "credito-fundiario",
+    "titulacao-quilombola",
+    "pronera"
+   ],
+   "historico": {
+    "br": "A reforma agrária brasileira assentou cerca de um milhão de famílias desde 1985 e acumula problemas conhecidos: assentamentos sem título definitivo, sem assistência técnica e com renda média baixa; o Incra tem passivo de milhares de processos. O crédito fundiário (Banco da Terra e sucessores) teve inadimplência alta. A titulação quilombola avanca ainda mais devagar que a indígena.",
+    "br_res": "parcial",
+    "mundo": "A Coreia do Sul e Taiwan fizeram reforma agrária rapida e completa nos anos 1950, com efeito estrutural sobre produtividade e industrialização - contexto político irreproduzível. O Zimbabue e o caso oposto: redistribuição sem título, crédito ou assistência produziu colapso da produção. A reforma agrária de mercado do Banco Mundial, testada no Brasil nos anos 1990, teve resultado fraco.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 60,
+   "vt": "arriscada",
+   "vd": "Um milhão de famílias assentadas desde 1985 e o passivo é conhecido: sem título definitivo, sem assistência técnica, renda baixa. Assentar mais antes de resolver isso é repetir o ciclo."
+  },
+  {
+   "id": "pt-br-49",
+   "titulo": "Programa nacional de resiliência climática no campo e seguro rural para catastrofes",
+   "setor": "ambiente",
+   "subtema": "Agropecuária",
+   "resumo": "Ampliar áreas irrigadas, conservação de solos, agricultura de precisao e sistemas de alerta precoce, além de instrumento para cobrir perdas sistemicas de quebras severas de safra e expansão da ILPF.",
+   "citacao": "buscaremos implementar um programa nacional de resiliência climática no campo, ampliando as áreas irrigadas, promovendo a conservação dos solos, incentivando a agricultura de precisão e o plantio direto, além de modernizar ainda mais o monitoramento meteorológico e os sistemas de alerta precoce para os produtores.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "psr-seguro-rural",
+    "garantia-safra",
+    "ilpf-embrapa",
+    "crop-insurance-eua",
+    "plano-abc"
+   ],
+   "historico": {
+    "br": "O seguro rural brasileiro (PSR) sofre com orçamento volatil: o subsídio caiu de mais de R$ 1 bilhão em 2021 para poucas centenas de milhões nos anos seguintes, deixando o produtor exposto. O Proagro cobre pouco. As secas sucessivas no Rio Grande do Sul e as enchentes de 2024 mostraram que o instrumento não suporta perda sistemica. O Plano ABC+ de agricultura de baixo carbono tem adesao crescente.",
+    "br_res": "parcial",
+    "mundo": "Os EUA operam o Federal Crop Insurance Program com subsídio massivo e estável desde 1938 - o instrumento que mais estabiliza renda agrícola no mundo, ao custo de distorcer decisão de plantio. A India criou o PMFBY em 2016, com cobertura ampla e problemas de pagamento. O seguro parametrico por índice climático e a fronteira testada na Africa com resultados promissores.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 61,
+   "vt": "forte",
+   "vd": "O seguro rural americano existe desde 1938 e é o que mais estabiliza renda agrícola no mundo. O subsídio brasileiro caiu de mais de R$ 1 bilhão para poucas centenas de milhões justamente antes das enchentes de 2024."
+  },
+  {
+   "id": "pt-br-50",
+   "titulo": "Rastreabilidade individual do rebanho do nascimento ao abate",
+   "setor": "ambiente",
+   "subtema": "Pecuária",
+   "resumo": "Apoiar produtores na implementação para atender exigências internacionais, junto ao programa de recuperação de pastagens degradadas e melhoramento genético para reduzir emissões por quilo de carne.",
+   "citacao": "Os produtores serão apoiados na implementação de sistemas de rastreabilidade individual do rebanho, do nascimento ao abate, para atender às exigências dos mercados internacionais.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "rastreabilidade-bovina-brasil",
+    "eudr-uniao-europeia",
+    "recuperacao-pastagens-degradadas",
+    "moratoria-soja"
+   ],
+   "historico": {
+    "br": "O Sisbov existe desde 2002 e ficou restrito a propriedades habilitadas a exportar para a União Europeia - menos de 5% do rebanho. O Plano Nacional de Identificação Individual foi lançado em dezembro de 2024 com cronograma até 2032, o que deixa o país atrás da exigência europeia antidesmatamento, que passou a valer em 2026.",
+    "br_res": "parcial",
+    "mundo": "O Uruguai rastreia 100% do rebanho desde 2011 e usa isso como vantagem comercial: consegue premio de preço e acesso a mercados fechados a concorrentes. A Irlanda e a Australia tem sistemas completos há decadas. Onde a rastreabilidade foi obrigatória e custeada em parte pelo Estado, funcionou; onde ficou voluntária, ficou restrita ao exportador grande.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 62,
+   "vt": "forte",
+   "vd": "O Uruguai rastreia 100% do rebanho desde 2011 e converte isso em prêmio de preço. O cronograma brasileiro fecha em 2032 e a exigência europeia começou em 2026 — a defasagem custa contrato."
+  },
+  {
+   "id": "pt-br-51",
+   "titulo": "Acelerar a produção nacional de fertilizantes pela Petrobras",
+   "setor": "economia",
+   "subtema": "Soberania produtiva",
+   "resumo": "Continuar a retomada com unidades em Sergipe, Bahia e Parana e a conclusao da obra do Mato Grosso do Sul, reduzindo a dependência externa evidenciada pelos conflitos internacionais.",
+   "citacao": "Os conflitos internacionais evidenciaram a importância da autossuficiência em fertilizantes [...] No próximo governo, seguiremos acelerando a produção nacional de fertilizantes.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "plano-nacional-fertilizantes",
+    "ansa-petrobras-fertilizantes",
+    "dependencia-fertilizantes-brasil"
+   ],
+   "historico": {
+    "br": "A Petrobras desativou ou arrendou quase todas as fabricas de fertilizantes entre 2019 e 2021 (Araucária, Laranjeiras, Três Lagoas), no auge da política de desinvestimento, e a retomada desde 2023 e a reversão dessa decisão. A obra de Três Lagoas está parada desde 2014 e já consumiu bilhões. O Plano Nacional de Fertilizantes (2022) fixou meta de reduzir a dependência de 85% para 45% até 2050, um horizonte que revela a dificuldade.",
+    "br_res": "revertido",
+    "mundo": "Paises que dominam fertilizantes o fazem por dotação natural (Russia, Canada, Marrocos), não por política industrial. A India subsidia fertilizante há decadas com custo fiscal enorme e uso ineficiente. A China restringiu exportação em 2021 e mostrou o risco geopolítico. A alternativa com melhor evidência e reduzir a necessidade - fixação biológica de nitrogenio e bioinsumos, área onde a Embrapa e lider mundial.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 63,
+   "vt": "arriscada",
+   "vd": "A Petrobras desativou as fábricas entre 2019 e 2021 e agora as reativa; Três Lagoas está parada desde 2014 consumindo bilhões. Quem domina fertilizante tem jazida, não política industrial — a aposta melhor é a fixação biológica da Embrapa."
+  },
+  {
+   "id": "pt-br-52",
+   "titulo": "Manter e ampliar o Gas do Povo e a gratuidade da conta de luz do Luz do Povo",
+   "setor": "trabalho",
+   "subtema": "Pobreza energética",
+   "resumo": "Recarga gratuita do botijao de 13 kg para mais de 15 milhões de famílias e gratuidade de energia para famílias do CadUnico com consumo até 80 kWh/mês, alcancando mais de 60 milhões de pessoas.",
+   "citacao": "Com o Gás do Povo, o governo substituiu e ampliou o antigo Auxílio Gás, oferecendo recarga gratuita do botijão de GLP de 13 kg para famílias de baixa renda. O programa atende mais de 15 milhões de famílias, cerca de 50 milhões de pessoas.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "tarifa-social-energia",
+    "auxilio-gas",
+    "luz-para-todos",
+    "subsidio-combustivel-brasil-2002"
+   ],
+   "historico": {
+    "br": "O Auxílio Gas (2021) pagava metade do valor do botijao a cada dois meses e alcancava cerca de 5,5 milhões de famílias; o Gas do Povo (2025) troca a transferência por recarga gratuita direta no revendedor, para evitar que o dinheiro seja usado em outra coisa. A Tarifa Social de energia existe desde 2002 e a gratuidade até 80 kWh foi ampliada em 2025. O custo e repassado a tarifa dos demais consumidores via CDE, ponto criticado pelo setor.",
+    "br_res": "em_curso",
+    "mundo": "A Indonesia fez a transição mais famosa, do querosene para o GLP, com distribuição subsidiada de botijões e forte redução de uso de lenha. A India levou 80 milhões de conexões de GLP a famílias pobres pelo Ujjwala (2016), com problema conhecido: muitas famílias receberam o fogao e não conseguiram pagar a recarga - exatamente o problema que a recarga gratuita brasileira tenta resolver.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 66,
+   "vt": "promissora",
+   "vd": "A Índia entregou 80 milhões de fogões e descobriu que a família não conseguia pagar a recarga; a recarga gratuita ataca exatamente esse ponto. O custo, porém, volta na conta de luz de todo mundo via CDE."
+  },
+  {
+   "id": "pt-br-53",
+   "titulo": "Petrobras de volta a distribuição de combustíveis e expansão do refino",
+   "setor": "economia",
+   "subtema": "Petróleo",
+   "resumo": "Ampliar exploração onshore e offshore para recuperar participação no controle de reservas, revitalizar campos maduros, retomar a distribuição e ampliar a Transpetro na logística de GNL, mantendo conteudo local e alinhamento ao Acordo de Paris.",
+   "citacao": "A Petrobras deverá retornar ao segmento de distribuição de combustíveis, expandindo sua capacidade de refino e ampliando a atuação da Transpetro para logística de GNL. Defendemos ainda que a Petrobras continue também a orientar para a transição energética, alinhados ao Acordo de Paris e NDC brasileira, com investimentos em fontes de baixo carbono e redução efetiva de emissões operacionais.",
+   "econ": -2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "privatizacao-br-distribuidora",
+    "monopolio-petrobras-1953",
+    "ppi-petrobras",
+    "conteudo-local-politica"
+   ],
+   "historico": {
+    "br": "A BR Distribuidora foi vendida entre 2019 e 2021 e a Petrobras precisária recomprar ou recriar a rede para voltar a distribuição; a Transpetro retomou a construção naval de navios em 2024. A política de preços e o ponto historicamente instável: o PPI, adotado em 2016 e abandonado em 2023, foi acusado de repassar volatilidade e a política anterior, de subsidiar preço e gerar prejuízo bilionário a estatal em 2011-2014.",
+    "br_res": "parcial",
+    "mundo": "A Statoil/Equinor norueguesa mostra que estatal de petróleo pode ser eficiente com governança insulada e fundo soberano recebendo a renda. A Pemex mexicana e o contraexemplo: integração vertical mantida por decisão política, endividamento recorde e refino déficitário. A Saudi Aramco separou renda fiscal de gestão operacional. O fator que distingue os casos e blindagem da gestão, não o tamanho da estatal.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 67,
+   "vt": "arriscada",
+   "vd": "A BR Distribuidora foi vendida entre 2019 e 2021 e recomprar rede custa caro. Noruega e México mostram que o que separa estatal eficiente de sorvedouro é blindagem da gestão — e a política de preços é justamente onde ela some."
+  },
+  {
+   "id": "pt-br-54",
+   "titulo": "Preservar a competência nuclear e avançar na autonomia do ciclo do combustível",
+   "setor": "economia",
+   "subtema": "Energia nuclear",
+   "resumo": "Uso exclusivamente pacifico, com aproveitamento responsável das reservas de uranio condicionado a viabilidade técnica, econômica, ambiental e social, e reatores nucleares modulares entre as cadeias da transição.",
+   "citacao": "Avançaremos na autonomia do ciclo do combustível nuclear e aproveitaremos de forma responsável as reservas nacionais de urânio, sempre condicionado à viabilidade técnica, econômica, ambiental e social.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "angra-3",
+    "programa-nuclear-brasileiro",
+    "smr-reatores-modulares",
+    "tnp-nao-proliferacao"
+   ],
+   "historico": {
+    "br": "O programa nuclear brasileiro tem seis decadas de projetos inacabados: o acordo com a Alemanha de 1975 previa oito usinas e entregou uma; Angra 3 está parada desde 2015 após consumir bilhões e teve várias decisões de retomada revertidas. O Brasil domina o enriquecimento em escala piloto pelas centrifugas da Marinha e não tem conversao industrial nem reprocessamento. O Prosub segue como o projeto de maior continuidade.",
+    "br_res": "parcial",
+    "mundo": "A Franca construiu 56 reatores em duas decadas com padronização e decisão de Estado, e hoje enfrenta custo alto de renovação. A Coreia do Sul exportou reatores. Os SMRs prometidos por vários paises ainda não tem unidade comercial operando fora da Russia e da China; o projeto NuScale, nos EUA, foi cancelado em 2023 por custo. E uma tecnologia ainda não comprovada comercialmente.",
+    "mundo_res": "inconclusivo",
+    "conf": "alta"
+   },
+   "pagina": 68,
+   "vt": "arriscada",
+   "vd": "Seis décadas de projetos nucleares inacabados: o acordo de 1975 previa oito usinas e entregou uma, Angra 3 está parada desde 2015. SMR não tem unidade comercial fora de Rússia e China, e o NuScale americano foi cancelado por custo."
+  },
+  {
+   "id": "pt-br-55",
+   "titulo": "Reafirmar a meta de desmatamento liquido zero até 2030",
+   "setor": "ambiente",
+   "subtema": "Desmatamento",
+   "resumo": "Implementar planos de controle e prevenção e o Plano Nacional de Manejo Integrado do Fogo, destinar terras públicas a unidades de conservação, territórios indígenas, quilombolas ou assentamentos e expandir monitoramento satelital com IA contra crimes ambientais.",
+   "citacao": "continuaremos trabalhando para alcançar o desmatamento líquido zero até 2030, meta que reafirmamos. Para isto, todas as instâncias do governo persistirão atuando de forma integrada na implementação dos planos de controle e prevenção do desmatamento e na implementação plena do Plano Nacional de Manejo Integrado do Fogo.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "deter-prodes-inpe",
+    "codigo-florestal-2012",
+    "fundo-amazonia",
+    "ppcdam",
+    "acordo-de-paris"
+   ],
+   "historico": {
+    "br": "O Brasil já reduziu o desmatamento na Amazonia em cerca de 80% entre 2004 e 2012 com o PPCDAm, combinando fiscalização, embargo econômico, lista de municípios prioritários e a moratoria da soja - a maior redução de emissões já obtida por um país. A política foi desmontada entre 2019 e 2022, com alta expressiva, e retomada desde 2023 com nova queda. E a prova de que a política funciona e de que e reversível por decisão administrativa.",
+    "br_res": "funcionou",
+    "mundo": "A Indonesia reduziu desmatamento a partir de 2017 com moratoria de turfeiras e pressão de mercado. A Costa Rica reverteu a perda florestal com pagamento por serviços ambientais desde 1997. O padrão internacional confirma o brasileiro: fiscalização com restrição de crédito e de mercado e o que move a curva; compromisso voluntário sozinho, não.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 70,
+   "vt": "forte",
+   "vd": "O Brasil já derrubou o desmatamento cerca de 80% entre 2004 e 2012 e o desmontou entre 2019 e 2022. É a maior redução de emissões já obtida por um país e a prova de que a política funciona e é reversível por canetada."
+  },
+  {
+   "id": "pt-br-56",
+   "titulo": "Regulamentar o Sistema Brasileiro de Comércio de Emissões articulado a política industrial",
+   "setor": "ambiente",
+   "subtema": "Clima",
+   "resumo": "Operacionalizar o mercado regulado de carbono aprovado no mandato, articulado aos objetivos da Nova Indústria Brasil, e usar a Taxonomia Sustentável Brasileira para orientar alocação de capital.",
+   "citacao": "Avançaremos em uma regulamentação do Sistema Brasileiro de Comércio de Emissões (SBCE), aprovado neste mandato, articulada com objetivos da Nova Indústria Brasil. 52 P R O G R A M A D E G O V E R N O Nosso compromisso será ampliar a produção local em cadeias produtivas estratégicas e fortalecer a inserção do Brasil nas tecnologias da Indústria 4.0, internalizando tecnologias, verticalizando cadeias produtivas e promovendo um amplo processo de digitalização e renovação do maquinário industrial.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "lei-mercado-carbono-15042",
+    "eu-ets",
+    "carbon-tax-suecia",
+    "taxonomia-sustentavel-brasileira"
+   ],
+   "historico": {
+    "br": "A Lei 15.042/2024 criou o SBCE após mais de uma decada de projetos parados; o mercado voluntário brasileiro já existia e sofreu com escandalos de créditos em terras públicas griladas. A regulamentação e a fase mais difícil: definir alocação gratuita, teto e setores cobertos e onde reformas semelhantes travaram em outros paises.",
+    "br_res": "em_curso",
+    "mundo": "O ETS europeu começou em 2005 com preço próximo de zero por excesso de permissões gratuitas e só passou a funcionar depois da reforma de 2018, que criou a reserva de estabilidade - treze anos até operar como esperado. A California e o Reino Unido operam sistemas maduros. A China criou o maior mercado do mundo em volume, com preço baixo e cobertura limitada ao setor elétrico.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 51,
+   "vt": "promissora",
+   "vd": "O ETS europeu levou treze anos até funcionar, com preço perto de zero até a reforma de 2018. A lei brasileira saiu em 2024 — a regulamentação é onde a coisa se decide, e é o que ainda não existe."
+  },
+  {
+   "id": "pt-br-57",
+   "titulo": "Implementar o Fundo Florestas Tropicais para Sempre (TFFF) lançado na COP30",
+   "setor": "ambiente",
+   "subtema": "Financiamento climático",
+   "resumo": "Estruturar a governança do fundo para que os investimentos comecem, ao lado do Fundo Clima e do Eco Invest, que juntos já mobilizaram R$ 179 bilhões desde 2023.",
+   "citacao": "O Fundo Florestas Tropicais para Sempre implementará suas estruturas de governança para que os investimentos possam começar a ocorrer. Entendemos que o fortalecimento de arranjos regionais de planejamento e governança, envolvendo União, estados, municípios, consórcios públicos, universidades, instituições financeiras e setor produtivo, permitirá acelerar a implementação de políticas climáticas, compartilhar capacidades técnicas, estruturar projetos de escala regional e ampliar a eficiência dos investimentos públicos.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "tfff-cop30",
+    "fundo-amazonia",
+    "redd-plus",
+    "green-climate-fund"
+   ],
+   "historico": {
+    "br": "O Fundo Amazonia, criado em 2008 com dinheiro noruegues e alemao, e o precedente direto: funcionou, foi paralisado em 2019 por decisão unilateral sobre a governança e reativado em 2023. Mostrou que fundo de doação depende de estabilidade política do receptor. O TFFF, lançado na COP30 em 2025, muda o desenho ao remunerar floresta em pe por hectare a partir de um fundo de investimento, e não por doação.",
+    "br_res": "em_curso",
+    "mundo": "O modelo mais próximo e o de pagamento por resultado da Noruega com Indonesia e Guiana, que pagou pouco em relação ao prometido. O REDD+ acumulou duas decadas de promessas e desembolso muito inferior ao anunciado. O TFFF e uma inovação financeira sem precedente equivalente: o risco central e a captação, já que depende de aporte soberano de dezenas de bilhões de dolares.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 71,
+   "vt": "sem_precedente",
+   "vd": "O Fundo Amazônia funcionou e foi paralisado por decisão unilateral em 2019. O TFFF é inovação financeira sem equivalente: o risco não é o desenho, é captar dezenas de bilhões de dólares soberanos."
+  },
+  {
+   "id": "pt-br-58",
+   "titulo": "Reconhecer legalmente a restauração biocultural e incluir a Caatinga como ativo climático",
+   "setor": "ambiente",
+   "subtema": "Biomas",
+   "resumo": "Aprimorar o pagamento por serviços ambientais voltado a biodiversidade e estruturar mecanismos permanentes de financiamento climático para o Semiárido, reconhecendo adaptação, combate a desertificação e restauração como investimentos estratégicos.",
+   "citacao": "Reconhecer legalmente a restauração biocultural como estratégia de Estado, distinta e complementar a restauração florestal convencional... avancaremos na inclusão da Caatinga como ativo estratégico.",
+   "econ": -1,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "psa-lei-14119",
+    "desertificacao-semiarido",
+    "restauracao-cerrado",
+    "convencao-desertificacao-unccd"
+   ],
+   "historico": {
+    "br": "O pagamento por serviços ambientais tem lei federal desde 2021 (Lei 14.119) e projetos anteriores como o Bolsa Verde (2011), extinto em 2019 e recriado em 2023, e o Produtor de Água da ANA. A Caatinga e o único bioma exclusivamente brasileiro e historicamente o menos financiado; ficou fora dos grandes fundos climáticos, voltados a Amazonia.",
+    "br_res": "parcial",
+    "mundo": "A Costa Rica opera PSA desde 1997 financiado por imposto sobre combustíveis e e o caso de maior longevidade e efeito comprovado. O Mexico tem programa federal de PSA hídrico desde 2003, com avaliações de efeito moderado. A conclusao recorrente e que PSA funciona onde há fonte de financiamento própria e permanente, não onde depende de doação internacional.",
+    "mundo_res": "funcionou",
+    "conf": "media"
+   },
+   "pagina": 72,
+   "citacao_aprox": true,
+   "vt": "promissora",
+   "vd": "A Costa Rica sustenta PSA desde 1997 com imposto sobre combustível — fonte própria e permanente. O Bolsa Verde foi extinto em 2019 e recriado em 2023, o que mostra o problema brasileiro: PSA que depende de doação não dura."
+  },
+  {
+   "id": "pt-br-59",
+   "titulo": "Manter a ação pelo fim da escala 6x1 e jornada de 40 horas sem redução salarial",
+   "setor": "trabalho",
+   "subtema": "Jornada",
+   "resumo": "Atuar junto ao Senado para aprovar os termos já aprovados na Camara dos Deputados.",
+   "citacao": "Manteremos nossa ação junto ao Senado Federal para assegurar o fim da escala 6x1 e a redução da jornada de trabalho para 40 horas, sem redução salarial, nos termos aprovados na Câmara dos Deputados.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pec-fim-escala-6x1",
+    "35h-franca",
+    "semana-4-dias-islandia",
+    "clt-jornada-44h"
+   ],
+   "historico": {
+    "br": "A jornada de 44 horas está na Constituição de 1988 e a escala 6x1 e permitida pela CLT com folga semanal. A PEC que reduz para 36 horas e proibe a escala 6x1 nasceu de mobilização popular em 2024 e ainda depende de aprovação em dois turnos nas duas Casas. Reduções anteriores da jornada no Brasil (de 48 para 44 horas em 1988) não foram acompanhadas de perda de emprego documentada.",
+    "br_res": "em_curso",
+    "mundo": "A Franca adotou as 35 horas em 2000: houve criação de emprego no curto prazo, custo fiscal alto pela compensação as empresas e flexibilizações sucessivas depois. A Islandia testou a semana de quatro dias entre 2015 e 2019 com manutenção de produtividade e hoje quase 90% da força de trabalho tem jornada reduzida. Os testes britanicos de 2022 tiveram alta taxa de continuidade nas empresas participantes, com viesse de autosseleção.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 75,
+   "vt": "arriscada",
+   "vd": "A Islândia manteve produtividade com jornada reduzida e a França pagou caro pelas 35 horas com compensação às empresas. O Brasil discute a PEC sem estudo de impacto público — e é ela que decide se funciona."
+  },
+  {
+   "id": "pt-br-60",
+   "titulo": "Combater a pejotização espuria e alterar os marcos regressivos da legislação trabalhista",
+   "setor": "trabalho",
+   "subtema": "Legislação trabalhista",
+   "resumo": "Fiscalização e regras que inibam migrações fraudulentas, equiparando responsabilidades administrativas e previdenciárias, enfrentando fraudes em terceirizações e retomando a assistência sindical nas homologações de rescisao.",
+   "citacao": "Vamos continuar combatendo a pejotização espúria, com fiscalização, regras que inibam migrações fraudulentas, equiparando responsabilidades administrativas e previdenciárias e fortalecendo a inspeção do trabalho.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "reforma-trabalhista-2017",
+    "terceirizacao-stf",
+    "pejotizacao-stf-tema-1389",
+    "reforma-trabalhista-espanha-2021"
+   ],
+   "historico": {
+    "br": "A reforma trabalhista de 2017 e a lei da terceirização irrestrita (13.429/2017) são o alvo declarado. O efeito sobre o emprego formal foi menor que o prometido e a informalidade e a pejotização cresceram; o STF validou a terceirização ampla em 2018 e, em 2025, afetou a repercussao geral sobre a licitude da pejotização, o que pode consolidar a prática. Tentativas de revogação da reforma não avancaram no Congresso desde 2019.",
+    "br_res": "fracassou",
+    "mundo": "A Espanha reformou em 2021 no sentido inverso ao das reformas de 2012, restringindo o contrato temporário, e a temporalidade caiu de forma expressiva sem perda de emprego - o precedente mais forte de que reforma trabalhista e reversível. A Franca e a Italia foram no sentido da flexibilização. A California tentou reclassificar trabalhadores com a AB5 (2019) e foi derrotada pela Proposition 22, financiada pelas plataformas.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 74,
+   "vt": "promissora",
+   "vd": "A Espanha reverteu a flexibilização em 2021 e a temporalidade caiu sem perda de emprego — reforma trabalhista é reversível. Mas o STF caminha para consolidar a pejotização, e nenhuma revogação passou no Congresso desde 2019."
+  },
+  {
+   "id": "pt-br-61",
+   "titulo": "Sistema de proteção ao trabalho de plataforma com transparência algorítmica",
+   "setor": "trabalho",
+   "subtema": "Plataformas digitais",
+   "resumo": "Normatizar a atividade empresarial e definir regras de relação de trabalho, remuneração, condições, direitos laborais e previdenciários, incluindo o financiamento da previdência e cobertura para aposentadoria, acidentes e maternidade.",
+   "citacao": "Queremos consolidar um sistema de proteção aos trabalhadores [...] transparência algorítmica. Buscaremos também implementar políticas públicas para relação virtuosa entre tecnologia, inovação e trabalho e proteção a categorias afetadas com requalificação e inserção ocupacional.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "regulacao-apps-brasil",
+    "diretiva-plataformas-ue",
+    "ab5-california",
+    "uber-supremo-reino-unido"
+   ],
+   "historico": {
+    "br": "O Brasil tentou regulamentar o trabalho por aplicativo pelo PLP 12/2024, que criou categoria de trabalhador autônomo com contribuição previdenciária e foi rejeitado por sindicatos e por parte das plataformas; travou na Camara. O STF reconheceu repercussao geral sobre o vínculo, e até la há decisões contraditorias em todo o país. Não há, hoje, nenhum marco em vigor.",
+    "br_res": "fracassou",
+    "mundo": "A União Europeia aprovou em 2024 a diretiva de trabalho em plataforma, com presunção de vínculo e transparência algorítmica, a ser transposta pelos paises até 2026. A Espanha aprovou a Ley Rider em 2021, com reconhecimento de vínculo dos entregadores e saída de algumas empresas do mercado. O Chile regulou em 2022 com modelo hibrido. A California mostrou o caminho oposto com a Proposition 22.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 74,
+   "vt": "promissora",
+   "vd": "A diretiva europeia de 2024 com presunção de vínculo é o desenho mais avançado, e a Espanha o aplicou em 2021. O Brasil não tem marco nenhum: o PLP 12/2024 travou e o STF decide caso a caso."
+  },
+  {
+   "id": "pt-br-62",
+   "titulo": "Regulamentar o direito de negociação coletiva no setor público",
+   "setor": "estado",
+   "subtema": "Servidores",
+   "resumo": "Implementar a regulamentação e apoiar a atualização sindical que democratize o sistema de relações de trabalho no setor público e privado, urbano e rural, mantendo a Mesa Nacional de Negociação Permanente.",
+   "citacao": "Vamos implementar a regulamentação do direito de negociação coletiva no setor público e apoiar um processo de atualização sindical que democratize o sistema 77 de relações de trabalho no setor público e no setor privado, urbano e rural.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "convencao-151-oit",
+    "mesa-nacional-negociacao-permanente",
+    "contribuicao-sindical-2017"
+   ],
+   "historico": {
+    "br": "O Brasil ratificou a Convenção 151 da OIT em 2010 e até hoje não regulamentou a negociação coletiva no setor público; o STF entende que servidor tem direito de sindicalização e greve, sem lei de greve específica, o que produz decisão caso a caso há decadas. Projetos de regulamentação tramitam sem avanço desde 2011.",
+    "br_res": "fracassou",
+    "mundo": "A maioria dos paises da OCDE tem negociação coletiva no serviço público regulada, com arbitragem obrigatória para serviços essenciais - modelo canadense e o mais citado. O ponto de atrito comum e o mesmo em todos: como conciliar negociação salarial com o princípio de que despesa de pessoal depende de lei orçamentária.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 76,
+   "vt": "ja_falhou",
+   "vd": "O Brasil ratificou a Convenção 151 da OIT em 2010 e nunca regulamentou; projetos tramitam sem avanço desde 2011. O nó é conciliar negociação salarial com despesa que depende de lei orçamentária, e o plano não o enfrenta."
+  },
+  {
+   "id": "pt-br-63",
+   "titulo": "Reestruturar a base de financiamento da Previdência com fontes diversificadas",
+   "setor": "trabalho",
+   "subtema": "Previdência",
+   "resumo": "Construir mecanismos contributivos flexíveis capazes de acompanhar trajetorias ocupacionais descontinuas e multiplas, mantendo a proteção ao longo de toda a vida laboral, e concluir a modernização do atendimento do INSS.",
+   "citacao": "buscar reestruturar a base de financiamento da Previdência, buscando a diversidade das fontes de custeio.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "reforma-previdencia-2019",
+    "filas-inss",
+    "previdencia-informais-oit",
+    "desoneracao-folha-brasil"
+   ],
+   "historico": {
+    "br": "O sistema previdenciário brasileiro depende majoritariamente da folha de salários em uma economia com informalidade acima de 38%. A desoneração da folha (2011-2015) foi a tentativa de trocar essa base por faturamento e produziu perda de arrecadação sem efeito comprovado sobre emprego, sendo revertida em 2015 e depois reeditada parcialmente. A reforma de 2019 mexeu em regras de acesso, não na base de financiamento.",
+    "br_res": "fracassou",
+    "mundo": "A Franca criou a CSG em 1991, um imposto de base ampla que hoje financia parte relevante da seguridade e reduziu a dependência da folha - o caso mais bem-sucedido de troca de base. A Dinamarca financia a aposentadoria básica por tributos gerais. Paises que apenas reduziram contribuição sobre folha sem substituto (vários da América Latina) acumularam déficit.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 77,
+   "vt": "forte",
+   "vd": "A França criou a CSG em 1991 e reduziu a dependência da folha — é o caso mais bem-sucedido de troca de base. Com informalidade acima de 38%, financiar previdência na folha é insustentável aritmeticamente."
+  },
+  {
+   "id": "pt-br-64",
+   "titulo": "Fortalecer a Base Industrial e Tecnológica de Defesa com previsibilidade orçamentária",
+   "setor": "externa",
+   "subtema": "Defesa",
+   "resumo": "Manter os investimentos já executados (R$ 20,4 bilhões desde 2023, 7 caças Gripen entregues, 3 KC-390, 4 fragatas, 226 blindados) e reforcar a defesa cibernética com tecnologias próprias.",
+   "citacao": "fortaleceremos a Base Industrial e Tecnológica de Defesa, de modo a assegurar maior autonomia nacional nesse campo e estimular inovações com impactos positivos sobre o conjunto da economia.",
+   "econ": -1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "gripen-fx2",
+    "kc-390-embraer",
+    "prosub-submarinos",
+    "bitd-defesa-brasil"
+   ],
+   "historico": {
+    "br": "A Base Industrial de Defesa tem histórico de ciclos: a indústria dos anos 1980 (Engesa, Avibras, Embraer) quebrou nos anos 1990 com o fim das encomendas. A Lei 12.598/2012 criou o regime especial e o Prosub e o Gripen são os dois programas que sobreviveram a várias trocas de governo, ainda assim com atrasos e renegociações. O contingenciamento recorrente e o problema estrutural apontado por todos os diagnósticos.",
+    "br_res": "parcial",
+    "mundo": "Israel e a Coreia do Sul construiram indústrias de defesa exportadoras com demanda estatal previsível e exigência de offset em toda compra externa. A Suecia sustenta a Saab com programa plurianual. O denominador comum e contrato de longo prazo protegido do ciclo orçamentário - exatamente o que falta ao Brasil.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 78,
+   "vt": "promissora",
+   "vd": "Israel e Coreia construíram indústria exportadora com contrato plurianual protegido de contingenciamento. Prosub e Gripen sobreviveram a várias trocas de governo; o resto da indústria dos anos 1980 quebrou quando as encomendas pararam."
+  },
+  {
+   "id": "pt-br-65",
+   "titulo": "Inteligência de Estado em carater civil, com controle democrático",
+   "setor": "estado",
+   "subtema": "Inteligência",
+   "resumo": "Fortalecer a inteligência como instrumento de proteção da soberania, exercida sob neutralidade político-partidária e controle democrático, 'rejeitando seu uso para fins de perseguição política'.",
+   "citacao": "A atividade será exercida em caráter civil, subordinada ao Estado Democrático de Direito, à neutralidade político-partidária, aos direitos fundamentais e ao controle democrático, rejeitando seu uso para fins de perseguição política.",
+   "econ": 0,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "abin-paralela-investigacao",
+    "sisbin",
+    "controle-parlamentar-inteligencia"
+   ],
+   "historico": {
+    "br": "A Abin foi criada pela Lei 9.883/1999 justamente para dar carater civil a inteligência depois do SNI da ditadura. O tema voltou ao centro em 2023-2024 com as investigações sobre uso da agência para monitoramento político e sobre o sistema FirstMile - o precedente domestico mais recente e mais grave de desvio de finalidade. O controle externo pela comissão mista do Congresso e historicamente fraco.",
+    "br_res": "fracassou",
+    "mundo": "Os EUA criaram controle parlamentar robusto após as audiências do Comite Church (1975), que revelaram vigilância política; o Reino Unido tem o Investigatory Powers Tribunal e um comissário judicial. A Alemanha reformou o BND após revelações de espionagem. O padrão e que controle efetivo só surge depois de escandalo e depende de acesso real da comissão a documentos, não de previsão legal.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 79,
+   "vt": "arriscada",
+   "vd": "A Abin foi criada em 1999 justamente para dar caráter civil à inteligência, e 2023-2024 mostrou monitoramento político e a Abin paralela. Controle efetivo, nos EUA e no Reino Unido, só apareceu depois de escândalo e com acesso real da comissão a documento."
+  },
+  {
+   "id": "pt-br-66",
+   "titulo": "Reforma do Conselho de Segurança da ONU e da arquitetura financeira internacional",
+   "setor": "externa",
+   "subtema": "Multilateralismo",
+   "resumo": "Defender a democratização do FMI, do Banco Mundial e dos bancos multilaterais, fortalecer o CAF, o NDB e os mecanismos financeiros dos BRICS e retomar o mecanismo de solução de controversias da OMC.",
+   "citacao": "Continuaremos engajados na reforma das Nações Unidas, especi",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "reforma-conselho-seguranca-onu",
+    "brics",
+    "ndb-banco",
+    "omc-orgao-apelacao"
+   ],
+   "historico": {
+    "br": "O Brasil pleiteia assento permanente no Conselho de Segurança desde 1945 e articulou o G4 com Alemanha, India e Japao em 2004, sem qualquer avanço. A reforma exige emenda a Carta da ONU com aprovação dos cinco permanentes, cada um com veto - obstáculo que nunca foi superado em oito decadas.",
+    "br_res": "fracassou",
+    "mundo": "Nenhuma reforma do Conselho de Segurança ocorreu desde a ampliação de membros não permanentes em 1965. As cotas do FMI foram revistas em 2010, com implementação só em 2016 e ganho marginal para emergentes. O Novo Banco de Desenvolvimento dos BRICS e o CAF são a via alternativa efetivamente construida: em vez de reformar a instituição existente, criar outra ao lado.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 81,
+   "vt": "ja_falhou",
+   "vd": "Nenhuma reforma do Conselho de Segurança ocorreu desde 1965 e o Brasil pleiteia assento desde 1945. Exige emenda à Carta aprovada pelos cinco que têm veto — a via que funcionou foi criar banco novo ao lado, não reformar o antigo."
+  },
+  {
+   "id": "pt-br-67",
+   "titulo": "Consolidar o Mercosul e criar mercado comum sul-americano de energia",
+   "setor": "externa",
+   "subtema": "Integração regional",
+   "resumo": "Aprofundar a integração em infraestrutura com conexões ao Pacifico e ao Caribe, coordenação regulatoria energética e fortalecimento da OTCA na bioeconomia e no combate a ilicitos transnacionais.",
+   "citacao": "Promoveremos um mercado comum sul-americano de energia, com interconexões e coordenação regulatória. Consolidaremos a Amazônia como eixo estratégico da integração regional fortalecendo a Organização do Tratado de Cooperação Amazônica (OTCA) na bioeconomia, na ciência, no financiamento verde e no combate coordenado aos ilícitos transnacionais.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "mercosul-ue-acordo",
+    "unasul-alba",
+    "iirsa-integracao",
+    "otca-amazonia"
+   ],
+   "historico": {
+    "br": "O Mercosul completa mais de três decadas como União aduaneira imperfeita, com exceções a tarifa externa comum e barreiras internas persistentes; o acordo com a União Europeia foi negociado por 25 anos até a conclusao política. A Unasul foi criada em 2008, esvaziada em 2019 com a saída de seis paises e parcialmente reativada depois. A integração energética avançou pouco além de Itaipu e de interconexões bilaterais.",
+    "br_res": "parcial",
+    "mundo": "A União Europeia levou quatro decadas do carvao e do aco ao mercado único, sustentada por instituições supranacionais que a América do Sul nunca aceitou criar. O mercado comum de energia da América Central (SIEPAC) funciona em escala pequena. A Asean integrou comércio sem integrar política. A lição e que integração energética exige regulador comum, e não apenas linha de transmissão.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 80,
+   "vt": "arriscada",
+   "vd": "Três décadas de união aduaneira imperfeita e a Unasul esvaziada em 2019. Mercado comum de energia exige regulador comum, e é exatamente isso que a América do Sul nunca aceitou criar."
+  },
+  {
+   "id": "pt-br-68",
+   "titulo": "Liderar a governança internacional da inteligência artificial com soberania digital",
+   "setor": "externa",
+   "subtema": "Tecnologia",
+   "resumo": "Construir governança baseada em proteção de dados, cooperação científica, transferência de tecnologias estratégicas e regulamentação democrática das plataformas e da IA.",
+   "citacao": "Queremos liderar a construção de uma governança internacional para as 82 P R O G R A M A D E G O V E R N O tecnologias digitais e a inteligência artificial, baseada na soberania digital com proteção de dados, cooperação científica, transferência de tecnologias estratégicas e regulamentação democrática das plataformas digitais e da IA.",
+   "econ": 0,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "ai-act-uniao-europeia",
+    "pacto-digital-global-onu",
+    "brics",
+    "gpai-parceria-global-ia"
+   ],
+   "historico": {
+    "br": "O Brasil presidiu o G20 em 2024 e incluiu governança de IA e taxação de super-ricos na agenda, e sediou em 2025 uma cupula sobre o tema. Internamente, porém, o PL 2338/2023 de regulação da IA passou no Senado e travou na Camara, o que enfraquece a posição de quem propoe regra internacional sem ter regra domestica.",
+    "br_res": "em_curso",
+    "mundo": "A governança global de IA acumula declarações sem obrigação: a cupula de Bletchley (2023), o processo de Hiroshima do G7, a resolução da ONU de 2024. O único instrumento vinculante e o AI Act europeu, de alcance regional. A experiência da governança climática sugere que regime internacional só ganha tração quando as grandes potências tem interesse convergente - o que hoje não ocorre entre EUA e China.",
+    "mundo_res": "inconclusivo",
+    "conf": "alta"
+   },
+   "pagina": 81,
+   "vt": "arriscada",
+   "vd": "A governança global de IA acumula declarações sem obrigação, e o único instrumento vinculante é regional. Liderar regra internacional sem ter regra doméstica — o PL 2338 travou na Câmara — enfraquece a posição."
+  }
+ ]
+}

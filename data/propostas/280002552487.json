@@ -1,0 +1,727 @@
+{
+ "sq": "280002552487",
+ "doc": "2026BR280002552487_01",
+ "alerta_doc": "Documento identico ao registrado pelo candidato do PCO ao governo do Distrito Federal (2026DF70002552341_01). Mesmo arquivo, mesmo numero de paginas e mesmo conteudo.",
+ "resumo_doc": "Programa de luta do PCO em 15 pontos. O texto abre declarando que o partido nao disputa eleicoes para fazer promessas e que as eleicoes sao 'terreno secundario' da luta de classes, sendo apenas tribuna de propaganda do socialismo e do governo operario. E o programa mais radical do conjunto em ambos os eixos economicos: estatizacao do sistema financeiro, cancelamento das dividas, nacionalizacao sem indenizacao. Combina isso com posicoes libertarias em liberdade de expressao (fim de toda censura) e com a defesa do fim do STF.",
+ "propostas": [
+  {
+   "id": "pco-br-01",
+   "titulo": "Aumento emergencial de 50% em todos os salarios e reposicao integral das perdas",
+   "setor": "trabalho",
+   "subtema": "Salarios",
+   "resumo": "Reajuste geral imediato de 50% somado a reposicao de 100% das perdas acumuladas com a inflacao.",
+   "citacao": "Reposicao integral de 100% das perdas salariais; aumento emergencial de 50% de todos os salarios.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "politica-salarial-gatilho",
+    "escala-movel-argentina",
+    "cruzado-1986"
+   ]
+  },
+  {
+   "id": "pco-br-02",
+   "titulo": "Escala movel de salarios com gatilho a cada 3% de inflacao",
+   "setor": "trabalho",
+   "subtema": "Salarios",
+   "resumo": "Reajuste automatico dos salarios sempre que o custo de vida subir 3%.",
+   "citacao": "Escala movel dos salarios, diante da escalada da inflacao: aumento automatico toda vez que o custo de vida do trabalhador subir 3%.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "politica-salarial-gatilho",
+    "indexacao-brasil-anos-80",
+    "scala-mobile-italia"
+   ]
+  },
+  {
+   "id": "pco-br-03",
+   "titulo": "Salario minimo vital de pelo menos R$ 7.500 definido por organizacoes operarias",
+   "setor": "trabalho",
+   "subtema": "Salario minimo",
+   "resumo": "Piso nacional fixado no valor necessario a familia do trabalhador, hoje calculado em nao menos que R$ 7.500, deliberado pelas entidades sindicais e nao pelo governo.",
+   "citacao": "Salario minimo vital suficiente para atender as necessidades do trabalhador e de sua familia (que hoje nao poderia ser menor que R$7.500), deliberado pelas organizacoes operarias.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "salario-minimo-dieese",
+    "salario-minimo-15-seattle",
+    "salario-minimo-venezuela"
+   ]
+  },
+  {
+   "id": "pco-br-04",
+   "titulo": "Bolsa Familia de no minimo um salario minimo",
+   "setor": "trabalho",
+   "subtema": "Transferencia de renda",
+   "resumo": "Elevar o beneficio ao patamar de um salario minimo enquanto durar a crise.",
+   "citacao": "Auxilio emergencial de verdade, Bolsa Familia de pelo menos um salario minimo, enquanto durar a situacao de caos atual.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "bolsa-familia",
+    "auxilio-emergencial-2020",
+    "renda-basica-finlandia"
+   ]
+  },
+  {
+   "id": "pco-br-05",
+   "titulo": "Anulacao de todas as dividas dos trabalhadores com o sistema financeiro",
+   "setor": "economia",
+   "subtema": "Endividamento",
+   "resumo": "Cancelamento geral do endividamento das familias junto a bancos e financeiras.",
+   "citacao": "Anulacao de todas as dividas dos trabalhadores com o sistema financeiro.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "desenrola-brasil",
+    "jubileu-divida",
+    "lei-superendividamento"
+   ]
+  },
+  {
+   "id": "pco-br-06",
+   "titulo": "Jornada de 35 horas semanais sem reducao de salario",
+   "setor": "trabalho",
+   "subtema": "Jornada",
+   "resumo": "Maximo de 7 horas por dia e 5 dias por semana, apresentado como forma de eliminar o desemprego.",
+   "citacao": "Reducao da jornada de trabalho para o maximo de 7 horas por dia, 5 dias por semana (35 horas semanais): trabalhar menos para que todos trabalhem.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "35h-franca",
+    "semana-4-dias-islandia",
+    "pec-fim-escala-6x1"
+   ]
+  },
+  {
+   "id": "pco-br-07",
+   "titulo": "Proibicao de demissoes e ocupacao das empresas que demitirem",
+   "setor": "trabalho",
+   "subtema": "Estabilidade",
+   "resumo": "Vedar dispensas e autorizar a ocupacao e o controle operario de empresas que demitam ou ameacem fechar.",
+   "citacao": "Proibicao das demissoes; ocupacao e controle dos trabalhadores sobre as empresas que demitam ou ameacem fechar.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "empresas-recuperadas-argentina",
+    "convencao-158-oit",
+    "protecao-emprego-europa"
+   ]
+  },
+  {
+   "id": "pco-br-08",
+   "titulo": "Salario-desemprego igual ao ultimo salario recebido",
+   "setor": "trabalho",
+   "subtema": "Seguro-desemprego",
+   "resumo": "Substituir o seguro-desemprego atual por beneficio de reposicao integral do ultimo salario.",
+   "citacao": "Salario-desemprego igual ao ultimo salario recebido para todos os trabalhadores demitidos.",
+   "econ": -2,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "seguro-desemprego-brasil",
+    "seguro-desemprego-dinamarca-flexicurity"
+   ]
+  },
+  {
+   "id": "pco-br-09",
+   "titulo": "Proibicao de despejos e de corte de agua, luz e gas para desempregados",
+   "setor": "cidade",
+   "subtema": "Servicos essenciais",
+   "resumo": "Vedar despejos e a interrupcao de servicos essenciais a quem esta desempregado.",
+   "citacao": "Proibicao de despejos e cortes de servicos essenciais (como agua, luz, gas etc.) para todos os desempregados.",
+   "econ": -2,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "moratoria-despejos-covid",
+    "tarifa-social-energia"
+   ]
+  },
+  {
+   "id": "pco-br-10",
+   "titulo": "Passe livre para desempregados e trabalhadores informais",
+   "setor": "cidade",
+   "subtema": "Transporte publico",
+   "resumo": "Gratuidade no transporte para quem esta fora do mercado formal.",
+   "citacao": "Passe livre nos transportes para desempregados e trabalhadores da economia informal.",
+   "econ": -2,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "tarifa-zero-marica",
+    "gratuidades-transporte-brasil"
+   ]
+  },
+  {
+   "id": "pco-br-11",
+   "titulo": "Revogacao integral da reforma trabalhista de 2017",
+   "setor": "trabalho",
+   "subtema": "Legislacao trabalhista",
+   "resumo": "Cancelar a reforma trabalhista, restabelecer a CLT integralmente e acabar com a terceirizacao.",
+   "citacao": "Cancelamento da 'reforma' trabalhista, retorno e ampliacao de toda a legislacao de protecao dos trabalhadores.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "reforma-trabalhista-2017",
+    "terceirizacao-stf",
+    "reforma-trabalhista-espanha-2021"
+   ]
+  },
+  {
+   "id": "pco-br-12",
+   "titulo": "Aposentadoria com 25 anos de trabalho para mulheres e 30 para homens",
+   "setor": "trabalho",
+   "subtema": "Previdencia",
+   "resumo": "Revogar as reformas previdenciarias em todos os niveis e fixar tempo maximo de contribuicao bem abaixo do atual.",
+   "citacao": "Aposentadoria, no maximo, aos 25 anos de trabalho para as mulheres e 30 anos para os homens.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "reforma-previdencia-2019",
+    "aposentadoria-tempo-servico-1998",
+    "previdencia-grecia"
+   ]
+  },
+  {
+   "id": "pco-br-13",
+   "titulo": "Imposto sobre grandes fortunas para financiar aposentadorias",
+   "setor": "economia",
+   "subtema": "Tributacao",
+   "resumo": "Criar o IGF, previsto na Constituicao e nunca regulamentado, destinando a arrecadacao a previdencia.",
+   "citacao": "Imposto sobre as grandes fortunas para garantir os recursos necessarios para as aposentadorias e pensoes.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "igf-art-153-cf",
+    "isf-franca",
+    "imposto-riqueza-noruega",
+    "imposto-riqueza-espanha"
+   ]
+  },
+  {
+   "id": "pco-br-14",
+   "titulo": "Fim dos privilegios de oficiais militares, juizes e familiares",
+   "setor": "estado",
+   "subtema": "Privilegios",
+   "resumo": "Acabar com regimes previdenciarios e vantagens especiais de militares e magistrados.",
+   "citacao": "Fim dos privilegios de oficiais militares, juizes e familiares.",
+   "econ": -1,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "penduricalhos-judiciario",
+    "previdencia-militar-2019",
+    "teto-remuneratorio"
+   ]
+  },
+  {
+   "id": "pco-br-15",
+   "titulo": "Cancelamento de todas as privatizacoes ja realizadas",
+   "setor": "economia",
+   "subtema": "Desprivatizacao",
+   "resumo": "Reverter as privatizacoes de Eletrobras, Vale, bancos e telefonia e barrar as de Correios, Petrobras e Caixa com greves e ocupacoes.",
+   "citacao": "Cancelamento de todas as privatizacoes realizadas (Eletrobras, Vale, bancos, telefonia etc.).",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "privatizacao-eletrobras-2021",
+    "privatizacao-vale-1997",
+    "renacionalizacao-ypf-argentina",
+    "renacionalizacao-ferrovias-reino-unido"
+   ]
+  },
+  {
+   "id": "pco-br-16",
+   "titulo": "Petrobras 100% estatal com direcao eleita pelos trabalhadores",
+   "setor": "economia",
+   "subtema": "Petroleo",
+   "resumo": "Nacionalizar o petroleo e eleger todos os postos de direcao da estatal pelos proprios empregados.",
+   "citacao": "Nacionalizacao do petroleo, Petrobras 100% estatal, sob o controle dos trabalhadores, com eleicao de todos os seus postos de direcao pelos trabalhadores.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "monopolio-petrobras-1953",
+    "cessao-onerosa-partilha",
+    "pemex-mexico",
+    "autogestao-iugoslava"
+   ]
+  },
+  {
+   "id": "pco-br-17",
+   "titulo": "Estatizacao sem indenizacao das reservas minerais e refinarias",
+   "setor": "economia",
+   "subtema": "Mineracao",
+   "resumo": "Tomar sem pagamento as reservas minerais e refinarias transferidas ao capital estrangeiro.",
+   "citacao": "Nacionalizacao e estatizacao, sem indenizacao, de todas as reservas minerais, refinarias etc. entregues aos tubaroes internacionais.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "desapropriacao-indenizacao-cf",
+    "nacionalizacao-energia-bolivia",
+    "expropriacao-venezuela",
+    "nacionalizacao-litio-chile"
+   ]
+  },
+  {
+   "id": "pco-br-18",
+   "titulo": "Reducao imediata de 50% no preco dos combustiveis e fim da paridade com o dolar",
+   "setor": "economia",
+   "subtema": "Precos administrados",
+   "resumo": "Cortar pela metade o preco dos combustiveis e abandonar a politica de paridade de precos de importacao.",
+   "citacao": "Reducao imediata do preco dos combustiveis em 50%. Fim da politica de paridade com o dolar.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "ppi-petrobras",
+    "subsidio-combustivel-brasil-2002",
+    "subsidio-combustivel-equador-2019",
+    "subsidio-combustivel-indonesia"
+   ]
+  },
+  {
+   "id": "pco-br-19",
+   "titulo": "Estatal de terras raras sob comando dos trabalhadores",
+   "setor": "economia",
+   "subtema": "Minerais criticos",
+   "resumo": "Criar empresa publica para controlar a exploracao das terras raras e impedir sua entrega ao capital estrangeiro.",
+   "citacao": "Nao a entrega das terras raras: criacao de empresa estatal que controle sua exploracao, comandada pelos trabalhadores.",
+   "econ": -2,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "nacionalizacao-litio-chile",
+    "terras-raras-china",
+    "politica-minerais-criticos-brasil"
+   ]
+  },
+  {
+   "id": "pco-br-20",
+   "titulo": "Fim do teto de gastos e da Lei de Responsabilidade Fiscal",
+   "setor": "economia",
+   "subtema": "Regra fiscal",
+   "resumo": "Revogar o congelamento de gastos e a LRF para ampliar verbas de saude, educacao e servicos.",
+   "citacao": "Fim do teto de gastos e da Lei de Responsabilidade Fiscal. Abaixo o congelamento de gastos publicos decretado no governo Temer.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "teto-gastos-ec95",
+    "lrf-2000",
+    "arcabouco-fiscal-2023",
+    "pacto-estabilidade-ue"
+   ]
+  },
+  {
+   "id": "pco-br-21",
+   "titulo": "Manutencao da estabilidade do servidor e fim das terceirizacoes",
+   "setor": "estado",
+   "subtema": "Pessoal",
+   "resumo": "Rejeitar o fim da estabilidade, dar estabilidade imediata a contratados precarios com isonomia salarial e realizar concursos periodicos.",
+   "citacao": "Nao ao fim da estabilidade dos servidores publicos... estabilidade imediata para todos os servidores contratados precariamente, com isonomia de direitos e salarios.",
+   "econ": -2,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "reforma-administrativa-pec-32",
+    "terceirizacao-stf",
+    "art-19-adct"
+   ]
+  },
+  {
+   "id": "pco-br-22",
+   "titulo": "Assentamento imediato dos sem-terra e ocupacao do latifundio",
+   "setor": "ambiente",
+   "subtema": "Reforma agraria",
+   "resumo": "Assentar todos os acampados, ocupar o latifundio e garantir terra a quem nela trabalha.",
+   "citacao": "Assentamento imediato dos milhoes de sem-terra acampados em todo o Pais... Ocupar o latifundio para garantir terra para quem nela more e trabalhe.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "reforma-agraria-brasil-incra",
+    "estatuto-terra-1964",
+    "reforma-agraria-chile-allende",
+    "reforma-agraria-coreia-taiwan"
+   ]
+  },
+  {
+   "id": "pco-br-23",
+   "titulo": "Demarcacao de todas as terras indigenas e expulsao de invasores",
+   "setor": "ambiente",
+   "subtema": "Povos indigenas",
+   "resumo": "Demarcar as terras das retomadas e expulsar latifundiarios que ocuparam areas indigenas.",
+   "citacao": "Demarcacao e posse da terra para todos os indios das retomadas; expulsao dos latifundiarios que invadiram as terras dos indios.",
+   "econ": null,
+   "social": -2,
+   "peso": 3,
+   "precedentes": [
+    "marco-temporal-indigena",
+    "demarcacao-raposa-serra-do-sol",
+    "constituicao-1988-art-231"
+   ]
+  },
+  {
+   "id": "pco-br-24",
+   "titulo": "Direito de autodefesa e armamento para trabalhadores rurais e indigenas",
+   "setor": "seguranca",
+   "subtema": "Armas",
+   "resumo": "Reconhecer o direito de trabalhadores do campo e indigenas se armarem para autodefesa, e formar comites de autodefesa nas cidades e no campo.",
+   "citacao": "Direito de autodefesa e armamento para os trabalhadores do campo e indios.",
+   "econ": null,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "estatuto-desarmamento-2003",
+    "milicias-autodefensas-mexico",
+    "armamento-defesa-pessoal"
+   ]
+  },
+  {
+   "id": "pco-br-25",
+   "titulo": "Expropriacao dos imoveis vagos e proibicao de despejos",
+   "setor": "cidade",
+   "subtema": "Habitacao",
+   "resumo": "Tomar imoveis vazios de especuladores, proibir despejos e desocupacoes e lancar plano nacional de milhoes de moradias sob controle dos trabalhadores.",
+   "citacao": "Expropriacao dos imoveis vagos dos especuladores do mercado imobiliario. Proibicao de despejos e desocupacoes.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "iptu-progressivo-tempo",
+    "funcao-social-propriedade",
+    "viena-social-housing",
+    "mcmv-entidades",
+    "expropriacao-venezuela"
+   ]
+  },
+  {
+   "id": "pco-br-26",
+   "titulo": "Fim dos vestibulares e livre ingresso nas universidades",
+   "setor": "educacao",
+   "subtema": "Acesso ao ensino superior",
+   "resumo": "Abolir a selecao por vestibular e permitir entrada livre no ensino superior publico.",
+   "citacao": "Fim dos vestibulares. Livre ingresso nas universidades.",
+   "econ": -1,
+   "social": -2,
+   "peso": 3,
+   "precedentes": [
+    "ingresso-livre-argentina-uba",
+    "enem-sisu",
+    "numerus-clausus-franca"
+   ]
+  },
+  {
+   "id": "pco-br-27",
+   "titulo": "Estatizacao do ensino pago e verba publica so para escola publica",
+   "setor": "educacao",
+   "subtema": "Publico e privado",
+   "resumo": "Encampar as instituicoes privadas de ensino e cortar todo repasse publico ao setor privado.",
+   "citacao": "Estatizacao do ensino pago... Mais verbas para a educacao; verbas publicas somente para o ensino publico.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "prouni-fies",
+    "estatizacao-ensino-cuba",
+    "vinculacao-orcamentaria-educacao"
+   ]
+  },
+  {
+   "id": "pco-br-28",
+   "titulo": "Piso nacional do professor de pelo menos R$ 8,5 mil e jornada de 30h",
+   "setor": "educacao",
+   "subtema": "Docentes",
+   "resumo": "Elevar o piso do magisterio e limitar a jornada docente a 30 horas semanais.",
+   "citacao": "Piso salarial nacional dos professores de, pelo menos, R$8,5 mil... Jornada de trabalho dos professores de no maximo 30 horas semanais.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "piso-magisterio",
+    "lei-11738-piso",
+    "adi-4167-stf"
+   ]
+  },
+  {
+   "id": "pco-br-29",
+   "titulo": "Eleicao de diretores e governo tripartite nas universidades",
+   "setor": "educacao",
+   "subtema": "Gestao escolar",
+   "resumo": "Eleicao direta de todos os postos de direcao nas escolas e cogestao de estudantes, professores e funcionarios nas universidades.",
+   "citacao": "Eleicao dos diretores e de todos os postos de direcao nas escolas; governo tripartite (estudantes, professores e funcionarios) nas Universidades.",
+   "econ": null,
+   "social": -2,
+   "peso": 2,
+   "precedentes": [
+    "gestao-democratica-escolar",
+    "reforma-cordoba-1918",
+    "eleicao-reitores-brasil"
+   ]
+  },
+  {
+   "id": "pco-br-30",
+   "titulo": "Fim da proibicao do celular nas escolas",
+   "setor": "educacao",
+   "subtema": "Regras escolares",
+   "resumo": "Revogar a proibicao do uso de celulares em sala de aula, tratada como censura.",
+   "citacao": "Abaixo a censura; fim da proibicao do uso de celulares nas escolas.",
+   "econ": null,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "lei-celular-escolas-15100",
+    "proibicao-celular-franca",
+    "proibicao-celular-holanda"
+   ]
+  },
+  {
+   "id": "pco-br-31",
+   "titulo": "Volta do Mais Medicos e validacao imediata de diplomas",
+   "setor": "saude",
+   "subtema": "Forca de trabalho",
+   "resumo": "Retomar o programa e revalidar automaticamente diplomas de medicos brasileiros e estrangeiros residentes.",
+   "citacao": "Volta do programa Mais Medicos e validacao imediata de todos os diplomas de medicos brasileiros e estrangeiros residentes no Pais.",
+   "econ": -1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "mais-medicos",
+    "revalida",
+    "medicos-cubanos-2018"
+   ]
+  },
+  {
+   "id": "pco-br-32",
+   "titulo": "Centenas de novos cursos de medicina com acesso sem vestibular",
+   "setor": "saude",
+   "subtema": "Formacao",
+   "resumo": "Abrir cursos de medicina e enfermagem nas universidades publicas com ingresso livre para suprir falta de profissionais.",
+   "citacao": "Abertura imediata de centenas de cursos de medicina, enfermagem etc. com livre acesso (sem vestibular!) nas universidades publicas.",
+   "econ": -1,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "mais-medicos",
+    "abertura-cursos-medicina-moratoria",
+    "ingresso-livre-argentina-uba"
+   ]
+  },
+  {
+   "id": "pco-br-33",
+   "titulo": "Dissolucao da Policia Militar e de todo o aparato repressivo",
+   "setor": "seguranca",
+   "subtema": "Modelo policial",
+   "resumo": "Extinguir a PM e substitui-la por comites de autodefesa de trabalhadores, do campo e de comunidades indigenas.",
+   "citacao": "Dissolucao da policia militar e de todo o aparato repressivo... Formar comites de autodefesa dos trabalhadores da cidade, do campo e das comunidades de indios.",
+   "econ": null,
+   "social": -2,
+   "peso": 3,
+   "precedentes": [
+    "pec-51-desmilitarizacao",
+    "defund-minneapolis",
+    "camden-nj",
+    "milicias-autodefensas-mexico"
+   ]
+  },
+  {
+   "id": "pco-br-34",
+   "titulo": "Cassar a concessao da Rede Globo e estatizar as grandes emissoras",
+   "setor": "estado",
+   "subtema": "Comunicacao",
+   "resumo": "Cancelar concessoes dos grandes meios de comunicacao por crimes contra o pais e estatiza-los sob controle dos trabalhadores.",
+   "citacao": "Cancelamento da concessao da Rede Globo (e dos demais grandes meios de comunicacao) por crimes contra o Pais. Estatizacao das empresas, sob o controle dos trabalhadores.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "lei-midia-democratica",
+    "ley-de-medios-argentina",
+    "cierre-rctv-venezuela",
+    "concessoes-radiodifusao-brasil"
+   ]
+  },
+  {
+   "id": "pco-br-35",
+   "titulo": "Liberdade irrestrita de expressao e revogacao da Lei Felca",
+   "setor": "direitos",
+   "subtema": "Liberdade de expressao",
+   "resumo": "Fim de todo tipo de censura na imprensa, na internet e nas ruas, com revogacao expressa da chamada Lei Felca.",
+   "citacao": "Fim de todo tipo de censura, liberdade irrestrita de expressao, na imprensa, na Internet, nas ruas etc. Abaixo a 'Lei Felca'.",
+   "econ": null,
+   "social": -2,
+   "peso": 3,
+   "precedentes": [
+    "lei-felca-2025",
+    "pl-2630-fake-news",
+    "dsa-uniao-europeia",
+    "secao-230-eua"
+   ]
+  },
+  {
+   "id": "pco-br-36",
+   "titulo": "Internet gratuita para toda a populacao e fim do monopolio das teles",
+   "setor": "cti",
+   "subtema": "Conectividade",
+   "resumo": "Quebrar o monopolio das grandes empresas de telecomunicacoes e universalizar acesso gratuito a internet.",
+   "citacao": "Quebra do monopolio na Internet pelas grandes empresas privadas de telecomunicacoes. Internet gratuita para toda a populacao.",
+   "econ": -2,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "banda-larga-popular-pnbl",
+    "internet-brasil-escolas",
+    "broadband-chattanooga",
+    "internet-municipal-eua"
+   ]
+  },
+  {
+   "id": "pco-br-37",
+   "titulo": "Estatizacao do sistema financeiro em banco unico sob controle operario",
+   "setor": "economia",
+   "subtema": "Sistema financeiro",
+   "resumo": "Nacionalizar os bancos em uma unica instituicao estatal, reduzir juros imediatamente e acabar com a independencia do Banco Central.",
+   "citacao": "Estatizacao do sistema financeiro; banco estatal unico sob o controle dos trabalhadores. Fim da 'independencia' do Banco Central.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "nacionalizacao-bancos-franca-1982",
+    "nacionalizacao-bancos-mexico-1982",
+    "independencia-bacen-lc-179",
+    "nacionalizacao-bancos-bolivia"
+   ]
+  },
+  {
+   "id": "pco-br-38",
+   "titulo": "Cancelamento das dividas externa e interna com os bancos",
+   "setor": "economia",
+   "subtema": "Divida publica",
+   "resumo": "Nao pagar a divida publica, descrita como fraudulenta e ja paga varias vezes.",
+   "citacao": "Cancelamento das dividas externa e interna com os bancos e grandes credores.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "default-argentina-2001",
+    "auditoria-divida-equador",
+    "moratoria-brasil-1987",
+    "default-russia-1998"
+   ]
+  },
+  {
+   "id": "pco-br-39",
+   "titulo": "Fim dos impostos sobre consumo e salarios, tributando so capital e fortunas",
+   "setor": "economia",
+   "subtema": "Tributacao",
+   "resumo": "Eliminar a tributacao indireta e sobre a folha, concentrando a arrecadacao em ganhos de capital e grandes fortunas.",
+   "citacao": "Fim dos impostos sobre o consumo e os salarios. Imposto somente sobre os ganhos dos capitalistas e grandes fortunas.",
+   "econ": -2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "reforma-tributaria-ec132",
+    "igf-art-153-cf",
+    "tributacao-lucros-dividendos",
+    "regressividade-tributaria-brasil"
+   ]
+  },
+  {
+   "id": "pco-br-40",
+   "titulo": "Fim do STF e eleicao popular de juizes e procuradores com mandato revogavel",
+   "setor": "estado",
+   "subtema": "Judiciario",
+   "resumo": "Extinguir o Supremo Tribunal Federal e submeter todos os magistrados e membros do Ministerio Publico ao voto popular, com possibilidade de revogacao do mandato.",
+   "citacao": "Fim do Supremo Tribunal Federal (STF); eleicao de todos os juizes e procuradores pelo voto popular e com mandatos revogaveis.",
+   "econ": null,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "eleicao-juizes-eua",
+    "eleicao-juizes-bolivia-2011",
+    "reforma-judicial-mexico-2024",
+    "clausula-petrea-separacao-poderes"
+   ]
+  },
+  {
+   "id": "pco-br-41",
+   "titulo": "Revogar a Ficha Limpa e a clausula de barreira",
+   "setor": "estado",
+   "subtema": "Sistema politico",
+   "resumo": "Cancelar as leis descritas como restritivas a liberdade de organizacao partidaria, entre elas a Ficha Limpa e a clausula de desempenho.",
+   "citacao": "Liberdade total de organizacao politica e partidaria... cancelamento das leis restritivas ('ficha limpa', 'clausula de barreira' etc.).",
+   "econ": null,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "lei-ficha-limpa-lc-135",
+    "clausula-barreira-ec-97",
+    "adi-1351-clausula-barreira"
+   ]
+  },
+  {
+   "id": "pco-br-42",
+   "titulo": "Contra a internacionalizacao da Amazonia e a ingerencia estrangeira",
+   "setor": "externa",
+   "subtema": "Soberania",
+   "resumo": "Rejeitar toda ingerencia do imperialismo na Amazonia e colocar as riquezas do territorio sob controle de organizacoes populares e indigenas.",
+   "citacao": "Nao a internacionalizacao da Amazonia e a toda a politica de ingerencia do imperialismo na regiao.",
+   "econ": -1,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "fundo-amazonia",
+    "calha-norte-sivam",
+    "soberania-amazonia-debate"
+   ]
+  },
+  {
+   "id": "pco-br-43",
+   "titulo": "Apoio a Cuba, Nicaragua, Venezuela, Palestina, Ira e Russia",
+   "setor": "externa",
+   "subtema": "Alinhamento",
+   "resumo": "Defesa explicita desses governos e povos contra o que qualifica como imperialismo, incluindo apoio a luta armada.",
+   "citacao": "Defender os povos que se levantam em todo o mundo contra o imperialismo, de armas nas maos e pelos meios que sejam necessarios, como a Palestina, o Ira e a Russia.",
+   "econ": null,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "nao-alinhamento-brasil",
+    "politica-externa-ativa-altiva",
+    "brics"
+   ]
+  },
+  {
+   "id": "pco-br-44",
+   "titulo": "Patrocinio publico das festas populares e fim da perseguicao as torcidas",
+   "setor": "cultura",
+   "subtema": "Cultura popular",
+   "resumo": "Investimento pesado em cultura popular sob controle dos trabalhadores do setor, fim dos monopolios e do cerco as torcidas organizadas, com clubes controlados por torcedores.",
+   "citacao": "Fim da perseguicao as torcidas organizadas. Controle dos clubes pelos torcedores e pelos trabalhadores do setor.",
+   "econ": -2,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "clube-empresa-saf",
+    "modelo-socios-alemanha-5050",
+    "lei-geral-do-esporte",
+    "torcida-organizada-legislacao"
+   ]
+  }
+ ]
+}

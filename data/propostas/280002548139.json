@@ -1,0 +1,1171 @@
+{
+ "sq": "280002548139",
+ "doc": "2026BR280002548139_01",
+ "resumo_doc": "Plano de 58 paginas de Wilson Grassi (Democrata), com Sued Haidar como vice. Organizado em diagnóstico das cinco travas, método D35 (desburocratizar, desonerar, digitalizar, democratizar, desenvolver), 14 eixos e uma seção de governança com os primeiros cem dias, painel de indicadores e compromissos de transparência. Cada eixo fecha com um quadro de três linhas: instrumento jurídico, como medir e prazo. E o único dos planos registrados que declara explicitamente o que ficou de fora (não há valores orçamentários medida a medida), avisa quando a fonte citada e fragil (Doing Business descontinuado) e apresenta contra-argumentos as próprias propostas.",
+ "alerta_doc": "O documento e o mais verificável do conjunto em forma, mas a proposta central depende de emenda constitucional e a alíquota do novo tributo e declarada em aberto: o texto trabalha com 2% em cada ponta como parametro público, 1,2% como piso técnico e diz que o valor definitivo só sai de estudo de impacto posterior. O próprio plano registra um ponto por resolver sobre se a contribuição previdenciária do empregado seria ou não extinta.",
+ "propostas": [
+  {
+   "id": "grassi-01",
+   "titulo": "Imposto Único Federal sobre movimentação financeira",
+   "setor": "economia",
+   "subtema": "Reforma tributária",
+   "resumo": "Substituir nove tributos federais sobre folha, faturamento e produção (contribuição patronal, Cofins, CSLL, IOF, IPI, salário-educação, Cide, ITR e Sistema S, cerca de 12,3% do PIB) por um único tributo cobrado automaticamente em cada lançamento a débito e a crédito em conta, sem declaração. Parametro público de 2% em cada ponta, com alíquota definitiva fixada por estudo de impacto sob critério de neutralidade de arrecadação.",
+   "citacao": "Substituir o conjunto de tributos federais que hoje incide sobre folha, faturamento e produção por um único tributo, cobrado automaticamente sobre a movimentação financeira, incidindo em cada lançamento a débito e a crédito em conta.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "cpmf-1997-2007",
+    "imposto-unico-marcos-cintra",
+    "pec-474-2001",
+    "ipmf-1994",
+    "itf-debito-credito-argentina",
+    "debit-tax-australia-abolicao",
+    "tobin-tax-suecia",
+    "reforma-tributaria-ec-132"
+   ],
+   "historico": {
+    "br": "O Brasil já teve tributo sobre movimentação financeira: o IPMF em 1994 e a CPMF de 1997 a 2007. Ela arrecadou com custo administrativo baixissimo e evasao quase nula - o argumento técnico a favor -, mas foi somada aos tributos existentes, e não substituiu nenhum. Caiu no Senado em 2007 por rejeição política ao aumento de carga. A PEC 474/2001 de Marcos Cintra, origem intelectual da proposta, tramitou por duas decadas sem avançar. A EC 132/2023 seguiu o caminho oposto, do IVA.",
+    "br_res": "revertido",
+    "mundo": "A Argentina opera desde 2001 o imposto ao débito e crédito bancário, hoje uma das maiores fontes de receita federal e apontado como fator de informalização e de uso de dinheiro em espécie. A Australia teve o debit tax estadual e o aboliu em 2005. Colombia, Peru e Venezuela adotaram versões e todos os estudos do FMI apontam o mesmo padrão: alta arrecadação inicial, erosao da base ao longo do tempo por desintermediação financeira e cumulatividade.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 8,
+   "vt": "ja_falhou",
+   "vd": "A CPMF provou que o sistema bancário arrecada barato — e ela foi somada, não substituiu nada. Argentina, Colômbia e Peru operam versões e os estudos do FMI apontam sempre o mesmo: arrecadação alta no início, erosão da base por desintermediação e cumulatividade. O mundo foi para o IVA por isso."
+  },
+  {
+   "id": "grassi-02",
+   "titulo": "Isenção do IRPF até cinco salários mínimos indexada ao mínimo",
+   "setor": "economia",
+   "subtema": "Imposto de renda",
+   "resumo": "Elevar a faixa de isenção do IRPF de R$ 5.000 para cinco salários mínimos (R$ 8.105 em 2026), com deslocamento da tabela mantendo as quatro alíquotas, e amarrar o limite ao salário mínimo para acabar com o aumento de imposto por defasagem. Custo declarado de R$ 266 bilhões por ano, com tabela de contribuintes por faixa.",
+   "citacao": "O Democrata fixa o limite de isenção do IRPF em cinco salários mínimos. Com o mínimo de 2026 em R$ 1.621,00, definido pelo Decreto nº 12.797/2025, isso corresponde a R$ 8.105,00 por mês.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "tabela-irpf-defasagem-1996",
+    "lei-15270-2025-isencao",
+    "correcao-automatica-tabela-pl",
+    "indexacao-irpf-chile-uf",
+    "bracket-creep-eua"
+   ],
+   "historico": {
+    "br": "A tabela do IRPF perdeu a correção automática em 1996 e acumulou defasagem estimada pelo Sindifisco em mais de 150% - o que produziu aumento silencioso de imposto por inflação. A Lei 15.270/2025 isentou até R$ 5.000 e criou tributação mínima de altas rendas. Projetos de correção automática tramitam há decadas sem aprovação, porque a indexação reduz receita de forma permanente.",
+    "br_res": "parcial",
+    "mundo": "O Chile indexa a tabela pela UF, unidade de conta corrigida pela inflação, o que elimina o bracket creep - o desenho tecnicamente correto. Os EUA passaram a indexar em 1985, depois de decadas de aumento silencioso de carga. Indexar ao salário mínimo, como propoe o plano, e mais generoso que indexar a inflação e o custo cresce acima dela, ponto que o próprio documento assume.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 9,
+   "vt": "forte",
+   "vd": "O Chile indexa a tabela pela UF e elimina o aumento silencioso por inflação — é o desenho tecnicamente correto, e o Brasil perdeu a correção em 1996 acumulando mais de 150% de defasagem. Indexar ao mínimo é mais generoso e mais caro, e o plano assume isso."
+  },
+  {
+   "id": "grassi-03",
+   "titulo": "Devolução do tributo na exportação e regime para cadeias longas",
+   "setor": "economia",
+   "subtema": "Salvaguardas da reforma",
+   "resumo": "Prever na própria emenda quatro travas: devolução do IUF embutido na cadeia exportadora por coeficiente setorial da matriz insumo-produto liquidado no embarque; regime específico compensatório para cadeias com muitas etapas; blindagem definitiva da desoneração da folha; e clausula de revisão automática que suspende a transição se houver frustração de receita por dois exercícios.",
+   "citacao": "Um país que vive de soja, carne, minério e celulose não pode exportar o próprio imposto junto com a mercadoria. A emenda preverá mecanismo de devolução do IUF incidente ao longo da cadeia exportadora, calculado por coeficiente setorial apurado a partir da matriz insumo-produto e liquidado automaticamente no embarque.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "cumulatividade-pis-cofins",
+    "cpmf-1997-2007",
+    "drawback-exportacao",
+    "ajuste-fronteira-iva",
+    "lei-kandir-desoneracao-exportacao"
+   ],
+   "historico": {
+    "br": "A cumulatividade e o problema classico dos tributos brasileiros sobre faturamento: PIS e Cofins só deixaram de ser cumulativos em 2002-2003 e ainda convivem com regimes mistos. A Lei Kandir (1996) desonerou exportações de ICMS e gerou duas decadas de disputa federativa sobre a compensação aos estados - o precedente de que devolução de tributo na exportação e tecnicamente possível e politicamente conflituosa.",
+    "br_res": "parcial",
+    "mundo": "O ajuste de fronteira e automático no IVA, que e por desenho neutro na exportação - a razão pela qual mais de 170 paises adotaram esse modelo em vez de tributos sobre transação. Devolução por coeficiente setorial calculado em matriz insumo-produto e uma aproximação, usada em regimes de drawback, e sempre imprecisa por setor.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 13,
+   "vt": "promissora",
+   "vd": "A Lei Kandir mostrou que devolver tributo na exportação é possível e conflituoso. O IVA é neutro na exportação por desenho — a razão pela qual mais de 170 países o adotaram — e coeficiente setorial por matriz insumo-produto é sempre aproximação imprecisa."
+  },
+  {
+   "id": "grassi-04",
+   "titulo": "Restrição a circulação de dinheiro em espécie",
+   "setor": "economia",
+   "subtema": "Salvaguardas da reforma",
+   "resumo": "Acompanhar a reforma de medidas contra a migração para o dinheiro vivo: alíquota majorada sobre saque, teto legal para pagamento em espécie, retirada de circulação das cedulas de maior valor e rastreabilidade de saques elevados.",
+   "citacao": "alíquota majorada sobre saque, teto legal para pagamento em espécie, retirada de circulação das cédulas de maior valor e rastreabilidade das retiradas de alto valor.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "desmonetizacao-india-2016",
+    "teto-pagamento-especie-italia-franca",
+    "retirada-nota-500-euros",
+    "limite-especie-mexico",
+    "pix-universalizacao"
+   ],
+   "historico": {
+    "br": "O Brasil e hoje um dos paises com maior penetração de pagamento eletrônico do mundo pelo Pix, que responde por mais da metade das transações - o que reduz o risco de migração para o dinheiro vivo em relação a epoca da CPMF. Não há, porém, teto legal para pagamento em espécie no país nem restrição a cedulas de alto valor.",
+    "br_res": "inedito",
+    "mundo": "A India desmonetizou notas de alto valor em 2016 com custo econômico documentado e efeito limitado sobre economia informal. Italia, Franca, Espanha e Portugal fixam tetos para pagamento em espécie há anos, com evidência de redução de evasao. O Banco Central Europeu retirou a nota de 500 euros de circulação em 2016. São medidas praticadas e menos disruptivas do que a desmonetização indiana.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 15,
+   "vt": "promissora",
+   "vd": "Itália, França, Espanha e Portugal fixam teto para pagamento em espécie com evidência de redução de evasão, e o BCE tirou a nota de 500 euros. A desmonetização indiana de 2016 é o alerta de custo. O Pix reduz muito o risco de fuga para o dinheiro vivo."
+  },
+  {
+   "id": "grassi-05",
+   "titulo": "Zerar o custo tributário de contratar com carteira assinada",
+   "setor": "trabalho",
+   "subtema": "Desoneração da folha",
+   "resumo": "Extinguir a contribuição previdenciária patronal sobre a folha como objetivo declarado da reforma, apostando que a informalidade migra sozinha quando cai o preço do vínculo formal, com medição trimestral publicada para verificar se a aposta se confirma.",
+   "citacao": "Desonerar a folha não é efeito colateral simpático da reforma tributária. É o objetivo. 2.1 Zerar o custo tributário de contratar Substituída a contribuição patronal sobre a folha, contratar com carteira assinada deixa de ser a forma mais cara de organizar trabalho.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "desoneracao-folha-2011-2015",
+    "desoneracao-17-setores-2023",
+    "reoneracao-2015-avaliacao",
+    "reforma-trabalhista-2017",
+    "cortes-encargos-alemanha-hartz",
+    "informalidade-pnad"
+   ],
+   "historico": {
+    "br": "O Brasil desonerou a folha de 2011 a 2015 para dezenas de setores: custo de dezenas de bilhões, sem efeito comprovado sobre emprego nas avaliações do Ipea e da Receita, revertida em 2015 e reeditada em 2023 para 17 setores. A reforma trabalhista de 2017 também prometeu formalização e a informalidade seguiu acima de 38%. E a proposta com maior lastro teorico e o pior histórico de execução no país.",
+    "br_res": "fracassou",
+    "mundo": "A Franca reduziu contribuições sobre baixos salários de forma permanente e focalizada, com evidência de efeito positivo sobre emprego pouco qualificado. A Alemanha reduziu encargos nas reformas Hartz e criou um segmento de trabalho de baixa remuneração. Onde funcionou, a desoneração foi permanente e concentrada na base salarial; onde foi setorial e temporária, virou renúncia sem contrapartida.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 19,
+   "vt": "ja_falhou",
+   "vd": "O Brasil já testou de 2011 a 2015: dezenas de bilhões, sem efeito comprovado sobre emprego nas avaliações do Ipea e da Receita. É a proposta com maior lastro teórico e o pior histórico de execução no país — a França acertou porque focalizou na base e tornou permanente."
+  },
+  {
+   "id": "grassi-06",
+   "titulo": "Deferimento tacito com servidor responsável e relogio público",
+   "setor": "estado",
+   "subtema": "Desburocratização",
+   "resumo": "Fixar prazo legal de resposta com deferimento automático se estourado, mas com servidor responsável identificado desde a autuação, prazo correndo em painel público, apuração automática do atraso, efeito na avaliação funcional e na permanência do dirigente em cargo em comissão, e públicação mensal do percentual de pedidos deferidos por decurso de prazo.",
+   "citacao": "Toda solicitação sujeita a prazo terá servidor responsável identificado no sistema desde a autuação, e o prazo correrá em relógio público. ▪ Descumprimento de prazo gera apuração automática, sem necessidade de reclamação do interessado.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "lei-13726-desburocratizacao",
+    "silencio-administrativo-espanha",
+    "lei-14129-governo-digital",
+    "lei-liberdade-economica-13874",
+    "tempo-resposta-administracao-portugal"
+   ],
+   "historico": {
+    "br": "A Lei 13.726/2018 já proibiu exigir documento que a administração possui, a Lei 14.129/2021 criou o marco do governo digital e a Lei da Liberdade Econômica introduziu aprovação tacita para atividades de baixo risco - três normas com o mesmo objetivo e cumprimento desigual, porque nenhuma criou onus para quem descumpre. O plano identifica corretamente esse ponto.",
+    "br_res": "parcial",
+    "mundo": "Espanha e Italia operam silêncio administrativo positivo há decadas, com a ressalva de que ele não se aplica a licenciamento ambiental e sanitário de alto risco. Portugal pública tempo médio de resposta por serviço. O elemento que faz o prazo valer nos casos bem-sucedidos e responsável nomeado com efeito na avaliação funcional - exatamente o desenho proposto, que e mais completo que o das leis brasileiras anteriores.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 19,
+   "vt": "forte",
+   "vd": "Três leis brasileiras já mandam a mesma coisa desde 2018 e nenhuma criou ônus para quem descumpre — o plano identifica isso com precisão. Espanha e Itália operam silêncio positivo há décadas, e o que faz valer é servidor nomeado com efeito na avaliação funcional."
+  },
+  {
+   "id": "grassi-07",
+   "titulo": "Revisão do degrau de saída do MEI e compras públicas para pequeno porte",
+   "setor": "trabalho",
+   "subtema": "Pequeno negocio",
+   "resumo": "Rever o enquadramento que torna racional parar de crescer ao sair do MEI, integrar de fato a Redesim com estados e municípios, e exigir motivação específica e auditável para afastar a reserva de compras públicas ao pequeno porte prevista na LC 123/2006.",
+   "citacao": "O MEI resolveu a entrada e não resolveu a saída. Quem cresce um pouco encontra um degrau tributário que torna mais racional parar de crescer, ou crescer por fora. Revisar esse enquadramento é o primeiro item.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "mei-microempreendedor-individual",
+    "simples-nacional",
+    "redesim-lei-11598",
+    "lc-123-compras-publicas",
+    "small-business-set-aside-eua"
+   ],
+   "historico": {
+    "br": "O degrau de saída do MEI e problema reconhecido: ao ultrapassar o limite, a carga salta e cria incentivo a não crescer ou a crescer informalmente. O Simples tem faixas que atenuam parcialmente. A reserva de compras públicas ao pequeno porte está nos arts. 47 a 49 da LC 123/2006 e e afastada rotineiramente por justificativa genérica no edital - o diagnóstico do plano coincide com o do próprio Sebrae.",
+    "br_res": "parcial",
+    "mundo": "Os EUA operam set-asides para pequenas empresas com meta federal de 23% das compras e acompanhamento anual publicado por agência - o mecanismo que torna a reserva efetiva. A União Europeia usa divisao obrigatória de lotes com o mesmo fim. Onde há meta com prestação de contas, a reserva funciona; onde e apenas facultada, e afastada.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 20,
+   "vt": "forte",
+   "vd": "Os EUA operam set-asides com meta federal de 23% e acompanhamento publicado — é o que torna a reserva efetiva. A LC 123 já prevê a reserva desde 2006 e ela é afastada por justificativa genérica; exigir motivação auditável é a correção certa."
+  },
+  {
+   "id": "grassi-08",
+   "titulo": "Qualificação profissional com oferta puxada pela demanda regional",
+   "setor": "trabalho",
+   "subtema": "Qualificação",
+   "resumo": "Financiar qualificação executada pelo Sistema S e pela rede federal sob a regra de que o curso sai da demanda declarada de contratação na região, e curso que não emprega ninguém não e reconduzido no ano seguinte.",
+   "citacao": "a oferta de curso sai da demanda declarada de contratação na região, e não do catálogo pronto da instituição. Curso que não coloca ninguém para trabalhar não é reconduzido no ano seguinte.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "pronatec",
+    "planfor-avaliacao",
+    "sistema-s-contribuicoes",
+    "qualificacao-avaliacao-impacto",
+    "ensino-dual-alemanha"
+   ],
+   "historico": {
+    "br": "O Planfor (1996-2002) e o Pronatec (2011) formaram milhões com a mesma crítica em ambos: oferta definida pelo catalogo da instituição e não pela vaga existente, com baixa taxa de inserção. As avaliações do Pronatec Brasil sem Miseria encontraram efeito pequeno sobre emprego. A regra proposta - não reconduzir curso que não emprega - ataca exatamente esse ponto e nunca foi aplicada.",
+    "br_res": "fracassou",
+    "mundo": "A Alemanha e a Suica sustentam o ensino dual com contrapartida obrigatória das empresas e taxa de inserção alta. Os EUA condicionam financiamento de programas de formação a indicadores de emprego e salário dos egressos (WIOA). A evidência internacional e consistente: qualificação com vínculo previo a empregador funciona; qualificação por catalogo, não.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 20,
+   "vt": "forte",
+   "vd": "Planfor e Pronatec formaram milhões com a mesma crítica: oferta pelo catálogo da instituição, não pela vaga existente. Os EUA condicionam financiamento a indicador de emprego dos egressos — não reconduzir curso que não emprega é exatamente isso, e nunca foi aplicado aqui."
+  },
+  {
+   "id": "grassi-09",
+   "titulo": "Isolar o comando: expansão do sistema penitenciário federal",
+   "setor": "seguranca",
+   "subtema": "Sistema prisional",
+   "resumo": "Ampliar a custodia federal de liderancas com padrão construtivo único, bloquear de fato o sinal de telefonia responsabilizando a operadora contratada, fazer rodizio nacional de custodiados para impedir captura da unidade pela facção local, aplicar RDD com controle judicial e criar carreira para o pessoal penal federal.",
+   "citacao": "Enquanto a liderança de facção mantiver linha aberta com a rua, a cadeia funciona como escritório. O centro deste pilar é a expansão e o endurecimento do sistema penitenciário federal de segurança máxima, destinado exclusivamente a lideranças e presos de alta periculosidade.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "presidios-federais-catanduvas",
+    "rdd-regime-disciplinar-diferenciado",
+    "bloqueadores-sinal-presidios",
+    "41-bis-italia",
+    "carreira-penal-federal-lei-11907"
+   ],
+   "historico": {
+    "br": "O sistema penitenciário federal existe desde 2006 com cinco unidades e pouco mais de 1.500 vagas para um país com mais de 800 mil presos. O RDD e de 2003, endurecido em 2019. Bloqueadores de sinal foram exigidos por lei e implantados de forma irregular, por custo e por interferência em áreas vizinhas. Os mutirões carcerários do CNJ e a ADPF 347 (2015) documentaram o colapso do sistema.",
+    "br_res": "parcial",
+    "mundo": "A Italia aplica o 41-bis a chefes mafiosos desde 1992, apontado como decisivo contra a Cosa Nostra e criticado pela Corte Europeia de Direitos Humanos. Os supermax americanos isolam com eficacia e produzem dano psiquiátrico documentado. A lição comum e que isolar o comando funciona; o requisito e carreira penal estruturada e controle judicial, sem os quais a unidade e capturada por dentro.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 21,
+   "vt": "promissora",
+   "vd": "O 41-bis italiano é apontado como decisivo contra a Cosa Nostra e é o modelo certo. O que a proposta acrescenta e quase ninguém cita é carreira penal federal — sem servidor concursado e em número suficiente, a unidade é capturada por dentro."
+  },
+  {
+   "id": "grassi-10",
+   "titulo": "Asfixiar o dinheiro: inteligência financeira no centro da política",
+   "setor": "seguranca",
+   "subtema": "Crime organizado",
+   "resumo": "Deslocar o centro de gravidade do enfrentamento de rua para a investigação patrimonial, com integração permanente entre unidade de inteligência financeira, Receita, PF e MP com prazo de resposta, uso agressivo de sequestro e alienação antecipada de bens inclusive para reaparelhar as forças, e cooperação internacional para criptoativos.",
+   "citacao": "Organização criminosa não morre de tiro. Morre quando quebra. Este pilar desloca o centro de gravidade da política federal do enfrentamento de rua para a inteligência financeira.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "coaf-lavagem",
+    "alienacao-antecipada-bens",
+    "asset-recovery-italia-antimafia",
+    "follow-the-money-italia",
+    "lei-9613-lavagem",
+    "rastreamento-criptoativos"
+   ],
+   "historico": {
+    "br": "O COAF produz volume crescente de relatórios de inteligência financeira e as operações de 2025 contra o PCC no setor de combustíveis e em fintechs mostraram capacidade nova de rastreio - e também que o dinheiro já estava na economia formal. A alienação antecipada de bens existe desde a Lei 12.683/2012 e o confisco alargado desde 2019, ambos subutilizados por falta de estrutura de gestão de ativos.",
+    "br_res": "parcial",
+    "mundo": "A Italia e o caso de referência: a lei Rognoni-La Torre (1982) criou o confisco de bens mafiosos e a Agenzia Nazionale gere bilhões em ativos apreendidos até hoje. Os EUA obtiveram resultado semelhante com o RICO Act. Em ambos os casos o efeito veio em decadas e dependeu de uma agência dedicada a gerir o patrimônio apreendido - a peça que falta no Brasil.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 21,
+   "vt": "forte",
+   "vd": "Itália e EUA quebraram máfia e Cosa Nostra pelo dinheiro. A peça que falta no Brasil e o plano não nomeia é uma agência dedicada a gerir o patrimônio apreendido, como a Agenzia Nazionale italiana — sem ela, o bem confiscado apodrece em pátio."
+  },
+  {
+   "id": "grassi-11",
+   "titulo": "Escaneamento de conteineres e controle da cadeia de armas legais",
+   "setor": "seguranca",
+   "subtema": "Fronteiras e armas",
+   "resumo": "Vigilância eletrônica contínua dos trechos críticos de fronteira com apoio logístico das Forças Armadas, escaneamento não invasivo de conteiner nos principais portos com meta pública de percentual inspecionado, e marcação e auditoria de estoque na cadeia de armas e munições legais.",
+   "citacao": "Controle rigoroso da cadeia de armas e munições legais, com marcação e auditoria de estoque. Parte relevante da arma do crime começou a vida legal. Pilar 4 — Fazer funcionar o que já foi criado Aqui é preciso uma honestidade que a maioria dos planos de governo não tem.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "escaneamento-portos-santos",
+    "sisfron",
+    "estatuto-desarmamento-2003",
+    "rastreamento-municao-exercito",
+    "container-security-initiative-eua",
+    "flexibilizacao-armas-2019-2022"
+   ],
+   "historico": {
+    "br": "O escaneamento de conteineres em Santos cobre percentual pequeno da carga e o Brasil e rota de saída de cocaína para a Europa. Sobre armas, o Estatuto do Desarmamento (2003) e associado a queda de homicídios, e a flexibilização de 2019-2022 multiplicou o número de CACs por seis, com desvio documentado de armas legais para o crime; a rastreabilidade de munição pelo Exercito avançou apenas parcialmente.",
+    "br_res": "parcial",
+    "mundo": "A Container Security Initiative americana inspeciona na origem em portos parceiros. Roterda e Antuerpia ampliaram escaneamento e reconhecem que o gargalo migrou para corrupção interna. Sobre armas, a marcação e o rastreamento são exigência do Protocolo de Armas da ONU e são apontados como a medida com melhor relação custo-benefício no combate ao desvio.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 22,
+   "vt": "promissora",
+   "vd": "Parte relevante da arma do crime começou legal, e a marcação é apontada pelo protocolo da ONU como a medida de melhor custo-benefício contra o desvio. Roterdã e Antuérpia mostram o limite do escaneamento: o gargalo migra para corrupção interna."
+  },
+  {
+   "id": "grassi-12",
+   "titulo": "Executar o Sinesp e o Susp em vez de criar sistema novo",
+   "setor": "seguranca",
+   "subtema": "Dados e governança",
+   "resumo": "Aplicar de verdade a condicionalidade já prevista em lei desde 2012, suspendendo publicamente recurso federal discricionário ao estado que não alimentar o Sinesp, impor padrão nacional único de registro de ocorrência e auditar anualmente a qualidade do dado com nota por unidade da federação, além de apoiar a PEC 18/2025.",
+   "citacao": "Prometer a criação de um banco nacional integrado seria vender ao eleitor uma lei de catorze anos atrás embrulhada como novidade. Não vamos fazer isso. O que existe de fato é um sistema desenhado e mal alimentado.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "sinesp-lei-12681",
+    "susp-lei-13675",
+    "pec-18-2025-seguranca",
+    "atlas-violencia-metodologia",
+    "condicionalidade-repasse-federal"
+   ],
+   "historico": {
+    "br": "O Sinesp e de 2012 e o Susp de 2018, ambos com condicionalidade de repasse prevista e nunca aplicada; o registro de ocorrência varia por unidade da federação e o Atlas da Violência e o Anuário do Forum Brasileiro de Segurança Pública trabalham com bases incompletas. O diagnóstico do plano - que o problema e execução e não criação de sistema - e o mesmo do TCU.",
+    "br_res": "fracassou",
+    "mundo": "Os EUA levaram decadas para migrar do UCR para o NIBRS, sistema de registro incidente a incidente, com adesao ainda incompleta - o que mostra a dificuldade de padronizar registro em federações. A Alemanha coordena polícias estaduais pelo BKA com base comum obrigatória. Onde há padrão único obrigatório e auditoria de qualidade, os dados são comparáveis; onde a adesao e voluntária, não.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 22,
+   "vt": "forte",
+   "vd": "Recusar-se a prometer sistema novo e cobrar a lei de 2012 é o oposto do que os outros planos fazem, e o diagnóstico bate com o do TCU. A condicionalidade de repasse já está na lei desde 2018 e nunca foi aplicada — aplicá-la é o que muda o jogo."
+  },
+  {
+   "id": "grassi-13",
+   "titulo": "Cadastro nacional de infratores por maus-tratos a animais",
+   "setor": "direitos",
+   "subtema": "Proteção animal",
+   "resumo": "Criar no primeiro ano cadastro nacional de infratores por maus-tratos integrado as bases de segurança pública e usado como fator de alerta na avaliação de risco de violência domestica, com protocolo de comunicação entre serviços de proteção animal, conselhos tutelares e delegacias especializadas, apoiado na Teoria do Elo apresentada explicitamente como evidência não consensual.",
+   "citacao": "O achado não é consenso fechado, e não o apresentamos como tal. Mas é sólido o bastante para justificar uma providência barata: registrar quem faz. ▪ Cadastro nacional de infratores por maus-tratos a animais no ar até o fim do primeiro ano de mandato, integrado às bases de segurança pública e usado como fator de alerta na avaliação de risco de violência doméstica.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "lei-14064-maus-tratos",
+    "teoria-do-elo-violencia",
+    "animal-abuse-registry-eua",
+    "sinpatinhas-cadastro-animais",
+    "lethality-assessment-eua"
+   ],
+   "historico": {
+    "br": "A Lei 14.064/2020 elevou a pena para maus-tratos de caes e gatos, e o SinPatinhas, criado pela Lei 15.046/2024, cadastra animais e não infratores. Não existe cadastro nacional de condenados por maus-tratos nem integração com as bases de segurança pública - a proposta e inédita e de baixo custo, como o próprio plano argumenta.",
+    "br_res": "inedito",
+    "mundo": "Vários estados americanos operam registros de agressores de animais desde 2010, com adesao e uso desiguais. A pesquisa sobre a Teoria do Elo mostra associação entre crueldade animal e violência domestica, sem consenso sobre causalidade - o plano registra essa limitação. O uso do dado como fator de alerta em avaliação de risco, como faz a Lethality Assessment americana, e a aplicação com melhor fundamento.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 23,
+   "vt": "promissora",
+   "vd": "Vários estados americanos operam registros de agressores de animais desde 2010, com uso desigual. A Teoria do Elo mostra associação sem consenso sobre causalidade, e o plano admite isso — usar como fator de alerta na avaliação de risco é a aplicação com melhor fundamento."
+  },
+  {
+   "id": "grassi-14",
+   "titulo": "Plebiscito sobre o modelo penitenciário de segurança máxima",
+   "setor": "seguranca",
+   "subtema": "Sistema prisional",
+   "resumo": "Levar a voto direto se o Brasil adota, para liderancas de facção, modelo de confinamento nos moldes do CECOT salvadorenho, importando a engenhária e a disciplina de custodia mas não o regime de exceção, com caderno técnico previo de custo, projeto e parecer de constitucionalidade, consulta em data separada da eleição geral e compromisso de acatar o resultado. O plano registra os dois lados: queda de homicídios e aprovação popular em El Salvador, e os alertas da CIDH e da Anistia Internacional.",
+   "citacao": "Não pode ir a suspensão de garantias individuais. Direitos e garantias individuais são cláusula pétrea pelo art.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "cecot-el-salvador",
+    "regime-excecao-bukele",
+    "plebiscito-armas-2005",
+    "plebiscito-1993-forma-governo",
+    "referendo-suica-uso",
+    "adpf-347-estado-coisas-inconstitucional",
+    "cidh-alerta-el-salvador"
+   ],
+   "historico": {
+    "br": "O Brasil realizou dois plebiscitos e um referendo desde 1988: forma de governo (1993), desarmamento (2005) e a consulta sobre a divisao do Para (2011). A convocação depende de decreto legislativo por iniciativa de um terco de uma das Casas, como o próprio plano registra. Nunca houve consulta popular sobre política penitenciária no país.",
+    "br_res": "inedito",
+    "mundo": "A Suica decide política penal por referendo com frequência, inclusive aprovando em 2004 a internação perpetua de criminosos sexuais perigosos, o que gerou conflito com a Convenção Europeia de Direitos Humanos. E o precedente mais direto e ilustra o ponto que o plano antecipa: consulta popular não supera clausula de direitos fundamentais, e a questão migra para os tribunais internacionais.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 24,
+   "vt": "arriscada",
+   "vd": "A Suíça decide política penal por referendo e aprovou em 2004 internação perpétua para criminoso sexual perigoso, gerando conflito com a corte europeia. É o precedente exato e ilustra o que o plano antecipa: consulta popular não supera cláusula pétrea, a questão migra para o tribunal."
+  },
+  {
+   "id": "grassi-15",
+   "titulo": "Saúde Única: vigilância de zoonoses como política permanente",
+   "setor": "saude",
+   "subtema": "Vigilância sanitária",
+   "resumo": "Programa nacional permanente de vigilância de zoonoses com financiamento federal pactuado e meta de cobertura por município, retomada das campanhas de vacinação antirrabica animal com cobertura publicada município a município e rede nacional de laboratórios de diagnóstico veterinário integrada a vigilância humana.",
+   "citacao": "País que não vigia a interface entre animal e gente descobre a epidemia no pronto-socorro. ▪ Programa nacional permanente de vigilância de zoonoses, com financiamento federal pactuado e meta de cobertura por município, começando pelas áreas de maior incidência histórica.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "one-health-oms-omsa",
+    "campanha-antirrabica-brasil",
+    "programa-leishmaniose-visceral",
+    "vigilancia-genomica-covid",
+    "pandemic-preparedness-oms"
+   ],
+   "historico": {
+    "br": "O Brasil tem programa nacional de controle da raiva desde os anos 1970, com queda expressiva de casos humanos, e as campanhas de vacinação antirrabica animal perderam cobertura na última decada. A leishmaniose visceral urbana avanca e o programa e criticado por priorizar a eutanasia de caes em vez de manejo integrado. A vigilância da interface animal-humano não tem financiamento estável.",
+    "br_res": "parcial",
+    "mundo": "A abordagem One Health e defendida conjuntamente por OMS, OMSA e FAO há mais de uma decada e ganhou força após a covid-19; a União Europeia e a Tailandia estruturaram vigilância integrada com resultados de detecção precoce. A avaliação internacional e de que vigilância zoonotica tem retorno alto em prevenção de epidemia e e cronicamente subfinanciada em quase todos os paises.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 26,
+   "vt": "forte",
+   "vd": "OMS, OMSA e FAO defendem a abordagem One Health há mais de uma década e a covid deu razão a elas. Vigilância zoonótica tem retorno alto em prevenção de epidemia e é cronicamente subfinanciada em quase todo país — inclusive aqui, com a antirrábica perdendo cobertura."
+  },
+  {
+   "id": "grassi-16",
+   "titulo": "Veterinário nas equipes municipais de vigilância em saúde",
+   "setor": "saude",
+   "subtema": "Atenção primária",
+   "resumo": "Indução federal com cofinanciamento e critério populacional para a presença de médico veterinário nas equipes municipais de vigilância, atendimento veterinário público para famílias de baixa renda tratado como política de saúde e integração dos registros a vigilância epidemiológica.",
+   "citacao": "Atendimento veterinário público para famílias de baixa renda, tratado como política de saúde. Animal doente dentro de casa com criança é problema de saúde da criança. ▪ Integração dos registros de atendimento veterinário público à vigilância epidemiológica, para detectar surto cedo.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "nasf-equipes-multiprofissionais",
+    "ccz-centros-controle-zoonoses",
+    "castramovel-municipios",
+    "veterinario-publico-uruguai",
+    "cfmv-resolucao-1236"
+   ],
+   "historico": {
+    "br": "O veterinário já integra equipes de vigilância em vários municípios e os Centros de Controle de Zoonoses existem desde os anos 1970, com estrutura desigual. Não há indução federal com cofinanciamento para essa função, nem atendimento veterinário público como política de saúde - programas de castramovel são municipais e episodicos.",
+    "br_res": "parcial",
+    "mundo": "O Uruguai e vários paises europeus integram medicina veterinária a saúde pública com equipes municipais. O Reino Unido subsidia atendimento veterinário a famílias de baixa renda por meio de ONGs como a PDSA há quase um século, com efeito documentado sobre zoonoses urbanas. E uma política de baixo custo com evidência razoável e pouca adoção estatal direta.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 27,
+   "vt": "promissora",
+   "vd": "O Reino Unido subsidia atendimento veterinário a família de baixa renda há quase um século via PDSA, com efeito documentado sobre zoonose urbana. É política barata e pouco adotada como serviço estatal direto — os CCZ existem desde os anos 1970 com estrutura desigual."
+  },
+  {
+   "id": "grassi-17",
+   "titulo": "Obrigatoriedade progressiva do cadastro animal e financiamento por castração realizada",
+   "setor": "direitos",
+   "subtema": "Proteção animal",
+   "resumo": "Tornar progressivamente obrigatório o cadastro do SinPatinhas comecando pelo animal atendido com dinheiro público e pelo comercializado, financiar castração por meta verificada e não por estrutura instalada, e integrar a base ao cadastro de infratores e a vigilância epidemiológica.",
+   "citacao": "Cadastro voluntário não permite responsabilizar tutor por abandono, que é justamente o efeito jurídico que a base precisaria produzir. Defendemos a obrigatoriedade progressiva, começando pelo animal atendido com dinheiro público e pelo animal comercializado.",
+   "econ": 0,
+   "social": 0,
+   "peso": 1,
+   "precedentes": [
+    "sinpatinhas-cadastro-animais",
+    "lei-15046-2024-cadastro-animais",
+    "microchipagem-obrigatoria-reino-unido",
+    "castracao-massiva-avaliacao",
+    "propatinhas-programa"
+   ],
+   "historico": {
+    "br": "O SinPatinhas foi criado pela Lei 15.046/2024 e regulamentado em 2025, com cadastro voluntário - a crítica do plano, de que cadastro voluntário não permite responsabilizar por abandono, e tecnicamente correta. O ProPatinhas depende de adesao de estados e municípios e de emenda parlamentar, o que faz a cobertura variar por política local.",
+    "br_res": "em_curso",
+    "mundo": "O Reino Unido tornou a microchipagem de caes obrigatória em 2016 e de gatos em 2024, com aumento expressivo de devolução de animais perdidos e possibilidade de responsabilização do tutor. A castração em massa tem evidência de redução populacional quando atinge cobertura alta e sustentada; campanhas pontuais não alteram a população de rua.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 27,
+   "vt": "forte",
+   "vd": "O Reino Unido tornou a microchipagem obrigatória para cães em 2016 e gatos em 2024, com aumento de devolução e responsabilização do tutor. A crítica do plano é tecnicamente correta: cadastro voluntário não produz o efeito jurídico que a base precisaria produzir."
+  },
+  {
+   "id": "grassi-18",
+   "titulo": "Antecipação voluntária da rastreabilidade bovina nos corredores de exportação",
+   "setor": "ambiente",
+   "subtema": "Rastreabilidade",
+   "resumo": "Antecipar, com custeio federal parcial de brinco e leitura, a identificação individual de bovinos nos corredores sujeitos a exigência internacional, porque o regulamento europeu antidesmatamento cobra rastreabilidade desde 2026 e o cronograma brasileiro só fecha em 2032, e usar o dado também contra abigeato.",
+   "citacao": "Essa defasagem de seis anos é o buraco por onde o país perde contrato, e nenhum plano de governo que eu tenha lido a enfrenta. ▪ Antecipação voluntária e apoiada nos corredores de exportação sujeitos a exigência internacional, com a União bancando parte do custo de brinco e de leitura para quem antecipar, em vez de esperar 2032 e explicar depois por que o embarque foi barrado.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "rastreabilidade-bovina-sisbov",
+    "eudr-regulamento-antidesmatamento",
+    "identificacao-bovina-uruguai",
+    "moratoria-soja",
+    "rastreabilidade-irlanda-bovinos"
+   ],
+   "historico": {
+    "br": "O Sisbov existe desde 2002 e ficou restrito a propriedades habilitadas a exportar para a União Europeia - menos de 5% do rebanho. O Plano Nacional de Identificação Individual foi lançado em dezembro de 2024 com cronograma até 2032, exatamente a defasagem de seis anos frente a exigência europeia que o plano aponta e que nenhum outro documento eleitoral menciona.",
+    "br_res": "parcial",
+    "mundo": "O Uruguai rastreia 100% do rebanho desde 2011 e converte isso em premio de preço e acesso a mercados fechados a concorrentes. Irlanda e Australia tem sistemas completos há decadas. Onde a rastreabilidade foi obrigatória e parcialmente custeada pelo Estado, funcionou; onde ficou voluntária, restringiu-se ao grande exportador.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 32,
+   "vt": "forte",
+   "vd": "O Uruguai rastreia todo o rebanho desde 2011 e cobra prêmio de preço por isso. A defasagem de seis anos entre a exigência europeia de 2026 e o cronograma brasileiro de 2032 é real e nenhum outro plano a menciona — é a observação mais afiada do documento."
+  },
+  {
+   "id": "grassi-19",
+   "titulo": "Recompor o serviço veterinário oficial com concurso e carreira",
+   "setor": "ambiente",
+   "subtema": "Defesa sanitária",
+   "resumo": "Reconstruir o serviço veterinário oficial federal e estadual por concurso e carreira, manter e ampliar status sanitários internacionais com vigilância permanente para aftosa, influenza aviária e peste suina, e responder a foco sanitário com protocolo pre-acordado de comunicação ao mercado importador.",
+   "citacao": "A credibilidade sanitária brasileira no exterior depende da assinatura de um fiscal, e hoje faltam fiscais. ▪ Manter e ampliar os status sanitários internacionais já conquistados, com vigilância permanente para febre aftosa, influenza aviária e peste suína clássica.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "erradicacao-aftosa-brasil",
+    "gripe-aviaria-2023-2025",
+    "embargos-sanitarios-carne",
+    "mapa-fiscais-federais-agropecuarios",
+    "servico-veterinario-oficial-omsa"
+   ],
+   "historico": {
+    "br": "O Brasil erradicou a febre aftosa por regiões ao longo de três decadas, uma conquista sanitária relevante, e enfrentou em 2023-2025 focos de influenza aviária com embargos temporários. O quadro de fiscais federais agropecuários encolheu por aposentadoria sem reposição, e o TCU já apontou risco a credibilidade sanitária - o diagnóstico do plano coincide.",
+    "br_res": "parcial",
+    "mundo": "A OMSA certifica status sanitário com base na credibilidade do serviço veterinário oficial, e não apenas na ausência da doenca - a razão pela qual paises investem em quadro de fiscais. A Dinamarca e a Nova Zelandia mantem serviços veterinários oficiais robustos como ativo comercial. A relação entre número de fiscais e manutenção de status e direta e reconhecida internacionalmente.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 32,
+   "vt": "forte",
+   "vd": "A OMSA certifica status sanitário pela credibilidade do serviço veterinário oficial, não só pela ausência da doença — por isso países investem em fiscal. O quadro brasileiro encolheu por aposentadoria sem reposição e o TCU já apontou o risco à credibilidade."
+  },
+  {
+   "id": "grassi-20",
+   "titulo": "Bem-estar animal como agenda de acesso a mercado",
+   "setor": "ambiente",
+   "subtema": "Cadeia produtiva",
+   "resumo": "Programa nacional de boas práticas de manejo, transporte e abate construido com o setor e com prazo de adequação, crédito e assistência técnica em condição melhor para quem adota o padrão, e diplomacia sanitária com presença técnica permanente nos foros internacionais.",
+   "citacao": "Bem-estar animal e agronegócio não são campos opostos. São a mesma agenda vista do lado de quem compra. Quem compra carne brasileira lá fora exige padrão sanitário, rastreabilidade e, cada ano mais, padrão de bem-estar.",
+   "econ": 1,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "normativa-bem-estar-mapa",
+    "diretiva-bem-estar-uniao-europeia",
+    "proposition-12-california",
+    "certificacao-bem-estar-mercado",
+    "abate-humanitario-normas"
+   ],
+   "historico": {
+    "br": "O Brasil tem normativas de bem-estar animal do Mapa para transporte e abate e adesao crescente por exigência de compradores internacionais, com pouca fiscalização própria. O tema e tratado pelo setor produtivo majoritariamente como custo regulatório, e não como agenda comercial - a inversao proposta pelo plano e o ponto que o distingue.",
+    "br_res": "parcial",
+    "mundo": "A União Europeia tem diretivas de bem-estar animal desde os anos 1990 e as usa como exigência de importação. A California aprovou a Proposition 12 em 2018, restringindo a venda de produtos de animais confinados, validada pela Suprema Corte em 2023 - decisão com efeito direto sobre exportadores. O bem-estar animal já funciona como barreira comercial, o que da fundamento econômico a proposta.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 32,
+   "vt": "forte",
+   "vd": "A Proposition 12 da California, validada pela Suprema Corte em 2023, e as diretivas europeias já funcionam como barreira comercial. Tratar bem-estar animal como agenda de acesso a mercado em vez de custo regulatório é leitura correta e rara no debate brasileiro."
+  },
+  {
+   "id": "grassi-21",
+   "titulo": "Fila nacional única e pública por procedimento",
+   "setor": "saude",
+   "subtema": "Filas do SUS",
+   "resumo": "Criar fila nacional única por procedimento com critério clinico de prioridade e posição consultável pelo próprio paciente, mutirao diagnóstico e cirurgico contratualizado por resultado entregue e não por estrutura disponibilizada, e auditoria pública dos tempos de espera em série histórica.",
+   "citacao": "A fila brasileira tem um problema anterior ao tamanho: ninguém sabe onde está. Fila invisível se organiza por conhecido. ▪ Fila nacional única e pública por procedimento, com critério clínico de prioridade e posição consultável pelo próprio paciente.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "regulacao-filas-sus-sisreg",
+    "fila-unica-mais-acesso",
+    "tempo-maximo-espera-reino-unido",
+    "garantia-tempo-espera-portugal",
+    "mutirao-cirurgico-avaliacao",
+    "ambulatorio-medico-especialidades-sp"
+   ],
+   "historico": {
+    "br": "O SUS regula por risco no Sisreg e usa a classificação de Manchester na urgência, mas a fila eletiva e gerida localmente e sem transparência ao paciente - o diagnóstico de fila invisível e correto. Mutirões reduzem estoque sem alterar a capacidade de regulação. O Agora Tem Especialistas (2025) e a primeira tentativa nacional de fila única por risco.",
+    "br_res": "em_curso",
+    "mundo": "O Reino Unido reduziu a espera máxima de 18 meses para 18 semanas entre 2000 e 2008 com meta legal, dinheiro novo e públicação por hospital, e perdeu o ganho quando o financiamento parou. Portugal opera garantia de tempo máximo desde 2004. Contratualizar por resultado entregue, e não por estrutura disponibilizada, e a lição das auditorias britanicas sobre os contratos com o setor privado.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 34,
+   "vt": "forte",
+   "vd": "Reino Unido de 2000 a 2008 e Portugal desde 2004 mostram que fila transparente com prioridade clínica funciona. A lição das auditorias britânicas está incorporada na proposta: contratualizar por resultado entregue, não por estrutura disponibilizada."
+  },
+  {
+   "id": "grassi-22",
+   "titulo": "Carreira para profissional de saúde em região de difícil fixação",
+   "setor": "saude",
+   "subtema": "Atenção primária",
+   "resumo": "Expandir equipes de saúde da família com meta por município e cofinanciamento estável fora da barganha política, levar profissional a região de difícil fixação por carreira e não por contrato precário renovado a cada crise, e integrar o prontuário entre níveis de atenção.",
+   "citacao": "Levar profissional para região de difícil fixação com carreira, e não com contrato precário renovado a cada crise. ▪ Integrar o prontuário eletrônico entre os níveis de atenção, de modo que o dado acompanhe o paciente e não o estabelecimento.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "mais-medicos",
+    "medicos-pelo-brasil",
+    "provab",
+    "carreira-medica-federal-debate",
+    "nhs-recrutamento-areas-remotas"
+   ],
+   "historico": {
+    "br": "O Mais Médicos (2013) levou profissionais a municípios remotos com efeito documentado sobre consultas e mortalidade infantil, e sofreu ruptura em 2018 com a saída dos médicos cubanos, expondo a fragilidade de um modelo baseado em contrato precário. O Médicos pelo Brasil (2019) criou carreira federal e a implantação ficou aquem do previsto. O diagnóstico do plano - carreira em vez de contrato renovado a cada crise - e o mesmo dos avaliadores.",
+    "br_res": "parcial",
+    "mundo": "O NHS britanico usa incentivo financeiro e formação em área remota para fixação, com resultado parcial. A Australia condiciona registro de médico formado no exterior a período em área de necessidade. A evidência internacional aponta que formação local e vínculo de carreira fixam mais que bonus temporário.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 34,
+   "vt": "promissora",
+   "vd": "O Mais Médicos teve efeito documentado sobre consulta e mortalidade infantil e ruiu em 2018 com a saída dos cubanos — exatamente a fragilidade do contrato precário que o plano diagnostica. A evidência internacional é de que formação local fixa mais que bônus temporário."
+  },
+  {
+   "id": "grassi-23",
+   "titulo": "Alfabetização com apoio federal condicionado a resultado externo",
+   "setor": "educacao",
+   "subtema": "Alfabetização",
+   "resumo": "Dar continuidade a política federal de alfabetização na idade certa acrescentando condicionalidade: apoio técnico e financeiro vinculado a resultado aferido em avaliação externa, e não a adesao formal, com transparência total do dado por escola.",
+   "citacao": "Continuidade e endurecimento da política federal de alfabetização na idade certa, que já existe desde 2023 e cujo mérito não vamos fingir que é nosso. O que acrescentamos é condicionalidade:",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "compromisso-crianca-alfabetizada",
+    "alfabetiza-ceara",
+    "politica-nacional-alfabetizacao-2019",
+    "saeb-avaliacao",
+    "accountability-educacional-critica"
+   ],
+   "historico": {
+    "br": "O Compromisso Nacional Criança Alfabetizada (2023) replicou o desenho do PAIC cearense, que combinou meta, avaliação externa anual e repasse de ICMS por resultado - e levou o Ceara do fim ao topo do ranking. A condicionalidade proposta (apoio vinculado a resultado aferido externamente, e não a adesao formal) e exatamente o elemento que distingue o caso cearense das políticas federais anteriores, como o Pnaic de 2012.",
+    "br_res": "funcionou",
+    "mundo": "A Inglaterra tornou o phonics obrigatório com teste censitário em 2012 e subiu no PIRLS. Mississippi replicou o modelo nos EUA com ganho nacionalmente notado. O No Child Left Behind, porém, mostra o risco: accountability com sanção forte gerou manipulação de indicador. A combinação recomendada e avaliação externa com apoio técnico a rede que vai mal.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 36,
+   "vt": "forte",
+   "vd": "O Ceará é o caso brasileiro mais bem documentado, e a condicionalidade — apoio vinculado a resultado externo, não a adesão formal — é justamente o que separa o PAIC do Pnaic federal de 2012, que teve escala e pouco efeito."
+  },
+  {
+   "id": "grassi-24",
+   "titulo": "PEC da Pesquisa: pesquisador bolsista vira servidor de carreira",
+   "setor": "cti",
+   "subtema": "Carreira científica",
+   "resumo": "Emenda constitucional criando carreira federal de pesquisador com ingresso por seleção de base curricular e de produção, vínculo a instituição de pesquisa e a universidade, remuneração de entrada equiparada a carreiras federais equivalentes, fomento em todas as áreas incluindo ciência básica e clausula de contrapartida de permanência. O plano registra que e despesa obrigatória continuada e que a implantação sera por etapas.",
+   "citacao": "pesquisador que cumprir os requisitos deixa de ser bolsista e passa a ser servidor público, com carreira, com vínculo e com salário compatível com a qualificação que ele tem.",
+   "econ": -2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "bolsas-cnpq-capes-valores",
+    "fuga-cerebros-brasil",
+    "carreira-pesquisador-embrapa-fiocruz",
+    "cnrs-franca-carreira",
+    "max-planck-alemanha",
+    "contingenciamento-cnpq-capes"
+   ],
+   "historico": {
+    "br": "O pesquisador brasileiro vive de bolsa sem vínculo, sem previdência e sem progressão, e os valores ficaram congelados por quase uma decada até os reajustes de 2023. O contingenciamento de CNPq e Capes e recorrente. A Embrapa e a Fiocruz são os precedentes domesticos de carreira de pesquisador com vínculo estatutário e são apontadas justamente como as instituições de maior continuidade científica do país.",
+    "br_res": "parcial",
+    "mundo": "A Franca mantem o CNRS com pesquisadores concursados em carreira permanente desde 1939, e a Alemanha a Max Planck com posições estáveis - os dois modelos de referência. Os EUA seguem o caminho oposto, com pos-doutorado prolongado e alta competição, e enfrentam crítica crescente sobre precarização. Carreira estável tem evidência de retenção; o custo e despesa obrigatória continuada, como o plano reconhece.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 36,
+   "vt": "promissora",
+   "vd": "CNRS francês e Max Planck alemã sustentam pesquisador em carreira estável há décadas e retêm talento. O plano assume o que quase nenhum assume: é despesa obrigatória continuada e a implantação tem de ser por etapas — e Embrapa e Fiocruz provam o modelo aqui."
+  },
+  {
+   "id": "grassi-25",
+   "titulo": "Bolsa Atleta com inscrição direta, sem intermediação de federação",
+   "setor": "cultura",
+   "subtema": "Esporte",
+   "resumo": "Permitir que atleta e paratleta se inscrevam individualmente na plataforma federal, com comprovação por resultado oficial extraido de base pública, contrato direto com a União e pagamento em conta do próprio atleta, metas objetivas de manutenção, recurso fundamentado e públicação da lista completa de contemplados, valores e critérios.",
+   "citacao": "Inscrição individual e direta do atleta e do paratleta na plataforma federal, sem exigência de indicação, anuência ou intermediação de federação ou confederação. ▪ Comprovação por resultado oficial verificável em competição reconhecida, extraído de base pública.",
+   "econ": 0,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "bolsa-atleta-lei-10891",
+    "lei-agnelo-piva",
+    "cbf-cob-governanca",
+    "lei-pele",
+    "uk-sport-financiamento",
+    "autoridade-publica-governanca-apfut"
+   ],
+   "historico": {
+    "br": "O Bolsa Atleta existe desde 2004 (Lei 10.891) e o acesso passa por comprovação junto as entidades de administração do desporto - a dependência que o plano quer eliminar. A Lei Agnelo-Piva financia COB e CPB com recursos de loterias, e a governança de confederações e alvo de críticas e de CPIs recorrentes. Pagamento direto ao atleta sem intermediação seria mudança estrutural inédita.",
+    "br_res": "parcial",
+    "mundo": "O UK Sport financia atletas diretamente com base em resultado e potencial de medalha, com pagamento individual e metas objetivas - o modelo que a proposta espelha, e ele e associado ao salto britanico nos Jogos a partir de 2000. A Australia opera modelo semelhante. A crítica ao modelo britanico e que concentra recursos em modalidades com chance de medalha, abandonando as demais.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 39,
+   "vt": "forte",
+   "vd": "O UK Sport financia atleta diretamente por resultado, e é apontado como fator do salto britânico nos Jogos a partir de 2000. Tirar a intermediação da federação ataca uma dependência política real — a crítica ao modelo britânico é concentrar em modalidade com chance de medalha."
+  },
+  {
+   "id": "grassi-26",
+   "titulo": "Educação física com padrão nacional mínimo e jogos escolares permanentes",
+   "setor": "educacao",
+   "subtema": "Esporte escolar",
+   "resumo": "Padrão nacional mínimo de carga horária, espaco e material para educação física com cofinanciamento condicionado a cumprimento verificado, professor com formação específica inclusive nos anos iniciais, avaliação periodica de aptidao física com dado agregado publicado e calendário nacional de jogos escolares com etapa municipal obrigatória.",
+   "citacao": "Educação física é componente curricular obrigatório na educação básica desde a Lei de Diretrizes e Bases. Na prática, em parte relevante da rede, virou aula vaga com bola no pátio.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "ldb-educacao-fisica",
+    "jogos-escolares-brasileiros",
+    "proesp-avaliacao-aptidao",
+    "daily-pe-reino-unido",
+    "esporte-escolar-franca"
+   ],
+   "historico": {
+    "br": "A educação física e componente obrigatório pela LDB desde 1996 e se degradou em boa parte da rede, sem professor com formação específica nos anos iniciais. Os Jogos Escolares existem desde 1969 com etapa municipal irregular. Não há padrão nacional de carga horária, espaco e material nem avaliação de aptidao física em escala - o Proesp-Br faz isso de forma amostral e acadêmica.",
+    "br_res": "fracassou",
+    "mundo": "A Inglaterra criou o Daily Mile e programas de esporte escolar financiados por imposto sobre bebidas açucaradas a partir de 2017. A Franca instituiu 30 minutos diários de atividade física no ensino fundamental em 2020. A evidência sobre atividade física escolar e saúde e solida; a evidência sobre detecção de talento por avaliação censitária e mais fraca.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 38,
+   "vt": "promissora",
+   "vd": "A educação física é obrigatória pela LDB desde 1996 e virou aula vaga em boa parte da rede. A evidência sobre atividade física e saúde é sólida; a de que avaliação censitária de aptidão descobre talento é fraca, e o plano vende as duas juntas."
+  },
+  {
+   "id": "grassi-27",
+   "titulo": "Portabilidade do aluguel para financiamento habitacional",
+   "setor": "cidade",
+   "subtema": "Habitação",
+   "resumo": "Reconhecer o histórico de pagamento de aluguel como comprovação de capacidade de pagamento, dando direito a financiamento com parcela inicial equivalente ao aluguel comprovado, com análise automatizada, negativa fundamentada e recorrível e livre escolha do imóvel, novo ou usado, em qualquer município.",
+   "citacao": "Em vez de o governo decidir onde a pessoa vai morar, o governo dá a ela poder de compra e ela decide. 10.1 Portabilidade do aluguel para financiamento O centro da proposta:",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "minha-casa-minha-vida",
+    "conjuntos-habitacionais-perifericos-critica",
+    "vouchers-habitacionais-eua-section8",
+    "rent-reporting-credito-eua",
+    "help-to-buy-reino-unido",
+    "carta-credito-fgts"
+   ],
+   "historico": {
+    "br": "O MCMV (2009) e o Casa Verde e Amarela (2020) construiram unidades em área periférica com evasao, revenda informal e captura por grupos armados em vários conjuntos - o diagnóstico do plano coincide com o dos urbanistas. A Compra Assistida já permite adquirir imóvel pronto em situações específicas. Usar histórico de aluguel como comprovação de capacidade de pagamento não existe no SFH brasileiro.",
+    "br_res": "parcial",
+    "mundo": "Os EUA migraram do conjunto habitacional para o voucher e o experimento Moving to Opportunity mostrou ganho de saúde e renda dos filhos ao mudar de bairro. O rent reporting americano converte aluguel pago em histórico de crédito e ampliou acesso a financiamento para quem não tinha score. O Help to Buy britanico (2013) subsidiou compra e e criticado por ter elevado preço de imóvel sem ampliar a oferta - o risco central deste desenho.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 41,
+   "vt": "promissora",
+   "vd": "O rent reporting americano converte aluguel pago em histórico de crédito e amplia acesso a quem não tem score — o mecanismo é real. O alerta é o Help to Buy britânico de 2013, que subsidiou compra e elevou preço sem ampliar oferta; sem oferta nova, o subsídio vira preço."
+  },
+  {
+   "id": "grassi-28",
+   "titulo": "Garantia pública parcial e uso de imóvel vazio",
+   "setor": "cidade",
+   "subtema": "Habitação",
+   "resumo": "Direcionar FGTS e SBPE a faixa hoje sem acesso com subsídio explicito e orcado, reduzir custo de originação por automação e cartório eletrônico, oferecer garantia pública parcial a quem tem histórico de aluguel e não tem entrada, e incentivar tributariamente a colocação no mercado de estoque parado, inclusive imóvel da União sem destinação.",
+   "citacao": "Uso do imóvel vazio: incentivo tributário à colocação no mercado de unidade retomada e de estoque parado, inclusive imóvel da União sem destinação, que hoje custa manutenção e não abriga ninguém.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "fgts-habitacao",
+    "iptu-progressivo-funcao-social",
+    "imoveis-uniao-spu",
+    "locacao-social-sp",
+    "taxa-imoveis-vazios-franca"
+   ],
+   "historico": {
+    "br": "O FGTS e a principal fonte do crédito habitacional popular e opera com taxas subsidiadas há decadas. O IPTU progressivo por função social está no Estatuto da Cidade desde 2001 e e aplicado por pouquissimos municípios, São Paulo entre eles, com efeito pequeno. A SPU tem cadastro incompleto de imóveis da União e passivo de manutenção.",
+    "br_res": "parcial",
+    "mundo": "A Franca taxa imóveis vazios em zonas tensionadas desde 1999, com evidência de redução modesta da vacancia. A garantia pública parcial a mutuários sem entrada e praticada nos EUA pela FHA desde 1934 e ampliou acesso, com o alerta de que garantias mal calibradas contribuiram para a crise de 2008. São instrumentos conhecidos, com efeito moderado e risco fiscal gerenciável se bem desenhados.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 42,
+   "vt": "promissora",
+   "vd": "A FHA americana garante mutuário sem entrada desde 1934 e ampliou acesso, com o alerta de 2008 sobre garantia mal calibrada. A França taxa imóvel vazio desde 1999 com redução modesta da vacância — instrumentos conhecidos, efeito moderado, risco fiscal gerenciável."
+  },
+  {
+   "id": "grassi-29",
+   "titulo": "Meta habitacional medida pelo déficit, não por unidades entregues",
+   "setor": "cidade",
+   "subtema": "Habitação",
+   "resumo": "Assumir como meta a redução do déficit habitacional pela metodologia da Fundação Joao Pinheiro, recusando explicitamente o indicador de unidades entregues, e não fixar número de unidades nem valor de subsídio antes de ter acesso ao caixa do FGTS.",
+   "citacao": "Não a contagem de unidades entregues, indicador que os governos preferem porque cresce mesmo quando o problema não diminui. Não apresento aqui número de unidades nem valor de subsídio.",
+   "econ": 0,
+   "social": 0,
+   "peso": 1,
+   "precedentes": [
+    "deficit-habitacional-fjp",
+    "metas-mcmv-unidades",
+    "indicadores-resultado-vs-produto",
+    "monitoramento-ods-habitacao"
+   ],
+   "historico": {
+    "br": "O déficit habitacional e medido pela Fundação Joao Pinheiro desde 1995 e nenhum programa federal jamais adotou sua redução como meta oficial - a metrica usada e sempre unidades entregues, que cresce mesmo quando o déficit não cai, exatamente como o plano aponta. E uma crítica metodológica correta e pouco feita.",
+    "br_res": "inedito",
+    "mundo": "A Nova Zelandia adotou em 2019 o orçamento do bem-estar, organizando a peça fiscal por resultado social e não por produto entregue. O Reino Unido usa indicadores de resultado em várias políticas. A mudança de indicador de produto para resultado e recomendação classica da literatura de avaliação e enfrenta sempre a mesma resistência: resultado demora mais que um mandato.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 42,
+   "vt": "forte",
+   "vd": "Nenhum programa federal jamais adotou a redução do déficit da Fundação João Pinheiro como meta — usa-se unidades entregues, que cresce mesmo quando o problema não diminui. É crítica metodológica correta e quase nunca feita em plano de governo."
+  },
+  {
+   "id": "grassi-30",
+   "titulo": "Auditar o cumprimento da lei do CPF único com onus para quem descumpre",
+   "setor": "estado",
+   "subtema": "Governo digital",
+   "resumo": "Auditar e publicar no primeiro ano o cumprimento órgão por órgão da Lei 14.534/2023, cujo prazo de interoperabilidade venceu em janeiro de 2025, com prazo de regularização, responsável nomeado, efeito sobre gratificação e permanência do dirigente, e registro auditável de toda consulta a dado pessoal por agente público.",
+   "citacao": "O problema brasileiro em Estado digital não é ausência de norma. É norma descumprida sem que nada aconteça com quem descumpre. Por isso o compromisso deste eixo é de execução com ônus, e não de nova legislação.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "lei-14534-cpf-unico",
+    "lei-14129-governo-digital",
+    "lei-13726-desburocratizacao",
+    "lgpd",
+    "estonia-x-road",
+    "anpd-estrutura"
+   ],
+   "historico": {
+    "br": "A Lei 14.534/2023 fixou o CPF como número único com prazo de interoperabilidade que venceu em janeiro de 2025 sem cumprimento pleno e sem consequência; a Lei 13.726/2018 e a 14.129/2021 tem o mesmo destino. O diagnóstico do plano - norma descumprida sem onus - e o mesmo dos relatórios do TCU sobre governo digital.",
+    "br_res": "fracassou",
+    "mundo": "A Estonia opera o once-only sobre o X-Road com registro auditável de toda consulta a dado pessoal - inclusive permitindo ao cidadão ver quem acessou seus dados, o que a proposta espelha. A União Europeia consagrou o princípio no Single Digital Gateway. Nos casos maduros, o salto veio de proibição legal com sanção, e não de norma programática.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 44,
+   "vt": "forte",
+   "vd": "O prazo da Lei 14.534 venceu em janeiro de 2025 sem cumprimento e sem consequência. A Estônia opera o once-only com registro auditável de cada consulta a dado pessoal — e o que produziu o salto lá foi proibição legal com sanção, não norma programática."
+  },
+  {
+   "id": "grassi-31",
+   "titulo": "Brasil nos Trilhos: corredores ferroviários com marco por trecho",
+   "setor": "cidade",
+   "subtema": "Logística",
+   "resumo": "Retomar e concluir corredores ferroviários de carga prioritários com cronograma físico publicado e marco de entrega por trecho, usar plenamente o regime de autorização ferroviária, planejar ferrovia e porto em conjunto, incluir hidrovia e cabotagem e priorizar por custo logístico por tonelada publicado por corredor.",
+   "citacao": "O que não pode continuar é o país mandar soja de Sorriso ao porto de Santos sobre pneu. Ferrovia carrega o volume; caminhão carrega o resto. Onde os dois modais se dividem certo, o frete cai para todo mundo, inclusive para o caminhoneiro, que troca viagem longa mal paga por viagem curta com mais giro.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "autorizacao-ferroviaria-lei-14273",
+    "ferrogrão-licenciamento",
+    "fiol-obras",
+    "transnordestina",
+    "privatizacao-rffsa",
+    "cabotagem-br-do-mar",
+    "staggers-act-eua"
+   ],
+   "historico": {
+    "br": "O Brasil escoa a safra por rodovia em distancias continentais. A Transnordestina se arrasta por mais de 15 anos, a Ferrograo está suspensa judicialmente desde 2021, a FIOL avanca por trechos. O regime de autorização ferroviária (Lei 14.273/2021) atraiu dezenas de requerimentos e poucos quilometros construidos. A BR do Mar (2022) buscou destravar a cabotagem com resultados iniciais modestos.",
+    "br_res": "parcial",
+    "mundo": "Os EUA desregularam a carga ferroviária com o Staggers Act (1980) e a participação do modal cresceu de forma sustentada sem construção de rede nova relevante - o ganho veio de regulação estável e de consolidação. A China construiu malha com dinheiro estatal e endividamento elevado. A evidência favorece estabilidade regulatoria de decadas sobre programa de obras.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 46,
+   "vt": "promissora",
+   "vd": "Os EUA desregularam a carga em 1980 e o modal cresceu de forma sustentada sem construir rede nova — o ganho veio de estabilidade regulatória e consolidação. O regime de autorização brasileiro é de 2021 e produziu requerimentos, não quilômetros."
+  },
+  {
+   "id": "grassi-32",
+   "titulo": "Licenciamento com responsável nomeado e prazo em painel público",
+   "setor": "ambiente",
+   "subtema": "Licenciamento",
+   "resumo": "Fixar prazo definido para o licenciamento ambiental com responsável nomeado por processo e por marco de obra, prazo correndo em painel público, apuração automática do descumprimento e efeito sobre gratificação do servidor e sobre a medição contratual da concessionária.",
+   "citacao": "Demora não é rigor; costuma ser falta de gente. [...] Prazo sem responsável identificado é prazo decorativo. ▪ Efeito do descumprimento sobre gratificação de desempenho e sobre a permanência em cargo de direção, e, no caso de concessionária, sobre a medição contratual do período.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "lei-geral-licenciamento-15190",
+    "resolucao-conama-237",
+    "ibama-quadro-tecnico",
+    "licenciamento-por-risco-portugal",
+    "nepa-reforma-eua"
+   ],
+   "historico": {
+    "br": "A Lei 15.190/2025 criou o licenciamento por risco e e norma nova demais para avaliação. O Ibama perdeu quadro técnico por aposentadoria sem reposição, o que auditorias apontam como causa principal da demora - o diagnóstico do plano, de que demora e falta de gente e não rigor, tem respaldo. Responsável nomeado por processo com painel público não existe hoje.",
+    "br_res": "em_curso",
+    "mundo": "Portugal opera licenciamento por nível de risco com prazos legais e equipe dedicada. Os EUA criaram o Permitting Council com painel público de prazos por projeto federal - o modelo mais próximo do proposto e considerado eficaz em dar visibilidade ao gargalo. A evidência e de que prazo com responsável nomeado funciona; prazo sem equipe apenas transfere o problema ao Judiciário.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 47,
+   "vt": "forte",
+   "vd": "O diagnóstico de que demora é falta de gente, e não rigor, tem respaldo: o Ibama perdeu quadro técnico por aposentadoria sem reposição. O Permitting Council americano com painel público de prazos por projeto é o modelo mais próximo e é considerado eficaz."
+  },
+  {
+   "id": "grassi-33",
+   "titulo": "Regulamentar o art. 231 para mineração em terra indígena com três condições",
+   "setor": "ambiente",
+   "subtema": "Terras indígenas",
+   "resumo": "Enviar projeto regulamentando o art. 231, parag. 3 da Constituição com três condições inegociáveis: consentimento da comunidade apurado por consulta na forma da Convenção 169 da OIT, participação econômica paga diretamente com governança definida pela própria comunidade, e licenciamento pleno com proibição de mercurio, garantia financeira previa e responsabilidade solidária de quem compra o minério. O texto registra que o caminho jurídico e estreito, que garimpo exige mexer no art. 23 da Lei 7.805/1989 e que qualquer marco sera judicializado.",
+   "citacao": "Sem essas três condições, não é regularização. É legalizar o que já está acontecendo e lavar a assinatura do Estado nisso. Registro também que o tema é um dos mais litigiosos do país e que qualquer marco legal aqui será judicializado no dia seguinte à publicação.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pl-191-2020-mineracao-terras-indigenas",
+    "art-231-cf-terras-indigenas",
+    "convencao-169-oit",
+    "garimpo-yanomami-crise",
+    "lei-7805-1989-garimpo",
+    "mineracao-terras-indigenas-canada-idb"
+   ],
+   "historico": {
+    "br": "O art. 231, parag. 3 exige lei que nunca foi editada, e o PL 191/2020 tentou faze-lo sem consulta previa adequada e não avançou. A crise Yanomami de 2023 expos o custo humano do garimpo ilegal. O art. 23 da Lei 7.805/1989 exclui expressamente a lavra garimpeira em terras indígenas, ponto técnico que o plano identifica e que quase nenhum documento eleitoral menciona.",
+    "br_res": "fracassou",
+    "mundo": "O Canada desenvolveu Impact Benefit Agreements com Primeiras Nações, com resultados melhores onde a comunidade tem capacidade de negociação. A Convenção 169 da OIT, ratificada pelo Brasil, exige consulta livre, previa e informada, e a Corte Interamericana condenou paises por consulta feita depois da decisão (caso Saramaka, Suriname, 2007). O desenho com três condições que o plano propoe e o que mais se aproxima do padrão interamericano.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 48,
+   "vt": "promissora",
+   "vd": "As três condições — consentimento pela Convenção 169, participação econômica paga diretamente e licenciamento pleno — são o que mais se aproxima do padrão interamericano, e a Corte já condenou o Suriname por consulta feita depois da decisão. O plano ainda identifica o art. 23 da Lei 7.805, que quase ninguém cita."
+  },
+  {
+   "id": "grassi-34",
+   "titulo": "Piso constitucional de 2% do PIB para defesa com 35% em modernização",
+   "setor": "estado",
+   "subtema": "Defesa",
+   "resumo": "Apoiar a PEC 55/2023 que destina ao menos 2% do PIB a defesa e vincula no mínimo 35% desse valor a modernização, com elevação gradual ao longo do mandato. O plano registra a objeção de que vincular percentual reduz flexibilidade fiscal e pode comprimir saúde e educação, e responde com o escalonamento e a vinculação dos 35%.",
+   "citacao": "Sem ela, dobrar o orçamento apenas dobraria a folha, e o Brasil continuaria com tropa mal equipada e conta maior. Com ela, cada real adicional tem destino definido em equipamento, manutenção e projeto estratégico.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "pec-55-2023-defesa",
+    "meta-2-pib-otan",
+    "end-estrategia-nacional-defesa",
+    "vinculacoes-orcamentarias-critica",
+    "gasto-defesa-brasil-serie"
+   ],
+   "historico": {
+    "br": "O gasto brasileiro em defesa está em torno de 1% do PIB, com cerca de 78% em pessoal - o desequilibrio que a proposta ataca com a vinculação de 35% a modernização. A PEC 55/2023 está parada há três anos. O Brasil já acumula vinculações constitucionais em saúde e educação, e a crítica de que elas engessam o orçamento e a mesma que o plano registra vinda de economistas.",
+    "br_res": "fracassou",
+    "mundo": "A Otan fixou a meta de 2% do PIB em 2014 e a maioria dos membros só a cumpriu após 2022, sob pressão geopolítica - o que sugere que meta sem ameaca percebida não move gasto. A clausula de percentual mínimo para equipamento existe em vários paises europeus justamente porque, sem ela, o aumento e absorvido pela folha.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 49,
+   "vt": "promissora",
+   "vd": "A cláusula dos 35% em modernização é a parte que importa: sem ela, dobrar o orçamento dobra a folha. A meta de 2% da Otan só foi cumprida pela maioria após 2022, o que sugere que meta sem ameaça percebida não move gasto."
+  },
+  {
+   "id": "grassi-35",
+   "titulo": "Piso do soldo no salário mínimo e recomposição concentrada na base",
+   "setor": "estado",
+   "subtema": "Defesa",
+   "resumo": "Elevar o piso do soldo, hoje em R$ 1.177 para o recruta contra um mínimo de R$ 1.621, a não menos que o salário mínimo, e concentrar a próxima recomposição em soldado, cabo e sargento em vez de aplicar percentual linear, reduzindo a distância de doze vezes entre base e topo, com estudo publicado do escalonamento vertical.",
+   "citacao": "Um recruta com soldo de R$ 1.177 diante de um mínimo de R$ 1.621 é uma distorção que se corrige com uma linha de lei. ▪ Recomposição escalonada com percentual maior para soldado, cabo e sargento, que é onde está o maior contingente e a maior rotatividade.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "lei-15167-2025-soldos",
+    "reestruturacao-carreira-militar-2019",
+    "piso-salarial-constitucional",
+    "evasao-pracas-forcas-armadas",
+    "soldo-comparado-america-latina"
+   ],
+   "historico": {
+    "br": "Os militares ficaram sem reajuste de 2020 a 2025 e a Lei 15.167/2025 concedeu 9% em duas parcelas, considerada insuficiente pelo próprio relator. A reestruturação da carreira de 2019 elevou despesa no curto prazo e beneficiou proporcionalmente mais os oficiais. O piso do recruta abaixo do salário mínimo e uma distorção reconhecida, e a evasao de sargentos formados e admitida publicamente pelos comandos.",
+    "br_res": "parcial",
+    "mundo": "Os EUA reformaram o soldo da tropa nos anos 1980 concentrando o aumento na base e reduziram a evasao de forma documentada. O Reino Unido usa comissão independente para recomendar remuneração militar, o que despolitiza o reajuste. A regularidade e que concentrar recomposição na base reduz evasao mais que percentual linear, exatamente o argumento do plano.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 50,
+   "vt": "forte",
+   "vd": "Os EUA reformaram o soldo da tropa nos anos 1980 concentrando o aumento na base e reduziram evasão de forma documentada. Um recruta com soldo abaixo do salário mínimo é distorção que se corrige com uma linha de lei, e os comandos admitem publicamente a perda de sargento formado."
+  },
+  {
+   "id": "grassi-36",
+   "titulo": "Bases permanentes de fronteira com poder de polícia da LC 97/1999",
+   "setor": "seguranca",
+   "subtema": "Fronteiras",
+   "resumo": "Substituir operações episodicas por bases permanentes com efetivo fixo nos trechos críticos, concluir e ampliar o sistema integrado de monitoramento com radar, sensoriamento e aeronave não tripulada, e manter patrulhamento fluvial e aéreo permanente na Amazonia, usando o poder de polícia que a Lei Complementar 97/1999 já confere.",
+   "citacao": "Enquanto ela for vigiada por operação episódica, o resultado será episódico. A Lei Complementar nº 97, de 1999, já atribui às Forças Armadas poder de polícia na faixa de fronteira, com competência para patrulhar, revistar pessoas, veículos, embarcações e aeronaves e efetuar prisões em flagrante.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "lc-97-1999-poder-policia",
+    "sisfron",
+    "operacao-agata",
+    "programa-vigia-fronteiras",
+    "amazonia-conectada"
+   ],
+   "historico": {
+    "br": "A Lei Complementar 97/1999 já da poder de polícia as Forças Armadas na faixa de fronteira e o instrumento e subutilizado. O Sisfron recebeu fração do orçamento previsto e o TCU apontou atraso; as Operações Agata são episodicas por desenho, exatamente a crítica do plano. O Programa Vigia (2019) teve continuidade irregular.",
+    "br_res": "parcial",
+    "mundo": "A Frontex europeia ampliou vigilância sem eliminar entrada irregular. Os EUA gastaram dezenas de bilhões na fronteira sul com efeito de desvio de rota. Onde houve redução mensurável de tráfico, ela veio de inspeção de carga em porto e de inteligência financeira. Presença permanente melhora coleta de inteligência; não funciona como barreira.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 50,
+   "vt": "arriscada",
+   "vd": "A LC 97/1999 já dá o poder de polícia e o instrumento é subutilizado — o diagnóstico está certo. Mas Frontex e a fronteira sul americana mostram que vigilância funciona como coleta de inteligência, não como barreira; o que reduz tráfico é porto e conta bancária."
+  },
+  {
+   "id": "grassi-37",
+   "titulo": "GLO com missao, prazo e área em decreto e relatório ao Congresso",
+   "setor": "seguranca",
+   "subtema": "Emprego das Forças Armadas",
+   "resumo": "Empregar as Forças Armadas contra o crime organizado com regras de engajamento publicadas e treinadas, responsabilidade penal e disciplinar preservada, nenhum emprego por prazo indeterminado, missao e área delimitadas em decreto e relatório de execução enviado ao Congresso ao fim de cada emprego, sem substituir a polícia no patrulhamento urbano.",
+   "citacao": "Forças Armadas empregadas contra o crime organizado são instrumento de exceção controlada, não substituto permanente da polícia — e é justamente essa contenção que garante que a medida funcione sem desgastar a instituição.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "glo-rio-2017",
+    "intervencao-federal-rio-2018",
+    "ocupacao-mare-2014",
+    "lc-97-1999-poder-policia",
+    "militarizacao-seguranca-mexico"
+   ],
+   "historico": {
+    "br": "O Brasil usou GLO dezenas de vezes e a intervenção federal no Rio em 2018 não alterou os indicadores de forma sustentada, segundo o Observatório da Intervenção. A ocupação da Mare (2014-2015) terminou sem transição para política de segurança. As críticas recorrentes são ausência de regras de engajamento públicas e de prazo definido - as duas salvaguardas que o plano incorpora.",
+    "br_res": "parcial",
+    "mundo": "O Mexico militarizou a segurança desde 2006 e a violência aumentou; a Guardia Nacional (2019) tem resultado contestado. A experiência comparada mostra que emprego militar em segurança pública funciona como medida temporária de contenção e produz aumento de letalidade e de denúncias quando se torna permanente - o motivo pelo qual a contenção proposta e tecnicamente relevante.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 51,
+   "vt": "promissora",
+   "vd": "Regras de engajamento publicadas, prazo definido e relatório ao Congresso são exatamente as salvaguardas ausentes na intervenção do Rio em 2018 e na Maré. O México militarizou de forma permanente e a violência aumentou — a contenção proposta é o que separa os dois desfechos."
+  },
+  {
+   "id": "grassi-38",
+   "titulo": "Contratos plurianuais de defesa protegidos de contingenciamento",
+   "setor": "estado",
+   "subtema": "Base industrial de defesa",
+   "resumo": "Proteger projetos estratégicos de contingenciamento por contratos plurianuais, priorizar manutenção e prontidao, exigir conteudo nacional e meta de exportação na base industrial de defesa, tratar defesa cibernética como infraestrutura crítica e publicar relatório anual de prontidao por Força.",
+   "citacao": "Hoje o país não sabe quanto da sua frota voa, navega ou anda. 13.6 O interesse brasileiro em toda negociação externa Este plano não traz doutrina de política externa, e a omissão é deliberada.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "prosub-submarino-nuclear",
+    "gripen-fab-contrato",
+    "base-industrial-defesa-lei-12598",
+    "contingenciamento-defesa-historico",
+    "embraer-privatizacao"
+   ],
+   "historico": {
+    "br": "O Prosub e o contrato do Gripen sobreviveram a várias trocas de governo com atrasos e renegociações; a indústria de defesa dos anos 1980 quebrou nos anos 1990 com o fim das encomendas. O contingenciamento recorrente e apontado por todos os diagnósticos como a causa do encarecimento por interrupção e reinicio de projetos.",
+    "br_res": "parcial",
+    "mundo": "Israel e a Coreia do Sul construiram indústrias exportadoras com demanda estatal previsível, offset obrigatório e contratos plurianuais protegidos. A Suecia sustenta a Saab com programa de longo prazo. O denominador comum e contrato plurianual imune ao ciclo orçamentário - o que a proposta pede e que nenhum governo brasileiro entregou.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 51,
+   "vt": "forte",
+   "vd": "Israel, Coreia e Suécia sustentam indústria de defesa com contrato plurianual imune ao ciclo orçamentário. O contingenciamento recorrente é apontado por todos os diagnósticos como causa do encarecimento por interromper e reiniciar projeto — Prosub e Gripen são a prova."
+  },
+  {
+   "id": "grassi-39",
+   "titulo": "Reciprocidade e contrapartida como critério único de política externa",
+   "setor": "externa",
+   "subtema": "Doutrina",
+   "resumo": "Recusar-se a fixar doutrina de política externa no plano e adotar um critério único: acordo comercial que não abre mercado para produto brasileiro não e assinado, barreira imposta ao produto nacional e respondida com reciprocidade pelos instrumentos do direito internacional, investimento estrangeiro em setor estratégico vem com contrapartida de conteudo nacional e transferência de tecnologia, e posição em foro multilateral definida caso a caso.",
+   "citacao": "Em toda negociação internacional de que o Brasil participar [...] a pergunta que decide a posição brasileira é o que o Brasil ganha. Não Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 — 52 — a simpatia por um bloco, não a fidelidade a um alinhamento herdado, não o desconforto de contrariar quem está do outro lado da mesa.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "acordo-mercosul-ue",
+    "lei-reciprocidade-economica-2025",
+    "retaliacao-omc-algodao",
+    "alinhamento-eua-2019-2022",
+    "politica-externa-ativa-altiva"
+   ],
+   "historico": {
+    "br": "O Brasil tem uma das menores redes de acordos comerciais entre economias de porte comparável e corrente de comércio em torno de 33% do PIB, contra 57% da média mundial. A Lei de Reciprocidade Econômica (2025) foi aprovada em resposta as tarifas americanas e ainda não foi aplicada. O contencioso do algodao na OMC (2004-2014) e o precedente de retaliação autorizada e efetivamente negociada pelo Brasil.",
+    "br_res": "parcial",
+    "mundo": "Os EUA usam a Seção 301 e a União Europeia criou o instrumento anticoerção em 2023 - o mesmo desenho de reciprocidade. A experiência da OMC mostra que retaliação funciona como instrumento de barganha para economias grandes e produz pouco efeito quando o desequilibrio de poder e alto. Contrapartida em conteudo nacional e transferência de tecnologia e praticada por China e India com resultados desiguais.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 51,
+   "vt": "promissora",
+   "vd": "A Seção 301 americana e o instrumento anticoerção europeu de 2023 são o mesmo desenho. A experiência da OMC mostra que retaliação funciona como barganha para economia grande e rende pouco quando o desequilíbrio de poder é alto — o Brasil está no meio."
+  },
+  {
+   "id": "grassi-40",
+   "titulo": "Agenda legislativa limitada a cinco prioridades por semestre",
+   "setor": "estado",
+   "subtema": "Governabilidade",
+   "resumo": "Publicar agenda legislativa priorizada com no máximo cinco projetos por semestre, compor ministério por critério técnico com currículo e vinculações de cada indicado publicados no ato da nomeação, e não negociar emenda orçamentária fora de processo público e rastreável.",
+   "citacao": "Nenhuma negociação de emenda orçamentária fora do processo público e rastreável. 14.2 Relação com os outros poderes e com a federação ▪ Respeito à decisão judicial, inclusive quando desfavorável ao governo, com uso dos meios processuais em vez do enfrentamento retórico.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "emendas-parlamentares-orcamento-secreto",
+    "adi-emendas-stf",
+    "presidencialismo-de-coalizao",
+    "nomeacoes-tecnicas-vs-politicas",
+    "alertas-tcu"
+   ],
+   "historico": {
+    "br": "O presidencialismo de coalizao brasileiro produz governos com base ampla e negociação permanente; nenhum presidente eleito desde 1988 teve maioria própria. Agenda legislativa priorizada publicamente nunca foi prática formal do Executivo federal. A negociação de emendas fora de processo rastreável foi justamente o que o STF vedou em 2022 e 2024.",
+    "br_res": "inedito",
+    "mundo": "O Reino Unido pública o programa legislativo anual no discurso do trono, com lista fechada de projetos - o modelo mais próximo. O Chile usa urgências legislativas com prazo. A Delivery Unit britanica demonstrou que limitar o número de prioridades e o fator que mais aumenta a taxa de entrega. A restrição voluntária a cinco projetos por semestre e coerente com essa evidência.",
+    "mundo_res": "funcionou",
+    "conf": "media"
+   },
+   "pagina": 53,
+   "vt": "promissora",
+   "vd": "A Delivery Unit demonstrou que limitar o número de prioridades é o fator que mais aumenta a taxa de entrega. O Reino Unido publica programa legislativo anual com lista fechada — a autolimitação a cinco projetos por semestre é coerente com a evidência e inédita aqui."
+  },
+  {
+   "id": "grassi-41",
+   "titulo": "Painel público de metas com responsável nomeado e revisão anual",
+   "setor": "estado",
+   "subtema": "Transparência",
+   "resumo": "Publicar nos primeiros cem dias painel aberto com o estado de cada meta deste plano e o nome do responsável, revisar o plano publicamente todo ano registrando o que foi cumprido e o que foi alterado, divulgar a agenda completa do presidente e do vice com quem participou de cada reunião e anexar estimativa de impacto orçamentário a todo projeto enviado ao Congresso.",
+   "citacao": "Meta abandonada em silêncio é meta que nunca existiu. 3.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "lei-acesso-informacao",
+    "agenda-publica-autoridades",
+    "open-government-partnership",
+    "programa-metas-sp-lei-organica",
+    "monitoramento-ppa"
+   ],
+   "historico": {
+    "br": "São Paulo tem programa de metas obrigatório por lei orgânica desde 2008, com públicação, revisão e prestação de contas - o caso brasileiro mais durável e o mais próximo do proposto. No plano federal, o PPA tem indicadores e a responsabilização por não entrega e praticamente inexistente. A LRF já exige estimativa de impacto orçamentário em projetos, exigência frequentemente descumprida.",
+    "br_res": "parcial",
+    "mundo": "A Delivery Unit britanica (2001) acompanhava poucas metas prioritárias com reuniões regulares de cobrança e virou modelo replicado em dezenas de paises. A Open Government Partnership documenta que públicação de metas com responsável nomeado aumenta a taxa de cumprimento. O elemento crítico e a revisão pública anual do que foi abandonado - raramente praticado.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 58,
+   "vt": "forte",
+   "vd": "São Paulo mantém programa de metas obrigatório por lei orgânica desde 2008 — o caso brasileiro mais durável. O elemento crítico e raramente praticado é a revisão pública anual do que foi abandonado, e o plano o assume explicitamente."
+  }
+ ]
+}

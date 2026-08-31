@@ -1,0 +1,1430 @@
+{
+ "sq": "280002551547",
+ "doc": "2026BR280002551547_01",
+ "resumo_doc": "Plano de 194 paginas de Augusto Cury (Avante). Estrutura em três blocos: um ensaio inicial sobre polarização e cultura da paz (cerca de 30 paginas de argumentação psicológica, com referências a Kant, Nietzsche, Frankl, Tolstoi, Gandhi e Martin Luther King), 20 teses temáticas com sub-itens, e 18 projetos batizados. Declara explicitamente uma sintese ideológica: coração nos valores sociais da esquerda, mente nos pilares econômicos da direita. Boa parte do texto e dedicada a diagnóstico e a conceitos da Teoria da Inteligência Multifocal do próprio autor; as propostas concretas aparecem principalmente nas teses e nos projetos.",
+ "alerta_doc": "O documento mistura plano de governo com exposição da obra do autor (inclui capítulo final Quem e Augusto Cury) e ancora várias propostas de política pública em conceitos da sua Teoria da Inteligência Multifocal, sem estimativa de custo para a maioria dos programas. Duas seções de teses estão numeradas com salto (não há tese 18 no sumário nem no corpo).",
+ "propostas": [
+  {
+   "id": "cury-01",
+   "titulo": "Déficit público próximo de zero durante o mandato",
+   "setor": "economia",
+   "subtema": "Ajuste fiscal",
+   "resumo": "Perseguir déficit primário próximo de zero sem aventuras fiscais, com metas de eficiência por ministério, eliminação de gastos improdutivos e redução gradual da dívida pública pelo crescimento e pela responsabilidade fiscal.",
+   "citacao": "Nossa meta será perseguir o déficit próximo de zero, sem aventuras fiscais, preservando investimentos estratégicos e fortalecendo a confiança dos brasileiros e dos investidores nacionais e internacionais.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "arcabouco-fiscal-2023",
+    "ec-95-teto-gastos",
+    "lei-responsabilidade-fiscal-2000",
+    "superavit-primario-1999-2013",
+    "regra-ouro-alemanha"
+   ],
+   "pagina": 36,
+   "historico": {
+    "br": "O Brasil já testou meta de superávit primário (1999-2013), que funcionou no ciclo de crescimento e ruiu na recessão; o teto da EC 95/2016 foi furado por nove emendas em seis anos; o arcabouço de 2023 limita a despesa a 70% da variação da receita. Nenhuma regra enfrentou a despesa obrigatória indexada, que é a origem do problema.",
+    "br_res": "parcial",
+    "mundo": "O Chile opera regra de balanço estrutural com conselho fiscal independente desde 2001 — o caso latino-americano mais bem avaliado. A Suécia reconstruiu a sustentabilidade fiscal nos anos 1990 com teto plurianual. O denominador comum é uma instituição independente com poder de constranger.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Déficit zero é meta, não mecanismo. Os três regimes fiscais brasileiros falharam no mesmo ponto — a despesa indexada — e o plano não diz o que fará com ela, que é a única pergunta que importa."
+  },
+  {
+   "id": "cury-02",
+   "titulo": "Reforma administrativa com redução de ministerios e avaliação de desempenho",
+   "setor": "estado",
+   "subtema": "Reforma do Estado",
+   "resumo": "Simplificar estruturas, eliminar sobreposições, estudar redução do número de ministerios, modernizar carreiras e criar avaliação permanente de desempenho, preservando direitos dos servidores.",
+   "citacao": "Uma ampla reforma administrativa buscará simplificar estruturas, eliminar sobreposições de funções, estudos para redução de ministérios e criação do ministério da segurança para reduzir a criminalidade.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "reforma-administrativa-ec-19",
+    "pec-32-2020-reforma-administrativa",
+    "avaliacao-desempenho-servidor",
+    "reforma-estado-nova-zelandia",
+    "plano-diretor-bresser-1995"
+   ],
+   "pagina": 37,
+   "historico": {
+    "br": "O número de ministérios oscilou de 39 para 22 e de volta a 39 em oito anos sem economia mensurável: a despesa está na folha e nas políticas, não na estrutura. A PEC 32/2020 da reforma administrativa nunca foi votada e a avaliação de desempenho do servidor é prevista desde a EC 19/1998 sem regulamentação eficaz.",
+    "br_res": "fracassou",
+    "mundo": "A Nova Zelândia reorganizou o Estado nos anos 1980-1990 com contratos de desempenho para dirigentes, referência internacional. A Argentina reduziu ministérios de 18 para 9 em 2018 com economia modesta frente ao ajuste total. O padrão é que corte de ministérios rende símbolo e revisão de folha rende dinheiro.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Reduzir ministérios é a parte visível e irrelevante; avaliação de desempenho é a parte que rende e que está travada desde 1998. O plano prioriza a primeira."
+  },
+  {
+   "id": "cury-03",
+   "titulo": "Revisão do pacto federativo tributário em favor dos municípios",
+   "setor": "estado",
+   "subtema": "Pacto federativo",
+   "resumo": "Rever a divisao federativa dos tributos, hoje favorável a União e aos Estados, transferindo mais recursos aos municípios, onde ocorrem as demandas de saúde, educação e segurança.",
+   "citacao": "apresentaremos proposta de revisão do pacto federativo no aspecto tributário, o ideal seria menos União Federal e mais municípios.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "fpm-fundo-participacao",
+    "reforma-tributaria-ec-132",
+    "pec-188-2019",
+    "descentralizacao-fiscal-brasil-1988",
+    "municipalizacao-saude-sus"
+   ],
+   "pagina": 38,
+   "historico": {
+    "br": "Os municípios arrecadam pouco e executam as políticas de ponta — o diagnóstico é correto e antigo. A reforma tributária da EC 132/2023 já redistribui parte da arrecadação, e toda tentativa de rever o pacto federativo desde 1988 esbarrou na resistência de União e estados a abrir mão de receita.",
+    "br_res": "fracassou",
+    "mundo": "A Alemanha e o Canadá têm partilha federativa negociada periodicamente com fórmula fixa em lei. Na América Latina, a Colômbia descentralizou receita nos anos 1990 e enfrentou desequilíbrio fiscal municipal por falta de capacidade administrativa local.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "O diagnóstico está certo — a dor acontece no município. Mas descentralizar receita sem capacidade administrativa local produziu desequilíbrio na Colômbia, e o plano não trata dessa metade."
+  },
+  {
+   "id": "cury-04",
+   "titulo": "Carga tributária menor ao fim da transição da reforma",
+   "setor": "economia",
+   "subtema": "Tributação",
+   "resumo": "Conduzir a reforma tributária já aprovada com o compromisso de terminar com alíquota-referência inferior a projetada, publicando o custo de cada regime diferenciado, e revisar distorções sobre micro e pequenas empresas.",
+   "citacao": "cada tratamento diferenciado terá seu custo estimado e divulgado de forma clara, permitindo que a sociedade avalie seus benefícios e sua efetividade.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "reforma-tributaria-ec-132",
+    "simples-nacional",
+    "gastos-tributarios-receita",
+    "iva-chile",
+    "gst-india"
+   ],
+   "pagina": 38,
+   "historico": {
+    "br": "A EC 132/2023 levou três décadas para ser aprovada e a alíquota-padrão estimada ficou perto de 28%, resultado direto do número de regimes diferenciados negociados. A EC 109/2021 já mandou reduzir gastos tributários a 2% do PIB e não foi cumprida.",
+    "br_res": "em_curso",
+    "mundo": "A Dinamarca e a Hungria têm IVA de 25% e 27% com poucas exceções; Nova Zelândia e Singapura são os casos de IVA simples com base ampla e alíquota baixa. A regularidade internacional é inequívoca: quanto mais setores isentos, maior a alíquota geral.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Publicar o custo de cada regime diferenciado é o mecanismo certo — é o que permite ao público ver quem paga pela exceção do outro. Reduzir a alíquota exige cortar exceções, e o plano promete a redução sem nomear o corte."
+  },
+  {
+   "id": "cury-05",
+   "titulo": "Governo totalmente digital e IA contra desperdicio e corrupção",
+   "setor": "estado",
+   "subtema": "Governo digital",
+   "resumo": "Digitalizar integralmente os serviços públicos, avaliar permanentemente políticas públicas, fixar metas para todos os ministerios e usar inteligência artificial para detectar desperdicios e corrupção nos gastos.",
+   "citacao": "Inteligência Artificial contra desperdícios e corrupção Maior aprimoramento da Inteligência Artificial para identificar fraudes, desperdícios, sobrepreços, pagamentos irregulares e ineficiências administrativas.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "gov-br-digitalizacao",
+    "alice-cgu",
+    "estonia-e-governo",
+    "gastos-publicos-auditoria-ia",
+    "observatorio-despesa-publica"
+   ],
+   "pagina": 39,
+   "historico": {
+    "br": "O Gov.br unifica centenas de milhões de contas e o Brasil é bem posicionado nos índices da ONU; a CGU opera o sistema Alice de mineração de editais por IA desde 2018. A Lei 14.534/2023 fixou prazo de interoperabilidade que venceu em janeiro de 2025 sem consequência.",
+    "br_res": "parcial",
+    "mundo": "A Estônia opera o X-Road desde 2001 com registro auditável de cada consulta a dado pessoal. A Ucrânia com o ProZorro e a Coreia do Sul com o KONEPS mediram economia real em compras públicas ao abrir dados e automatizar alertas.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "IA contra desperdício em compras tem resultado medido no ProZorro e no KONEPS, e o Brasil já tem o Alice funcionando. O obstáculo não é tecnológico: é que a norma de interoperabilidade venceu e nada aconteceu com quem descumpriu."
+  },
+  {
+   "id": "cury-06",
+   "titulo": "10 mil Escolas de Empreendedorismo e 10 milhões de novos empreendedores",
+   "setor": "trabalho",
+   "subtema": "Empreendedorismo",
+   "resumo": "Rede nacional de escolas de empreendedorismo em escolas, universidades, igrejas e comunidades, com 10 mil clubes, formação em gestão da emoção, finanças e estratégia, visando formar 10 milhões de novos empreendedores.",
+   "citacao": "Implantaremos uma ampla rede nacional de Escolas de Empreendedorismo, formando milhões de jovens e adultos para criar empresas, inovar, administrar recursos e gerar empregos. O empreendedorismo deixará de ser um privilégio para tornar-se uma cultura nacional.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "sebrae-capacitacao",
+    "mei-microempreendedor-individual",
+    "empreendedorismo-por-necessidade-gem",
+    "startup-chile",
+    "pronatec"
+   ],
+   "pagina": 39,
+   "historico": {
+    "br": "O Sebrae capacita há décadas e o MEI formalizou milhões de microempreendedores desde 2008. O Brasil já tem uma das maiores taxas de empreendedorismo do mundo, e o GEM classifica a maior parte como empreendedorismo por necessidade — o que muda o sentido da meta.",
+    "br_res": "parcial",
+    "mundo": "O Startup Chile atraiu empreendedores com capital semente e é o programa latino-americano mais citado, com resultado positivo sobre criação de empresas e efeito modesto sobre emprego agregado. A evidência internacional é de que treinamento em empreendedorismo eleva intenção e pouco a sobrevivência do negócio.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Dez milhões de novos empreendedores num país onde a maior parte já empreende por necessidade é meta que confunde quantidade com qualidade. Treinamento eleva intenção e quase não move a sobrevivência do negócio."
+  },
+  {
+   "id": "cury-07",
+   "titulo": "Banco do Empreendedor com crédito de até R$ 20 mil a 5% a 6% ao ano",
+   "setor": "economia",
+   "subtema": "Crédito",
+   "resumo": "Criar banco especializado em micro e pequenos negocios oferecendo crédito de até R$ 20 mil com juros de 5% a 6% ao ano, orientação técnica, educação financeira e redução do spread bancário para crédito de menor porte.",
+   "citacao": "O Banco do Empreendedor. Democratizar o capital e democratizar oportunidades. Crédito De Até R$ 20.000,00; Juros Civilizados (5% a 6% ao ano)",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "crediamigo-bnb",
+    "microcredito-produtivo-orientado",
+    "grameen-bank-bangladesh",
+    "banco-do-povo-sp",
+    "pronampe",
+    "credito-dirigido-critica"
+   ],
+   "citacao_aprox": true,
+   "pagina": 98,
+   "historico": {
+    "br": "O Crediamigo do Banco do Nordeste é o maior microcrédito produtivo orientado da América Latina com boa avaliação sobre renda; Bancos do Povo estaduais tiveram inadimplência alta onde faltou orientação técnica. Juros de 5% a 6% ao ano estão muito abaixo do custo de captação e implicam subsídio explícito não quantificado no plano.",
+    "br_res": "parcial",
+    "mundo": "O Grameen popularizou o modelo e as avaliações experimentais posteriores revisaram para baixo as expectativas: efeito sobre atividade produtiva e efeito fraco sobre pobreza. O que melhora resultado é a assistência técnica junto, não o juro subsidiado.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "O juro de 5% ao ano é o problema: está muito abaixo do custo de captação e o plano não diz quem paga a diferença. A evidência aponta que o que faz microcrédito funcionar é a orientação técnica, não o juro barato."
+  },
+  {
+   "id": "cury-08",
+   "titulo": "Ministério do Empreendedorismo e da Economia Distribuida",
+   "setor": "trabalho",
+   "subtema": "Estrutura de governo",
+   "resumo": "Criar secretária executiva ou ministério dedicado a fragmentar a economia em milhões de unidades produtivas como resposta preventiva ao desemprego tecnológico causado por IA e robotica, democratizando o acesso a IA para pequenos negocios.",
+   "citacao": "Precisamos de uma nova arquitetura econômica: uma economia distribuída, fragmentada em milhões de unidades produtivas. Fragmentar não é enfraquecer, é democratizar, é incluir. Uma economia concentrada gera eficiência e uma economia distribuída gera resiliência.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "ministerio-micro-pequena-empresa-2013",
+    "mei-microempreendedor-individual",
+    "uberizacao-trabalho",
+    "automacao-emprego-frey-osborne",
+    "small-business-administration-eua"
+   ],
+   "pagina": 96,
+   "historico": {
+    "br": "O Ministério da Micro e Pequena Empresa existiu entre 2013 e 2015 e foi extinto; o MEI já é a política de formalização em escala. A tese de fragmentar a economia como resposta ao desemprego tecnológico não tem precedente de política pública no Brasil.",
+    "br_res": "parcial",
+    "mundo": "A Small Business Administration americana existe desde 1953 com garantias de crédito e compras reservadas, e é o caso mais duradouro. A literatura sobre automação e emprego é disputada: as previsões de destruição em massa de Frey e Osborne (2013) foram revisadas para baixo em estudos posteriores da OCDE.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "vt": "arriscada",
+   "vd": "Criar ministério é resposta organizacional a um diagnóstico econômico contestado — as previsões de desemprego tecnológico em massa foram revisadas para baixo pela própria OCDE. A SBA americana entrega por garantia de crédito e compra reservada, não por ministério."
+  },
+  {
+   "id": "cury-09",
+   "titulo": "Programa Nacional de 10 mil novas indústrias",
+   "setor": "economia",
+   "subtema": "Política industrial",
+   "resumo": "Implantar 10 mil novas indústrias, com destaque para agroindustrias de pequeno, médio e grande porte, além de frentes em robotica e Indústria 4.0, semicondutores e microeletronica, farmacêutica e biotecnologia e terras raras.",
+   "citacao": "Programa Nacional para implantação de 10 mil novas indústrias (em destaque agroindústrias pequenas, médias e grandes) O Brasil precisa voltar a ser uma potência industrial.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "politica-industrial-brasil-maior",
+    "nova-industria-brasil-2024",
+    "plano-brasil-maior-avaliacao",
+    "made-in-china-2025",
+    "politica-industrial-coreia-chaebol",
+    "pdp-2008"
+   ],
+   "pagina": 40,
+   "historico": {
+    "br": "O Brasil teve PDP (2008), Plano Brasil Maior (2011) e Nova Indústria Brasil (2024). O primeiro ciclo distribuiu crédito subsidiado e desonerações sem cobrar desempenho e a participação da indústria no PIB continuou caindo.",
+    "br_res": "fracassou",
+    "mundo": "A Coreia do Sul condicionou crédito subsidiado a metas de exportação verificáveis e retirava o apoio de quem falhava — o mecanismo de disciplina apontado pela literatura como o diferencial em relação à América Latina, que subsidiou sem cobrar.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Dez mil indústrias é número, não política. O que separou a Coreia da América Latina foi retirar o apoio de quem não entregava, e nenhum plano industrial brasileiro jamais teve esse mecanismo — este também não tem."
+  },
+  {
+   "id": "cury-10",
+   "titulo": "Cinco Corredores Estratégicos de Exportação e ampliação das ZPEs",
+   "setor": "economia",
+   "subtema": "Comércio exterior",
+   "resumo": "Estruturar cinco corredores logísticos voltados a exportação, ampliar as Zonas de Processamento de Exportação e criar linhas de crédito e garantias ao exportador, com meta de reduzir a dependência de commodities.",
+   "citacao": "Reduzir a dependência de commodities, aumentando a participação de produtos industrializados e de alto valor agregado;",
+   "econ": 2,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "zpe-brasil-lei-11508",
+    "proex-financiamento",
+    "corredores-logisticos-pnl",
+    "apex-brasil",
+    "export-processing-zones-avaliacao"
+   ],
+   "pagina": 140,
+   "historico": {
+    "br": "As ZPEs foram criadas em 1988 e reformuladas em 2007: das dezenas autorizadas, pouquíssimas operam, porque a exigência de exportar e a burocracia alfandegária inviabilizaram a maioria. Corredores logísticos são previstos no Plano Nacional de Logística sem execução correspondente.",
+    "br_res": "fracassou",
+    "mundo": "Shannon e Shenzhen são os casos de sucesso e ambos combinaram regime especial com porto e demanda externa. A avaliação do Banco Mundial mostra que a maioria das ZEEs fracassa: sem infraestrutura de classe mundial, a zona só transfere empresa de uma região para outra do mesmo país.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "As ZPEs brasileiras existem há quase quarenta anos e quase nenhuma opera — ampliar o instrumento sem mudar o que o inviabilizou repete o erro. Os corredores logísticos são a metade útil da proposta."
+  },
+  {
+   "id": "cury-11",
+   "titulo": "Escola de tempo integral como clube de desenvolvimento humano",
+   "setor": "educacao",
+   "subtema": "Modelo pedagógico",
+   "resumo": "Transformar a escola em ambiente de pertencimento com oratoria, teatro, musica, esportes e eventos culturais, e incluir no currículo três pilares: Gestão da Emoção, Educação Financeira e Empreendedorismo.",
+   "citacao": "Em vez de ser apenas um local de permanência obrigatória, torna-se um verdadeiro clube de desenvolvimento humano, de interação, motivação e pertencimento. Um ambiente que os alunos desejam frequentar, pois a escola passa a integrar:",
+   "econ": 0,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "escola-tempo-integral-pee",
+    "programa-mais-educacao",
+    "educacao-socioemocional-bncc",
+    "educacao-financeira-enef",
+    "escola-da-escolha-pernambuco"
+   ],
+   "pagina": 75,
+   "historico": {
+    "br": "A meta de tempo integral do PNE de 2014 não foi cumprida; o Mais Educação virou contraturno de baixa qualidade. Pernambuco e Ceará mostraram que funciona com escola desenhada para o dia inteiro e professor com dedicação exclusiva. Educação financeira já está na BNCC.",
+    "br_res": "parcial",
+    "mundo": "O Chile implantou a Jornada Escolar Completa em 1997 em quase toda a rede: ganho modesto de aprendizagem e ganho maior de proteção social e de trabalho feminino. A licão é que tempo integral só melhora aprendizagem quando muda o que se faz com o tempo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Definir o que se faz com o tempo — oratória, esporte, empreendedorismo — é exatamente o que faltou ao Mais Educação. O risco é o oposto do usual: currículo cheio demais, com três disciplinas novas competindo com português e matemática, que são o problema medido no PISA."
+  },
+  {
+   "id": "cury-12",
+   "titulo": "Gestão da Emoção como disciplina nacional nas escolas",
+   "setor": "educacao",
+   "subtema": "Saúde mental escolar",
+   "resumo": "Introduzir a Gestão da Emoção no currículo escolar para desenvolver equilibrio psicológico, autonomia e capacidade de enfrentar desafios, com foco declarado em prevenção de ansiedade, automutilação e suicídio.",
+   "citacao": "Gestão da Emoção, para desenvolver o equilíbrio psicológico, a autonomia e a capacidade de enfrentar desafios;",
+   "econ": 0,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "educacao-socioemocional-bncc",
+    "lei-13935-psicologos-escolas",
+    "sel-casel-eua",
+    "programa-saude-na-escola",
+    "prevencao-suicidio-setembro-amarelo"
+   ],
+   "pagina": 75,
+   "historico": {
+    "br": "A educação socioemocional já está na BNCC desde 2017 e a Lei 13.935/2019 previu psicólogos e assistentes sociais nas escolas, com implantação lenta. O suicídio e a automutilação entre adolescentes cresceram de forma documentada na última década.",
+    "br_res": "em_curso",
+    "mundo": "O movimento SEL americano acumula metanálises com efeito positivo modesto sobre comportamento e desempenho quando o programa é estruturado e aplicado com fidelidade. O Reino Unido descontinuou o programa SEAL após avaliação que não achou efeito, justamente por falta de fidelidade de implementação.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Educação socioemocional tem evidência real e frágil: funciona com programa estruturado e fidelidade de aplicação, e o Reino Unido descontinuou o seu quando isso faltou. Ancorar a disciplina numa teoria do próprio autor, em vez de num currículo validado, é o risco específico aqui."
+  },
+  {
+   "id": "cury-13",
+   "titulo": "Brasil Neuroinclusivo: metodologia psicoativa e mapa da neurodiversidade",
+   "setor": "educacao",
+   "subtema": "Educação inclusiva",
+   "resumo": "Plano de Inclusão e Desenvolvimento em cada escola, formação de professor neuroinclusivo, rede integrada escola-família-saúde e criação de um Mapa Nacional da Neurodiversidade, com metodologia baseada em provocar a arte de perguntar, desafiar a arte de pensar e elogiar a arte de participar.",
+   "citacao": "O coração pedagógico do projeto será a Metodologia Psicoativa, fundada em três movimentos simples e profundos, preconizados pelo Dr. Augusto Cury:",
+   "econ": 0,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "lbi-lei-brasileira-inclusao",
+    "politica-nacional-educacao-especial-2020",
+    "aee-atendimento-especializado",
+    "lei-berenice-piana-autismo",
+    "educacao-inclusiva-italia",
+    "abordagem-tea-rede"
+   ],
+   "pagina": 81,
+   "historico": {
+    "br": "A Lei 12.764/2012 equiparou o autista à pessoa com deficiência e a LBI de 2015 consolidou a inclusão; o gargalo real é a fila de diagnóstico e a ausência de profissional de apoio. O Mapa Nacional da Neurodiversidade seria inédito.",
+    "br_res": "parcial",
+    "mundo": "Os EUA garantem intervenção precoce por lei federal desde 1986, com efeito documentado quando o diagnóstico ocorre antes dos três anos. A Itália adota inclusão plena na escola comum desde 1977, com bons resultados sociais e crítica de suporte insuficiente.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Plano de inclusão por escola e profissional de apoio são as peças que faltam na prática, e a proposta as nomeia. A metodologia batizada com o nome do próprio autor é o elemento que não tem validação independente."
+  },
+  {
+   "id": "cury-14",
+   "titulo": "Expansão do ensino técnico e valorização salarial dos professores",
+   "setor": "educacao",
+   "subtema": "Ensino técnico e carreira",
+   "resumo": "Prioridade absoluta a educação básica, expansão do ensino técnico e profissionalizante, valorização dos professores com melhores salários e formação, e universidades conectadas ao desenvolvimento nacional.",
+   "citacao": "A dor dos professores e das professoras, que perderam a autoridade em sala de aula e que não foram devidamente treinados nem valorizados, inclusive com melhores salários, também não tem viés partidário.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "piso-nacional-magisterio",
+    "pronatec",
+    "novo-ensino-medio-2017",
+    "ensino-dual-alemanha",
+    "institutos-federais-expansao"
+   ],
+   "pagina": 3,
+   "historico": {
+    "br": "O piso nacional do magistério é de 2008, confirmado pelo STF em 2011, e a defasagem salarial docente frente a outras carreiras de nível superior é documentada. A rede federal de ensino técnico saltou de 140 para mais de 640 unidades entre 2003 e 2016 e travou por falta de custeio.",
+    "br_res": "parcial",
+    "mundo": "Alemanha e Suíça sustentam o ensino dual com contrapartida obrigatória das empresas e alta inserção. Singapura, Coreia e Finlândia recrutam docentes entre os melhores egressos e pagam bem — o efeito depende de seleção rigorosa na entrada.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Valorização salarial atrai candidato melhor apenas quando vem com exigência maior de ingresso — é assim em Singapura e na Finlândia. Sem essa metade, o aumento é justo e não move aprendizagem."
+  },
+  {
+   "id": "cury-15",
+   "titulo": "Universidades que empreendem, patenteiam e transferem tecnologia",
+   "setor": "cti",
+   "subtema": "Ensino superior e inovação",
+   "resumo": "Ampliar CAPES e CNPq, transformar campi em ambientes de inovação com incubadoras e laboratórios, e estimular registro de patentes e transferência de tecnologia ao setor produtivo.",
+   "citacao": "precisamos construir uma universidade que produz patentes. ... Nosso objetivo e estimular o registro de patentes, fortalecer a cultura da propriedade intelectual e ampliar a transferência de tecnologia para o setor produtivo",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "marco-legal-ciencia-tecnologia-13243",
+    "lei-inovacao-10973",
+    "nits-nucleos-inovacao",
+    "bayh-dole-act-eua",
+    "embrapii",
+    "contingenciamento-cnpq-capes"
+   ],
+   "citacao_aprox": true,
+   "pagina": 78,
+   "historico": {
+    "br": "O Marco Legal de CT&I (2016) e a Lei de Inovação (2004) criaram os instrumentos e os NITs universitários; o Brasil publica muito e patenteia pouco. Capes e CNPq sofrem contingenciamento recorrente, e o Future-se (2019) foi rejeitado pelas universidades.",
+    "br_res": "parcial",
+    "mundo": "O Bayh-Dole Act americano (1980) é o marco mais copiado do mundo e é creditado pelo salto de transferência de tecnologia universitária. A Embrapii brasileira replica parcialmente o modelo com boa avaliação.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "O Bayh-Dole é o precedente certo e o Brasil já tem os instrumentos legais desde 2004 — o que falta é financiamento estável, não lei nova. Patente como meta isolada é indicador ruim, e o plano flerta com isso."
+  },
+  {
+   "id": "cury-16",
+   "titulo": "Programa Mulheres Vivas contra o feminicídio",
+   "setor": "direitos",
+   "subtema": "Violência de gênero",
+   "resumo": "Política nacional integrada de prevenção ao feminicídio articulando União, estados, municípios, segurança, Justiça, assistência e saúde, com identificação de situações de alto risco, policiamento comunitário e visitas preventivas as residências de mulheres ameacadas.",
+   "citacao": "O Estado não pode aparecer apenas para contabilizar mais uma vítima. Precisamos chegar antes do agressor. 2.",
+   "econ": 0,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "lei-maria-da-penha",
+    "lei-feminicidio-13104",
+    "casa-da-mulher-brasileira",
+    "patrulha-maria-da-penha",
+    "lethality-assessment-eua",
+    "ciudad-mujer-el-salvador"
+   ],
+   "pagina": 88,
+   "historico": {
+    "br": "A Lei Maria da Penha é referência internacional e os feminicídios não caíram — o gargalo é execução da medida protetiva. As Casas da Mulher Brasileira foram prometidas em 2013 e entregues em número muito inferior; a Patrulha Maria da Penha tem avaliação favorável onde há visita domiciliar sistemática.",
+    "br_res": "parcial",
+    "mundo": "A Espanha opera o VioGen desde 2004, com classificação de risco vinculante para a polícia, e é o sistema mais completo do mundo, associado à queda de feminicídio entre monitoradas. Os EUA usam a Lethality Assessment na abordagem policial com evidência de redução de violência grave.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Chegar antes do agressor exige avaliação de risco padronizada e vinculante — foi isso que separou a Espanha dos países que só têm boa lei. Visita preventiva domiciliar é a parte com evidência brasileira, pela Patrulha Maria da Penha."
+  },
+  {
+   "id": "cury-17",
+   "titulo": "Botao de alerta com geolocalização e monitoramento eletrônico de agressores",
+   "setor": "direitos",
+   "subtema": "Violência de gênero",
+   "resumo": "Ampliar botões de panico com geolocalização, aplicativos de emergência, monitoramento eletrônico de agressores por ordem judicial, centrais integradas e protocolos de resposta prioritária, com acompanhamento preventivo das mulheres de alto risco.",
+   "citacao": "Ampliaremos o uso de botões de alerta com geolocalização, aplicativos de emergência, monitoramento eletrônico de agressores nos casos determinados judicialmente, centrais integradas e protocolos de resposta prioritária para mulheres ameaçadas.",
+   "econ": 0,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "botao-do-panico-vitoria",
+    "tornozeleira-eletronica-medida-protetiva",
+    "aplicativo-sos-mulher",
+    "gps-monitoring-espanha-cometa",
+    "medidas-protetivas-efetividade"
+   ],
+   "pagina": 88,
+   "historico": {
+    "br": "O monitoramento eletrônico de agressor sob medida protetiva já é previsto e usado de forma desigual entre estados; há mais medidas protetivas do que tornozeleiras e equipes de central disponíveis. Botões de pânico existem desde a experiência de Vitória em 2013.",
+    "br_res": "parcial",
+    "mundo": "A Espanha opera o sistema Cometa desde 2009, com tornozeleira de dupla via ligada a central 24 horas e dispositivo na vítima, e registra queda expressiva de feminicídio entre monitoradas. É o desenho com melhor evidência do mundo.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "O Cometa espanhol é o precedente direto e funciona. O gargalo brasileiro não é a tecnologia: é que há mais medida protetiva do que tornozeleira e central para monitorar, e é essa conta que o plano precisa fechar."
+  },
+  {
+   "id": "cury-18",
+   "titulo": "Igualdade salarial, crédito igualitário e autonomia econômica das mulheres",
+   "setor": "direitos",
+   "subtema": "Igualdade de gênero",
+   "resumo": "Garantir igualdade salarial e de oportunidades, corrigir a desigualdade no acesso ao crédito para mulheres e promover autonomia econômica como instrumento para romper o ciclo da violência domestica.",
+   "citacao": "Não existe liberdade plena sem autonomia econômica. Muitas mulheres permanecem em relacionamentos violentos porque não possuem renda, patrimônio ou condições financeiras suficientes para sustentar a si mesmas e aos seus filhos.",
+   "econ": -1,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "lei-14611-igualdade-salarial",
+    "transparencia-salarial-islandia",
+    "gender-pay-gap-reino-unido",
+    "credito-mulheres-bid",
+    "programa-mulher-empreendedora"
+   ],
+   "pagina": 88,
+   "historico": {
+    "br": "A igualdade salarial é regra na CLT desde 1943 e nunca foi cumprida; a Lei 14.611/2023 inovou ao exigir relatório semestral de transparência, com liminares suspendendo a publicação em 2024. A diferença média permanece em torno de 20%.",
+    "br_res": "em_curso",
+    "mundo": "A Islândia exige certificação prévia de equidade salarial desde 2018, com multa diária, e a diferença caiu de forma mensurável. O Reino Unido publica o gender pay gap desde 2017 com redução lenta — transparência isolada move pouco.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Transparência sozinha move devagar; o que funcionou na Islândia foi certificação prévia com multa. A parte sobre crédito é a mais original e tem evidência do BID sobre acesso desigual de mulheres a financiamento produtivo."
+  },
+  {
+   "id": "cury-19",
+   "titulo": "Compromisso de indicar mulheres para o Supremo Tribunal Federal",
+   "setor": "direitos",
+   "subtema": "Representação",
+   "resumo": "Assumir compromisso público de indicar mulheres para as vagas disponíveis no STF, como marco de representatividade nas mais altas instâncias do Judiciário.",
+   "citacao": "Assumimos o compromisso de indicar mulheres para as vagas disponíveis no Supremo Tribunal Federal. O Brasil é repleto de mulheres extremamente competentes em todas as carreiras jurídicas, com plena capacidade técnica e profissional para ocupar o cargo de ministra do Supremo Tribunal Federal.",
+   "econ": 0,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "composicao-stf-genero",
+    "cotas-genero-candidaturas-30",
+    "paridade-judiciario-canada",
+    "suprema-corte-mexico-paridade",
+    "indicacao-stf-sabatina"
+   ],
+   "pagina": 56,
+   "historico": {
+    "br": "O STF tem histórico de baixíssima presença feminina e passou anos sem nenhuma ministra em exercício simultâneo com outra. A indicação é ato discricionário do presidente com sabatina no Senado, o que torna o compromisso executável sem mudança legal.",
+    "br_res": "parcial",
+    "mundo": "O Canadá adota paridade de gênero na Suprema Corte por prática desde os anos 2000 e o México a impôs por reforma constitucional. A literatura sobre efeito de composição em decisões judiciais é disputada; o efeito de representatividade sobre confiança institucional é melhor documentado.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "É a proposta mais simples de cumprir do plano inteiro: depende só da caneta do presidente, sem lei nem negociação. O efeito sobre decisões é disputado; sobre representatividade e confiança institucional, não."
+  },
+  {
+   "id": "cury-20",
+   "titulo": "Combate a tirania da beleza e proteção emocional de meninas",
+   "setor": "direitos",
+   "subtema": "Saúde mental",
+   "resumo": "Política de enfrentamento aos padrões estéticos e a cultura digital que adoecem meninas e adolescentes, com proteção emocional, educação para o respeito e cultura de paz nas escolas.",
+   "citacao": "COMBATE À TIRANIA DA BELEZA E AO ASSASSINATO COLETIVO DA AUTOESTIMA Existe uma violência que não produz hematomas visíveis, mas pode produzir profundas cicatrizes emocionais.",
+   "econ": 0,
+   "social": -1,
+   "peso": 1,
+   "precedentes": [
+    "publicidade-infantil-conanda",
+    "lei-restricao-celular-escolas-2025",
+    "age-appropriate-design-reino-unido",
+    "instagram-adolescentes-estudos",
+    "proibicao-redes-menores-australia"
+   ],
+   "pagina": 90,
+   "historico": {
+    "br": "O Conanda regula publicidade infantil desde 2014 e a Lei 15.100/2025 restringiu celular nas escolas. O ECA Digital (2025) tratou de ambientes digitais. O adoecimento de meninas ligado a padrões estéticos em redes é documentado por estudos internos das próprias plataformas, revelados em 2021.",
+    "br_res": "em_curso",
+    "mundo": "O Reino Unido implantou o Age Appropriate Design Code em 2020, que levou plataformas a mudar padrões globais de privacidade para menores. A Austrália proibiu redes para menores de 16 em 2024, ainda sem resultado conhecido. A evidência sobre efeito de redes na saúde mental de adolescentes é real e de magnitude disputada.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "vt": "promissora",
+   "vd": "O problema é real e documentado pelos estudos internos das próprias plataformas. O caminho com efeito comprovado é regulatório, como o código britânico — campanha de conscientização isolada tem evidência fraca."
+  },
+  {
+   "id": "cury-21",
+   "titulo": "Recriação do Ministério da Segurança Pública e polícia FOCO municipal",
+   "setor": "seguranca",
+   "subtema": "Arquitetura institucional",
+   "resumo": "Recriar o Ministério da Segurança Pública e criar a FOCO, Força de Combate Municipal formada por cerca de 5% dos servidores de cada município sem aumento de efetivo, integrada as demais polícias no programa FATO.",
+   "citacao": "Cada município brasileiro poderá criar sua FOCO. Sua composição corresponderá a aproximadamente 5% da força de trabalho do serviço público municipal, respeitando a realidade de cada cidade e a legislação vigente.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "ministerio-seguranca-publica-2018",
+    "susp-lei-13675",
+    "guardas-municipais-competencia-stf",
+    "pec-seguranca-publica-2025",
+    "ministerio-interior-modelos"
+   ],
+   "pagina": 187,
+   "historico": {
+    "br": "O Ministério da Segurança Pública existiu de fevereiro de 2018 a janeiro de 2019 e morreu na troca de governo. O STF reconheceu em 2023 a competência das guardas municipais para policiamento ostensivo, o que dá base à ideia da FOCO — mas converter 5% do funcionalismo municipal em força policial exigiria formação que os municípios não têm.",
+    "br_res": "fracassou",
+    "mundo": "A Colômbia e o Chile operam polícia nacional única sob ministério próprio, com coordenação maior e custo de centralização política. O México criou a Guardia Nacional em 2019 com resultado contestado sobre homicídios.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "O ministério já existiu por onze meses e morreu na troca de governo. A FOCO é a parte mais problemática: converter 5% do servidor municipal em polícia sem formação policial cria força armada sem doutrina, e o STF só validou guarda municipal com estrutura própria."
+  },
+  {
+   "id": "cury-22",
+   "titulo": "Mandato de dois anos para o diretor-geral da Polícia Federal em lista triplice",
+   "setor": "seguranca",
+   "subtema": "Autonomia institucional",
+   "resumo": "Escolher o diretor-geral da PF entre delegados de classe especial a partir de lista triplice, com mandato de dois anos renovável por mais dois.",
+   "citacao": "Diretor-Geral da Polícia Federal escolhido entre delegados de classe especial, em lista tríplice, será escolhido pelo presidente, mandato de dois anos com possibilidade de recondução por mais dois anos.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "mandato-pgr-lista-triplice",
+    "autonomia-pf-adpf-troca-diretor",
+    "mandato-dirigentes-agencias",
+    "fbi-mandato-dez-anos",
+    "policia-nacional-espanha-autonomia"
+   ],
+   "pagina": 45,
+   "historico": {
+    "br": "A indicação do diretor-geral da PF é livre e a troca em 2020 gerou crise institucional levada ao STF. A lista tríplice é praticada na PGR por costume, abandonada entre 2019 e 2022, e no Ministério Público estadual por lei.",
+    "br_res": "parcial",
+    "mundo": "O FBI americano tem diretor com mandato de dez anos desde 1976, criado justamente para insular a agência do ciclo político. A Espanha e o Reino Unido usam processos de seleção com comissão técnica. Mandato fixo para dirigente policial é prática consolidada em democracias.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Mandato fixo para o comando da polícia federal é resposta direta à crise de 2020 e tem precedente sólido — o FBI opera assim desde 1976 pelo mesmo motivo. Dois anos é curto frente aos dez americanos, mas a direção está certa."
+  },
+  {
+   "id": "cury-23",
+   "titulo": "Asfixia financeira das facções via SUSP, Receita e COAF",
+   "setor": "seguranca",
+   "subtema": "Crime organizado",
+   "resumo": "Implementar efetivamente o SUSP com compartilhamento de inteligência entre entes, atuação integrada de Receita Federal e COAF e foco em cortar as vias financeiras das facções em vez do confronto físico.",
+   "citacao": "focando não apenas no confronto físico, mas no corte das vias financeiras que sustentam as facções.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "susp-lei-13675",
+    "coaf-lavagem",
+    "operacao-lavagem-faccoes",
+    "lei-12850-organizacao-criminosa",
+    "follow-the-money-italia",
+    "sinesp-integracao-dados"
+   ],
+   "pagina": 46,
+   "historico": {
+    "br": "A Lei 12.850/2013 criou o tipo de organização criminosa e o Susp é de 2018, com condicionalidade de repasse nunca aplicada. As operações de 2025 contra o PCC no setor de combustíveis e em fintechs mostraram capacidade nova de rastreio — e que o dinheiro já estava na economia formal.",
+    "br_res": "em_curso",
+    "mundo": "A Itália e os EUA quebraram máfia e Cosa Nostra pelo dinheiro, com a lei Rognoni-La Torre (1982) e o RICO Act (1970). Em ambos o efeito veio em décadas e dependeu de agência dedicada a gerir os ativos apreendidos.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Focar em cortar a via financeira em vez do confronto é a estratégia com melhor evidência histórica que existe nessa área. O Susp já prevê o compartilhamento desde 2018 e nunca foi cumprido — aplicar a condicionalidade é o que muda o jogo."
+  },
+  {
+   "id": "cury-24",
+   "titulo": "Programa FATO: câmeras inteligentes, drones e análise preditiva",
+   "setor": "seguranca",
+   "subtema": "Tecnologia policial",
+   "resumo": "Integrar, treinar e equipar todas as forças policiais com câmeras inteligentes, reconhecimento de padrões, análise preditiva, drones e monitoramento integrado por inteligência artificial, com foco preventivo.",
+   "citacao": "A segurança pública será fortalecida pelo uso de câmeras inteligentes, reconhecimento de padrões, análise preditiva, drones, monitoramento integrado e inteligência artificial. Essas ferramentas ampliarão a capacidade preventiva das forças de segurança e reduzirão a criminalidade.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "smart-sampa",
+    "policiamento-preditivo-chicago",
+    "predpol-los-angeles",
+    "cameras-corporais-sp",
+    "reconhecimento-facial-erros-brasil",
+    "muralha-paulista"
+   ],
+   "pagina": 46,
+   "historico": {
+    "br": "Smart Sampa e o programa da Bahia já operam com reconhecimento facial e há prisão equivocada de pessoas negras documentada por defensorias. Policiamento preditivo não tem uso consolidado no Brasil.",
+    "br_res": "parcial",
+    "mundo": "O PredPol de Los Angeles foi abandonado em 2020 após auditoria interna não comprovar redução de crime e apontar reforço de viés; Chicago encerrou sua lista preditiva de pessoas pelo mesmo motivo. Câmeras têm efeito comprovado sobre furto de veículo e fraco sobre crime violento.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Análise preditiva é a parte com pior histórico: Los Angeles e Chicago abandonaram seus programas depois de auditorias que não acharam redução de crime e apontaram reforço de viés. O plano trata a tecnologia como solução e não menciona nenhuma salvaguarda."
+  },
+  {
+   "id": "cury-25",
+   "titulo": "Forças Armadas no controle estratégico das fronteiras",
+   "setor": "seguranca",
+   "subtema": "Fronteiras",
+   "resumo": "Intensificar a presença do Exercito nas fronteiras terrestres, da Marinha em portos e vias navegáveis e da FAB no monitoramento de pistas clandestinas, respeitadas as competências constitucionais.",
+   "citacao": "fortaleceremos a atuação das Forças Armadas no controle estratégico das fronteiras nacionais, intensificando a presença do Exército nas fronteiras terrestres, da Marinha nos portos e vias navegáveis estratégicas e da Força Aérea Brasileira no monitoramento e repressão ao uso de pistas clandestinas e rotas aéreas ilícitas, especialmente para combater o tráfico internacional de drogas, armas e o contrabando.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "operacao-agata",
+    "sisfron",
+    "programa-vigia-fronteiras",
+    "lei-abate-aeronaves",
+    "militarizacao-seguranca-mexico"
+   ],
+   "pagina": 46,
+   "historico": {
+    "br": "A Lei Complementar 97/1999 já dá poder de polícia às Forças Armadas na faixa de fronteira e o instrumento é subutilizado; o Sisfron recebeu fração do orçamento previsto e o TCU apontou atraso. As Operações Ágata são episódicas por desenho.",
+    "br_res": "parcial",
+    "mundo": "A Frontex europeia ampliou vigilância sem eliminar entrada irregular e os EUA gastaram dezenas de bilhões na fronteira sul com efeito de desvio de rota. Onde houve redução mensurável de tráfico, ela veio de inspeção de carga em porto e inteligência financeira.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "O instrumento legal já existe desde 1999 e é subutilizado — o problema é efetivo e custeio, não autorização. Vigilância de fronteira funciona como coleta de inteligência; o que reduz tráfico é porto e conta bancária."
+  },
+  {
+   "id": "cury-26",
+   "titulo": "Reforma penitenciária com foco em educação, trabalho e celeridade processual",
+   "setor": "seguranca",
+   "subtema": "Sistema prisional",
+   "resumo": "Reformar o sistema penitenciário com foco em ressocialização por educação e trabalho, combater superlotação e a ação das facções nos presídios, e acelerar a tramitação processual para evitar impunidade por prescrição.",
+   "citacao": "O sistema penitenciário será reformado com foco em educação, trabalho e ressocialização efetiva, combatendo a superlotação e a ação das facções dentro dos presídios. 8.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "remicao-pena-estudo-trabalho",
+    "apac-metodo",
+    "adpf-347-estado-coisas-inconstitucional",
+    "noruega-modelo-prisional",
+    "mutirao-carcerario-cnj"
+   ],
+   "pagina": 47,
+   "historico": {
+    "br": "O STF declarou o sistema prisional em estado de coisas inconstitucional em 2015 e o Plano Pena Justa só foi homologado em 2025. A remição por trabalho e estudo é consolidada e alcança parcela minoritária dos presos; a prescrição por morosidade é problema documentado pelo CNJ.",
+    "br_res": "parcial",
+    "mundo": "A Noruega combina pena mais curta com trabalho, educação e transição assistida e tem das menores reincidências do mundo. Os EUA operam a Unicor com evidência de redução de reincidência entre participantes. O efeito é maior quando há acompanhamento após a soltura.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Educação e trabalho no cárcere têm evidência sólida sobre reincidência, e o Brasil alcança uma minoria dos presos. A parte sobre celeridade processual é onde o plano encosta no problema mais difícil e menos endereçado."
+  },
+  {
+   "id": "cury-27",
+   "titulo": "Dobrar a produção agropecuária com prazos legais para licenciamento",
+   "setor": "ambiente",
+   "subtema": "Agropecuária",
+   "resumo": "Meta de dobrar a produção agropecuária em 8 a 10 anos com investimento em tecnologia, pesquisa, irrigação e logística, condicionada a previsibilidade regulatoria com prazos maximos legais para licenciamento ambiental, sanitário e de outorga de água e classificação por nível de risco.",
+   "citacao": "Estabeleceremos prazos máximos legais para o licenciamento ambiental, sanitário e de outorga de água, com procedimento digital integrado entre União, Estados e Municípios e classificação por nível de risco",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "lei-geral-licenciamento-15190",
+    "plano-safra",
+    "embrapa-tropicalizacao",
+    "agricultura-precisao-brasil",
+    "outorga-agua-ana",
+    "licenciamento-por-risco-portugal"
+   ],
+   "pagina": 47,
+   "historico": {
+    "br": "O Brasil dobrou a produção de grãos sem expansão proporcional de área graças a Embrapa, plantio direto e melhoramento genético — o maior caso de sucesso de política pública de longo prazo do país. A Lei 15.190/2025 criou o licenciamento por risco com prazos.",
+    "br_res": "funcionou",
+    "mundo": "Portugal opera licenciamento por nível de risco com prazos legais e equipe dedicada. A evidência é de que prazo funciona quando vem com equipe técnica; sem equipe, transfere o problema para o Judiciário. Dobrar produção sem expandir área depende de produtividade, que é onde a Embrapa entrega.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Prazo legal para licenciamento e outorga de água é demanda técnica legítima do setor e funciona onde vem com equipe. Dobrar a produção depende de produtividade e de recuperação de pastagem degradada, que a proposta não detalha."
+  },
+  {
+   "id": "cury-28",
+   "titulo": "Brasil Oasis: irrigação inteligente e fruticultura no semiárido",
+   "setor": "ambiente",
+   "subtema": "Semiárido",
+   "resumo": "Transformação hídrica, fruticola e agroindustrial do semiárido em quatro eixos (Oasis do Semiárido, Raizes do Brasil, Safra de Gigantes e Brasil Proteína 10.000), com microacudes, reuso, fertirrigação e cultivo protegido, tomando Israel como modelo de inteligência hídrica e não de escala.",
+   "citacao": "A lição para o Brasil não é copiar a escala israelense, mas tropicalizar sua inteligência hídrica, sua fertirrigação, sua pesquisa aplicada e sua agricultura de altíssimo valor por hectare. Além disso, o Brasil já possui base para dar esse salto.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "transposicao-sao-francisco",
+    "projeto-jaiba-irrigacao",
+    "cisternas-p1mc",
+    "perimetros-irrigados-codevasf",
+    "dessalinizacao-israel",
+    "fruticultura-petrolina-juazeiro",
+    "fruticultura-peru-exportacao"
+   ],
+   "pagina": 114,
+   "historico": {
+    "br": "A transposição do São Francisco, os perímetros irrigados da Codevasf e o P1MC de cisternas são as políticas existentes, com resultados desiguais. A fruticultura irrigada de Petrolina-Juazeiro é o caso de sucesso brasileiro, construído em décadas.",
+    "br_res": "parcial",
+    "mundo": "Israel é referência mundial em reúso e irrigação de precisão, reutilizando mais de 87% do efluente tratado, e é importador líquido de alimentos — o que o plano corretamente reconhece ao dizer que o modelo é de inteligência hídrica, não de escala. O Peru multiplicou a exportação de frutas com irrigação e acesso a mercado.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Reconhecer que Israel é modelo de tecnologia hídrica e não de escala é distinção correta e rara. Petrolina-Juazeiro já provou o modelo em solo brasileiro, e o Peru mostra o tamanho do mercado que o Brasil não ocupa."
+  },
+  {
+   "id": "cury-29",
+   "titulo": "Raizes do Brasil: crédito e assistência técnica para 3,9 milhões de estabelecimentos familiares",
+   "setor": "ambiente",
+   "subtema": "Agricultura familiar",
+   "resumo": "Programa nacional para a agricultura familiar com crédito civilizado, assistência técnica, irrigação, cultivo protegido, cooperativismo e acesso a mercado.",
+   "citacao": "Raízes do Brasil - Programa nacional para turbinar os 3,9 milhões de estabelecimentos da agricultura familiar com crédito civilizado, assistência técnica, irrigação, cultivo protegido, cooperativismo e acesso a mercado.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "pronaf",
+    "ater-assistencia-tecnica",
+    "pnae-30-agricultura-familiar",
+    "paa-programa-aquisicao-alimentos",
+    "cooperativismo-agricola-brasil"
+   ],
+   "pagina": 115,
+   "historico": {
+    "br": "O Pronaf é a maior política de crédito para agricultura familiar do mundo em número de contratos e a Ater sofre com quadro reduzido. O PNAE e o PAA garantem mercado institucional com boa avaliação da FAO.",
+    "br_res": "funcionou",
+    "mundo": "A FAO exporta o modelo brasileiro de compra institucional. A evidência internacional é consistente: crédito para pequeno produtor rende quando vem com assistência técnica, e rende pouco isolado — a mesma lição do microcrédito.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "A combinação crédito mais assistência técnica mais mercado garantido é o tripé que a FAO exporta a partir da experiência brasileira. Fortalecer a Ater, hoje com quadro reduzido, é a peça que decide se o crédito vira produção."
+  },
+  {
+   "id": "cury-30",
+   "titulo": "BCOO Brasil Cooperativismo",
+   "setor": "trabalho",
+   "subtema": "Cooperativismo",
+   "resumo": "Programa nacional de fomento ao cooperativismo como forma de organização produtiva e de acesso a mercado, integrado a agenda de agricultura familiar e agroindustria.",
+   "citacao": "PROJETO 9 - BCOO: BRASIL COOPERATIVISMO ...........................................",
+   "econ": -1,
+   "social": 0,
+   "peso": 1,
+   "precedentes": [
+    "cooperativismo-agricola-brasil",
+    "lei-5764-cooperativas",
+    "cooperativas-credito-sicoob",
+    "mondragon-espanha",
+    "cooperativas-italia-legacoop"
+   ],
+   "pagina": 2,
+   "historico": {
+    "br": "O cooperativismo agrícola brasileiro é forte no Sul e concentrado; a Lei 5.764/1971 é anterior à Constituição e nunca foi modernizada. Cooperativas de crédito cresceram muito e são o segmento mais bem-sucedido.",
+    "br_res": "parcial",
+    "mundo": "Mondragón na Espanha e as cooperativas italianas da Legacoop são os casos consolidados, ambos construídos em décadas com legislação própria e financiamento dedicado. O cooperativismo cresce onde há marco legal favorável e capital de longo prazo.",
+    "mundo_res": "funcionou",
+    "conf": "media"
+   },
+   "vt": "promissora",
+   "vd": "Cooperativismo tem casos sólidos e depende de marco legal moderno — e o brasileiro é de 1971, anterior à Constituição. A proposta é boa e genérica: sem dizer o que muda na lei, é intenção."
+  },
+  {
+   "id": "cury-31",
+   "titulo": "BEE: duplicação de rodovias e corredores de prosperidade",
+   "setor": "cidade",
+   "subtema": "Rodovias e turismo",
+   "resumo": "Duplicar as principais rodovias federais e transformar a malha rodoviária em corredores de microempreendedorismo, turismo e serviços, integrando o programa de formação de 10 milhões de microempreendedores.",
+   "citacao": "Se nossas estradas transportam pessoas e mercadorias, elas também podem transportar desenvolvimento, renda e esperança. O Projeto BEE integra o plano nacional de formação de 10 milhões de microempreendedores nos próximos anos, transformando a malha rodoviária brasileira em um grande corredor de prosperidade.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "duplicacao-br-101",
+    "concessoes-rodoviarias-brasil",
+    "pac-2007",
+    "rotas-turisticas-regionalizacao",
+    "interstate-highway-eua"
+   ],
+   "pagina": 120,
+   "historico": {
+    "br": "O Brasil escoa a safra por rodovia em distâncias continentais e a duplicação da BR-101 levou décadas. O TCU registra mais de 11 mil empreendimentos federais paralisados. Turismo rodoviário estruturado é política de baixo custo pouco explorada.",
+    "br_res": "parcial",
+    "mundo": "Os EUA construíram o sistema interestadual com financiamento dedicado por imposto sobre combustível, o que garantiu previsibilidade por décadas. A evidência sobre demanda induzida é sólida: ampliar capacidade viária atrai tráfego e o alívio inicial se dissipa.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Duplicar rodovia sem fonte dedicada de custeio é a promessa mais repetida e menos cumprida da infraestrutura brasileira. A parte de corredores de microempreendedorismo é criativa e barata, e é a que tem chance real."
+  },
+  {
+   "id": "cury-32",
+   "titulo": "Comunidades Empreendedoras: regularizar 5 milhões de moradias em dez anos",
+   "setor": "cidade",
+   "subtema": "Regularização fundiária",
+   "resumo": "Programa Nacional de Regularização Fundiária usando a REURB com drones, satélite e IA, com Mapa Nacional da Regularização Fundiária e meta de 500 mil famílias por ano, sob o princípio de regularizar sem expulsar e urbanizar sem destruir a identidade da comunidade.",
+   "citacao": "META: Regularizar até 5 milhões de moradias em dez anos. ... O princípio sera: REGULARIZAR SEM EXPULSAR E URBANIZAR SEM DESTRUIR A IDENTIDADE DA COMUNIDADE.",
+   "econ": 1,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "reurb-lei-13465",
+    "papel-passado-programa",
+    "titulacao-de-soto-peru",
+    "favela-bairro-rio",
+    "regularizacao-fundiaria-avaliacao",
+    "cadastro-fundiario-car"
+   ],
+   "citacao_aprox": true,
+   "pagina": 106,
+   "historico": {
+    "br": "A REURB (Lei 13.465/2017) é o instrumento e o ritmo é lento por complexidade cartorial. O Papel Passado existe desde 2003. Cinco milhões de moradias em dez anos seria escala inédita — o Brasil nunca titulou nem fração disso por década.",
+    "br_res": "parcial",
+    "mundo": "A titulação em massa de De Soto no Peru entregou milhões de títulos e não produziu o acesso ao crédito que era sua premissa central. A Colômbia e o México regularizaram assentamentos com resultados sociais positivos e efeito econômico modesto.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "O princípio de regularizar sem expulsar é correto e distingue esta proposta das que tratam favela como problema a demolir. A meta é irrealista frente ao histórico brasileiro, e o Peru já mostrou que título sozinho não vira crédito."
+  },
+  {
+   "id": "cury-33",
+   "titulo": "Brasil Exportador: reduzir dependência de commodities",
+   "setor": "externa",
+   "subtema": "Comércio exterior",
+   "resumo": "Ampliar a participação brasileira no comércio mundial, elevar as exportações de manufaturados e de alto valor agregado e integrar o Brasil as cadeias globais de produção.",
+   "citacao": "Nosso objetivo é transformar o Brasil em uma potência exportadora industrial, tecnológica e agroindustrial, ampliando sua participação no comércio mundial e consolidando o país como protagonista da nova economia global.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "apex-brasil",
+    "acordo-mercosul-ue",
+    "abertura-comercial-1990",
+    "exportacao-manufaturados-declinio",
+    "politica-exportadora-coreia"
+   ],
+   "pagina": 140,
+   "historico": {
+    "br": "O Brasil tem uma das menores redes de acordos comerciais entre economias de porte comparável e corrente de comércio em torno de 33% do PIB contra 57% da média mundial. A participação de manufaturados na pauta caiu de forma sustentada por duas décadas.",
+    "br_res": "parcial",
+    "mundo": "Chile, México e Vietnã converteram abertura em diversificação de exportação, sempre com política de transição setorial junto. A Coreia condicionou apoio a metas de exportação verificáveis. A abertura brasileira dos anos 1990 não teve política de transição e deixou passivo social.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "O diagnóstico é correto e consensual. O que separa os casos de sucesso é a política de transição setorial que acompanha a abertura — exatamente o que faltou ao Brasil nos anos 1990 e que o plano não menciona."
+  },
+  {
+   "id": "cury-34",
+   "titulo": "Embaixadas Empreendedoras: diplomacia 4.0 com metas comerciais",
+   "setor": "externa",
+   "subtema": "Diplomacia econômica",
+   "resumo": "Converter embaixadas e consulados em plataformas de promoção comercial, turistica e cultural orientadas por dados e metas, diante de uma corrente de comércio de 33,7% do PIB contra 57% da média mundial.",
+   "citacao": "Transformar as embaixadas e consulados do Brasil em estruturas 4.0, orientadas por dados, metas, inteligência comercial, diplomacia econômica, influência cultural, turismo estratégico, segurança institucional e promoção ativa da marca Brasil.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "apex-brasil",
+    "setores-promocao-comercial-itamaraty",
+    "ukti-reino-unido",
+    "kotra-coreia",
+    "prochile"
+   ],
+   "pagina": 146,
+   "historico": {
+    "br": "A Apex atua na promoção comercial e os setores de promoção do Itamaraty existem em cada posto, com desempenho desigual e sem metas públicas. O corpo diplomático brasileiro é das burocracias mais qualificadas do Estado.",
+    "br_res": "parcial",
+    "mundo": "A UKTI britânica, a Kotra coreana e a ProChile operam com metas comerciais e equipe especializada, e são referências em diplomacia econômica. O elemento decisivo apontado pela Unctad é continuidade da equipe entre governos, não a estrutura.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Diplomacia econômica com metas tem precedentes claros na Kotra e na ProChile. O risco é transformar carreira diplomática em função comercial sem os quadros técnicos que a Kotra tem — e o plano não fala em contratar esses quadros."
+  },
+  {
+   "id": "cury-35",
+   "titulo": "Fundo global contra a fome com 0,5% do comércio e 2% do gasto militar",
+   "setor": "externa",
+   "subtema": "Cooperação internacional",
+   "resumo": "Propor internacionalmente a criação de um Fundo Internacional de Erradicação da Fome financiado por 0,5% do comércio global e 2% da indústria mundial de armamentos, mobilizando entre US$ 177 e US$ 342 bilhões por ano.",
+   "citacao": "Destinar 0,5% do comércio global e 2% da indústria mundial de armamentos para a criação de um Fundo Internacional de Erradicação da Fome. Uma contribuição mínima da riqueza já produzida pela humanidade seria suficiente para mobilizar entre US$ 177 bilhões e US$ 342 bilhões por ano, recursos capazes de transformar definitivamente o combate à fome no planeta.",
+   "econ": -1,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "fome-zero-internacional",
+    "acao-contra-fome-global-lula-2004",
+    "taxa-tobin-proposta",
+    "fundo-global-aids-fundo-global",
+    "aliança-global-fome-pobreza-g20",
+    "pma-onu"
+   ],
+   "pagina": 157,
+   "historico": {
+    "br": "O Brasil liderou a ação global contra a fome em 2004 e a Aliança Global contra a Fome e a Pobreza no G20 de 2024 — é agenda em que o país tem capital diplomático real. Nenhuma proposta brasileira de taxação global chegou a instrumento vinculante.",
+    "br_res": "parcial",
+    "mundo": "A taxa Tobin é discutida desde 1972 e nunca foi implementada globalmente. O Fundo Global contra Aids, Tuberculose e Malária (2002) é o caso de sucesso em financiamento internacional dedicado, e funciona por contribuição voluntária de países, não por taxa compulsória.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Taxar 2% da indústria mundial de armamentos exige acordo dos maiores exportadores de armas, que são justamente os que teriam de aprovar. O Fundo Global contra Aids mostra o caminho que funciona: contribuição voluntária, não taxa compulsória."
+  },
+  {
+   "id": "cury-36",
+   "titulo": "Tele Saúde Brasil: a maior plataforma pública de medicina digital do mundo",
+   "setor": "saude",
+   "subtema": "Telemedicina",
+   "resumo": "Universalizar a telemedicina no SUS com prioridade para crianças vulneráveis, idosos, gestantes, pessoas com deficiência e moradores de regiões remotas, usando IA para triagem e reduzindo filas e deslocamentos.",
+   "citacao": "Nosso objetivo é fazer do Brasil a maior plataforma pública de medicina digital do mundo, democratizando o acesso à saúde, reduzindo desigualdades e aproximando médicos e pacientes por meio da tecnologia, sem perder aquilo que nenhuma máquina poderá substituir:",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "telessaude-brasil-redes",
+    "lei-14510-telemedicina",
+    "telemedicina-pandemia-covid",
+    "conecte-sus",
+    "nhs-111-online",
+    "teleconsulta-portugal"
+   ],
+   "pagina": 161,
+   "historico": {
+    "br": "O Telessaúde Brasil Redes existe desde 2007 e a telemedicina foi regulamentada pela Lei 14.510/2022 após o uso emergencial na pandemia. O Conecte SUS avançou com o certificado de vacinação, e a integração com a rede privada segue parcial.",
+    "br_res": "parcial",
+    "mundo": "A Estônia opera saúde digital integrada desde 2008 e é o padrão. O NHS 111 britânico faz triagem telefônica e digital antes da emergência com efeito parcial sobre demanda. A Dinamarca exige contato prévio antes do pronto-socorro e reduziu atendimentos evitáveis de forma expressiva.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Telemedicina resolve acesso e distância de forma comprovada, e a priorização por vulnerabilidade está certa. Ser a maior do mundo é retórica: o que decide é integrar ao prontuário e à regulação, e é aí que o Brasil trava desde 1999."
+  },
+  {
+   "id": "cury-37",
+   "titulo": "SEA: prevenção e detecção precoce do cancer com comites regionais",
+   "setor": "saude",
+   "subtema": "Prevenção",
+   "resumo": "Estratégia integrada de prevenção do cancer unindo educação continuada, gestão da emoção, tecnologia, mobilização social e comites regionais, partindo do diagnóstico de que muitos evitam exames por medo e negação.",
+   "citacao": "O projeto SOCIEDADE ESTÁ ABRAÇANDO (SEA) propõe a maior estratégia integrada de prevenção do câncer, unindo:",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "rastreamento-mama-inca",
+    "politica-nacional-oncologia-lei-14758",
+    "lei-dos-60-dias-cancer",
+    "rastreamento-organizado-reino-unido",
+    "hpv-vacinacao-brasil"
+   ],
+   "pagina": 166,
+   "historico": {
+    "br": "A Lei dos 60 dias (2012) fixou prazo entre diagnóstico e tratamento oncológico e nunca foi cumprida na maior parte do país, por falta de radioterapia e patologistas. O rastreamento de mama e colo do INCA tem cobertura desigual e é oportunístico, não organizado.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido opera rastreamento organizado com convocação ativa da população-alvo e queda documentada de mortalidade; o modelo depende de registro populacional confiável. A evidência é clara: rastreamento organizado supera rastreamento oportunístico.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Rastreamento organizado com convocação ativa tem evidência forte e é o que o Brasil não faz. A parte de gestão da emoção como explicação para a não adesão é hipótese do autor, não achado consolidado — a barreira medida é de acesso."
+  },
+  {
+   "id": "cury-38",
+   "titulo": "Fortalecimento da atenção primária e Programa Nacional de Saúde Mental",
+   "setor": "saude",
+   "subtema": "Atenção primária e saúde mental",
+   "resumo": "Ampliar a atenção primária, modernizar o SUS e criar programa nacional de saúde mental com foco em prevenção da ansiedade, automutilação e suicídio.",
+   "citacao": "Prevenção da ansiedade, automutilação e suicídio A prevenção será uma prioridade permanente.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "estrategia-saude-familia",
+    "raps-rede-atencao-psicossocial",
+    "reforma-psiquiatrica-lei-10216",
+    "caps-financiamento",
+    "politica-saude-mental-reino-unido-iapt"
+   ],
+   "pagina": 45,
+   "historico": {
+    "br": "A Estratégia Saúde da Família é um dos programas de atenção primária mais bem avaliados do mundo e a cobertura estagnou. A Raps foi criada em 2011, sofreu mudança de rumo em 2017-2019 e o financiamento dos CAPS é insuficiente frente à demanda crescente entre jovens.",
+    "br_res": "parcial",
+    "mundo": "O IAPT britânico, de 2008, é o modelo com melhor avaliação em escala no mundo: porta de entrada fácil, terapia estruturada e desfecho medido por paciente. Portugal e Costa Rica confirmam que atenção primária forte é onde cada real rende mais.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "São as duas políticas de saúde com melhor relação entre custo e evidência que existem: atenção primária e saúde mental estruturada. O IAPT britânico mostra que o que faz diferença é medir o desfecho de cada paciente, e não só abrir serviço."
+  },
+  {
+   "id": "cury-39",
+   "titulo": "PENER-BR: liderança mundial em renováveis e hidrogenio verde",
+   "setor": "ambiente",
+   "subtema": "Energia",
+   "resumo": "Mapear todo o potencial renovável do país com plataforma de IA, criar o Corredor Nacional do Hidrogenio Verde com hubs portuários no Nordeste e meta de estar entre os três maiores exportadores de hidrogenio até 2035, incluindo energia oceanica.",
+   "citacao": "Meta: ser TOP 3 global em exportação de hidrogênio até 2035. 3.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "hidrogenio-verde-pecem",
+    "lei-hidrogenio-baixo-carbono-14948",
+    "eolica-offshore-marco-legal",
+    "curtailment-nordeste",
+    "estrategia-hidrogenio-alemanha",
+    "energia-mares-escocia"
+   ],
+   "pagina": 175,
+   "historico": {
+    "br": "O Brasil tem matriz elétrica majoritariamente renovável e perde parte da geração do Nordeste por falta de transmissão, com curtailment elevado em meses de pico. A Lei 14.948/2024 criou o marco do hidrogênio de baixo carbono e o hub de Pecém avança lentamente.",
+    "br_res": "em_curso",
+    "mundo": "A Alemanha investiu pesadamente em renováveis e enfrentou o mesmo gargalo de transmissão por mais de uma década; o Texas resolveu construindo as linhas CREZ antecipadamente. Vários projetos globais de hidrogênio verde foram cancelados em 2024-2025 por custo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "A vantagem energética brasileira é real e o gargalo é transmissão, que o plano não menciona. Ser top 3 em exportação de hidrogênio até 2035 é meta ambiciosa num mercado onde vários projetos globais foram cancelados por custo em 2024 e 2025."
+  },
+  {
+   "id": "cury-40",
+   "titulo": "Mercado de carbono e bioeconomia",
+   "setor": "ambiente",
+   "subtema": "Clima",
+   "resumo": "Estruturar o mercado regulado de carbono, desenvolver bioeconomia e inovação ambiental e associar desenvolvimento a responsabilidade ambiental.",
+   "citacao": "d) Mercado de carbono O Brasil poderá tornar-se protagonista mundial no mercado de créditos de carbono.",
+   "econ": 0,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "lei-15042-mercado-carbono",
+    "ets-uniao-europeia",
+    "redd-amazonia-fundo",
+    "mercado-voluntario-creditos-criticas",
+    "bioeconomia-amazonia"
+   ],
+   "pagina": 51,
+   "historico": {
+    "br": "A Lei 15.042/2024 criou o mercado regulado de carbono após mais de uma década de projetos parados; o mercado voluntário brasileiro sofreu com escândalos de créditos gerados em terras públicas griladas. O Codigo Florestal prevê o CRA desde 2012 e ele nunca funcionou em escala.",
+    "br_res": "em_curso",
+    "mundo": "O ETS europeu começou em 2005 com preço próximo de zero e só passou a funcionar após a reforma de 2018 — treze anos até operar. A China criou o maior mercado do mundo em volume, com preço baixo e cobertura limitada ao setor elétrico.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "A lei existe desde 2024 e o que decide é a regulamentação — alocação gratuita, teto e setores cobertos. O ETS europeu levou treze anos para funcionar por errar exatamente nesses parâmetros."
+  },
+  {
+   "id": "cury-41",
+   "titulo": "PETRA BR: Atlas Brasileiro de Minerais Críticos e processamento nacional",
+   "setor": "economia",
+   "subtema": "Minerais críticos",
+   "resumo": "Mapear e dimensionar as reservas de terras raras, criar e atualizar o Atlas Brasileiro de Minerais Críticos e orientar a política mineral pela demanda tecnológica futura em semicondutores, baterias e veículos elétricos.",
+   "citacao": "Criação e atualização permanente do Atlas Brasileiro de Minerais Críticos. • Integração entre governo, universidades, centros de pesquisa e iniciativa privada.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "terras-raras-brasil-serra-verde",
+    "politica-nacional-minerais-criticos-pl2780",
+    "magbras-mover",
+    "cprm-levantamento-geologico",
+    "monopolio-chines-terras-raras"
+   ],
+   "pagina": 178,
+   "historico": {
+    "br": "A verticalização de terras raras mal começou: a Serra Verde iniciou produção em 2024 e exporta concentrado. O serviço geológico foi esvaziado por anos e a fila de processos na ANM é o gargalo mais citado do setor.",
+    "br_res": "em_curso",
+    "mundo": "A China levou três décadas e subsídio massivo para dominar o refino. Canadá e Austrália mantêm serviços geológicos fortes com dados abertos e são referência em atração de exploração — a correlação entre qualidade do dado público e investimento é das mais consistentes do setor.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Atlas de minerais críticos com dado aberto é medida barata com correlação comprovada sobre investimento em exploração — Canadá e Austrália são a prova. Verticalizar de fato exige compra estatal de longo prazo, que nenhum país conseguiu dispensar."
+  },
+  {
+   "id": "cury-42",
+   "titulo": "Floresta Viva: satélites, IA e drones contra incendios",
+   "setor": "ambiente",
+   "subtema": "Desmatamento e fogo",
+   "resumo": "Sistema nacional de detecção precoce de focos de calor com satélites, IA e modelos preditivos, sala de comando integrada 24 horas e frotas regionais de drones de resposta rapida com agentes supressores de baixa toxicidade.",
+   "citacao": "Satélites + IA para identificar focos de calor em estagio inicial; Modelos preditivos (clima, vento, umidade, histórico) para antecipar risco; Sala de comando integrada 24/7 (Federal + Estados)",
+   "econ": 0,
+   "social": -1,
+   "peso": 2,
+   "precedentes": [
+    "prodes-inpe-satelite",
+    "prevfogo-ibama",
+    "queimadas-2024-recorde",
+    "plano-ppcdam",
+    "cal-fire-tecnologia-california"
+   ],
+   "citacao_aprox": true,
+   "pagina": 182,
+   "historico": {
+    "br": "O Prodes e o Deter do INPE monitoram por satélite desde 2004 e a tecnologia nunca foi o gargalo — o Brasil já derrubou o desmatamento 80% entre 2004 e 2012 com fiscalização e restrição de crédito. O Prevfogo opera com quadro reduzido e 2024 foi recorde de área queimada.",
+    "br_res": "parcial",
+    "mundo": "Portugal e a Califórnia operam manejo integrado do fogo com queima prescrita, técnica com evidência sólida de redução de grandes incêndios e que o Brasil adotou tardiamente. A Cal Fire usa detecção por satélite e IA com resposta terrestre estruturada.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Detecção nunca foi o gargalo brasileiro — o Deter existe desde 2004. O que reduz grande incêndio é manejo integrado do fogo com queima prescrita e brigada, e é a parte que o plano cita de passagem enquanto destaca drones e satélites."
+  },
+  {
+   "id": "cury-43",
+   "titulo": "Semipresidencialismo com primeiro-ministro da maioria parlamentar",
+   "setor": "estado",
+   "subtema": "Sistema de governo",
+   "resumo": "Adotar modelo semipresidencialista em que o presidente compartilha a condução do governo com um primeiro-ministro escolhido a partir da maioria parlamentar, buscando estabilidade política e redução de crises institucionais.",
+   "citacao": "Propomos a adoção de um modelo semipresidencialista, no qual o Presidente da República compartilha a condução do governo com um Primeiro-Ministro escolhido a partir da maioria parlamentar. Esse modelo busca maior estabilidade política, eficiência administrativa e redução de crises institucionais.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "parlamentarismo-1961-1963",
+    "plebiscito-1993-forma-governo",
+    "pec-semipresidencialismo-2021",
+    "semipresidencialismo-portugal",
+    "semipresidencialismo-franca",
+    "presidencialismo-de-coalizao"
+   ],
+   "pagina": 60,
+   "historico": {
+    "br": "O Brasil já foi parlamentarista entre 1961 e 1963 e o plebiscito de 1993 rejeitou o parlamentarismo por ampla margem. PECs semipresidencialistas circulam desde 2021 sem avanço, e a mudança exigiria emenda e provavelmente nova consulta popular.",
+    "br_res": "fracassou",
+    "mundo": "Portugal opera semipresidencialismo desde 1976 com estabilidade; a França desde 1958, com episódios de coabitação. A literatura comparada aponta que o semipresidencialismo funciona onde as regras de dissolução e nomeação são claras, e produz crise onde são ambíguas — o caso de Weimar é o alerta clássico.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Portugal e França mostram que o modelo funciona com regras claras de dissolução e nomeação. O obstáculo brasileiro é anterior a isso: o eleitorado rejeitou o parlamentarismo em 1993 e a mudança exige emenda e provavelmente nova consulta."
+  },
+  {
+   "id": "cury-44",
+   "titulo": "Reforma do STF e clausula de desempenho mais rigorosa",
+   "setor": "estado",
+   "subtema": "Sistema político",
+   "resumo": "Reforma institucional do STF para equilibrio entre Poderes e previsibilidade jurídica, e modernização do sistema político com clausulas de desempenho mais rigorosas e maior transparência partidária.",
+   "citacao": "Defendemos uma reforma institucional do Supremo Tribunal Federal para garantir maior equilíbrio entre os Poderes, previsibilidade jurídica e fortalecimento da segurança institucional. O objetivo é preservar a independência do Judiciário, ao mesmo tempo em que se aprimora sua governança e critérios de atuação.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "clausula-desempenho-ec-97",
+    "pec-mandato-ministros-stf",
+    "adi-1351-clausula-barreira",
+    "court-packing-eua-1937",
+    "reforma-judicial-israel-2023",
+    "idade-aposentadoria-ministros-pec-bengala"
+   ],
+   "pagina": 60,
+   "historico": {
+    "br": "O STF já limitou decisões monocráticas por emenda regimental em 2023 e criou prazo para pedido de vista. A cláusula de desempenho da EC 97/2017 já filtra partidos por votos, e o STF derrubou cláusula de barreira em 2006 por violar o pluripartidarismo.",
+    "br_res": "parcial",
+    "mundo": "Israel recuou em 2023 de sua reforma judicial após a maior onda de protestos de sua história; Polônia e Hungria foram processadas na União Europeia por alterar composição e competências de cortes constitucionais. Mandato fixo, adotado em Alemanha e Portugal, é a via com melhor precedente.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Reforma de corte suprema conduzida em conflito com ela tem histórico ruim — Israel, Polônia e Hungria são recentes. A cláusula de desempenho é a metade fácil; o plano fala em reformar o STF sem dizer o que muda, que é justamente onde mora o risco."
+  },
+  {
+   "id": "cury-45",
+   "titulo": "Programa SEO Sociedade Está de Olho e transparência total",
+   "setor": "estado",
+   "subtema": "Combate a corrupção",
+   "resumo": "Programa de controle social dos gastos públicos com uso de inteligência artificial, fortalecimento dos órgãos de controle, transparência total da administração e formação de uma cultura nacional de integridade.",
+   "citacao": "Programa SEO - Sociedade Está de Olho",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "lei-acesso-informacao",
+    "portal-transparencia",
+    "alice-cgu",
+    "observatorios-sociais-brasil",
+    "open-government-partnership",
+    "lei-anticorrupcao-12846"
+   ],
+   "citacao_aprox": true,
+   "pagina": 52,
+   "historico": {
+    "br": "O Portal da Transparência existe desde 2004 e a LAI desde 2011; o Brasil publica muito e responsabiliza pouco, e a Lei de Improbidade foi flexibilizada em 2021. A CGU opera o sistema Alice de mineração de editais por IA desde 2018. Observatórios sociais existem em centenas de municípios.",
+    "br_res": "parcial",
+    "mundo": "A Open Government Partnership, criada em 2011 com o Brasil entre os fundadores, mostra ganho consistente de transparência e ganho fraco de responsabilização. Ucrânia e Coreia do Sul mediram economia real em compras ao abrir dados e automatizar alertas.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Controle social com IA sobre compras tem resultado medido no ProZorro ucraniano. O limite brasileiro é conhecido e o plano não o enfrenta: publicamos muito e punimos pouco, e a Lei de Improbidade foi esvaziada em 2021."
+  },
+  {
+   "id": "cury-46",
+   "titulo": "Estratégia nacional de inteligência artificial e soberania digital",
+   "setor": "cti",
+   "subtema": "Inteligência artificial",
+   "resumo": "Posicionar o Brasil como potência científica com estratégia nacional de IA, soberania digital e proteção de dados, inclusão tecnológica e universidades como centros de inovação.",
+   "citacao": "b) Estratégia nacional de inteligência artificial 58 A inteligência artificial será tratada como infraestrutura estratégica de Estado.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "pbia-plano-brasileiro-ia",
+    "ebia-estrategia-ia-2021",
+    "pl-2338-regulacao-ia",
+    "lgpd",
+    "ai-act-uniao-europeia",
+    "supercomputador-santos-dumont"
+   ],
+   "historico": {
+    "br": "O PL 2338/2023 passou no Senado e travou na Câmara; a Ebia de 2021 e o Plano Brasileiro de IA de 2024 anunciaram R$ 23 bilhões com execução lenta. A ANPD opera com estrutura reduzida e o supercomputador Santos Dumont tem capacidade modesta para padrões internacionais.",
+    "br_res": "em_curso",
+    "mundo": "O AI Act europeu (2024) é a única regulação abrangente em vigor, ainda sem aplicação consolidada. A França financiou a Mistral e o BLOOM; a Índia lança modelos em línguas locais. O padrão é que soberania digital depende de energia barata, regime tributário estável e demanda pública garantida.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Estratégia nacional de IA é o que o Brasil já anunciou duas vezes sem executar. Soberania digital se decide em energia, regime tributário e demanda pública contratada — e o plano fica no nível do anúncio."
+  },
+  {
+   "id": "cury-47",
+   "titulo": "Universalização do saneamento e da infraestrutura digital",
+   "setor": "cidade",
+   "subtema": "Saneamento e conectividade",
+   "resumo": "Ampliar concessões e PPPs, modernizar a logística nacional, universalizar a infraestrutura digital e o saneamento básico e adotar infraestrutura resiliente a eventos climáticos.",
+   "citacao": "d) Saneamento básico para todos Milhões de brasileiros ainda vivem sem acesso à água tratada e ao tratamento adequado de esgoto.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "marco-saneamento-14026",
+    "funasa-saneamento-rural",
+    "concessoes-saneamento-privatizacao",
+    "internet-brasil-programa",
+    "universalizacao-banda-larga-chile"
+   ],
+   "pagina": 50,
+   "historico": {
+    "br": "O Marco do Saneamento (2020) destravou concessões bilionárias e o ritmo atual coloca a meta de 2033 fora de alcance na maior parte dos estados; o saneamento rural segue praticamente sem política. O FUST ficou contingenciado por duas décadas.",
+    "br_res": "em_curso",
+    "mundo": "O Chile privatizou o saneamento nos anos 1990 e universalizou com regulação forte e subsídio direto; a Inglaterra privatizou em 1989 e enfrenta crise com a Thames Water. A diferença entre os casos está na qualidade do regulador, não no modelo de propriedade.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Esgoto tratado é a política de saúde com melhor relação custo-benefício disponível, e a meta legal já existe desde 2020. O que decide é o regulador ter força para cobrar o contrato — e é sobre isso que o plano se cala."
+  },
+  {
+   "id": "cury-48",
+   "titulo": "Primeiro emprego, empreendedorismo jovem e protagonismo cívico",
+   "setor": "trabalho",
+   "subtema": "Juventude",
+   "resumo": "Reformar currículos para aproximar o ensino do mercado, criar políticas de primeiro emprego e transição, estimular empreendedorismo jovem e ampliar participação cívica, diante dos quase 8 milhões de jovens que nem estudam nem trabalham.",
+   "citacao": "em 2025, quase 8 milhões de jovens, entre 15 e 29 anos de idade, nem trabalham nem estudam, segundo dados do IBGE.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "lei-aprendizagem-10097",
+    "primeiro-emprego-2003",
+    "jovem-aprendiz-avaliacao",
+    "garantia-juvenil-uniao-europeia",
+    "nem-nem-oit"
+   ],
+   "pagina": 3,
+   "historico": {
+    "br": "O Programa Nacional de Estímulo ao Primeiro Emprego (2003) foi extinto por baixa efetividade; a Lei da Aprendizagem (2000), com cota obrigatória, é o instrumento com melhor resultado de inserção. Quase 8 milhões de jovens não estudam nem trabalham.",
+    "br_res": "fracassou",
+    "mundo": "A Garantia Juvenil europeia (2013) garante oferta de emprego, estágio ou formação em até quatro meses ao jovem desempregado, com resultados positivos onde houve capacidade administrativa. A Alemanha opera agências de emprego com perfilamento individual, referência mundial.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "O número de nem-nem é o problema social mais grave que o plano aponta. A Garantia Juvenil europeia é o desenho que funciona onde há capacidade administrativa, e a Lei da Aprendizagem é o instrumento brasileiro que já entrega — nenhum dos dois aparece nomeado."
+  },
+  {
+   "id": "cury-49",
+   "titulo": "Pacto nacional pela cultura da paz e contra a polarização",
+   "setor": "cultura",
+   "subtema": "Coesao social",
+   "resumo": "Pacto suprapartidário para tratar mais de 90% dos projetos estruturais como políticas de Estado, com programas de gestão da emoção e cultura de paz para reduzir a polarização e a hostilidade política.",
+   "citacao": "Mais de 90% dos mais importantes projetos não têm cor partidária, de direita, de esquerda ou de centro; são suprapartidários e devem ser projetos de Estado, de longo prazo e estruturais para o desenvolvimento do Brasil.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "pactos-moncloa-espanha",
+    "comissao-verdade-reconciliacao-africa-do-sul",
+    "acordo-de-paz-colombia",
+    "pacto-republicano-brasil",
+    "polarizacao-afetiva-estudos"
+   ],
+   "pagina": 3,
+   "historico": {
+    "br": "Nenhum pacto suprapartidário brasileiro sobreviveu a um ciclo eleitoral; o pacto republicano de 2004 e 2009 entre os três Poderes é o precedente mais próximo e produziu resultados legislativos concretos em Justiça. A polarização afetiva brasileira é medida e cresceu na última década.",
+    "br_res": "parcial",
+    "mundo": "Os Pactos de Moncloa (1977) na Espanha são o caso de referência de acordo suprapartidário que sustentou uma transição, com o contexto excepcional de saída de ditadura. A Comissão da Verdade sul-africana operou em contexto igualmente excepcional. Em democracias estáveis, pactos amplos raramente sobrevivem ao ciclo eleitoral.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "vt": "arriscada",
+   "vd": "Os Pactos de Moncloa funcionaram numa saída de ditadura, contexto que não é o brasileiro de 2026. Em democracia estável, pacto amplo raramente sobrevive ao ciclo eleitoral — e o pacto republicano brasileiro, que funcionou, era entre Poderes, não entre partidos."
+  },
+  {
+   "id": "cury-50",
+   "titulo": "Democracia digital e participação popular ampliada",
+   "setor": "estado",
+   "subtema": "Participação",
+   "resumo": "Ampliar mecanismos de participação direta por ferramentas digitais seguras, consultas públicas ampliadas e plataformas de transparência ativa.",
+   "citacao": "Ampliaremos mecanismos de participação direta da população nas decisões públicas por meio de ferramentas digitais seguras, consultas públicas ampliadas e plataformas de transparência ativa, fortalecendo a democracia participativa.",
+   "econ": 0,
+   "social": -1,
+   "peso": 1,
+   "precedentes": [
+    "e-democracia-camara",
+    "orcamento-participativo-porto-alegre",
+    "consultas-publicas-gov-br",
+    "decide-madrid",
+    "vtaiwan-participacao"
+   ],
+   "pagina": 61,
+   "historico": {
+    "br": "A e-Democracia da Câmara existe desde 2009 e as consultas públicas do Gov.br são rotina, com baixa participação e influência incerta sobre o texto final. O orçamento participativo de Porto Alegre é o precedente brasileiro com evidência real.",
+    "br_res": "parcial",
+    "mundo": "O Decide Madrid e o vTaiwan são as referências de participação digital com efeito sobre decisão; o vTaiwan é apontado como o caso mais bem-sucedido por vincular o resultado à tramitação legislativa. Consulta sem vínculo com a decisão tem efeito documentado próximo de zero.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Plataforma de consulta sem vínculo com a decisão tem efeito próximo de zero — o vTaiwan funciona porque o resultado entra na tramitação. O plano promete ampliar participação e não diz o que ela decide."
+  }
+ ]
+}

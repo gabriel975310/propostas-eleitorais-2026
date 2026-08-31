@@ -1,0 +1,65 @@
+<div id="gate" class="wrap">
+  <div class="g-eyebrow">Eleições 2026 · planos de governo registrados no TSE</div>
+  <h1>O que eles <span>realmente</span><br>escreveram</h1>
+  <p class="lede">582 propostas tiradas dos planos de governo que dez candidatos entregaram ao Tribunal Superior Eleitoral. Cada uma situada em dois eixos ideológicos, confrontada com o que já foi tentado aqui e fora, e com um veredito.</p>
+  <div class="gcards">
+    <button class="gcard" data-esf="br">
+      <div class="bar" id="bar-br"></div>
+      <h2>Presidência da República</h2>
+      <p>Seis planos · 373 propostas</p>
+      <div class="gfaces" id="faces-br"></div>
+      <div class="go">Entrar <span>→</span></div>
+    </button>
+    <button class="gcard" data-esf="df">
+      <div class="bar" id="bar-df"></div>
+      <h2>Governo do Distrito Federal</h2>
+      <p>Quatro planos · 209 propostas</p>
+      <div class="gfaces" id="faces-df"></div>
+      <div class="go">Entrar <span>→</span></div>
+    </button>
+  </div>
+  <p class="gnote">As duas disputas são tratadas separadamente do começo ao fim: candidatos a presidente e a governador nunca aparecem no mesmo gráfico, na mesma lista ou no mesmo ranking. Você pode trocar de ambiente a qualquer momento no topo da página.</p>
+</div>
+
+<div id="app" hidden>
+<header class="mast"><div class="wrap">
+  <div class="brand"><span class="dot"></span>Espectro 2026</div>
+  <div class="esf-sw">
+    <button data-sw="br" aria-pressed="true">Presidência</button>
+    <button data-sw="df" aria-pressed="false">Distrito Federal</button>
+  </div>
+  <span class="hspace"></span>
+  <button class="iconbtn" id="tg" title="Alternar tema claro e escuro" aria-label="Alternar tema">◐</button>
+</div></header>
+
+<nav class="tabs"><div class="wrap" role="tablist">
+  <button class="tab" role="tab" data-v="matriz" aria-selected="true"><span class="ic">◎</span>Matriz</button>
+  <button class="tab" role="tab" data-v="cands" aria-selected="false"><span class="ic">◍</span>Candidatos</button>
+  <button class="tab" role="tab" data-v="temas" aria-selected="false"><span class="ic">▦</span>Temas</button>
+  <button class="tab" role="tab" data-v="comp" aria-selected="false"><span class="ic">⇄</span>Comparar</button>
+  <button class="tab" role="tab" data-v="polem" aria-selected="false"><span class="ic">⚡</span>Polêmicas</button>
+  <button class="tab" role="tab" data-v="odds" aria-selected="false"><span class="ic">🎲</span>Chances</button>
+  <button class="tab" role="tab" data-v="jud" aria-selected="false"><span class="ic">⚖</span>Ficha judicial</button>
+  <button class="tab" role="tab" data-v="busca" aria-selected="false"><span class="ic">⌕</span>Busca</button>
+  <button class="tab" role="tab" data-v="metodo" aria-selected="false"><span class="ic">☰</span>Método</button>
+</div></nav>
+
+<main class="wrap">
+  <div class="panel" id="v-matriz"></div>
+  <div class="panel" id="v-cands" hidden></div>
+  <div class="panel" id="v-temas" hidden></div>
+  <div class="panel" id="v-comp" hidden></div>
+  <div class="panel" id="v-polem" hidden></div>
+  <div class="panel" id="v-odds" hidden></div>
+  <div class="panel" id="v-jud" hidden></div>
+  <div class="panel" id="v-busca" hidden></div>
+  <div class="panel" id="v-metodo" hidden></div>
+</main>
+<footer class="wrap">
+  Fonte primária: arquivos de propostas de governo, candidaturas e bens declarados do repositório de dados abertos do TSE (eleição 2026).
+  As coordenadas ideológicas, os vereditos e as notas históricas são classificação editorial deste projeto — não são dado oficial do TSE.
+  A aba Chances usa fontes externas identificadas nela.
+</footer>
+</div>
+<div class="tip" id="tip"></div>
+<script id="dados" type="application/json">/*DATA*/</script>

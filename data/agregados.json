@@ -1,0 +1,845 @@
+{
+ "candidatos": [
+  {
+   "sq": "280002542548",
+   "esfera": "br",
+   "doc": "2026BR280002542548_01",
+   "nome": "LULA",
+   "nome_completo": "LUIZ INÁCIO LULA DA SILVA",
+   "partido": "PT",
+   "numero": "13",
+   "cargo": "PRESIDENTE",
+   "coligacao": "PSB / PDT / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+   "foto": "data/raw/foto_cand2026_BR_div/FBR280002542548_div.jpg",
+   "nasc": "06/10/1945",
+   "genero": "MASCULINO",
+   "raca": "BRANCA",
+   "instrucao": "ENSINO FUNDAMENTAL COMPLETO",
+   "ocupacao": "TORNEIRO MECÂNICO",
+   "uf_nasc": "PE",
+   "n_bens": 18,
+   "total_bens": 4775650.64,
+   "n_propostas": 68,
+   "econ": -0.787,
+   "social": -0.797,
+   "setores": {
+    "estado": {
+     "n": 7,
+     "econ": -0.429,
+     "social": -1.0
+    },
+    "cti": {
+     "n": 4,
+     "econ": -1.0,
+     "social": -1.0
+    },
+    "trabalho": {
+     "n": 7,
+     "econ": -1.0,
+     "social": -2.0
+    },
+    "economia": {
+     "n": 8,
+     "econ": -1.0,
+     "social": null
+    },
+    "direitos": {
+     "n": 4,
+     "econ": -1.0,
+     "social": -0.75
+    },
+    "educacao": {
+     "n": 8,
+     "econ": -0.87,
+     "social": -2.0
+    },
+    "saude": {
+     "n": 7,
+     "econ": -0.7,
+     "social": null
+    },
+    "seguranca": {
+     "n": 5,
+     "econ": 0.0,
+     "social": -0.4
+    },
+    "cidade": {
+     "n": 5,
+     "econ": -1.0,
+     "social": -1.0
+    },
+    "cultura": {
+     "n": 2,
+     "econ": -1.0,
+     "social": -1.0
+    },
+    "ambiente": {
+     "n": 7,
+     "econ": -0.55,
+     "social": -1.0
+    },
+    "externa": {
+     "n": 4,
+     "econ": -1.0,
+     "social": 0.2
+    }
+   },
+   "resultados": {
+    "fracassou": 10,
+    "parcial": 65,
+    "em_curso": 24,
+    "funcionou": 27,
+    "inconclusivo": 8,
+    "revertido": 2
+   },
+   "resumo_doc": "Programa de reeleicao organizado em 13 diretrizes programaticas, apresentado como 'continuidade de um projeto concreto'. Boa parte do texto e prestacao de contas do mandato 2023-2026, com numeros de execucao (Novo PAC de R$ 1,3 trilhao, 8 milhoes de empregos, Gini de 0,504, desmatamento na menor taxa da historia da Amazonia, 2 milhoes de moradias contratadas no MCMV), seguida de compromissos de continuidade e ampliacao. E o unico plano presidencial que se organiza majoritariamente como aprofundamento de politicas ja em execucao, e nao como ruptura. Assinado pela Federacao Brasil da Esperanca (PT, PV, PCdoB), Federacao PSOL/REDE, PSB e PDT.",
+   "alerta_doc": null
+  },
+  {
+   "sq": "280002551544",
+   "esfera": "br",
+   "doc": "2026BR280002551544_01",
+   "nome": "FLAVIO BOLSONARO",
+   "nome_completo": "FLAVIO NANTES BOLSONARO",
+   "partido": "PL",
+   "numero": "22",
+   "cargo": "PRESIDENTE",
+   "coligacao": "PL",
+   "foto": "data/raw/foto_cand2026_BR_div/FBR280002551544_div.jpg",
+   "nasc": "30/04/1981",
+   "genero": "MASCULINO",
+   "raca": "BRANCA",
+   "instrucao": "SUPERIOR COMPLETO",
+   "ocupacao": "SENADOR",
+   "uf_nasc": "RJ",
+   "n_bens": 9,
+   "total_bens": 8186555.83,
+   "n_propostas": 67,
+   "econ": 1.089,
+   "social": 1.222,
+   "setores": {
+    "seguranca": {
+     "n": 11,
+     "econ": -0.176,
+     "social": 1.806
+    },
+    "direitos": {
+     "n": 2,
+     "econ": 1.0,
+     "social": 0.5
+    },
+    "cti": {
+     "n": 3,
+     "econ": 0.333,
+     "social": 0.0
+    },
+    "economia": {
+     "n": 12,
+     "econ": 1.667,
+     "social": 1.0
+    },
+    "cidade": {
+     "n": 5,
+     "econ": 1.643,
+     "social": 0.0
+    },
+    "educacao": {
+     "n": 8,
+     "econ": 1.0,
+     "social": 1.25
+    },
+    "estado": {
+     "n": 6,
+     "econ": 1.0,
+     "social": 0.5
+    },
+    "saude": {
+     "n": 6,
+     "econ": 0.625,
+     "social": 1.0
+    },
+    "trabalho": {
+     "n": 6,
+     "econ": 1.5,
+     "social": 1.0
+    },
+    "ambiente": {
+     "n": 4,
+     "econ": 1.0,
+     "social": 1.0
+    },
+    "cultura": {
+     "n": 2,
+     "econ": 2.0,
+     "social": 1.6
+    },
+    "externa": {
+     "n": 2,
+     "econ": 1.5,
+     "social": 1.0
+    }
+   },
+   "resultados": {
+    "em_curso": 9,
+    "parcial": 76,
+    "fracassou": 14,
+    "revertido": 2,
+    "funcionou": 24,
+    "inedito": 7,
+    "inconclusivo": 2
+   },
+   "resumo_doc": "Plano de 76 paginas organizado como 'jornada do cidadao' em oito eixos: Brasil sem Medo, Brasil por Elas, Brasil sem Fila, Brasil Mais Barato, Brasil que Prepara, Brasil que Prospera, Brasil que Cresce, Brasil que Cumpre a Constituicao e Brasil que Nao Volta Atras. Declara valores 'inegociaveis' - liberdade, familia, vida desde a concepcao, propriedade privada, democracia, liberdade de expressao e liberdade religiosa - e se apresenta como alternativa 'liberal, conservadora, reformista e corajosa'. Boa parte do texto contrasta resultados atribuidos ao governo Bolsonaro com criticas ao governo atual. Traz indice tematico completo, recurso raro entre os planos analisados, e algumas metas numericas explicitas (crescimento de 4% ao ano, R$ 900 bi em infraestrutura, 2,5 milhoes de moradias, meio milhao de vagas prisionais, 1 milhao de cameras, corte de no minimo 10 ministerios).",
+   "alerta_doc": null
+  },
+  {
+   "sq": "280002540694",
+   "esfera": "br",
+   "doc": "2026BR280002540694_01",
+   "nome": "RENAN SANTOS",
+   "nome_completo": "RENAN ANTONIO FERREIRA DOS SANTOS",
+   "partido": "MISSÃO",
+   "numero": "14",
+   "cargo": "PRESIDENTE",
+   "coligacao": "MISSÃO",
+   "foto": "data/raw/foto_cand2026_BR_div/FBR280002540694_div.jpg",
+   "nasc": "14/02/1984",
+   "genero": "MASCULINO",
+   "raca": "BRANCA",
+   "instrucao": "SUPERIOR INCOMPLETO",
+   "ocupacao": "EMPRESÁRIO",
+   "uf_nasc": "SP",
+   "n_bens": 4,
+   "total_bens": 795089.0,
+   "n_propostas": 60,
+   "econ": 0.731,
+   "social": 0.948,
+   "setores": {
+    "economia": {
+     "n": 6,
+     "econ": 1.688,
+     "social": 0.0
+    },
+    "trabalho": {
+     "n": 1,
+     "econ": 2.0,
+     "social": 1.0
+    },
+    "seguranca": {
+     "n": 9,
+     "econ": 0.0,
+     "social": 1.818
+    },
+    "estado": {
+     "n": 8,
+     "econ": 0.529,
+     "social": 0.941
+    },
+    "cidade": {
+     "n": 6,
+     "econ": 1.0,
+     "social": 0.5
+    },
+    "ambiente": {
+     "n": 5,
+     "econ": 1.818,
+     "social": 1.273
+    },
+    "saude": {
+     "n": 6,
+     "econ": 0.273,
+     "social": 0.0
+    },
+    "cultura": {
+     "n": 3,
+     "econ": 1.25,
+     "social": 1.0
+    },
+    "direitos": {
+     "n": 1,
+     "econ": 0.0,
+     "social": 1.0
+    },
+    "educacao": {
+     "n": 8,
+     "econ": 0.421,
+     "social": 1.737
+    },
+    "externa": {
+     "n": 5,
+     "econ": 0.0,
+     "social": 0.6
+    },
+    "cti": {
+     "n": 2,
+     "econ": 1.2,
+     "social": 0.4
+    }
+   },
+   "resultados": {
+    "parcial": 70,
+    "fracassou": 20,
+    "funcionou": 14,
+    "em_curso": 7,
+    "inconclusivo": 3,
+    "inedito": 6
+   },
+   "resumo_doc": "Livro Amarelo - O Futuro e Glorioso, do Partido Missao (Renan Santos). Documento de 51 paginas dividido em tres partes (Estado Novo, Produtividade, Pais do Futuro) e 14 capitulos tematicos, com prefacio, diagnostico por capitulo e listas numeradas de propostas. E o plano mais longo e mais doutrinariamente explicito entre os registrados: cita nominalmente fontes intelectuais (Gunter Jakobs, CDPP, tese de amalgamas da UFPB, PEC de Kim Kataguiri, plano de Arthur do Val de 2020) e modelos estrangeiros (Milei, Bukele, Shenzhen, Shannon, Cingapura, Ceara).",
+   "alerta_doc": null
+  },
+  {
+   "sq": "280002551932",
+   "esfera": "br",
+   "doc": "2026BR280002551932_01",
+   "nome": "RONALDO CAIADO",
+   "nome_completo": "RONALDO RAMOS CAIADO",
+   "partido": "PSD",
+   "numero": "55",
+   "cargo": "PRESIDENTE",
+   "coligacao": "PSD",
+   "foto": "data/raw/foto_cand2026_BR_div/FBR280002551932_div.jpg",
+   "nasc": "25/09/1949",
+   "genero": "MASCULINO",
+   "raca": "BRANCA",
+   "instrucao": "SUPERIOR COMPLETO",
+   "ocupacao": "MÉDICO",
+   "uf_nasc": "GO",
+   "n_bens": 14,
+   "total_bens": 52557930.98,
+   "n_propostas": 63,
+   "econ": 0.256,
+   "social": 0.529,
+   "setores": {
+    "estado": {
+     "n": 5,
+     "econ": 0.667,
+     "social": null
+    },
+    "economia": {
+     "n": 11,
+     "econ": 0.636,
+     "social": 1.0
+    },
+    "seguranca": {
+     "n": 8,
+     "econ": 0.0,
+     "social": 1.0
+    },
+    "externa": {
+     "n": 5,
+     "econ": 1.0,
+     "social": 1.0
+    },
+    "ambiente": {
+     "n": 6,
+     "econ": 0.667,
+     "social": null
+    },
+    "cti": {
+     "n": 4,
+     "econ": 0.25,
+     "social": 1.0
+    },
+    "educacao": {
+     "n": 3,
+     "econ": 0.667,
+     "social": null
+    },
+    "trabalho": {
+     "n": 4,
+     "econ": 0.0,
+     "social": 0.0
+    },
+    "cultura": {
+     "n": 1,
+     "econ": 0.0,
+     "social": null
+    },
+    "cidade": {
+     "n": 3,
+     "econ": 0.333,
+     "social": 0.0
+    },
+    "direitos": {
+     "n": 3,
+     "econ": -1.0,
+     "social": -0.667
+    },
+    "saude": {
+     "n": 10,
+     "econ": -0.6,
+     "social": null
+    }
+   },
+   "resultados": {
+    "fracassou": 16,
+    "parcial": 49,
+    "funcionou": 47,
+    "em_curso": 9,
+    "revertido": 2,
+    "inedito": 3
+   },
+   "resumo_doc": "E o plano presidencial mais extenso e mais uniformemente estruturado: 100 paginas, 26 temas, cada um com sumario executivo, diagnostico, propostas numeradas para 2027-2030, indicadores de acompanhamento e uma frase final de 'COMPROMISSO'. Soma cerca de 250 propostas numeradas. O capitulo de Saude ocupa sozinho mais de 20 paginas e 15 'acoes' - o candidato e medico -, e o de Seguranca invoca repetidamente a experiencia de Goias como modelo. Politicamente e um plano de centro-direita gestionaria: defende responsabilidade fiscal e reducao de privilegios, mas preserva o SUS universal, mantem transferencia de renda e dedica temas inteiros a racismo, mulheres, Amazonia e Nordeste. Assinado com Gilberto Kassab (PSD) como vice.",
+   "alerta_doc": null
+  },
+  {
+   "sq": "280002539826",
+   "esfera": "br",
+   "doc": "2026BR280002539826_01",
+   "nome": "ZEMA",
+   "nome_completo": "ROMEU ZEMA NETO",
+   "partido": "NOVO",
+   "numero": "30",
+   "cargo": "PRESIDENTE",
+   "coligacao": "NOVO",
+   "foto": "data/raw/foto_cand2026_BR_div/FBR280002539826_div.jpg",
+   "nasc": "28/10/1964",
+   "genero": "MASCULINO",
+   "raca": "BRANCA",
+   "instrucao": "SUPERIOR COMPLETO",
+   "ocupacao": "EMPRESÁRIO",
+   "uf_nasc": "MG",
+   "n_bens": 18,
+   "total_bens": 178707610.09,
+   "n_propostas": 65,
+   "econ": 1.634,
+   "social": 1.03,
+   "setores": {
+    "seguranca": {
+     "n": 5,
+     "econ": null,
+     "social": 2.0
+    },
+    "estado": {
+     "n": 18,
+     "econ": 1.556,
+     "social": 0.0
+    },
+    "economia": {
+     "n": 8,
+     "econ": 1.913,
+     "social": null
+    },
+    "trabalho": {
+     "n": 7,
+     "econ": 1.714,
+     "social": 1.333
+    },
+    "cidade": {
+     "n": 3,
+     "econ": 2.0,
+     "social": null
+    },
+    "externa": {
+     "n": 5,
+     "econ": 1.3,
+     "social": 0.556
+    },
+    "direitos": {
+     "n": 1,
+     "econ": 2.0,
+     "social": 1.0
+    },
+    "educacao": {
+     "n": 6,
+     "econ": 1.353,
+     "social": 1.333
+    },
+    "saude": {
+     "n": 5,
+     "econ": 1.4,
+     "social": 2.0
+    },
+    "ambiente": {
+     "n": 4,
+     "econ": 1.75,
+     "social": null
+    },
+    "cti": {
+     "n": 1,
+     "econ": 2.0,
+     "social": null
+    },
+    "cultura": {
+     "n": 2,
+     "econ": 1.4,
+     "social": null
+    }
+   },
+   "resultados": {
+    "em_curso": 5,
+    "parcial": 60,
+    "fracassou": 19,
+    "inedito": 7,
+    "revertido": 6,
+    "funcionou": 30,
+    "inconclusivo": 3
+   },
+   "resumo_doc": "Chamado 'Plano Implacavel', organiza-se em 20 areas tematicas, cada uma com diagnostico numerico seguido de eixos e propostas objetivas em uma ou duas frases. E o programa presidencial mais explicitamente liberal do conjunto: propoe privatizar todas as estatais, sair do BRICS, criar um regime alternativo a CLT, extinguir os fundos partidario e eleitoral, regulamentar o homeschooling e reduzir a maioridade penal. Traz creditos nominais de 8 coordenadores tematicos e 4 coordenadores-gerais, sendo o unico plano presidencial a identificar sua equipe tecnica. Cada capitulo abre com dados comparativos internacionais (PISA, OCDE, Coreia do Sul, Indice de Percepcao da Corrupcao).",
+   "alerta_doc": null
+  },
+  {
+   "sq": "280002548139",
+   "esfera": "br",
+   "doc": "2026BR280002548139_01",
+   "nome": "VETERINÁRIO WILSON GRASSI",
+   "nome_completo": "WILSON GRASSI JUNIOR",
+   "partido": "DEMOCRATA",
+   "numero": "35",
+   "cargo": "PRESIDENTE",
+   "coligacao": "DEMOCRATA",
+   "foto": "data/raw/foto_cand2026_BR_div/FBR280002548139_div.jpg",
+   "nasc": "13/03/1970",
+   "genero": "MASCULINO",
+   "raca": "BRANCA",
+   "instrucao": "SUPERIOR COMPLETO",
+   "ocupacao": "VETERINÁRIO",
+   "uf_nasc": "SP",
+   "n_bens": 1,
+   "total_bens": 50000000.0,
+   "n_propostas": 41,
+   "econ": 0.183,
+   "social": 0.172,
+   "setores": {
+    "economia": {
+     "n": 4,
+     "econ": 0.5,
+     "social": 0.2
+    },
+    "trabalho": {
+     "n": 3,
+     "econ": 1.0,
+     "social": 0.0
+    },
+    "estado": {
+     "n": 7,
+     "econ": 0.0,
+     "social": 0.2
+    },
+    "seguranca": {
+     "n": 7,
+     "econ": 0.0,
+     "social": 0.765
+    },
+    "direitos": {
+     "n": 2,
+     "econ": 0.0,
+     "social": 0.0
+    },
+    "saude": {
+     "n": 4,
+     "econ": -0.4,
+     "social": 0.0
+    },
+    "ambiente": {
+     "n": 5,
+     "econ": 0.818,
+     "social": -0.182
+    },
+    "educacao": {
+     "n": 2,
+     "econ": 0.0,
+     "social": 0.0
+    },
+    "cti": {
+     "n": 1,
+     "econ": -2.0,
+     "social": 0.0
+    },
+    "cultura": {
+     "n": 1,
+     "econ": 0.0,
+     "social": -1.0
+    },
+    "cidade": {
+     "n": 4,
+     "econ": 0.667,
+     "social": 0.0
+    },
+    "externa": {
+     "n": 1,
+     "econ": 0.0,
+     "social": 1.0
+    }
+   },
+   "resultados": {
+    "revertido": 1,
+    "fracassou": 9,
+    "parcial": 43,
+    "funcionou": 21,
+    "inedito": 5,
+    "em_curso": 3
+   },
+   "resumo_doc": "Plano de 58 paginas de Wilson Grassi (Democrata), com Sued Haidar como vice. Organizado em diagnostico das cinco travas, metodo D35 (desburocratizar, desonerar, digitalizar, democratizar, desenvolver), 14 eixos e uma secao de governanca com os primeiros cem dias, painel de indicadores e compromissos de transparencia. Cada eixo fecha com um quadro de tres linhas: instrumento juridico, como medir e prazo. E o unico dos planos registrados que declara explicitamente o que ficou de fora (nao ha valores orcamentarios medida a medida), avisa quando a fonte citada e fragil (Doing Business descontinuado) e apresenta contra-argumentos as proprias propostas.",
+   "alerta_doc": "O documento e o mais verificavel do conjunto em forma, mas a proposta central depende de emenda constitucional e a aliquota do novo tributo e declarada em aberto: o texto trabalha com 2% em cada ponta como parametro publico, 1,2% como piso tecnico e diz que o valor definitivo so sai de estudo de impacto posterior. O proprio plano registra um ponto por resolver sobre se a contribuicao previdenciaria do empregado seria ou nao extinta."
+  },
+  {
+   "sq": "70002553055",
+   "esfera": "df",
+   "doc": "2026DF70002553055_01",
+   "nome": "CELINA LEÃO",
+   "nome_completo": "CELINA LEAO HIZIM FERREIRA",
+   "partido": "PP",
+   "numero": "11",
+   "cargo": "GOVERNADOR",
+   "coligacao": "REPUBLICANOS / MDB / PODE / PL / DC / MOBILIZA / DEMOCRATA / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+   "foto": "data/raw/foto_cand2026_DF_div/FDF70002553055_div.jpg",
+   "nasc": "02/03/1977",
+   "genero": "FEMININO",
+   "raca": "BRANCA",
+   "instrucao": "SUPERIOR COMPLETO",
+   "ocupacao": "GOVERNADOR",
+   "uf_nasc": "GO",
+   "n_bens": 5,
+   "total_bens": 440131.39,
+   "n_propostas": 50,
+   "econ": 0.024,
+   "social": 0.868,
+   "setores": {
+    "trabalho": {
+     "n": 5,
+     "econ": 0.308,
+     "social": 1.0
+    },
+    "direitos": {
+     "n": 2,
+     "econ": 0.0,
+     "social": 0.0
+    },
+    "seguranca": {
+     "n": 6,
+     "econ": -0.118,
+     "social": 0.824
+    },
+    "saude": {
+     "n": 8,
+     "econ": -0.476,
+     "social": 1.0
+    },
+    "educacao": {
+     "n": 8,
+     "econ": 0.238,
+     "social": 1.5
+    },
+    "cultura": {
+     "n": 2,
+     "econ": -0.5,
+     "social": null
+    },
+    "estado": {
+     "n": 4,
+     "econ": -0.222,
+     "social": null
+    },
+    "cidade": {
+     "n": 7,
+     "econ": 0.118,
+     "social": 1.0
+    },
+    "ambiente": {
+     "n": 4,
+     "econ": 0.0,
+     "social": null
+    },
+    "economia": {
+     "n": 4,
+     "econ": 0.727,
+     "social": null
+    }
+   },
+   "resultados": {
+    "parcial": 59,
+    "funcionou": 26,
+    "inedito": 3,
+    "fracassou": 7,
+    "inconclusivo": 2,
+    "em_curso": 3
+   },
+   "resumo_doc": "Plano em 5 eixos com cuidado e protecao social no centro, seguidos de moradia e infraestrutura, desenvolvimento economico, BRB e gestao. E o unico plano do DF que combina uma agenda social ampla (renda, creche, restaurantes comunitarios, tarifa zero focalizada) com bandeiras conservadoras explicitas (expansao das escolas civico-militares, batalhao escolar, trabalho para 100% dos presos) e encerramento religioso na apresentacao.",
+   "alerta_doc": "Plano da atual governadora, que busca a reeleicao. O documento indica o numero de acoes por area (6 acoes em Familia, 15 em Saude, 19 em Educacao, 13 em Seguranca etc.), o que facilita a leitura, mas quase nao traz metas numericas de resultado, prazos ou custos - as excecoes sao as 7 UPAs nominadas, os 5 hospitais do programa Hospital Perto de Casa, as 4 novas estacoes da Linha 1 do metro e as feiras nominadas. O eixo 4 e dedicado ao BRB e defende 'recuperar e fortalecer a capacidade operacional e financeira' do banco, sem em nenhum momento nomear a crise com o Banco Master, que e o tema central da disputa distrital."
+  },
+  {
+   "sq": "70002552586",
+   "esfera": "df",
+   "doc": "2026DF70002552586_01",
+   "nome": "ARRUDA",
+   "nome_completo": "JOSÉ ROBERTO ARRUDA",
+   "partido": "PSD",
+   "numero": "55",
+   "cargo": "GOVERNADOR",
+   "coligacao": "PSD / AVANTE",
+   "foto": "data/raw/foto_cand2026_DF_div/FDF70002552586_div.jpg",
+   "nasc": "05/01/1954",
+   "genero": "MASCULINO",
+   "raca": "BRANCA",
+   "instrucao": "SUPERIOR COMPLETO",
+   "ocupacao": "ENGENHEIRO",
+   "uf_nasc": "MG",
+   "n_bens": 10,
+   "total_bens": 830170.98,
+   "n_propostas": 47,
+   "econ": 0.482,
+   "social": 0.145,
+   "setores": {
+    "estado": {
+     "n": 4,
+     "econ": 0.8,
+     "social": 0.0
+    },
+    "economia": {
+     "n": 6,
+     "econ": 1.2,
+     "social": 0.0
+    },
+    "educacao": {
+     "n": 6,
+     "econ": 0.4,
+     "social": 0.0
+    },
+    "saude": {
+     "n": 5,
+     "econ": 0.231,
+     "social": 0.0
+    },
+    "trabalho": {
+     "n": 2,
+     "econ": 0.5,
+     "social": 0.0
+    },
+    "direitos": {
+     "n": 2,
+     "econ": 0.0,
+     "social": -1.0
+    },
+    "seguranca": {
+     "n": 8,
+     "econ": -0.053,
+     "social": 1.105
+    },
+    "cti": {
+     "n": 1,
+     "econ": 1.0,
+     "social": 0.0
+    },
+    "externa": {
+     "n": 1,
+     "econ": 2.0,
+     "social": 0.0
+    },
+    "cultura": {
+     "n": 3,
+     "econ": 0.333,
+     "social": -0.333
+    },
+    "cidade": {
+     "n": 5,
+     "econ": 0.417,
+     "social": 0.0
+    },
+    "ambiente": {
+     "n": 4,
+     "econ": 0.444,
+     "social": 0.0
+    }
+   },
+   "resultados": {
+    "funcionou": 31,
+    "parcial": 55,
+    "fracassou": 6,
+    "inedito": 2
+   },
+   "resumo_doc": "Resgatar para Transformar o DF, de Jose Roberto Arruda (PSD), com 52 paginas de corpo principal e quatro anexos de caderno de acoes que levam o documento a cerca de 190 paginas. Organizado nao por secretarias, mas por quatro eixos de capacidades: Resgatar a Gestao, Cuidar das Pessoas, Gerar Prosperidade e Transformar o Territorio. O corpo principal e conceitual e fecha cada secao com listas de Projetos Transformadores e Legados Estrategicos; os anexos trazem as acoes concretas, com Resultado Esperado declarado para cada item. E um dos poucos planos do DF que nomeia explicitamente o rombo no BRB, no Instituto de Previdencia e no plano de saude dos servidores como heranca a ser auditada.",
+   "alerta_doc": "O corpo principal do plano concentra-se em modelos de gestao e capacidades, com pouca quantificacao; as metas numericas aparecem sobretudo nos anexos (1.500 salas de aula, 12 vilas olimpicas, 50 mil cameras). Nao ha estimativa de custo nem de fonte de financiamento para os projetos de maior porte (VLT, trem regional, Anel Rodoviario). O plano nao menciona a cassacao do mandato do candidato em 2010 nem a condicao juridica que a acompanha."
+  },
+  {
+   "sq": "70002551557",
+   "esfera": "df",
+   "doc": "2026DF70002551557_01",
+   "nome": "CAPPELLI",
+   "nome_completo": "RICARDO GARCIA CAPPELLI",
+   "partido": "PSB",
+   "numero": "40",
+   "cargo": "GOVERNADOR",
+   "coligacao": "PSB",
+   "foto": "data/raw/foto_cand2026_DF_div/FDF70002551557_div.jpg",
+   "nasc": "11/02/1972",
+   "genero": "MASCULINO",
+   "raca": "BRANCA",
+   "instrucao": "SUPERIOR COMPLETO",
+   "ocupacao": "JORNALISTA E REDATOR",
+   "uf_nasc": "RJ",
+   "n_bens": 6,
+   "total_bens": 1226908.08,
+   "n_propostas": 42,
+   "econ": -0.304,
+   "social": -0.4,
+   "setores": {
+    "saude": {
+     "n": 5,
+     "econ": -0.429,
+     "social": null
+    },
+    "educacao": {
+     "n": 6,
+     "econ": -0.529,
+     "social": null
+    },
+    "seguranca": {
+     "n": 4,
+     "econ": 0.0,
+     "social": 0.25
+    },
+    "economia": {
+     "n": 4,
+     "econ": 0.182,
+     "social": null
+    },
+    "trabalho": {
+     "n": 3,
+     "econ": -1.0,
+     "social": -1.0
+    },
+    "cidade": {
+     "n": 8,
+     "econ": -0.217,
+     "social": null
+    },
+    "ambiente": {
+     "n": 3,
+     "econ": -1.0,
+     "social": null
+    },
+    "cultura": {
+     "n": 3,
+     "econ": -0.333,
+     "social": -1.0
+    },
+    "cti": {
+     "n": 1,
+     "econ": 0.0,
+     "social": null
+    },
+    "estado": {
+     "n": 4,
+     "econ": 0.273,
+     "social": -1.0
+    },
+    "direitos": {
+     "n": 1,
+     "econ": null,
+     "social": -1.0
+    }
+   },
+   "resultados": {
+    "em_curso": 1,
+    "funcionou": 32,
+    "parcial": 43,
+    "fracassou": 5,
+    "inconclusivo": 1,
+    "inedito": 2
+   },
+   "resumo_doc": "Plano tecnicamente mais estruturado entre os do DF: 15 eixos, 40 propostas numeradas, 7 'marcas centrais' de comunicacao, metas com ano-alvo, um capitulo de financiamento que lista fontes e um plano explicito de primeiros 100 dias. Faz um diagnostico fiscal com numeros - estima pressao financeira entre R$ 4,56 bi e R$ 8,37 bi ao fim de 2026, com cenario central de R$ 6,86 bi - e condiciona repetidamente a execucao a auditoria de transicao, estimativa de impacto orcamentario e fonte de custeio. Politicamente e um plano de centro-esquerda com forte enfase em gestao: defende manter Caesb e BRB publicos, mas adota 'Tolerancia Zero' como marca de seguranca.",
+   "alerta_doc": null
+  }
+ ],
+ "gerado": "2026-08-28"
+}

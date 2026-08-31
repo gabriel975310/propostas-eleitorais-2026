@@ -1,0 +1,94 @@
+<script>
+(function(){
+"use strict";
+var D=JSON.parse(document.getElementById('dados').textContent);
+var C=D.candidatos,P=D.propostas,SET=D.setores,TOP=D.topicos;
+var byId={},setById={};
+C.forEach(function(c){byId[c.sq]=c;});
+SET.forEach(function(s){setById[s.id]=s;});
+var root=document.documentElement;
+function isDark(){var t=root.getAttribute('data-theme');
+  return t?t==='dark':matchMedia('(prefers-color-scheme:dark)').matches;}
+function pc(c){return isDark()?c.corD:c.cor;}
+function sc(id){var s=setById[id];return s?(isDark()?s.corD:s.cor):'#888';}
+var VT={forte:['Evidência forte','var(--v-forte)'],promissora:['Promissora','var(--v-prom)'],
+ arriscada:['Arriscada','var(--v-risc)'],ja_falhou:['Já falhou','var(--v-falh)'],
+ sem_precedente:['Sem precedente','var(--v-sem)']};
+var RES={funcionou:['Funcionou','var(--v-forte)'],parcial:['Parcial','var(--v-risc)'],
+ fracassou:['Fracassou','var(--v-falh)'],revertido:['Revertido','var(--v-sem)'],
+ em_curso:['Em curso','var(--v-prom)'],inconclusivo:['Inconclusivo','var(--v-sem)'],
+ inedito:['Inédito','var(--v-sem)']};
+var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(m){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m];});};
+var f1=function(n){return (n>0?'+':'')+Number(n).toFixed(2);};
+var brl=function(n){return Number(n).toLocaleString('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0});};
+var S={esf:null,view:'matriz',gran:'cand',cand:null,tema:null,topico:null,q:'',soCom:false,selC:new Set(),selS:new Set()};
+function cands(){return C.filter(function(c){return c.esfera===S.esf;});}
+function props(){return P.filter(function(p){return p.esf===S.esf;});}
+
+function shape(kind,cx,cy,r){
+  var pts=[],i,a;
+  if(kind==='square'){var s=r*0.9;return '<rect x="'+(cx-s)+'" y="'+(cy-s)+'" width="'+(2*s)+'" height="'+(2*s)+'" rx="'+(r*0.22)+'"';}
+  if(kind==='diamond'){var d=r*1.18;
+    return '<path d="M'+cx+' '+(cy-d)+'L'+(cx+d)+' '+cy+'L'+cx+' '+(cy+d)+'L'+(cx-d)+' '+cy+'Z"';}
+  if(kind==='triangle'){var t=r*1.25;
+    return '<path d="M'+cx+' '+(cy-t)+'L'+(cx+t*0.9)+' '+(cy+t*0.68)+'L'+(cx-t*0.9)+' '+(cy+t*0.68)+'Z"';}
+  if(kind==='hex'){for(i=0;i<6;i++){a=Math.PI/180*(60*i-90);pts.push((cx+r*1.08*Math.cos(a)).toFixed(1)+' '+(cy+r*1.08*Math.sin(a)).toFixed(1));}
+    return '<path d="M'+pts.join('L')+'Z"';}
+  if(kind==='star'){for(i=0;i<10;i++){a=Math.PI/180*(36*i-90);var rr=i%2?r*0.52:r*1.32;
+      pts.push((cx+rr*Math.cos(a)).toFixed(1)+' '+(cy+rr*Math.sin(a)).toFixed(1));}
+    return '<path d="M'+pts.join('L')+'Z"';}
+  return '<circle cx="'+cx+'" cy="'+cy+'" r="'+r+'"';
+}
+function mark(c,size){var r=size/2-2.2;
+  return '<svg class="mk" viewBox="0 0 '+size+' '+size+'" width="'+size+'" height="'+size+'" aria-hidden="true">'+
+    shape(c.forma,size/2,size/2,r)+' fill="'+pc(c)+'" stroke="var(--ink)" stroke-opacity=".28" stroke-width="1.1"/></svg>';}
+function foto(c,cls){return c.foto?'<img class="pfoto '+(cls||'')+'" src="'+c.foto+'" alt="'+esc(c.nome)+'" loading="lazy">':'';}
+var tip=document.getElementById('tip');
+function showTip(h,ev){tip.innerHTML=h;tip.classList.add('on');
+  var r=tip.getBoundingClientRect();
+  var x=Math.min(Math.max(8,ev.clientX+15),innerWidth-r.width-10);
+  var y=ev.clientY-r.height-14; if(y<8)y=ev.clientY+20;
+  tip.style.left=x+'px';tip.style.top=y+'px';}
+function hideTip(){tip.classList.remove('on');}
+function axb(v,kind){
+  var col=v===0?'var(--ink-3)':(v<0?'var(--pole-a)':'var(--pole-b)');
+  return '<span class="axb" style="color:'+col+';border-color:'+col+'">'+(kind==='e'?'ECON':'SOC')+' '+(v>0?'+':'')+v+'</span>';}
+function pill(r){var d=RES[r]||['—','var(--v-sem)'];
+  return '<span class="pill" style="background:'+d[1]+'">'+d[0]+'</span>';}
+function secTag(id){var s=setById[id];
+  return '<span class="tagsec" style="background:'+sc(id)+'">'+s.ic+' '+esc(s.nome)+'</span>';}
+function whoTag(c){return '<span class="tagwho"><i style="background:'+pc(c)+'"></i>'+esc(c.nome)+' · '+esc(c.partido)+'</span>';}
+function ficha(p,showWho){
+  var c=byId[p.sq],v=VT[p.vt]||VT.sem_precedente;
+  return '<article class="ficha"><div class="stripe" style="background:'+pc(c)+'"></div>'+
+   '<button class="fhead" aria-expanded="false">'+
+    '<div class="fmeta">'+secTag(p.setor)+(showWho?whoTag(c):'')+
+      (p.sub?'<span class="tagsub">'+esc(p.sub)+'</span>':'')+
+      '<span class="axbox">'+axb(p.e,'e')+axb(p.s,'s')+'</span></div>'+
+    '<h4>'+esc(p.t)+'</h4><p class="fres">'+esc(p.r)+'</p>'+
+    '<div class="verd" style="border-color:'+v[1]+'"><span class="vlab" style="color:'+v[1]+'">'+v[0]+'</span>'+
+      '<p>'+esc(p.vd)+'</p></div></button>'+
+   '<div class="fbody" hidden>'+
+    '<blockquote class="quote" style="border-color:'+sc(p.setor)+'">'+esc(p.c)+
+      '<span class="src">'+(p.ap?'Paráfrase — ':'Trecho literal — ')+esc(c.doc)+(p.pg?' · p. '+p.pg:'')+' · peso '+p.w+'</span></blockquote>'+
+    '<div class="hist">'+
+      '<div class="hbox"><div class="hl"><b>🇧🇷 Já tentaram no Brasil</b>'+pill(p.hbr)+'</div><p>'+esc(p.hb)+'</p></div>'+
+      '<div class="hbox"><div class="hl"><b>🌍 E fora do Brasil</b>'+pill(p.hmr)+'</div><p>'+esc(p.hm)+'</p></div></div>'+
+    '<span class="conf">Confiança da avaliação histórica: '+esc(p.cf||'—')+'</span></div></article>';}
+document.addEventListener('click',function(e){
+  var b=e.target.closest('.fhead'); if(!b)return;
+  var body=b.nextElementSibling,open=b.getAttribute('aria-expanded')==='true';
+  b.setAttribute('aria-expanded',open?'false':'true'); body.hidden=open;});
+function specHTML(){return SET.map(function(s){return '<i style="background:'+sc(s.id)+'"></i>';}).join('');}
+function rankChart(title,cap,rows,fmt,icon){
+  var mx=Math.max.apply(null,rows.map(function(r){return Math.abs(r.v);}))||1;
+  var neg=rows.some(function(r){return r.v<0;});
+  return '<div class="rank"><h4>'+icon+' '+esc(title)+'</h4><span class="cap">'+esc(cap)+'</span>'+
+    rows.map(function(r){
+      var w=Math.abs(r.v)/mx*100;
+      var left=neg?(r.v<0?50-w/2:50):0,wd=neg?w/2:w;
+      return '<div class="rrow"><span class="nm" style="color:'+r.col+'">'+esc(r.nm)+'</span>'+
+        '<span class="rbar">'+(neg?'<i style="left:50%;width:1.5px;background:var(--ink-3);opacity:.5;border-radius:0"></i>':'')+
+        '<i style="left:'+left+'%;width:'+Math.max(wd,1.5)+'%;background:'+r.col+'"></i></span>'+
+        '<span class="rval">'+fmt(r.v)+'</span></div>';}).join('')+'</div>';}

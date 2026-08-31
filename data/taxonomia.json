@@ -1,0 +1,25 @@
+{
+  "setores": [
+    {"id":"economia","nome":"Economia e Fiscal","desc":"Tributação, gasto público, dívida, privatizações, política industrial"},
+    {"id":"saude","nome":"Saúde","desc":"SUS, atenção básica, hospitais, saúde mental, medicamentos"},
+    {"id":"educacao","nome":"Educação","desc":"Básica, técnica, superior, creches, gestão escolar"},
+    {"id":"seguranca","nome":"Segurança e Justiça","desc":"Polícia, prisões, drogas, armas, judiciário"},
+    {"id":"trabalho","nome":"Trabalho, Renda e Previdência","desc":"Emprego, salário, benefícios, aposentadoria, assistência"},
+    {"id":"cidade","nome":"Cidade, Mobilidade e Habitação","desc":"Transporte, moradia, saneamento, obras, uso do solo"},
+    {"id":"ambiente","nome":"Meio Ambiente, Clima e Agro","desc":"Clima, desmatamento, água, agropecuária, energia"},
+    {"id":"estado","nome":"Estado, Democracia e Gestão","desc":"Servidores, transparência, reforma administrativa, instituições, corrupção"},
+    {"id":"direitos","nome":"Direitos e Costumes","desc":"Mulheres, LGBTQIA+, raça, pessoa com deficiência, família, religião"},
+    {"id":"cti","nome":"Ciência, Tecnologia e Inovação","desc":"Pesquisa, digitalização, IA, indústria de ponta"},
+    {"id":"externa","nome":"Política Externa e Defesa","desc":"Diplomacia, comércio exterior, forças armadas, soberania"},
+    {"id":"cultura","nome":"Cultura, Esporte e Lazer","desc":"Fomento cultural, patrimônio, esporte, turismo"}
+  ],
+  "eixos": {
+    "econ": {"nome":"Eixo econômico","min":-2,"max":2,"rotulo_min":"Estado / redistribuição","rotulo_max":"Mercado / iniciativa privada",
+      "escala":{"-2":"Estatização, expropriação, controle direto da economia","-1":"Mais Estado: gasto público, regulação, empresa pública","0":"Neutro ou técnico no eixo","1":"Mais mercado: concessão, desoneração, eficiência do gasto","2":"Privatização ampla, corte estrutural de Estado, choque liberal"}},
+    "social": {"nome":"Eixo social e de autoridade","min":-2,"max":2,"rotulo_min":"Progressista / libertário","rotulo_max":"Conservador / autoridade",
+      "escala":{"-2":"Ampliação forte de direitos de minorias, desencarceramento, laicidade","-1":"Progressista moderado, inclusão, direitos humanos","0":"Neutro ou técnico no eixo","1":"Conservador moderado, mais policiamento, valores tradicionais","2":"Endurecimento penal amplo, agenda moral e religiosa explícita"}}
+  },
+  "resultado_precedente": ["funcionou","parcial","fracassou","revertido","em_curso","inconclusivo"],
+  "confianca": ["alta","media","baixa"],
+  "nota_metodologica": "As pontuações de eixo sao classificacao editorial deste projeto, aplicada ao texto literal do plano de governo registrado no TSE. Nao sao dado oficial. Proposta sem conteudo ideologico num eixo recebe null e nao entra na media."
+}

@@ -1,0 +1,16 @@
+# Derivados: reconstruídos por site/build.py a partir de body.html, app.js e data/.
+# Ficam fora do git para o histórico não carregar 1,4 MB a cada atualização.
+site/espectro-2026.html
+site/tpl.html
+site/js.part
+dist/
+
+# Extraídos dos .zip do TSE que já estão versionados na raiz.
+data/raw/
+data/txt/
+
+# Estado local do CLI do Netlify (id do site, cache de build).
+.netlify/
+
+__pycache__/
+*.pyc

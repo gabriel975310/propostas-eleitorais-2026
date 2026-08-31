@@ -1,0 +1,1807 @@
+{
+ "sq": "280002551544",
+ "doc": "2026BR280002551544_01",
+ "resumo_doc": "Plano de 76 paginas organizado como 'jornada do cidadão' em oito eixos: Brasil sem Medo, Brasil por Elas, Brasil sem Fila, Brasil Mais Barato, Brasil que Prepara, Brasil que Prospera, Brasil que Cresce, Brasil que Cumpre a Constituição e Brasil que Não Volta Atrás. Declara valores 'inegociáveis' - liberdade, família, vida desde a concepção, propriedade privada, democracia, liberdade de expressao e liberdade religiosa - e se apresenta como alternativa 'liberal, conservadora, reformista e corajosa'. Boa parte do texto contrasta resultados atribuidos ao governo Bolsonaro com críticas ao governo atual. Traz índice temático completo, recurso raro entre os planos analisados, e algumas metas numéricas explicitas (crescimento de 4% ao ano, R$ 900 bi em infraestrutura, 2,5 milhões de moradias, meio milhão de vagas prisionais, 1 milhão de câmeras, corte de no mínimo 10 ministérios).",
+ "propostas": [
+  {
+   "id": "pl-01",
+   "titulo": "Declarar PCC, CV e milícias organizações narcoterroristas",
+   "setor": "seguranca",
+   "subtema": "Crime organizado",
+   "resumo": "Combate com força, inteligência e integração, bloqueio de ativos e desarticulação da lavagem, com a diretriz explicita de que 'bandido armado com fuzil na mão vai ser abatido pelas forças de segurança'.",
+   "citacao": "PCC, CV, milícias e todas as outras facções serão declaradas como organizações narcoterroristas [...] Bandido armado com fuzil na mão vai ser abatido pelas forças de segurança.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "lei-antiterrorismo-13260",
+    "bukele-el-salvador",
+    "designacao-carteis-terroristas-eua",
+    "lei-organizacoes-criminosas-12850",
+    "operacoes-policiais-rj-letalidade"
+   ],
+   "historico": {
+    "br": "O Brasil já tem a Lei 13.260/2016 (antiterrorismo), aprovada as pressas antes da Olimpiada, que exclui expressamente movimentos sociais e não alcanca facções. O PL Antifacção foi aprovado na Camara em novembro de 2025 após a operação no Rio, com o relator retirando a equiparação a terrorismo por resistência do governo, que argumentava risco de ingerência estrangeira sob o pretexto de combate ao terror. Na prática, facções já são processadas pela Lei 12.850/2013 com penas somadas frequentemente maiores.",
+    "br_res": "em_curso",
+    "mundo": "Os EUA designaram carteis mexicanos e o Tren de Aragua como organizações terroristas estrangeiras em 2025, o que abre poder de sanção financeira e de ação extraterritorial. O Peru e o Chile criaram tipos penais próprios. A crítica técnica recorrente e que o rotulo muda pouco a persecução penal domestica - o que muda o jogo e o instrumento financeiro - e amplia o risco de uso político da lei antiterror, como ocorreu na Turquia e no Egito.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 13,
+   "vt": "arriscada",
+   "vd": "Os EUA designaram cartéis como terroristas em 2025 e isso abre sanção financeira, não persecução nova. Facções já pegam penas somadas maiores pela Lei 12.850; o rótulo muda pouco e amplia risco de uso político da lei antiterror."
+  },
+  {
+   "id": "pl-02",
+   "titulo": "Reduzir a maioridade penal para 16 anos e punir maiores de 14 em crimes graves",
+   "setor": "seguranca",
+   "subtema": "Maioridade penal",
+   "resumo": "Apoiar e sancionar a redução de 18 para 16 anos e punir maiores de 14 que cometerem estupro, tráfico, tortura e assassinato.",
+   "citacao": "Vamos apoiar e sancionar a redução da maioridade penal de 18 para 16 anos. Vamos punir também maiores de 14 anos que cometerem crimes graves.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "pec-171-maioridade-penal",
+    "clausula-petrea-direitos-individuais",
+    "convencao-direitos-crianca-onu",
+    "maioridade-penal-comparacao-internacional"
+   ],
+   "historico": {
+    "br": "A PEC 171/1993 de redução da maioridade penal foi aprovada na Camara em 2015 em votação contestada, e está parada no Senado desde entao. O ECA já preve internação de até três anos e o Brasil aumentou o encarceramento de adolescentes sem queda correspondente na criminalidade juvenil. A maioridade penal e clausula que parte da doutrina considera petrea por ser garantia individual (art. 228 c/c art. 60).",
+    "br_res": "fracassou",
+    "mundo": "Os EUA julgaram adolescentes como adultos em massa nos anos 1990 e recuaram: estudos federais mostraram que o adolescente transferido para a corte adulta reincide mais do que o mantido no sistema juvenil. A Suprema Corte americana proibiu pena de morte (2005) e prisão perpetua sem revisão (2010, 2012) para menores. A maioria dos paises europeus fixa a responsabilidade penal plena aos 18 com regime juvenil até 21.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "citacao_aprox": true,
+   "vt": "ja_falhou",
+   "vd": "Os EUA julgaram adolescentes como adultos em massa nos anos 1990 e recuaram: o transferido reincide mais que o mantido no sistema juvenil. A PEC está parada no Senado desde 2015 e parte da doutrina a considera cláusula pétrea."
+  },
+  {
+   "id": "pl-03",
+   "titulo": "Sistema Nacional de Fronteira com tropa de elite das três Forças",
+   "setor": "seguranca",
+   "subtema": "Fronteiras",
+   "resumo": "Criar um 'paredao na fronteira' com Exercito, Marinha e FAB equipados com armas de guerra, inteligência e tecnologia, partindo do diagnóstico de 16 mil km de fronteira com 1 policial a cada 100 km.",
+   "citacao": "Vamos criar o Sistema Nacional de Fronteira, uma tropa de elite do Exército, da Marinha e 14 da Força Aérea Brasileira, equipada com armas de guerra, inteligência e tecnologia, responsável por criar um paredão na fronteira.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "sisfron",
+    "programa-vigia-fronteiras",
+    "militarizacao-fronteiras-mexico",
+    "frontex-uniao-europeia"
+   ],
+   "historico": {
+    "br": "O Sisfron começou em 2011 com previsão de cobrir toda a faixa de fronteira até 2035 e recebeu uma fração do orçamento previsto; o TCU apontou atraso e subutilização. O Programa Vigia (2019) e as Operações Agata são episodicos por desenho. A Lei Complementar 97/1999 já da poder de polícia as Forças Armadas na faixa de fronteira - o instrumento existe e e subutilizado por falta de efetivo permanente e de custeio.",
+    "br_res": "parcial",
+    "mundo": "Os EUA gastaram dezenas de bilhões em muro e vigilância eletrônica na fronteira sul, com efeito documentado de desvio de rota e não de redução do fluxo. A Frontex europeia ampliou vigilância sem eliminar entrada irregular. Onde há redução mensurável de tráfico, ela veio de inspeção de carga em porto e de inteligência financeira, e não de tropa na linha de fronteira.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 13,
+   "vt": "arriscada",
+   "vd": "O Sisfron já dá o instrumento e recebeu fração do orçamento previsto. Os EUA gastaram dezenas de bilhões no muro e produziram desvio de rota, não redução de fluxo — o que reduz tráfico é inspeção em porto e inteligência financeira."
+  },
+  {
+   "id": "pl-04",
+   "titulo": "Complexo TREVA: 5 presídios de segurança máxima no modelo de El Salvador",
+   "setor": "seguranca",
+   "subtema": "Sistema prisional",
+   "resumo": "Presos sem celular, sem visita intima e com visitas monitoradas, mais meio milhão de novas vagas prisionais em 4 anos em parceria com estados para zerar o déficit carcerário.",
+   "citacao": "O Brasil terá 5 novos presídios de segurança máxima no modelo adotado por El Salvador [...] vamos criar meio milhão de novas vagas no sistema prisional em 4 anos e zerar o déficit carcerário.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "bukele-el-salvador",
+    "cecot-el-salvador",
+    "superlotacao-prisional-brasil",
+    "rdd-regime-disciplinar",
+    "supermax-eua"
+   ],
+   "historico": {
+    "br": "O Brasil tem cinco presídios federais de segurança máxima desde 2006, com pouco mais de 1.500 vagas, e o RDD desde 2003, endurecido pela Lei 13.964/2019. A construção de meio milhão de vagas em quatro anos seria mais que dobrar o sistema atual em um mandato - o Brasil nunca entregou mais que algumas dezenas de milhares de vagas por ciclo, e o déficit permanece há decadas. O STF declarou o sistema em estado de coisas inconstitucional em 2015.",
+    "br_res": "parcial",
+    "mundo": "El Salvador construiu o CECOT em cerca de sete meses e a taxa de homicídios caiu de forma expressiva, com aprovação popular alta. O custo está documentado: estado de exceção renovado desde 2022, mais de 80 mil prisões, a maior taxa de encarceramento do mundo, e relatórios da CIDH e da Anistia Internacional sobre prisões arbitrárias, tortura e mortes sob custodia. Analistas apontam ainda que parte da queda começou antes, com negociações entre governo e gangues.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 14,
+   "vt": "arriscada",
+   "vd": "O CECOT derrubou homicídios em El Salvador e veio com estado de exceção desde 2022, a maior taxa de encarceramento do mundo e relatórios da CIDH sobre mortes sob custódia. Meio milhão de vagas em quatro anos dobraria o sistema brasileiro — nunca se entregou nem uma fração disso por ciclo."
+  },
+  {
+   "id": "pl-05",
+   "titulo": "Castração química para estupradores e abusadores de crianças condenados",
+   "setor": "seguranca",
+   "subtema": "Legislação penal",
+   "resumo": "Usar a força da Presidência e a experiência legislativa para aprovar e implementar a medida aos condenados pela Justiça.",
+   "citacao": "aprovar e implementar a castração química de criminosos que abusam de mulheres e crianças. A medida deverá ser aplicada a estupradores e abusadores de crianças condenados pela Justiça.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "castracao-quimica-polonia",
+    "castracao-quimica-coreia-do-sul",
+    "pl-castracao-quimica-brasil",
+    "vedacao-penas-cruéis-cf"
+   ],
+   "historico": {
+    "br": "Não existe castração química no ordenamento brasileiro. O PL 552/2007 e sucessores tramitam há quase duas decadas sem aprovação; juristas apontam conflito com a vedação constitucional a penas cruéis (art. 5, XLVII) se aplicada de forma compulsoria. Há decisão isolada de juiz de primeiro grau em 2011, reformada.",
+    "br_res": "fracassou",
+    "mundo": "A Polonia (2009), a Coreia do Sul (2011), a Indonesia (2016) e Madagascar (2024) adotaram formas compulsorias. A Alemanha, a Dinamarca e a Suecia oferecem tratamento hormonal voluntário, com evidência de redução de reincidência justamente quando e voluntário e acompanhado de terapia. A Corte Europeia de Direitos Humanos e o Conselho da Europa consideram a versao compulsoria tratamento degradante.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 14,
+   "vt": "arriscada",
+   "vd": "Onde é voluntária e acompanhada de terapia — Alemanha, Dinamarca — há redução de reincidência. Compulsória, o Conselho da Europa trata como tratamento degradante, e no Brasil esbarraria na vedação a penas cruéis."
+  },
+  {
+   "id": "pl-06",
+   "titulo": "Fim da progressão de regime para crimes hediondos",
+   "setor": "seguranca",
+   "subtema": "Execução penal",
+   "resumo": "Cumprimento integral da pena por quem tira uma vida, partindo do dado de que 4 em cada 10 presos soltos voltam a delinquir, e cumprimento integral também para agressores de mulheres.",
+   "citacao": "vai usar toda a sua força para acabar com a progressão de regime de quem comete crimes hediondos.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "lei-crimes-hediondos-8072",
+    "hc-82959-stf-progressao",
+    "pacote-anticrime-2019",
+    "truth-in-sentencing-eua"
+   ],
+   "historico": {
+    "br": "A Lei dos Crimes Hediondos (8.072/1990) proibiu a progressão de regime e o STF declarou essa vedação inconstitucional em 2006 (HC 82.959), por violar a individualização da pena; a Lei 11.464/2007 restabeleceu progressão com frações maiores, endurecidas de novo pelo Pacote Anticrime em 2019. Cumprimento integral em regime fechado já foi tentado e derrubado pela Corte - repeti-lo por lei ordinária enfrentária o mesmo precedente.",
+    "br_res": "revertido",
+    "mundo": "Os EUA adotaram truth in sentencing e three strikes nos anos 1990 e produziram encarceramento em massa; a California revogou parte do three strikes por referendo em 2012, diante do custo e da ausência de efeito adicional sobre crime. A evidência criminológica converge: aumenta dissuasao a certeza da punição, e não a duração da pena.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 15,
+   "vt": "ja_falhou",
+   "vd": "O STF já derrubou exatamente isso em 2006, por violar a individualização da pena. A California revogou parte do three strikes por referendo em 2012 diante do custo sem ganho — o que dissuade é certeza da punição, não duração."
+  },
+  {
+   "id": "pl-07",
+   "titulo": "Tolerancia zero ao feminicídio com tornozeleira para agressores sob medida protetiva",
+   "setor": "seguranca",
+   "subtema": "Violência contra a mulher",
+   "resumo": "Monitorar os agressores das mais de meio milhão de mulheres com medida protetiva e obrigar cumprimento integral da pena, criticando o sistema que liberta após 55% do tempo.",
+   "citacao": "Os agressores das mais de meio milhão de mulheres com medida protetiva no Brasil serão monitorados pelas autoridades com o uso de tornozeleiras eletrônicas. Vamos endurecer a lei e obrigar assassinos e agressores de mulheres a cumprir integralmente suas penas.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "tornozeleira-medida-protetiva",
+    "botao-do-panico-espanha-viogen",
+    "lei-maria-da-penha",
+    "patrulha-maria-da-penha"
+   ],
+   "historico": {
+    "br": "O monitoramento eletrônico de agressor com medida protetiva já e previsto e usado de forma desigual entre estados; a Patrulha Maria da Penha existe desde 2013 em várias unidades da federação com avaliações positivas de redução de reincidência onde há visita domiciliar sistemática. O gargalo e capacidade: há mais medidas protetivas do que tornozeleiras e equipes disponíveis, e a integração entre Judiciário, polícia e central de monitoramento e falha.",
+    "br_res": "parcial",
+    "mundo": "A Espanha opera desde 2009 o sistema Cometa, com tornozeleira de dupla via ligada a central 24 horas e ao dispositivo da vítima, e registra queda expressiva de feminicídios entre mulheres monitoradas. Os EUA usam a Lethality Assessment para triagem de risco na abordagem policial, com evidência de redução de violência grave. O elemento comum e a avaliação de risco padronizada, mais do que o equipamento.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 14,
+   "vt": "forte",
+   "vd": "O sistema Cometa espanhol, com tornozeleira de dupla via ligada a central 24 horas, é associado a queda de feminicídio entre monitoradas. O gargalo brasileiro é capacidade: há mais medida protetiva que equipamento e equipe."
+  },
+  {
+   "id": "pl-08",
+   "titulo": "Muralha Brasileira: reconhecimento facial nacional com mais de 1 milhão de câmeras",
+   "setor": "seguranca",
+   "subtema": "Vigilância",
+   "resumo": "Sistema integrado a bancos de dados criminais inspirado no Smart Sampa e no Muralha Paulista, vigiando portos, aeroportos e áreas públicas.",
+   "citacao": "Vamos implantar o Muralha Brasileira - um sistema nacional de reconhecimento facial integrado a bancos de dados criminais, inspirado no Smart Sampa [...] com mais de 1 milhão de novas câmeras espalhadas por todo o país.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "smart-sampa",
+    "reconhecimento-facial-bahia",
+    "reconhecimento-facial-erros-brasil",
+    "proibicao-reconhecimento-facial-eua",
+    "ai-act-uniao-europeia"
+   ],
+   "historico": {
+    "br": "O Smart Sampa (São Paulo, 2024) e o Muralha Paulista são os precedentes diretos, com cerca de 25 mil câmeras e reconhecimento facial. A Bahia opera o maior programa do país desde 2018 e reivindica milhares de prisões. Do outro lado, há casos documentados de prisão equivocada de pessoas negras por falso positivo, levantados pela Defensoria e pelo Cesec, e a ANPD já questionou bases legais de tratamento de dados biometricos.",
+    "br_res": "parcial",
+    "mundo": "Londres opera a maior rede de videomonitoramento do Ocidente e as avaliações britanicas encontram efeito consistente sobre furto de veículo em estacionamento e efeito fraco sobre crime violento. A União Europeia restringiu reconhecimento facial em tempo real em espaco público no AI Act. Várias cidades americanas proibiram a tecnologia, e depois algumas voltaram atrás. A China e o único caso de uso irrestrito em escala nacional.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 15,
+   "vt": "arriscada",
+   "vd": "Smart Sampa e Bahia já operam e há prisão equivocada de pessoas negras documentada por defensorias. Londres mostra efeito sobre furto de veículo e fraco sobre crime violento; a UE restringiu o uso em tempo real justamente por isso."
+  },
+  {
+   "id": "pl-09",
+   "titulo": "Dobrar os investimentos federais em segurança pública",
+   "setor": "seguranca",
+   "subtema": "Financiamento",
+   "resumo": "Elevar o gasto federal a partir do dado de que a União destina apenas 0,4% de seus gastos a segurança pública, com consórcios e convenios com estados e municípios.",
+   "citacao": "O novo governo do Brasil vai dobrar os investimentos federais em segurança pública ao longo do mandato [...] o Governo Federal destina somente 0,4% dos seus gastos à segurança pública.",
+   "econ": -1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "fundo-nacional-seguranca-publica",
+    "susp-sistema-unico-seguranca",
+    "pec-seguranca-publica-2025"
+   ],
+   "historico": {
+    "br": "O Fundo Nacional de Segurança Pública foi reestruturado em 2018 e o Funpen teve histórico de contingenciamento e de saldo não executado - o problema recorrente não foi só o volume, foi a capacidade de estados executarem o repasse. A PEC 18/2025 cria fontes vinculadas para os dois fundos.",
+    "br_res": "parcial",
+    "mundo": "A experiência comparada mostra que aumento de gasto em segurança sem mudança de modelo produz mais efetivo e pouco resultado: o Mexico multiplicou o orçamento federal de segurança nos anos 2010 sem reverter a violência. Onde houve queda sustentada (Nova York, Bogota, Medellin), o gasto veio acompanhado de mudança de estratégia e de gestão por dados.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 15,
+   "vt": "arriscada",
+   "vd": "O México multiplicou o orçamento federal de segurança nos anos 2010 sem reverter a violência. Onde houve queda sustentada — Nova York, Medellín — o dinheiro veio com mudança de estratégia, e a proposta não descreve nenhuma."
+  },
+  {
+   "id": "pl-10",
+   "titulo": "Redirecionar recursos de famílias de detentos para famílias das vítimas",
+   "setor": "seguranca",
+   "subtema": "Vítimas",
+   "resumo": "Colocar a vítima em primeiro lugar, invocando recomendação da ONU e tratados internacionais dos quais o Brasil e signatário.",
+   "citacao": "Os recursos hoje direcionados às famílias de detentos serão redirecionados às famílias das vítimas, conforme recomendado pela ONU e por tratados internacionais dos quais o Brasil é signatário, embora Lula e o PT nunca os tenham cumprido.",
+   "econ": 0,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "auxilio-reclusao",
+    "fundos-vitimas-crime-eua",
+    "declaracao-onu-vitimas-1985"
+   ],
+   "historico": {
+    "br": "O auxílio-reclusao e benefício contributivo pago a dependentes de segurado de baixa renda e representa fração mínima do gasto previdenciário, cerca de 0,1%; a percepção pública de que consome muito recurso não encontra respaldo nos dados do INSS. Não há política nacional de assistência a vítimas de crime violento no Brasil, apenas iniciativas estaduais isoladas.",
+    "br_res": "inedito",
+    "mundo": "Os EUA operam desde 1984 o Crime Victims Fund, financiado por multas criminais federais, e todos os estados tem programa de compensação a vítimas. O Reino Unido tem o Criminal Injuries Compensation Scheme desde 1964 e a União Europeia obriga os paises a manter esquema de compensação. Nesses paises, porém, o financiamento vem de multas e do orçamento geral, e não da supressao de benefícios previdenciários de famílias de presos.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 15,
+   "vt": "arriscada",
+   "vd": "O auxílio-reclusão é contributivo e consome cerca de 0,1% do gasto previdenciário — a percepção de que pesa não bate com os dados. Fundo de vítimas é boa política e existe nos EUA desde 1984, financiado por multas criminais, não por corte de benefício de família de preso."
+  },
+  {
+   "id": "pl-11",
+   "titulo": "Quadruplicar a pena inicial para furto e receptação de celulares",
+   "setor": "seguranca",
+   "subtema": "Legislação penal",
+   "resumo": "Prisão para quem for pego roubando celular e pena quadruplicada sem benefícios para quem furta ou revende aparelho de origem criminosa.",
+   "citacao": "Quem furta ou revende um aparelho fruto de crime vai ter a pena inicial quadruplicada, também sem benefícios. E o que está em jogo não é só um aparelho:",
+   "econ": 0,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "celular-seguro-programa",
+    "bloqueio-imei-celular",
+    "dosimetria-penal-cp"
+   ],
+   "historico": {
+    "br": "O Brasil já aumentou penas para furto e roubo em várias ocasiões sem efeito sobre a taxa de crime patrimonial. O que produziu resultado mensurável foi tecnológico e econômico: o bloqueio de IMEI pela Anatel e o programa Celular Seguro (2023), que derrubam o valor de revenda do aparelho. São Paulo registrou queda de roubo de celular após a integração das bases de bloqueio.",
+    "br_res": "fracassou",
+    "mundo": "Os EUA e o Reino Unido reduziram drasticamente o roubo de celular após os fabricantes implementarem o kill switch remoto a partir de 2013-2014, por exigência regulatoria e não penal: o roubo caiu quando o aparelho roubado deixou de ter valor. E o exemplo mais citado de que reduzir o incentivo econômico supera o aumento de pena.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 16,
+   "vt": "ja_falhou",
+   "vd": "O Brasil já aumentou pena de furto e roubo várias vezes sem efeito. O que derrubou o roubo de celular nos EUA e no Reino Unido foi o kill switch em 2013-2014, e aqui foi o bloqueio de IMEI — tirar o valor do aparelho, não a pena."
+  },
+  {
+   "id": "pl-12",
+   "titulo": "Central da Mulher: um espaco físico único para resolver tudo",
+   "setor": "direitos",
+   "subtema": "Mulheres",
+   "resumo": "Acolhimento, orientação jurídica, apoio psicológico, saúde preventiva, qualificação, vagas de emprego, crédito, renegociação de dívidas e regularização da casa no mesmo lugar, com unidades itinerantes em caminhões e barcos adaptados.",
+   "citacao": "A Central da Mulher será um espaço físico onde a mulher resolve a vida sem perder tempo nem percorrer a cidade inteira. Nela, encontrará acolhimento e proteção, orientação jurídica e apoio psicológico, saúde preventiva, qualificação e cadastramento, a possibilidade de se candidatar a vagas de emprego, orientação para abrir o próprio negócio, crédito, renegociação de dívidas, regularização da casa e acesso a benefícios.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "casa-da-mulher-brasileira",
+    "poupatempo-sp",
+    "one-stop-centres-violencia"
+   ],
+   "historico": {
+    "br": "A Casa da Mulher Brasileira, criada em 2013, e exatamente esse modelo de espaco único integrando delegacia, Justiça, MP, Defensoria, acolhimento e apoio a autonomia. Das 27 unidades prometidas, poucas foram entregues no prazo, por conflito federativo sobre quem custeia a operação depois da obra. E um caso raro em que a proposta já existe em lei e o desafio e executivo, não legislativo.",
+    "br_res": "parcial",
+    "mundo": "As Ciudad Mujer salvadorenhas (2011) foram replicadas em Honduras e na Republica Dominicana com apoio do BID; a avaliação encontrou aumento de uso de serviços e não encontrou efeito sobre violência. Os Family Justice Centers americanos, origem do modelo, tem evidência de melhora na cooperação da vítima com a persecução penal.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 17,
+   "vt": "promissora",
+   "vd": "É exatamente a Casa da Mulher Brasileira, criada em 2013 e entregue em número muito inferior ao prometido. A proposta já existe em lei: o desafio é executivo, e o plano não diz quem custeia a operação depois da obra."
+  },
+  {
+   "id": "pl-13",
+   "titulo": "Clária: assistente de inteligência artificial que acompanha a jornada da mulher",
+   "setor": "cti",
+   "subtema": "Mulheres",
+   "resumo": "Guia virtual 24 horas que cria histórico, envia lembretes e orienta desde medida protetiva e mamografia até crédito e compra da primeira casa, com registro de ocorrência e pedido de medida protetiva pelo chat.",
+   "citacao": "A ClarIA estará ao lado da mulher em cada passo [...] como ter uma amiga disponível 24 horas por dia [...] Pelo chat da ClarIA será possível registrar ocorrência, pedir medida protetiva e receber orientação e acolhimento.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "ligue-180",
+    "delegacia-eletronica-brasil",
+    "chatbots-servicos-publicos",
+    "ia-clinica-fda-regulacao"
+   ],
+   "historico": {
+    "br": "O governo federal já opera assistentes automatizados no Gov.br e aplicativos como o SOS Mulher e o Direitos Humanos Brasil. Não há precedente nacional de assistente que integre trilha de saúde, crédito, medida protetiva e habitação em um só histórico - o obstáculo e a interoperabilidade entre bases federais, que a Lei 14.534/2023 determinou e cujo prazo venceu em janeiro de 2025 sem cumprimento pleno.",
+    "br_res": "inedito",
+    "mundo": "A Estonia oferece serviços proativos ao cidadão sobre a base X-Road, que notifica direitos sem que a pessoa peça. Cingapura opera o LifeSG na mesma lógica. Os dois casos dependem de identidade digital única e de consentimento granular; sem isso, o assistente vira apenas um chatbot de FAQ.",
+    "mundo_res": "funcionou",
+    "conf": "media"
+   },
+   "pagina": 18,
+   "vt": "sem_precedente",
+   "vd": "Estônia e Singapura entregam serviço proativo sobre identidade digital única com consentimento granular. O obstáculo brasileiro é a interoperabilidade cujo prazo legal venceu em janeiro de 2025 — sem ela, o assistente é um chatbot de FAQ."
+  },
+  {
+   "id": "pl-14",
+   "titulo": "Bonus de internet: pacotes de conexao subsidiados",
+   "setor": "cti",
+   "subtema": "Conectividade",
+   "resumo": "Tratar a internet como infraestrutura equivalente a estrada ou rede de energia, com pacotes garantidos e prioridade para as mulheres do Brasil por Elas, além de conectividade em escolas, áreas rurais e fronteiras.",
+   "citacao": "Garantiremos pacotes de internet para que nenhuma mulher deixe de estudar, se capacitar, buscar emprego, empreender ou pedir ajuda por falta de conexão. É o que dará acesso ao aplicativo, aos cursos da Escola Brasil por Elas, à ClarIA, à busca por vagas de emprego, à marcação de exames e aos demais serviços da plataforma.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "wi-fi-brasil",
+    "banda-larga-popular-pnbl",
+    "fust",
+    "lifeline-eua"
+   ],
+   "historico": {
+    "br": "O Brasil já tentou subsidiar acesso: o Internet Brasil (2023) ofereceu chip e franquia a estudantes de baixa renda com adesao abaixo do previsto, e a banda larga popular por compromisso das operadoras teve baixa qualidade. O FUST ficou contingenciado por duas decadas. O padrão e que subsídio a demanda sem obrigação de cobertura funciona onde já há rede e não resolve o vazio.",
+    "br_res": "parcial",
+    "mundo": "O Affordable Connectivity Program americano subsidiou banda larga para mais de 23 milhões de domicílios entre 2021 e 2024, com efeito claro sobre adoção, e acabou por falta de renovação orçamentária. A Colombia subsidiou acesso a estratos baixos com resultado semelhante. Subsídio de demanda funciona enquanto e financiado, e evapora quando o orçamento acaba.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 18,
+   "vt": "arriscada",
+   "vd": "O programa americano subsidiou 23 milhões de domicílios com efeito claro e acabou quando o orçamento acabou. O Internet Brasil teve adesão abaixo do previsto: subsídio de demanda funciona onde já há rede e não resolve o vazio."
+  },
+  {
+   "id": "pl-15",
+   "titulo": "Ganha, Ganha: pontuação positiva por atitudes convertida em juros menores e cashback",
+   "setor": "economia",
+   "subtema": "Crédito",
+   "resumo": "Concluir cursos, trabalhar de forma regular, poupar e pagar contas em dia geram pontos convertidos em crédito facilitado, juros menores e descontos. O plano frisa que a adesao e voluntária, as regras são transparentes e ninguém perde direitos por não aderir.",
+   "citacao": "atitudes como concluir cursos de capacitação, trabalhar de forma regular, poupar e pagar as contas em dia passarão a gerar pontuação positiva.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "cadastro-positivo-brasil",
+    "sistema-credito-social-china",
+    "credit-scoring-alternativo",
+    "conditional-cash-transfer-avaliacoes"
+   ],
+   "historico": {
+    "br": "O Cadastro Positivo (Lei 12.414/2011, com adesao automática desde 2019) já converte histórico de pagamento em nota de crédito e ampliou o acesso ao crédito de quem não tinha histórico bancário. Não há precedente brasileiro de pontuação que inclua conclusao de curso ou vínculo formal como critério.",
+    "br_res": "parcial",
+    "mundo": "A China implantou o Sistema de Crédito Social com pontuação de comportamento, com restrições de viagem para pontuados negativamente - o caso que da a essas propostas sua carga de risco. Do outro lado, há experiências técnicas legitimas: o rent reporting nos EUA, que converte aluguel pago em histórico de crédito, e as fintechs de crédito alternativo em vários paises. A diferença decisiva e se a pontuação mede capacidade de pagamento ou conduta social.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 19,
+   "vt": "arriscada",
+   "vd": "O Cadastro Positivo já converte histórico de pagamento em acesso a crédito e funciona. Pontuar conduta social é outra coisa — é o desenho que a China levou ao crédito social, e a diferença decisiva é medir capacidade de pagamento ou comportamento."
+  },
+  {
+   "id": "pl-16",
+   "titulo": "Escritura da casa preferencialmente no nome da mulher",
+   "setor": "cidade",
+   "subtema": "Mulheres",
+   "resumo": "Assessorar a mulher a obter a escritura como forma de autonomia e proteção contra violência domestica, citando que no governo Bolsonaro 90% dos cerca de 450 mil títulos rurais foram destinados a mulheres.",
+   "citacao": "vamos assessorar a mulher a obter a escritura da casa própria no seu nome, uma das formas mais sólidas de autonomia e de proteção contra a violência doméstica:",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "titulacao-mulheres-india",
+    "regularizacao-fundiaria-lei-13465",
+    "mcmv-titularidade-feminina"
+   ],
+   "historico": {
+    "br": "A Lei 11.977/2009 do MCMV já prioriza o título em nome da mulher e a Lei 13.465/2017 manteve a regra na REURB; em vários programas mais de 80% dos contratos ficaram com mulheres. E, portanto, política em vigor há mais de quinze anos, com efeito documentado sobre estabilidade da moradia da família após separação.",
+    "br_res": "funcionou",
+    "mundo": "A India oferece incentivo tributário para imóvel em nome de mulher em vários estados e o programa PMAY prioriza titulação feminina. Estudos na India e em Ruanda associam título em nome da mulher a mais investimento no imóvel e menor vulnerabilidade. E das políticas de gênero com evidência mais consistente.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 20,
+   "vt": "forte",
+   "vd": "Já é lei desde o MCMV de 2009 e a REURB de 2017, com mais de 80% dos contratos em nome de mulheres em vários programas. Estudos na Índia e em Ruanda associam o título feminino a mais investimento no imóvel e menos vulnerabilidade."
+  },
+  {
+   "id": "pl-17",
+   "titulo": "Voucher-creche para a rede privada onde faltar vaga pública",
+   "setor": "educacao",
+   "subtema": "Primeira infancia",
+   "resumo": "Ampliar creches públicas em período integral e, onde não houver vaga, dar voucher para rede privada credenciada até a vaga pública surgir, com Rede Nacional de Cuidado para idosos e PCDs em PPPs.",
+   "citacao": "Onde não houver vaga na rede pública, a família receberá um voucher-creche para acesso à rede privada credenciada até a vaga pública surgir, para que nenhuma mulher deixe de trabalhar, estudar ou empreender por falta de creche.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "voucher-creche",
+    "vouchers-educacao-chile",
+    "creche-conveniada",
+    "charter-schools-eua"
+   ],
+   "historico": {
+    "br": "São Paulo, Belo Horizonte e outras capitais compram vagas em creches conveniadas há decadas, o que já e o desenho do voucher com outro nome. As avaliações mostram custo por vaga menor e qualidade média inferior a da rede direta, com forte variação entre conveniadas. O Brasil não cumpriu a meta 1 do PNE de 50% de cobertura em creche até 2024.",
+    "br_res": "parcial",
+    "mundo": "Os vouchers educacionais chilenos, em vigor desde 1981, produziram expansão rapida e forte segregação escolar entre redes, o que levou a lei de inclusão de 2015 a proibir seleção e lucro nas escolas subvencionadas. A Suecia adotou friskolor em 1992 e viu queda no PISA e concentração de mercado. Nos EUA os estudos de voucher em Louisiana e Indiana encontraram efeito negativo sobre aprendizagem; os de creche indicam que qualidade regulada importa mais que o mecanismo de pagamento.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 21,
+   "vt": "arriscada",
+   "vd": "Convênio com creche privada já é praticado há décadas — é o voucher com outro nome, com custo menor e qualidade média inferior. O Quebec mostra o ganho enorme sobre emprego feminino e o alerta: expandir sem regular qualidade cobra o preço na criança."
+  },
+  {
+   "id": "pl-18",
+   "titulo": "Digitalizar 100% dos serviços federais sob o princípio digital by design",
+   "setor": "estado",
+   "subtema": "Governo digital",
+   "resumo": "Eliminar a exigência de reapresentar documentos que o Estado já possui, com identidade digital única no Gov.br e assistentes automatizados montando a trilha de serviços, inclusive por comando de voz.",
+   "citacao": "Vamos digitalizar 100% dos serviços públicos do Governo Federal passíveis de digitalização, sob o princípio do digital by design, e eliminar a exigência de reapresentar documentos que o Estado já possui.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "gov-br-digitalizacao",
+    "once-only-uniao-europeia",
+    "estonia-x-road",
+    "india-aadhaar-indiastack"
+   ],
+   "historico": {
+    "br": "O Gov.br já unifica centenas de milhões de contas e o Brasil aparece bem posicionado nos índices de governo digital da ONU. A Lei 13.726/2018 já proibe exigir documento que a administração possui e a Lei 14.534/2023 fixou o CPF como número único com prazo de interoperabilidade vencido em janeiro de 2025 - a norma existe e o descumprimento não tem consequência.",
+    "br_res": "parcial",
+    "mundo": "A Estonia opera o princípio once-only desde os anos 2000 sobre o X-Road, e a União Europeia o consagrou no regulamento do Single Digital Gateway. Cingapura e a Dinamarca são os outros casos maduros. Em todos, o salto veio de identidade digital obrigatória e de proibição legal de o órgão pedir dado que outro já tem - com sanção.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 25,
+   "vt": "forte",
+   "vd": "Estônia, Singapura e Dinamarca provaram o princípio de pedir o dado uma vez só. O Brasil já tem a lei desde 2018 e 2023, com prazo vencido e sem consequência — a proposta acerta o alvo e o problema é fazer valer."
+  },
+  {
+   "id": "pl-19",
+   "titulo": "Prontuário eletrônico único vinculado ao CPF, interoperável entre público e privado",
+   "setor": "saude",
+   "subtema": "Saúde digital",
+   "resumo": "Histórico completo de consultas, exames, vacinas e prescrições com consentimento do paciente e observancia da LGPD, mais IA para agilizar o agendamento e encaixar o paciente na primeira vaga.",
+   "citacao": "Vamos implantar o prontuário eletrônico único, vinculado ao CPF e integrado ao Gov.br, interoperável entre as redes pública e privada, com histórico completo de consultas, exames, vacinas e prescrições, sempre observados o consentimento do paciente, a LGPD, o sigilo médico e os protocolos de segurança O ganho é direto e pode salvar a sua vida.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "rnds-prontuario",
+    "conecte-sus",
+    "estonia-x-road",
+    "lgpd"
+   ],
+   "historico": {
+    "br": "O Brasil tenta prontuário único desde o Cartao SUS (1999); o e-SUS APS cobre bem a atenção primária e a RNDS avançou na pandemia com o certificado de vacinação. A interoperabilidade com hospitais e com a rede privada segue parcial, e a ANS só recentemente começou a exigir padrão de troca de dados dos planos.",
+    "br_res": "em_curso",
+    "mundo": "A Estonia opera prontuário nacional interoperável desde 2008 com consentimento e trilha de auditoria. O Reino Unido cancelou em 2011 o National Programme for IT, com perda de cerca de 10 bilhões de libras, por centralização excessiva e rejeição clinica. A lição repetida e que a interoperabilidade por padrão aberto funciona e o sistema único monolítico fracassa.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 26,
+   "vt": "promissora",
+   "vd": "A Estônia opera desde 2008 com trilha de auditoria; o Reino Unido queimou 10 bilhões de libras no sistema monolítico. O Brasil tem CPF e Gov.br — a base está pronta, o risco é a arquitetura escolhida."
+  },
+  {
+   "id": "pl-20",
+   "titulo": "INSS sem fila com gestão profissional em vez de gestão sindical",
+   "setor": "trabalho",
+   "subtema": "Previdência",
+   "resumo": "Digitalizar processos e profissionalizar a gestão do órgão medida por um só indicador: quanto tempo o aposentado espera para receber. O diagnóstico cita 3 milhões de requerimentos no início de 2026.",
+   "citacao": "Sai a gestão voltada a entidades sindicais, entra a gestão profissional, medida por uma coisa só: quanto tempo o aposentado espera para receber. 27 Desburocratização para quem empreende abrir e tocar um negócio sem labirinto Abrir uma empresa no Brasil já foi um calvário de semanas.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "filas-inss",
+    "meu-inss",
+    "gestao-por-resultados-nova-zelandia"
+   ],
+   "historico": {
+    "br": "A fila do INSS e problema recorrente há mais de uma decada; o Programa Especial de Análise de Benefícios com bonus por produtividade (2019) reduziu o estoque temporariamente e a fila voltou a crescer. O Atesta Med e a análise automatizada por IA reduziram tempo em alguns benefícios. O escandalo de descontos associativos irregulares em aposentadorias, revelado em 2025, expos falha de governança sobre entidades com acesso a folha.",
+    "br_res": "parcial",
+    "mundo": "A Social Security Administration americana enfrenta filas de deficiência semelhantes há decadas, o que mostra que o problema não e exclusivo nem trivial. Paises que resolveram (Dinamarca, Australia) automatizaram concessão com dado já disponível e reservaram análise humana para os casos duvidosos - o mesmo caminho técnico que o INSS começou a percorrer.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 26,
+   "vt": "promissora",
+   "vd": "O pente-fino de 2019 reduziu o estoque e a fila voltou. Dinamarca e Austrália resolveram automatizando a concessão com dado já disponível e reservando análise humana para o caso duvidoso — caminho que o INSS começou a trilhar."
+  },
+  {
+   "id": "pl-21",
+   "titulo": "Revogaco regulatório e aprovação tacita no licenciamento",
+   "setor": "economia",
+   "subtema": "Desburocratização",
+   "resumo": "Levar a Lei da Liberdade Econômica a todos os estados e municípios e revisar normas obsoletas, com regra de que licença não analisada no prazo deve ser concedida.",
+   "citacao": "Vamos promover um amplo revogaço regulatório, revisando normas obsoletas e racionalizando procedimentos [...] Se não decidir nem se manifestar dentro desse prazo, a licença deve ser concedida, porque a demora do Estado não pode ser um castigo para quem fez a sua parte.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "lei-liberdade-economica-13874",
+    "redesim",
+    "silencio-positivo-italia",
+    "one-in-one-out-reino-unido"
+   ],
+   "historico": {
+    "br": "A Lei da Liberdade Econômica (13.874/2019) criou a aprovação tacita para atividades de baixo risco e a dispensa de alvara, com adesao desigual de estados e municípios; o Redesim existe desde 2007 e o tempo de abertura de empresa caiu de forma real. A revisão geral de estoque regulatório nunca foi feita no Brasil em escala federal.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido aplicou a regra one-in-two-out entre 2013 e 2017 e mediu redução liquida de custo regulatório; os EUA tentaram algo semelhante em 2017 e a medida foi revogada. O Mexico opera a Comision Nacional de Mejora Regulatoria com catalogo único de tramites. O silêncio administrativo positivo e regra na Espanha e na Italia há decadas, com ressalva importante: não se aplica a licenciamento ambiental e sanitário de alto risco.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 27,
+   "vt": "promissora",
+   "vd": "A Lei da Liberdade Economica já criou aprovação tácita para baixo risco, com adesão desigual de estados. O silêncio positivo é regra na Espanha e na Itália há décadas — com uma ressalva que a proposta não faz: não vale para licenciamento ambiental e sanitário de alto risco."
+  },
+  {
+   "id": "pl-22",
+   "titulo": "Rastreabilidade completa das cadeias produtivas em sistema único",
+   "setor": "ambiente",
+   "subtema": "Agropecuária",
+   "resumo": "Integrar cadastros fundiários e ambientais, guias de trânsito animal, autorizações de supressao vegetal e monitoramento por satélite, com o argumento de que o sistema reconhece o pequeno produtor em vez de vigia-lo e separa quem cumpre a lei de quem a viola.",
+   "citacao": "Vamos instituir a rastreabilidade completa das cadeias produtivas, integrando em um só sistema os cadastros fundiários e ambientais, as guias de trânsito animal, as autorizações de supressão vegetal e o monitoramento por satélite.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "rastreabilidade-bovina-brasil",
+    "car-cadastro-ambiental-rural",
+    "eudr-uniao-europeia",
+    "moratoria-soja"
+   ],
+   "historico": {
+    "br": "O Brasil já tem CAR, SNCI, guias de trânsito animal, Prodes e Deter, todos funcionando em silos. A moratoria da soja (2006) e o TAC da carne no Para mostraram que rastreabilidade privada por pressão de mercado funciona; a moratoria da soja passou a ser atacada por leis estaduais em 2024-2025. O Plano Nacional de Identificação Individual de Bovinos só fecha em 2032.",
+    "br_res": "parcial",
+    "mundo": "O Uruguai rastreia 100% do rebanho desde 2011 e converte isso em premio de preço. A União Europeia passou a exigir rastreabilidade antidesmatamento (EUDR) a partir de 2026, o que torna a integração de cadastros uma condição de acesso a mercado, e não uma escolha política. Onde a rastreabilidade e obrigatória e parcialmente custeada pelo Estado, funciona.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 28,
+   "vt": "forte",
+   "vd": "O Uruguai rastreia todo o rebanho desde 2011 e cobra prêmio por isso. Com a exigência europeia valendo desde 2026 e o cronograma brasileiro fechando em 2032, integrar cadastros deixou de ser escolha política e virou condição de mercado."
+  },
+  {
+   "id": "pl-23",
+   "titulo": "Revisar e redimensionar a reforma tributária para reduzir o IVA",
+   "setor": "economia",
+   "subtema": "Tributação",
+   "resumo": "Corrigir distorções e assegurar não cumulatividade, argumentando que o IVA brasileiro caminha para cerca de 30% contra média de 19% da OCDE, com custo próximo de R$ 1 trilhão sem fonte definida e mais de R$ 500 bilhões em exceções de lobby.",
+   "citacao": "Vamos corrigir suas distorções, reduzir o IVA, hoje projetado num dos patamares mais altos do mundo, e assegurar a não cumulatividade, para que não se cobre imposto sobre imposto.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "reforma-tributaria-ec132",
+    "lc-214-2025-iva",
+    "iva-uniao-europeia",
+    "regressividade-tributaria-brasil"
+   ],
+   "historico": {
+    "br": "A EC 132/2023 levou três decadas para ser aprovada, depois do fracasso das PECs de 1995, 2003, 2008 e 2019. A alíquota-padrão estimada pelo Ministério da Fazenda ficou próxima de 28%, resultado direto do número de regimes diferenciados incluidos na negociação - cada exceção aprovada eleva a alíquota geral. Reabrir a emenda antes da transição significária reabrir também a disputa que produziu as exceções.",
+    "br_res": "em_curso",
+    "mundo": "A Dinamarca e a Hungria tem IVA de 25% e 27% com poucas exceções; a média da OCDE fica perto de 19%. Nova Zelandia e Cingapura são os casos citados de IVA simples com base amplissima e alíquota baixa. A regularidade internacional e clara: quanto mais setores isentos, maior a alíquota necessária - o que sugere que reduzir a alíquota exige cortar exceções, e não apenas revisar a emenda.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 30,
+   "vt": "arriscada",
+   "vd": "A alíquota alta é resultado direto das exceções aprovadas na negociação: quanto mais setor isento, maior a alíquota geral. Reabrir a emenda reabre a disputa que produziu as exceções — Nova Zelândia e Singapura têm IVA baixo porque têm base ampla."
+  },
+  {
+   "id": "pl-24",
+   "titulo": "Simplificar a conta de luz reduzindo gradualmente a CDE e os subsídios cruzados",
+   "setor": "economia",
+   "subtema": "Energia",
+   "resumo": "Racionalizar encargos mantendo a tarifa social, reduzir impostos sobre energia e combustíveis e regular todas as fontes com um único norte: o menor preço final ao consumidor.",
+   "citacao": "Vamos simplificar a conta de luz, racionalizando encargos e subsídios cruzados, e promover a redução gradual da CDE e das fontes incentivadas, mantida a tarifa social para quem mais precisa dela.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "cde-conta-desenvolvimento-energetico",
+    "tarifa-social-energia",
+    "subsidios-cruzados-energia",
+    "geracao-distribuida-lei-14300"
+   ],
+   "historico": {
+    "br": "A CDE acumulou encargos por decisões legislativas sucessivas: subsídio a carvao, a irrigação, a fontes incentivadas, a tarifa social e, mais recentemente, a jabutis da Lei 14.182/2021 (privatização da Eletrobras), que contratou termelétricas a gas em locais sem gasoduto. A conta cresce por lei, e reduzi-la exige revogar benefícios com base parlamentar organizada.",
+    "br_res": "parcial",
+    "mundo": "A Alemanha financiou a Energiewende por sobretaxa na conta de luz até 2022, quando transferiu o custo ao orçamento geral, aliviando a tarifa. O Chile separou subsídio social do custo do sistema. A lição comum e que subsídio cruzado embutido em tarifa e menos transparente e mais difícil de remover do que subsídio orçamentário explicito.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 31,
+   "vt": "promissora",
+   "vd": "A Alemanha tirou o custo da transição energética da tarifa e jogou no orçamento geral em 2022, aliviando a conta. O problema é que a CDE cresce por lei — reduzi-la exige revogar benefício com bancada organizada atrás."
+  },
+  {
+   "id": "pl-25",
+   "titulo": "Corredores Logísticos Inteligentes para reduzir o custo logístico de 15,5% do PIB",
+   "setor": "cidade",
+   "subtema": "Logística",
+   "resumo": "Comparação explicita com os 8,8% dos Estados Unidos, somada a ampliação do Seguro Rural e da capacidade de armazenagem para estabilizar preços de alimentos.",
+   "citacao": "O custo logístico no Brasil é de 15,5% do PIB, quase o dobro dos 8,8% dos Estados Unidos [...] Vamos criar os Corredores Logísticos Inteligentes, com foco direto na redução do custo de transporte, e ampliar o Seguro Rural, dando previsibilidade a quem planta:",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "custo-logistico-brasil-ilos",
+    "deficit-armazenagem-conab",
+    "ferrovia-norte-sul",
+    "psr-seguro-rural"
+   ],
+   "historico": {
+    "br": "O Brasil escoa a safra por rodovia em distancias continentais e o custo logístico e reconhecidamente alto. O PIL (2012) e o PAC prometeram ferrovias que não sairam; a Ferrograo está parada por questionamento judicial e ambiental desde 2021, a Transnordestina se arrasta há mais de 15 anos. O regime de autorização ferroviária (Lei 14.273/2021) e a novidade que ainda não produziu quilometros relevantes.",
+    "br_res": "parcial",
+    "mundo": "Os EUA desregularam as ferrovias de carga com o Staggers Act (1980) e a participação do modal cresceu de forma sustentada. A China construiu a maior malha de alta velocidade do mundo com dinheiro estatal e endividamento elevado. Onde a ferrovia de carga avançou, houve estabilidade regulatoria de decadas - o fator mais escasso no Brasil.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 31,
+   "vt": "promissora",
+   "vd": "Os EUA desregularam a carga ferroviária em 1980 e o modal cresceu de forma sustentada sem rede nova. O Brasil tem o regime de autorização desde 2021 e poucos quilômetros: falta estabilidade regulatória de décadas, não marco legal."
+  },
+  {
+   "id": "pl-26",
+   "titulo": "Proibir o uso de recursos de programas sociais em apostas online",
+   "setor": "economia",
+   "subtema": "Apostas",
+   "resumo": "Impedir que dinheiro destinado a por comida na mesa escoe para casas de apostas, com campanhas educativas sobre riscos do endividamento com jogos e orientação financeira pela rede da CAIXA.",
+   "citacao": "Vamos proibir o uso dos recursos dos programas sociais para apostas, porque dinheiro destinado a pôr comida na mesa não pode escoar para a casa de apostas, e promover campanhas educativas e de conscientização sobre os riscos do endividamento com jogos.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "regulacao-bets-lei-14790",
+    "ludopatia-saude-publica",
+    "bloqueio-bolsa-familia-bets"
+   ],
+   "historico": {
+    "br": "A Lei 14.790/2023 regulamentou as apostas de quota fixa e o Ministério da Fazenda proibiu em 2024 o uso do Bolsa Família em apostas, com bloqueio de cartões do programa nas casas licenciadas; o Banco Central identificou uso relevante do CadUnico em transações com bets. A dificuldade e técnica: o bloqueio funciona no cartao do programa, não no Pix feito de conta bancária comum.",
+    "br_res": "em_curso",
+    "mundo": "O Reino Unido baniu o uso de cartao de crédito em apostas em 2020 e criou limites de deposito; a Italia proibiu integralmente a publicidade de apostas em 2019 e a Belgica em 2023. A evidência europeia indica que limite de deposito e restrição de publicidade reduzem o gasto problemático mais do que a proibição de um meio de pagamento específico, que e facilmente contornada.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 33,
+   "vt": "promissora",
+   "vd": "O bloqueio já existe no cartão do Bolsa Família desde 2024 e é contornável por Pix de conta comum. Itália e Bélgica mostram que restringir publicidade e limitar depósito reduz mais o gasto problemático que proibir um meio de pagamento."
+  },
+  {
+   "id": "pl-27",
+   "titulo": "Priorizar o método fonico na alfabetização",
+   "setor": "educacao",
+   "subtema": "Alfabetização",
+   "resumo": "Adotar o método de melhor resultado comprovado pela ciência 'em vez das abordagens que fracassaram por decadas', com a regra de que ninguém avanca de série sem ter aprendido. Diagnóstico cita a 65a posição entre 81 paises no PISA de matemática.",
+   "citacao": "Vamos priorizar o método fônico, que é o de melhor resultado comprovado pela ciência, ensinando a criança a ligar cada som à sua letra, em vez das abordagens que fracassaram por décadas.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "politica-nacional-alfabetizacao-2019",
+    "metodo-fonico-reino-unido",
+    "reading-wars-eua",
+    "alfabetiza-ceara"
+   ],
+   "historico": {
+    "br": "A Política Nacional de Alfabetização (Decreto 9.765/2019) já instituiu a prioridade do método fonico e enfrentou resistência de parte da academia; a BNCC também contempla consciência fonológica. O caso decisivo no Brasil e o Ceara, cujo PAIC combinou método estruturado, meta, avaliação externa anual e incentivo financeiro por resultado, levando o estado do fim ao topo do ranking nacional.",
+    "br_res": "funcionou",
+    "mundo": "A Inglaterra tornou o phonics obrigatório com teste censitário em 2012 e subiu no PIRLS. Os EUA passaram três decadas de reading wars até a virada da science of reading, adotada por mais de 30 estados desde 2019, com ganhos iniciais em Mississippi. O consenso da evidência e solido quanto ao método, e igualmente solido quanto ao fato de que método sem formação de professor e sem avaliação não produz resultado.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 35,
+   "vt": "forte",
+   "vd": "A evidência sobre método fônico é sólida — Inglaterra desde 2012, Mississippi desde 2013, Ceará desde 2007. A Política Nacional de Alfabetização de 2019 já o prioriza: o que falta é formação de professor e avaliação externa, sem as quais o método não entrega."
+  },
+  {
+   "id": "pl-28",
+   "titulo": "Programa Acolher: aluno com bom desempenho remunerado para dar reforco aos colegas",
+   "setor": "educacao",
+   "subtema": "Recomposição",
+   "resumo": "Tutoria entre pares de forma remota ou presencial, em que quem ajuda ganha renda e aprende ao ensinar.",
+   "citacao": "um aluno com bom desempenho é remunerado para dar reforço aos colegas que precisam, de forma remota ou presencial. Todos ganham, quem precisa recebe ajuda de alguém próximo, que fala a sua língua, e quem ajuda ganha uma renda e aprende ainda mais ao ensinar.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "tutoria-entre-pares-evidencias",
+    "recuperacao-aprendizagem-india-tarl",
+    "monitoria-escolar"
+   ],
+   "historico": {
+    "br": "Tutoria entre pares existe de forma pontual em redes estaduais e em ONGs; não há programa nacional remunerado. A experiência mais próxima em escala foi a recomposição de aprendizagem pos-pandemia em São Paulo e no Espirito Santo, com resultados positivos para tutoria estruturada e acompanhada.",
+    "br_res": "inedito",
+    "mundo": "A tutoria intensiva e uma das intervenções com melhor evidência causal em educação: os programas de high-dosage tutoring nos EUA (Chicago, e a expansão pos-pandemia com fundos federais) mostram ganhos equivalentes a vários meses de aprendizagem. A condição crítica identificada nas avaliações e frequência alta, grupo pequeno e tutor treinado - tutoria esporadica entre colegas rende pouco.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 35,
+   "vt": "promissora",
+   "vd": "Tutoria intensiva está entre as intervenções com melhor evidência causal em educação. A condição, nas avaliações americanas, é frequência alta, grupo pequeno e tutor treinado — tutoria esporádica entre colegas rende pouco."
+  },
+  {
+   "id": "pl-29",
+   "titulo": "Financiamento escolar por resultados, com repasses vinculados a metas de aprendizagem",
+   "setor": "educacao",
+   "subtema": "Gestão",
+   "resumo": "Gestão baseada em indicadores de proficiência e orçamento por resultados, sem abandonar regiões com maiores dificuldades, e qualificação docente 'baseada em evidências científicas, e não em modismos pedagógicos'.",
+   "citacao": "o financiamento seguirá o orçamento por resultados, com repasses vinculados a metas de aprendizagem, sem abandonar regiões que enfrentam maiores dificuldades. Os professores terão qualificação contínua baseada em evidências científicas, e não em modismos pedagógicos, com formação que os prepare para ensinar bem, e não para militar em sala de aula.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "bonus-desempenho-sp",
+    "pagamento-por-desempenho-india-kenya",
+    "icms-educacao-ceara",
+    "accountability-educacional-critica"
+   ],
+   "historico": {
+    "br": "O Ceara distribui parte da cota-parte do ICMS municipal por resultado de alfabetização desde 2007 e e o caso brasileiro de maior sucesso; Pernambuco e São Paulo pagaram bonus por resultado a escolas, com efeitos menores e críticas sobre estreitamento curricular. O Fundeb de 2020 criou o VAAR, condicionado a boas práticas de gestão, cuja regulamentação demorou.",
+    "br_res": "parcial",
+    "mundo": "O No Child Left Behind americano (2001) impos accountability com sanção e produziu ganho em matemática nos anos iniciais junto com estreitamento de currículo e manipulação de dados, sendo substituido em 2015. O Chile paga bonus por desempenho há decadas com efeito modesto. A lição consolidada e que accountability funciona quando vem com apoio técnico a rede que vai mal, e falha quando e apenas punição.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 35,
+   "vt": "arriscada",
+   "vd": "O Ceará distribui ICMS por resultado desde 2007 e funcionou. O No Child Left Behind americano mostrou o outro lado: accountability com sanção forte produziu fraude documentada em Atlanta. Funciona com apoio técnico a quem vai mal, falha como punição."
+  },
+  {
+   "id": "pl-30",
+   "titulo": "Ampliar escolas cívico-militares e escola livre de doutrinação",
+   "setor": "educacao",
+   "subtema": "Gestão escolar",
+   "resumo": "Educação orientada pelo conhecimento e livre de doutrinação político-partidária, respeitando o papel das famílias, com expansão do modelo cívico-militar e atendimento a alunos com altas habilidades.",
+   "citacao": "A educação será orientada pelo conhecimento e livre de doutrinação político-partidária [...] Vamos ampliar as Escolas Cívico-Militares, que uniram disciplina e bom desempenho onde foram implantadas, e garantir atendimento ao aluno com altas habilidades, que hoje se perde por falta de estímulo:",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "escolas-civico-militares",
+    "escola-sem-partido",
+    "escolas-militares-goias",
+    "adi-escola-sem-partido-stf"
+   ],
+   "historico": {
+    "br": "O Pecim foi criado em 2019 com meta de 216 escolas, extinto em 2023 e recriado em 2024 com adesao voluntária. As avaliações disponíveis são ambiguas: há ganho em indicadores de disciplina e evasao, e as comparações de desempenho sofrem de seleção, já que essas escolas frequentemente selecionam alunos e recebem mais recursos. Goias tem a maior rede militarizada do país. O Escola sem Partido foi declarado inconstitucional pelo STF em 2020 na ADI 5537.",
+    "br_res": "parcial",
+    "mundo": "O Mexico experimentou escolas militarizadas em Chihuahua e abandonou. Os EUA mantem JROTC em escolas públicas há um século, com avaliações que apontam ganho de disciplina e nenhum ganho acadêmico claro. Não há sistema nacional relevante que tenha militarizado a rede pública como política geral e sustentado o modelo.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 35,
+   "vt": "arriscada",
+   "vd": "O Pecim foi criado em 2019, extinto em 2023 e recriado em 2024, e as avaliações sofrem de seleção — essas escolas escolhem aluno e recebem mais recurso. O Escola sem Partido foi declarado inconstitucional pelo STF em 2020."
+  },
+  {
+   "id": "pl-31",
+   "titulo": "Voucher educacional para matricular o filho em outra escola onde faltar vaga pública",
+   "setor": "educacao",
+   "subtema": "Financiamento",
+   "resumo": "Justificado com o argumento de que 'a prioridade e a criança aprender, não a defesa de um sistema que falhou com ela'.",
+   "citacao": "E onde faltar vaga na rede pública, a família receberá um voucher educacional para matricular o filho em outra escola, porque a prioridade é a criança aprender, não a defesa de um sistema que falhou com ela.",
+   "econ": 2,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "vouchers-educacao-chile",
+    "charter-schools-eua",
+    "vouchers-suecia",
+    "vouchers-evidencias-oecd"
+   ],
+   "historico": {
+    "br": "Há convenios de compra de vaga em rede privada em várias cidades, sobretudo em educação infantil. Voucher para ensino fundamental e médio nunca foi política nacional; o Fies e o Prouni são o equivalente no ensino superior, com custo fiscal alto e efeito de acesso comprovado, mas também com inadimplência elevada no Fies antigo.",
+    "br_res": "inedito",
+    "mundo": "O Chile e o caso completo: voucher universal desde 1981, expansão rapida, segregação severa entre redes e reforma em 2015 proibindo seleção e lucro nas escolas subvencionadas. A Suecia liberalizou em 1992 e viu queda no PISA e concentração em grandes grupos escolares. Nos EUA a evidência recente e negativa em Louisiana e Indiana e positiva em programas pequenos e antigos como Milwaukee - a escala parece inverter o resultado.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 36,
+   "vt": "ja_falhou",
+   "vd": "O Chile fez voucher universal desde 1981 e teve de proibir seleção e lucro em 2015 por segregação; a Suécia liberalizou em 1992 e caiu no PISA. Avaliações recentes em Louisiana e Indiana acharam efeito negativo sobre aprendizagem."
+  },
+  {
+   "id": "pl-32",
+   "titulo": "Empréstimo Contingente a Renda no lugar do financiamento estudantil atual",
+   "setor": "educacao",
+   "subtema": "Ensino superior",
+   "resumo": "O estudante só comeca a pagar quando estiver empregado, com parcela proporcional a renda e prazo mais longo, para que estudar deixe de ser aposta arriscada.",
+   "citacao": "vamos adotar o Empréstimo Contingente à Renda: o estudante só começa a pagar quando estiver empregado e ganhando, o valor da parcela é proporcional ao que ele recebe e o prazo é bem mais longo.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "hecs-australia",
+    "fies",
+    "student-loans-reino-unido",
+    "prouni-fies"
+   ],
+   "historico": {
+    "br": "O Fies antigo, com juros subsidiados e prazo fixo, gerou inadimplência superior a 50% em algumas safras e custo fiscal alto; o Novo Fies (2018) já introduziu parcela proporcional a renda por meio do desconto em folha, um passo na direção do modelo contingente. O P-Fies e o Prouni completam o desenho atual.",
+    "br_res": "parcial",
+    "mundo": "A Australia opera o HECS desde 1989, o modelo original de emprestimo contingente a renda, cobrado pelo sistema tributário, com inadimplência baixa e ampliação de acesso comprovada; o Reino Unido adotou variante em 1998 e a Nova Zelandia também. E uma das políticas educacionais com melhor evidência comparada, e depende de uma condição que o Brasil só parcialmente tem: capacidade de cobrar via Receita ao longo de decadas.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 37,
+   "vt": "forte",
+   "vd": "O HECS australiano existe desde 1989, é cobrado pelo sistema tributário e tem inadimplência baixa com acesso ampliado — das melhores políticas educacionais comparadas. O Novo Fies já caminhou nessa direção com desconto em folha."
+  },
+  {
+   "id": "pl-33",
+   "titulo": "Transferir a governança do ensino superior para o Ministério da Ciência e Tecnologia",
+   "setor": "educacao",
+   "subtema": "Ensino superior",
+   "resumo": "Unificar ciência e ensino superior sob o mesmo teto, com CAPES e CNPq priorizando impacto produtivo, inovação e transferência de tecnologia.",
+   "citacao": "No ensino superior, vamos transferir a governança para o Ministério da Ciência, Tecnologia e Inovações, unificando ciência e ensino superior sob o mesmo teto. A CAPES e o CNPq passarão a priorizar o impacto produtivo, a inovação e a transferência de tecnologia, para que a pesquisa feita na universidade chegue à indústria e vire produto, emprego e renda, em vez de ficar na estante.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "capes-cnpq",
+    "modelo-alemao-pesquisa",
+    "reorganizacao-ministerial-2019"
+   ],
+   "historico": {
+    "br": "O Brasil já separou e reuniu essas funções várias vezes: a Capes e vinculada ao MEC e o CNPq ao MCTI desde os anos 1970, e a proposta de unificar a governança do ensino superior sob ciência e tecnologia nunca foi implementada. O Future-se (2019), que propunha reorganizar o financiamento das federais, foi rejeitado pela maioria das universidades e arquivado.",
+    "br_res": "inedito",
+    "mundo": "A Alemanha, a Franca e a Coreia do Sul reuniram ensino superior e pesquisa sob um só ministério, com resultados atribuidos mais ao volume e a estabilidade do financiamento do que ao desenho institucional. A Hungria transferiu universidades públicas a fundações em 2021 e perdeu acesso a fundos europeus por preocupações de autonomia - o alerta sobre reorganizações que reduzem independência acadêmica.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 36,
+   "vt": "sem_precedente",
+   "vd": "Alemanha, França e Coreia reúnem as duas funções num ministério, e o resultado se explica pelo volume e pela estabilidade do financiamento, não pelo organograma. O Future-se foi rejeitado em 2019 e arquivado."
+  },
+  {
+   "id": "pl-34",
+   "titulo": "Correção efetiva da tabela SUS para cobrir o custo real do atendimento",
+   "setor": "saude",
+   "subtema": "Financiamento",
+   "resumo": "Enfrentar a defasagem que asfixia hospitais, santas casas e clinicas, sobretudo no interior, com remuneração que cubra o custo real.",
+   "citacao": "Vamos garantir as condições para que seja possível a correção efetiva da tabela SUS [...] Vamos assegurar uma remuneração que cubra o custo real do atendimento, para que o dinheiro público seja justo com quem atende e o cidadão tenha atendimento até onde hoje falta.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "tabela-sus",
+    "santas-casas-crise",
+    "subfinanciamento-sus"
+   ],
+   "historico": {
+    "br": "A tabela SUS está defasada há decadas e o reajuste e reivindicação permanente de hospitais filantropicos e santas casas, que respondem por parte relevante dos leitos SUS e vivem em crise financeira crônica. Reajustes pontuais ocorreram em 2023 e 2024 sem corrigir a defasagem acumulada. O custo fiscal de uma correção integral e a razão pela qual nenhum governo a fez.",
+    "br_res": "parcial",
+    "mundo": "Sistemas públicos que remuneram prestadores usam mecanismos de ajuste automático e pagamento por grupo de diagnóstico (DRG), como Alemanha, Franca e Portugal, o que evita a defasagem acumulada e cria incentivo a eficiência. A alternativa adotada em vários paises e contratualizar por desempenho, e não apenas elevar o valor do procedimento.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 37,
+   "vt": "promissora",
+   "vd": "A tabela está defasada há décadas e asfixia santa casa no interior — o diagnóstico é correto e consensual. Alemanha, França e Portugal evitam a defasagem com pagamento por grupo de diagnóstico, que corrige sozinho e cria incentivo a eficiência."
+  },
+  {
+   "id": "pl-35",
+   "titulo": "Contratar exames na rede privada em horários ociosos",
+   "setor": "saude",
+   "subtema": "Filas",
+   "resumo": "Aproveitar aparelhos parados para atender mais sem construir do zero, somado a telessaude e teleatendimento por aplicativo com médicos de regiões de baixa demanda atendendo onde as filas são longas.",
+   "citacao": "vamos contratar serviços e exames na rede privada nos horários ociosos:",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "independent-sector-treatment-centres-nhs",
+    "agora-tem-especialistas",
+    "mutirao-cirurgias-brasil",
+    "fila-cirurgica-sus"
+   ],
+   "historico": {
+    "br": "O SUS já compra serviços da rede privada e filantropica de forma estruturada desde os anos 1990, e o Agora Tem Especialistas (2025) ampliou o modelo com pagamento em créditos tributários e de dívidas. O AME paulista mostrou desde 2007 que unidade dedicada a eletivas, sem urgência, eleva produtividade de forma sustentada. O risco documentado da compra pontual e o preço: sem tabela e contrato de longo prazo, o custo por procedimento sobe.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido comprou capacidade privada em larga escala entre 2002 e 2008 pelos Independent Sector Treatment Centres e reduziu a espera máxima de 18 meses para 18 semanas; auditorias posteriores apontaram contratos com pagamento por capacidade reservada e não por procedimento entregue, encarecendo o programa. Portugal usa cheque-cirurgia desde 2004 com resultado positivo.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 37,
+   "vt": "forte",
+   "vd": "O Reino Unido comprou capacidade privada entre 2002 e 2008 e cortou a espera de 18 meses para 18 semanas. A auditoria britânica deixou a lição: pagar por procedimento entregue, nunca por capacidade reservada."
+  },
+  {
+   "id": "pl-36",
+   "titulo": "Inteligência artificial de apoio a prevenção para chamar quem tem maior risco de adoecer",
+   "setor": "saude",
+   "subtema": "Prevenção",
+   "resumo": "Identificar quem corre maior risco e convocar a pessoa a tempo em vez de esperar que chegue ao pronto-socorro em estado grave, mais entrega de remedio em domicílio para idosos, PCDs e crônicos.",
+   "citacao": "Com inteligência artificial de apoio à prevenção, o sistema poderá identificar quem corre maior risco de adoecer e chamar essa pessoa para se cuidar a tempo, em vez de esperar que ela chegue ao pronto-socorro quando já é grave.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "ia-clinica-fda-regulacao",
+    "busca-ativa-vacinal",
+    "estratificacao-risco-aps"
+   ],
+   "historico": {
+    "br": "A estratificação de risco por dado já existe no e-SUS APS e em programas de crônicos de alguns municípios; a busca ativa e atribuição do agente comunitário de saúde desde os anos 1990 e e um dos ativos mais eficazes do SUS. O que não existe e um modelo preditivo nacional integrado ao prontuário - o obstáculo e a fragmentação das bases, não a técnica.",
+    "br_res": "parcial",
+    "mundo": "A Kaiser Permanente nos EUA e o NHS britanico usam estratificação de risco populacional há mais de duas decadas para gestão de crônicos, com evidência de redução de internações evitáveis. O NHS teve, porém, um alerta relevante: o algoritmo de risco de readmissao mostrou vies contra grupos com menos registro clinico. Modelos preditivos em saúde exigem auditoria de vies.",
+    "mundo_res": "funcionou",
+    "conf": "media"
+   },
+   "pagina": 38,
+   "vt": "promissora",
+   "vd": "Kaiser Permanente e NHS usam estratificação de risco há duas décadas com redução de internação evitável. O agente comunitário brasileiro já faz busca ativa — o alerta é que o modelo do NHS mostrou viés contra quem tem menos registro clínico."
+  },
+  {
+   "id": "pl-37",
+   "titulo": "Casa Segura para Envelhecer com subsídio a acessibilidade domiciliar",
+   "setor": "saude",
+   "subtema": "Envelhecimento",
+   "resumo": "Subsídio para adaptar a casa de famílias de menor renda, aplicativo de companhia com alertas de perigo e ampliação das instituições de longa permanência quando o cuidado familiar não for viável.",
+   "citacao": "vamos oferecer o programa Casa Segura para Envelhecer, com subsídio à acessibilidade domiciliar para famílias de menor renda. Desenvolveremos um aplicativo de companhia com alertas de perigo, para que o idoso tenha o amparo da tecnologia e o filho que mora longe tenha tranquilidade.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "ilpi-brasil-ipea",
+    "home-adaptation-reino-unido",
+    "politica-nacional-cuidados"
+   ],
+   "historico": {
+    "br": "O Brasil não tem política nacional de adaptação domiciliar para idosos; o MCMV preve percentual de unidades acessíveis e a Lei Brasileira de Inclusão exige acessibilidade em obra nova. As ILPIs são majoritariamente privadas e filantropicas, com fiscalização fraca e sem financiamento público estruturado - o Brasil envelhece sem rede de cuidado de longa duração.",
+    "br_res": "inedito",
+    "mundo": "O Japao financia adaptação domiciliar dentro do seguro público de cuidados de longa duração desde 2000; o Reino Unido opera o Disabled Facilities Grant há decadas. A evidência e de que adaptação domiciliar reduz queda e internação com custo muito inferior ao da institucionalização - uma das intervenções com melhor relação custo-benefício em saúde do idoso.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 39,
+   "vt": "forte",
+   "vd": "Adaptação domiciliar reduz queda e internação a custo muito inferior ao de institucionalizar — está no seguro japonês desde 2000 e no Reino Unido há décadas. O Brasil não tem nada disso e envelhece mais rápido que a Europa envelheceu."
+  },
+  {
+   "id": "pl-38",
+   "titulo": "Centros de Referência em Transtorno do Espectro Autista",
+   "setor": "saude",
+   "subtema": "Autismo",
+   "resumo": "Políticas transversais para pessoas com deficiência e doencas raras, com diagnóstico precoce e apoio a crianças com TDAH e atenção ao Alzheimer e a quem cuida.",
+   "citacao": "Nossas políticas serão transversais [...] entre elas a implantação de Centros de Referência em Transtorno do Espectro Autista. Promover inclusão não é custo:",
+   "econ": -1,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "lei-berenice-piana",
+    "viver-sem-limite",
+    "abordagem-tea-rede"
+   ],
+   "historico": {
+    "br": "A Lei 12.764/2012 (Berenice Piana) equiparou o autista a pessoa com deficiência e a Lei 13.977/2020 criou a Ciptea. A rede de atenção existe no papel pela Raps e pelos CER, e o gargalo real e a fila de diagnóstico e a ausência de serviço especializado fora das capitais. Várias leis estaduais criaram centros de referência com implantação parcial.",
+    "br_res": "parcial",
+    "mundo": "Os EUA garantem intervenção precoce por lei federal (IDEA, Parte C) desde 1986, com efeito documentado quando o diagnóstico ocorre antes dos três anos. A Italia adotou inclusão plena na escola comum desde 1977, sem classe especial, com bons resultados sociais e críticas sobre suporte insuficiente. O consenso e que o que muda o prognóstico e a idade do diagnóstico, mais do que o tipo de serviço.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "O que muda o prognóstico do autismo é a idade do diagnóstico, e os EUA garantem intervenção precoce por lei federal desde 1986. A fila de diagnóstico é o gargalo real em todo o país."
+  },
+  {
+   "id": "pl-39",
+   "titulo": "Escola de Campeões: esporte competitivo nas escolas por PPPs",
+   "setor": "cultura",
+   "subtema": "Esporte",
+   "resumo": "Times escolares, treinos no contraturno e competições municipais e estaduais, apresentado também como arma contra evasao e repetência, com rompimento da 'dependência do dinheiro público centralizado'.",
+   "citacao": "Vamos criar o Programa Escola de Campeões, com parcerias púb [...] A quadra puxa a sala de aula. Vamos fomentar a inclusão de pessoas com deficiência pelo esporte, com detecção de talentos paralímpicos desde a base e mais autonomia para as entidades paralímpicas, tratando o paradesporto como via de reabilitação, inserção profissional e superação.",
+   "econ": 2,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "esporte-escolar-eua-ncaa",
+    "bolsa-atleta",
+    "lei-incentivo-esporte",
+    "midnight-basketball-eua"
+   ],
+   "historico": {
+    "br": "Os Jogos Escolares Brasileiros existem desde 1969 e a educação física e obrigatória pela LDB, mas se degradou em boa parte da rede. Programas de esporte no contraturno (Segundo Tempo, 2003) mostraram efeito sobre permanência escolar quando tinham material e professor formado, e desapareceram quando o financiamento parou.",
+    "br_res": "parcial",
+    "mundo": "Os EUA financiam esporte escolar competitivo no sistema público há um século, com forte associação entre participação e conclusao do ensino médio, ainda que parte seja seleção. A Franca e a Australia sustentam a base pelo clube e não pela escola. A evidência consistente e que esporte estruturado reduz evasao; a evidência sobre formar atleta de elite pela escola e fraca fora dos EUA.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 40,
+   "vt": "promissora",
+   "vd": "O Segundo Tempo mostrou efeito sobre permanência escolar enquanto teve dinheiro. A evidência é boa para evasão e fraca para formar atleta de elite — a proposta vende as duas coisas com a mesma confiança."
+  },
+  {
+   "id": "pl-40",
+   "titulo": "Categoria feminina do esporte disputada apenas por atletas do sexo feminino",
+   "setor": "cultura",
+   "subtema": "Esporte e gênero",
+   "resumo": "Assegurar da base ao alto rendimento a restrição a atletas do sexo feminino, invocando revisões de regras por confederações internacionais sobre vantagens físicas mantidas após tratamento hormonal.",
+   "citacao": "Vamos assegurar que a categoria feminina, da base ao alto rendimento, seja disputada por atletas do sexo feminino, protegendo a mulher e a lisura da competição de agendas ideológicas.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "world-athletics-regras-trans",
+    "proibicao-atletas-trans-eua-estados",
+    "cio-diretrizes-genero",
+    "lei-trans-esporte-brasil"
+   ],
+   "historico": {
+    "br": "Não há lei federal sobre o tema; a CBF e confederações seguem as regras internacionais de cada modalidade. O tema chegou ao Congresso em projetos de lei a partir de 2023, sem aprovação, e a discussão no Brasil e majoritariamente importada do debate norte-americano e europeu.",
+    "br_res": "inedito",
+    "mundo": "A World Athletics e a FINA restringiram desde 2022-2023 a participação de mulheres trans que passaram pela puberdade masculina em categorias femininas de elite; o COI manteve critério por modalidade. Mais de vinte estados americanos aprovaram leis de restrição em esporte escolar, várias suspensas judicialmente. O Reino Unido separou o debate entre elite (restrição) e esporte de base (inclusão). Não há consenso científico fechado, e as decisões até aqui foram tomadas por federações, e não por lei nacional.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 41,
+   "vt": "arriscada",
+   "vd": "World Athletics e FINA restringiram na elite desde 2022; o Reino Unido separou elite de base e mais de vinte estados americanos tiveram leis suspensas judicialmente. Não há consenso científico fechado, e até aqui quem decidiu foram federações, não lei nacional."
+  },
+  {
+   "id": "pl-41",
+   "titulo": "Manter os programas sociais como ponto de partida, não como destino",
+   "setor": "trabalho",
+   "subtema": "Assistência social",
+   "resumo": "Manter os programas com correção de distorções e combate a fraudes, dar ao beneficiário prioridade em primeiro emprego, qualificação e intermediação, e garantir retorno imediato e sem fila ao benefício após o seguro-desemprego.",
+   "citacao": "vamos manter os programas sociais existentes, com aperfeiçoamento da gestão, correção de distorções e combate às fraudes [...] o programa social é ponto de partida. Ele é a rede que segura a queda e, ao mesmo tempo, o primeiro degrau de uma escada que precisa levar a algum lugar.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "bolsa-familia",
+    "auxilio-brasil",
+    "welfare-to-work-eua",
+    "porta-de-saida-programas-sociais"
+   ],
+   "historico": {
+    "br": "O Bolsa Família sempre teve porta de saída por regra de permanência: a Regra de Emancipação (2016) e depois a Regra de Proteção (2023) permitem manter meio benefício por dois anos após aumento de renda. O acompanhamento do beneficiário por qualificação (Pronatec Brasil sem Miseria, Progredir) teve baixa efetividade por descolamento entre curso ofertado e vaga existente. O pente-fino de 2023 excluiu milhões de cadastros unipessoais irregulares.",
+    "br_res": "parcial",
+    "mundo": "Os EUA converteram a assistência em workfare com a reforma de 1996 (TANF): a pobreza extrema infantil aumentou entre os que sairam do programa, ainda que o emprego formal tenha subido no ciclo de expansão econômica. O Chile Solidário e o Uruguai combinaram transferência com acompanhamento familiar intensivo, com evidência melhor. A regularidade internacional e que porta de saída só funciona em economia com vaga disponível.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 42,
+   "vt": "arriscada",
+   "vd": "O Bolsa Família já tem regra de permanência ao conseguir emprego, e os programas de qualificação para beneficiário tiveram baixa efetividade por descolamento entre curso e vaga. Porta de saída só funciona onde há vaga do outro lado."
+  },
+  {
+   "id": "pl-42",
+   "titulo": "Reduzir gradualmente o custo do trabalho sem retirar direitos",
+   "setor": "trabalho",
+   "subtema": "Encargos",
+   "resumo": "Partindo do diagnóstico de que o custo de um trabalhador formal chega a cerca de duas vezes o salário levado para casa, com contrato específico de menor custo na folha para jovens de 18 a 24 anos no primeiro emprego e para desempregados com 50 anos ou mais há pelo menos 12 meses.",
+   "citacao": "Vamos reduzir gradualmente o custo do trabalho, sem retirar direitos, para que mais brasileiros tenham carteira assinada... contrato de trabalho para os 18 a 24 anos em busca do primeiro emprego, com menor custo na folha.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "desoneracao-folha-brasil",
+    "subsidio-emprego-jovem-chile",
+    "minijobs-alemanha",
+    "primeiro-emprego-2003"
+   ],
+   "historico": {
+    "br": "A desoneração da folha (2011-2015) custou dezenas de bilhões sem efeito comprovado sobre emprego e foi revertida; foi reeditada em 2023 para 17 setores e reonerada gradualmente em 2024. O Simples Nacional já e a maior desoneração do trabalho no país. Contratos específicos já existem: intermitente e teletrabalho vieram na reforma de 2017, com uso menor que o previsto.",
+    "br_res": "fracassou",
+    "mundo": "A Alemanha reduziu encargos e criou os minijobs nas reformas Hartz (2003-2005): o desemprego caiu, com criação de um segmento de trabalho de baixa remuneração e proteção. A Franca reduziu contribuições sobre baixos salários com evidência de efeito positivo sobre emprego pouco qualificado. Onde funcionou, a redução foi focalizada na base da distribuição salarial e permanente, e não setorial e temporária.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 43,
+   "citacao_aprox": true,
+   "vt": "ja_falhou",
+   "vd": "A desoneração de 2011-2015 custou dezenas de bilhões sem efeito comprovado sobre emprego e foi revertida. A França acertou porque focalizou na base salarial e tornou permanente; a versão brasileira foi setorial e temporária."
+  },
+  {
+   "id": "pl-43",
+   "titulo": "Negociado sobre o legislado e jornada flexível",
+   "setor": "trabalho",
+   "subtema": "Legislação trabalhista",
+   "resumo": "Permitir que trabalhador e empresa combinem diretamente as condições dentro da lei, em contraposição a uma regra única imposta a todos.",
+   "citacao": "Por isso defendemos o negociado sobre o legislado, ou seja, permitir que trabalhador e empresa combinem diretamente as condições de trabalho que funcionam para os dois, dentro da lei, em vez de seguir uma regra única imposta a todos.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "reforma-trabalhista-2017",
+    "stf-tema-1046-negociado",
+    "reforma-trabalhista-espanha-2021",
+    "convencao-98-oit"
+   ],
+   "historico": {
+    "br": "A reforma de 2017 já consagrou a prevalência do negociado sobre o legislado em rol amplo de materias, validada pelo STF em 2022 (Tema 1046). O efeito sobre emprego formal foi menor que o prometido e a negociação coletiva enfraqueceu com a queda da receita sindical após o fim da contribuição obrigatória - o negociado passou a valer num contexto de sindicato mais fraco, o oposto do desenho europeu.",
+    "br_res": "parcial",
+    "mundo": "Na Alemanha e nos paises nordicos o negociado prevalece sobre o legislado com sindicatos fortes, alta cobertura de acordos e representação no conselho da empresa. A Espanha reverteu parte da descentralização da negociação em 2021. A lição comparada e que a prevalência do acordo funciona quando há equilibrio de força na mesa; sem isso, vira redução unilateral de condição.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 44,
+   "vt": "arriscada",
+   "vd": "A reforma de 2017 já consagrou o negociado sobre o legislado, validada pelo STF em 2022. O modelo alemão funciona com sindicato forte na mesa; aqui a prevalência veio junto com o fim da receita sindical, e negociação desequilibrada vira redução unilateral."
+  },
+  {
+   "id": "pl-44",
+   "titulo": "Contra a Republica Sindical e a unicidade sindical como monopolio",
+   "setor": "trabalho",
+   "subtema": "Sindicatos",
+   "resumo": "O plano crítica a unicidade sindical por garantir monopolios e defende proteger os trabalhadores de aplicativo 'sem os interesses de dirigentes sindicais a frente do processo'.",
+   "citacao": "O país precisa se posicionar contra a República Sindical, em que os interesses de dirigentes das entidades se sobrepõem ao interesse dos trabalhadores.",
+   "econ": 2,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "unicidade-sindical-cf",
+    "contribuicao-sindical-2017",
+    "convencao-87-oit",
+    "reforma-trabalhista-2017"
+   ],
+   "historico": {
+    "br": "A unicidade sindical está no art. 8 da Constituição e sobreviveu a todas as tentativas de mudança desde 1988; o Brasil nunca ratificou a Convenção 87 da OIT por causa dela. O fim da contribuição sindical obrigatória em 2017 quebrou o financiamento sem quebrar o monopolio de representação, produzindo mais de 10 mil sindicatos com pouca capacidade de negociar - o pior dos dois desenhos, segundo críticos de ambos os lados.",
+    "br_res": "parcial",
+    "mundo": "Praticamente toda a OCDE tem pluralidade sindical. A Franca convive com várias centrais concorrentes e baixa filiação, com alta cobertura por extensão legal dos acordos. Os paises nordicos combinam pluralidade com filiação altissima pelo sistema de Ghent, em que o sindicato administra o seguro-desemprego. Pluralidade sem mecanismo de financiamento estável tende a produzir fragmentação.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 44,
+   "vt": "arriscada",
+   "vd": "A unicidade está no art. 8 e sobreviveu a tudo desde 1988. O fim da contribuição obrigatória em 2017 quebrou o financiamento sem quebrar o monopólio — hoje há mais de 10 mil sindicatos fracos, o pior dos dois desenhos."
+  },
+  {
+   "id": "pl-45",
+   "titulo": "CAIXA como Banco da Prosperidade, com plataforma única de crédito e patrimônio",
+   "setor": "economia",
+   "subtema": "Banco público",
+   "resumo": "Transformar o banco de operador de benefícios em instituição que ajuda o cidadão a construir o primeiro patrimônio, com IA identificando oportunidades e dados que 'são do cidadão e ficam a serviço dele, não do Estado'.",
+   "citacao": "A CAIXA deixará de ser apenas a operadora de benefícios para se tornar o Banco da Prosperidade. Assim como os bancos privados ajudam seus clientes a construir patrimônio e realizar projetos, a CAIXA vai ajudar milhões de brasileiros a conquistar o primeiro patrimônio da vida e a autonomia financeira.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "caixa-economica-federal",
+    "microcredito-crediamigo",
+    "banco-do-povo-sp",
+    "open-banking-brasil"
+   ],
+   "historico": {
+    "br": "A Caixa já e o maior operador de crédito habitacional e de benefícios sociais do país e já atua na inclusão financeira do beneficiário do Bolsa Família. O uso de dado transacional para oferta de crédito e a base do Cadastro Positivo (2011/2019) e do Open Finance brasileiro (2021), este último reconhecido internacionalmente como um dos mais avançados. O risco histórico do banco público e o crédito direcionado sem análise de risco, que gerou perdas relevantes entre 2009 e 2015.",
+    "br_res": "parcial",
+    "mundo": "A India construiu inclusão financeira em massa com o Jan Dhan e a India Stack, com centenas de milhões de contas e crédito baseado em dado. O Reino Unido criou o Open Banking em 2018, modelo que o Brasil ampliou. Bancos públicos que viraram instrumento de crédito subsidiado sem governança (vários casos latino-americanos) acumularam prejuízo fiscal.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 46,
+   "vt": "forte",
+   "vd": "O Open Finance brasileiro está entre os mais avançados do mundo e o Cadastro Positivo já usa dado transacional para dar crédito a quem não tinha histórico. A Índia fez o mesmo em massa com o Jan Dhan — o risco é o velho crédito direcionado sem análise."
+  },
+  {
+   "id": "pl-46",
+   "titulo": "Retomar o Casa Verde e Amarela com meta de 2,5 milhões de residências",
+   "setor": "cidade",
+   "subtema": "Habitação",
+   "resumo": "Menor taxa de juros possível no financiamento, retomada de áreas sob dominio de facções, urbanização de áreas degradadas e regularização fundiária priorizando áreas urbanas consolidadas, com PPPs integrando moradia e infraestrutura.",
+   "citacao": "Vamos retomar o Casa Verde e Amarela, com meta de 2,5 milhões de residências e a menor taxa de juros possível no financiamento. Alinhado ao Brasil sem Medo, vamos retomar as áreas hoje sob domínio de facções, devolvendo aos moradores a liberdade de ir e vir na própria comunidade — ninguém é dono de verdade da sua casa enquanto o tráfico manda na esquina.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "casa-verde-amarela",
+    "mcmv-entidades",
+    "fgts-habitacao",
+    "mcmv-localizacao-periferica"
+   ],
+   "historico": {
+    "br": "O Casa Verde e Amarela (2020) foi a reformulação do MCMV e entregou menos que as metas anunciadas, com a Faixa 1 praticamente parada por falta de subsídio orçamentário; o MCMV foi retomado em 2023. O problema estrutural de ambos e o mesmo: unidade barata em área periférica sem transporte nem emprego, com revenda informal e captura por grupos armados em vários conjuntos.",
+    "br_res": "parcial",
+    "mundo": "Os EUA abandonaram o conjunto habitacional público depois de demolir projetos como o Pruitt-Igoe e migraram para o voucher, com evidência do experimento Moving to Opportunity de ganho de saúde e renda ao mudar de bairro. O Chile reformou o subsídio em 2006 pelo mesmo diagnóstico. Cingapura e a exceção: produção pública em massa que funcionou porque veio com metro, escola e mistura social planejada.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 47,
+   "vt": "arriscada",
+   "vd": "O Casa Verde e Amarela entregou menos que o prometido e a Faixa 1 ficou parada por falta de subsídio. O problema estrutural dos dois programas é o mesmo: unidade barata longe de emprego e transporte, com revenda e captura por grupo armado."
+  },
+  {
+   "id": "pl-47",
+   "titulo": "Garantir a plena aplicação do Marco Legal do Saneamento e acelerar concessões",
+   "setor": "cidade",
+   "subtema": "Saneamento",
+   "resumo": "Universalizar água e esgoto até 2033 pelo modelo aberto ao investimento privado, com atenção ao saneamento rural, nenhuma escola sem água até 2030 e Programa Lixao Zero.",
+   "citacao": "nós vamos garantir sua plena aplicação e acelerar as concessões e parcerias para universalizar o acesso à água tratada e ao esgoto, com atenção especial ao saneamento rural.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "marco-saneamento-2020",
+    "privatizacao-sabesp-2024",
+    "plansab",
+    "pnrs-2010"
+   ],
+   "historico": {
+    "br": "O Marco Legal do Saneamento (Lei 14.026/2020) abriu o setor a licitação obrigatória e destravou concessões bilionárias, entre elas a da Cedae no Rio e a privatização da Sabesp em 2024. A cobertura de esgoto avanca, mas o ritmo atual coloca a meta de 2033 fora de alcance na maior parte dos estados, e o saneamento rural segue praticamente sem política. A capacidade de o regulador fazer cumprir metas contratuais e o ponto fraco apontado pelo TCU.",
+    "br_res": "em_curso",
+    "mundo": "O Chile privatizou o saneamento nos anos 1990 e universalizou com regulação forte de tarifa e subsídio direto a família de baixa renda - o caso de referência. A Inglaterra privatizou em 1989 e enfrenta hoje crise de investimento e poluição de rios, com a Thames Water em colapso financeiro. A diferença entre os dois está na qualidade do regulador, e não no modelo de propriedade.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 47,
+   "vt": "promissora",
+   "vd": "O marco de 2020 destravou concessões bilionárias e o ritmo atual não alcança 2033 na maioria dos estados. Chile e Inglaterra provam que o que separa sucesso de crise é a qualidade do regulador, não a propriedade — e o saneamento rural segue sem política."
+  },
+  {
+   "id": "pl-48",
+   "titulo": "Meta de crescimento sustentado de 4% ao ano ao longo da próxima decada",
+   "setor": "economia",
+   "subtema": "Macroeconomia",
+   "resumo": "Dobrar o ritmo médio de 2% ao ano das últimas duas decadas, apoiado no investimento privado, na segurança jurídica e na competitividade do agro, da indústria e dos serviços, com o Estado como 'o país que funciona' e não como empresário.",
+   "citacao": "Nossa meta é dobrar esse ritmo e alcançar um crescimento sustentado de 4% ao ano ao longo da próxima década, apoiado no investimento privado, na segurança jurídica e na competitividade do agro, da indústria e dos serviços.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "milagre-economico-brasileiro",
+    "crescimento-pib-brasil-decadas",
+    "reformas-estruturais-fmi"
+   ],
+   "historico": {
+    "br": "O Brasil cresceu perto de 2% ao ano em média nas últimas duas decadas e só sustentou 4% em ciclos curtos puxados por commodities (2004-2010). Metas de crescimento apareceram no PAC (2007) e no Plano Brasil Maior (2011) sem serem cumpridas. O consenso dos diagnósticos e que o limite e a produtividade, que praticamente não cresce desde os anos 1980.",
+    "br_res": "fracassou",
+    "mundo": "Poucos paises de renda média sustentaram 4% por uma decada sem um choque de produtividade: Coreia do Sul e Taiwan o fizeram com educação, poupanca alta e industrialização exportadora; o Chile o fez nos anos 1990 após reformas microeconomicas amplas. Meta de crescimento sem mecanismo que eleve produtividade não tem precedente de sucesso.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 49,
+   "vt": "ja_falhou",
+   "vd": "O Brasil cresce perto de 2% há duas décadas e só passou disso em ciclo de commodities. PAC e Plano Brasil Maior já prometeram e não entregaram: meta de crescimento sem mecanismo que eleve produtividade não tem precedente de sucesso."
+  },
+  {
+   "id": "pl-49",
+   "titulo": "Estabilidade regulatoria de até 20 anos e responsabilização do Estado por mudança de regra",
+   "setor": "economia",
+   "subtema": "Segurança jurídica",
+   "resumo": "Para projetos de longa maturação, contratos que não mudam depois da obra de pe, com o Estado respondendo pelos prejuízos se voltar atrás sem que o empreendedor tenha dado causa, e licenciamento ambiental com prazo definido.",
+   "citacao": "criaremos mecanismos de estabilidade das regras de até 20 anos, para que o contrato não seja mudado depois que a obra já estiver de pé. E quando o empreendedor age de boa-fé e obtém regularmente a sua licença, o Estado deve responder pelos prejuízos se voltar atrás sem que o empreendedor tenha dado causa, em vez de jogar a conta sobre quem confiou na palavra que recebeu.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "contratos-estabilidade-mineracao-chile",
+    "licenciamento-ambiental-lei-geral",
+    "seguranca-juridica-investimento",
+    "arbitragem-investimento-isds"
+   ],
+   "historico": {
+    "br": "O Brasil já tem instrumentos de estabilidade contratual: as concessões com equilibrio econômico-financeiro previsto na Lei 8.987/1995 e a Lei da Liberdade Econômica, que reforcou a segurança jurídica. A instabilidade real veio menos de quebra de contrato e mais de mudança regulatoria e tributária: a MP 579/2012, que antecipou a renovação das concessões elétricas, e o exemplo domestico mais caro, com perdas bilionárias e judicialização de mais de uma decada.",
+    "br_res": "parcial",
+    "mundo": "A Espanha cortou retroativamente subsídios a energia solar em 2013 e perdeu multiplas arbitragens internacionais sob o Tratado da Carta da Energia, pagando indenizações bilionárias - o precedente que mostra o custo de mudar a regra depois do investimento feito. Por outro lado, clausulas de estabilização muito rigidas foram criticadas em contratos de mineração na Africa por congelar tributação por decadas.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 50,
+   "vt": "promissora",
+   "vd": "A MP 579/2012 é o caso doméstico mais caro de mudar a regra depois do investimento feito, com uma década de judicialização. A Espanha pagou indenizações bilionárias por cortar subsídio solar retroativamente — o princípio tem lastro."
+  },
+  {
+   "id": "pl-50",
+   "titulo": "Autonomia a povos indígenas e quilombolas para atividades produtivas em suas terras",
+   "setor": "direitos",
+   "subtema": "Povos tradicionais",
+   "resumo": "Decisão sobre atividades produtivas nas terras tradicionais, com respeito a regras ambientais, indenização de restrições ao usufruto e mecanismos de compensação.",
+   "citacao": "Sera conferida autonomia aos povos indígenas e quilombolas para decidir sobre atividades produtivas em suas terras... com indenização de eventuais restrições ao usufruto.",
+   "econ": 2,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "constituicao-1988-art-231",
+    "pl-mineracao-terras-indigenas",
+    "convencao-169-oit",
+    "marco-temporal-indigena"
+   ],
+   "historico": {
+    "br": "O art. 231 da Constituição garante usufruto exclusivo aos indígenas e exige lei e autorização do Congresso caso a caso para exploração mineral, lei que nunca foi editada; o PL 191/2020 tentou faze-lo e não avançou. Há experiências de manejo florestal e de produção econômica em terras indígenas com boa avaliação. O arrendamento de terra indígena para terceiros e vedado pelo Estatuto do Indio, ponto que separa autonomia produtiva de abertura a terceiros.",
+    "br_res": "parcial",
+    "mundo": "O Canada desenvolveu acordos de participação com Primeiras Nações (Impact Benefit Agreements) que dao a comunidade voz e receita em projetos minerais, com resultados variados e melhores onde há capacidade de negociação. A Convenção 169 da OIT, ratificada pelo Brasil, exige consulta livre, previa e informada - o padrão que qualquer marco brasileiro teria de observar.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 50,
+   "citacao_aprox": true,
+   "vt": "promissora",
+   "vd": "Os acordos com Primeiras Nações no Canadá funcionam melhor onde a comunidade tem capacidade de negociação. O ponto jurídico que a proposta precisa resolver é a distinção entre autonomia produtiva da comunidade e abertura a terceiros, vedada pelo Estatuto do Índio."
+  },
+  {
+   "id": "pl-51",
+   "titulo": "Investir R$ 900 bilhões em quatro anos em infraestrutura com fundo lastreado em ativos da União",
+   "setor": "cidade",
+   "subtema": "Infraestrutura",
+   "resumo": "Novo modelo de financiamento com securitização de ativos e imóveis da União, uso intensivo de PPPs e concessões e BNDES financiando exclusivamente obras em território brasileiro, destravando Ferrograo, Transnordestina, Trem do Nordeste e Hidrovia do Tapajos.",
+   "citacao": "Vamos investir R$ 900 bilhões em quatro anos em rodovias, hidrovias, portos, aeroportos e ferrovias... financiamentos do BNDES exclusivamente para obras em território brasileiro.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "ferrograo",
+    "transnordestina",
+    "bndes-obras-exterior",
+    "concessoes-rodoviarias-brasil",
+    "hidrovia-tapajos"
+   ],
+   "historico": {
+    "br": "O Brasil já tentou financiar infraestrutura com securitização e fundos: o FGP e as PPPs da Lei 11.079/2004 entregaram pouco no ambito federal, enquanto estados como Minas e São Paulo avancaram mais. O uso de imóveis da União como lastro esbarra em cadastro incompleto da SPU. O PAC (2007) e o PIL (2012) mostraram que anunciar volume não equivale a executar: mais de metade dos empreendimentos federais monitorados esteve paralisada.",
+    "br_res": "parcial",
+    "mundo": "A Australia executou o programa Asset Recycling (2014-2016), vendendo ativos públicos maduros para financiar infraestrutura nova, com resultado considerado positivo e replicado parcialmente na India. A India criou o National Monetisation Pipeline em 2021 com execução abaixo da meta. O elemento comum aos casos bem-sucedidos e um portfolio de projetos maduros pronto para licitar - a etapa que o Brasil costuma pular.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 51,
+   "citacao_aprox": true,
+   "vt": "arriscada",
+   "vd": "A Austrália vendeu ativos maduros para financiar infraestrutura nova com bom resultado; a Índia executou muito abaixo da meta. O elemento comum aos casos que deram certo é carteira de projetos pronta para licitar — a etapa que o Brasil costuma pular."
+  },
+  {
+   "id": "pl-52",
+   "titulo": "Permitir a exploração de gas não convencional (fracking) com responsabilidade ambiental",
+   "setor": "economia",
+   "subtema": "Energia",
+   "resumo": "Parte do Programa Nacional de Segurança Energética, com foco em refino, processamento, escoamento e transporte de combustíveis e gas, e expansão da rede de escoamento do gas do pre-sal hoje desperdicado.",
+   "citacao": "permitir a exploração do gás não convencional (fracking) com responsabilidade ambiental e cumprindo a lei, e expandir e modernizar a rede de transmissão, integrando novas fontes renováveis e reduzindo congestionamentos.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "fracking-eua",
+    "proibicao-fracking-franca",
+    "moratoria-fracking-parana",
+    "lei-do-gas-2021"
+   ],
+   "historico": {
+    "br": "A ANP licitou blocos de gas não convencional na 12a rodada, em 2013, e a exploração foi bloqueada por decisões judiciais e por leis estaduais proibitivas no Parana, em Santa Catarina e no Rio Grande do Sul; o Ibama nunca licenciou operação de fraturamento. Há um PL de proibição nacional em tramitação há anos. Na prática, o fracking está parado no Brasil há mais de uma decada por barreira jurídica, não técnica.",
+    "br_res": "fracassou",
+    "mundo": "Os EUA transformaram a própria posição geopolítica com o fracking a partir de 2008, tornando-se maior produtor mundial de gas, ao custo de disputas sobre contaminação de aquiferos e sismicidade induzida documentada no Oklahoma. Franca (2011), Bulgária e vários estados americanos proibiram a técnica; o Reino Unido suspendeu em 2019 após tremores. A Argentina desenvolveu Vaca Muerta com sucesso produtivo e alto custo de investimento.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 52,
+   "vt": "arriscada",
+   "vd": "O fracking está parado no Brasil há mais de uma década por decisão judicial e leis estaduais, não por falta de vontade. Transformou a posição dos EUA e foi proibido na França e suspenso no Reino Unido após tremores — é aposta de alto atrito jurídico."
+  },
+  {
+   "id": "pl-53",
+   "titulo": "Transformar o Brasil em polo global de data centers sustentáveis",
+   "setor": "cti",
+   "subtema": "Infraestrutura digital",
+   "resumo": "Aproveitar a matriz elétrica renovável e a redução de impostos sobre energia para atrair data centers e IA, com programa de armazenamento de energia em baterias de grande porte.",
+   "citacao": "transformar o país em polo global de data centers sustentáveis, aproveitando a matriz elétrica renovável. E vamos transformar o Brasil em potência de biocombustíveis:",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "redata-datacenters-brasil",
+    "incentivos-datacenter-irlanda",
+    "baterias-armazenamento-rede"
+   ],
+   "historico": {
+    "br": "A MP do Redata, que criava regime tributário especial para data centers, caducou em fevereiro de 2026 sem virar lei, e em outubro de 2025 a OpenAI escolheu a Argentina para o Stargate latino-americano. O Brasil tem matriz limpa e conectividade internacional pelo cabo do Ceara, e perde para vizinhos na disputa por regime tributário e previsibilidade energética.",
+    "br_res": "fracassou",
+    "mundo": "A Irlanda atraiu data centers com regime tributário agressivo até esbarrar em limite de rede elétrica e impor moratoria em Dublin em 2022. Cingapura suspendeu novos data centers entre 2019 e 2022 pelo mesmo motivo. A Virginia, nos EUA, concentra a maior densidade do mundo com incentivo estadual. A lição e que incentivo tributário atrai, e capacidade de transmissão e água definem se o investimento se instala.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 53,
+   "vt": "promissora",
+   "vd": "A Irlanda atraiu data centers com regime tributário agressivo até esbarrar no limite da rede elétrica e impor moratória. A matriz limpa brasileira é vantagem real; o que perdeu o Stargate para a Argentina foi a MP caducar."
+  },
+  {
+   "id": "pl-54",
+   "titulo": "Verticalizar os minerais críticos com o Estado como regulador, não como empresário",
+   "setor": "economia",
+   "subtema": "Minerais críticos",
+   "resumo": "Seis pilares - marco regulatório estável, licenciamento agil, atração de capital e tecnologia, verticalização com incentivos de mercado, governança e transparência - para agregar valor no Brasil em vez de exportar a pedra bruta.",
+   "citacao": "O Estado atuará como regulador e coordenador, não como empresário, apoiado em seis pilares [...] Vamos trabalhar para atrair o capital estrangeiro e a tecnologia que já existem no mundo, aplicando aqui o que outros países já dominam e transferindo esse conhecimento ao Brasil.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "politica-minerais-criticos-brasil",
+    "nacionalizacao-litio-chile",
+    "terras-raras-china",
+    "ira-eua-minerais"
+   ],
+   "historico": {
+    "br": "A verticalização de terras raras está apenas comecando: a Serra Verde (GO) iniciou produção em 2024 e exporta concentrado, e o MagBras busca dominar a cadeia até o ima. A fila de processos na ANM e o gargalo administrativo mais citado. O PL 2780/2024 criava a política nacional de minerais críticos e o Fundo Garantidor da Atividade Mineral.",
+    "br_res": "em_curso",
+    "mundo": "A China chegou a dominar mais de 90% do refino com decadas de subsídio estatal e restringiu exportações em 2010 e 2023 para pressionar rivais. A Mountain Pass americana faliu em 2015 e só voltou com dinheiro do Departamento de Defesa e compra garantida; a Lynas australiana precisou de apoio público dos EUA e do Japao. Nenhum país quebrou a dependência apenas com marco regulatório e incentivo de mercado - todos usaram compra estatal de longo prazo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 55,
+   "vt": "arriscada",
+   "vd": "Mountain Pass faliu em 2015 e só voltou com dinheiro do Departamento de Defesa; a Lynas dependeu de apoio de EUA e Japão. Ninguém quebrou a dependência chinesa só com marco regulatório e incentivo de mercado."
+  },
+  {
+   "id": "pl-55",
+   "titulo": "Zerar o desmatamento ilegal até 2029 com IA e satélite",
+   "setor": "ambiente",
+   "subtema": "Desmatamento",
+   "resumo": "Retomar o compromisso assumido no governo anterior, integrando bases fundiárias e ambientais para focar em grilagem e ocupação ilegal 'sem criar novas obrigações ou custos desnecessários para o produtor rural que atua dentro da lei'.",
+   "citacao": "Teremos a meta de zerar o desmatamento ilegal até 2029, retomando e levando até o fim o compromisso que já assumimos no Governo Bolsonaro perante o mundo, e combateremos as queimadas ilegais, fortalecendo a prevenção, o monitoramento, a fiscalização e o combate aos crimes ambientais, com ferramentas aperfeiçoadas por inteligência artificial, bancos de dados em tempo real, imagens de satélite e ação coordenada das agências do Estado.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "deter-prodes-inpe",
+    "ppcdam",
+    "codigo-florestal-2012",
+    "desmatamento-2019-2022"
+   ],
+   "historico": {
+    "br": "O Brasil já reduziu o desmatamento amazonico em cerca de 80% entre 2004 e 2012 com o PPCDAm, usando exatamente satélite mais fiscalização mais restrição de crédito aos municípios da lista prioritária. A política foi desmontada entre 2019 e 2022, com alta expressiva do desmatamento no período em que o mesmo compromisso de 2029 foi anunciado, e retomada desde 2023. A tecnologia nunca foi o gargalo: o Deter existe desde 2004.",
+    "br_res": "revertido",
+    "mundo": "A Indonesia reduziu desmatamento a partir de 2017 combinando moratoria e pressão de mercado. A União Europeia passou a exigir prova de origem livre de desmatamento (EUDR) desde 2026, transformando o tema em condição comercial. A evidência converge: o que move a curva e sanção econômica sobre quem desmata, e não capacidade de detecção.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 58,
+   "vt": "forte",
+   "vd": "A tecnologia nunca foi o gargalo: o Deter existe desde 2004 e o Brasil já derrubou o desmatamento 80% entre 2004 e 2012. O mesmo compromisso foi anunciado no período em que o desmatamento subiu — o que move a curva é sanção econômica."
+  },
+  {
+   "id": "pl-56",
+   "titulo": "Eliminar superposições entre Ibama, Funai e ICMBio e exigir transparência de ONGs",
+   "setor": "ambiente",
+   "subtema": "Governança ambiental",
+   "resumo": "Dar eficiência a fiscalização e exigir transparência de financiadores e projetos de ONGs que recebem recursos internacionais e judicializam ações contra a União.",
+   "citacao": "Vamos eliminar superposições entre Ibama, Funai e ICMBio, dando eficiência à fiscalização, e exigir transparência de financiadores e de projetos das ONGs que recebem recursos internacionais e judicializam ações contra a União, porque onde há dinheiro estrangeiro movendo decisões sobre o território brasileiro há riscos ao interesse nacional, sobre os quais o cidadão brasileiro deve estar informado.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "foreign-agents-registration-act",
+    "lei-ongs-russia",
+    "marco-regulatorio-osc-13019",
+    "cpi-ongs-brasil"
+   ],
+   "historico": {
+    "br": "A sobreposição entre Ibama, ICMBio e Funai vem da divisao de 2007, que separou fiscalização de gestão de unidades de conservação, e há diagnósticos do TCU sobre duplicidade. Do outro lado, o quadro dos três órgãos encolheu por aposentadoria sem reposição. A exigência de transparência de ONGs foi tentada pelo Decreto 9.759/2019 e por projetos de lei; ONGs já estão sujeitas a Lei 13.019/2014 e a prestação de contas quando recebem recurso público.",
+    "br_res": "parcial",
+    "mundo": "Vários paises adotaram registro de agente estrangeiro: os EUA com o FARA (1938), aplicado a lobby político. A Russia (2012), a Hungria (2017) e a Nicaragua usaram leis de transparência de ONGs para sufocar organizações críticas, e a lei hungara foi condenada pelo Tribunal de Justiça da União Europeia em 2020. A linha entre transparência legítima e restrição ao espaco cívico e o ponto sensível documentado.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 59,
+   "vt": "arriscada",
+   "vd": "A sobreposição entre os três órgãos é real e o TCU já apontou. A parte sobre ONGs é onde mora o risco: Rússia, Hungria e Nicarágua usaram leis de transparência para sufocar organização crítica, e a húngara foi condenada pelo tribunal europeu."
+  },
+  {
+   "id": "pl-57",
+   "titulo": "Acabar com a política que criminaliza o morador da floresta",
+   "setor": "ambiente",
+   "subtema": "Amazonia",
+   "resumo": "Dirigir o rigor da fiscalização a quem comanda o crime organizado e não ao ribeirinho, pequeno produtor e extrativista, substituindo punição por orientação, regularização e oportunidade, com bioeconomia como alternativa de renda.",
+   "citacao": "O morador da Amazônia, o ribeirinho, o pequeno produtor, o extrativista, não será tratado como criminoso por tirar da terra o seu sustento. A ele, o Estado deve orientação e apoio para o bom uso e preservação dos recursos naturais, e não a perseguição que hoje pesa sobre quem menos tem.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "bioeconomia-amazonia",
+    "regularizacao-fundiaria-amazonia",
+    "conflitos-fiscalizacao-ambiental"
+   ],
+   "historico": {
+    "br": "A crítica de que a fiscalização pune o pequeno e não o grande tem base: parte relevante dos autos de infração atinge ocupantes sem título, enquanto grandes desmatadores recorrem e prescrevem - o TCU já apontou baixissima taxa de pagamento de multas ambientais. Programas de pagamento por serviços ambientais (Bolsa Verde, 2011, extinto em 2019 e recriado em 2023) são a alternativa já testada em pequena escala.",
+    "br_res": "parcial",
+    "mundo": "A Costa Rica substituiu punição por pagamento por serviços ambientais em 1997 e reverteu a perda florestal, financiando o programa com imposto sobre combustíveis. O Mexico opera PSA hídrico desde 2003 com efeito moderado. A conclusao repetida e que incentivo funciona para quem tem pouca terra e pouca alternativa, e não substitui fiscalização sobre o desmatamento em grande escala.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 59,
+   "vt": "forte",
+   "vd": "A crítica tem base: o TCU aponta taxa baixíssima de pagamento de multa ambiental enquanto o auto atinge quem não tem título. A Costa Rica reverteu perda florestal com pagamento por serviço ambiental financiado por imposto sobre combustível."
+  },
+  {
+   "id": "pl-58",
+   "titulo": "Fim das competências criminais originárias do STF e limite as decisões monocráticas",
+   "setor": "estado",
+   "subtema": "Judiciário",
+   "resumo": "Devolver o STF ao papel de Corte Constitucional, com julgamento de parlamentares por instâncias inferiores, privilegio a decisões colegiadas, revisão do escopo das ADPFs, quarentena de 1 ano para ministros de Estado indicados e impedimento de parentes até terceiro grau atuarem no tribunal.",
+   "citacao": "Limitação das decisões monocráticas do STF, privilegiando as decisões colegiadas e presumindo a constitucionalidade do processo legislativo, para que a caneta de um só ministro não se sobreponha ao trabalho de todo o Congresso.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "foro-privilegiado-ap-937",
+    "decisoes-monocraticas-stf",
+    "pec-8-2021-decisoes-monocraticas",
+    "corte-constitucional-alemanha-mandato"
+   ],
+   "historico": {
+    "br": "O foro privilegiado já foi restringido pelo próprio STF em 2018 (AP 937), que limitou a competência a crimes cometidos no cargo e relacionados a função. As decisões monocráticas foram limitadas por emenda regimental do STF em 2023 para casos de suspensão de lei. PECs de limitação ao STF e de mandato para ministros tramitam há anos sem aprovação, e a maioria dos juristas aponta que retirar competências originárias por emenda esbarrária na separação de poderes.",
+    "br_res": "parcial",
+    "mundo": "Israel tentou em 2023 uma reforma judicial que limitava a Suprema Corte e recuou após a maior onda de protestos da sua história. A Polonia e a Hungria alteraram a composição e as competências das cortes constitucionais entre 2015 e 2020 e sofreram processos por violação do Estado de Direito na União Europeia. Nos EUA, o court-packing de Roosevelt (1937) fracassou politicamente. Reformas de corte suprema tem histórico ruim quando conduzidas em conflito aberto com ela.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 65,
+   "vt": "ja_falhou",
+   "vd": "O próprio STF já restringiu o foro em 2018 e limitou monocráticas em 2023. Israel recuou em 2023 diante do maior protesto de sua história; Polônia e Hungria foram processadas na UE. Reforma de corte suprema conduzida em conflito aberto com ela tem histórico ruim."
+  },
+  {
+   "id": "pl-59",
+   "titulo": "Fim da reeleição para presidente da Republica",
+   "setor": "estado",
+   "subtema": "Sistema político",
+   "resumo": "O plano informa que já existe PEC protocolada no Senado com essa proposta, de autoria do próprio candidato, e defende reforma política com foco em nitidez programática e proximidade entre eleitor e eleito.",
+   "citacao": "E propomos o fim da reeleição para o cargo de Presidente da República. Ao contrário do PT, o nosso projeto é de país, não de poder. Já existe uma PEC protocolada no Senado Federal com essa proposta, de autoria do senador e futuro presidente do Brasil, Flávio Bolsonaro.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "ec-16-1997-reeleicao",
+    "mandato-unico-mexico",
+    "pec-fim-reeleicao",
+    "reforma-politica-brasil"
+   ],
+   "historico": {
+    "br": "A reeleição foi criada pela EC 16/1997, em processo cercado de denúncias de compra de votos, e desde entao há PECs para revoga-la em quase todas as legislaturas, incluindo a aprovada em comissão do Senado em 2015 com mandato de cinco anos sem reeleição. Nenhuma foi ao plenário das duas Casas.",
+    "br_res": "fracassou",
+    "mundo": "O Mexico proibe reeleição presidencial desde 1917 e a Colombia a extinguiu em 2015 após te-la criado em 2005. Do lado oposto, vários paises latino-americanos flexibilizaram a regra para permitir a permanência do ocupante. A literatura comparada mostra que mandato único reduz o uso da maquina em campanha e enfraquece a responsabilização eleitoral - o ganho vem com um custo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 66,
+   "vt": "ja_falhou",
+   "vd": "PECs de revogação aparecem em quase toda legislatura desde 1997 e nenhuma foi a plenário nas duas Casas. México e Colômbia mostram que mandato único reduz uso da máquina e enfraquece a responsabilização eleitoral — há ganho e há custo."
+  },
+  {
+   "id": "pl-60",
+   "titulo": "Tesouraco na Censura: extinguir estruturas estatais de checagem de desinformação",
+   "setor": "estado",
+   "subtema": "Liberdade de expressao",
+   "resumo": "Acabar com qualquer estrutura que funcione como 'Ministério da Verdade' e revogar todos os atos do atual governo apontados como voltados a silenciar críticos.",
+   "citacao": "Vamos fazer um Tesouraço da Censura: acabar com qualquer estrutura estatal que funcione como um “Ministério da Verdade\", encarregada de vigiar, rotular ou punir o que as pessoas dizem.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pl-2630-fake-news",
+    "dsa-uniao-europeia",
+    "secao-230-eua",
+    "adi-inquerito-fake-news-stf"
+   ],
+   "historico": {
+    "br": "O Brasil não tem órgão estatal de checagem de fatos; existiram iniciativas de comunicação pública de combate a desinformação em saúde e eleitoral, e o TSE firmou parcerias com plataformas e checadores durante eleições. A discussão ganhou força com o julgamento do art. 19 do Marco Civil pelo STF em 2025 e com o inquérito das fake news, criticado por parte da doutrina como investigação sem acusador definido.",
+    "br_res": "em_curso",
+    "mundo": "Os EUA criaram em 2022 o Disinformation Governance Board no Departamento de Segurança Interna e o desativaram em menos de quatro meses sob acusação de censura - o precedente que a proposta invoca. A União Europeia optou por regular processo e transparência das plataformas (DSA) em vez de julgar conteudo por órgão estatal, desenho tido como menos arriscado para a liberdade de expressao.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 66,
+   "vt": "arriscada",
+   "vd": "O Disinformation Governance Board americano durou menos de quatro meses em 2022 e é o precedente que a proposta invoca corretamente. Só que o Brasil não tem órgão estatal de checagem — a proposta combate algo que não existe aqui."
+  },
+  {
+   "id": "pl-61",
+   "titulo": "Cortar no mínimo 10 ministérios e combater penduricalhos e supersalários",
+   "setor": "estado",
+   "subtema": "Reforma administrativa",
+   "resumo": "Ampla revisão normativa infralegal nas áreas de gestão pública, tributária, previdenciária e trabalhista, com redução de cargos comissionados e despesas administrativas.",
+   "citacao": "Isso inclui o corte de no mínimo 10 ministérios, a redução de cargos comissionados e de despesas administrativas e o combate aos penduricalhos e supersalários que corroem o orçamento, tudo com um objetivo:",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "reforma-ministerial-2019",
+    "reforma-administrativa-pec-32",
+    "penduricalhos-judiciario",
+    "teto-remuneratorio"
+   ],
+   "historico": {
+    "br": "O número de ministérios oscilou de 39 (2015) para 22 (2019) e de volta a 39 (2023); cortes anteriores não produziram economia mensurável, porque a despesa está na folha e nas políticas, não na estrutura ministerial. O combate a supersalários esbarra na jurisprudência sobre verbas indenizatorias fora do teto; o CNJ e o CNMP mapearam penduricalhos bilionários sem que a prática cessasse. A PEC 32/2020 da reforma administrativa nunca foi votada.",
+    "br_res": "fracassou",
+    "mundo": "A Nova Zelandia reorganizou o Estado nos anos 1980-1990 com contratos de desempenho para dirigentes, referência internacional em reforma gerencial. Argentina reduziu ministérios de 18 para 9 em 2018 e para 8 em 2023 com economia modesta frente ao ajuste total. O padrão internacional e que redução de ministérios rende simbolismo, e revisão de folha e de benefícios rende dinheiro.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 69,
+   "vt": "ja_falhou",
+   "vd": "O número de ministérios foi de 39 para 22 e de volta a 39 em oito anos sem economia mensurável — a despesa está na folha e nas políticas. Penduricalho rende dinheiro de verdade e é onde o CNJ mapeou bilhões sem que a prática cessasse."
+  },
+  {
+   "id": "pl-62",
+   "titulo": "Recrutamento com regras de mercado para o comando das estatais e blindagem dos fundos de pensao",
+   "setor": "economia",
+   "subtema": "Estatais",
+   "resumo": "Fortalecer a Lei das Estatais, fazer busca ativa de executivos como no setor privado, blindar os fundos de pensao da indicação política e retomar o Programa Nacional de Desestatização com critério, caso a caso.",
+   "citacao": "sempre que possível, o comando das estatais e dos cargos de direção será preenchido por recrutamento com regras de mercado [...] E vamos retomar o Programa Nacional de Desestatização com critério, avaliando caso a caso onde a presença do Estado deixou de fazer sentido.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "governanca-estatais-lei-13303",
+    "pnd-1990-collor",
+    "privatizacao-eletrobras-2021",
+    "fundos-pensao-estatais-escandalos"
+   ],
+   "historico": {
+    "br": "A Lei das Estatais (13.303/2016) criou requisitos técnicos e quarentena para indicação, e teve dispositivos flexibilizados pelo STF em 2023, permitindo nomeações antes vedadas. Os fundos de pensao de estatais acumularam rombos bilionários com investimentos politicamente direcionados, apurados pela CPI dos Fundos de Pensao em 2015-2016 - o precedente que a proposta invoca.",
+    "br_res": "parcial",
+    "mundo": "A Noruega separa o fundo soberano da gestão política com mandato legal e conselho independente, o padrão mais citado. A Statoil/Equinor mostra estatal com governança insulada; a Pemex mexicana mostra o oposto. Chile e Colombia adotaram comites técnicos para indicação em estatais. O elemento decisivo em todos os casos e o custo político de descumprir a regra, e não a regra em si.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 70,
+   "vt": "forte",
+   "vd": "A CPI dos Fundos de Pensão de 2015 documentou rombo bilionário por investimento politicamente dirigido. A Noruega separa gestão de política por mandato legal e conselho independente — é o padrão, e o STF flexibilizou a Lei das Estatais em 2023."
+  },
+  {
+   "id": "pl-63",
+   "titulo": "Reformular as regras fiscais com foco na redução da dívida e superavits primários",
+   "setor": "economia",
+   "subtema": "Regra fiscal",
+   "resumo": "Regras claras de estabilização e redução da dívida, limitação do crédito subsidiado com recursos do Tesouro e regra de controle de gastos discricionários dos três Poderes. Diagnóstico: alta de 13 pontos do PIB na dívida em quatro anos e 30 aumentos de tributos.",
+   "citacao": "Apresentaremos uma reformulação nas atuais regras fiscais, com regras claras focadas na estabilização e na redução da dívida pública [...] E haverá uma regra clara de controle de gastos discricionários dos três Poderes da União.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "teto-gastos-ec95",
+    "arcabouco-fiscal-2023",
+    "lrf-2000",
+    "pacto-estabilidade-ue",
+    "regra-de-ouro-brasil"
+   ],
+   "historico": {
+    "br": "O Brasil já testou meta de superávit primário (1999-2013), que funcionou no ciclo de crescimento e ruiu na recessao; o teto de gastos da EC 95/2016 foi furado por nove emendas em seis anos; o arcabouco de 2023 limita a despesa a 70% da variação da receita. Nenhuma dessas regras enfrentou a despesa obrigatória indexada, que e a origem do problema. Limitar crédito subsidiado com recurso do Tesouro reverteria o modelo do BNDES de 2009-2014, que custou dezenas de bilhões em equalização de juros.",
+    "br_res": "parcial",
+    "mundo": "O Chile opera regra de balanco estrutural com conselho fiscal independente desde 2001, o caso latino-americano mais bem avaliado. A Alemanha adotou o Schuldenbremse em 2009 e o flexibilizou em 2025 para investimento e defesa. A União Europeia reformou suas regras em 2024 após duas decadas de descumprimento. O denominador dos casos que funcionam e uma instituição fiscal independente com poder de constranger.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 71,
+   "vt": "arriscada",
+   "vd": "Meta de primário, teto e arcabouço: os três falharam no mesmo ponto, a despesa obrigatória indexada. O Chile funciona há vinte anos porque tem conselho fiscal independente com poder de constranger, peça que o Brasil não tem."
+  },
+  {
+   "id": "pl-64",
+   "titulo": "Retomar a adesao a OCDE com fim gradual do IOF sobre o cambio",
+   "setor": "externa",
+   "subtema": "Inserção internacional",
+   "resumo": "Tratada como condição obrigatória do processo, junto com abertura comercial para dar acesso a bens de capital, tecnologia e insumos importados, e plano de integração as cadeias globais de valor.",
+   "citacao": "O passo mais urgente é retomar o cronograma interrompido de adesão à OCDE, incluindo o fim gradual do IOF sobre o câmbio, que é condição obrigatória do processo. A adesão à OCDE é mais do que um selo:",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "adesao-ocde-brasil",
+    "abertura-comercial-1990",
+    "mercosul-ue-acordo",
+    "iof-cambio"
+   ],
+   "historico": {
+    "br": "O Brasil pediu adesao a OCDE em 2017 e o processo foi formalmente aberto em 2022, com roteiro entregue em 2023; a eliminação do IOF sobre operações de cambio e uma das exigências do Código de Liberalização de Movimentos de Capital. O IOF cambial e ao mesmo tempo arrecadação relevante e instrumento de gestão de fluxo - foi elevado em 2025 e parcialmente revertido após reação do mercado.",
+    "br_res": "em_curso",
+    "mundo": "Chile (2010), Colombia (2020) e Costa Rica (2021) completaram a adesao a OCDE após ajustes regulatórios amplos, com ganho reputacional e melhora no custo de captação. A adesao exige, porém, abrir mão de instrumentos de controle de capital, que vários paises emergentes consideram uteis em crise - a crítica classica ao Código de Liberalização.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 63,
+   "vt": "promissora",
+   "vd": "Chile, Colômbia e Costa Rica completaram a adesão com ganho reputacional e melhora no custo de captação. O preço é abrir mão de instrumento de controle de capital — o IOF cambial foi elevado em 2025 e parcialmente revertido, o que mostra o quanto ele é usado."
+  },
+  {
+   "id": "pl-65",
+   "titulo": "Diplomacia pragmática: reverter o desgaste com Argentina, Estados Unidos e Israel",
+   "setor": "externa",
+   "subtema": "Alinhamento",
+   "resumo": "Itamaraty conduzido por competência técnica, negociando com todos os que interessam ao Brasil, da China a União Europeia, sem escolher parceiros por afinidade ideológica. O texto crítica nominalmente a recepção a Nicolas Maduro e a atracação de navios iranianos.",
+   "citacao": "Não trataremos como adversários os nossos parceiros mais importantes e tradicionais. Nos últimos anos, as relações com países como Argentina, Estados Unidos e Israel foram levadas ao limite do rompimento.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "politica-externa-ativa-altiva",
+    "alinhamento-eua-2019-2022",
+    "brics",
+    "nao-alinhamento-brasil"
+   ],
+   "historico": {
+    "br": "A política externa brasileira oscilou fortemente entre 2019-2022 e 2023-2026, com desgaste com parceiros em ambos os períodos: com a China e a Franca no primeiro, com Israel, Argentina e os EUA no segundo. A tarifa americana de 2025 sobre produtos brasileiros mostrou o custo econômico do atrito. O Itamaraty e uma das burocracias mais profissionalizadas do Estado brasileiro, e as trocas de rumo vieram da direção política.",
+    "br_res": "parcial",
+    "mundo": "O pragmatismo responsável do governo Geisel (1974-1979) e o precedente domestico de política externa desideologizada, com reconhecimento de Angola e acordo nuclear com a Alemanha contra a preferência americana. Internacionalmente, paises médios como Turquia, India e Indonesia praticam hedging entre potências com ganho negociador. A dificuldade documentada e sustentar isso quando há polarização interna sobre a própria política externa.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 62,
+   "vt": "promissora",
+   "vd": "Índia, Turquia e Indonésia praticam hedging entre potências com ganho negociador medido. O Itamaraty é das burocracias mais profissionalizadas do Estado — as guinadas vieram da direção política, e a tarifa americana de 2025 mostrou o preço."
+  },
+  {
+   "id": "pl-66",
+   "titulo": "Pacote antifraude na Previdência e nova governança do consignado",
+   "setor": "trabalho",
+   "subtema": "Previdência",
+   "resumo": "Reeditar a MP antifraudes de 2019 exigindo revalidação de descontos associativos e mudar quem opera e como são autorizados os descontos do consignado, com dupla checagem.",
+   "citacao": "Reeditaremos um pacote antifraude na Previdência, nos moldes do que fizemos em 2019 [...] Vamos mudar a governança do consignado para que a fraude não se repita, revendo quem opera esses descontos e como são autorizados, com mais transparência e mais 73 controle, incluindo dupla checagem que impede que tirem do benefício o que não foi autorizado.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "mp-871-2019-antifraude",
+    "cpmi-inss-2025",
+    "descontos-associativos-inss",
+    "teto-consignado"
+   ],
+   "historico": {
+    "br": "A MP 871/2019 criou o pente-fino e o Programa Especial de Análise de Benefícios, com recuperação bilionária e também com suspensões indevidas revertidas judicialmente. O escandalo dos descontos associativos, revelado em 2025, mostrou que entidades obtinham autorização fraudulenta para descontar de aposentadorias - o precedente direto que a proposta invoca. O consignado teve várias mudanças de regra e o INSS suspendeu novas averbações em 2024.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido e a Australia usam cruzamento automático de bases (prova de vida por dado administrativo, e não por comparecimento) e reduziram fraude sem penalizar o beneficiário legítimo. A Australia, porém, teve um alerta severo: o programa Robodebt (2016-2019) de cobrança automatizada gerou milhares de cobranças indevidas e terminou em comissão real e indenizações. Automatizar antifraude sem revisão humana tem custo humano documentado.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 72,
+   "vt": "promissora",
+   "vd": "O escândalo dos descontos associativos de 2025 é o precedente direto e a MP de 2019 já mostrou que dá para recuperar. O alerta australiano é sério: o Robodebt gerou milhares de cobranças indevidas e acabou em comissão real."
+  },
+  {
+   "id": "pl-67",
+   "titulo": "Mais transparência e rastreabilidade das emendas parlamentares, vinculadas ao PPA",
+   "setor": "estado",
+   "subtema": "Orçamento",
+   "resumo": "Priorizar a alocação das emendas em políticas públicas prioritárias do Plano Plurianual aprovado pelo parlamento, junto a revisão do pacto federativo para destravar a execução pelo gestor local.",
+   "citacao": "daremos mais transparência, controle e rastreabilidade às emendas parlamentares, priorizando sua alocação em políticas públicas prioritárias do Plano Plurianual, aprovado pelo parlamento.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "orcamento-secreto-rp9",
+    "emendas-impositivas-ec-86",
+    "adi-emendas-stf",
+    "lai-lei-12527"
+   ],
+   "historico": {
+    "br": "O orçamento secreto foi declarado inconstitucional pelo STF em 2022 e o volume migrou para emendas de comissão e de bancada; a LC 210/2024 e a decisão do min. Flavio Dino na ADI 7688 impuseram rastreabilidade e vedaram transferências sem identificação. Vincular emendas as prioridades do PPA seria uma restrição adicional que depende de acordo com o Congresso, que hoje controla parcela expressiva do investimento federal.",
+    "br_res": "em_curso",
+    "mundo": "Os EUA reintroduziram earmarks em 2021 com autoria nominal, teto de 1% da despesa discricionária e vedação de benefício ao próprio parlamentar. O Chile e a Coreia do Sul restringem constitucionalmente a iniciativa parlamentar de despesa. A alternativa comparada mais próxima da proposta e exigir que a emenda se encaixe em programa já existente do plano nacional - o modelo praticado em vários paises europeus.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 69,
+   "vt": "promissora",
+   "vd": "Os EUA reintroduziram earmarks em 2021 com autoria nominal e teto de 1% da despesa discricionária, e funciona. Vincular ao PPA é restrição a mais que depende de acordo com um Congresso que hoje controla parcela expressiva do investimento."
+  }
+ ]
+}

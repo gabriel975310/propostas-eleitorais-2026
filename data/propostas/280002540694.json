@@ -1,0 +1,1726 @@
+{
+ "sq": "280002540694",
+ "doc": "2026BR280002540694_01",
+ "resumo_doc": "Livro Amarelo - O Futuro e Glorioso, do Partido Missao (Renan Santos). Documento de 51 paginas dividido em três partes (Estado Novo, Produtividade, País do Futuro) e 14 capítulos temáticos, com prefacio, diagnóstico por capítulo e listas numeradas de propostas. E o plano mais longo e mais doutrinariamente explicito entre os registrados: cita nominalmente fontes intelectuais (Gunter Jakobs, CDPP, tese de amalgamas da UFPB, PEC de Kim Kataguiri, plano de Arthur do Val de 2020) e modelos estrangeiros (Milei, Bukele, Shenzhen, Shannon, Cingapura, Ceara).",
+ "propostas": [
+  {
+   "id": "missao-01",
+   "titulo": "PEC de Transição com desindexação de benefícios do salário mínimo",
+   "setor": "economia",
+   "subtema": "Ajuste fiscal",
+   "resumo": "Aprovar antes da posse uma PEC baseada na PEC do Equilibrio Fiscal de Kim Kataguiri, desindexando benefícios previdenciários e assistenciais do salário mínimo (correção só pela inflação), desvinculando os pisos de saúde e educação da receita, revisando o abono salarial e cortando renúncias fiscais, com economia projetada de R$ 1,1 trilhão até 2031.",
+   "citacao": "a chamada “PEC do Equilíbrio Fiscal”, que promove a desindexação de benefícios previdenciários e assistenciais do salário mínimo (corrigindo-os apenas pela inflação), a desvinculação dos pisos de saúde e educação da receita, a revisão do abono salarial e a redução de renúncias fiscais (gastos tributários), com economia projetada de R$ 1,1 trilhão até 2031.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "desindexacao-salario-minimo-debate",
+    "pec-emergencial-186-2021",
+    "desvinculacao-pisos-saude-educacao",
+    "ec-95-teto-gastos",
+    "arcabouco-fiscal-2023",
+    "pec-transicao-2022",
+    "milei-motosserra-argentina"
+   ],
+   "historico": {
+    "br": "Desindexar benefícios do salário mínimo e desvincular pisos de saúde e educação já foi tentado várias vezes: a DRU desvincula receitas desde 1994 mas não alcanca os pisos, a PEC Emergencial 186/2021 chegou a prever gatilhos e teve os dispositivos mais duros retirados na negociação. O pacote fiscal de dezembro de 2024 limitou o ganho real do mínimo ao teto de 2,5%, um passo na direção proposta, e já foi o máximo que o Congresso aceitou. Desvincular o piso da saúde exigiria emenda com forte resistência da bancada da saúde.",
+    "br_res": "parcial",
+    "mundo": "A Argentina de Milei fez em 2024 um ajuste de magnitude semelhante ao proposto, com corte real de aposentadorias e de transferências a provincias: o déficit virou superávit e a pobreza subiu para mais de 50% antes de recuar. A Grecia sob os memorandos da troika (2010-2018) reduziu déficit as custas de queda de 25% do PIB. Ajustes dessa escala funcionaram fiscalmente e cobraram custo social alto e sustentação política excepcional.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 10,
+   "vt": "arriscada",
+   "vd": "O pacote de 2024 já limitou o ganho real do mínimo ao teto de 2,5% e foi o máximo que o Congresso aceitou. Desvincular piso de saúde exige emenda contra bancada organizada; Milei entregou superávit com pobreza acima de 50% antes de recuar."
+  },
+  {
+   "id": "missao-02",
+   "titulo": "Ajuste fiscal de R$ 250 bilhões por ano e reforma da previdência",
+   "setor": "economia",
+   "subtema": "Ajuste fiscal",
+   "resumo": "Assume a estimativa de Mansueto Almeida de que o ajuste necessário e de R$ 250 bilhões anuais e promete nova reforma previdenciária além da desindexação, para conter despesa obrigatória que cresce acima do limite de 2,5% real do arcabouco.",
+   "citacao": "O ajuste fiscal necessário é da ordem de R$ 250 bilhões anuais, segundo Mansueto de Almeida. Para realizar esse tipo de mudança, qualquer governo a partir de 2027 precisará desindexar e desvincular despesas e reformar a previdência.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "reforma-previdencia-ec-103",
+    "reforma-previdencia-1998",
+    "ajuste-fiscal-2015-levy",
+    "austeridade-grecia-troika",
+    "milei-motosserra-argentina"
+   ],
+   "historico": {
+    "br": "O Brasil fez duas reformas previdenciárias relevantes, em 1998 e 2019, está última com economia projetada de cerca de R$ 800 bilhões em dez anos. O ajuste de 2015, sob Joaquim Levy, foi abandonado em menos de um ano diante da recessao e da perda de base parlamentar - o precedente que mostra que ajuste dessa ordem depende menos de técnica e mais de apoio político.",
+    "br_res": "parcial",
+    "mundo": "A Argentina de Milei entregou superávit primário em 2024 com corte de cerca de 5 pontos do PIB, concentrado em aposentadorias, obra pública e transferências, com recessao e alta de pobreza no primeiro ano. Portugal e Irlanda ajustaram após 2011 e retomaram crescimento; a Grecia não. A variável que separa os casos e o quanto da economia depende de demanda interna.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 10,
+   "vt": "arriscada",
+   "vd": "O ajuste de 2015 foi abandonado em menos de um ano quando a recessão e a perda de base chegaram. R$ 250 bilhões ao ano é ordem de grandeza argentina — funciona fiscalmente e cobra custo social alto e sustentação política excepcional."
+  },
+  {
+   "id": "missao-03",
+   "titulo": "Agenda microeconomica do CDPP para produtividade",
+   "setor": "economia",
+   "subtema": "Produtividade e regulação",
+   "resumo": "Incorporar as propostas do caderno Caminhos do Desenvolvimento do CDPP: racionalização tributária, revisão da legislação trabalhista, regulação financeira e governança pública, para destravar competitividade e reverter a estagnação de produtividade.",
+   "citacao": "As reformas tangenciam quase todos os eixos estruturais da economia brasileira, passando por justiça tributária, legislação trabalhista, regulação financeira e governança pública;",
+   "econ": 2,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "reforma-tributaria-ec-132",
+    "reforma-trabalhista-2017",
+    "agenda-produtividade-bc",
+    "abertura-comercial-1990",
+    "chile-reformas-microeconomicas"
+   ],
+   "historico": {
+    "br": "A agenda microeconomica de produtividade e diagnóstico consensual há decadas e avançou pouco: a reforma tributária levou 30 anos, a trabalhista de 2017 não entregou o emprego prometido, e a abertura comercial parou em 1994. O Brasil tem produtividade praticamente estagnada desde os anos 1980, o problema que todo plano identifica e nenhum resolveu.",
+    "br_res": "fracassou",
+    "mundo": "O Chile fez o pacote microeconomico completo nos anos 1980-1990 e sustentou crescimento alto por duas decadas. A Australia fez reformas de produtividade nos anos 1980-1990 com consenso bipartidário. Onde funcionou, houve sequenciamento e continuidade por mais de um ciclo eleitoral; onde foi tentado em bloco e sem apoio, como no Peru dos anos 1990, gerou reversão.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 21,
+   "vt": "promissora",
+   "vd": "Chile e Austrália fizeram o pacote microeconômico completo e sustentaram crescimento por duas décadas, com sequenciamento e continuidade além de um ciclo eleitoral. O diagnóstico brasileiro é consensual há décadas e nunca virou execução."
+  },
+  {
+   "id": "missao-04",
+   "titulo": "Frentes Cidadas em substituição ao Bolsa Família",
+   "setor": "trabalho",
+   "subtema": "Assistência e trabalho",
+   "resumo": "Substituir integralmente o Bolsa Família por um programa de frentes de trabalho em que o beneficiário participa de projetos de bem público como contrapartida, com o objetivo declarado de inserir os beneficiários no mercado formal.",
+   "citacao": "Frentes Cidadãs: nossa proposta de reforma total do sistema de assistencialismo, substituindo o Bolsa A crise de capital humano merece destaque especial.",
+   "econ": 2,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "bolsa-familia-transferencia-condicionada",
+    "frentes-de-emergencia-seca",
+    "workfare-eua-1996",
+    "planes-trabajar-argentina",
+    "nrega-india",
+    "frente-trabalho-sp",
+    "renda-basica-maricha"
+   ],
+   "historico": {
+    "br": "Frentes de trabalho tem longa história no Brasil: as frentes de emergência contra a seca no Nordeste, usadas desde o Imperio, e a Frente de Trabalho paulista dos anos 1990. São lembradas por baixa produtividade das obras e por uso clientelista. O Bolsa Família já tem condicionalidades de saúde e educação e a Regra de Proteção permite manter meio benefício ao conseguir emprego. Substituir a transferência por trabalho obrigatório não tem precedente nacional em escala.",
+    "br_res": "parcial",
+    "mundo": "Os EUA converteram a assistência em workfare em 1996 (TANF): o emprego subiu no ciclo de expansão e a pobreza extrema infantil aumentou entre os que perderam o benefício. A Argentina operou os Planes Trabajar e o Jefes de Hogar após 2001, com boa cobertura emergencial e captura política posterior. O NREGA indiano garante 100 dias de trabalho por ano e e o maior programa do gênero, com evidência de redução de pobreza rural e de elevação do salário local, ao custo de fiscalização difícil.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 21,
+   "vt": "arriscada",
+   "vd": "As frentes de emergência contra a seca são lembradas por baixa produtividade e uso clientelista. O workfare americano de 1996 elevou emprego no ciclo de expansão e aumentou a pobreza extrema infantil entre os excluídos — troca de risco, não melhoria automática."
+  },
+  {
+   "id": "missao-05",
+   "titulo": "Direito Penal do Inimigo como framework jurídico",
+   "setor": "seguranca",
+   "subtema": "Doutrina penal",
+   "resumo": "Adotar no primeiro dia de mandato a doutrina do Direito Penal do Inimigo de Gunter Jakobs, criando dois regimes penais distintos: garantias plenas para o cidadão e medidas preventivas com penas desproporcionais para quem participa de forma duradoura de organização criminosa.",
+   "citacao": "o governo da Missão vai declarar no primeiro dia de mandato uma grande Guerra ao Crime, visando à adoção imediata do Direito Penal do Inimigo (DPI) como framework jurídico para o combate ao crime organizado no Brasil.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "direito-penal-inimigo-jakobs",
+    "lei-seguranca-nacional-1983",
+    "patriot-act-eua",
+    "guantanamo-combatente-inimigo",
+    "regime-excecao-bukele",
+    "lei-crimes-hediondos"
+   ],
+   "historico": {
+    "br": "O Direito Penal do Inimigo nunca foi adotado formalmente no Brasil, mas a lógica de regime penal excepcional aparece na Lei dos Crimes Hediondos (1990), no RDD (2003) e na Lei de Segurança Nacional (1983, revogada em 2021). O STF derrubou em 2006 a vedação a progressão de regime por violar a individualização da pena - o precedente que indica como a Corte tratária um regime penal de dois níveis.",
+    "br_res": "fracassou",
+    "mundo": "A doutrina de Jakobs e minoritária e criticada na própria Alemanha, onde nunca virou lei. Os EUA criaram o regime de combatente inimigo após 2001 e a Suprema Corte o limitou em Hamdan (2006) e Boumediene (2008); Guantanamo segue como passivo jurídico e reputacional. El Salvador opera regime de exceção desde 2022 com queda de homicídios e violações documentadas pela CIDH. Onde regimes de exceção foram criados, tenderam a se tornar permanentes.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 12,
+   "vt": "ja_falhou",
+   "vd": "A doutrina de Jakobs é minoritária e nunca virou lei na própria Alemanha. O STF derrubou em 2006 a vedação à progressão por violar individualização da pena — regime penal de dois níveis enfrentaria o mesmo precedente, e Guantánamo mostra o passivo."
+  },
+  {
+   "id": "missao-06",
+   "titulo": "Decretos sucessivos de Estado de Defesa em áreas de facção",
+   "setor": "seguranca",
+   "subtema": "Intervenção territorial",
+   "resumo": "Usar decretos de Estado de Defesa em série sobre áreas sob comando de facções para operações de retomada territorial, complementados por intervenção federal em estados com controle faccional e emprego das Forças Armadas em GLO com autorização de uso de força pesada.",
+   "citacao": "A implementação prática do DPI no Brasil se daria por sucessivos decretos de Estado de Defesa em áreas sob comando das facções para realização de operações de retomada territorial, que seriam em seguida amparadas por uma Lei Antifacção que determinaria:",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "intervencao-federal-rio-2018",
+    "glo-rio-2017",
+    "upp-rio",
+    "regime-excecao-bukele",
+    "estado-de-defesa-cf88",
+    "ocupacao-mare-2014",
+    "estado-sitio-colombia"
+   ],
+   "historico": {
+    "br": "O Estado de Defesa (art. 136) nunca foi decretado desde 1988. O Brasil usou GLO dezenas de vezes e a intervenção federal no Rio em 2018, que não alterou os indicadores de criminalidade de forma sustentada segundo avaliações do Observatório da Intervenção. A ocupação da Mare em 2014-2015 e as UPPs mostraram que a retomada territorial funciona enquanto há efetivo e financiamento, e reverte quando eles saem.",
+    "br_res": "fracassou",
+    "mundo": "El Salvador mantem estado de exceção renovado desde marco de 2022, com mais de 80 mil prisões e queda expressiva de homicídios, sob relatórios de prisões arbitrárias e mortes sob custodia. A Colombia usou estado de sitio por decadas sem eliminar os grupos armados. O Mexico militarizou a segurança desde 2006 e a violência aumentou. O caso salvadorenho e o único com resultado claro, num país de 6 milhões de habitantes e território pequeno.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 12,
+   "vt": "arriscada",
+   "vd": "O Estado de Defesa nunca foi decretado desde 1988 e a intervenção no Rio em 2018 não moveu indicador de forma sustentada. El Salvador é o único caso com resultado claro — num país de 6 milhões, com exceção renovada desde 2022 e violações documentadas."
+  },
+  {
+   "id": "missao-07",
+   "titulo": "Lei Antifacção com banimento judicial e perda de direitos",
+   "setor": "seguranca",
+   "subtema": "Legislação antifacção",
+   "resumo": "Lei que permite a polícia peticionar o banimento judicial de organizações criminosas, proibir seus simbolos, dissolver entidades infiltradas e retirar direitos políticos e civis, além de restringir a liberdade de locomoção, de individuos comprovadamente associados a facções classificadas.",
+   "citacao": "a retirada de direitos políticos, civis e a restrição de liberdade de locomoção para indivíduos comprovadamente associados às facções classificadas;",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "lei-12850-organizacao-criminosa",
+    "41-bis-italia",
+    "lei-antiterrorismo-13260",
+    "proscricao-organizacoes-reino-unido",
+    "ley-antimaras-el-salvador",
+    "rico-act-eua",
+    "pl-antifaccao-2025"
+   ],
+   "historico": {
+    "br": "A Lei 12.850/2013 já tipifica organização criminosa com penas somadas frequentemente severas. O PL Antifacção aprovado na Camara em novembro de 2025 teve a equiparação a terrorismo retirada pelo relator. Retirar direitos políticos e civis por filiação a organização esbarra no art. 15 da Constituição, que só admite suspensão de direitos políticos por condenação transitada em julgado, e a proibição de simbolos e associação colide com a liberdade de associação do art. 5.",
+    "br_res": "em_curso",
+    "mundo": "A Italia criou o crime de associação mafiosa em 1982 e a proscrição de organizações existe no Reino Unido para grupos terroristas desde 2000, com apelação judicial obrigatória. El Salvador aprovou leis antimaras em 2003 e 2004, ambas declaradas inconstitucionais pela própria Corte Suprema por punir por aparência e filiação presumida - o precedente mais próximo do que a proposta descreve, e ele fracassou juridicamente.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 12,
+   "vt": "arriscada",
+   "vd": "El Salvador aprovou leis antimaras em 2003 e 2004 e a própria Corte Suprema as derrubou por punir filiação presumida. Retirar direitos políticos por associação esbarra no art. 15, que só admite suspensão por condenação transitada em julgado."
+  },
+  {
+   "id": "missao-08",
+   "titulo": "Inversao do onus da prova no confisco de bens",
+   "setor": "seguranca",
+   "subtema": "Confisco",
+   "resumo": "Presumir a ilicitude do patrimônio de membros de facções, cabendo ao investigado provar a origem licita para evitar o confisco.",
+   "citacao": "a inversão do ônus da prova no confisco de bens, presumindo ilicitude até comprovação contrária por membros de facções.",
+   "econ": 0,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "confisco-alargado-lei-13964",
+    "asset-recovery-italia-antimafia",
+    "civil-forfeiture-eua",
+    "unexplained-wealth-orders-reino-unido",
+    "extincao-dominio-colombia"
+   ],
+   "historico": {
+    "br": "O confisco alargado já existe no Brasil desde o Pacote Anticrime (Lei 13.964/2019), com inversao parcial do onus para patrimônio incompatível com a renda em condenações por organização criminosa. A extensão a presunção geral de ilicitude por filiação enfrentária a presunção de inocência do art. 5, LVII.",
+    "br_res": "parcial",
+    "mundo": "A Italia usa medidas de prevenção patrimonial contra a mafia desde 1982, com onus atenuado, e a Agenzia Nazionale gere bilhões em bens apreendidos - o caso de maior sucesso. O Reino Unido criou as Unexplained Wealth Orders em 2017 e usou poucas vezes, com derrotas judiciais. A civil forfeiture americana e amplamente criticada por atingir pessoas nunca acusadas e por criar incentivo financeiro a polícia. O desenho italiano, com controle judicial forte, e o que sobreviveu.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 12,
+   "vt": "promissora",
+   "vd": "A Itália usa medidas patrimoniais contra a máfia desde 1982 com ônus atenuado e agência dedicada a gerir bens — é o desenho que sobreviveu. A civil forfeiture americana é o contraexemplo: atinge quem nunca foi acusado e cria incentivo financeiro à polícia."
+  },
+  {
+   "id": "missao-09",
+   "titulo": "Tribunais especializados, federalização e recursos sem efeito suspensivo",
+   "setor": "seguranca",
+   "subtema": "Processo penal",
+   "resumo": "Concentrar os casos de facção em tribunais especializados com juízes protegidos, federalizar todos os processos ligados a facções, impor prazos improrrogáveis de 30 e 60 dias e retirar o efeito suspensivo automático dos recursos.",
+   "citacao": "recursos sem efeito suspensivo automático; ▪ prazos exíguos improrrogáveis (30 dias em primeira instância, 60 em tribunais);",
+   "econ": 0,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "varas-especializadas-crime-organizado",
+    "juiz-sem-rosto-peru-colombia",
+    "ide-federalizacao-direitos-humanos",
+    "tribunales-especializados-el-salvador",
+    "execucao-segunda-instancia-stf"
+   ],
+   "historico": {
+    "br": "Varas especializadas em crime organizado existem em vários estados e o Brasil já tentou o juiz sem rosto, declarado inconstitucional. A federalização de casos só ocorre hoje por IDC em graves violações de direitos humanos, instrumento usado pouquissimas vezes. A execução após segunda instância foi admitida pelo STF em 2016 e revertida em 2019 - o precedente que mostra a instabilidade de retirar efeito suspensivo por via infraconstitucional.",
+    "br_res": "parcial",
+    "mundo": "O Peru e a Colombia usaram juízes sem rosto nos anos 1990 contra Sendero Luminoso e carteis; a Corte Interamericana condenou o Peru e os processos foram anulados em massa. El Salvador criou tribunais especializados com juízes anonimos em 2023. A Italia manteve juízes identificados com proteção pessoal e teve resultado sem violar garantias - o modelo com melhor sustentação jurídica.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 12,
+   "vt": "ja_falhou",
+   "vd": "Peru e Colômbia usaram juízes sem rosto nos anos 1990 e a Corte Interamericana condenou, com processos anulados em massa. A Itália obteve resultado mantendo juiz identificado com proteção pessoal — e o STF já reverteu a execução em segunda instância em 2019."
+  },
+  {
+   "id": "missao-10",
+   "titulo": "Superpresidios modelo CECOT com blindagem eletromagnética",
+   "setor": "seguranca",
+   "subtema": "Sistema prisional",
+   "resumo": "Deslocar liderancas condenadas para presídios de segurança máxima em regiões remotas no modelo do CECOT salvadorenho, com blindagem eletromagnética e biometria contínua, para neutralizar o comando das facções a partir do carcere.",
+   "citacao": "As lideranças condenadas serão deslocadas a superpresídios de segurança máxima em regiões remotas, no modelo do CECOT salvadorenho, equipados com blindagem eletromagnética e biometria contínua, neutralizando o comando das facções a partir do cárcere.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "cecot-el-salvador",
+    "presidios-federais-catanduvas",
+    "rdd-regime-disciplinar-diferenciado",
+    "41-bis-italia",
+    "supermax-adx-florence",
+    "bloqueadores-sinal-presidios"
+   ],
+   "historico": {
+    "br": "O Brasil tem cinco presídios federais de segurança máxima desde 2006, com pouco mais de 1.500 vagas, e o RDD desde 2003. Bloqueadores de sinal foram exigidos por lei e implantados de forma irregular por custo e por interferência em áreas vizinhas. Blindagem eletromagnética em escala não tem precedente nacional.",
+    "br_res": "parcial",
+    "mundo": "O CECOT salvadorenho foi erguido em cerca de sete meses para 40 mil detentos e e apontado como peça central da queda de homicídios; a CIDH e a Anistia Internacional documentaram mortes sob custodia e ausência de devido processo. A ADX Florence americana isola efetivamente e produz dano psiquiátrico documentado. O 41-bis italiano e o caso com melhor combinação de eficacia e controle judicial, e ainda assim recebe críticas da Corte Europeia.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 13,
+   "vt": "arriscada",
+   "vd": "O 41-bis italiano combina eficácia e controle judicial e ainda assim é criticado na corte europeia; o CECOT entrega números e vem com prisão em massa sem devido processo. O Brasil tem 1.500 vagas federais para 800 mil presos — a escala é o problema."
+  },
+  {
+   "id": "missao-11",
+   "titulo": "Drones, totens de denúncia e reconhecimento facial em tempo real",
+   "setor": "seguranca",
+   "subtema": "Tecnologia policial",
+   "resumo": "Sistema de patrulhamento autônomo por drones, totens de denúncia e reconhecimento facial em tempo real, integrado ao uso de dados genéticos para resolução de crimes hediondos.",
+   "citacao": "Um novo sistema de drones e totens de denúncia transformará a reação ao crime em prevenção, com patrulhamento autônomo e reconhecimento facial em tempo real, integrado ao uso de dados genéticos e identificação facial para a resolução de crimes hediondos.",
+   "econ": 0,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "reconhecimento-facial-bahia",
+    "reconhecimento-facial-erros-brasil",
+    "smart-sampa",
+    "banco-nacional-perfis-geneticos",
+    "reconhecimento-facial-proibicao-eua",
+    "ai-act-uniao-europeia",
+    "cameras-corporais-sp"
+   ],
+   "historico": {
+    "br": "A Bahia opera o maior programa de reconhecimento facial do país desde 2018 e São Paulo implantou o Smart Sampa em 2024. Há casos documentados de prisão equivocada de pessoas negras por falso positivo, levantados pela Defensoria e por centros de pesquisa. O uso de dados genéticos e regulado pela Lei 12.654/2012 e o banco nacional de perfis tem cobertura limitada.",
+    "br_res": "parcial",
+    "mundo": "O AI Act europeu (2024) restringiu reconhecimento facial em tempo real em espaco público a hipoteses excepcionais com autorização judicial. Várias cidades americanas proibiram a tecnologia, algumas revertendo depois. Londres opera videomonitoramento em larga escala com efeito comprovado sobre furto de veículo e efeito fraco sobre crime violento. A China e o único caso de uso irrestrito em escala nacional.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 13,
+   "vt": "arriscada",
+   "vd": "Bahia e Smart Sampa já operam com prisão equivocada de pessoas negras documentada. A UE restringiu reconhecimento facial em tempo real a hipóteses excepcionais com autorização judicial, e o uso irrestrito em escala nacional só existe na China."
+  },
+  {
+   "id": "missao-12",
+   "titulo": "Retomada de portos, aeroportos e fronteiras com scanners e asfixia financeira",
+   "setor": "seguranca",
+   "subtema": "Fronteiras e lavagem",
+   "resumo": "Reconquistar o controle estatal de portos, aeroportos e fronteiras secas com scanners tridimensionais e inteligência integrada, além de monitoramento aéreo, espacial e amazonico e mecanismos de asfixia financeira das facções.",
+   "citacao": "vamos reconquistar o controle estatal sobre portos, aeroportos e fronteiras secas com scanners tridimensionais e inteligência integrada;",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "sisfron",
+    "programa-vigia-fronteiras",
+    "escaneamento-portos-santos",
+    "coaf-lavagem",
+    "containerized-cargo-inspection-eua"
+   ],
+   "historico": {
+    "br": "O escaneamento de conteineres no Porto de Santos existe e cobre percentual pequeno da carga; o Sisfron cobre fração da fronteira prevista e o TCU apontou atraso. O COAF produz relatórios de inteligência financeira em volume crescente, e as operações de 2025 contra o PCC no setor de combustíveis mostraram capacidade nova de rastreio.",
+    "br_res": "parcial",
+    "mundo": "A Container Security Initiative americana, criada em 2002, inspeciona carga na origem em portos parceiros e e o modelo internacional. Roterda e Antuerpia ampliaram escaneamento após a explosao do tráfico de cocaína pela Europa e reconhecem que o gargalo passou a ser a corrupção portuária interna, e não o equipamento.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 13,
+   "vt": "promissora",
+   "vd": "Roterdã e Antuérpia escanearam pesado e descobriram que o gargalo virou corrupção portuária interna. Escaneamento e asfixia financeira atacam o alvo certo — o Sisfron, porém, recebeu fração do orçamento previsto e o TCU apontou subutilização."
+  },
+  {
+   "id": "missao-13",
+   "titulo": "Grande Consolidação Municipal: fusao de 5.570 para 1.656 municípios",
+   "setor": "estado",
+   "subtema": "Pacto federativo",
+   "resumo": "Programa federal de fusao de municípios inviáveis com base na tese dos amalgamas municipais da UFPB, reduzindo em até 70% o número de municípios, com quatro critérios de viabilidade (fiscal, geográfica, econômica e urbana), antigas sedes convertidas em distritos e transição cuidadosa no FPM.",
+   "citacao": "a possibilidade técnica de reduzir o número de municípios brasileiros em até 70%, de 5.570 para algo próximo de 1.656, combinando contiguidade geográfica, complementaridade econômica e capacidades fiscais entre municípios vizinhos da mesma unidade da federação.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "criacao-municipios-ec-15",
+    "pec-188-2019",
+    "fusao-municipios-dinamarca-2007",
+    "amalgamas-japao-heisei",
+    "fusao-municipios-nova-zelandia-auckland",
+    "emenda-fpm",
+    "plebiscito-emancipacao-municipal"
+   ],
+   "historico": {
+    "br": "O Brasil criou 1.400 municípios entre 1988 e 1997, até a EC 15/1996 exigir lei complementar que nunca foi editada, congelando novas emancipações. Nunca houve fusao de municípios no país. A PEC 188/2019 propos extinguir municípios com menos de 5 mil habitantes e arrecadação própria inferior a 10%, e não avançou - a resistência veio das bancadas municipalistas e do fato de que cada fusao elimina prefeitos, vereadores e cargos.",
+    "br_res": "fracassou",
+    "mundo": "A Dinamarca reduziu de 271 para 98 municípios em 2007 por lei nacional, com avaliações que mostram ganho administrativo e alguma perda de proximidade democrática. O Japao fez as grandes fusões Heisei entre 1999 e 2010, caindo de 3.232 para 1.727 municípios com incentivo financeiro. Auckland fundiu oito entes em 2010. A lição comum e que fusao só ocorre quando o governo central a impoe ou paga muito por ela - a adesao voluntária e quase nula.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 15,
+   "vt": "promissora",
+   "vd": "Dinamarca em 2007 e Japão nas fusões Heisei reduziram municípios com ganho administrativo mensurável. A lição é dura para a proposta: fusão só acontece quando o governo central impõe ou paga muito — adesão voluntária é quase nula, e a PEC 188 não andou."
+  },
+  {
+   "id": "missao-14",
+   "titulo": "Lei de Responsabilidade Gerencial e Comissariado Federal de Gestão Pública",
+   "setor": "estado",
+   "subtema": "Gestão pública",
+   "resumo": "Criar autarquia especial vinculada a Fazenda, com mandatos fixos no modelo do Banco Central, que aloca Comissários Municipais no território para fiscalizar em tempo real a aplicação de recursos federais, sob um Marco Gerencial Nacional de metas setoriais, integridade e eficiência fiscal.",
+   "citacao": "Criação do Comissariado Federal de Gestão Pública: Uma autarquia especial vinculada ao Ministério da Fazenda, com autonomia técnica e mandatos fixos, inspirada na independência do Banco Central.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "lei-responsabilidade-fiscal-2000",
+    "autonomia-banco-central-lc-179",
+    "capag-tesouro",
+    "controle-interno-cgu",
+    "local-government-oversight-reino-unido",
+    "emergency-manager-michigan",
+    "intervencao-fiscal-rj-regime-recuperacao"
+   ],
+   "historico": {
+    "br": "A Lei de Responsabilidade Fiscal (2000) e o precedente brasileiro de imposição de padrões fiscais a entes subnacionais e funcionou para conter endividamento. A CAPAG do Tesouro já classifica municípios por capacidade de pagamento e condiciona garantias. Nunca houve, porém, fiscalização federal in loco e em tempo real sobre execução municipal - a Constituição reserva o controle externo aos Tribunais de Contas estaduais.",
+    "br_res": "parcial",
+    "mundo": "Michigan operou o Emergency Manager, que substituia a administração local em cidades insolventes: aplicado a Detroit e a Flint, e associado a crise da água de Flint, virou simbolo do custo democrático do modelo e foi revisto. O Reino Unido envia comissários a conselhos locais falidos, com resultados fiscais e forte atrito político. O regime de recuperação fiscal do Rio de Janeiro e o analogo brasileiro, com resultado parcial.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 18,
+   "vt": "arriscada",
+   "vd": "A LRF provou que dá para impor padrão fiscal a ente subnacional. Fiscalização federal in loco é outra coisa: a Constituição reserva controle externo ao TCE, e o Emergency Manager de Michigan virou símbolo do custo democrático do modelo depois de Flint."
+  },
+  {
+   "id": "missao-15",
+   "titulo": "Tutela Gerencial, cassação por improbidade gerencial e inelegibilidade",
+   "setor": "estado",
+   "subtema": "Responsabilização",
+   "resumo": "Escalada de consequências para municípios com mau desempenho: dupla assinatura de prefeito e comissário para gastos, inelegibilidade superveniente e cassação por improbidade gerencial julgada pelos Tribunais de Justiça.",
+   "citacao": "Municípios com desempenho crítico entrarão em Tutela Gerencial, exigindo dupla assinatura (Prefeito e Comissário) para gastos.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "lei-ficha-limpa",
+    "lei-improbidade-14230",
+    "emergency-manager-michigan",
+    "decreto-lei-201-1967",
+    "contas-rejeitadas-tce"
+   ],
+   "historico": {
+    "br": "O Decreto-Lei 201/1967 já preve crimes de responsabilidade de prefeito e a Lei de Improbidade foi restringida pela Lei 14.230/2021, que exigiu dolo específico e reduziu drasticamente as condenações. A Ficha Limpa (LC 135/2010) já produz inelegibilidade por rejeição de contas. Criar inelegibilidade por indicador de gestão, e não por conduta ilicita, seria inédito e de constitucionalidade duvidosa.",
+    "br_res": "parcial",
+    "mundo": "Nenhuma democracia consolidada torna gestor inelegível por desempenho de indicador. O que existe e intervenção administrativa (Michigan, Reino Unido) ou perda de repasse. A responsabilização por resultado costuma ocorrer pela eleição, e a literatura mostra que informação pública sobre desempenho municipal - como as auditorias sorteadas da CGU no Brasil - afeta a reeleição.",
+    "mundo_res": "inconclusivo",
+    "conf": "alta"
+   },
+   "pagina": 18,
+   "vt": "arriscada",
+   "vd": "Nenhuma democracia consolidada torna gestor inelegível por indicador de desempenho — só por conduta ilícita. O que a evidência sustenta é informação pública sobre desempenho afetando a reeleição, como nas auditorias sorteadas da CGU."
+  },
+  {
+   "id": "missao-16",
+   "titulo": "Clausula Antimafia: dissolução de prefeituras capturadas pelo crime",
+   "setor": "estado",
+   "subtema": "Responsabilização",
+   "resumo": "Inspirada na legislação italiana, permitiria ao STJ decretar a dissolução imediata de administrações municipais capturadas por crime organizado ou milícias, extinguindo mandatos e entregando o município a uma comissão extraordinária federal por até 24 meses.",
+   "citacao": "Cláusula Antimáfia: Inspirada na legislação italiana, a lei permitirá ao STJ decretar a dissolução imediata de administrações capturadas pelo crime organizado ou milícias.",
+   "econ": 0,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "scioglimento-comuni-mafia-italia",
+    "intervencao-federal-cf88",
+    "cassacao-prefeitos-tse",
+    "milicias-rio-cpi"
+   ],
+   "historico": {
+    "br": "A intervenção federal em município não existe na Constituição brasileira: a União só intervem em Estados e o Estado em seus municípios, em hipoteses taxativas do art. 35. Dissolver camaras e prefeituras por captura criminosa exigiria emenda. A CPI das Milícias (2008) documentou captura de administrações no Rio sem que houvesse instrumento para dissolve-las.",
+    "br_res": "inedito",
+    "mundo": "A Italia usa desde 1991 o scioglimento dei consigli comunali per infiltrazione mafiosa: mais de 350 camaras municipais foram dissolvidas por decreto, com administração por comissão por 12 a 24 meses. Avaliações mostram redução de contratos suspeitos no período e recaptura frequente depois que a comissão sai. E o modelo que a proposta cita, e o próprio caso italiano mostra que sem substituição da elite política local o efeito e temporário.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 18,
+   "vt": "promissora",
+   "vd": "A Itália dissolveu mais de 350 câmaras municipais por infiltração mafiosa desde 1991, com redução de contrato suspeito no período. O próprio caso italiano mostra o limite: sem substituir a elite política local, a recaptura vem depois que a comissão sai."
+  },
+  {
+   "id": "missao-17",
+   "titulo": "Fundo Partidário e Fundo Eleitoral vinculados a qualidade gerencial",
+   "setor": "estado",
+   "subtema": "Sistema político",
+   "resumo": "Calcular o repasse do Fundo Partidário e do Fundo Eleitoral conforme a qualidade gerencial dos mandatários eleitos pelo partido, premiando legendas com bons gestores e retendo recursos de quem sustenta prefeitos cassados ou com indicadores críticos.",
+   "citacao": "O repasse do Fundo Partidário e do Fundo Eleitoral passará a ser calculado com base na qualidade gerencial dos mandatários. Partidos que selecionarem e mantiverem gestores competentes serão premiados;",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "fundo-eleitoral-2017",
+    "clausula-desempenho-ec-97",
+    "adi-1351-clausula-barreira",
+    "financiamento-publico-alemanha"
+   ],
+   "historico": {
+    "br": "O Fundo Eleitoral foi criado em 2017 após o STF proibir doação empresarial (ADI 4650, 2015) e a distribuição segue critério de bancada. A clausula de desempenho da EC 97/2017 já e um filtro por votos; o STF já derrubou clausula de barreira em 2006 (ADI 1351) por violar o pluripartidarismo. Vincular repasse a desempenho gerencial de prefeitos seria inédito e provavelmente questionado pelo mesmo fundamento.",
+    "br_res": "inedito",
+    "mundo": "A Alemanha vincula financiamento público partidário a votos e a doações recebidas, criando incentivo a base social. Nenhum país vincula financiamento partidário a indicador de gestão de prefeitos eleitos pela legenda. E uma proposta sem precedente conhecido, o que significa também que não há evidência sobre seus efeitos.",
+    "mundo_res": "inedito",
+    "conf": "media"
+   },
+   "pagina": 18,
+   "vt": "sem_precedente",
+   "vd": "Nenhum país vincula financiamento partidário a indicador de gestão de prefeitos eleitos pela legenda. O STF já derrubou cláusula de barreira em 2006 por violar o pluripartidarismo — e não há evidência sobre efeitos porque ninguém tentou."
+  },
+  {
+   "id": "missao-18",
+   "titulo": "Missao Rondon: investimento estatal em infraestrutura condicionado a reforma",
+   "setor": "cidade",
+   "subtema": "Infraestrutura",
+   "resumo": "Programa de infraestrutura com seis diretrizes: aumento do investimento estatal condicionado a reforma administrativa e fiscal previa, mobilização de capital privado por concessões, PPPs e autorização ferroviária, capacitação de engenheiros municipais, reforma das licitações, licenciamento acelerado e integração de EVTEA e EIA desde a pre-viabilidade.",
+   "citacao": "1 aumento do investimento estatal em infraestrutura, condicionado à reforma administrativa e fiscal prévia; 2 mobilização do capital privado por concessões, PPPs e o novo regime de autorização ferroviária;",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pac-2007",
+    "obras-paralisadas-tcu",
+    "lei-14133-licitacoes",
+    "concessoes-rodoviarias-brasil",
+    "ppp-lei-11079",
+    "autorizacao-ferroviaria-lei-14273",
+    "infraestrutura-chile-concessoes"
+   ],
+   "historico": {
+    "br": "O PAC (2007) e o PIL (2012) prometeram investimento sem resolver a execução: o TCU registra mais de 11 mil empreendimentos federais paralisados, e um acórdão de 2019 atribuiu 80% das paralisações a falha técnica, abandono da contratada ou restrição orçamentária. A Lei 14.133/2021 modernizou licitações com dialogo competitivo e seguro-garantia, ainda em maturação. O gargalo identificado por todos os diagnósticos e projeto executivo de qualidade, não dinheiro.",
+    "br_res": "parcial",
+    "mundo": "O Chile sustenta um sistema de concessões de infraestrutura desde os anos 1990 com avaliação ex-ante obrigatória (Sistema Nacional de Inversiones) que barra projeto sem retorno - o filtro que o Brasil não tem. O Reino Unido criou a Infrastructure and Projects Authority para o mesmo fim. Onde há avaliação independente previa e obrigatória, a taxa de obra abandonada cai.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 24,
+   "vt": "promissora",
+   "vd": "O Chile barra projeto sem retorno com avaliação ex-ante obrigatória, e é esse filtro que o Brasil não tem. O TCU aponta 80% das paralisações em falha técnica e abandono da contratada: o gargalo é projeto executivo, não volume de dinheiro."
+  },
+  {
+   "id": "missao-19",
+   "titulo": "Meta de 40 mil km de ferrovias, Ferrograo e Transoceanica",
+   "setor": "cidade",
+   "subtema": "Infraestrutura",
+   "resumo": "Meta mínima de 40 mil km de malha ferroviária, com conclusao antecipada da Alcantara-Acailandia e da FIOL, início imediato das obras da Ferrograo e viabilização da Ferrovia Transoceanica.",
+   "citacao": "Ferrovias: meta mínima de 40 mil km de malha; conclusão antecipada da Ferrovia Alcântara-Açailândia, conclusão da Ferrovia de Integração Oeste-Leste (FIOL), início imediato das obras da Ferrogrão e viabilização da Ferrovia Transoceânica.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "ferrogrão-licenciamento",
+    "fiol-obras",
+    "transnordestina",
+    "ferrovia-transoceanica-china",
+    "privatizacao-rffsa",
+    "desestatizacao-malha-ferroviaria"
+   ],
+   "historico": {
+    "br": "O Brasil tem cerca de 30 mil km de ferrovia e promete expansão há decadas: a Transnordestina se arrasta por mais de 15 anos, a Ferrograo está suspensa por questionamento judicial e ambiental desde 2021, a FIOL avanca por trechos. O regime de autorização ferroviária (Lei 14.273/2021) atraiu dezenas de requerimentos e poucos quilometros construidos. Meta de 40 mil km em um horizonte de governo não tem paralelo na história brasileira.",
+    "br_res": "fracassou",
+    "mundo": "Os EUA desregularam a carga ferroviária com o Staggers Act (1980) e a participação do modal cresceu de forma sustentada, sem construção de rede nova relevante. A China construiu a maior malha do mundo com dinheiro estatal e endividamento elevado da estatal ferroviária. A ferrovia transoceanica sul-americana e discutida com a China há mais de uma decada sem projeto executivo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 24,
+   "vt": "ja_falhou",
+   "vd": "O Brasil tem 30 mil km e a Transnordestina se arrasta há mais de quinze anos. Quarenta mil km em horizonte de governo não tem paralelo na história brasileira — e os EUA cresceram no modal desregulando, sem construir rede nova."
+  },
+  {
+   "id": "missao-20",
+   "titulo": "Licença Ambiental Especial e implementação plena da Lei 15.190/2025",
+   "setor": "ambiente",
+   "subtema": "Licenciamento",
+   "resumo": "Aplicar integralmente a Lei Geral do Licenciamento Ambiental com uso ostensivo da Licença Ambiental Especial, que preve equipe técnica dedicada, para acelerar projetos estratégicos como a BR-319 e a exploração mineral.",
+   "citacao": "licenciamento ambiental: implementação plena da Lei Geral do Licenciamento Ambiental (Lei nº 15.190/2025, oriunda do PL 2159/2021), com uso ostensivo da Licença Ambiental Especial (LAE) — cuja principal inovação frente ao rito ordinário é a equipe técnica permanentemente dedicada à análise — para acelerar projetos estratégicos;",
+   "econ": 2,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "lei-geral-licenciamento-15190",
+    "pl-2159-devastacao",
+    "licenciamento-br-319",
+    "resolucao-conama-237",
+    "licenciamento-simplificado-estados",
+    "nepa-reforma-eua"
+   ],
+   "historico": {
+    "br": "A Lei 15.190/2025 (Lei Geral do Licenciamento) foi aprovada após anos de tramitação do PL 2159/2021, com vetos presidenciais a dispositivos de autolicenciamento e derrubada parcial no Congresso. E norma nova demais para avaliação. O histórico anterior mostra que licenciamento simplificado por resolução estadual gerou judicialização e insegurança - o oposto do efeito pretendido.",
+    "br_res": "em_curso",
+    "mundo": "Os EUA reformaram o NEPA em 2023 impondo prazos e limite de paginas ao estudo ambiental, com resultado ainda em disputa nos tribunais. Portugal opera licenciamento por nível de risco com prazos legais e equipe dedicada, modelo próximo da Licença Ambiental Especial proposta. A evidência internacional e de que prazo funciona quando vem com equipe técnica; sem equipe, o prazo apenas transfere o problema para o Judiciário.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 24,
+   "vt": "arriscada",
+   "vd": "A lei é de 2025, nova demais para avaliação, e o histórico de licenciamento simplificado por resolução estadual é de judicialização. Portugal mostra que prazo funciona com equipe técnica dedicada; sem equipe, o prazo empurra o problema para o Judiciário."
+  },
+  {
+   "id": "missao-21",
+   "titulo": "Marco regulatório da transmissão e retomada de Angra 3",
+   "setor": "ambiente",
+   "subtema": "Energia",
+   "resumo": "Novo marco de transmissão para eliminar o curtailment de 26% da energia renovável do Nordeste, retomada decisiva das obras de Angra 3, exploração de hidrogenio verde com abertura para a bacia amazonica e atenção a fusao nuclear.",
+   "citacao": "Energia: marco regulatório da transmissão de energia, com desbloqueio do gargalo que hoje impõe curtailment massivo ao Nordeste, retomada decisiva das obras de Angra 3, exploração do hidrogênio verde com abertura para a bacia amazônica, e atenção à fusão nuclear.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "angra-3",
+    "curtailment-nordeste",
+    "leiloes-transmissao-aneel",
+    "hidrogenio-verde-pecem",
+    "politica-nuclear-brasil",
+    "energiewende-alemanha"
+   ],
+   "historico": {
+    "br": "Angra 3 está parada desde 2015 após consumir bilhões e teve decisões de retomada revertidas mais de uma vez; o acordo nuclear com a Alemanha de 1975 previa oito usinas e entregou uma. O curtailment de renováveis no Nordeste e problema reconhecido pelo ONS e decorre de leilões de transmissão dessincronizados da geração - falha de planejamento, não de marco legal.",
+    "br_res": "parcial",
+    "mundo": "A Alemanha investiu pesadamente em renováveis pela Energiewende e enfrentou o mesmo gargalo de transmissão norte-sul por mais de uma decada, com custo de redespacho na casa de bilhões de euros. O Texas resolveu parcialmente com as linhas CREZ, construidas antecipadamente por decisão regulatoria. A lição e que transmissão precisa ser leiloada antes da geração, e não depois.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 24,
+   "vt": "promissora",
+   "vd": "O curtailment no Nordeste vem de leilão de transmissão dessincronizado da geração — falha de planejamento com solução conhecida, e o Texas resolveu construindo linha antes. Angra 3 é outra história: parada desde 2015 com bilhões consumidos e retomadas revertidas."
+  },
+  {
+   "id": "missao-22",
+   "titulo": "ENER: fila viva do SUS por estratificação de risco",
+   "setor": "saude",
+   "subtema": "Acesso e filas",
+   "resumo": "Substituir a fila cronológica por uma Escala Nacional de Estratificação de Risco com cinco critérios: gravidade clinica atual, risco de progressão, impacto funcional, vulnerabilidade social e tempo acumulado de espera.",
+   "citacao": "criar a ENER, um sistema de fila viva, que não fique engessado na ordem cronológica, mas atenda critérios objetivos de prioridade relativos ao estado do paciente.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "regulacao-filas-sus-sisreg",
+    "classificacao-risco-manchester",
+    "tempo-maximo-espera-reino-unido",
+    "garantia-tempo-espera-portugal",
+    "fila-unica-mais-acesso"
+   ],
+   "historico": {
+    "br": "O SUS já regula filas por risco no Sisreg e usa a classificação de Manchester nas urgências, mas a fila eletiva e gerida localmente, sem transparência ao paciente. O Agora Tem Especialistas (2025) e a primeira tentativa nacional de fila única ordenada por risco. Critérios de vulnerabilidade social na priorização clinica são juridicamente sensíveis e pouco testados no país.",
+    "br_res": "em_curso",
+    "mundo": "O Reino Unido reduziu a espera máxima de 18 meses para 18 semanas entre 2000 e 2008 com meta legal, dinheiro novo e públicação por hospital, e perdeu o ganho quando o financiamento parou. Portugal opera garantia de tempo máximo desde 2004. Nova Zelandia e Suecia usam escores clinicos de priorização há decadas. O que funciona e escore clinico transparente mais capacidade adicional; escore sem capacidade só reordena a mesma fila.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 25,
+   "vt": "forte",
+   "vd": "Nova Zelândia e Suécia usam escore clínico de priorização há décadas e o Reino Unido cortou espera de 18 meses para 18 semanas. O critério de vulnerabilidade social dentro da fila clínica é a parte juridicamente frágil e pouco testada."
+  },
+  {
+   "id": "missao-23",
+   "titulo": "Sistema digital de saúde inspirado no DoctorSV de El Salvador",
+   "setor": "saude",
+   "subtema": "Saúde digital",
+   "resumo": "Criar sistema digital que combine telemedicina, diagnóstico por IA, monitoramento clinico e histórico permanente, testado em piloto e depois nacional, inspirado no DoctorSV salvadorenho, com vigilância epidemiológica preditiva em tempo real.",
+   "citacao": "Criação de um sistema digital de saúde, que combine telemedicina, diagnósticos por IA, monitoramento clínico e histórico permanente, inspirado no DoctorSV, de El Salvador.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "telessaude-brasil-redes",
+    "conecte-sus",
+    "doctorsv-el-salvador",
+    "estonia-e-health",
+    "nhs-digital-fracasso-npfit"
+   ],
+   "historico": {
+    "br": "O Telessaude Brasil Redes existe desde 2007 e a telemedicina foi regulamentada em definitivo pela Lei 14.510/2022 após o uso emergencial na pandemia. O Conecte SUS avançou com o certificado de vacinação. Não há, porém, plataforma nacional que integre triagem, laboratório, farmácia e imagem como propoe o modelo salvadorenho.",
+    "br_res": "parcial",
+    "mundo": "O DoctorSV salvadorenho e recente e ainda sem avaliação independente robusta. A Estonia opera saúde digital integrada desde 2008 e e o padrão. O Reino Unido cancelou em 2011 o National Programme for IT com perda de cerca de 10 bilhões de libras. O padrão internacional e claro: interoperabilidade por padrão aberto funciona; sistema único monolítico centralizado fracassa.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 26,
+   "vt": "arriscada",
+   "vd": "O DoctorSV é recente e ainda sem avaliação independente robusta — apostar nele como modelo é apostar em promessa. A Estônia é o padrão que existe, e o fracasso britânico de 10 bilhões de libras é o alerta contra o sistema único monolítico."
+  },
+  {
+   "id": "missao-24",
+   "titulo": "PRONTO: prontuário eletrônico nacional interoperável",
+   "setor": "saude",
+   "subtema": "Saúde digital",
+   "resumo": "Prontuário eletrônico único conectando atenção primária, serviços especializados, hospitais públicos e privados, laboratórios e farmácias, acessível a qualquer tempo e integrado ao sistema digital de saúde.",
+   "citacao": "Criação do PRONTO (Prontuário Eletrônico Nacional Interoperável) que irá conectar a atenção primária, os serviços especializados, os hospitais públicos e privados, laboratórios e farmácias, servindo de repositório para todas as informações do paciente acessíveis a qualquer tempo.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "rnds-rede-nacional-dados-saude",
+    "conecte-sus",
+    "nhs-digital-fracasso-npfit",
+    "estonia-e-health",
+    "prontuario-eletronico-cidadao-esus"
+   ],
+   "historico": {
+    "br": "O Brasil persegue prontuário único desde o Cartao SUS (1999). O e-SUS APS cobre bem a atenção primária; a RNDS avançou na pandemia e a integração com hospitais e com a rede privada segue parcial. O obstáculo e menos técnico e mais de governança de dados e de adesao de estabelecimentos.",
+    "br_res": "em_curso",
+    "mundo": "A Estonia opera prontuário nacional interoperável sobre o X-Road com consentimento e trilha de auditoria. A Dinamarca tem o sundhed.dk. O fracasso britanico do NPfIT e o alerta permanente. Todos os casos bem-sucedidos partiram de identidade digital única já consolidada - condição que o Brasil tem com o CPF e o Gov.br.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 26,
+   "vt": "forte",
+   "vd": "Interoperabilidade por padrão aberto funciona — Estônia desde 2008, Dinamarca há anos. O Brasil já tem identidade digital consolidada no CPF e no Gov.br, que é a pré-condição que faltou a quem fracassou."
+  },
+  {
+   "id": "missao-25",
+   "titulo": "Banco genômico nacional a partir do Genomas Brasil",
+   "setor": "saude",
+   "subtema": "Ciência e saúde",
+   "resumo": "Integrar o Programa Genomas Brasil ao prontuário eletrônico do SUS para criar o maior banco de dados genômicos da América Latina e liderar globalmente a genomica de populações miscigenadas, com plataforma nacional de mRNA para vacinas e terapias.",
+   "citacao": "criação do maior banco de dados genômicos da América Latina a partir do projeto Genomas Brasil.",
+   "econ": 0,
+   "social": 0,
+   "peso": 1,
+   "precedentes": [
+    "genomas-brasil",
+    "uk-biobank",
+    "all-of-us-eua",
+    "biobanco-islandia-decode",
+    "lgpd-dados-sensiveis",
+    "plataforma-mrna-fiocruz"
+   ],
+   "historico": {
+    "br": "O Genomas Brasil foi lançado em 2020 com meta de sequenciar 100 mil genomas e avançou pouco por financiamento intermitente. A Fiocruz nacionalizou o IFA da vacina de Oxford, o caso de maior sucesso recente em biotecnologia pública. A integração de dados genômicos ao prontuário esbarra na LGPD, que trata dado genético como sensível.",
+    "br_res": "em_curso",
+    "mundo": "O UK Biobank (500 mil participantes) e o All of Us americano (mais de 1 milhão) são os padrões globais e levaram mais de uma decada cada. A Islandia com a deCODE criou o precedente mais citado e também a maior polemica jurídica: a Corte Suprema islandesa anulou em 2003 o banco de dados nacional de saúde por violação de privacidade. Consentimento e o ponto que define o sucesso.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 26,
+   "vt": "arriscada",
+   "vd": "UK Biobank e All of Us levaram mais de uma década cada. O alerta é islandês: a Corte Suprema anulou o banco nacional de saúde da deCODE em 2003 por violação de privacidade — consentimento define o sucesso, e a LGPD trata dado genético como sensível."
+  },
+  {
+   "id": "missao-26",
+   "titulo": "Modelo hub-and-spoke e FNMA com repasse por desempenho",
+   "setor": "saude",
+   "subtema": "Organização da rede",
+   "resumo": "Concentrar a alta complexidade em centros regionais de referência impedindo seu uso para demanda primária, e criar o Fundo Nacional de Modernização do Acesso com repasses a municípios condicionados a desempenho, com meta de 80% de resolução na atenção primária.",
+   "citacao": "Adoção do modelo Hub-and-Spoke com o objetivo de dirimir a descoordenação na atuação dos municípios, concentrando demandas mais complexas nos centros regionais de referência, impedindo que sejam utilizados para demandas difusas e primárias.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "regionalizacao-sus-pactos",
+    "previne-brasil-financiamento",
+    "p4p-reino-unido-qof",
+    "hub-and-spoke-inglaterra-avc",
+    "cir-comissoes-intergestores"
+   ],
+   "historico": {
+    "br": "O SUS já e regionalizado por pactos e comissões intergestores desde 2006 e o modelo hub-and-spoke e a lógica formal da rede - o que falha e o cumprimento, com municípios pequenos sem atenção primária resolutiva empurrando demanda ao hospital regional. O Previne Brasil (2019) introduziu pagamento por desempenho na atenção primária e foi revisto em 2023 por críticas ao desenho dos indicadores.",
+    "br_res": "parcial",
+    "mundo": "A Inglaterra centralizou o atendimento de AVC em Londres em oito centros hiperagudos e reduziu mortalidade de forma comprovada - o caso mais forte de hub-and-spoke. O QOF britanico pagou por desempenho na atenção primária por quase duas decadas, com ganho inicial e efeito decrescente. Concentrar alta complexidade funciona; pagamento por desempenho funciona pouco depois dos primeiros anos.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 26,
+   "vt": "forte",
+   "vd": "A Inglaterra concentrou AVC em oito centros hiperagudos em Londres e reduziu mortalidade de forma comprovada. O QOF britânico, em contrapartida, mostra que pagamento por desempenho rende no início e decai — concentrar funciona melhor que premiar."
+  },
+  {
+   "id": "missao-27",
+   "titulo": "Isenção fiscal para atividades esportivas",
+   "setor": "saude",
+   "subtema": "Prevenção",
+   "resumo": "Plano de isenções fiscais vinculadas a atividades esportivas, como compensação tributária para o cuidado com a saúde física.",
+   "citacao": "Elaboração de um plano de isenções fiscais com atividades esportivas. LI V R O A M A R E L O - M I SSÃ O 2 0 2 6 27 CHEGA DE SAUDADE Cultura e Imprensa O PROBLEMA EM NÚMEROS A RESPOSTA DA MISSÃO O título deste capítulo não é casual.",
+   "econ": 1,
+   "social": 0,
+   "peso": 1,
+   "precedentes": [
+    "lei-incentivo-ao-esporte",
+    "deducao-academia-ir-debate",
+    "imposto-refrigerante-mexico",
+    "incentivo-fitness-alemanha"
+   ],
+   "historico": {
+    "br": "A Lei de Incentivo ao Esporte (11.438/2006) já permite dedução fiscal para projetos esportivos, com concentração em grandes entidades. A dedução de academia no IR e proposta recorrente no Congresso e nunca aprovada, por custo fiscal e por concentrar benefício em quem já declara IR.",
+    "br_res": "parcial",
+    "mundo": "A Alemanha e vários paises europeus subsidiam clubes esportivos comunitários, e não o consumo individual. O Mexico foi na direção oposta e taxou refrigerantes em 2014, com queda mensurável de consumo - a evidência e mais forte para tributar o comportamento nocivo do que para isentar o saudável. Incentivo fiscal a academia tende a ser regressivo.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 26,
+   "vt": "arriscada",
+   "vd": "Dedução de academia é proposta recorrente no Congresso e nunca aprovada por custo fiscal e por concentrar benefício em quem já declara IR. O México taxou refrigerante em 2014 com queda medida de consumo — tributar o nocivo tem evidência mais forte que isentar o saudável."
+  },
+  {
+   "id": "missao-28",
+   "titulo": "Reforma da Lei Rouanet com teto de captação e cota para novos talentos",
+   "setor": "cultura",
+   "subtema": "Fomento",
+   "resumo": "Manter o fomento mas sanear a Lei Rouanet: critérios objetivos publicizados, públicação integral dos pareceres técnicos, teto progressivo de captação para artistas e produtoras de alto faturamento e reserva mínima de orçamento para primeira obra e pequenos projetos.",
+   "citacao": "teto progressivo de captação para artistas e produtoras com alto faturamento; categorias específicas para artistas iniciais e projetos de pequeno porte",
+   "econ": 1,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "lei-rouanet-8313",
+    "procultura-pl",
+    "teto-rouanet-2019",
+    "lei-aldir-blanc",
+    "lei-paulo-gustavo",
+    "fomento-cultural-franca-cnc"
+   ],
+   "historico": {
+    "br": "A Lei Rouanet (8.313/1991) foi alterada dezenas de vezes por instrução normativa; o teto de captação por proponente foi imposto em 2017 e endurecido em 2019, com redução de valores e queda de projetos aprovados. O ProCultura, que substituiria a Rouanet por fundo, tramitou de 2009 a 2016 e foi arquivado. A crítica técnica principal permanece: a decisão de quais projetos captam e do patrocinador, e não do Estado nem do público.",
+    "br_res": "parcial",
+    "mundo": "A Franca financia cultura sobretudo por orçamento direto e por taxa sobre bilhetes e streaming (CNC), com forte produção nacional. O Reino Unido usa loteria nacional. O modelo de renúncia fiscal com escolha do patrocinador, adotado pelo Brasil, e raro justamente porque concentra recursos onde há retorno de marca. Onde há edital público com critério, a distribuição e mais equilibrada.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "citacao_aprox": true,
+   "vt": "promissora",
+   "vd": "O teto de captação foi imposto em 2017 e endurecido em 2019, com efeito real sobre concentração. A crítica técnica permanece e a proposta não a enfrenta: quem decide qual projeto capta é o patrocinador, não o Estado nem o público."
+  },
+  {
+   "id": "missao-29",
+   "titulo": "Reforma do IPHAN e da política de tombamentos",
+   "setor": "cultura",
+   "subtema": "Patrimônio",
+   "resumo": "Modernizar a legislação de tombamento, registro e inventário e a governança do IPHAN, considerada excessivamente judiciosa e generosa, com inspiração explicita no plano de governo de Arthur do Val para a prefeitura de São Paulo em 2020.",
+   "citacao": "Modernização da legislação que estabelece os instrumentos de tombamento, registro, inventário e que rege o funcionamento do IPHAN. Conjugado a isso, propomos melhorias na gestão do instituto.",
+   "econ": 1,
+   "social": 1,
+   "peso": 1,
+   "precedentes": [
+    "decreto-lei-25-1937-tombamento",
+    "tombamento-excessivo-debate-sp",
+    "iphan-orcamento",
+    "historic-preservation-eua-critica",
+    "yimby-reforma-zoneamento"
+   ],
+   "historico": {
+    "br": "O tombamento e regido pelo Decreto-Lei 25/1937, praticamente inalterado. A crítica ao excesso de tombamentos foi central no plano de Arthur do Val em 2020, citado explicitamente pelo documento. O IPHAN opera com orçamento reduzido e passivo de imóveis tombados em ruina - a crítica de excesso convive com a de abandono do que já foi tombado.",
+    "br_res": "parcial",
+    "mundo": "Nos EUA, a crítica ao historic preservation como instrumento de bloqueio a construção e central no movimento YIMBY, e cidades como Minneapolis e estados como a California reformaram zoneamento para permitir densidade. O Japao preserva pouco e reconstroi muito. Há evidência de que preservação excessiva eleva preço de imóvel e reduz oferta habitacional, e também de que sua remoção acelera demolição de patrimônio real.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 28,
+   "vt": "arriscada",
+   "vd": "A crítica ao excesso de tombamento convive com o abandono do que já foi tombado — o Museu Nacional queimou por falha de manutenção, não por rigidez. Há evidência de que preservação excessiva encarece moradia e de que sua remoção acelera demolição de patrimônio real."
+  },
+  {
+   "id": "missao-30",
+   "titulo": "Cinema com critério de viabilidade comercial e reforma do IBRAM",
+   "setor": "cultura",
+   "subtema": "Audiovisual e museus",
+   "resumo": "Alterar editais do audiovisual para dar mais peso a viabilidade comercial dos filmes e reformar o IBRAM com descontingenciamento de folha e parcerias com organizações sociais.",
+   "citacao": "Reformulação do papel do mercado no cinema nacional, com alteração de editais para conferir maior peso à viabilidade comercial dos filmes produzidos no Brasil. LI V R O A M A R E L O - M I SSÃ O 2 0 2 6 29 5 Reunificação do Ministério da Cultura com o Ministério da Educação, promovendo o estreitamento e a aproximação dessas duas áreas.",
+   "econ": 2,
+   "social": 1,
+   "peso": 1,
+   "precedentes": [
+    "ancine-fsa",
+    "cota-tela-brasil",
+    "ibram-museus",
+    "os-organizacoes-sociais",
+    "incentivo-audiovisual-coreia-kofic"
+   ],
+   "historico": {
+    "br": "A Ancine e o Fundo Setorial do Audiovisual já usam critérios de mercado em linhas específicas, e a Lei da TV Paga (2011) ampliou a produção independente com cota de conteudo. O IBRAM enfrenta crise de custeio crônica, agravada pelo incendio do Museu Nacional em 2018 - falha de manutenção, e não de modelo de gestão. Organizações sociais gerem museus em São Paulo desde 2004 com avaliações majoritariamente positivas.",
+    "br_res": "parcial",
+    "mundo": "A Coreia do Sul construiu uma indústria audiovisual exportadora com o KOFIC combinando cota de tela, fundo público e apoio a exportação - e não com critério de viabilidade comercial nos editais, mas com investimento em formação e infraestrutura. A Franca sustenta cinema autoral por taxa sobre bilheteria. Priorizar viabilidade comercial em edital público tende a substituir o mercado onde ele já atua.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 28,
+   "vt": "arriscada",
+   "vd": "A Coreia construiu indústria audiovisual exportadora com cota, fundo público e formação — não com critério de viabilidade comercial em edital. Priorizar retorno de bilheteria em dinheiro público tende a substituir o mercado onde ele já atua."
+  },
+  {
+   "id": "missao-31",
+   "titulo": "Reunificação do Ministério da Cultura com o da Educação",
+   "setor": "estado",
+   "subtema": "Organização ministerial",
+   "resumo": "Fundir novamente MinC e MEC, apresentada como medida de governo enxuto e de integração entre as duas dimensões da formação nacional.",
+   "citacao": "Reunificação do Ministério da Cultura com o Ministério da Educação, promovendo o estreitamento e a aproximação dessas duas áreas. 6 Oposição firme a quaisquer propostas de regulação da mídia e da internet que reduzam a margem de liberdade de expressão no Brasil, sem descurar da necessidade de discutir um novo código de imprensa, em lugar da lei reguladora da imprensa que não foi recepcionada pela Constituição Federal de 1988.",
+   "econ": 1,
+   "social": 1,
+   "peso": 1,
+   "precedentes": [
+    "extincao-minc-2016",
+    "extincao-minc-2019",
+    "reforma-ministerial-temer",
+    "fusao-ministerios-argentina-milei"
+   ],
+   "historico": {
+    "br": "O Ministério da Cultura foi extinto em 2016 e recriado dias depois sob pressão, extinto de novo em 2019 virando secretária e recriado em 2023 - três reorganizações em sete anos. Nenhuma delas produziu economia mensurável, porque a despesa está nas políticas e na folha, não na estrutura ministerial.",
+    "br_res": "fracassou",
+    "mundo": "Vários paises reunem cultura e educação em um só ministério (Italia por períodos, Japao com o MEXT) sem que isso explique desempenho cultural. A Argentina de Milei fundiu ministérios em 2023-2024 com economia pequena frente ao ajuste total. A evidência comparada e de que fusao ministerial e decisão simbolica e de coordenação, e não fiscal.",
+    "mundo_res": "inconclusivo",
+    "conf": "alta"
+   },
+   "pagina": 29,
+   "vt": "ja_falhou",
+   "vd": "O MinC foi extinto e recriado três vezes em sete anos sem economia mensurável, porque a despesa está nas políticas e na folha. Fusão ministerial é decisão simbólica e de coordenação, não fiscal."
+  },
+  {
+   "id": "missao-32",
+   "titulo": "Código Unificado de Imprensa e oposição a regulação de plataformas",
+   "setor": "direitos",
+   "subtema": "Liberdade de expressao",
+   "resumo": "Opor-se a qualquer regulação de midia e internet que reduza a liberdade de expressao e, ao mesmo tempo, criar um novo código de imprensa para preencher a lacuna deixada pela não recepção da Lei 5.250/1967, reduzindo o poder discricionário do Judiciário.",
+   "citacao": "Criação de um Código Unificado de imprensa visando disciplinar o setor e eliminar as lacunas legais que geram insegurança jurídica.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "lei-imprensa-5250-adpf130",
+    "pl-2630-fake-news",
+    "marco-civil-internet",
+    "adi-inquerito-fake-news-stf",
+    "dsa-uniao-europeia",
+    "section-230-eua"
+   ],
+   "historico": {
+    "br": "A Lei de Imprensa de 1967 não foi recepcionada pela Constituição e o STF a revogou integralmente em 2009 (ADPF 130), decidindo que a responsabilização deve seguir o Código Civil e o Penal - exatamente a lacuna que a proposta quer preencher. Um novo código de imprensa e proposta que circula desde entao e nunca teve consenso, justamente pelo risco de que regulação da atividade jornalistica vire controle de conteudo.",
+    "br_res": "fracassou",
+    "mundo": "Os EUA não tem lei de imprensa e resolvem por jurisprudência desde New York Times v. Sullivan (1964). O Reino Unido tentou autorregulação supervisionada após o relatório Leveson (2012) e a maior parte da imprensa recusou o órgão criado. A União Europeia optou por regular plataformas (DSA) e não jornalismo. Democracias consolidadas evitam código de imprensa estatal justamente pelo risco apontado.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 29,
+   "vt": "arriscada",
+   "vd": "O STF revogou a Lei de Imprensa em 2009 e a lacuna é real. Mas os EUA resolvem por jurisprudência sem lei de imprensa, o Reino Unido tentou autorregulação após o Leveson e a imprensa recusou — democracias consolidadas evitam código estatal exatamente pelo risco que a proposta cria."
+  },
+  {
+   "id": "missao-33",
+   "titulo": "Sistema fonico de alfabetização e adoção do modelo do Ceara",
+   "setor": "educacao",
+   "subtema": "Alfabetização",
+   "resumo": "Adotar universalmente o sistema fonico de alfabetização e criar grupo de trabalho para levar as práticas do Ceara ao nível nacional, com nova base do Sistema Nacional de Educação que confira mais competências a União.",
+   "citacao": "Adoção das melhores inovações de um dos raros casos de êxito na educação brasileira, o Ceará. Criar um grupo de trabalho para a implementação, em nível nacional nas escolas, sobre uma nova base do SNE, que confira à União maiores competências.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "alfabetiza-ceara",
+    "politica-nacional-alfabetizacao-2019",
+    "bncc",
+    "paic-ceara",
+    "reading-wars-eua",
+    "sistema-nacional-educacao-pl"
+   ],
+   "historico": {
+    "br": "O Ceara e o caso brasileiro de referência: o PAIC, desde 2007, combinou método estruturado, meta, avaliação externa anual e repasse de ICMS por resultado, levando o estado do fim ao topo do ranking. A Política Nacional de Alfabetização (2019) já instituiu prioridade ao método fonico. Ampliar competências da União sobre educação básica exigiria emenda, já que a competência e municipal por desenho constitucional.",
+    "br_res": "funcionou",
+    "mundo": "A Inglaterra tornou o phonics obrigatório com teste censitário em 2012 e subiu no PIRLS. Portugal elevou desempenho com avaliação e foco em leitura. Mississippi replicou o modelo nos EUA a partir de 2013 com ganho nacionalmente notado. A evidência sobre o método e solida; a evidência sobre centralização federal e mais fraca - o próprio caso cearense foi estadual e municipal.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 32,
+   "vt": "forte",
+   "vd": "O PAIC cearense combinou método estruturado, meta, avaliação externa anual e ICMS por resultado, e levou o estado do fim ao topo. É a política educacional brasileira com melhor evidência — a ressalva é que ela foi estadual e municipal, não federal."
+  },
+  {
+   "id": "missao-34",
+   "titulo": "Código nacional de conduta do estudante com punições objetivas",
+   "setor": "educacao",
+   "subtema": "Disciplina escolar",
+   "resumo": "Criar código disciplinar nacional com rol de comportamentos e classificação de punições, amplamente publicizado nas escolas, exigindo reavaliação do papel do ECA e uniformização comportamental do estudante.",
+   "citacao": "As medidas sugeridas neste programa exigem uma reavaliação do papel do Estatuto da Criança e do Adolescente (ECA) e uma uniformização comportamental do estudante, com implicações punitivas, de modo a restaurar o sentido disciplinar dentro das escolas.",
+   "econ": 0,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "eca-1990",
+    "zero-tolerance-escolas-eua",
+    "school-to-prison-pipeline",
+    "codigo-disciplinar-escolas-chile",
+    "suspensao-escolar-evidencias"
+   ],
+   "historico": {
+    "br": "O ECA (1990) preve medidas disciplinares e socioeducativas e não impede regimento escolar com sanções; a resistência a um código nacional punitivo vem de estudos que associam suspensão e expulsao a maior evasao. Não há precedente nacional de código disciplinar único imposto pela União.",
+    "br_res": "inedito",
+    "mundo": "As políticas de zero tolerance nas escolas americanas, adotadas nos anos 1990, produziram o fenomeno documentado do school-to-prison pipeline: suspensão e expulsao concentradas em alunos negros e com deficiência, com aumento de evasao e de contato com o sistema penal. O Departamento de Educação dos EUA orientou o abandono do modelo em 2014. O Chile tem código de convivência obrigatório com foco restaurativo, e não punitivo.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 31,
+   "vt": "ja_falhou",
+   "vd": "O zero tolerance americano dos anos 1990 produziu o school-to-prison pipeline, com suspensão concentrada em alunos negros e com deficiência e aumento de evasão. O próprio Departamento de Educação americano orientou o abandono em 2014."
+  },
+  {
+   "id": "missao-35",
+   "titulo": "Ranking de disciplina escolar modulando o VAAR do Fundeb",
+   "setor": "educacao",
+   "subtema": "Financiamento e incentivos",
+   "resumo": "Criar ranking oficial de disciplina que module o Valor Aluno Ano Resultado, ampliado, de modo que escolas mais ordeiras recebam mais recursos e gestores disciplinadores sejam premiados, centralizando competências na União.",
+   "citacao": "escolas mais ordeiras receberão mais recursos, gestores que mantenham a disciplina, de acordo com o código disciplinar, serão premiados.",
+   "econ": 1,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "fundeb-vaar",
+    "ideb-metas",
+    "bonus-resultado-sp",
+    "no-child-left-behind-eua",
+    "accountability-educacional-critica",
+    "premio-escola-ceara-icms"
+   ],
+   "historico": {
+    "br": "O Ceara distribui parte da cota-parte do ICMS municipal por resultado de alfabetização desde 2007, o caso de maior sucesso; o VAAR do Fundeb (2020) condiciona parte do repasse a boas práticas de gestão. Não há precedente de indicador de disciplina modulando financiamento no Brasil - o risco apontado e o incentivo a subnotificação de ocorrências.",
+    "br_res": "parcial",
+    "mundo": "O No Child Left Behind americano mostrou que accountability por indicador gera manipulação do próprio indicador quando há consequência financeira forte - houve casos documentados de fraude em Atlanta e outras redes. Indicadores de disciplina são especialmente manipuláveis porque dependem do registro da própria escola avaliada.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 32,
+   "vt": "ja_falhou",
+   "vd": "Indicador de disciplina é dos mais manipuláveis que existem, porque depende do registro da própria escola avaliada. O No Child Left Behind mostrou fraude documentada quando a consequência financeira ficou forte demais."
+  },
+  {
+   "id": "missao-36",
+   "titulo": "Escolas cívico-militares em áreas críticas por competência da União",
+   "setor": "educacao",
+   "subtema": "Gestão escolar",
+   "resumo": "Ampliar a competência da União para impor o modelo cívico-militar a escolas em regiões de alta criminalidade ou com graves problemas disciplinares, tratado como medida provisoria, com exemplo declarado no Brasil e em El Salvador.",
+   "citacao": "Transformação das escolas em situação crítica, de acordo com o sistema das escolas civis-militares, buscando exemplo no que dá certo no Brasil e em El Salvador. A militarização das escolas deve ser vista como uma medida provisória, a fim de estancar a violência endêmica, em especial nas regiões com alta criminalidade no entorno.",
+   "econ": 0,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "pecim-escolas-civico-militares",
+    "escolas-militares-goias",
+    "avaliacao-escolas-civico-militares",
+    "militarizacao-escolas-df",
+    "escuelas-militarizadas-mexico"
+   ],
+   "historico": {
+    "br": "O Pecim foi criado em 2019 com meta de 216 escolas, extinto em 2023 e recriado em 2024 com adesao voluntária; Goias tem a maior rede militarizada. As avaliações são ambiguas: há ganho em disciplina e evasao, e as comparações de desempenho sofrem de seleção, porque essas escolas frequentemente selecionam alunos e recebem mais recursos. Impor o modelo por competência da União contrariária a autonomia dos entes.",
+    "br_res": "parcial",
+    "mundo": "O Mexico experimentou escolas militarizadas em Chihuahua e abandonou. Os EUA mantem JROTC há um século, com ganho de disciplina e nenhum ganho acadêmico claro. El Salvador aplicou disciplina militar em escolas dentro do regime de exceção, sem avaliação independente. Não há sistema nacional que tenha militarizado a rede pública como política geral e sustentado o modelo.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 32,
+   "vt": "arriscada",
+   "vd": "O Pecim foi extinto e recriado em cinco anos e as avaliações sofrem de seleção. Impor o modelo por competência da União contraria a autonomia dos entes — e o México abandonou a experiência em Chihuahua."
+  },
+  {
+   "id": "missao-37",
+   "titulo": "Fim das cotas e substituição por bolsas de merito",
+   "setor": "educacao",
+   "subtema": "Acesso ao ensino superior",
+   "resumo": "Abolir o sistema de cotas na educação brasileira e em geral, substituindo-o por bolsas de merito.",
+   "citacao": "Abolir o sistema de cotas na educação brasileira e em geral. 5 Implementar uma reforma na educação superior brasileira, substituindo a autonomia universitária por uma perspectiva de alinhamento estratégico.",
+   "econ": 1,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "lei-cotas-12711",
+    "adpf-186-stf-cotas",
+    "revisao-lei-cotas-2023",
+    "affirmative-action-eua",
+    "sffa-harvard-2023",
+    "cotas-sociais-california-prop209"
+   ],
+   "historico": {
+    "br": "A Lei 12.711/2012 foi declarada constitucional pelo STF em 2012 (ADPF 186) e renovada em 2023 após avaliação. Os estudos disponíveis mostram mudança do perfil social e racial das universidades públicas sem queda de desempenho acadêmico dos cotistas, e melhora de renda dos egressos. Abolir cotas enfrentária o precedente do STF, que reconheceu a constitucionalidade da ação afirmativa.",
+    "br_res": "funcionou",
+    "mundo": "A Suprema Corte americana proibiu o uso de raca em admissão universitária em 2023 (SFFA v. Harvard). A California já havia proibido por referendo em 1996 (Prop 209): a matricula de negros e latinos nas universidades de elite caiu de forma acentuada e não se recuperou com substitutos socioeconomicos - o experimento natural mais completo. A India mantem reserva de vagas desde 1950. Bolsa de merito não reproduz o efeito de acesso das cotas raciais.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 32,
+   "vt": "ja_falhou",
+   "vd": "A California proibiu por referendo em 1996 e a matrícula de negros e latinos nas universidades de elite caiu e não se recuperou com substituto socioeconômico — é o experimento natural mais completo que existe. O STF já declarou as cotas constitucionais em 2012."
+  },
+  {
+   "id": "missao-38",
+   "titulo": "Fim da autonomia universitária em favor de alinhamento estratégico e STEM",
+   "setor": "educacao",
+   "subtema": "Ensino superior",
+   "resumo": "Substituir a autonomia universitária por alinhamento estratégico, realocar recursos de cursos bachareleros para STEM, criar faculdades voltadas as necessidades do plano industrial e centros de pesquisa em terras raras, com modelo declarado em China, Cingapura e Israel.",
+   "citacao": "Implementar uma reforma na educação superior brasileira, substituindo a autonomia universitária por uma perspectiva de alinhamento estratégico. 6 Criar um código de conduta para o estudante, implementado em nível nacional, que lhe prescreva punições objetivas para comportamentos inadequados em sala de aula, com classificação das punições e rol de comportamentos.",
+   "econ": 1,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "autonomia-universitaria-art-207",
+    "future-se-2019",
+    "reforma-universitaria-1968",
+    "universidades-cingapura-a-star",
+    "hungria-fundacoes-universidades",
+    "politica-industrial-coreia-kaist"
+   ],
+   "historico": {
+    "br": "A autonomia universitária e clausula do art. 207 da Constituição e sobreviveu a todas as tentativas de reformulação. O Future-se (2019) propunha reorganizar financiamento e governança e foi rejeitado pela maioria das universidades e arquivado. A reforma de 1968, feita sob a ditadura, e o único precedente de reorganização imposta e e lembrada pela departamentalização que criou.",
+    "br_res": "fracassou",
+    "mundo": "Cingapura, Israel e a Coreia do Sul construiram sistemas de pesquisa alinhados a estratégia industrial com financiamento estável e alto, sem suprimir autonomia acadêmica - a A*STAR de Cingapura financia por editais, não por comando. A Hungria transferiu universidades a fundações em 2021 e perdeu acesso a fundos europeus por preocupações de autonomia. Alinhamento estratégico por financiamento tem precedente; por supressao de autonomia, tem precedente ruim.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 32,
+   "vt": "arriscada",
+   "vd": "Cingapura e Israel alinham pesquisa à estratégia industrial por financiamento estável, sem suprimir autonomia. A Hungria transferiu universidades a fundações em 2021 e perdeu fundos europeus — alinhamento por dinheiro tem precedente bom, por supressão tem precedente ruim."
+  },
+  {
+   "id": "missao-39",
+   "titulo": "Fim da progressão continuada e programa de retenção de talentos",
+   "setor": "educacao",
+   "subtema": "Trajetória escolar",
+   "resumo": "Adotar progressão continuada apenas parcial até sua revogação, enfrentando a evasao por outros instrumentos, e criar programa de retenção e repatriação de talentos para conter a fuga de cerebros.",
+   "citacao": "Adotar progressão continuada parcial até sua revogação e buscar enfrentar o problema da evasão escolar a partir de outra direção.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "progressao-continuada-sp-1998",
+    "reprovacao-evidencias-brasil",
+    "retencao-serie-eua-florida",
+    "fuga-cerebros-brasil",
+    "programa-ciencia-sem-fronteiras"
+   ],
+   "historico": {
+    "br": "A progressão continuada foi adotada em São Paulo em 1998 e por várias redes; as avaliações mostram que ela reduziu distorção idade-série e não veio acompanhada da recuperação paralela prevista, o que gerou o problema real de aprovação sem aprendizado. Reprovar mais, porém, tem evidência brasileira e internacional de aumentar evasao sem melhorar aprendizagem.",
+    "br_res": "parcial",
+    "mundo": "A Florida adotou retenção obrigatória no terceiro ano combinada com tutoria intensiva e professor certificado em leitura, e produziu ganho de curto prazo que se dissipa ao longo do tempo - a única variante de reprovação com evidência positiva, e ela depende do pacote de apoio, não da retenção. A maioria dos sistemas europeus reduziu reprovação pelo mesmo motivo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 32,
+   "vt": "arriscada",
+   "vd": "A progressão continuada reduziu distorção idade-série e nunca veio com a recuperação paralela prometida — a crítica é justa. Reprovar mais, porém, aumenta evasão sem melhorar aprendizagem; a Flórida só teve ganho porque veio com tutoria intensiva junto."
+  },
+  {
+   "id": "missao-40",
+   "titulo": "Zonas Econômicas Especiais no Nordeste com licença em 15 dias",
+   "setor": "economia",
+   "subtema": "Política industrial",
+   "resumo": "Criar ZEEs com suspensão de direitos aduaneiros, regime específico de IBS/CBS, agências one-stop-shop que aprovam licenças em até 15 dias e infraestrutura dedicada, com três polos iniciais no Nordeste (Suape, Pecem-Araripe e Aratu-Camacari), inspiradas em Shannon e Shenzhen.",
+   "citacao": "redução radical da burocracia mediante agências administrativas ágeis (one-stop shops) com aprovação de licenças em até 15 dias;",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "zpe-brasil-lei-11508",
+    "zona-franca-manaus",
+    "shenzhen-zee",
+    "shannon-irlanda",
+    "sez-india-avaliacao",
+    "maquiladoras-mexico",
+    "sudene"
+   ],
+   "historico": {
+    "br": "As ZPEs foram criadas em 1988 e reformuladas pela Lei 11.508/2007: das dezenas autorizadas, pouquissimas operam, porque a exigência de exportar 80% da produção e a burocracia alfandegária inviabilizaram a maioria. A Zona Franca de Manaus e o único regime especial de grande escala e custa cerca de R$ 30 bilhões anuais em renúncia, com indústria de montagem dependente do benefício. A Sudene já tentou industrializar o Nordeste desde 1959.",
+    "br_res": "fracassou",
+    "mundo": "Shenzhen e Shannon são os casos de sucesso citados, e ambos combinaram regime especial com localização portuária, mão de obra abundante e, no caso chines, acesso a Hong Kong. A avaliação do Banco Mundial sobre ZEEs indianas e africanas mostra que a maioria fracassa: sem infraestrutura de classe mundial e sem demanda externa, a zona vira apenas transferência de empresas de uma região para outra do mesmo país.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 35,
+   "vt": "ja_falhou",
+   "vd": "Das dezenas de ZPEs autorizadas desde 1988, pouquíssimas operam. Shenzhen e Shannon combinaram regime especial com porto e demanda externa; o Banco Mundial mostra que a maioria das ZEEs só transfere empresa de uma região para outra do mesmo país."
+  },
+  {
+   "id": "missao-41",
+   "titulo": "ZEE de Defesa no eixo Vale do Paraiba-Itajuba",
+   "setor": "estado",
+   "subtema": "Base industrial de defesa",
+   "resumo": "Zona econômica especial dedicada a ciberdefesa, sistemas autônomos e tecnologia aeroespacial, com governança conjunta das Forças Armadas, para reduzir R$ 70 bilhões anuais em importações estratégicas e de duplo uso.",
+   "citacao": "A ZEE de Defesa (ZEED), no eixo Vale do Paraíba (SP)-Itajubá (MG), visa reduzir a dependência de importações estratégicas e de duplo uso (estimadas pela CNI em cerca de R$ 70 bilhões anuais), com foco em:",
+   "econ": 1,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "base-industrial-defesa-lei-12598",
+    "embraer-privatizacao",
+    "end-estrategia-nacional-defesa",
+    "dual-use-eua-dpa",
+    "israel-industria-defesa"
+   ],
+   "historico": {
+    "br": "A Lei 12.598/2012 criou o regime especial para a base industrial de defesa e o Vale do Paraiba já concentra o cluster aeroespacial em torno do ITA e da Embraer. O histórico e de ciclos: a indústria dos anos 1980 quebrou nos anos 1990 com o fim das encomendas; o Prosub e o Gripen sobreviveram com atrasos. O contingenciamento recorrente e o problema estrutural.",
+    "br_res": "parcial",
+    "mundo": "Israel construiu indústria de defesa exportadora com demanda estatal previsível, offset obrigatório e integração com universidades. A Coreia do Sul fez o mesmo e hoje exporta bilhões. Os EUA usam o Defense Production Act para garantir cadeia de duplo uso. O fator comum e contrato plurianual protegido do ciclo orçamentário, e não o regime tributário da zona.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 36,
+   "vt": "promissora",
+   "vd": "Israel e Coreia construíram indústria de defesa exportadora com demanda estatal previsível e offset obrigatório. O fator decisivo é contrato plurianual protegido do ciclo orçamentário — não o regime tributário da zona, que é o que a proposta oferece."
+  },
+  {
+   "id": "missao-42",
+   "titulo": "ZEE de Terras Raras com verticalização em oito estagios",
+   "setor": "economia",
+   "subtema": "Minerais críticos",
+   "resumo": "Verticalizar a cadeia de terras raras da extração aos semicondutores em oito estagios, com regime tributário favorável, transferência de tecnologia por offset, centro de P&D e formação profissional, enfrentando a dominancia chinesa no refino e nos imas.",
+   "citacao": "A ZEE de Terras Raras busca verticalizar a cadeia produtiva nacional, aproveitando a segunda maior reserva mundial do Brasil (cerca de 23%, USGS 2026), integrando oito estágios:",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "terras-raras-brasil-serra-verde",
+    "mountain-pass-molycorp-eua",
+    "lynas-australia-malasia",
+    "monopolio-chines-terras-raras",
+    "politica-nacional-minerais-criticos-pl2780",
+    "magbras-mover"
+   ],
+   "historico": {
+    "br": "A verticalização mal começou: a Serra Verde (GO) iniciou produção em 2024 e exporta concentrado, e o MagBras busca chegar ao ima permanente. O Brasil tem a segunda maior reserva mundial e nenhuma capacidade industrial de separação em escala. A fila de processos na ANM e o gargalo administrativo mais citado.",
+    "br_res": "em_curso",
+    "mundo": "A China levou três decadas e subsídio massivo para dominar o refino e os imas, e usou restrição de exportação como arma geopolítica em 2010 e 2023. A Mountain Pass americana faliu em 2015 e voltou com dinheiro do Departamento de Defesa e compra garantida; a Lynas australiana refina na Malasia após anos de litigio ambiental. Nenhum país quebrou a dependência sem compra estatal de longo prazo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 36,
+   "vt": "arriscada",
+   "vd": "A China levou três décadas e subsídio massivo. Mountain Pass faliu e voltou com dinheiro do Departamento de Defesa e compra garantida; a Lynas dependeu de EUA e Japão. Verticalizar sem compra estatal de longo prazo não tem caso de sucesso."
+  },
+  {
+   "id": "missao-43",
+   "titulo": "Acordos bilaterais com EUA e UE com off-take e transferência de tecnologia",
+   "setor": "externa",
+   "subtema": "Minerais críticos",
+   "resumo": "Elevar a nível federal o Forum Brasil-EUA sobre Minerais Críticos, celebrando acordos com compromissos de compra de longo prazo e transferência tecnológica, e integrar o Brasil aos instrumentos DFC, Defense Production Act e Critical Raw Materials Act.",
+   "citacao": "Celebração de acordos bilaterais com Estados Unidos e União Europeia que garantam off-take agreements (compromissos de compra de longo prazo) e transferência tecnológica em processamento de terras raras.",
+   "econ": 1,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "forum-brasil-eua-minerais-criticos",
+    "critical-raw-materials-act-ue",
+    "defense-production-act-eua",
+    "mineral-security-partnership",
+    "acordo-alcantara-eua"
+   ],
+   "historico": {
+    "br": "O Brasil tem cooperação com os EUA em minerais críticos desde o memorando de 2019 e o forum bilateral avançou em 2025-2026. O acordo de salvaguardas tecnológicas de Alcantara (2019) e o precedente mais próximo de acordo com transferência condicionada, e foi criticado por limitar o acesso brasileiro a tecnologia. Off-take agreements de longo prazo com governos estrangeiros não tem precedente brasileiro.",
+    "br_res": "em_curso",
+    "mundo": "A Mineral Security Partnership, criada em 2022 pelos EUA com aliados, e o instrumento que a proposta pretende acessar. O Critical Raw Materials Act europeu (2024) fixa metas de suprimento domestico e de diversificação. A Australia e o Canada obtiveram financiamento americano para projetos de terras raras - e são aliados militares formais, condição que o Brasil não tem e que pesa nesses acordos.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 39,
+   "vt": "promissora",
+   "vd": "O Critical Raw Materials Act e a Mineral Security Partnership são portas reais e já abertas pelo fórum bilateral. Austrália e Canadá conseguiram financiamento americano sendo aliados militares formais — condição que o Brasil não tem e que pesa nesses acordos."
+  },
+  {
+   "id": "missao-44",
+   "titulo": "PEC que declara terras raras questão de segurança nacional",
+   "setor": "estado",
+   "subtema": "Blindagem institucional",
+   "resumo": "Emenda constitucional para blindar a política de terras raras de flutuações eleitorais, acompanhada de consórcio de financiamento liderado pelo BNDES (50% do investimento), fundo soberano ou instrumento de estabilização de preços e cronograma faseado de 2027 a 2036.",
+   "citacao": "aprovação de Proposta de Emenda à Constituição (PEC) que declare as terras raras questão de segurança nacional, blindando a política setorial contra flutuações eleitorais e pressões imediatistas;",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "politica-nuclear-brasil",
+    "pre-sal-regime-partilha",
+    "fundo-social-pre-sal",
+    "alaska-permanent-fund",
+    "fundo-soberano-noruega",
+    "chile-codelco-constitucional"
+   ],
+   "historico": {
+    "br": "O Brasil já blindou política setorial por norma constitucional no pre-sal com o regime de partilha (Lei 12.351/2010), depois flexibilizado em 2016 ao retirar a operação obrigatória da Petrobras - o que mostra que blindagem legal e reversível por maioria simples quando muda o governo. O Fundo Social do Pre-Sal foi sucessivamente redirecionado.",
+    "br_res": "parcial",
+    "mundo": "O Chile tem a Codelco protegida por norma de estatura constitucional desde 1976, com a lei reservada do cobre depois revista. A Noruega blindou a renda do petróleo no fundo soberano com regra fiscal respeitada há decadas - o caso de maior sucesso, sustentado por consenso político e não apenas por norma. O Alaska Permanent Fund tem previsão constitucional estadual desde 1976. Blindagem funciona onde há consenso; a norma sozinha não cria consenso.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 40,
+   "vt": "arriscada",
+   "vd": "O pré-sal foi blindado por lei em 2010 e flexibilizado em 2016 por maioria simples — blindagem legal é reversível quando muda o governo. A Noruega funciona porque tem consenso político, e norma não cria consenso."
+  },
+  {
+   "id": "missao-45",
+   "titulo": "Fim das invasões de terra e endurecimento penal do esbulho",
+   "setor": "ambiente",
+   "subtema": "Política fundiária",
+   "resumo": "Revogar a Nota Técnica no 4/2025 do MDA, instruir as polícias a reprimir invasões conforme o Código Penal e endurecer a legislação penal sobre esbulho possessório.",
+   "citacao": "o fim das invasões de propriedade rural e a restauração da segurança jurídica no campo, com a revogação da Nota Técnica nº 4/2025 do Ministério do Desenvolvimento Agrário e instrução às polícias para repressão das invasões, conforme estabelecido no Código Penal.",
+   "econ": 2,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "mp-2183-invasoes-vistoria",
+    "esbulho-possessorio-cp",
+    "conflitos-agrarios-cpt",
+    "reforma-agraria-incra",
+    "land-invasion-africa-do-sul"
+   ],
+   "historico": {
+    "br": "A MP 2.183-56/2001 já veda vistoria para desapropriação em imóvel invadido por dois anos, e o esbulho possessório e crime no art. 161 do Código Penal. Endurecer a repressao a invasões já foi tentado por decreto e por instrução normativa em vários governos, e os dados da CPT mostram que os conflitos agrários seguem em patamar alto, com a maioria das mortes do lado dos ocupantes.",
+    "br_res": "parcial",
+    "mundo": "A Africa do Sul debate há decadas a expropriação sem compensação e aprovou lei em 2024, com efeitos ainda desconhecidos. O Zimbabue e o caso extremo de redistribuição desordenada, com colapso da produção. Do lado oposto, paises que criminalizaram a ocupação sem oferecer via de acesso a terra (vários da América Latina) apenas deslocaram o conflito. Repressao sem política fundiária não tem precedente de pacificação.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 42,
+   "vt": "arriscada",
+   "vd": "A MP 2.183 já veda vistoria em imóvel invadido e o esbulho já é crime. Os dados da CPT mostram conflito em patamar alto com a maioria das mortes do lado dos ocupantes — repressão sem política fundiária desloca o conflito, não o encerra."
+  },
+  {
+   "id": "missao-46",
+   "titulo": "Auditoria dos 140 milhões de hectares e moratoria de novos assentamentos",
+   "setor": "ambiente",
+   "subtema": "Reforma agrária",
+   "resumo": "Não criar nenhum assentamento novo enquanto os existentes não atingirem produtividade compatível com a exigida dos demais imóveis rurais, e reformular o Decreto 11.637/2023 para priorizar tempo de atividade agrária em vez de tempo de acampamento.",
+   "citacao": "O governo da Missão não criará um único novo assentamento enquanto os já existentes não atingirem níveis de produtividade compatíveis com os exigidos dos demais imóveis rurais brasileiros.",
+   "econ": 2,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "reforma-agraria-incra",
+    "assentamentos-avaliacao-tcu",
+    "titulacao-assentamentos",
+    "reforma-agraria-mercado-banco-mundial",
+    "land-reform-zimbabue"
+   ],
+   "historico": {
+    "br": "O TCU e o próprio Incra já apontaram que grande parte dos assentamentos não tem título definitivo, assistência técnica nem renda compatível. A moratoria de novos assentamentos até produtivizar os existentes seria inédita como política declarada, embora na prática a criação de assentamentos tenha praticamente parado entre 2016 e 2022. Titular assentamentos existentes e agenda com apoio amplo e execução lenta.",
+    "br_res": "parcial",
+    "mundo": "A Coreia do Sul e Taiwan fizeram reforma agrária completa nos anos 1950 com titulação imediata e assistência técnica, e obtiveram salto de produtividade. A reforma agrária de mercado do Banco Mundial, testada no Brasil e em vários paises nos anos 1990, teve resultado fraco. O que a evidência sustenta e que título mais assistência técnica eleva produtividade - a moratoria em si não tem precedente avaliado.",
+    "mundo_res": "funcionou",
+    "conf": "media"
+   },
+   "pagina": 42,
+   "vt": "promissora",
+   "vd": "TCU e Incra já apontaram que boa parte dos assentamentos não tem título, assistência técnica nem renda. Coreia e Taiwan tiveram salto de produtividade com titulação imediata mais assistência — a moratória em si não tem precedente avaliado."
+  },
+  {
+   "id": "missao-47",
+   "titulo": "Soberania em fertilizantes e mineração em terras indígenas",
+   "setor": "ambiente",
+   "subtema": "Fertilizantes",
+   "resumo": "Executar e ampliar o Plano Nacional de Fertilizantes, regulamentar o PL 2.780/2024 com licenciamento acelerado para fosfato, potassio e nitrogenio, e construir no Congresso o marco da exploração mineral controlada em terras indígenas, com meta de zerar dependência externa até 2035.",
+   "citacao": "construir, no Congresso, o marco da exploração mineral controlada em terras indígenas, que abrigam reservas estratégicas de fosfato e potassio",
+   "econ": 2,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "plano-nacional-fertilizantes-2022",
+    "pl-191-2020-mineracao-terras-indigenas",
+    "art-231-cf-terras-indigenas",
+    "ansa-petrobras-fertilizantes",
+    "potassio-autazes",
+    "marco-temporal-terras-indigenas"
+   ],
+   "historico": {
+    "br": "O Plano Nacional de Fertilizantes (2022) fixou meta de reduzir a dependência de 85% para 45% até 2050 - um horizonte que revela a dificuldade. A Petrobras desativou fabricas entre 2019 e 2021 e retomou a partir de 2023. A mineração em terra indígena depende de lei que regulamente o art. 231, nunca editada; o PL 191/2020 não avançou e o projeto de potassio em Autazes está judicializado há anos por falta de consulta previa.",
+    "br_res": "parcial",
+    "mundo": "Paises que dominam fertilizantes o fazem por dotação natural (Russia, Canada, Marrocos), não por política industrial. A India subsidia fertilizante há decadas com custo fiscal enorme. Sobre mineração em terra indígena, o Canada desenvolveu acordos de participação com Primeiras Nações com resultados variados; a Convenção 169 da OIT, que o Brasil ratificou, exige consulta livre, previa e informada - condição que define a viabilidade jurídica do marco proposto.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 42,
+   "citacao_aprox": true,
+   "vt": "arriscada",
+   "vd": "Quem domina fertilizante tem jazida, não política industrial — Rússia, Canadá e Marrocos. A parte da mineração em terra indígena depende de lei nunca editada e da consulta prévia da Convenção 169, e Autazes está judicializada há anos por isso."
+  },
+  {
+   "id": "missao-48",
+   "titulo": "Agroindustria verticalizada com crédito do BNDES atrelado a exportação",
+   "setor": "economia",
+   "subtema": "Agronegócio",
+   "resumo": "Replicar o modelo do suco de laranja em cafe, soja, cacau e carne, com ZEEs, linhas do BNDES condicionadas a metas de exportação, acordos comerciais bilaterais e Plano Safra reorganizado para premiar processamento e verticalização.",
+   "citacao": "Replicaremos esse modelo no cafe, na soja, no cacau, na carne e em outros produtos dos quais hoje exportamos a materia-prima e importamos de volta o valor agregado.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "bndes-campeas-nacionais",
+    "plano-safra",
+    "exportacao-suco-laranja",
+    "acordo-mercosul-ue",
+    "politica-industrial-brasil-maior"
+   ],
+   "historico": {
+    "br": "O suco de laranja e o exemplo real de verticalização brasileira bem-sucedida, construida por empresas privadas ao longo de decadas. As tentativas estatais de criar campeas nacionais pelo BNDES entre 2008 e 2014 (frigorificos, celulose, telecomunicações) tiveram resultados mistos e custo fiscal alto, com casos de captura investigados depois. O Plano Brasil Maior (2011) não entregou o adensamento industrial prometido.",
+    "br_res": "parcial",
+    "mundo": "A Coreia do Sul condicionou crédito subsidiado a metas de exportação verificáveis nos anos 1960-1980, e o mecanismo de disciplina - perder o crédito ao não exportar - e apontado como o diferencial em relação a América Latina, que subsidiou sem cobrar desempenho. E a lição mais citada da literatura de política industrial.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "citacao_aprox": true,
+   "vt": "forte",
+   "vd": "A Coreia condicionou crédito subsidiado a meta de exportação verificável e retirava o apoio de quem falhava — esse mecanismo de disciplina é o que separa o caso asiático do latino-americano, que subsidiou sem cobrar. O suco de laranja é a prova doméstica de que verticalizar funciona."
+  },
+  {
+   "id": "missao-49",
+   "titulo": "Auditoria técnica de livros didáticos do MEC sobre o agro",
+   "setor": "educacao",
+   "subtema": "Conteudo curricular",
+   "resumo": "Submeter didáticos e materiais do MEC a auditoria técnica permanente com participação da Embrapa e de universidades agrárias, para corrigir o que o plano considera uma narrativa que retrata o agro como antagonista da sustentabilidade.",
+   "citacao": "vamos submeter didáticos e materiais do MEC a auditoria técnica permanente, com participação da Empresa Brasileira de Pesquisa Agropecuária (Embrapa) e de universidades agrárias, para garantir que o aluno brasileiro receba uma representação factual do setor que sustenta um quarto do PIB nacional.",
+   "econ": 0,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "pnld-avaliacao",
+    "escola-sem-partido-pl",
+    "adi-escola-sem-partido-stf",
+    "texas-textbook-wars",
+    "revisao-curricular-florida"
+   ],
+   "historico": {
+    "br": "O PNLD já tem processo de avaliação técnica de livros didáticos. Tentativas de controle de conteudo ideológico foram levadas ao Congresso pelo Escola sem Partido e declaradas inconstitucionais pelo STF em 2020 (ADI 5537), por violarem o pluralismo de ideias. Auditoria com participação da Embrapa em conteudo sobre agro seria inédita e provavelmente enquadrada no mesmo precedente.",
+    "br_res": "fracassou",
+    "mundo": "O Texas influência o conteudo de livros didáticos americanos há decadas por peso de mercado, com disputas recorrentes sobre evolução e história. A Florida revisou currículos a partir de 2022 e enfrentou litigio. A experiência comparada mostra que revisão curricular por critério político gera disputa permanente e alternancia de conteudo a cada governo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 43,
+   "vt": "ja_falhou",
+   "vd": "O STF declarou o Escola sem Partido inconstitucional em 2020 por violar o pluralismo de ideias, e auditoria de conteúdo por critério político cairia no mesmo precedente. O Texas mostra o outro custo: disputa permanente e conteúdo que muda a cada governo."
+  },
+  {
+   "id": "missao-50",
+   "titulo": "Marco Brasileiro da Inteligência Artificial: 14 medidas em cinco eixos",
+   "setor": "cti",
+   "subtema": "Inteligência artificial",
+   "resumo": "Reduzir impostos sobre empresas de tecnologia, facilitar stock options e venture capital, reter e repatriar talentos, incentivar datacenters para tornar o Brasil exportador de inferência, unificar a base agro-bio nacional e criar o laboratório nacional Projeto Abaporu e as Zonas Econômicas de Alta Inteligência.",
+   "citacao": "O Projeto Abaporu sera um laboratório nacional de inteligência artificial com capital privado majoritário, governança independente e mandato concentrado na exploração das vantagens competitivas únicas do nosso país.",
+   "econ": 2,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pbia-plano-brasileiro-ia",
+    "redata-mp-datacenters",
+    "pl-2338-regulacao-ia",
+    "stargate-argentina",
+    "lei-do-bem",
+    "marco-legal-startups",
+    "chips-act-eua",
+    "stock-options-tributacao-stj"
+   ],
+   "historico": {
+    "br": "O Plano Brasileiro de IA (2024) previu R$ 23 bilhões em quatro anos com execução lenta; a MP do Redata caducou em fevereiro de 2026; o PL 2338/2023 de regulação passou no Senado e travou na Camara. A Lei do Bem e o Marco Legal das Startups existem e a tributação de stock options só foi pacificada pelo STJ em 2024. Em outubro de 2025 a OpenAI escolheu a Argentina para o Stargate latino-americano.",
+    "br_res": "fracassou",
+    "mundo": "Os EUA aprovaram o CHIPS Act em 2022 com US$ 52 bilhões e já atraiu fabricas, com atrasos. A Franca financiou a Mistral e o BLOOM. A India lanca modelos em linguas locais. O padrão e que capital paciente e demanda pública garantida movem mais que incentivo tributário isolado - e que o Brasil perdeu janelas por instabilidade regulatoria, não por falta de vantagem energética.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 43,
+   "citacao_aprox": true,
+   "vt": "arriscada",
+   "vd": "O Brasil perdeu o Stargate para a Argentina e viu a MP dos data centers caducar — o diagnóstico do plano está certo. O CHIPS Act mostra que o que move é capital paciente e demanda pública garantida, não incentivo tributário isolado."
+  },
+  {
+   "id": "missao-51",
+   "titulo": "Brasil como arbitro do Sul Global e integração lusofona",
+   "setor": "externa",
+   "subtema": "Estratégia diplomática",
+   "resumo": "Diplomacia ativa em Africa, Asia (com Timor-Leste como porta de entrada e parcerias na ASEAN) e América Latina, e reposicionamento da CPLP como bloco geopolítico coeso com defesa coordenada e instituições compartilhadas.",
+   "citacao": "Posicionamento do Brasil como Árbitro do Sul Global por meio de uma diplomacia ativa nas três regiões estratégicas: África, onde o país pode mediar conflitos, expandir sua influência em recursos naturais e rotas comerciais;",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "cplp-lusofonia",
+    "cooperacao-sul-sul-lula",
+    "ibas-forum",
+    "politica-africana-brasil",
+    "zopacas"
+   ],
+   "historico": {
+    "br": "O Brasil já tentou lideranca no Sul Global: a cooperação sul-sul do governo Lula abriu dezenas de embaixadas na Africa entre 2003 e 2010, revertida em parte com fechamento de postos após 2016. O IBAS e a Zopacas existem com baixa densidade. A CPLP funciona como forum cultural e não como bloco geopolítico, e a defesa coordenada entre paises lusofonos nunca passou de exercícios militares pontuais.",
+    "br_res": "parcial",
+    "mundo": "A Commonwealth britanica e a Francofonia mostram que comunidade linguistica gera cooperação cultural e pouca coordenação estratégica. A Asean integrou comércio sem integrar defesa. Nenhum bloco linguistico virou bloco geopolítico coeso no período contemporaneo - a variável que organiza aliancas de segurança e proximidade geográfica e ameaca comum.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 45,
+   "vt": "ja_falhou",
+   "vd": "Commonwealth e Francofonia mostram que comunidade linguística gera cooperação cultural e quase nenhuma coordenação estratégica. Nenhum bloco linguístico virou bloco geopolítico coeso no período contemporâneo — o que organiza aliança é geografia e ameaça comum."
+  },
+  {
+   "id": "missao-52",
+   "titulo": "Pacto Interamericano contra o crime organizado e tribunal internacional",
+   "setor": "externa",
+   "subtema": "Segurança regional",
+   "resumo": "Redefinir o combate ao tráfico como questão de segurança nacional de nível militar, criando um Pacto Interamericano liderado pelo Brasil, ancorado na Convenção de Palermo e na OEA, com centro de operações regional e tribunal internacional especializado em criminalidade transnacional.",
+   "citacao": "exigindo um Pacto Interamericano contra o crime organizado, liderado pelo Brasil e ancorado na Convenção de Palermo e na OEA, com um Centro de Operações Central na América Latina e um tribunal internacional especializado em criminalidade transnacional.",
+   "econ": 0,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "convencao-palermo",
+    "plan-colombia",
+    "iniciativa-merida-mexico",
+    "ameripol",
+    "tpi-jurisdicao"
+   ],
+   "historico": {
+    "br": "O Brasil e parte da Convenção de Palermo desde 2004 e participa da Ameripol. A cooperação regional em segurança avançou pouco por desconfianca entre polícias e por diferenças de regime político na região. Liderar um pacto interamericano exigiria capital diplomático e coordenação com os EUA sobre uma agenda em que Washington já atua de forma unilateral.",
+    "br_res": "inedito",
+    "mundo": "O Plano Colombia (2000-2015) foi a maior operação de cooperação antidrogas da região: reduziu a área de coca por períodos e a produção voltou ao patamar anterior depois. A Iniciativa Merida no Mexico (2008) e associada a fragmentação dos carteis e ao aumento da violência. Nenhum tribunal internacional especializado em crime transnacional foi criado; a proposta de um tribunal contra o crime organizado circula na ONU há anos sem apoio.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 45,
+   "vt": "ja_falhou",
+   "vd": "O Plano Colômbia reduziu área de coca por períodos e a produção voltou; a Iniciativa Mérida é associada à fragmentação dos cartéis e ao aumento da violência. A proposta de tribunal internacional contra o crime organizado circula na ONU há anos sem apoio."
+  },
+  {
+   "id": "missao-53",
+   "titulo": "Desdolarização sul-americana com o real como ancora regional",
+   "setor": "externa",
+   "subtema": "Soberania monetária",
+   "resumo": "Criar uma cesta de moedas sul-americana liderada pelo real, com linhas de swap entre bancos centrais e cooperação monetária regional, posicionando a moeda brasileira como reserva de valor regional.",
+   "citacao": "Proposta de desdolarização da América do Sul busca reduzir a dependência do dólar americano mediante a criação de uma cesta de moedas sul-americana liderada pelo real brasileiro, linhas de swap entre bancos centrais e cooperação monetária regional, convertendo o Brasil em âncora financeira do continente.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "sur-moeda-comum-2023",
+    "sml-sistema-pagamentos-locais",
+    "euro-criacao",
+    "sucre-alba",
+    "dolarizacao-equador"
+   ],
+   "historico": {
+    "br": "O Brasil e a Argentina criaram o SML em 2008 para pagamentos em moeda local, com volume pequeno. A moeda comum SUR foi anunciada em 2023 e não saiu do plano de estudo. A instabilidade cambial e inflacionária dos vizinhos e o obstáculo estrutural: nenhum país aceita ancorar-se numa moeda cujo emissor não tem credibilidade superior a sua.",
+    "br_res": "fracassou",
+    "mundo": "O euro levou quatro decadas e exigiu banco central comum, disciplina fiscal e transferência de soberania - e mesmo assim entrou em crise em 2010 por faltar União fiscal. O Sucre da ALBA (2010) praticamente não operou. A dolarização do Equador (2000) mostra o caminho inverso. União monetária sem União fiscal tem histórico ruim documentado.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 46,
+   "vt": "ja_falhou",
+   "vd": "O SUR foi anunciado em 2023 e não saiu do estudo; o Sucre da ALBA praticamente não operou. O euro levou quatro décadas, exigiu banco central comum e ainda entrou em crise por faltar união fiscal — e nenhum vizinho ancora na moeda de quem tem credibilidade parecida com a sua."
+  },
+  {
+   "id": "missao-54",
+   "titulo": "Pragmatismo no BRICS+ e recusa do alinhamento automático",
+   "setor": "externa",
+   "subtema": "Alinhamento",
+   "resumo": "Rejeitar tanto o alinhamento ideológico automático com os EUA quanto o ideologismo de esquerda, institucionalizando uma Estratégia Internacional de Estado, e extrair benefícios concretos do BRICS+ sem se subordinar aos objetivos geopolíticos de Pequim.",
+   "citacao": "Adoção do pragmatismo como princípio de política externa rejeita tanto o alinhamento ideológico automático com os EUA quanto o ideologismo de esquerda, estabelecendo em seu lugar uma Estratégia Internacional institucionalizada que persista além de mudanças de governo, garantindo continuidade e previsibilidade nas relações exteriores;",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "brics-expansao",
+    "alinhamento-eua-2019-2022",
+    "pragmatismo-responsavel-geisel",
+    "politica-externa-ativa-altiva"
+   ],
+   "historico": {
+    "br": "O pragmatismo responsável do governo Geisel (1974-1979) e o precedente domestico: reconhecimento de Angola e acordo nuclear com a Alemanha contra a preferência americana. A política externa oscilou fortemente entre 2019-2022 e 2023-2026, com custo econômico visível na tarifa americana de 2025. O BRICS ampliou-se em 2024 com peso crescente da China.",
+    "br_res": "parcial",
+    "mundo": "India, Turquia e Indonesia praticam hedging entre potências com ganho negociador mensurável. O limite documentado do modelo e que a autonomia se estreita a medida que a rivalidade EUA-China se acirra e ambos passam a cobrar alinhamento. Para o Brasil, o peso da China no comércio e dos EUA no investimento e na tecnologia torna o equilibrio caro de sustentar.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 46,
+   "vt": "promissora",
+   "vd": "O pragmatismo responsável de Geisel é o precedente doméstico e Índia, Turquia e Indonésia praticam isso hoje com ganho negociador. O limite é conhecido: a autonomia estreita conforme EUA e China passam a cobrar alinhamento em tecnologia e segurança."
+  },
+  {
+   "id": "missao-55",
+   "titulo": "Proteção de fronteiras com expansão do SISFRON",
+   "setor": "seguranca",
+   "subtema": "Fronteiras",
+   "resumo": "Estratégia integrada de vigilância com expansão do SISFRON, presença estatal permanente nas regiões fronteiricas, cooperação com paises vizinhos e desenvolvimento sustentável para reduzir vulnerabilidades.",
+   "citacao": "Proteção das fronteiras propõe uma estratégia integrada combinando a expansão da tecnologia SISFRON para vigilância, presença estatal permanente nas regiões fronteiriças, cooperação internacional com países vizinhos, desenvolvimento sustentável que reduza vulnerabilidades, e adaptação a riscos ambientais emergentes.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "sisfron",
+    "programa-vigia-fronteiras",
+    "sivam",
+    "operacao-agata",
+    "frontex-uniao-europeia"
+   ],
+   "historico": {
+    "br": "O Sisfron começou em 2011 com previsão de cobrir a faixa de fronteira até 2035 e recebeu fração do orçamento; o TCU apontou atraso e subutilização. O Sivam, dos anos 1990, e o precedente de sistema de vigilância caro e de uso aquem do previsto. As Operações Agata são episodicas por desenho.",
+    "br_res": "parcial",
+    "mundo": "A Frontex europeia ampliou vigilância sem eliminar entrada irregular. Os EUA gastaram dezenas de bilhões na fronteira sul com efeito de desvio de rota. Onde houve redução mensurável de tráfico, ela veio de inspeção de carga em porto e de inteligência financeira. Vigilância de fronteira funciona como coleta de inteligência, e não como barreira.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 46,
+   "vt": "arriscada",
+   "vd": "O Sisfron previa cobrir a fronteira até 2035 e recebeu fração do orçamento; o Sivam dos anos 1990 é o precedente de sistema caro e subutilizado. Vigilância de fronteira funciona como coleta de inteligência, não como barreira."
+  },
+  {
+   "id": "missao-56",
+   "titulo": "Dominio completo do ciclo nuclear com reprocessamento",
+   "setor": "cti",
+   "subtema": "Nuclear",
+   "resumo": "Alcançar autonomia completa do ciclo do combustível nuclear, incluindo conversao industrial e reprocessamento, convertendo-a em ativo estratégico de dissuasao.",
+   "citacao": "Proposta de nuclearização brasileira busca alcançar autonomia completa do ciclo de combustível nuclear, incluindo capacidade de reprocessamento, convertendo-a em ativo estratégico de deterrência e garantia irrestrita da soberania nacional.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "programa-nuclear-paralelo",
+    "tnp-brasil-quadripartite",
+    "acordo-nuclear-brasil-alemanha-1975",
+    "submarino-nuclear-prosub",
+    "programa-nuclear-argentina",
+    "jcpoa-ira"
+   ],
+   "historico": {
+    "br": "O Brasil domina o enriquecimento em escala piloto pelas centrifugas desenvolvidas pela Marinha e não tem conversao industrial nem reprocessamento. O programa nuclear paralelo dos anos 1980 foi encerrado e o país aderiu ao TNP em 1998, com acordo quadripartite de salvaguardas com a Argentina e a AIEA desde 1991. A Constituição restringe a atividade nuclear a fins pacificos (art. 21, XXIII).",
+    "br_res": "parcial",
+    "mundo": "O Japao e o único Estado não nuclear com reprocessamento em escala, autorizado por acordo específico com os EUA e sob salvaguardas rigorosas, e a planta de Rokkasho acumulou decadas de atraso. A Coreia do Sul pediu a mesma permissao e não obteve. O Ira mostrou o custo de buscar o ciclo completo fora do consenso internacional. Reprocessamento e tecnicamente possível e diplomaticamente caro.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 46,
+   "vt": "arriscada",
+   "vd": "O Japão é o único Estado não nuclear com reprocessamento em escala, autorizado por acordo específico com os EUA, e Rokkasho acumulou décadas de atraso. A Coreia pediu o mesmo e não obteve — é tecnicamente possível e diplomaticamente caríssimo."
+  },
+  {
+   "id": "missao-57",
+   "titulo": "Desfavelização integral do Brasil em dez anos",
+   "setor": "cidade",
+   "subtema": "Habitação",
+   "resumo": "Marco Nacional da Desfavelização, lei federal que amplia a REURB para transformar as 12.348 favelas em bairros formais em dez anos, com título individual de propriedade, código de postura urbana com sanção, inserção de classe média pela venda de parte das unidades a preço de mercado e serviços públicos obrigatórios em cada bairro. Custo estimado de R$ 1,2 a 1,5 trilhão.",
+   "citacao": "Essa não é uma agenda de “urbanização de favela”, como foi o Favela-Bairro: é o fim da favela como modalidade de moradia popular no Brasil. Para executar esse programa em escala nacional, propomos o Marco Nacional da Desfavelização, lei federal que amplia e acelera a REURB (Lei 13.465/2017), articulando cinco instrumentos centrais:",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "favela-bairro-rio",
+    "reurb-lei-13465",
+    "minha-casa-minha-vida",
+    "bnh-habitacao",
+    "hdb-cingapura",
+    "two-million-homes-coreia",
+    "titulacao-de-soto-peru",
+    "london-docklands",
+    "remocoes-forcadas-rio-2014"
+   ],
+   "historico": {
+    "br": "O Brasil tem um século de políticas de remoção e urbanização com resultado parcial: o BNH (1964-1986) construiu milhões de unidades e não acabou com a favela, o Favela-Bairro urbanizou sem regularizar plenamente, o MCMV produziu conjuntos periferiacos com evasao e captura por grupos armados. As remoções olimpicas do Rio, entre 2009 e 2016, atingiram dezenas de milhares de famílias com indenizações contestadas. Nenhuma política brasileira jamais eliminou a favela como categoria de moradia.",
+    "br_res": "fracassou",
+    "mundo": "Cingapura eliminou a favela em cerca de duas decadas com o HDB, mas investindo entre 5% e 9% do PIB em habitação, com posse estatal da terra, realocação compulsoria e um regime político sem alternancia - condições que o próprio plano reconhece não existirem aqui. A Coreia do Sul fez o Two Million Homes nos anos 1980 com escala semelhante. As titulações de De Soto no Peru deram título e não geraram o acesso ao crédito prometido. Nenhum país grande e federativo replicou o caso de Cingapura.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 49,
+   "vt": "ja_falhou",
+   "vd": "BNH, Favela-Bairro e MCMV não acabaram com a favela em sessenta anos. Cingapura conseguiu investindo de 5% a 9% do PIB com posse estatal da terra, realocação compulsória e sem alternância de poder — condições que o próprio plano admite não existirem aqui."
+  },
+  {
+   "id": "missao-58",
+   "titulo": "Título de desfavelização: mortgage de 50 anos securitizável",
+   "setor": "cidade",
+   "subtema": "Habitação",
+   "resumo": "Instrumento jurídico novo em forma de hipoteca de 50 anos com juros subsidiados e parcelas de R$ 200 a R$ 500, securitizável para antecipar receita ao programa, somado a Cadastro Fundiário Unificado Nacional com drones e georreferenciamento.",
+   "citacao": "Título de desfavelização, instrumento jurídico novo na forma de mortgage de 50 anos com juros subsidiados (parcelas de R$ 200 a R$ 500 mensais), securitizável para antecipar receita ao programa;",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "titulacao-de-soto-peru",
+    "reurb-lei-13465",
+    "securitizacao-subprime-eua",
+    "cadastro-fundiario-car",
+    "fgts-habitacao"
+   ],
+   "historico": {
+    "br": "A REURB (Lei 13.465/2017) já e o instrumento de regularização em massa e produz títulos em ritmo lento por capacidade cartorial e municipal. Não há precedente brasileiro de hipoteca subsidiada de 50 anos securitizada; o SFH trabalha com prazos de até 35 anos. A securitização de carteira habitacional de baixa renda seria inédita no país.",
+    "br_res": "inedito",
+    "mundo": "A titulação em massa de Hernando de Soto no Peru, nos anos 1990, entregou milhões de títulos e não produziu o acesso ao crédito que era sua premissa central - os bancos continuaram sem emprestar. A securitização de hipotecas subprime nos EUA foi o motor da crise de 2008, precisamente por vender risco de crédito de baixa renda ao mercado. As duas experiências apontam para os riscos centrais do desenho proposto.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 49,
+   "vt": "arriscada",
+   "vd": "A titulação em massa de De Soto no Peru entregou milhões de títulos e não gerou o crédito que era sua premissa. Securitizar carteira de baixa renda foi o motor da crise de 2008 — as duas metades da proposta têm o mesmo precedente ruim."
+  },
+  {
+   "id": "missao-59",
+   "titulo": "Crime de favelização com demolição administrativa em 48 horas",
+   "setor": "cidade",
+   "subtema": "Habitação",
+   "resumo": "Tipificar penalmente a organização de ocupação ilegal (loteadores, grileiros, milícias), com demolição administrativa em 48 horas de construções não habitadas em área pública ou de risco, e monitoramento mensal por satélite pela Iniciativa Sentinela.",
+   "citacao": "Tipificação penal do “crime de favelização”, dirigida a quem organiza a ocupação ilegal (loteadores, grileiros, milícias), com demolição administrativa em 48 horas das construções não habitadas, em área pública ou de risco, e remoção de moradia consolidada só por ordem judicial;",
+   "econ": 1,
+   "social": 2,
+   "peso": 2,
+   "precedentes": [
+    "lei-6766-parcelamento-solo",
+    "milicias-rio-cpi",
+    "operacao-murambatsvina-zimbabue",
+    "demolicoes-israel-criticas",
+    "adpf-976-populacao-rua",
+    "prodes-inpe-satelite"
+   ],
+   "historico": {
+    "br": "A Lei 6.766/1979 já pune o loteamento clandestino e a CPI das Milícias (2008) documentou o controle de construção irregular por grupos armados no Rio. Demolição administrativa em 48 horas colide com a exigência de ordem judicial e com o precedente do STF na ADPF 976 sobre população em situação de rua e na ADPF 828 sobre despejos. O Prodes/INPE já monitora por satélite; aplica-lo ao urbano e viável tecnicamente.",
+    "br_res": "parcial",
+    "mundo": "A Operação Murambatsvina no Zimbabue (2005) demoliu moradias de cerca de 700 mil pessoas e foi condenada pela ONU como violação grave de direitos. As demolições administrativas em Israel são alvo de condenação internacional recorrente. Não há caso de demolição administrativa em massa em democracia consolidada que tenha sido sustentado juridicamente.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 49,
+   "vt": "ja_falhou",
+   "vd": "A Operação Murambatsvina no Zimbábue demoliu moradia de cerca de 700 mil pessoas e foi condenada pela ONU. Não há caso de demolição administrativa em massa em democracia consolidada que tenha se sustentado juridicamente, e o STF já decidiu sobre despejos."
+  },
+  {
+   "id": "missao-60",
+   "titulo": "Reforma do Minha Casa Minha Vida para compra em áreas estruturadas",
+   "setor": "cidade",
+   "subtema": "Habitação",
+   "resumo": "Redirecionar os recursos historicamente usados para construção periférica para a aquisição de imóveis em áreas já estruturadas e para financiar a desfavelização.",
+   "citacao": "Reforma do Minha Casa Minha Vida, redirecionando recursos historicamente destinados à construção periférica para a aquisição de imóveis em áreas já estruturadas e para o financiamento da desfavelização propriamente dita.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "minha-casa-minha-vida",
+    "conjuntos-habitacionais-perifericos-critica",
+    "vouchers-habitacionais-eua-section8",
+    "locacao-social-sp",
+    "hope-vi-eua"
+   ],
+   "historico": {
+    "br": "A crítica a localização periférica do MCMV e consensual entre urbanistas e já motivou a criação da Compra Assistida e do MCMV Cidades. Programas de locação social existem em São Paulo em pequena escala e são apontados como alternativa de melhor localização e menor custo inicial, com dificuldade de manutenção no longo prazo.",
+    "br_res": "parcial",
+    "mundo": "Os EUA migraram do conjunto habitacional para o voucher (Section 8) e o experimento Moving to Opportunity mostrou ganho de saúde e renda dos filhos ao mudar de bairro. O programa HOPE VI demoliu conjuntos degradados e reconstruiu com mistura de renda, com resultados sociais melhores e perda liquida de unidades acessíveis. Comprar imóvel em área estruturada tem melhor evidência de resultado social do que construir na periferia.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 49,
+   "vt": "forte",
+   "vd": "Moving to Opportunity mediu ganho de saúde e renda dos filhos ao mudar de bairro, e o HOPE VI mostrou o custo de demolir sem repor. Comprar em área estruturada tem evidência melhor que construir na periferia — é a parte mais sólida do capítulo urbano."
+  }
+ ]
+}

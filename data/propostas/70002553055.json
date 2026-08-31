@@ -1,0 +1,1318 @@
+{
+ "sq": "70002553055",
+ "doc": "2026DF70002553055_01",
+ "alerta_doc": "Plano da atual governadora, que busca a reeleição. O documento indica o número de ações por área (6 ações em Família, 15 em Saúde, 19 em Educação, 13 em Segurança etc.), o que facilita a leitura, mas quase não traz metas numéricas de resultado, prazos ou custos - as exceções são as 7 UPAs nominadas, os 5 hospitais do programa Hospital Perto de Casa, as 4 novas estáções da Linha 1 do metro e as feiras nominadas. O eixo 4 e dedicado ao BRB e defende 'recuperar e fortalecer a capacidade operacional e financeira' do banco, sem em nenhum momento nomear a crise com o Banco Master, que e o tema central da disputa distrital.",
+ "resumo_doc": "Plano em 5 eixos com cuidado e proteção social no centro, seguidos de moradia e infraestrutura, desenvolvimento econômico, BRB e gestão. E o único plano do DF que combina uma agenda social ampla (renda, creche, restaurantes comunitários, tarifa zero focalizada) com bandeiras conservadoras explicitas (expansão das escolas cívico-militares, batalhao escolar, trabalho para 100% dos presos) e encerramento religioso na apresentação.",
+ "propostas": [
+  {
+   "id": "pp-df-01",
+   "titulo": "Programa Família Forte como porta única da política social, com plano de saída",
+   "setor": "trabalho",
+   "subtema": "Assistência social",
+   "resumo": "Cadastro unificado com técnico responsável por família e plano de saída com metas e prazos acordados, articulando saúde, educação, assistência, habitação e trabalho.",
+   "citacao": "Implantar o Programa Família Forte como porta única de acesso à política social, com cadastro unificado, com técnicos responsáveis pelas famílias atendidas e plano de saída com metas e prazos acordados, articulando os serviços públicos para fortalecer os vínculos familiares, prevenir situações de vulnerabilidade e facilitar o acesso das famílias às políticas de saúde, educação, assistência social, habitação, segurança alimentar e trabalho.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "crianca-feliz",
+    "chile-solidario",
+    "familia-paulista",
+    "condicionalidades-bolsa-familia"
+   ],
+   "historico": {
+    "br": "O SUAS já preve acompanhamento familiar pelo PAIF nos CRAS desde 2004, com o Prontuário SUAS registrando plano de acompanhamento - a estrutura existe e sofre com sobrecarga de técnicos e alta rotatividade. O Chile Solidário e o modelo de referência que o Brasil nunca replicou em escala. O Bolsa Família já tem regra de permanência ao aumentar a renda.",
+    "br_res": "parcial",
+    "mundo": "O Chile Solidário (2002) usou acompanhamento familiar caso a caso com apoio psicossocial e e o caso latino-americano com melhor avaliação. O Reino Unido tentou o Troubled Families Programme (2012) e a avaliação oficial não encontrou efeito significativo - o alerta de que o modelo depende da qualidade e da carga de trabalho do técnico, e não do desenho. Porta única funciona quando há profissional com carteira reduzida de famílias.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 5,
+   "vt": "promissora",
+   "vd": "O Chile Solidário é o caso latino-americano com melhor avaliação e o Brasil nunca o replicou em escala. O Troubled Families britânico não achou efeito significativo — porta única funciona quando o técnico tem carteira reduzida de famílias, e o CRAS está sobrecarregado."
+  },
+  {
+   "id": "pp-df-02",
+   "titulo": "Mae Por Inteiro: prioridade para maes solo em creche, qualificação, microcrédito e moradia",
+   "setor": "direitos",
+   "subtema": "Mulheres",
+   "resumo": "Vaga em creche com horário compatível com a jornada de trabalho, qualificação profissional, microcrédito produtivo e programas habitacionais para mulheres que sustentam sozinhas o domicílio.",
+   "citacao": "Implantar o Mãe Por Inteiro, assegurando prioridade às mulheres que sustentam sozinhas o domicílio no acesso a vaga em creche com horário compatível com a jornada de trabalho, qualificação profissional, microcrédito produtivo e programas habitacionais.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "creche-participacao-feminina",
+    "microcredito-crediamigo",
+    "mae-solo-politicas-brasil"
+   ],
+   "historico": {
+    "br": "O DF já opera o Cartao Prato Cheio e programas de microcrédito pelo BRB, e a prioridade a maes solo em creche existe na legislação distrital. A ausência de vaga em creche com horário compatível com a jornada e apontada como o principal fator de saída das mulheres do mercado de trabalho, e o DF não cumpriu a meta de cobertura em creche.",
+    "br_res": "parcial",
+    "mundo": "O Quebec universalizou creche subsidiada em 1997 com efeito grande e documentado sobre emprego feminino. As Ciudad Mujer salvadorenhas integram serviços para mulheres num só lugar, com ganho de acesso e efeito não demonstrado sobre autonomia econômica. A evidência mais forte para maes solo vem da vaga em creche em horário integral, e não do microcrédito.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 6,
+   "vt": "forte",
+   "vd": "A evidência mais forte para mãe solo é vaga em creche em horário integral — Quebec mediu efeito grande e direto sobre emprego feminino. Microcrédito entra como complemento, não como motor, e o plano acerta ao pôr a creche primeiro."
+  },
+  {
+   "id": "pp-df-03",
+   "titulo": "Ampliar a rede Viva Flor de proteção a mulher, estendendo aos filhos das vítimas",
+   "setor": "seguranca",
+   "subtema": "Violência contra a mulher",
+   "resumo": "Integrar PROVID, PRO-VÍTIMA e Viva Flor com as forças de segurança e o sistema de justiça, com protocolos integrados e acompanhamento dos casos de maior risco.",
+   "citacao": "Ampliar a marca Viva Flor Integral à rede de prevenção e enfrentamento à violência contra as mulheres, estendendo a proteção aos filhos e dependentes das vítimas. ▪ Integrar e ampliar a rede especializada de atendimento nas Regiões Administrativas com protocolos integrados, proteção às vítimas e a seus dependentes e fortalecimento de programas como PROVID, PRÓ-VÍTIMA e Viva Flor, em articulação com as forças de segurança, o sistema de justiça e os serviços psicossociais, para ampliar a proteção às nossas mulheres.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "patrulha-maria-da-penha",
+    "casa-da-mulher-brasileira",
+    "botao-do-panico-espanha-viogen"
+   ],
+   "historico": {
+    "br": "O DF opera o PROVID (patrulha de prevenção a violência domestica) e o Viva Flor, apontados como boas práticas e replicados por outros estados; a integração com o sistema de justiça e o ponto fraco. Estender a proteção aos filhos das vítimas e extensão coerente com a Lei 14.164/2021, que já preve atendimento a crianças que testemunham violência.",
+    "br_res": "funcionou",
+    "mundo": "A Espanha opera o VioGen desde 2004, classificando risco caso a caso com protocolo policial vinculante e incluindo filhos na avaliação após 2019 - o sistema mais completo do mundo. Os Family Justice Centers americanos integram serviços no mesmo prédio. O elemento com melhor evidência e a avaliação de risco padronizada e obrigatória.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 6,
+   "vt": "forte",
+   "vd": "PROVID e Viva Flor já são apontados como boa prática e replicados por outros estados. Estender aos filhos acompanha a Lei 14.164/2021, e o VioGen espanhol confirma o caminho: avaliação de risco padronizada é o que separa quem reduziu feminicídio de quem não reduziu."
+  },
+  {
+   "id": "pp-df-04",
+   "titulo": "Centro de Referência da Saúde da Mulher",
+   "setor": "saude",
+   "subtema": "Saúde da mulher",
+   "resumo": "Unidade dedicada a atenção integral, com prevenção, diagnóstico precoce e acompanhamento especializado em todas as fases da vida.",
+   "citacao": "Criar o Centro de Referência da Saúde da Mulher. ■ E I X O 1 C U I D A D O , D I G N I D A D E E I N C L U S Ã O S O C I A L Plano de Governo 2027 a 2030 | Celina Leão | Gustavo Rocha 8 PESSOA IDOSA 7 ações O envelhecimento da população do Distrito Federal exige políticas públicas que promovam saúde, autonomia, proteção e convivência familiar e comunitária.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "rede-cegonha",
+    "rastreamento-cancer-mama-inca"
+   ],
+   "historico": {
+    "br": "O DF tem uma das melhores redes hospitalares públicas do país em recursos por habitante e ainda assim acumula filas em mamografia e citopatologia. Centros de referência da saúde da mulher existem em vários estados; a Rede Cegonha (2011) foi reformulada em 2022. A concentração em unidade específica tende a melhorar produtividade e a criar barreira de acesso territorial.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido opera rastreamento organizado de mama e colo com convocação ativa da população-alvo e queda documentada de mortalidade - modelo que depende de registro populacional, e não de unidade concentrada. As Ciudad Mujer integram saúde a outros serviços. A evidência favorece rastreamento organizado com busca ativa sobre criação de centro de referência isolado.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 7,
+   "vt": "promissora",
+   "vd": "O DF tem uma das melhores redes públicas por habitante e ainda acumula fila em mamografia — o problema é regulação, não estrutura. O rastreamento organizado com convocação ativa, do modelo britânico, tem evidência melhor que criar centro concentrado."
+  },
+  {
+   "id": "pp-df-05",
+   "titulo": "Hospital Geriatrico de Brasilia e Programa Casa Viver para idosos",
+   "setor": "saude",
+   "subtema": "Envelhecimento",
+   "resumo": "Hospital dedicado a pessoa idosa e residenciais de acolhimento diário ou integral, com atendimento domiciliar para mobilidade reduzida e apoio a cuidadores.",
+   "citacao": "Implantar o Hospital Geriátrico de Brasília [...] Criar o Programa Casa Viver, residenciais de acolhimento diário ou integral para idosos. ▪ Fortalecer a proteção da pessoa idosa, integrando as ações de prevenção e enfrentamento à violência, ao abandono, às fraudes financeiras, aos golpes digitais e à discriminação em razão da idade, com atendimento humanizado.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "centros-dia-idoso",
+    "ilpi-brasil-ipea",
+    "politica-nacional-cuidados",
+    "japao-seguro-cuidados-ltci"
+   ],
+   "historico": {
+    "br": "O Brasil envelhece mais rapido do que qualquer país europeu envelheceu e não tem rede pública de cuidado de longa duração: as ILPIs são majoritariamente privadas ou filantropicas com fiscalização fraca. Hospitais geriatricos públicos são raros e o modelo internacional dominante e o oposto - evitar a internação do idoso, que perde funcionalidade no hospital.",
+    "br_res": "inedito",
+    "mundo": "O Japao criou seguro público de cuidados de longa duração em 2000 e a Dinamarca privilegia cuidado domiciliar sobre institucionalização desde os anos 1980, com custo por pessoa menor e melhor desfecho funcional. A evidência geriatrica e consistente: internação hospitalar de idoso deve ser evitada sempre que possível. Centros-Dia e atenção domiciliar tem melhor relação custo-benefício que hospital dedicado.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 8,
+   "vt": "arriscada",
+   "vd": "A evidência geriátrica é clara no sentido oposto: internação hospitalar de idoso deve ser evitada porque ele perde funcionalidade. Japão e Dinamarca priorizam cuidado domiciliar com custo menor e melhor desfecho — Centros-Dia e o Casa Viver são a metade certa da proposta."
+  },
+  {
+   "id": "pp-df-06",
+   "titulo": "Trampo Novo: cursos gratuitos em IA, games, UX, audiovisual e marketing digital",
+   "setor": "educacao",
+   "subtema": "Qualificação",
+   "resumo": "Formação técnica da juventude nas demandas da economia digital e criativa, articulada a estagios, incubação de negocios e inserção no mercado.",
+   "citacao": "Implantar o Trampo Novo, programa de formação técnica e prof",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pronatec-bolsa-formacao",
+    "codigo-na-escola-brasil",
+    "bootcamps-empregabilidade"
+   ],
+   "historico": {
+    "br": "O DF tem renda per capita alta e forte demanda por qualificação digital; programas distritais de formação já existem com adesao irregular. O Pronatec e o histórico nacional mostram o mesmo risco: curso ofertado por catalogo da instituição e não pela vaga existente resulta em baixa inserção.",
+    "br_res": "parcial",
+    "mundo": "Os EUA condicionam financiamento de formação a indicadores de emprego e salário dos egressos. Bootcamps de programação mostram bons resultados quando há vínculo previo com empregador e resultados fracos quando são apenas oferta aberta. A evidência favorece formação com compromisso de contratação.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 9,
+   "vt": "promissora",
+   "vd": "O DF tem renda alta e demanda real por qualificação digital. O histórico do Pronatec é o alerta: curso ofertado por catálogo tem baixa inserção, e bootcamps só entregam quando há vínculo prévio com empregador."
+  },
+  {
+   "id": "pp-df-07",
+   "titulo": "Primeiro Sim: primeiro emprego, estagio e empreendedorismo pelas Agências do Trabalhador",
+   "setor": "trabalho",
+   "subtema": "Emprego jovem",
+   "resumo": "Modernizar as agências, captar vagas ativamente e articular escolas com o setor produtivo, com mentoria e apoio a formalização de pequenos negocios.",
+   "citacao": "Ampliar as oportunidades de primeiro emprego, estágio e empreendedorismo por meio do Primeiro Sim, fortalecendo a articulação entre escolas, Agências do Trabalhador e setor produtivo, com orientação profissional, capacitação, mentorias, educação financeira e apoio à formalização de pequenos negócios.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "primeiro-emprego-2003",
+    "lei-aprendizagem-10097",
+    "sine-intermediacao"
+   ],
+   "historico": {
+    "br": "O Brasil teve o Programa Nacional de Estímulo ao Primeiro Emprego (2003), extinto por baixa efetividade, e a Lei da Aprendizagem (2000), que tem cota obrigatória e e o instrumento com melhor resultado de inserção. As agências do trabalhador tem baixa taxa de intermediação efetiva em quase todo o país - o Sine coloca poucos trabalhadores em relação ao volume de vagas.",
+    "br_res": "fracassou",
+    "mundo": "A Alemanha opera agências de emprego com perfilamento de risco e acompanhamento individual, referência mundial em intermediação. A Garantia Juvenil europeia (2013) garante oferta de emprego, estagio ou formação em até quatro meses ao jovem desempregado, com resultados positivos onde houve capacidade administrativa. Intermediação funciona com perfilamento e captação ativa de vaga, exatamente o que a proposta descreve.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 9,
+   "vt": "arriscada",
+   "vd": "O Primeiro Emprego federal de 2003 foi extinto por baixa efetividade e o Sine coloca pouca gente frente ao volume de vagas. A Garantia Juvenil europeia funciona onde há capacidade administrativa; a Lei da Aprendizagem, com cota obrigatória, é o instrumento que dá resultado aqui."
+  },
+  {
+   "id": "pp-df-08",
+   "titulo": "Resgatar os programas Picasso Não Pichava e Esporte a Meia-Noite",
+   "setor": "cultura",
+   "subtema": "Prevenção social",
+   "resumo": "Retomar dois programas históricos do DF de cultura e esporte noturno como prevenção a violência juvenil.",
+   "citacao": "Resgatar os programas Picasso Não Pichava e Esporte à Meia-Noite. ■ E I X O 1 C U I D A D O , D I G N I D A D E E I N C L U S Ã O S O C I A L Plano de Governo 2027 a 2030 | Celina Leão | Gustavo Rocha 10 PESSOAS COM DEFICIÊNCIA, ACESSIBILIDADE E INCLUSÃO 5 ações O compromisso com as pessoas com deficiência e suas famílias será orientado pela dignidade, pela autonomia, pela acessibilidade e pela igualdade de oportunidades.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "esporte-meia-noite-df",
+    "midnight-basketball-eua",
+    "fica-vivo-mg"
+   ],
+   "historico": {
+    "br": "Os dois programas são distritais: o Picasso Não Pichava (anos 1990) e o Esporte a Meia-Noite (1999) foram citados por avaliações da epoca e pela Unesco como experiências de prevenção a violência juvenil, e foram descontinuados em gestões posteriores - o padrão brasileiro de programa social interrompido por troca de governo. Retoma-los e reconhecer que a descontinuidade foi o problema.",
+    "br_res": "parcial",
+    "mundo": "O Segundo Tempo brasileiro e programas semelhantes na Colombia e no Chile mostram efeito sobre permanência escolar enquanto há financiamento. As avaliações internacionais de atividades no contraturno indicam efeito consistente sobre exposição ao risco e efeito pequeno sobre criminalidade agregada. Funcionam como proteção individual, não como política de segurança.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 9,
+   "vt": "promissora",
+   "vd": "Os dois programas são do próprio DF e foram citados pela Unesco como experiência de prevenção — e foram descontinuados em gestões posteriores. As avaliações mostram efeito sobre exposição ao risco individual e efeito pequeno sobre criminalidade agregada."
+  },
+  {
+   "id": "pp-df-09",
+   "titulo": "Centros TEA em todas as regiões, com diagnóstico e emissão de laudos",
+   "setor": "saude",
+   "subtema": "Autismo",
+   "resumo": "Expandir a cobertura territorial do atendimento a pessoas com TEA, doencas raras e sindromes, agilizando pericias e laudos.",
+   "citacao": "Implantar e expandir os Centros TEA, ampliando a cobertura territorial para todas as regiões [...] garantindo diagnósticos e a emissão de laudos técnicos. ▪ Promover a autonomia e a acessibilidade, aprimorando o transporte especializado, os serviços de manutenção de cadeiras de rodas, os bancos de órteses e próteses e os recursos de comunicação e apoio às pessoas com deficiência visual, auditiva ou de mobilidade.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "lei-berenice-piana",
+    "abordagem-tea-rede",
+    "viver-sem-limite"
+   ],
+   "historico": {
+    "br": "A Lei 12.764/2012 equiparou o autista a pessoa com deficiência e a Lei 13.977/2020 criou a Ciptea; a fila de diagnóstico e o gargalo em todo o país. O DF tem centros especializados concentrados no Plano Piloto, com dificuldade de acesso das RAs periféricas - a expansão territorial ataca o problema real.",
+    "br_res": "parcial",
+    "mundo": "Os EUA garantem intervenção precoce por lei federal desde 1986, com efeito documentado quando o diagnóstico ocorre antes dos três anos. A Italia adota inclusão plena na escola comum desde 1977. A evidência e clara em um ponto: o que muda o prognóstico e a idade do diagnóstico e o início precoce da intervenção, o que torna a capilaridade territorial mais importante que a especialização do centro.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 10,
+   "vt": "forte",
+   "vd": "O que muda o prognóstico do autismo é a idade do diagnóstico, e os EUA garantem intervenção precoce por lei desde 1986. Levar o centro às RAs periféricas, e não concentrar no Plano Piloto, é exatamente o que a evidência recomenda."
+  },
+  {
+   "id": "pp-df-10",
+   "titulo": "Operação Retorno para população em situação de rua, com reencontro familiar",
+   "setor": "trabalho",
+   "subtema": "População de rua",
+   "resumo": "Rede integrada com abordagem social, vaga de abrigo, emissão de documento, encaminhamento a serviços e reencontro familiar, sob o lema do 'retorno a vida'.",
+   "citacao": "Implantar a Operação Retorno, rede integrada de atendimento à população em situação de rua com foco no retorno à vida, reunindo abordagem social, vaga de abrigo, emissão de documento, encaminhamento a serviços e reencontro familiar.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "housing-first-finlandia",
+    "politica-populacao-rua-brasil",
+    "reinsercao-familiar-populacao-rua"
+   ],
+   "historico": {
+    "br": "O reencontro familiar e componente classico das políticas para população em situação de rua e tem efetividade limitada: a maior parte das pessoas rompeu vínculos por conflito, violência ou dependência química. O STF, na ADPF 976 (2023), vedou recolhimento de pertences sem oferta de alternativa e exigiu planos dos entes. Programas de passagem de retorno já foram criticados por outras capitais como transferência do problema.",
+    "br_res": "parcial",
+    "mundo": "A Finlandia praticamente eliminou a situação de rua crônica com o Housing First, que oferece moradia permanente sem exigir tratamento nem reintegração familiar previa - o único país europeu com queda sustentada e o caso com melhor evidência causal. Programas de reencontro familiar tem avaliações fracas nos EUA e no Reino Unido, com alta taxa de retorno a rua.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "pagina": 11,
+   "vt": "ja_falhou",
+   "vd": "Reencontro familiar tem avaliação fraca nos EUA e no Reino Unido, com alta taxa de retorno à rua — a maioria rompeu vínculo por violência ou dependência. A Finlândia eliminou a situação de rua crônica com Housing First, sem exigir reintegração prévia."
+  },
+  {
+   "id": "pp-df-11",
+   "titulo": "Rede de atenção ao uso de alcool e drogas articulando CAPS e Acolhe DF",
+   "setor": "saude",
+   "subtema": "Drogas",
+   "resumo": "Prevenção, cuidado e reinserção com apoio as famílias e acompanhamento pos-tratamento, integrando a Rede de Atenção Psicossocial e os serviços especializados.",
+   "citacao": "ampliando a articulação entre a Rede de Atenção Psicossocial, os CAPS, o Programa Acolhe DF e os demais serviços especializados, com apoio às famílias, acompanhamento pós-tratamento e reconstrução dos vínculos sociais e comunitários.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "raps-rede-psicossocial",
+    "comunidades-terapeuticas-financiamento",
+    "lei-13840-2019"
+   ],
+   "historico": {
+    "br": "A Raps foi criada em 2011 e sofreu mudança de rumo em 2017-2019 com o refinanciamento de comunidades terapêuticas, parcialmente revertida em 2023. O DF opera o Acolhe DF e CAPS AD com cobertura desigual. O programa De Braços Abertos em São Paulo (2014), de redução de danos, teve avaliações favoráveis e foi descontinuado; a internação compulsoria que o substituiu teve alta taxa de retorno.",
+    "br_res": "parcial",
+    "mundo": "Portugal descriminalizou o uso em 2001 e redirecionou recursos para tratamento voluntário e redução de danos, com queda documentada de mortes por overdose e de HIV - o caso mais citado. A OMS e o UNODC recomendam contra a internação compulsoria por falta de evidência. O acompanhamento pos-tratamento, que a proposta inclui, e apontado como o elo mais frequentemente ausente.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 11,
+   "vt": "forte",
+   "vd": "Portugal descriminalizou o uso em 2001 e reduziu overdose e HIV com tratamento voluntário e redução de danos. O acompanhamento pós-tratamento que a proposta inclui é justamente o elo mais frequentemente ausente nas redes brasileiras."
+  },
+  {
+   "id": "pp-df-12",
+   "titulo": "Restaurantes comunitários em todas as RAs e ampliação do Cartao Prato Cheio",
+   "setor": "trabalho",
+   "subtema": "Segurança alimentar",
+   "resumo": "Modernizar e expandir a rede de restaurantes, ampliar a cobertura do benefício e aproximar as compras públicas da agricultura familiar.",
+   "citacao": "Modernizar e expandir para todas as RAs a rede de Restaurantes Comunitários, garantindo refeições adequadas, acessíveis e de qualidade. ▪ Promover ações de educação alimentar e nutricional, incentivando hábitos saudáveis, a autonomia das famílias, o aproveitamento integral dos alimentos e a redução do desperdício.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "restaurantes-comunitarios-df",
+    "bom-prato-sp",
+    "pnae-agricultura-familiar",
+    "paa-programa-aquisicao-alimentos"
+   ],
+   "historico": {
+    "br": "Os restaurantes comunitários do DF são referência nacional desde os anos 2000 e o Cartao Prato Cheio ampliou a cobertura. Restaurantes populares existem no Brasil desde os anos 1990 e tem boa avaliação de acesso a refeição de baixo custo, com crítica recorrente sobre focalização - parte do público atendido não está em inseguranca alimentar.",
+    "br_res": "funcionou",
+    "mundo": "O Mexico opera comedores comunitários e a India o Amma Canteen em Tamil Nadu, com adesao massiva e custo fiscal relevante. A avaliação internacional aponta que refeição subsidiada resolve fome imediata e não altera inseguranca alimentar crônica sem transferência de renda associada - a combinação que a proposta faz com o Prato Cheio.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 12,
+   "vt": "forte",
+   "vd": "Os restaurantes comunitários do DF são referência nacional desde os anos 2000. A avaliação internacional é consistente: refeição subsidiada resolve fome imediata e só altera insegurança alimentar crônica combinada com transferência de renda — que é o Prato Cheio."
+  },
+  {
+   "id": "pp-df-13",
+   "titulo": "Expresso da Saúde: reduzir filas com telemedicina e inteligência artificial",
+   "setor": "saude",
+   "subtema": "Filas",
+   "resumo": "Programa de redução do tempo de espera por consultas, exames e procedimentos apoiado em telemedicina e IA, somado ao fortalecimento do Opera-DF para cirurgias eletivas.",
+   "citacao": "Implantar o Expresso da Saúde, reduzindo o tempo de espera por consultas, exames e procedimentos, com apoio da telemedicina e uso de Inteligência Artificial. ▪ Fortalecer e ampliar o programa Opera-DF, aumentando a oferta de cirurgias eletivas, gestão eficiente das filas e integração entre a Atenção Primária, os serviços especializados e a rede hospitalar.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "opera-parana",
+    "mutirao-cirurgias-brasil",
+    "telessaude-brasil",
+    "fila-cirurgica-sus"
+   ],
+   "historico": {
+    "br": "O DF tem uma das maiores redes públicas de saúde por habitante do país e mantem filas persistentes, o que aponta para problema de regulação e não de capacidade. A telemedicina foi regulamentada pela Lei 14.510/2022 e usada com resultados na pandemia. Mutirões reduzem estoque sem alterar a gestão da fila.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido reduziu a espera máxima de 18 meses para 18 semanas entre 2000 e 2008 com meta legal, dinheiro novo e públicação por hospital. Portugal opera garantia de tempo máximo desde 2004. A lição repetida e que telemedicina e IA melhoram triagem e não criam capacidade cirurgica - reduzir fila exige também oferta adicional.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 13,
+   "vt": "promissora",
+   "vd": "Telemedicina e IA melhoram triagem e não criam sala de cirurgia. O DF tem rede grande e fila persistente, o que aponta para regulação — a lição britânica é que meta legal com dinheiro novo funciona, e mutirão isolado só reduz estoque por um tempo."
+  },
+  {
+   "id": "pp-df-14",
+   "titulo": "Hospital Perto de Casa: cinco novos hospitais e sete novas UPAs nominadas",
+   "setor": "saude",
+   "subtema": "Rede hospitalar",
+   "resumo": "Inaugurar os hospitais Ortopedico do Guara, de São Sebastiao, o Novo de Ceilandia, o do Recanto das Emas e o Oncológico, além de UPAs em Águas Claras, Água Quente, Guara 2, Taguatinga, Estrutural, Arapoanga e Ceilandia.",
+   "citacao": "Assegurar, no âmbito do programa Hospital Perto de Casa, a inauguração do Hospital Ortopédico do Guará, do Hospital de São Sebastião, do Novo Hospital de Ceilândia, do Hospital do Recanto das Emas e do Hospital Oncológico, além do Bloco Especializado em Doenças Raras e da modernização da Unidade de Tratamento de Queimados do HRAN.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "upas-brasil-avaliacao",
+    "obras-paradas-tcu",
+    "hospitais-regionais-df"
+   ],
+   "historico": {
+    "br": "O DF tem histórico de obras hospitalares anunciadas e não concluidas: o Hospital de São Sebastiao e o de Ceilandia foram prometidos em várias gestões. O TCU e o TCDF já apontaram obras paralisadas na saúde distrital. O gargalo recorrente não e inaugurar, e custear a operação com pessoal concursado.",
+    "br_res": "parcial",
+    "mundo": "A experiência internacional mostra que ampliar leitos sem reorganizar a atenção primária aumenta custo sem reduzir demanda: e o achado central da literatura sobre internações por condições sensíveis a atenção primária. Portugal e a Costa Rica obtiveram melhores indicadores investindo na base da rede, e não em novos hospitais.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 13,
+   "vt": "arriscada",
+   "vd": "Ampliar leito sem reorganizar a atenção primária aumenta custo sem reduzir demanda — é o achado central da literatura sobre internações sensíveis à atenção básica. O DF já tem histórico de hospital anunciado em várias gestões, e o gargalo é custear operação com pessoal concursado."
+  },
+  {
+   "id": "pp-df-15",
+   "titulo": "IntegraSaude com prontuário eletrônico unificado por cidade",
+   "setor": "saude",
+   "subtema": "Saúde digital",
+   "resumo": "Unidades identificadas pelo nome da cidade reunindo consultas especializadas, diagnóstico por imagem, reabilitação e saúde mental, com prontuário único e acompanhamento digital de filas.",
+   "citacao": "Implantar o IntegraSaúde, com cada unidade identificada pelo nome da cidade, reunindo consultas especializadas, serviço de diagnóstico e imagem, reabilitação, saúde mental e atendimento multiprofissional, de forma articulada com a Atenção Primária, as emergências e os Centros de Atenção Psicossocial (CAPS).",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "rnds-prontuario",
+    "ambulatorio-medico-especialidades-sp",
+    "previne-brasil"
+   ],
+   "historico": {
+    "br": "O DF opera o TrakCare como prontuário da rede pública desde 2015, um dos sistemas mais completos entre os estados, com críticas sobre usabilidade e integração. A RNDS nacional avançou na pandemia e a interoperabilidade com a rede privada segue parcial. Unidades regionais integrando consulta especializada e diagnóstico e o modelo das policlinicas já existentes no DF.",
+    "br_res": "parcial",
+    "mundo": "A Estonia opera prontuário nacional interoperável desde 2008 com consentimento e trilha de auditoria. O Reino Unido cancelou o National Programme for IT em 2011 com perda de cerca de 10 bilhões de libras. Interoperabilidade por padrão aberto funciona; substituir sistema que já opera por outro monolítico e o erro mais caro documentado na área.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 13,
+   "vt": "arriscada",
+   "vd": "O DF já opera o TrakCare desde 2015, um dos sistemas mais completos entre os estados. Substituir sistema em operação por outro é o risco mais caro documentado em TI de saúde — o Reino Unido queimou 10 bilhões de libras assim, e o plano não diz como fará."
+  },
+  {
+   "id": "pp-df-16",
+   "titulo": "Expandir CAPS para todas as RAs com equipes multidisciplinares",
+   "setor": "saude",
+   "subtema": "Saúde mental",
+   "resumo": "Política permanente de saúde mental com rede de atenção psicossocial em cada região administrativa.",
+   "citacao": "Expandir as redes de CAPS para todas as RAs com equipes multidisciplinares, fortalecendo a política permanente de saúde mental.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "raps-rede-psicossocial",
+    "reforma-psiquiatrica-brasil"
+   ],
+   "historico": {
+    "br": "A Raps preve CAPS por porte populacional desde 2011 e o DF tem cobertura abaixo do parametro em várias RAs. O financiamento federal dos CAPS e insuficiente e a demanda cresceu fortemente entre jovens. A expansão territorial e agenda consensual e cara.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido criou o IAPT em 2008, ampliando acesso a terapia baseada em evidência com medição de desfecho de cada paciente - o modelo com melhor avaliação em escala. A Australia opera o headspace para jovens. Os dois combinam porta de entrada fácil, terapia estruturada e medição contínua - elementos que a expansão de CAPS por si só não garante.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 14,
+   "vt": "forte",
+   "vd": "O IAPT britânico é o modelo com melhor avaliação em escala: porta de entrada fácil, terapia estruturada e medição de desfecho por paciente. A cobertura de CAPS no DF está abaixo do parâmetro em várias RAs e a demanda entre jovens cresceu muito."
+  },
+  {
+   "id": "pp-df-17",
+   "titulo": "Reestruturar carreiras da saúde com valorização salarial e concursos",
+   "setor": "estado",
+   "subtema": "Pessoal",
+   "resumo": "Reposição de profissionais por concurso público, formação continuada e atenção a saúde mental e laboral das equipes.",
+   "citacao": "Reestruturar as carreiras com valorização salarial e reposição de profissionais de saúde por meio de concursos públicos. ■ E I X O 1 C U I D A D O , D I G N I D A D E E I N C L U S Ã O S O C I A L Plano de Governo 2027 a 2030 | Celina Leão | Gustavo Rocha 14 ▪ Promover a capacitação e formação profissional continuada dos profissionais de saúde.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "deficit-pessoal-sus",
+    "teto-gastos-pessoal-lrf"
+   ],
+   "historico": {
+    "br": "O DF tem uma das maiores remunerações de servidores de saúde do país e ainda assim registra déficit de profissionais em especialidades e nas RAs periféricas, o que indica problema de distribuição e de condições de trabalho, e não apenas de salário. Concursos foram realizados em várias gestões com nomeação parcial por restrição de despesa de pessoal.",
+    "br_res": "parcial",
+    "mundo": "O NHS britanico usa incentivo financeiro e formação local para fixação em área de difícil provimento, com resultado parcial. A evidência internacional aponta que formação na própria região e vínculo de carreira fixam mais que bonus salarial. Aumento de remuneração sem redistribuição territorial tende a não alterar a cobertura periférica.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 13,
+   "vt": "arriscada",
+   "vd": "O DF já tem das maiores remunerações de saúde do país e ainda registra déficit nas RAs periféricas — o problema é distribuição e condição de trabalho, não salário. Aumentar sem redistribuir territorialmente não altera a cobertura da periferia."
+  },
+  {
+   "id": "pp-df-18",
+   "titulo": "Primeiras Letras: toda criança concluindo o 2o ano lendo e escrevendo",
+   "setor": "educacao",
+   "subtema": "Alfabetização",
+   "resumo": "Compromisso de alfabetização plena ao fim do 2o ano com foco na aprendizagem.",
+   "citacao": "Implantar o Primeiras Letras, com o compromisso de que toda criança conclua o 2º ano lendo e escrevendo, com foco na aprendizagem. ▪ Ampliar a oferta da Escola em Tempo Integral, priorizando as regiões com maior demanda, com a perspectiva de alcançar toda a rede pública.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "alfabetiza-ceara",
+    "compromisso-alfabetizacao-mec",
+    "pnaic"
+   ],
+   "historico": {
+    "br": "O Ceara e a referência domestica com o PAIC desde 2007, que combinou meta, avaliação externa anual e incentivo financeiro por resultado. O Compromisso Criança Alfabetizada (2023) replicou o desenho nacionalmente. O DF tem indicadores acima da média nacional e desigualdade interna forte entre o Plano Piloto e as RAs periféricas.",
+    "br_res": "funcionou",
+    "mundo": "A Inglaterra tornou o phonics obrigatório com teste censitário em 2012 e subiu no PIRLS; Mississippi replicou nos EUA com ganho notado. A evidência sobre método estruturado e avaliação externa e solida. O que diferência os casos de sucesso e a avaliação anual externa - compromisso sem medição independente não move indicador.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 15,
+   "vt": "forte",
+   "vd": "O Ceará provou o modelo desde 2007 e o Compromisso Crianca Alfabetizada o replicou. O que separa sucesso de promessa é avaliação externa anual independente — e o DF tem forte desigualdade interna entre o Plano Piloto e as RAs."
+  },
+  {
+   "id": "pp-df-19",
+   "titulo": "Futuro Agora: bolsa aos alunos do ensino médio vinculada a frequência e desempenho",
+   "setor": "educacao",
+   "subtema": "Permanência",
+   "resumo": "Incentivo financeiro condicionado ao comparecimento e ao resultado escolar, mais o programa Bolsa Universitária DF para estudantes de baixa renda.",
+   "citacao": "Criar o Programa Futuro Agora com concessão de bolsa de incentivo financeiro aos alunos do ensino médio da rede pública vinculado à frequência e ao desempenho escolar. ▪ Fortalecer a educação inclusiva, com aumento de monitores nas escolas, qualificando o atendimento aos estudantes com deficiência, transtorno do espectro autista, altas habilidades e outras necessidades educacionais específicas, com acessibilidade, recursos pedagógicos.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "pe-de-meia",
+    "renova-educacao-sp",
+    "bolsa-familia",
+    "conditional-cash-transfer-avaliacoes"
+   ],
+   "historico": {
+    "br": "O Pe-de-Meia (2024) e o programa nacional de poupanca de permanência e já condiciona a frequência e a aprovação; o Renda Melhor Jovem no Rio (2011) e o Poupanca Jovem em Minas testaram o desenho antes. Programas distritais de bolsa condicionada já existiram no DF. O ponto sensível e condicionar a desempenho, que tende a excluir o aluno de maior risco.",
+    "br_res": "funcionou",
+    "mundo": "O Mexico (Progresa, 1997) e a Colombia condicionaram transferência a frequência com efeito robusto sobre permanência. Experimentos americanos de pagamento por nota produziram efeitos pequenos e concentrados em quem já ia bem. A evidência favorece condicionar a frequência; condicionar a desempenho tem resultado fraco.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 15,
+   "vt": "promissora",
+   "vd": "O Pé-de-Meia já condiciona frequência e aprovação com resultado inicial positivo, e Progresa provou o desenho desde 1997. O ponto sensível é condicionar a desempenho: experimentos de pagamento por nota rendem pouco e beneficiam quem já ia bem."
+  },
+  {
+   "id": "pp-df-20",
+   "titulo": "Ampliar as escolas cívico-militares e reforcar o Batalhao Escolar",
+   "setor": "educacao",
+   "subtema": "Gestão escolar",
+   "resumo": "Expandir o modelo de gestão compartilhada com a PM 'conforme critérios técnicos', sob os argumentos de disciplina, cultura de paz e segurança, e ampliar a cobertura policial das escolas públicas.",
+   "citacao": "Ampliar a Escola Cívico-Militar, modelo de gestão compartilhada nas escolas públicas do Distrito Federal [...] fortalecendo a disciplina, a cultura de paz, a participação das famílias e a segurança no ambiente escolar, garantindo a autonomia pedagógica da Secretaria de Educação.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "escolas-civico-militares",
+    "escolas-militares-goias",
+    "escolas-civico-militares-df",
+    "avaliacoes-escolas-militares"
+   ],
+   "historico": {
+    "br": "O DF tem uma das maiores redes de escolas cívico-militares do país, ampliada desde 2019, e o Batalhao Escolar da PMDF existe há decadas. As avaliações disponíveis são ambiguas: há ganho em indicadores de disciplina e evasao, e as comparações de desempenho sofrem de seleção, porque essas escolas frequentemente selecionam alunos e recebem mais recursos. O Pecim federal foi extinto em 2023 e recriado em 2024.",
+    "br_res": "parcial",
+    "mundo": "O Mexico experimentou escolas militarizadas em Chihuahua e abandonou. Os EUA mantem JROTC há um século, com ganho de disciplina e nenhum ganho acadêmico claro. Não há sistema nacional relevante que tenha militarizado a rede pública como política geral e sustentado o modelo.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 15,
+   "vt": "arriscada",
+   "vd": "O DF tem das maiores redes cívico-militares do país e as avaliações sofrem de seleção — essas escolas escolhem aluno e recebem mais recurso. O México abandonou a experiência em Chihuahua e o JROTC americano mostra ganho de disciplina sem ganho acadêmico claro."
+  },
+  {
+   "id": "pp-df-21",
+   "titulo": "Escola em tempo integral com perspectiva de alcançar toda a rede",
+   "setor": "educacao",
+   "subtema": "Jornada escolar",
+   "resumo": "Ampliar a oferta priorizando as regiões de maior demanda até cobrir toda a rede pública.",
+   "citacao": "Ampliar a oferta da Escola em Tempo Integral, priorizando as regiões com maior demanda, com a perspectiva de alcançar toda a rede pública. ▪ Criar o Programa Futuro Agora com concessão de bolsa de incentivo financeiro aos alunos do ensino médio da rede pública vinculado à frequência e ao desempenho escolar.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "escola-tempo-integral-pernambuco",
+    "politica-tempo-integral-lei-14640",
+    "mais-educacao"
+   ],
+   "historico": {
+    "br": "A meta de 50% das escolas e 25% dos alunos em tempo integral está no PNE de 2014 e não foi cumprida até 2024. O Mais Educação (2007) ampliou matriculas com contraturno de baixa qualidade. Pernambuco e o Ceara mostraram que o modelo funciona com escola desenhada para o dia inteiro e professor com dedicação exclusiva - não apenas com horas adicionais.",
+    "br_res": "parcial",
+    "mundo": "O Chile implantou a Jornada Escolar Completa em 1997 em quase toda a rede: ganho modesto de aprendizagem e ganho maior de proteção social e de trabalho feminino. A lição comum e que tempo integral só melhora aprendizagem quando muda o que se faz com o tempo.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 15,
+   "vt": "promissora",
+   "vd": "A meta do PNE de 2014 não foi cumprida em quase lugar nenhum. Pernambuco e Ceará mostram que funciona com escola desenhada para o dia inteiro e professor com dedicação exclusiva — o Chile provou que tempo sem mudar o que se faz com ele rende pouco."
+  },
+  {
+   "id": "pp-df-22",
+   "titulo": "Substituir Educa-DF e Cartao PDAF por soluções com inteligência artificial",
+   "setor": "educacao",
+   "subtema": "Gestão",
+   "resumo": "Trocar dois programas existentes de recursos descentralizados para escolas por ferramentas baseadas em IA.",
+   "citacao": "Substituir os programas Educa-DF e Cartão PDAF por soluções com recursos de Inteligência Artificial. ▪ Promover ambientes escolares seguros, acolhedores e favoráveis à aprendizagem, fortalecendo a mediação de conflitos, o enfrentamento ao bullying, a prevenção da violência, os primeiros socorros e o cuidado com a saúde emocional dos estudantes e profissionais.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "pdde-recursos-escolas",
+    "autonomia-financeira-escolas",
+    "ia-na-educacao-unesco"
+   ],
+   "historico": {
+    "br": "O PDAF descentraliza recursos diretamente as escolas e e apontado por gestores como instrumento de autonomia; o Educa-DF e a plataforma pedagógica distrital. Substituir programas de repasse descentralizado por ferramentas de IA e proposta sem precedente e sem detalhamento no plano - troca um instrumento financeiro por um tecnológico, que são coisas distintas.",
+    "br_res": "inedito",
+    "mundo": "O PDDE federal e programas de repasse direto a escola tem avaliações favoráveis a autonomia e a agilidade de pequenas melhorias. Não há experiência internacional de substituição de repasse descentralizado por ferramenta de IA; há, sim, uso de IA para diagnóstico de aprendizagem (Coreia do Sul, China) com avaliações iniciais e efeito ainda não demonstrado em escala.",
+    "mundo_res": "inedito",
+    "conf": "baixa"
+   },
+   "pagina": 15,
+   "vt": "arriscada",
+   "vd": "O PDAF descentraliza dinheiro direto para a escola e é apontado por gestores como instrumento de autonomia — programas de repasse direto têm avaliação favorável. Trocar um instrumento financeiro por uma ferramenta de IA são coisas distintas, e o plano não explica a substituição."
+  },
+  {
+   "id": "pp-df-23",
+   "titulo": "Escolas da creche ao ensino médio no mesmo terreno",
+   "setor": "educacao",
+   "subtema": "Infraestrutura",
+   "resumo": "Construir unidades com segmentação por etapa no mesmo endereco para facilitar a rotina de famílias com filhos de idades diferentes, e reduzir a dependência de imóveis alugados.",
+   "citacao": "Construir no mesmo terreno, da creche ao ensino médio, escolas com segmentação adequada dos espaços por etapa de ensino, para facilitar a rotina das famílias com filhos de diferentes idades.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "escolas-parque-brasilia",
+    "aluguel-imoveis-escolas-df"
+   ],
+   "historico": {
+    "br": "Escolas com creche, fundamental e médio no mesmo terreno existem em vários municípios brasileiros e são defendidas por reduzirem o deslocamento das famílias. A crítica pedagógica recorrente e a convivência de faixas etárias muito distintas no mesmo espaco, que exige segmentação física cuidadosa - o próprio plano menciona segmentação por etapa.",
+    "br_res": "parcial",
+    "mundo": "Os community schools americanos e as escolas integradas do norte da Europa reunem etapas e serviços no mesmo campus, com avaliações favoráveis a frequência e ao envolvimento familiar. O requisito apontado e separação física de espacos e equipes por etapa, sem o que há prejuízo pedagógico documentado.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 16,
+   "vt": "promissora",
+   "vd": "Os community schools americanos e as escolas integradas do norte da Europa reúnem etapas no mesmo campus com ganho de frequência e envolvimento familiar. O requisito é separação física de espaços e equipes por etapa — sem isso há prejuízo pedagógico documentado."
+  },
+  {
+   "id": "pp-df-24",
+   "titulo": "Tablets para estudantes e professores e climatização das salas de aula",
+   "setor": "educacao",
+   "subtema": "Infraestrutura",
+   "resumo": "Conectividade, equipamentos individuais, reformas, acessibilidade, refeitórios e quadras cobertas nas unidades com maior necessidade.",
+   "citacao": "Ampliar o acesso a equipamentos e conectividade nas escolas públicas, com a distribuição de tablets a estudantes e professores. ▪ Desenvolver ações integradas de educação, saúde e proteção social, promovendo vacinação, prevenção, alimentação saudável, acompanhamento do desenvolvimento e orientação às famílias, em articulação com os órgãos responsáveis.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "um-computador-por-aluno-uca",
+    "plan-ceibal-uruguai",
+    "conectividade-escolas-brasil"
+   ],
+   "historico": {
+    "br": "O Brasil promete equipamento nas escolas desde o Proinfo (1997) e programas de distribuição de tablets em vários estados terminaram com equipamentos subutilizados por falta de conectividade, manutenção e formação docente - o padrão mais repetido em política de tecnologia educacional no país. Climatização e obra de conforto com efeito direto sobre frequência em clima quente.",
+    "br_res": "fracassou",
+    "mundo": "O Uruguai universalizou um laptop por aluno com o Plan Ceibal (2007): adesao alta, efeito direto sobre aprendizagem pequeno, efeito sobre inclusão digital grande. A conclusao da OCDE (2015) e que equipamento sem mudança pedagógica não melhora resultado. Há, por outro lado, evidência consistente de que temperatura elevada em sala reduz aprendizagem.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 16,
+   "vt": "arriscada",
+   "vd": "Programas de tablet em vários estados terminaram com equipamento subutilizado por falta de conectividade, manutenção e formação — é o padrão mais repetido em tecnologia educacional no Brasil. Climatização é outra história: há evidência consistente de que calor em sala reduz aprendizagem."
+  },
+  {
+   "id": "pp-df-25",
+   "titulo": "Universalizar a inteligência artificial no monitoramento do Programa DF 360",
+   "setor": "seguranca",
+   "subtema": "Vigilância",
+   "resumo": "Fortalecer o Centro Integrado de Operações de Brasilia com IA para monitoramento e atuação coordenada entre PM, Polícia Civil, Bombeiros, Polícia Penal, Detran e Defesa Civil.",
+   "citacao": "Modernizar e ampliar o Programa DF 360, universalizando o uso de inteligência artificial ao monitoramento, e fortalecer o Centro Integrado de Operações de Brasília, CIOB, incorporando inteligência artificial e outras tecnologias para aprimorar o monitoramento, o compartilhamento de informações e a atuação coordenada entre a Polícia Militar, a Polícia Civil, o Corpo de Bombeiros Militar, a Polícia Penal, o Detran e a Defesa Civil.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "smart-sampa",
+    "reconhecimento-facial-bahia",
+    "ciops-integracao",
+    "compstat-nova-york"
+   ],
+   "historico": {
+    "br": "O DF 360 e o Centro Integrado de Operações de Brasilia já operam videomonitoramento com reconhecimento facial. Há casos documentados no país de prisão equivocada por falso positivo, com maior incidência sobre pessoas negras, levantados por defensorias e centros de pesquisa, e a ANPD já questionou bases legais de tratamento biométrico.",
+    "br_res": "parcial",
+    "mundo": "O AI Act europeu (2024) restringiu reconhecimento facial em tempo real em espaco público a hipoteses excepcionais com autorização judicial. Londres opera videomonitoramento em larga escala com efeito comprovado sobre furto de veículo e efeito fraco sobre crime violento. Várias cidades americanas proibiram a tecnologia. O uso irrestrito em escala só ocorre na China.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 17,
+   "vt": "arriscada",
+   "vd": "O DF 360 já opera com reconhecimento facial e há prisão equivocada de pessoas negras documentada por defensorias no país. A UE restringiu o uso em tempo real a hipóteses excepcionais com autorização judicial, e o plano não menciona nenhuma salvaguarda."
+  },
+  {
+   "id": "pp-df-26",
+   "titulo": "Colocar 100% da população carcerária para trabalhar dentro das unidades",
+   "setor": "seguranca",
+   "subtema": "Sistema prisional",
+   "resumo": "Trabalho prisional universal, somado a tecnologias de controle contra comunicações ilicitas para impedir que presídios sirvam de centro de comando de facções.",
+   "citacao": "Colocar 100% da população carcerária para trabalhar dentro das unidades prisionais. ▪ Criar delegacias e batalhões de polícia nas RAs que ainda não possuem.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "remicao-pela-leitura",
+    "trabalho-prisional-lep",
+    "apac-metodo",
+    "trabalho-prisional-avaliacoes"
+   ],
+   "historico": {
+    "br": "O trabalho prisional e previsto na Lei de Execução Penal e alcanca cerca de 15% a 20% dos presos no país; a remição por trabalho e estudo e instrumento consolidado. O método APAC opera com trabalho e estudo obrigatórios e apresenta reincidência muito abaixo da média, com escala pequena. Universalizar o trabalho prisional exigiria estrutura produtiva dentro das unidades que nenhuma unidade federativa brasileira montou.",
+    "br_res": "parcial",
+    "mundo": "Os EUA operam a Unicor, indústria prisional federal, com evidência de redução de reincidência entre participantes. A Noruega combina trabalho, educação e transição assistida e tem uma das menores reincidências do mundo. A evidência favorece trabalho prisional remunerado com qualificação; trabalho sem formação e sem transição para o mercado tem efeito pequeno.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 17,
+   "vt": "promissora",
+   "vd": "Trabalho prisional tem evidência de reduzir reincidência — Unicor nos EUA, modelo APAC aqui, que opera muito abaixo da média nacional. Universalizar exigiria estrutura produtiva dentro das unidades que nenhuma unidade federativa brasileira montou, e o efeito cai sem qualificação junto."
+  },
+  {
+   "id": "pp-df-27",
+   "titulo": "Isonomia salarial entre a Polícia Civil do DF e a Polícia Federal",
+   "setor": "seguranca",
+   "subtema": "Efetivo",
+   "resumo": "Atuar junto ao governo federal e ao Congresso pela equiparação e pelos planos de reestruturação de carreira da PMDF e do CBMDF, e rever a exigência de intersticio nas carreiras militares.",
+   "citacao": "Atuar junto ao Governo Federal e ao Congresso Nacional em defesa da isonomia salarial entre a Polícia Civil do Distrito Federal e a Polícia Federal e dos planos de reestruturação de carreira da PMDF e do CBMDF.",
+   "econ": -1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "fundo-constitucional-df",
+    "isonomia-carreiras-policiais",
+    "reestruturacao-carreiras-seguranca"
+   ],
+   "historico": {
+    "br": "A Polícia Civil do DF e mantida com recursos do Fundo Constitucional do DF, pago pela União, o que torna a isonomia com a PF uma questão de decisão federal e não distrital - o plano reconhece isso ao propor atuação junto ao governo federal e ao Congresso. Reestruturações salariais das carreiras do DF ocorreram em várias gestões por lei federal.",
+    "br_res": "parcial",
+    "mundo": "Não há equivalente internacional direto, por ser arranjo específico do Distrito Federal brasileiro. A questão geral - equiparação salarial entre carreiras policiais de entes distintos - e recorrente em federações e costuma ser resolvida por piso nacional, e não por isonomia entre corporações, o que evita efeito cascata sobre outras carreiras.",
+    "mundo_res": "inconclusivo",
+    "conf": "media"
+   },
+   "pagina": 17,
+   "vt": "arriscada",
+   "vd": "A Polícia Civil do DF é custeada pelo Fundo Constitucional pago pela União — a decisão é federal, e o plano reconhece isso ao propor articulação. Isonomia entre corporações tende a gerar efeito cascata; a solução usual lá fora é piso nacional, não equiparação."
+  },
+  {
+   "id": "pp-df-28",
+   "titulo": "Delegacias e batalhões nas RAs que ainda não possuem",
+   "setor": "seguranca",
+   "subtema": "Presença territorial",
+   "resumo": "Ampliar a presença das forças de segurança nos territórios com uso de dados de inteligência para orientar o policiamento preventivo.",
+   "citacao": "Criar delegacias e batalhões de polícia nas RAs que ainda não possuem.",
+   "econ": -1,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "hot-spots-policing",
+    "efetivo-policial-brasil",
+    "policiamento-comunitario"
+   ],
+   "historico": {
+    "br": "A distribuição de unidades policiais no DF concentra-se historicamente nas regiões centrais, com RAs periféricas atendidas por unidades distantes. Estudos de hot spots policing mostram que a alocação por dados de criminalidade tem efeito maior que a distribuição uniforme - a proposta cita uso de inteligência para priorizar, o que e coerente com essa evidência.",
+    "br_res": "parcial",
+    "mundo": "O policiamento por hot spots e uma das poucas intervenções em segurança com evidência experimental robusta de redução de crime, com efeito de difusao de benefício para áreas vizinhas e sem deslocamento significativo. A construção de unidades fixas, por si, tem evidência mais fraca que a alocação dinamica de patrulhamento.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 17,
+   "vt": "promissora",
+   "vd": "O hot spots policing é das poucas intervenções em segurança com evidência experimental robusta, com difusão de benefício e sem deslocamento significativo. Usar dado para priorizar é o acerto; construir unidade fixa, por si, tem evidência mais fraca que patrulhamento alocado dinamicamente."
+  },
+  {
+   "id": "pp-df-29",
+   "titulo": "Investigação financeira e recuperação de ativos do crime organizado",
+   "setor": "seguranca",
+   "subtema": "Crime organizado",
+   "resumo": "Fortalecer inteligência policial, enfrentar o tráfico, reprimir crimes cibernéticos em cooperação com a União e o Entorno e modernizar a pericia oficial.",
+   "citacao": "Fortalecer a inteligência policial, a investigação financeira e a recuperação de ativos do crime organizado. ▪ Enfrentar o tráfico de drogas.",
+   "econ": 0,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "confisco-alargado",
+    "coaf-uif",
+    "lei-organizacoes-criminosas-12850"
+   ],
+   "historico": {
+    "br": "O COAF produz volume crescente de relatórios e a alienação antecipada de bens existe desde 2012, subutilizada por falta de estrutura de gestão de ativos. Operações recentes contra facções no setor de combustíveis e em fintechs mostraram capacidade nova de rastreio. No DF, a atuação depende de articulação com PF e Receita, que são federais.",
+    "br_res": "parcial",
+    "mundo": "A Italia e o caso de referência, com confisco de bens mafiosos desde 1982 e agência nacional dedicada a gerir ativos apreendidos - a peça que falta no Brasil. Os EUA obtiveram resultado semelhante com o RICO Act. Em ambos, o efeito veio em decadas e dependeu de estrutura permanente de gestão patrimonial.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 17,
+   "vt": "forte",
+   "vd": "Itália e EUA quebraram estruturas criminais pelo dinheiro. No DF a atuação depende de articulação com PF e Receita, que são federais — e a peça que falta em todo o Brasil é estrutura permanente para gerir o bem apreendido."
+  },
+  {
+   "id": "pp-df-30",
+   "titulo": "Escritura na Mão: acelerar regularização fundiária e emissão de títulos",
+   "setor": "cidade",
+   "subtema": "Terra urbana",
+   "resumo": "Simplificar licenciamento urbanístico e ambiental e a emissão de títulos para nucleos urbanos e rurais, com prioridade para famílias de baixa renda.",
+   "citacao": "Implantar o Escritura na Mão, acelerando e simplificando os procedimentos de regularização fundiária e a emissão de títulos, aprimorando o licenciamento urbanístico e ambiental, a elaboração de projetos e a emissão de títulos, para os núcleos urbanos e rurais e prioridade para as famílias de baixa renda.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "regularizacao-fundiaria-lei-13465",
+    "titulacao-de-soto",
+    "reurb-avaliacoes",
+    "grilagem-df"
+   ],
+   "historico": {
+    "br": "O DF tem passivo fundiário histórico: centenas de condominios irregulares, muitos em área rural ou de proteção de manancial, formados desde os anos 1980. A REURB (2017) e o instrumento e o ritmo e lento por complexidade ambiental e cartorial. CPIs distritais e federais já investigaram grilagem no DF, e a Terracap acumula parcelamentos não concluidos.",
+    "br_res": "parcial",
+    "mundo": "A titulação em massa de De Soto no Peru entregou milhões de títulos sem produzir o acesso ao crédito que era sua premissa. A Colombia e o Mexico regularizaram assentamentos urbanos com resultados sociais positivos e efeito econômico modesto. A evidência e de que título melhora segurança da posse e investimento no imóvel, e não gera automaticamente crédito.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 21,
+   "vt": "promissora",
+   "vd": "O DF tem centenas de condomínios irregulares desde os anos 1980, vários sobre manancial. A REURB é o instrumento e o ritmo é lento por complexidade ambiental e cartorial — título melhora segurança da posse e investimento no imóvel, e não gera crédito automaticamente, como De Soto prometeu e o Peru desmentiu."
+  },
+  {
+   "id": "pp-df-31",
+   "titulo": "Casa pra Viver: doação de lotes unifamiliares e Cheque Moradia",
+   "setor": "cidade",
+   "subtema": "Habitação",
+   "resumo": "Doação de lotes para população carente combinada a um cheque para construção, além da oferta de lotes semiurbanizados e habitação de interesse social.",
+   "citacao": "Criar programa Casa pra Viver de doação de lotes unifamiliares para população carente. ▪ Criar o programa Cheque Moradia para beneficiar os participantes do programa Casa pra Viver.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "cheque-moradia-goias",
+    "lotes-urbanizados-banco-mundial",
+    "mcmv-localizacao-periferica",
+    "autoconstrucao-assistida"
+   ],
+   "historico": {
+    "br": "O DF já opera programas de lote com cheque-material pela Codhab, e a doação de lotes tem histórico ambivalente no DF: ampliou acesso a moradia e também alimentou ocupação especulativa e revenda, além de expansão urbana em área sem infraestrutura. O modelo de lote urbanizado e defendido por urbanistas quando vem com infraestrutura instalada previamente.",
+    "br_res": "parcial",
+    "mundo": "O lote urbanizado com autoconstrução assistida foi promovido pelo Banco Mundial nos anos 1970-1980 em vários paises, com avaliações que apontam custo baixo por família e resultado dependente da oferta previa de infraestrutura e de assistência técnica. Sem esses dois elementos, o modelo reproduz a periferia precária que pretendia substituir.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 21,
+   "vt": "arriscada",
+   "vd": "O lote urbanizado do Banco Mundial nos anos 1970-1980 tem custo baixo por família e resultado que depende inteiramente de infraestrutura instalada antes e assistência técnica. Sem essas duas peças, reproduz a periferia precária que pretendia substituir — e no DF já alimentou ocupação especulativa."
+  },
+  {
+   "id": "pp-df-32",
+   "titulo": "Grilagem Zero contra ocupações irregulares de terras",
+   "setor": "cidade",
+   "subtema": "Uso do solo",
+   "resumo": "Ampliar fiscalização e monitoramento territorial com atuação integrada dos órgãos públicos.",
+   "citacao": "Instituir o programa Grilagem Zero para prevenir e combater ocupações irregulares de terras, ampliando a fiscalização, o monitoramento territorial, com a atuação integrada dos órgãos públicos.",
+   "econ": 1,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "grilagem-df",
+    "df-legal",
+    "deter-prodes-inpe"
+   ],
+   "historico": {
+    "br": "A grilagem no DF e problema estrutural documentado por CPIs e pelo Ministério Público, ligada a expansão sobre áreas de proteção de manancial. O monitoramento por satélite e tecnicamente viável - o Prodes/INPE faz isso para floresta há duas decadas. O obstáculo histórico e a regularização sucessiva, que cria expectativa de que ocupar leva a título.",
+    "br_res": "parcial",
+    "mundo": "A Indonesia usou moratoria de novas licenças para conter expansão. A evidência internacional mostra que anistia fundiária recorrente aumenta a ocupação ilegal, enquanto corte temporal firme com fiscalização a reduz. O elemento decisivo e a credibilidade de que não havera nova regularização.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 21,
+   "vt": "promissora",
+   "vd": "O monitoramento por satélite é viável — o INPE faz isso para floresta há duas décadas. O obstáculo real é outro e a proposta não o enfrenta: a regularização sucessiva cria a expectativa de que ocupar leva a título, e é isso que move a grilagem."
+  },
+  {
+   "id": "pp-df-33",
+   "titulo": "GDF na sua Porta: zeladoria com foto, protocolo e prazo publicado de conserto",
+   "setor": "estado",
+   "subtema": "Zeladoria",
+   "resumo": "Unificar calcadas, iluminação, pavimentação, drenagem, pracas, pichação, entulho e mato alto num canal único com prazo publicado, executado com mutirões itinerantes nas RAs; versao rural chamada GDF na sua Porteira.",
+   "citacao": "Organizar, sob a marca GDF na sua Porta, a zeladoria urbana e a manutenção da cidade [...] com registro do problema por foto, protocolo e prazo publicado de conserto, executados em conjunto com os mutirões itinerantes de atendimento nas Regiões Administrativas.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "fix-my-street-reino-unido",
+    "156-canais-municipais",
+    "sla-servicos-publicos"
+   ],
+   "historico": {
+    "br": "Aplicativos de zeladoria com foto, protocolo e prazo existem em várias capitais brasileiras - o SP156 e o 1746 do Rio são os mais antigos - com boa avaliação de transparência e resultado dependente da capacidade operacional por trás. O DF já opera canais setoriais dispersos; unifica-los e a novidade.",
+    "br_res": "funcionou",
+    "mundo": "O 311 de Nova York e o modelo global de canal único de serviços urbanos, replicado em dezenas de cidades, com evidência de melhora na taxa de resolução e de equalização no atendimento entre bairros ricos e pobres. O ganho documentado vem da públicação do prazo e do desempenho por região, mais do que do aplicativo em si.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 22,
+   "vt": "forte",
+   "vd": "O 311 de Nova York é o modelo global de canal único, replicado em dezenas de cidades, com melhora medida na taxa de resolução e equalização entre bairros ricos e pobres. SP156 e 1746 provam aqui — o ganho vem de publicar prazo e desempenho por região."
+  },
+  {
+   "id": "pp-df-34",
+   "titulo": "Tarifa Zero no transporte público para a população de baixa renda",
+   "setor": "cidade",
+   "subtema": "Transporte público",
+   "resumo": "Gratuidade focalizada, e não universal, para população de baixa renda do DF.",
+   "citacao": "Implantar o programa Tarifa Zero de gratuidade do transporte público do Distrito Federal para a população de baixa renda. ▪ Estruturar, sob o programa DF nos Trilhos, uma carteira estratégica de investimentos em transporte de média e alta capacidade, priorizando os projetos de Metrô, VLT e BRT com maior maturidade, demanda, impacto na redução do tempo de deslocamento e viabilidade técnica, ambiental e financeira.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "tarifa-zero-marica",
+    "gratuidades-transporte-brasil",
+    "tarifa-zero-luxemburgo",
+    "fairtiq-tarifa-social"
+   ],
+   "historico": {
+    "br": "O DF já opera gratuidade para idosos, estudantes e pessoas com deficiência. Tarifa zero universal foi adotada por dezenas de municípios brasileiros - Maricá e Caucaia entre os maiores - com aumento documentado de demanda e custo fiscal elevado. Gratuidade focalizada por renda, como propoe o plano, e desenho intermediário menos testado e depende de cadastro confiável.",
+    "br_res": "parcial",
+    "mundo": "Talin adotou tarifa zero em 2013 e o efeito sobre migração modal foi pequeno; o Luxemburgo universalizou em 2020 com resultado semelhante. O Deutschlandticket alemao (2023), com preço baixo e não zero, teve adesao massiva. A evidência internacional sugere que frequência e velocidade do serviço movem mais a demanda do que o preço - e que gratuidade sem melhoria de oferta lota o sistema existente.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 23,
+   "vt": "arriscada",
+   "vd": "Talin e Luxemburgo universalizaram a gratuidade e a migração modal foi pequena; o Deutschlandticket, barato e não gratuito, teve adesão massiva. A evidência é de que frequência e velocidade movem mais que preço — gratuidade sem melhorar oferta lota o sistema existente."
+  },
+  {
+   "id": "pp-df-35",
+   "titulo": "DF nos Trilhos: concluir 4 novas estáções da Linha 1 e implantar a Linha 2 para o Gama",
+   "setor": "cidade",
+   "subtema": "Metro",
+   "resumo": "Carteira estratégica de metro, VLT e BRT priorizada por maturidade, demanda e viabilidade, com a Linha 2 para o Gama conforme EVTEA já contratado.",
+   "citacao": "Concluir, no âmbito do DF nos Trilhos, a expansão da Linha 1 do Metrô, com quatro novas estações [...] Implantar a Linha 2 do Metrô para o Gama, conforme Estudo de Viabilidade Técnica, Econômica e Ambiental (EVTEA), com ordem de serviço número 1823321941, do Governo do Distrito Federal.",
+   "econ": -1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "metro-df-expansao",
+    "custo-metro-brasil",
+    "atrasos-obras-metro-sp"
+   ],
+   "historico": {
+    "br": "O metro do DF opera desde 2001 e a expansão para Samambaia e Ceilandia está projetada e contratada há anos sem conclusao. O DF já teve vários anuncios de VLT não executados, incluindo o do eixo W3. O padrão brasileiro em mobilidade sobre trilhos e de obra iniciada e paralisada - o VLT de Cuiaba e o caso extremo, com mais de uma decada de paralisação.",
+    "br_res": "parcial",
+    "mundo": "O metro de Medellin e o de Santiago são referências de expansão continuada por decadas com planejamento estável. Em contraste, sistemas iniciados sem garantia de financiamento plurianual acumulam paralisações em toda a América Latina. A variável crítica identificada e financiamento plurianual assegurado antes do início da obra.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 23,
+   "vt": "arriscada",
+   "vd": "A expansão para Samambaia e Ceilândia está projetada e contratada há anos sem conclusão, e o VLT de Cuiabá é o alerta brasileiro. Medellín e Santiago expandiram por décadas porque tinham financiamento plurianual assegurado antes de começar a obra."
+  },
+  {
+   "id": "pp-df-36",
+   "titulo": "Trem regional Brasilia-Luziania e anel viário do DF",
+   "setor": "cidade",
+   "subtema": "Integração regional",
+   "resumo": "Articular com a União e Goias o trem regional e implantar o anel viário para desafogar a EPIG e a região central.",
+   "citacao": "Articular com a União e com o Estado de Goias a implantação do trem regional Brasilia-Luziania... Implantar o anel viário do Distrito Federal.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "tic-sp-trem-intercidades",
+    "ride-df",
+    "rodoanel-sp"
+   ],
+   "historico": {
+    "br": "O trem regional Brasilia-Luziania e discutido há decadas sem projeto executivo concluido; a INFRA S.A. retomou estudos recentemente. O anel viário do DF também e projeto antigo. Ambos dependem de articulação com a União e com Goias, o que historicamente trava projetos metropolitanos no país por ausência de governança interfederativa.",
+    "br_res": "fracassou",
+    "mundo": "Regiões metropolitanas que integraram transporte - Madri, Londres, Santiago - criaram autoridade metropolitana única com poder de contratar e arrecadar. A ausência desse arranjo e apontada como a causa central do fracasso de projetos metropolitanos no Brasil, onde a RIDE do DF não tem poder executivo nem orçamento próprio relevante.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 24,
+   "citacao_aprox": true,
+   "vt": "ja_falhou",
+   "vd": "O trem regional é discutido há décadas sem projeto executivo e depende de União e Goiás. A RIDE existe desde 1998 sem poder executivo nem orçamento — Madri e Londres integraram porque criaram autoridade metropolitana com poder de contratar e arrecadar, e o Brasil não tem isso."
+  },
+  {
+   "id": "pp-df-37",
+   "titulo": "Zonas 30 e moderação de velocidade para trânsito mais seguro",
+   "setor": "cidade",
+   "subtema": "Segurança viária",
+   "resumo": "Fiscalização, educação, engenhária de trafego e implantação planejada de medidas de redução de velocidade.",
+   "citacao": "implantação planejada de medidas de moderação de velocidade, como as Zonas 30. ▪ Modernizar a gestão e a experiência dos usuários da mobilidade, integrando dados e sistemas, ampliando o monitoramento em tempo real, a fiscalização tecnológica, a bilhetagem digital e o acesso às informações sobre linhas, horários, tarifas, gratuidades e condições operacionais.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "zonas-30-europa",
+    "vision-zero-suecia",
+    "reducao-velocidade-sp-2015"
+   ],
+   "historico": {
+    "br": "O Brasil adotou o limite de 50 km/h em vias urbanas e reduções de velocidade em corredores de São Paulo em 2015, com queda documentada de mortes no trânsito e reversão parcial da medida em 2017 por pressão política - e um dos casos brasileiros com evidência mais clara de efeito e de reversão.",
+    "br_res": "parcial",
+    "mundo": "As Zonas 30 são política consolidada na Europa: Londres, Paris, Bruxelas e cidades espanholas as adotaram com redução documentada de mortes e de lesões graves. A relação entre velocidade de impacto e letalidade e uma das mais bem estabelecidas na literatura de segurança viária. E das intervenções urbanas com melhor relação custo-benefício.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 23,
+   "vt": "forte",
+   "vd": "A relação entre velocidade de impacto e letalidade é das mais estabelecidas na segurança viária. Londres, Paris e Bruxelas reduziram mortes com Zonas 30, e São Paulo mediu queda em 2015 e reverteu parte em 2017 por pressão política — a evidência é sólida e a política é frágil."
+  },
+  {
+   "id": "pp-df-38",
+   "titulo": "Brasilia Lixo Zero e fortalecimento das cooperativas de catadores",
+   "setor": "ambiente",
+   "subtema": "Resíduos",
+   "resumo": "Combater descarte irregular, modernizar centros de triagem, ampliar coleta seletiva e aprimorar contratação e remuneração dos catadores, com logística reversa e compostagem de organicos.",
+   "citacao": "Implantar o programa Brasília Lixo Zero, com o objetivo de combater o lançamento de lixo e entulhos nas ruas do DF [...] Fortalecer as cooperativas e associações de catadores de materiais recicláveis, modernizando os centros de triagem, ampliando a coleta seletiva e aprimorando os mecanismos transparentes de contratação e remuneração pelos serviços de coleta, triagem e recuperação de materiais.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "pnrs-2010",
+    "catadores-cooperativas",
+    "logistica-reversa",
+    "aterro-estrutural"
+   ],
+   "historico": {
+    "br": "O DF opera coleta seletiva e encerrou o lixao da Estrutural em 2018, um dos maiores da América Latina - conquista relevante, seguida de dificuldades na inclusão dos catadores que dele viviam. A Política Nacional de Resíduos Solidos (2010) fixou metas de fim dos lixões nunca cumpridas na maior parte do país; a contratação de cooperativas e prevista em lei e pouco praticada.",
+    "br_res": "parcial",
+    "mundo": "A Colombia reconheceu catadores como prestadores de serviço público com remuneração por decisão da Corte Constitucional em 2011 - o modelo mais avançado de inclusão. A União Europeia atingiu altas taxas de reciclagem com responsabilidade estendida do produtor, instrumento que o Brasil tem na lei e aplica pouco.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 25,
+   "vt": "forte",
+   "vd": "O DF encerrou o lixão da Estrutural em 2018, um dos maiores da América Latina. A Colômbia reconheceu catadores como prestadores de serviço público por decisão da Corte Constitucional em 2011 — é o modelo mais avançado de inclusão, e a contratação já é prevista em lei aqui."
+  },
+  {
+   "id": "pp-df-39",
+   "titulo": "Infraestrutura verde, jardins de chuva e corredores ecológicos contra o calor",
+   "setor": "ambiente",
+   "subtema": "Adaptação climática",
+   "resumo": "Soluções baseadas na natureza priorizando territórios mais vulneráveis ao calor, alagamentos e erosao, com manejo integrado do fogo e recuperação de nascentes do Cerrado.",
+   "citacao": "Expandir a arborização urbana e as soluções baseadas na natureza, com infraestrutura verde, jardins de chuva, recuperação de áreas permeáveis e formação de corredores ecológicos, priorizando os territórios mais vulneráveis ao calor, aos alagamentos e aos processos erosivos.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "arborizacao-urbana-medellin",
+    "ilhas-calor-brasil",
+    "solucoes-baseadas-natureza",
+    "manejo-integrado-fogo"
+   ],
+   "historico": {
+    "br": "O DF sofre com ilhas de calor e alagamentos crescentes, e programas de arborização existem sem escala. Jardins de chuva e infraestrutura verde foram implantados de forma piloto em algumas cidades brasileiras, com pouca avaliação sistemática. O plano diretor de drenagem do DF preve retenção na origem há anos, com execução parcial.",
+    "br_res": "parcial",
+    "mundo": "Copenhague implantou plano de cidade-esponja após a enchente de 2011 com resultados documentados; Medellin criou corredores verdes com redução mensurável de temperatura local. A China opera o programa de cidades-esponja em dezenas de municípios desde 2015 com avaliações mistas. Soluções baseadas na natureza tem evidência crescente e custo inferior a obra cinza equivalente.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 25,
+   "vt": "forte",
+   "vd": "Copenhague implantou plano de cidade-esponja após a enchente de 2011 com resultados documentados e Medellín reduziu temperatura local com corredores verdes. Soluções baseadas na natureza custam menos que a obra cinza equivalente — evidência crescente e sólida."
+  },
+  {
+   "id": "pp-df-40",
+   "titulo": "Licenciamento ambiental com geotecnologias, sensoriamento remoto e IA",
+   "setor": "ambiente",
+   "subtema": "Licenciamento",
+   "resumo": "Processos digitais para aumentar eficiência, transparência e segurança jurídica, com monitoramento tecnológico das áreas de proteção ambiental.",
+   "citacao": "Modernizar o licenciamento e a fiscalização ambiental, utilizando processos digitais, geotecnologias, sensoriamento remoto e Inteligência Artificial para aumentar a eficiência, a transparência, a segurança jurídica e a prevenção de danos ambientais.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "licenciamento-ambiental-lei-geral",
+    "deter-prodes-inpe",
+    "licenciamento-autodeclaratorio-debate"
+   ],
+   "historico": {
+    "br": "O licenciamento ambiental digital avançou em vários estados e o Brasil tem tradição consolidada em sensoriamento remoto pelo INPE. A Lei 15.190/2025 criou o licenciamento por risco. O gargalo apontado por auditorias não e tecnológico: e quadro técnico insuficiente nos órgãos licenciadores.",
+    "br_res": "em_curso",
+    "mundo": "Portugal opera licenciamento por nível de risco com prazos legais e equipe dedicada. Os EUA criaram painel público de prazos por projeto federal. A evidência e de que digitalização acelera o tramite administrativo e não substitui análise técnica - onde faltou equipe, a digitalização apenas tornou visível o atraso.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 25,
+   "vt": "promissora",
+   "vd": "O Brasil tem tradição consolidada em sensoriamento remoto pelo INPE e a lei de 2025 criou o licenciamento por risco. O gargalo apontado por auditorias não é tecnológico: é quadro técnico insuficiente, e digitalizar sem gente só torna o atraso visível."
+  },
+  {
+   "id": "pp-df-41",
+   "titulo": "Sistema CRIA e Parções: castração, cadastro e convivência animal",
+   "setor": "ambiente",
+   "subtema": "Animais",
+   "resumo": "Ampliar castração com unidades públicas, clinicas credenciadas e serviços móveis, cadastro integrado de tutores e canais de denúncia de maus-tratos, além de espacos públicos para animais.",
+   "citacao": "Aprimorar o Sistema CRIA como plataforma integrada de proteção animal, reunindo o cadastro de tutores e animais, informações sanitárias e canais de denúncia, fiscalização e acompanhamento dos casos de maus-tratos.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "castramovel-brasil",
+    "hospital-veterinario-publico",
+    "microchipagem-animais"
+   ],
+   "historico": {
+    "br": "O DF opera programas de castração móvel há anos com cobertura irregular. O SinPatinhas nacional foi criado em 2024 com cadastro voluntário. Parções se multiplicaram em capitais brasileiras. Castração em massa tem evidência de redução populacional apenas quando atinge cobertura alta e sustentada - campanhas pontuais não alteram a população de rua.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido tornou a microchipagem obrigatória para caes em 2016 e gatos em 2024, com aumento de devolução de animais perdidos. Programas de captura-castração-devolução tem evidência favorável para colonias de gatos quando a cobertura ultrapassa 70% da população local. Abaixo desse patamar, o efeito populacional e nulo.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 27,
+   "vt": "forte",
+   "vd": "O Reino Unido tornou a microchipagem obrigatória e aumentou a devolução de animais perdidos. A evidência sobre castração é clara e exigente: só há efeito populacional acima de cerca de 70% de cobertura sustentada — campanha pontual não muda nada."
+  },
+  {
+   "id": "pp-df-42",
+   "titulo": "Pontos de Apoio ao Trabalhador por Aplicativo em parceria com as plataformas",
+   "setor": "trabalho",
+   "subtema": "Plataformas digitais",
+   "resumo": "Infraestrutura de descanso, higiene, hidratação, recarga e conectividade nas RAs, viabilizada por parcerias com o setor privado e as próprias plataformas - sem tratar de vínculo ou remuneração.",
+   "citacao": "Implantar e fortalecer uma rede de Pontos de Apoio ao Trabalhador por Aplicativo nas Regiões Administrativas [...] por meio de parcerias com o setor privado e as plataformas digitais.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "regulacao-apps-brasil",
+    "pontos-apoio-entregadores",
+    "ab5-california"
+   ],
+   "historico": {
+    "br": "O trabalho por aplicativo não tem marco regulatório no Brasil: o PLP 12/2024 travou na Camara e o STF reconheceu repercussao geral sobre o vínculo. Pontos de apoio a entregadores foram criados por leis municipais em São Paulo e em outras capitais, com implantação lenta e financiamento em disputa entre poder público e plataformas.",
+    "br_res": "em_curso",
+    "mundo": "A Espanha aprovou a Ley Rider em 2021 reconhecendo vínculo de entregadores; a União Europeia adotou diretiva com presunção de vínculo em 2024. Sobre infraestrutura física, Nova York obrigou as plataformas a garantir acesso a banheiro e área de descanso em 2021 - o precedente mais direto, e ele foi imposto por lei as empresas, e não viabilizado por parceria voluntária.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 28,
+   "vt": "promissora",
+   "vd": "Nova York obrigou as plataformas a garantir banheiro e área de descanso em 2021 — e impôs por lei, não por parceria voluntária, que é a diferença relevante. O Brasil não tem marco nenhum: o PLP 12/2024 travou e o STF decide caso a caso."
+  },
+  {
+   "id": "pp-df-43",
+   "titulo": "Vincular incentivos fiscais a contrapartidas de emprego e investimento",
+   "setor": "economia",
+   "subtema": "Incentivos",
+   "resumo": "Modernizar o sistema de incentivos fiscais, imobiliários e crediticios condicionando os benefícios a geração de empregos e investimentos verificáveis.",
+   "citacao": "vinculando a concessão de benefícios a contrapartidas de geração de empregos, realização de investimentos e desenvolvimento econômico e social. ▪ Ampliar o acesso das empresas aos instrumentos de financiamento, fortalecendo os fundos e programas distritais e apoiando a captação de recursos junto a fontes regionais, nacionais e internacionais para projetos de inovação, expansão produtiva e modernização tecnológica.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "guerra-fiscal-icms",
+    "lc-160-2017",
+    "renuncia-fiscal-brasil",
+    "incentivos-condicionados-avaliacoes"
+   ],
+   "historico": {
+    "br": "O DF concede incentivos fiscais e imobiliários há decadas pelo Proicad e programas sucessores, com críticas recorrentes do TCDF sobre ausência de contrapartida verificada e sobre terrenos concedidos e não utilizados. A guerra fiscal do ICMS entre estados e o pano de fundo, agora em transição com a reforma tributária.",
+    "br_res": "fracassou",
+    "mundo": "A Coreia do Sul condicionou incentivo a metas de exportação verificáveis e retirou o benefício de quem falhava - o mecanismo de disciplina que a literatura aponta como diferencial. Nos EUA, incentivos estaduais para atração de empresas são amplamente criticados por custo por emprego elevado. Incentivo com contrapartida auditada tem evidência melhor que incentivo incondicional.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 28,
+   "vt": "forte",
+   "vd": "O TCDF já apontou incentivos concedidos sem contrapartida verificada e terrenos entregues sem uso. A Coreia condicionava crédito a meta verificável e retirava o apoio de quem falhava — é esse mecanismo de disciplina que nunca existiu na política de incentivos brasileira."
+  },
+  {
+   "id": "pp-df-44",
+   "titulo": "Cinco polos de desenvolvimento econômico social e programa Nossa Feira",
+   "setor": "economia",
+   "subtema": "Polos econômicos",
+   "resumo": "Polos de beleza, logística, distribuição de alimentos, farmacos e agricultura, e política permanente de construção e requalificação das feiras, com novas unidades no Jardim Botanico, Itapoa, Arniqueira, Águas Claras e Recanto das Emas.",
+   "citacao": "Criar 5 polos de desenvolvimento econômico social de beleza, logística, distribuição de alimentos, fármacos e agricultura. ▪ Aperfeiçoar e modernizar o sistema de incentivos fiscais, imobiliários e creditícios, tornando o ambiente de negócios mais seguro, simplificado e previsível e vinculando a concessão de benefícios a contrapartidas de geração de empregos, realização de investimentos e desenvolvimento econômico e social.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "ades-df",
+    "arranjos-produtivos-locais",
+    "camelodromos-brasil"
+   ],
+   "historico": {
+    "br": "Arranjos produtivos locais são política brasileira desde os anos 2000 com resultados modestos e dependentes de vocação preexistente. O DF tem economia dominada pelo setor público, o que torna a diversificação produtiva um objetivo antigo e pouco alcançado por sucessivas gestões. Programas de feiras e de comércio popular existem com forte apelo territorial.",
+    "br_res": "parcial",
+    "mundo": "Os distritos industriais italianos e os clusters espanhois cresceram sobre tradição produtiva preexistente, e não por designação administrativa. A avaliação internacional de políticas de cluster mostra efeito quando há massa crítica previa de empresas e efeito nulo quando o polo e criado do zero por decisão pública.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 28,
+   "vt": "arriscada",
+   "vd": "Os distritos industriais italianos e os clusters espanhóis cresceram sobre tradição produtiva preexistente. A avaliação internacional mostra efeito quando há massa crítica prévia de empresas e efeito nulo quando o polo é criado por decisão administrativa — e a economia do DF é dominada pelo setor público."
+  },
+  {
+   "id": "pp-df-45",
+   "titulo": "Manter o BRB público, recuperando governança, controles internos e gestão de riscos",
+   "setor": "economia",
+   "subtema": "Banco público",
+   "resumo": "Reafirmar o carater público do banco e reforcar seu papel de fomento, ampliando microcrédito e financiamento de projetos estruturantes. O plano não menciona o caso Banco Master nem o acordo com o FGC.",
+   "citacao": "Recuperar e fortalecer a capacidade operacional e financeira do BRB, aprimorando a governança, a integridade, os controles internos, a gestão de riscos e a transparência, com foco na solidez da instituição e na preservação do patrimônio público do Distrito Federal.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "caso-brb-master",
+    "governanca-estatais-lei-13303",
+    "proer-1995",
+    "fgc-brasil"
+   ],
+   "historico": {
+    "br": "O BRB passou por crise de governança associada a exposição ao Banco Master, com intervenção regulatoria e discussão pública sobre risco de aporte do Tesouro distrital em 2025. Bancos estaduais brasileiros já passaram por crise semelhante nos anos 1990, quando o Prões levou a privatização ou liquidação da maioria deles - o precedente histórico que da peso a decisão de manter o banco público.",
+    "br_res": "parcial",
+    "mundo": "O Banrisul e o BDMG são os casos brasileiros de banco estadual que sobreviveram com governança reforcada. Na Alemanha, os Landesbanken sofreram perdas bilionárias na crise de 2008 por exposição a ativos de risco e vários foram reestruturados. A lição comparada e que banco público regional sobrevive com governança insulada e mandato claro; sem isso, o custo recai no Tesouro.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 35,
+   "vt": "promissora",
+   "vd": "O Proes dos anos 1990 mostrou o custo fiscal do banco estadual usado politicamente, e Banrisul e BDMG mostram que dá para sobreviver com governança reforçada. Manter público é decisão legítima; o que decide o resultado é blindar a gestão, e a crise do Master expôs exatamente isso."
+  },
+  {
+   "id": "pp-df-46",
+   "titulo": "Ocupar o Centro Administrativo do DF para cortar gastos com aluguel",
+   "setor": "estado",
+   "subtema": "Gasto público",
+   "resumo": "Concentrar órgãos no CAD, racionalizar estruturas e compartilhar serviços para reduzir despesas de aluguel e custo operacional.",
+   "citacao": "Promover a ocupação do Centro Administrativo do Distrito Federal (CAD), com a integração de órgãos e entidades da Administração Pública [...] de modo a reduzir despesas com aluguéis e custos operacionais, ampliar a eficiência da gestão.",
+   "econ": 1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "cad-df-ocupacao",
+    "spending-review-reino-unido"
+   ],
+   "historico": {
+    "br": "O Centro Administrativo do DF foi construido para concentrar órgãos e ficou subutilizado por anos, com o GDF mantendo despesa relevante com aluguel de imóveis privados - situação apontada pelo TCDF. E um caso claro de ativo público ocioso convivendo com despesa evitável.",
+    "br_res": "fracassou",
+    "mundo": "Vários governos reduziram custo imobiliário concentrando órgãos em campus administrativo único - Minas Gerais com a Cidade Administrativa (2010) e o modelo brasileiro mais próximo, com economia de aluguel documentada e críticas sobre localização distante. O Reino Unido opera o Government Property Agency para racionalizar o portfolio imobiliário federal.",
+    "mundo_res": "funcionou",
+    "conf": "media"
+   },
+   "pagina": 41,
+   "vt": "forte",
+   "vd": "O Centro Administrativo foi construído para concentrar órgãos e ficou subutilizado enquanto o GDF paga aluguel — o TCDF já apontou. A Cidade Administrativa de Minas mediu economia real com o mesmo movimento; é ativo público ocioso convivendo com despesa evitável."
+  },
+  {
+   "id": "pp-df-47",
+   "titulo": "Plano de saúde dos servidores (INAS) com rede conveniada nacional",
+   "setor": "estado",
+   "subtema": "Servidores",
+   "resumo": "Expandir a cobertura do plano dos servidores do GDF para todo o território nacional e recompor gradualmente os quadros efetivos com concursos.",
+   "citacao": "Fortalecer e ampliar o plano de saúde dos servidores do GDF (INAS), expandindo a rede conveniada para cobertura em todo o território nacional. ▪ Promover a recomposição gradual dos quadros efetivos, priorizando a convocação e a nomeação de candidatos aprovados em concursos públicos vigentes de acordo com as necessidades da Administração e observada a responsabilidade fiscal.",
+   "econ": -1,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "planos-saude-servidores",
+    "teto-gastos-pessoal-lrf"
+   ],
+   "historico": {
+    "br": "O plano de saúde dos servidores do DF acumula déficit e foi citado como um dos passivos do governo. Planos de autogestao de servidores públicos enfrentam o mesmo problema estrutural em vários estados: população envelhecida, custo médico crescente e contribuição defasada. Ampliar a rede nacional aumenta custo sem resolver a base atuarial.",
+    "br_res": "parcial",
+    "mundo": "Os EUA operam o FEHB para servidores federais com multiplas operadoras concorrentes e coparticipação, o que contem custo. Sistemas de autogestao sem mecanismo de contenção de custo e sem revisão de contribuição acumulam déficit de forma previsível - padrão observado em planos de servidores em vários paises.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "pagina": 38,
+   "vt": "arriscada",
+   "vd": "Planos de autogestão de servidor acumulam déficit de forma previsível: população envelhecida, custo médico crescente e contribuição defasada. Ampliar a rede para todo o país aumenta o custo sem tocar na base atuarial, que é onde está o rombo."
+  },
+  {
+   "id": "pp-df-48",
+   "titulo": "Adequar o DF ao novo sistema tributário nacional com inteligência tributária",
+   "setor": "economia",
+   "subtema": "Reforma tributária",
+   "resumo": "Preparar a estrutura institucional, tecnológica e normativa distrital para a reforma tributária, com foco na qualidade do gasto.",
+   "citacao": "Fortalecer a responsabilidade fiscal e a inteligência tributária [...] e a adequação institucional, tecnológica e normativa do Distrito Federal ao novo sistema tributário nacional.",
+   "econ": 1,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "reforma-tributaria-ec132",
+    "lc-214-2025-iva",
+    "sped-nota-fiscal-eletronica"
+   ],
+   "historico": {
+    "br": "A EC 132/2023 substitui ICMS e ISS pelo IBS com transição até 2033 e cria o Comite Gestor. O DF acumula as competências estadual e municipal, o que torna sua adaptação mais complexa. Nenhum ente ainda concluiu a preparação institucional, e o risco de perda de arrecadação na transição e tema aberto para todas as unidades federativas.",
+    "br_res": "em_curso",
+    "mundo": "Paises que adotaram IVA subnacional coordenado - Canada com o HST e India com o GST em 2017 - enfrentaram anos de ajuste, perda temporária de arrecadação e disputas de compensação entre entes. A India criou fundo de compensação por cinco anos. A lição e que a transição exige capacidade de administração tributária montada com antecedência.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 41,
+   "vt": "promissora",
+   "vd": "Canadá e Índia levaram anos de ajuste na transição para IVA subnacional, com perda temporária de arrecadação e fundo de compensação. O DF acumula competência estadual e municipal, o que torna sua adaptação mais complexa — preparar a administração tributária antes é o certo."
+  },
+  {
+   "id": "pp-df-49",
+   "titulo": "Concluir a reforma do Teatro Nacional e criar polo criativo no Setor Comercial Sul",
+   "setor": "cultura",
+   "subtema": "Equipamentos",
+   "resumo": "Entregar as salas Villa-Lobos, Alberto Nepomuceno e o Espaco Dercy Goncalves e transformar o SCS em polo de economia criativa, cultura e tecnologia.",
+   "citacao": "Concluir a reforma do Teatro Nacional Cláudio Santoro [...] Transformar o Setor Comercial Sul em um polo de economia criativa, cultura e tecnologia.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "teatro-nacional-df-reforma",
+    "obras-paradas-tcu",
+    "revitalizacao-centros-urbanos"
+   ],
+   "historico": {
+    "br": "O Teatro Nacional Claudio Santoro está fechado desde 2014 por problemas estruturais e teve várias promessas de reabertura descumpridas ao longo de mais de uma decada - um dos casos mais visíveis de obra pública parada no DF. O Setor Comercial Sul passou por tentativas anteriores de revitalização sem resultado sustentado.",
+    "br_res": "fracassou",
+    "mundo": "Revitalização de centros degradados tem casos bem-sucedidos - Medellin, Bilbao, Puebla - sempre combinando equipamento cultural ancora, moradia e segurança. Onde houve apenas o equipamento cultural sem moradia e uso noturno, o efeito foi pontual. A lição e que polo criativo sem população residente não transforma a área.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "pagina": 34,
+   "vt": "arriscada",
+   "vd": "O Teatro Nacional está fechado desde 2014 com várias reaberturas prometidas — é dos casos mais visíveis de obra parada no DF. Medellín e Bilbao mostram que equipamento cultural âncora só transforma a área quando vem com moradia e uso noturno, e o SCS já teve tentativas frustradas."
+  },
+  {
+   "id": "pp-df-50",
+   "titulo": "Proteger a liberdade religiosa e enfrentar racismo, intolerancia e homofobia",
+   "setor": "direitos",
+   "subtema": "Igualdade",
+   "resumo": "Rede de acolhimento e atendimento jurídico e psicossocial a vítimas de discriminação, educação para relações étnico-raciais e proteção a comunidades tradicionais. E o único bloco do plano dedicado ao tema, com 5 ações de formulação genérica.",
+   "citacao": "Fortalecer a rede de acolhimento, proteção e acesso a direitos das vítimas de racismo, intolerância religiosa, homofobia e outras formas de discriminação, qualificando o atendimento jurídico e psicossocial, o encaminhamento das denúncias e a articulação entre os órgãos públicos e as instituições responsáveis pela garantia de direitos.",
+   "econ": 0,
+   "social": 0,
+   "peso": 2,
+   "precedentes": [
+    "lei-10639-historia-africana",
+    "stf-ado-26-lgbtfobia",
+    "liberdade-religiosa-brasil"
+   ],
+   "historico": {
+    "br": "O Brasil tem legislação antidiscriminação consolidada - Lei Caó (1989), Estatuto da Igualdade Racial (2010) e a equiparação da homofobia ao crime de racismo pelo STF em 2019 (ADO 26). O gargalo e o atendimento a vítima e a subnotificação. O DF tem centro de referência em direitos humanos com capacidade limitada.",
+    "br_res": "parcial",
+    "mundo": "A União Europeia obriga cada país a manter organismo de igualdade com poder de investigar denúncias. Canada e Reino Unido operam comissões de direitos humanos com poder de médiação e sanção. O elemento comum aos sistemas efetivos e um órgão com poder próprio de apuração, e não apenas rede de acolhimento.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "pagina": 20,
+   "vt": "promissora",
+   "vd": "A legislação antidiscriminação brasileira é consolidada e o gargalo é atendimento e subnotificação. A UE obriga cada país a manter organismo de igualdade com poder de investigar denúncia — o elemento efetivo é apuração própria, não só rede de acolhimento."
+  }
+ ]
+}
