@@ -98,7 +98,11 @@ nav.tabs .wrap::-webkit-scrollbar{display:none}
 .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent-2)}
 .tab .ic{font-size:14px}
 main{padding:28px 0 100px;min-height:60vh}
-.panel[hidden]{display:none}
+/* O atributo hidden do HTML tem que valer sempre. A regra do navegador é
+   [hidden]{display:none}, de especificidade baixíssima: qualquer seletor de id
+   com display a atropela — foi o que acontecia com #gate{display:flex}, que
+   continuava ocupando 100vh no topo depois da escolha inicial. */
+[hidden]{display:none!important}
 section{margin-bottom:40px}
 .sechead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
 .sechead h2{font-size:23px}
