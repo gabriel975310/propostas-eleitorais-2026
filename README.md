@@ -69,10 +69,16 @@ tempo, e a marcação existe para deixar isso à vista.
 `.github/workflows/atualizar.yml` roda todo dia às 08:00 de Brasília: rebaixa as
 fontes, reconstrói, roda as verificações, commita `data/live.json` e publica.
 
-Precisa de dois segredos em *Settings > Secrets and variables > Actions*:
+Precisa de **um** segredo em *Settings > Secrets and variables > Actions*:
 
-- `NETLIFY_AUTH_TOKEN` — token pessoal do Netlify
-- `NETLIFY_SITE_ID` — `4184f2d7-a33f-4ae6-8d55-a5b913f4728a`
+- `NETLIFY_AUTH_TOKEN` — token pessoal do Netlify, criado em
+  *Netlify > User settings > Applications > Personal access tokens*
+
+O id do site vai fixo no workflow: não é segredo, aparece na URL do admin.
+
+> Pelo terminal de um Codespace o `gh secret set` não funciona: o `GITHUB_TOKEN`
+> injetado no ambiente tem escopos vazios e precedência sobre `gh auth login`.
+> Use a interface web, ou um PAT próprio via `GH_TOKEN=ghp_... gh secret set ...`.
 
 ## Verificações
 

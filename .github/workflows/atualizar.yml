@@ -3,10 +3,13 @@
 # Roda sozinho todo dia às 08:00 de Brasília, e sob demanda pelo botão
 # "Run workflow" na aba Actions.
 #
-# Precisa de dois segredos no repositório (Settings > Secrets and variables >
-# Actions):
-#   NETLIFY_AUTH_TOKEN  token pessoal do Netlify (User settings > Applications)
-#   NETLIFY_SITE_ID     4184f2d7-a33f-4ae6-8d55-a5b913f4728a
+# Precisa de UM segredo no repositório (Settings > Secrets and variables >
+# Actions > New repository secret):
+#
+#   NETLIFY_AUTH_TOKEN   token pessoal do Netlify
+#                        (Netlify > User settings > Applications > Personal access tokens)
+#
+# O id do site não é segredo — aparece na URL do admin — então vai fixo abaixo.
 name: Atualizar dados e publicar
 
 on:
@@ -74,9 +77,13 @@ jobs:
       - name: Publicar no Netlify
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_SITE_ID: 4184f2d7-a33f-4ae6-8d55-a5b913f4728a
         run: |
-          test -n "$NETLIFY_AUTH_TOKEN" || { echo "falta o segredo NETLIFY_AUTH_TOKEN"; exit 1; }
-          test -n "$NETLIFY_SITE_ID"    || { echo "falta o segredo NETLIFY_SITE_ID"; exit 1; }
+          if [ -z "$NETLIFY_AUTH_TOKEN" ]; then
+            echo "::error::Falta o segredo NETLIFY_AUTH_TOKEN."
+            echo "Crie um token em Netlify > User settings > Applications > Personal access tokens"
+            echo "e adicione em Settings > Secrets and variables > Actions deste repositório."
+            exit 1
+          fi
           npm install --no-fund --no-audit --global netlify-cli
           python3 site/deploy.py
