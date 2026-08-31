@@ -1136,6 +1136,16 @@ document.querySelectorAll('.tab').forEach(function(t){t.onclick=function(){
   if(v==='temas')S.tema=null;
   go(v);scrollTo(0,0);};});
 document.querySelectorAll('[data-sw]').forEach(function(b){b.onclick=function(){setEsf(b.dataset.sw);scrollTo(0,0);};});
+/* A marca no canto volta para a escolha entre Presidência e DF. Zera a aba
+   para quem entrar de novo cair na Matriz, como na primeira visita — o
+   seletor de esfera lá em cima continua preservando a aba atual. */
+function voltarPortal(){
+  S.view='matriz';
+  document.getElementById('app').hidden=true;
+  document.getElementById('gate').hidden=false;
+  scrollTo(0,0);}
+var home=document.getElementById('home');
+if(home)home.onclick=voltarPortal;
 document.querySelectorAll('[data-esf]').forEach(function(b){b.onclick=function(){setEsf(b.dataset.esf);scrollTo(0,0);};});
 try{var st=localStorage.getItem('tema');if(st)root.setAttribute('data-theme',st);}catch(e){}
 document.getElementById('tg').onclick=function(){

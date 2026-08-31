@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>Espectro 2026</title>
+<title>Propostas 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -76,9 +76,11 @@ b,strong{font-weight:700}
 header.mast{background:var(--surface);border-bottom:1px solid var(--rule)}
 .mast .wrap{padding:18px 22px 16px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .brand{font-family:Archivo,sans-serif;font-weight:900;font-size:21px;letter-spacing:-.03em;
-  display:flex;align-items:center;gap:10px}
+  display:flex;align-items:center;gap:10px;transition:color .14s}
+.brand:hover{color:var(--accent-2)}
 .brand .dot{width:13px;height:13px;border-radius:50%;
-  background:var(--accent-2)}
+  background:var(--accent-2);transition:transform .14s}
+.brand:hover .dot{transform:scale(1.28)}
 .esf-sw{display:flex;background:var(--surface-3);border-radius:99px;padding:3px;gap:2px}
 .esf-sw button{font-family:Archivo,sans-serif;font-weight:700;font-size:12.5px;padding:6px 14px;
   border-radius:99px;color:var(--ink-2);transition:.14s;white-space:nowrap}
@@ -507,7 +509,8 @@ footer{border-top:1px solid var(--rule);padding:26px 0 46px;color:var(--ink-3);f
 
 <div id="app" hidden>
 <header class="mast"><div class="wrap">
-  <div class="brand"><span class="dot"></span>Espectro 2026</div>
+  <button class="brand" id="home" title="Voltar para a tela inicial"
+    aria-label="Propostas 2026 — voltar para a tela inicial"><span class="dot"></span>Propostas 2026</button>
   <div class="esf-sw">
     <button data-sw="br" aria-pressed="true">Presidência</button>
     <button data-sw="df" aria-pressed="false">Distrito Federal</button>
