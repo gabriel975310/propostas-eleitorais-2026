@@ -84,6 +84,9 @@ jobs:
             git push
           fi
 
+      # Sem netlify-cli: o deploy.py manda o dist/ como zip pela API quando
+      # encontra o token no ambiente. Instalar o CLI custava ~2 min por rodada,
+      # o que pesa numa cota de repositório privado rodando de 2 em 2 horas.
       - name: Publicar no Netlify
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
@@ -95,5 +98,4 @@ jobs:
             echo "e adicione em Settings > Secrets and variables > Actions deste repositório."
             exit 1
           fi
-          npm install --no-fund --no-audit --global netlify-cli
           python3 site/deploy.py
