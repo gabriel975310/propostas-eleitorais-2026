@@ -1,7 +1,15 @@
 # Rebaixa as fontes vivas, reconstrói o HTML e publica no Netlify.
 #
-# Roda sozinho todo dia às 08:00 de Brasília, e sob demanda pelo botão
-# "Run workflow" na aba Actions.
+# Roda de duas em duas horas, e sob demanda pelo botão "Run workflow" na aba
+# Actions. Duas decisões de agendamento:
+#
+#   · o minuto :17 evita a hora cheia, a faixa mais congestionada da fila de
+#     agendamentos do GitHub, onde disparos costumam atrasar ou se perder;
+#   · a frequência alta é o que cobre um disparo perdido — o atraso máximo
+#     vira duas horas em vez de um dia inteiro.
+#
+# Custo: ~12 rodadas/dia de ~90s = cerca de 720 min/mês, dentro dos 2000 do
+# plano grátis para repositório privado.
 #
 # Precisa de UM segredo no repositório (Settings > Secrets and variables >
 # Actions > New repository secret):
@@ -14,7 +22,7 @@ name: Atualizar dados e publicar
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # 11:00 UTC = 08:00 BRT
+    - cron: "17 */2 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -36,6 +44,7 @@ jobs:
           python-version: "3.12"
 
       - name: Rebaixar fontes e reconstruir o HTML
+        id: refresh
         run: python3 site/refresh.py
 
       - name: Conferir o que foi gerado
@@ -63,6 +72,7 @@ jobs:
           node chk2.js
 
       - name: Commitar os dados novos
+        if: steps.refresh.outputs.mudou == 'sim'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

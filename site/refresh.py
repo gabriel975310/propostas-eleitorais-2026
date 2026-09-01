@@ -355,8 +355,16 @@ def main():
 
     comparavel = dict(live)
     comparavel.pop("capturado", None)
-    if antes == json.dumps(comparavel, ensure_ascii=False, sort_keys=True):
-        log("nada mudou nas fontes desde a última rodada.")
+    mudou = antes != json.dumps(comparavel, ensure_ascii=False, sort_keys=True)
+    log("fontes: %s desde a última rodada." % ("mudaram" if mudou else "nada novo"))
+
+    # A Action roda de duas em duas horas; sem isto, cada rodada geraria um
+    # commit só porque o carimbo de captura mudou.
+    saida = os.environ.get("GITHUB_OUTPUT")
+    if saida:
+        with open(saida, "a", encoding="utf-8") as f:
+            f.write("mudou=%s\n" % ("sim" if mudou else "nao"))
+
     if seco:
         log("--dry-run: nada foi gravado.")
         return 0

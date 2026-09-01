@@ -76,6 +76,22 @@ function marcaCamp(x,x0,y,h,rot){
       '">▶ campanha oficial</text>';
   return s;
 }
+/* Empilha rótulos da direita sem sobrepor e sem sair da área do gráfico.
+   Quem chega perto do fundo passa a empilhar para cima, senão os candidatos
+   com preço baixo — todos colados no 0¢ — vazavam por baixo do eixo.
+   Espera `ys` já na ordem em que os rótulos devem aparecer, de cima para
+   baixo; o resultado sai ordenado para o empilhamento invertido do fundo não
+   trocar a ordem de leitura. */
+function empilha(ys,topo,fundo,passo){
+  passo=passo||13;
+  var postos=[];
+  ys.forEach(function(y0){
+    var y=Math.min(Math.max(y0,topo),fundo),dir=1;
+    if(y>fundo-passo){y=fundo;dir=-1;}
+    while(postos.some(function(u){return Math.abs(u-y)<passo;}))y+=passo*dir;
+    postos.push(Math.min(Math.max(y,topo),fundo));});
+  return postos.sort(function(a,b){return a-b;});
+}
 function legCamp(){return '<span class="lgi"><i class="swc" style="background:var(--ink-3);opacity:.3"></i>'+
   'área clara = antes de '+dbr(CAMP)+', quando a campanha ainda não era oficial</span>';}
 var brl=function(n){return Number(n).toLocaleString('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0});};
@@ -857,13 +873,15 @@ function mktChart(){
     var d='',open=false;
     dates.forEach(function(dt,i){
       var v=o.mp[dt];
-      if(v==null){open=false;return;}
+      /* Dia sem pregão não é contrato encerrado: o preço existia, só não houve
+         amostra. Pular a data mantém a linha inteira; quebrá-la fazia a série
+         virar tracejado — o Lula tinha 7 buracos, um deles de 6 dias. */
+      if(v==null)return;
       d+=(open?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1);open=true;});
     if(d)s+='<path d="'+d+'" fill="none" stroke="'+o.col+'" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity=".92"/>';});
-  var lb=series.slice().sort(function(a,b){return b.last-a.last;}),ly=[];
-  lb.forEach(function(o){var y=Y(o.last)+4;
-    while(ly.some(function(u){return Math.abs(u-y)<13;}))y+=13;
-    ly.push(y);
+  var lb=series.slice().sort(function(a,b){return b.last-a.last;});
+  empilha(lb.map(function(o){return Y(o.last)+4;}),m.t+9,m.t+ph).forEach(function(y,i){
+    var o=lb[i];
     s+='<text class="dotlab" x="'+(m.l+pw+8)+'" y="'+y.toFixed(1)+'" fill="'+o.col+'" font-size="12">'+
        esc(o.n)+' '+o.last.toFixed(0)+'¢</text>';});
   [0,Math.floor(dates.length/3),Math.floor(2*dates.length/3),dates.length-1].forEach(function(i){

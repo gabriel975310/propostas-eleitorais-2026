@@ -66,8 +66,15 @@ tempo, e a marcação existe para deixar isso à vista.
 
 ## Atualização automática
 
-`.github/workflows/atualizar.yml` roda todo dia às 08:00 de Brasília: rebaixa as
-fontes, reconstrói, roda as verificações, commita `data/live.json` e publica.
+`.github/workflows/atualizar.yml` roda **de duas em duas horas**: rebaixa as
+fontes, reconstrói, roda as verificações, publica, e commita `data/live.json`
+apenas quando as fontes trouxeram algo novo — sem isso cada rodada geraria um
+commit só porque o carimbo de captura mudou.
+
+O minuto `:17` é deliberado: agendamentos na hora cheia caem na faixa mais
+congestionada da fila do GitHub, onde disparos atrasam ou se perdem. A
+frequência alta é o que cobre um disparo perdido — o atraso máximo vira duas
+horas em vez de um dia.
 
 Precisa de **um** segredo em *Settings > Secrets and variables > Actions*:
 
