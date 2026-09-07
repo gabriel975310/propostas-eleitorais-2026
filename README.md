@@ -82,9 +82,14 @@ congestionada da fila do GitHub, onde disparos atrasam ou se perdem. A
 frequência alta é o que cobre um disparo perdido — o atraso máximo vira duas
 horas em vez de um dia.
 
-Não precisa de segredo nenhum, nem de configuração à mão: quem publica é o
-`GITHUB_TOKEN` da própria rodada, e o passo `configure-pages` liga o Pages e o
-aponta para o Actions na primeira vez.
+Não precisa de segredo nenhum: quem publica é o `GITHUB_TOKEN` da própria
+rodada. A única configuração é feita uma vez, à mão, em *Settings > Pages >
+Build and deployment > Source*, que precisa ficar em **GitHub Actions**.
+
+Esse passo não dá para automatizar: criar o site do Pages exige permissão de
+admin, que o `GITHUB_TOKEN` não tem nem com `pages: write` — o
+`actions/configure-pages` com `enablement` responde *403 Resource not
+accessible by integration*. Depois de criado, o token publica sem problema.
 
 Por isso o repositório é público: o GitHub Pages só é gratuito assim, e em
 repositório público os minutos de Actions também são ilimitados. Tudo que está
