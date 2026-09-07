@@ -98,9 +98,19 @@ código do painel e a classificação editorial que o site mostra.
 
 ### Cabeçalhos
 
-O Pages não deixa configurar cabeçalho de resposta. Ele já manda
-`X-Content-Type-Options: nosniff` por conta própria, e a política de referrer
-virou uma `<meta name="referrer">` no `body.html`.
+O Pages não deixa configurar cabeçalho de resposta, e os dois que o Netlify
+mandava tiveram destinos diferentes:
+
+- **Referrer-Policy** virou `<meta name="referrer">` no `body.html`, que o
+  navegador respeita igual.
+- **X-Content-Type-Options: nosniff** se perdeu — o Pages não o envia (confira
+  com `curl -I`) e não existe `<meta>` equivalente. Aqui o efeito prático é
+  nulo: o site é um único HTML servido com `content-type: text/html;
+  charset=utf-8` correto, sem nenhum outro arquivo que um navegador pudesse
+  interpretar como tipo diferente do declarado.
+
+De brinde, o Pages manda `Strict-Transport-Security`, que o Netlify não
+mandava.
 
 ## Verificações
 
