@@ -5,7 +5,7 @@ Presidência e governo do Distrito Federal — com a leitura literal dos
 documentos, a classificação editorial de cada proposta e o histórico do que já
 foi tentado antes.
 
-**No ar:** https://propostas-2026.netlify.app
+**No ar:** https://gabriel975310.github.io/propostas-eleitorais-2026/
 
 ## Como o site é montado
 
@@ -38,11 +38,17 @@ rodada em vez de 1,2 MB. O `build.py` junta os dois na hora de montar o HTML.
 ## Atualizar os dados
 
 ```bash
-python3 site/refresh.py    # rebaixa as fontes e reconstrói o HTML
-python3 site/deploy.py     # publica no Netlify
+python3 site/refresh.py         # rebaixa as fontes e reconstrói o HTML
+python3 site/deploy.py --so-montar   # monta dist/ para conferir localmente
+python3 site/deploy.py          # dispara a publicação pelo Actions
 ```
 
 `refresh.py --dry-run` mostra o que mudaria sem gravar nada.
+
+O Pages deste repositório recebe só do GitHub Actions, então `deploy.py` sem
+`--so-montar` não envia nada daqui: pede uma rodada do workflow, que rebaixa as
+fontes de novo e publica o que ele mesmo capturar. Para olhar o resultado local
+antes, use `--so-montar` e abra `dist/index.html`.
 
 ### As quatro fontes
 
@@ -76,16 +82,20 @@ congestionada da fila do GitHub, onde disparos atrasam ou se perdem. A
 frequência alta é o que cobre um disparo perdido — o atraso máximo vira duas
 horas em vez de um dia.
 
-Precisa de **um** segredo em *Settings > Secrets and variables > Actions*:
+Não precisa de segredo nenhum: quem publica é o `GITHUB_TOKEN` da própria
+rodada. A única configuração é a fonte do Pages, em *Settings > Pages > Build
+and deployment > Source*, que precisa estar em **GitHub Actions**.
 
-- `NETLIFY_AUTH_TOKEN` — token pessoal do Netlify, criado em
-  *Netlify > User settings > Applications > Personal access tokens*
+Por isso o repositório é público: o GitHub Pages só é gratuito assim, e em
+repositório público os minutos de Actions também são ilimitados. Tudo que está
+versionado aqui já é público de origem — os pacotes de dados abertos do TSE, o
+código do painel e a classificação editorial que o site mostra.
 
-O id do site vai fixo no workflow: não é segredo, aparece na URL do admin.
+### Cabeçalhos
 
-> Pelo terminal de um Codespace o `gh secret set` não funciona: o `GITHUB_TOKEN`
-> injetado no ambiente tem escopos vazios e precedência sobre `gh auth login`.
-> Use a interface web, ou um PAT próprio via `GH_TOKEN=ghp_... gh secret set ...`.
+O Pages não deixa configurar cabeçalho de resposta. Ele já manda
+`X-Content-Type-Options: nosniff` por conta própria, e a política de referrer
+virou uma `<meta name="referrer">` no `body.html`.
 
 ## Verificações
 

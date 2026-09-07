@@ -1,4 +1,4 @@
-# Rebaixa as fontes vivas, reconstrói o HTML e publica no Netlify.
+# Rebaixa as fontes vivas, reconstrói o HTML e publica no GitHub Pages.
 #
 # Roda de duas em duas horas, e sob demanda pelo botão "Run workflow" na aba
 # Actions. Duas decisões de agendamento:
@@ -8,16 +8,13 @@
 #   · a frequência alta é o que cobre um disparo perdido — o atraso máximo
 #     vira duas horas em vez de um dia inteiro.
 #
-# Custo: ~12 rodadas/dia de ~90s = cerca de 720 min/mês, dentro dos 2000 do
-# plano grátis para repositório privado.
+# Custo: nenhum. Em repositório público os minutos de Actions são ilimitados,
+# e o Pages não cobra por publicação — o limite que existe é de banda
+# (100 GB/mês) e de ~10 publicações por hora, bem acima das 12 por dia daqui.
 #
-# Precisa de UM segredo no repositório (Settings > Secrets and variables >
-# Actions > New repository secret):
-#
-#   NETLIFY_AUTH_TOKEN   token pessoal do Netlify
-#                        (Netlify > User settings > Applications > Personal access tokens)
-#
-# O id do site não é segredo — aparece na URL do admin — então vai fixo abaixo.
+# Não precisa de segredo nenhum: o GITHUB_TOKEN da própria rodada publica.
+# O que precisa é a fonte do Pages estar em "GitHub Actions"
+# (Settings > Pages > Build and deployment > Source: GitHub Actions).
 name: Atualizar dados e publicar
 
 on:
@@ -31,11 +28,16 @@ concurrency:
 
 permissions:
   contents: write          # para commitar data/live.json
+  pages: write             # para publicar
+  id-token: write          # o deploy-pages troca este token pelo do Pages
 
 jobs:
   atualizar:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -84,18 +86,15 @@ jobs:
             git push
           fi
 
-      # Sem netlify-cli: o deploy.py manda o dist/ como zip pela API quando
-      # encontra o token no ambiente. Instalar o CLI custava ~2 min por rodada,
-      # o que pesa numa cota de repositório privado rodando de 2 em 2 horas.
-      - name: Publicar no Netlify
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: 4184f2d7-a33f-4ae6-8d55-a5b913f4728a
-        run: |
-          if [ -z "$NETLIFY_AUTH_TOKEN" ]; then
-            echo "::error::Falta o segredo NETLIFY_AUTH_TOKEN."
-            echo "Crie um token em Netlify > User settings > Applications > Personal access tokens"
-            echo "e adicione em Settings > Secrets and variables > Actions deste repositório."
-            exit 1
-          fi
-          python3 site/deploy.py
+      # O deploy.py monta o dist/ e, fora do CI, dispara este workflow.
+      # Aqui só a montagem interessa.
+      - name: Montar o dist/
+        run: python3 site/deploy.py --so-montar
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Publicar no GitHub Pages
+        id: publicar
+        uses: actions/deploy-pages@v4

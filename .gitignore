@@ -9,8 +9,5 @@ dist/
 data/raw/
 data/txt/
 
-# Estado local do CLI do Netlify (id do site, cache de build).
-.netlify/
-
 __pycache__/
 *.pyc
