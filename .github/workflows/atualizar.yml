@@ -12,9 +12,10 @@
 # e o Pages não cobra por publicação — o limite que existe é de banda
 # (100 GB/mês) e de ~10 publicações por hora, bem acima das 12 por dia daqui.
 #
-# Não precisa de segredo nenhum: o GITHUB_TOKEN da própria rodada publica.
-# O que precisa é a fonte do Pages estar em "GitHub Actions"
-# (Settings > Pages > Build and deployment > Source: GitHub Actions).
+# Não precisa de segredo nenhum, nem de configurar nada à mão: o GITHUB_TOKEN
+# da própria rodada publica, e o passo configure-pages liga o Pages e o aponta
+# para o Actions na primeira vez. Só exige que o repositório seja público —
+# em repositório privado o Pages é recurso de plano pago.
 name: Atualizar dados e publicar
 
 on:
@@ -90,6 +91,12 @@ jobs:
       # Aqui só a montagem interessa.
       - name: Montar o dist/
         run: python3 site/deploy.py --so-montar
+
+      # enablement: liga o Pages na primeira rodada e já o aponta para o
+      # Actions, sem ninguém precisar mexer em Settings > Pages.
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
