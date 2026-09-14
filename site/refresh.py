@@ -14,6 +14,7 @@ Fontes:
   · Plano Político — agregador de pesquisas (pesquisas nacionais)
   · Plano Político — modelo presidencial (probabilidade de vitória + série)
   · Plano Político — modelo de governadores (DF)
+  · Plano Político — modelo do Senado + agregador do Senado (DF)
   · Polymarket     — preço dos contratos + série de preço
 
 Cada bloco carrega o próprio `atualizado` (a data do dado na fonte) e o
@@ -30,7 +31,8 @@ from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fontes import SQ_DF, SQ_MERCADO, SQ_MODELO  # noqa: E402
+from fontes import (COR_SENADO_DF, SQ_DF, SQ_MERCADO, SQ_MODELO,  # noqa: E402
+                    SQ_SENADO_DF)
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_JSON = os.path.join(RAIZ, "data", "site.json")
@@ -39,6 +41,8 @@ LIVE_JSON = os.path.join(RAIZ, "data", "live.json")
 URL_AGG = "https://www.planopolitico.com.br/agregador/presidente/"
 URL_PRES = "https://www.planopolitico.com.br/modelos-eleitorais/presidencial/"
 URL_GOV = "https://www.planopolitico.com.br/modelos-eleitorais/governadores/"
+URL_SEN_MOD = "https://www.planopolitico.com.br/modelos-eleitorais/senado/"
+URL_SEN_AGG = "https://www.planopolitico.com.br/agregador/senado/"
 URL_PM_EVENTO = "https://gamma-api.polymarket.com/events?slug=brazil-presidential-election"
 URL_PM_SERIE = "https://clob.polymarket.com/prices-history?market={}&interval=max&fidelity=1440"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"
@@ -200,6 +204,120 @@ def modelo_df():
     return modelo
 
 
+# -------------------------------------------------------------- Senado no DF
+
+CINZA = ("#8A877E", "#A9A69B")   # "Outros" e qualquer nome fora do mapa do TSE
+
+
+def _sen_ident(nome):
+    """(sq, número na urna, partido, cor clara, cor escura) de um nome."""
+    reg = SQ_SENADO_DF.get(nome)
+    cor = COR_SENADO_DF.get(nome, CINZA)
+    if not reg:
+        return None, None, None, cor[0], cor[1]
+    return reg[0], reg[1], reg[2], cor[0], cor[1]
+
+
+def senado_df():
+    """Modelo e agregador do Senado, recortados no Distrito Federal.
+
+    São duas páginas e dois números diferentes para a mesma disputa, e a aba
+    mostra os dois separados: o agregador diz *quanto* cada nome tem de voto
+    hoje, o modelo diz *que chance* cada um tem de ficar com uma das duas
+    vagas. Como o DF elege dois senadores, as chances do modelo somam 200% —
+    cada eleitor vota em dois nomes.
+    """
+    dat = blob(baixa(URL_SEN_MOD), "modelo-sen-2026-data")
+    df = dat["states"]["DF"]
+    if df.get("status") != "ok":
+        raise RuntimeError("modelo do Senado marcou o DF como %r" % df.get("status"))
+
+    linhas = []
+    for c in df["candidates"]:
+        sq, nr, part, cor, corD = _sen_ident(c["name"])
+        linhas.append({
+            "nome": c["name"],
+            "partido": part or c.get("party"),
+            "sq": sq, "nr": nr, "cor": cor, "corD": corD,
+            "pel": round(c["p_elected"], 1),
+            "share": round(c["share"], 1),
+            "lo": round(c["lo"], 1),
+            "hi": round(c["hi"], 1),
+        })
+    linhas.sort(key=lambda l: -l["pel"])
+    nm = df.get("n_polls", 0)
+    modelo = {
+        "atualizado": df.get("as_of") or dat["meta"]["as_of"],
+        "versao": "v" + str(dat["meta"].get("model_version", "")),
+        "npesq": "%d pesquisa%s no DF" % (nm, "" if nm == 1 else "s"),
+        "linhas": linhas,
+    }
+
+    agg = blob(baixa(URL_SEN_AGG), "agg-data")
+    a = agg["senado"]["states"]["DF"]
+    t1 = a["t1"]
+
+    alin = []
+    for c in t1["candidates"]:
+        sq, nr, part, cor, corD = _sen_ident(c["name"])
+        alin.append({
+            "nome": c["name"],
+            "partido": part or c.get("party"),
+            "sq": sq, "nr": nr, "cor": cor, "corD": corD,
+            "share": round(c["share"], 1),
+            "lo": round(c.get("ci_lo", 0), 1),
+            "hi": round(c.get("ci_hi", 0), 1),
+        })
+    alin.sort(key=lambda l: -l["share"])
+
+    # A trajetória vem com uma chave por candidato mais os sufixos _lo/_hi da
+    # faixa. Aqui fica só o valor central: a faixa do ponto de hoje já aparece
+    # nas barras do agregador, e treze bandas sobrepostas não se leem.
+    nomes = [l["nome"] for l in alin]
+    traj = []
+    for w in t1.get("trajectory", []):
+        pts = {n: round(w[n], 1) for n in nomes if isinstance(w.get(n), (int, float))}
+        if pts:
+            traj.append({"d": w["week_end"], "n": w.get("n_polls", 0), "p": pts})
+    traj.sort(key=lambda x: x["d"])
+
+    pesq = []
+    for r in a.get("recent_polls", {}).get("t1", []):
+        pesq.append({
+            "reg": r.get("registro"),
+            "inst": r.get("instituto"),
+            "ini": r.get("dt_inicio"),
+            "fim": r.get("dt_fim"),
+            "div": r.get("dt_divulgacao"),
+            "n": r.get("n"),
+            "m": r.get("method"),
+            "url": r.get("url"),
+            "ind": r.get("indecisos"),
+            "s": {k: round(v, 1) for k, v in (r.get("shares") or {}).items() if v is not None},
+        })
+    pesq.sort(key=lambda r: (r["fim"] or "", r.get("div") or ""), reverse=True)
+
+    sen = {
+        "fonte": "Plano Político",
+        "urlModelo": URL_SEN_MOD,
+        "urlAgg": URL_SEN_AGG,
+        "vagas": a.get("seats_up", 2),
+        "atualizado": max(x for x in [modelo["atualizado"], t1.get("as_of")] if x),
+        "modelo": modelo,
+        "agg": {
+            "atualizado": t1.get("as_of") or agg.get("generated_at"),
+            "npesq": t1.get("n_polls", len(pesq)),
+            "indecisos": t1.get("indecisos"),
+            "linhas": alin,
+            "traj": traj,
+        },
+        "pesquisas": pesq,
+    }
+    log("  senado DF: modelo %s (%d nomes) · agregador %s · %d pesquisas · %d semanas"
+        % (modelo["atualizado"], len(linhas), sen["agg"]["atualizado"], len(pesq), len(traj)))
+    return sen
+
+
 # ------------------------------------------------------------------- mercado
 
 def mercado():
@@ -216,6 +334,10 @@ def mercado():
         preco = float(json.loads(m["outcomePrices"])[0]) * 100
         linhas.append({
             "nome": titulo,
+            # O Polymarket nomeia o contrato com o nome civil inteiro, que não
+            # cabe na coluna do ranking e era cortado em "Luiz Inácio Lu…".
+            # Quem está no mapa entra com o mesmo apelido curto do modelo.
+            "curto": (SQ_MERCADO.get(titulo) or (None, None))[0],
             "p": round(preco, 2),
             "vol": round(m.get("volumeNum") or 0),
             "sq": (SQ_MERCADO.get(titulo) or (None, None))[1],
@@ -334,6 +456,7 @@ def main():
     log("baixando fontes…")
     mo_br, hist_br, dl_br = modelo_br()
     mo_df = modelo_df()
+    sen = senado_df()
     mk = mercado()
     q = pesquisas()
 
@@ -351,6 +474,7 @@ def main():
             "df": {"mercado": None, "modelo": mo_df},
         },
         "pesquisas": q,
+        "senadoDF": sen,
     }
 
     comparavel = dict(live)

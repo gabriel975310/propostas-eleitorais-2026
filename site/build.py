@@ -36,6 +36,26 @@ def main():
         dados.update(json.load(open(vivo, encoding="utf-8")))
     elif "odds" not in dados:
         raise SystemExit("falta data/live.json — rode antes: python3 site/refresh.py")
+    # data/senado_stf.json é levantamento editorial feito à mão: o que cada
+    # candidatura ao Senado pelo DF já disse ou fez em público sobre impeachment
+    # de ministros do STF, com citação literal e link. Nenhuma fonte automática
+    # traz isso com o critério da aba, então não passa pelo refresh.py e só muda
+    # quando alguém refaz a verificação. A checagem abaixo é a regra de ouro do
+    # arquivo: posição que não seja "sem" precisa de registro datado e com link,
+    # senão o build para e nada vai para o HTML.
+    stf = os.path.join(RAIZ, "data", "senado_stf.json")
+    if os.path.exists(stf):
+        dados["senadoSTF"] = json.load(open(stf, encoding="utf-8"))
+        for sq, c in dados["senadoSTF"]["candidatos"].items():
+            nome = c.get("nome", sq)
+            if c.get("posicao") not in ("promete", "assinou", "contra", "sem"):
+                raise SystemExit("senado_stf.json: posição inválida para %s: %r" % (nome, c.get("posicao")))
+            evs = c.get("evidencias") or []
+            if c["posicao"] != "sem" and not evs:
+                raise SystemExit("senado_stf.json: %s está como %r sem nenhum registro" % (nome, c["posicao"]))
+            for e in evs:
+                if not e.get("data") or not e.get("url"):
+                    raise SystemExit("senado_stf.json: registro sem data ou sem link em %s" % nome)
     # separators compacto: o arquivo já passa de 1 MB embutido no HTML.
     # "</" vira "<\/" para que nenhum valor consiga fechar a tag <script>.
     bruto = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")

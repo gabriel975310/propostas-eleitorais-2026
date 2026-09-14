@@ -1,0 +1,153 @@
+{
+ "_leia": "Levantamento editorial feito à mão. Cada posição exige declaração ou ato público com data e link; texto em 'citacao' é literal. Crítica ao STF sozinha não conta, partido não classifica ninguém, e 'sem' quer dizer que a busca não achou manifestação — não que a pessoa seja contra ou a favor. O refresh.py não mexe neste arquivo: reconferir as fontes e trocar 'verificado' a cada revisão.",
+ "verificado": "2026-09-14",
+ "cruzamento": {
+  "fonte": "Placar STF",
+  "url": "https://placarstf.com.br/",
+  "atualizado": "2026-09-13",
+  "autor": "Rodrigo Marcial, ex-vereador de Curitiba filiado ao Novo",
+  "sobre": "https://www.gazetadopovo.com.br/eleicoes/2026/plataforma-indica-candidatos-senado-favoraveis-impeachment-ministros-stf/"
+ },
+ "candidatos": {
+  "70002552934": {
+   "nome": "Bia Kicis",
+   "posicao": "promete",
+   "alvo": "ministros do STF, sem nomear quais",
+   "resumo": "Na convenção do PL no DF, disse que a futura bancada conservadora no Senado vai pedir o impeachment de ministros do STF que “não respeitarem a Constituição”. Não nomeou nenhum ministro nessa fala.",
+   "evidencias": [
+    {
+     "data": "2026-08-02",
+     "tipo": "declaração",
+     "citacao": "Vamos pedir o impeachment de ministros do STF",
+     "fala": "convenção do PL no Distrito Federal",
+     "veiculo": "Correio Braziliense",
+     "url": "https://www.correiobraziliense.com.br/politica/2026/08/7472588-vamos-pedir-o-impeachment-de-ministros-do-stf-diz-bia-kicis.html"
+    }
+   ]
+  },
+  "70002548624": {
+   "nome": "Sebastião Coelho",
+   "posicao": "promete",
+   "alvo": "Alexandre de Moraes",
+   "resumo": "Ao ser lançado pré-candidato, apresentou o impeachment de Alexandre de Moraes como compromisso de primeiro dia no Senado, ao lado de uma reforma do Judiciário. O Novo, partido dele, cobra esse apoio de todos os seus candidatos ao Senado — o que aparece aqui só como contexto.",
+   "evidencias": [
+    {
+     "data": "2026-04-09",
+     "tipo": "exigência do partido",
+     "citacao": "deverão se comprometer a apoiar o impeachment de ministros do Supremo Tribunal Federal em casos de crime de responsabilidade, abuso de autoridade ou quebra de decoro",
+     "fala": "texto da reportagem sobre a regra do Novo — contexto, não fala dele",
+     "veiculo": "Imirante",
+     "url": "https://m.imirante.com/noticias/brasil/2026/04/09/ipolitica-partido-novo-exige-apoio-a-impeachment-de-ministros-do-stf-de-candidatos-ao-senado"
+    },
+    {
+     "data": "2026-07-31",
+     "tipo": "declaração",
+     "citacao": "Não adianta o povo brasileiro escolher 513 deputados e 81 senadores se um único ministro do Supremo é capaz de desfazer a vontade do povo. Então, o meu compromisso desde o primeiro dia, se a população do DF me colocar no Senado Federal, será trabalhar por uma reforma do Poder Judiciário e pelo impeachment de Alexandre de Moraes",
+     "fala": "lançamento da pré-candidatura",
+     "veiculo": "Metrópoles",
+     "url": "https://www.metropoles.com/distrito-federal/sebastiao-coelho-e-anunciado-pre-candidato-ao-senado-federal-pelo-df"
+    }
+   ]
+  },
+  "70002552492": {
+   "nome": "Leila do Vôlei",
+   "posicao": "assinou",
+   "alvo": "Alexandre de Moraes",
+   "resumo": "Em setembro, já senadora em busca da reeleição, assinou o pedido de impeachment de Alexandre de Moraes protocolado por Alessandro Vieira (MDB-SE), um dos 20 signatários. O pedido trata dos contratos entre o escritório da mulher do ministro e Daniel Vorcaro, do Banco Master. É uma mudança de rota: em maio, a assessoria dela falava em mudar a indicação de ministros e discutir mandato fixo, não em impeachment. Não encontramos declaração da própria senadora explicando a assinatura.",
+   "evidencias": [
+    {
+     "data": "2026-05-13",
+     "tipo": "posição anterior",
+     "citacao": "a senadora defende o aperfeiçoamento do modelo atual de indicação de ministros do STF, com a adoção de lista tríplice baseada na carreira da magistratura, além da discussão sobre mandatos com prazo determinado",
+     "fala": "texto da reportagem, atribuído à assessoria da senadora",
+     "veiculo": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/opiniao-pre-candidatos-senado-centro-oeste-embate-stf/"
+    },
+    {
+     "data": "2026-09-04",
+     "tipo": "ato: assinatura",
+     "descricao": "Aparece entre os 20 senadores que assinaram o pedido de impeachment de Alexandre de Moraes protocolado por Alessandro Vieira (MDB-SE), sobre os contratos entre o escritório de Viviane Barci de Moraes e Daniel Vorcaro, do Banco Master.",
+     "veiculo": "Correio Braziliense",
+     "url": "https://www.correiobraziliense.com.br/politica/2026/09/7494307-senadores-da-base-de-lula-assinam-pedido-de-impeachment-de-moraes.html"
+    },
+    {
+     "data": "2026-09-05",
+     "tipo": "lista de signatários",
+     "descricao": "Lista nominal dos 20 signatários do pedido, com Leila Barros (PDT-DF) entre eles.",
+     "veiculo": "Estado de Minas",
+     "url": "https://www.em.com.br/politica/2026/09/7494659-quem-sao-os-senadores-que-assinaram-pedido-de-impeachment-de-moraes.html"
+    }
+   ]
+  },
+  "70002552490": {
+   "nome": "Erika Kokay",
+   "posicao": "contra",
+   "alvo": "ministros do STF, sem nomear quais",
+   "resumo": "Diz que a defesa do STF é prioridade da candidatura e que quem quer confrontar o Supremo quer, na verdade, impedir a punição de quem atentou contra a democracia. Não disse, com essas palavras, como votaria num processo de impeachment.",
+   "evidencias": [
+    {
+     "data": "2026-07-31",
+     "tipo": "declaração",
+     "citacao": "Essas pessoas que querem confrontar o Supremo querem confrontar a responsabilização dos golpistas no nosso país.",
+     "veiculo": "Correio Braziliense",
+     "url": "https://www.correiobraziliense.com.br/cidades-df/2026/07/7471108-defesa-do-supremo-e-nossa-prioridade-diz-candidata-do-pt-ao-senado.html"
+    }
+   ]
+  },
+  "70002552936": {
+   "nome": "Michelle Bolsonaro",
+   "posicao": "sem",
+   "resumo": "Critica o STF em público, mas não encontramos compromisso dela com o impeachment de ministros até a data da verificação. Crítica sozinha não conta — e o Placar STF também não a registra entre favoráveis ou contrários.",
+   "evidencias": [
+    {
+     "data": "2026-05-13",
+     "tipo": "crítica ao STF (não conta como compromisso)",
+     "citacao": "A gente tem visto tantas atrocidades, a gente tem visto um Congresso de joelhos em frente ao STF. Isso é uma tristeza muito grande pra gente porque hoje, infelizmente, só quem governa é o Judiciário.",
+     "fala": "fala reproduzida na reportagem",
+     "veiculo": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/opiniao-pre-candidatos-senado-centro-oeste-embate-stf/"
+    }
+   ]
+  },
+  "70002553751": {
+   "nome": "Ronaldo Fonseca",
+   "posicao": "sem",
+   "evidencias": []
+  },
+  "70002553296": {
+   "nome": "Guto Felício dos Santos",
+   "posicao": "sem",
+   "evidencias": []
+  },
+  "70002552582": {
+   "nome": "Marley",
+   "posicao": "sem",
+   "evidencias": []
+  },
+  "70002551323": {
+   "nome": "Tiago",
+   "posicao": "sem",
+   "evidencias": []
+  },
+  "70002553859": {
+   "nome": "Avenir Rosa",
+   "posicao": "sem",
+   "evidencias": []
+  },
+  "70002536445": {
+   "nome": "Zanata",
+   "posicao": "sem",
+   "evidencias": []
+  },
+  "70002537112": {
+   "nome": "Professor Guilherme Amorim",
+   "posicao": "sem",
+   "evidencias": []
+  },
+  "70002551426": {
+   "nome": "David Horn",
+   "posicao": "sem",
+   "evidencias": []
+  }
+ }
+}

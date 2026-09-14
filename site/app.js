@@ -94,8 +94,55 @@ function empilha(ys,topo,fundo,passo){
 }
 function legCamp(){return '<span class="lgi"><i class="swc" style="background:var(--ink-3);opacity:.3"></i>'+
   'área clara = antes de '+dbr(CAMP)+', quando a campanha ainda não era oficial</span>';}
+/* ---- recorte de período nos gráficos de série -------------------------- */
+/* Toda série daqui atravessa 16/08, e os dois recortes contam coisas
+   diferentes: a série inteira mostra de onde a corrida veio, o recorte da
+   campanha mostra só o que foi medido depois que ela virou oficial. A página
+   abre no segundo — é a corrida que está em jogo — e o controle troca os dois
+   sem recarregar a aba. */
+var PER={camp:'só campanha oficial',tudo:'série toda'};
+function noPer(d){return S.per==='tudo'||!pre(d);}
+function perCtl(){
+  return '<span class="perseg" role="group" aria-label="Período mostrado no gráfico">'+
+    Object.keys(PER).map(function(p){
+      return '<button type="button" data-per="'+p+'" aria-pressed="'+(S.per===p?'true':'false')+'">'+
+        PER[p]+'</button>';}).join('')+'</span>';}
+/* Gráficos vivos na tela: id do container -> função que devolve o conteúdo.
+   Trocar o período redesenha só esses pedaços, e não a aba inteira: os
+   cartões de pesquisa abertos continuam abertos e a rolagem não pula. */
+var PLOTS={};
+function caixa(id,fn){PLOTS[id]=fn;return '<div id="'+id+'">'+fn()+'</div>';}
+/* esvazia sem trocar o objeto: quem já segura a referência continua vendo o
+   registro de verdade, e não uma cópia órfã */
+function zeraPlots(){Object.keys(PLOTS).forEach(function(k){delete PLOTS[k];});}
+function setPer(p){
+  if(!PER[p]||S.per===p)return;
+  S.per=p;
+  Object.keys(PLOTS).forEach(function(id){
+    var el=document.getElementById(id);
+    if(!el){delete PLOTS[id];return;}
+    el.innerHTML=PLOTS[id]();});
+  document.querySelectorAll('[data-per]').forEach(function(b){
+    b.setAttribute('aria-pressed',String(b.dataset.per===S.per));});
+  bindHist();bindMkt();bindPP();bindSen();bindPer();}
+function bindPer(){
+  /* stopPropagation por precaução: hoje os três seletores ficam em cabeçalho
+     de seção, fora dos cartões de pesquisa, mas basta um deles ir parar dentro
+     de um para o clique passar a fechar o histórico que o leitor abriu */
+  document.querySelectorAll('[data-per]').forEach(function(b){
+    b.onclick=function(ev){ev.stopPropagation();setPer(b.dataset.per);};});}
+/* Menos de dois pontos não formam linha: o gráfico volta sozinho para a série
+   inteira e diz por quê, em vez de aparecer vazio. Só chega aqui com n de 0 ou
+   1, que é a condição do retorno. */
+function legPoucos(n){return '<span class="lgi">↩ série toda: '+(n
+  ?'o recorte da campanha oficial deixaria um ponto só, e um ponto não faz linha'
+  :'nada foi medido na campanha oficial ainda')+'</span>';}
 var brl=function(n){return Number(n).toLocaleString('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0});};
-var S={esf:null,view:'matriz',gran:'cand',cand:null,tema:null,topico:null,q:'',soCom:false,selC:new Set(),selS:new Set()};
+var S={esf:null,view:'matriz',gran:'cand',cand:null,tema:null,topico:null,q:'',soCom:false,
+       per:'camp',osub:'modelo',selC:new Set(),selS:new Set()};
+/* Enquanto a campanha oficial não tiver série própria não há o que recortar:
+   aí a página abre na série inteira, com o controle disponível do mesmo jeito. */
+if(((D.odds&&D.odds.br&&D.odds.br.hist)||[]).filter(function(h){return !pre(h.d);}).length<2)S.per='tudo';
 function cands(){return C.filter(function(c){return c.esfera===S.esf;});}
 function props(){return P.filter(function(p){return p.esf===S.esf;});}
 
@@ -618,20 +665,62 @@ if(typeof addEventListener==='function')addEventListener('resize',medeCmp);
 function dsign(v){if(v==null)return '<span class="dlt eq">—</span>';
   var c=v>0.05?'up':(v<-0.05?'dn':'eq'),a=v>0.05?'▲':(v<-0.05?'▼':'=');
   return '<span class="dlt '+c+'">'+a+' '+(v>0?'+':'')+v.toFixed(1)+'</span>';}
+/* Barras de ranking das duas sub-abas: a mesma forma serve para o preço do
+   contrato e para a probabilidade do modelo, que é justamente o que torna os
+   dois fáceis de confundir — por isso cada uma mora na sua vista. */
+function oddsBars(rows,key){
+  var mx=Math.max.apply(null,rows.map(function(r){return r[key];}))||1;
+  return rows.map(function(r){
+    var c=r.sq?byId[r.sq]:null,col=c?pc(c):'var(--ink-3)';
+    return '<div class="rrow"><span class="nm" style="color:'+col+'">'+(c?'':'· ')+esc(r.curto||r.nome)+'</span>'+
+      '<span class="rbar"><i style="width:'+Math.max(r[key]/mx*100,1.2)+'%;background:'+col+'"></i></span>'+
+      '<span class="rval">'+r[key].toFixed(1)+'%</span></div>';}).join('');
+}
+/* As duas sub-abas de Chances. Modelo e mercado respondem à mesma pergunta por
+   caminhos que não se encostam: um simula eleições a partir de pesquisas, o
+   outro lê o preço que apostadores estão pagando agora. Empilhados na mesma
+   rolagem viravam um borrão de porcentagens parecidas — o leitor chegava no
+   meio da aba sem saber de qual das duas fontes era o número na tela. Cada uma
+   na sua vista, todo número fica a um palmo da fonte que o produziu. */
+var OSUB={modelo:['📈','Modelo e pesquisas','Plano Político'],
+          mercado:['💵','Mercado de apostas','Polymarket']};
 function drawOdds(){
-  var el=document.getElementById('v-odds'),O=D.odds[S.esf];
-  function bars(rows,key){
-    var mx=Math.max.apply(null,rows.map(function(r){return r[key];}))||1;
-    return rows.map(function(r){
-      var c=r.sq?byId[r.sq]:null,col=c?pc(c):'var(--ink-3)';
-      return '<div class="rrow"><span class="nm" style="color:'+col+'">'+(c?'':'· ')+esc(r.curto||r.nome)+'</span>'+
-        '<span class="rbar"><i style="width:'+Math.max(r[key]/mx*100,1.2)+'%;background:'+col+'"></i></span>'+
-        '<span class="rval">'+r[key].toFixed(1)+'%</span></div>';}).join('');}
-  var Q=(S.esf==='br')?D.pesquisas:null;
+  document.getElementById('v-odds').innerHTML=oddsTopo()+
+    '<div class="sechead" style="margin-top:24px"><h3>🔀 Duas contas para a mesma pergunta</h3>'+
+    '<span class="pill-n">escolha uma</span></div>'+
+    '<p class="lead" style="font-size:15px">O modelo simula a eleição a partir das pesquisas; o mercado mostra o '+
+    'preço que apostadores estão pagando agora. São duas contas que não se falam, e ficam em vistas separadas de '+
+    'propósito — nenhum número de uma aparece na outra.</p>'+
+    '<div class="subtabs" role="tablist" aria-label="Fonte da estimativa">'+
+    Object.keys(OSUB).map(function(k){var o=OSUB[k];
+      return '<button type="button" role="tab" data-osub="'+k+'" aria-selected="'+(S.osub===k?'true':'false')+'">'+
+        '<span class="st1">'+o[0]+' '+esc(o[1])+'</span>'+
+        '<span class="st2">'+esc(o[2])+'</span></button>';}).join('')+
+    '</div><div id="oddsin"></div>';
+  document.querySelectorAll('[data-osub]').forEach(function(b){
+    b.onclick=function(){if(S.osub===b.dataset.osub)return;
+      S.osub=b.dataset.osub;pintaOSub();scrollTo(0,0);};});
+  pintaOSub();
+}
+/* Troca de sub-aba redesenha só o miolo: o cabeçalho de procedência vale para
+   as duas e não pisca. */
+function pintaOSub(){
+  zeraPlots();   /* os containers vão ser recriados; o registro antigo morre aqui */
+  document.querySelectorAll('[data-osub]').forEach(function(b){
+    b.setAttribute('aria-selected',String(b.dataset.osub===S.osub));});
+  document.getElementById('oddsin').innerHTML=(S.osub==='mercado')?oddsMercado():oddsModelo();
+  bindHist();bindMkt();bindPolls();bindPer();
+}
+/* Cabeçalho comum: o aviso de que nada aqui vem do TSE e o relógio de cada
+   fonte. Fica fora das sub-abas de propósito — é a ressalva que vale para as
+   duas, e repetida em cada uma viraria ruído. */
+function oddsTopo(){
+  var O=D.odds[S.esf],Q=(S.esf==='br')?D.pesquisas:null;
   var maisNovo=[O.modelo&&O.modelo.atualizado,O.mercado&&O.mercado.atualizado,Q&&Q.atualizado]
     .filter(Boolean).sort().pop();
   var baixado=D.capturado?(dhora(D.capturado)||dbr(D.capturado)):null;
-  var h='<section><div class="sechead"><h2>🎲 Chances de vitória</h2>'+
+  var nv=idade(maisNovo);
+  return '<div class="sechead"><h2>🎲 Chances de vitória</h2>'+
     selo(maisNovo,'dado mais novo')+
     (baixado?'<span class="pill-n">baixado em '+esc(baixado)+'</span>':'')+'</div>'+
     '<div class="note warn"><b>⚠ Isto não é proposta de ninguém</b>Esta aba é a única do site que não vem dos planos registrados no TSE. '+
@@ -648,43 +737,36 @@ function drawOdds(){
                  '<span class="us">não existe contrato para o DF</span>'+
                  '<div class="ud" style="font-size:13px;color:var(--ink-3)">—</div></div>')+
       (Q?cartao('📋','Pesquisas nacionais',Q.fonte+' · última divulgação',Q.atualizado):'')+
-    '</div>';
-  var md=O.deltas,mkd=(O.mercado&&O.mercado.deltas)||null;
+    '</div>'+
+    (nv!=null&&nv>2?'<div class="note crit" style="margin-top:14px"><b>⚠ Este recorte tem '+nv+' dias</b>'+
+      'Em campanha isso é bastante: pesquisa nova costuma sair todo dia. Confira a fonte antes de citar '+
+      'qualquer número daqui.</div>':'');
+}
+/* ---- sub-aba 1: o modelo do Plano Político e as pesquisas que o alimentam -- */
+function oddsModelo(){
+  var O=D.odds[S.esf],mo=O.modelo,Q=(S.esf==='br')?D.pesquisas:null,md=O.deltas;
+  var h='<section><div class="sechead"><h2>📈 Modelo estatístico</h2>'+
+    '<span class="pill-n">'+esc(mo.fonte)+'</span><span class="pill-n mn">'+esc(mo.npesq)+'</span>'+
+    selo(mo.atualizado)+'</div>'+
+    '<p class="lead">Projeção construída a partir de pesquisas agregadas e simulações. Não é uma pesquisa: é um '+
+    'modelo sobre pesquisas — roda a eleição milhares de vezes com a incerteza de cada instituto embutida e conta '+
+    'em quantas delas cada candidato ganhou. Nenhum número desta vista vem do mercado de apostas.</p>';
   if(md){
     var ds=Object.keys(md).map(function(k){return {k:k,v:md[k]};}).sort(function(a,b){return b.v.agora-a.v.agora;});
     h+='<div class="sechead" style="margin-top:24px"><h3>📊 Como mudou</h3>'+
-       '<span class="pill-n">probabilidade de vitória</span>'+selo(O.modelo.atualizado)+'</div>'+
-      '<p class="lead" style="font-size:15px">Variação em pontos percentuais contra o dia, a semana e o mês anteriores. '+
-      'Duas fontes independentes: o <b>modelo</b> sobre pesquisas e o <b>mercado</b> de apostas.</p>'+
+       '<span class="pill-n">probabilidade de vitória</span>'+selo(mo.atualizado)+'</div>'+
+      '<p class="lead" style="font-size:15px">Variação em pontos percentuais contra o dia, a semana e o mês anteriores, '+
+      'toda ela dentro do modelo.</p>'+
       '<div class="delta-strip">'+ds.map(function(o){
         var d=o.v,c=d.sq?byId[d.sq]:null,col=c?pc(c):'var(--ink-3)';
-        var m=mkd?mkd[o.k]:null;
         return '<div class="dcard" style="border-left-color:'+col+'">'+
           '<div class="dn2">'+(c?mark(c,16):'')+'<span style="color:'+col+'">'+esc(o.k)+'</span></div>'+
           '<div class="dv">'+d.agora.toFixed(1)+'%</div>'+
-          '<div class="dgrid2"><div><div class="dh">📈 modelo</div>'+
-            '<div class="dr"><span><b>dia</b>'+dsign(d.d1)+'</span><span><b>sem</b>'+dsign(d.d7)+'</span><span><b>mês</b>'+dsign(d.d30)+'</span></div></div>'+
-          '<div><div class="dh">💵 mercado'+(m?' ('+m.agora.toFixed(1)+'%)':'')+'</div>'+
-            (m?'<div class="dr"><span><b>dia</b>'+dsign(m.d1)+'</span><span><b>sem</b>'+dsign(m.d7)+'</span><span><b>mês</b>'+dsign(m.d30)+'</span></div>'
-              :'<div class="dr"><span style="color:var(--ink-3);font-size:10.5px">sem histórico</span></div>')+
-          '</div></div></div>';}).join('')+'</div>';
+          '<div class="dr g3"><span><b>dia</b>'+dsign(d.d1)+'</span><span><b>sem</b>'+dsign(d.d7)+
+          '</span><span><b>mês</b>'+dsign(d.d30)+'</span></div></div>';}).join('')+'</div>';
   }
-  if(O.mercado){
-    var mk=O.mercado;
-    h+='<div class="sechead" style="margin-top:26px"><h3>💵 Mercado de apostas</h3>'+
-      '<span class="pill-n">'+esc(mk.fonte)+'</span><span class="pill-n mn">US$ '+(mk.volume/1e6).toFixed(0)+' mi negociados</span>'+
-      selo(mk.atualizado,'último pregão')+'</div>'+
-      '<p class="lead">Preço que apostadores reais estão pagando por cada resultado. Com esse volume, o preço incorpora informação rápido — e também reflete quem tem dinheiro para apostar, não o eleitorado.</p>'+
-      '<div class="rank">'+bars(mk.linhas,'p')+
-      '<span class="cap" style="margin-top:12px;display:block">Fonte: '+esc(mk.fonte)+' · preço de '+dbr(mk.atualizado)+' · “·” marca quem não tem plano neste site</span></div>';
-  }
-  var mo=O.modelo;
-  h+='<div class="sechead" style="margin-top:30px"><h3>📈 Modelo estatístico</h3>'+
-    '<span class="pill-n">'+esc(mo.fonte)+'</span><span class="pill-n mn">'+esc(mo.npesq)+'</span>'+
-    selo(mo.atualizado)+'</div>'+
-    '<p class="lead">Projeção construída a partir de pesquisas agregadas e simulações. Não é uma pesquisa: é um modelo sobre pesquisas.</p>'+
-    '<div class="g2sym"><div class="rank"><h4>🏆 Probabilidade de vitória</h4><span class="cap">Em 100 eleições simuladas</span>'+
-    bars(mo.linhas,'pwin')+'</div>'+
+  h+='<div class="g2sym"><div class="rank"><h4>🏆 Probabilidade de vitória</h4><span class="cap">Em 100 eleições simuladas</span>'+
+    oddsBars(mo.linhas,'pwin')+'</div>'+
     '<div class="rank"><h4>🗳 Votos no primeiro turno</h4><span class="cap">Mediana das simulações, votos válidos</span>'+
     mo.linhas.map(function(r){
       var c=r.sq?byId[r.sq]:null,col=c?pc(c):'var(--ink-3)',mx=Math.max.apply(null,mo.linhas.map(function(x){return x.hi;}));
@@ -703,33 +785,54 @@ function drawOdds(){
         '<td class="mn" style="text-align:right;color:'+(t.lulaVence>50?'var(--v-forte)':'var(--v-falh)')+'">'+t.lulaVence+'%</td></tr>';}).join('')+
       '</tbody></table></div><p class="lead" style="margin-top:12px">A eleição se decide no primeiro turno em apenas <b>'+mo.t1out+'%</b> das simulações.</p>';
   }
-  if(S.esf==='df')h+='<p class="lead" style="margin-top:20px">O modelo aponta segundo turno no DF em <b>'+mo.pRunoff+'%</b> das simulações. Não existe mercado de apostas para o governo do Distrito Federal — só para a Presidência e alguns estados.</p>';
+  if(S.esf==='df')h+='<p class="lead" style="margin-top:20px">O modelo aponta segundo turno no DF em <b>'+mo.pRunoff+'%</b> das simulações.</p>';
   if(S.esf==='br'&&D.odds.br.hist)h+=histChart();
-  if(S.esf==='br'&&O.mercado&&O.mercado.hist)h+=mktChart();
   if(S.esf==='br'&&D.pesquisas)h+=pollsBlock();
-  var nv=idade(maisNovo);
-  h+='<div class="note info" style="margin-top:26px"><b>Fontes e datas</b>'+
+  h+='<div class="note info" style="margin-top:26px"><b>Fontes desta vista</b>'+
     '<ul style="margin:6px 0 0;padding-left:18px">'+
-    (O.mercado?'<li>Mercado: <a href="'+esc(O.mercado.url)+'" target="_blank" rel="noopener">'+esc(O.mercado.fonte)+
-      '</a> — preço de '+dlonga(O.mercado.atualizado)+'.</li>':'')+
     '<li>Modelo: <a href="'+esc(mo.url)+'" target="_blank" rel="noopener">'+esc(mo.fonte)+'</a> — rodada de '+
       dlonga(mo.atualizado)+(mo.versao?' ('+esc(mo.versao)+')':'')+'.</li>'+
     (Q?'<li>Pesquisas: <a href="'+esc(Q.url)+'" target="_blank" rel="noopener">'+esc(Q.fonte)+
       '</a> — última divulgação em '+dlonga(Q.atualizado)+'.</li>':'')+
-    '</ul>'+
-    (baixado?'<span style="display:block;margin-top:8px">Esta cópia foi baixada em <b>'+esc(baixado)+
-      '</b>, horário de Brasília. A página não se atualiza sozinha: quem publica precisa rodar '+
-      '<span class="mn">site/refresh.py</span> de novo.</span>':'')+
-    (nv!=null&&nv>2?'<span style="display:block;margin-top:8px;color:var(--v-risc)"><b>⚠ Este recorte tem '+nv+
-      ' dias.</b> Em campanha isso é bastante: pesquisa nova costuma sair todo dia. '+
-      'Confira a fonte antes de citar qualquer número daqui.</span>':'')+
-    '</div></section>';
-  el.innerHTML=h;
-  bindHist(); bindMkt(); bindPolls();
+    '</ul></div></section>';
+  return h;
+}
+/* ---- sub-aba 2: o mercado de apostas, sozinho --------------------------- */
+function oddsMercado(){
+  var O=D.odds[S.esf];
+  if(!O.mercado){
+    return '<section><div class="sechead"><h2>💵 Mercado de apostas</h2>'+
+      '<span class="pill-n">sem contrato para o DF</span></div>'+
+      '<div class="note info"><b>Não existe mercado para o governo do Distrito Federal</b>'+
+      'O Polymarket abre contrato para a Presidência e para alguns governos estaduais, e o DF não é um deles. '+
+      'Sem contrato não há preço, e sem preço não há o que mostrar aqui: esta vista fica vazia de propósito, '+
+      'em vez de repetir o modelo com outro rótulo. Para o DF, a estimativa disponível é a da sub-aba '+
+      '<b>📈 Modelo e pesquisas</b>; o mercado só tem número para a <b>Presidência</b>, no seletor lá em cima.</div></section>';
+  }
+  var mk=O.mercado;
+  var h='<section><div class="sechead"><h2>💵 Mercado de apostas</h2>'+
+    '<span class="pill-n">'+esc(mk.fonte)+'</span><span class="pill-n mn">US$ '+(mk.volume/1e6).toFixed(0)+' mi negociados</span>'+
+    selo(mk.atualizado,'último pregão')+'</div>'+
+    '<p class="lead">Preço que apostadores reais estão pagando por cada resultado. Cada contrato paga 100¢ se o '+
+    'candidato vencer, então o preço é lido direto como probabilidade. Com esse volume, o preço incorpora informação '+
+    'rápido — e também reflete quem tem dinheiro para apostar, não o eleitorado. Nenhum número desta vista sai do '+
+    'modelo do Plano Político.</p>'+
+    '<div class="rank">'+oddsBars(mk.linhas,'p')+
+    '<span class="cap" style="margin-top:12px;display:block">Fonte: '+esc(mk.fonte)+' · preço de '+dbr(mk.atualizado)+
+    ' · “·” marca quem não tem plano neste site</span></div>';
+  if(S.esf==='br'&&mk.hist)h+=mktChart();
+  h+='<div class="note info" style="margin-top:26px"><b>Fontes desta vista</b>'+
+    '<ul style="margin:6px 0 0;padding-left:18px">'+
+    '<li>Mercado: <a href="'+esc(mk.url)+'" target="_blank" rel="noopener">'+esc(mk.fonte)+
+      '</a> — preço de '+dlonga(mk.atualizado)+'.</li></ul></div></section>';
+  return h;
 }
 var HIST_GEO=null;
-function histChart(){
-  var H=D.odds.br.hist,W=860,Ht=300,m={l:46,r:120,t:18,b:34};
+function histChart(){return caixa('histbox',histInner);}
+function histInner(){
+  var TOT=D.odds.br.hist,H=TOT.filter(function(h){return noPer(h.d);}),caiu=-1;
+  if(H.length<2){caiu=H.length;H=TOT;}
+  var W=860,Ht=300,m={l:46,r:120,t:18,b:34};
   var pw=W-m.l-m.r,ph=Ht-m.t-m.b;
   var names=Object.keys(H[H.length-1].p);
   var NM={"Lula":"280002542548","Flávio":"280002551544","Renan":"280002540694","Caiado":"280002551932",
@@ -763,12 +866,13 @@ function histChart(){
     s+='<text class="tick" x="'+X(i)+'" y="'+(m.t+ph+18)+'" text-anchor="middle">'+H[i].d.split('-').reverse().slice(0,2).join('/')+'</text>';});
   s+='<line id="hx" x1="0" y1="'+m.t+'" x2="0" y2="'+(m.t+ph)+'" stroke="var(--ink-3)" stroke-width="1" opacity="0"/>';
   s+='<rect id="hcap" x="'+m.l+'" y="'+m.t+'" width="'+pw+'" height="'+ph+'" fill="transparent" style="cursor:crosshair"/>';
-  return '<div class="sechead" style="margin-top:30px"><h3>📉 Como mudou desde abril</h3>'+
-    '<span class="pill-n">passe o mouse para ver cada dia</span>'+selo(H[H.length-1].d)+'</div>'+
+  return '<div class="sechead" style="margin-top:30px"><h3>📉 Como mudou desde '+dcurta(H[0].d)+'</h3>'+
+    perCtl()+'<span class="pill-n">passe o mouse para ver cada dia</span>'+selo(H[H.length-1].d)+'</div>'+
     '<div class="plotwrap"><svg class="plot" id="histsvg" viewBox="0 0 '+W+' '+Ht+'" role="img" aria-label="Evolução da probabilidade de vitória">'+s+'</svg>'+
     '<div class="legend"><span class="lgi">'+H.length+' medições diárias entre '+dbr(H[0].d)+' e '+dbr(H[H.length-1].d)+'</span>'+
     (rot.some(function(o){return o.nPts<H.length;})
       ?'<span class="lgi">* entrou no modelo depois do começo da série</span>':'')+
+    (caiu>=0?legPoucos(caiu):'')+
     (xc!=null?legCamp():'')+'</div></div>';
 }
 function bindHist(){
@@ -831,15 +935,18 @@ function pollsBlock(){
           '</div></button>';}).join('');
   }
   return '<div class="sechead" style="margin-top:32px"><h2>📋 Pesquisas nacionais</h2>'+
-    '<span class="pill-n">'+esc(Q.fonte)+'</span>'+selo(Q.atualizado,'última divulgação')+'</div>'+
+    perCtl()+'<span class="pill-n">'+esc(Q.fonte)+'</span>'+selo(Q.atualizado,'última divulgação')+'</div>'+
     '<p class="lead">A pesquisa nacional mais recente de cada instituto, do campo mais novo para o mais antigo, com o método de coleta e a variação contra a pesquisa nacional anterior <em>do mesmo instituto</em> — comparar institutos diferentes entre si mede metodologia, não movimento do eleitorado. Clique para abrir todo o histórico.</p>'+
     '<div class="note info"><b>🏁 Antes e depois de '+dbr(CAMP)+'</b>'+
     'A propaganda eleitoral só é permitida a partir de <b>'+dlonga(CAMP)+'</b> (Lei 9.504/97, art. 36), no dia seguinte ao '+
     'prazo de registro das candidaturas. O que foi a campo antes disso mediu uma corrida ainda informal: nem todos os nomes '+
     'estavam confirmados, não havia horário eleitoral e boa parte do eleitorado ainda não tinha ligado a chave. Por isso cada '+
     'pesquisa aparece marcada como <span class="fase pre">pré-campanha</span> ou <span class="fase pos">campanha oficial</span>, '+
-    'e nos gráficos a área clara é o período anterior à data. <b>Comparar um número de março com um de agosto mede sobretudo a '+
-    'passagem do tempo</b>, não a mudança de opinião de quem já tinha decidido.</div>'+
+    'e os gráficos de série abrem já recortados na campanha oficial — o seletor ao lado de cada título traz a série inteira de '+
+    'volta, com a área clara marcando o que veio antes. <b>Comparar um número de março com um de agosto mede sobretudo a '+
+    'passagem do tempo</b>, não a mudança de opinião de quem já tinha decidido. Como quase nenhum instituto voltou a campo '+
+    'duas vezes desde '+dbr(CAMP)+', e um ponto sozinho não faz linha, o histórico desses volta sozinho a aparecer inteiro, '+
+    'com o aviso na legenda.</div>'+
     bloco(Q.t1,'🗳 Primeiro turno','Intenção de voto estimulada, como divulgada pelo instituto.','a')+
     bloco(Q.t2,'⚔ Segundo turno','Cenário Lula contra Flávio Bolsonaro.','b');
 }
@@ -850,18 +957,25 @@ function bindPolls(){
 }
 /* ================= MERCADO: histórico de preço ================= */
 var MKT_GEO=null;
-function mktChart(){
+function mktChart(){return caixa('mktbox',mktInner);}
+function mktInner(){
   var Hm=D.odds.br.mercado.hist,DL=D.odds.br.mercado.deltas||{};
   var names=Object.keys(Hm),ds={};
   names.forEach(function(n){Hm[n].pts.forEach(function(q){ds[q.d]=1;});});
-  var dates=Object.keys(ds).sort();
+  var TOT=Object.keys(ds).sort(),dates=TOT.filter(function(d){return noPer(d);}),caiu=-1;
+  if(dates.length<2){caiu=dates.length;dates=TOT;}
   var W=860,Ht=320,m={l:48,r:118,t:18,b:34},pw=W-m.l-m.r,ph=Ht-m.t-m.b;
   var X=function(i){return m.l+i/(dates.length-1)*pw;},Y=function(v){return m.t+(1-v/100)*ph;};
   var idx={};dates.forEach(function(d,i){idx[d]=i;});
   var series=names.map(function(n){
     var c=Hm[n].sq?byId[Hm[n].sq]:null,mp={};
     Hm[n].pts.forEach(function(q){mp[q.d]=q.p;});
-    return {n:n,c:c,col:c?pc(c):'var(--ink-3)',mp:mp,last:Hm[n].pts[Hm[n].pts.length-1].p};});
+    /* o rótulo da direita traz o último preço dentro da janela desenhada, não
+       o último do contrato: no recorte da campanha os dois podem diferir, e
+       um contrato sem nenhum pregão na janela fica sem rótulo */
+    var vis=dates.filter(function(d){return mp[d]!=null;});
+    return {n:n,c:c,col:c?pc(c):'var(--ink-3)',mp:mp,
+            last:vis.length?mp[vis[vis.length-1]]:null};});
   MKT_GEO={dates:dates,series:series,m:m,pw:pw,W:W};
   var s='';
   [0,25,50,75,100].forEach(function(g){
@@ -879,7 +993,7 @@ function mktChart(){
       if(v==null)return;
       d+=(open?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1);open=true;});
     if(d)s+='<path d="'+d+'" fill="none" stroke="'+o.col+'" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity=".92"/>';});
-  var lb=series.slice().sort(function(a,b){return b.last-a.last;});
+  var lb=series.filter(function(o){return o.last!=null;}).sort(function(a,b){return b.last-a.last;});
   empilha(lb.map(function(o){return Y(o.last)+4;}),m.t+9,m.t+ph).forEach(function(y,i){
     var o=lb[i];
     s+='<text class="dotlab" x="'+(m.l+pw+8)+'" y="'+y.toFixed(1)+'" fill="'+o.col+'" font-size="12">'+
@@ -894,12 +1008,13 @@ function mktChart(){
       '<span class="big">'+o.agora.toFixed(1)+'¢</span>'+
       '<span class="dl"><span>1d '+dsign(o.d1)+'</span><span>7d '+dsign(o.d7)+'</span><span>30d '+dsign(o.d30)+'</span></span></div>';}).join('');
   return '<div class="sechead" style="margin-top:30px"><h3>💹 Preço no mercado de apostas, dia a dia</h3>'+
-    '<span class="pill-n">'+dates.length+' pregões</span>'+selo(dates[dates.length-1],'último pregão')+'</div>'+
+    perCtl()+'<span class="pill-n">'+dates.length+' pregões</span>'+selo(dates[dates.length-1],'último pregão')+'</div>'+
     '<p class="lead">Cada contrato paga 100¢ se o candidato vencer, então o preço é lido direto como probabilidade. Abaixo, a variação em 1 dia, 7 dias e 30 dias.</p>'+
     '<div class="mkd">'+cards+'</div>'+
     '<div class="plotwrap"><svg class="plot" id="mktsvg" viewBox="0 0 '+W+' '+Ht+'" role="img" aria-label="Histórico de preço no mercado de apostas">'+s+'</svg>'+
     '<div class="legend"><span class="lgi">'+dbr(dates[0])+' a '+dbr(dates[dates.length-1])+
     '</span><span class="lgi">linha começa quando o contrato passou a ser negociado</span>'+
+    (caiu>=0?legPoucos(caiu):'')+
     (xc!=null?legCamp():'')+'</div></div>';
 }
 function bindMkt(){
@@ -937,8 +1052,13 @@ function pollTable(r){
   return '<div class="tblwrap"><table class="hsttbl"><thead><tr><th>Campo</th><th>Divulgação</th><th>Método</th>'+
     '<th>Amostra</th><th>Registro TSE</th></tr></thead><tbody>'+tb+'</tbody></table></div>';
 }
-function pollHist(r,id){
-  var Hs=r.hist||[];
+function pollHist(r,id){return caixa('pp-'+id,function(){return pollInner(r);});}
+function pollInner(r){
+  var TOT=r.hist||[],Hs=TOT.filter(function(h){return noPer(h.fim);}),caiu=-1;
+  /* Quase nenhum instituto foi a campo duas vezes desde 16/08: no recorte da
+     campanha a maioria destas séries ficaria sem linha. Em vez de esvaziar o
+     cartão, cada uma volta sozinha para o histórico inteiro. */
+  if(Hs.length<2){caiu=Hs.length;Hs=TOT;}
   if(Hs.length<2)return '<p class="cap" style="display:block;padding:6px 2px">Este instituto divulgou uma única pesquisa nacional'+
     (Hs.length?', ainda '+(pre(Hs[0].fim)?'na pré-campanha':'já na campanha oficial'):'')+
     ' — não há série para traçar.</p>'+pollTable(r);
@@ -987,7 +1107,8 @@ function pollHist(r,id){
     '<svg class="plot" viewBox="0 0 '+W+' '+Ht+'" role="img" aria-label="Histórico de '+esc(r.inst)+'">'+s+'</svg>'+
     '<div class="legend" style="margin-top:8px">'+
       (dentro?'<span class="lgi"><i class="swc" style="background:var(--ink-3);opacity:.3"></i>área clara: antes de '+dbr(CAMP)+'</span>':'')+
-      '<span class="lgi">'+nPre+' na pré-campanha · '+nPos+' na campanha oficial</span></div></div>'+
+      '<span class="lgi">'+nPre+' na pré-campanha · '+nPos+' na campanha oficial</span>'+
+      (caiu>=0?legPoucos(caiu):'')+'</div></div>'+
     pollTable(r);
 }
 function bindPP(){
@@ -1117,7 +1238,7 @@ function drawMetodo(){
   '<p>As cores dos eixos são deliberadamente neutras — verde-azulado e âmbar — para não importar a carga das cores partidárias brasileiras.</p>'+
   '<h3>🎲 Sobre a aba Chances</h3>'+
   '<p>É a única parte do site que não vem dos planos do TSE. Traz três coisas de terceiros: um mercado de apostas, um modelo estatístico sobre pesquisas agregadas e as pesquisas nacionais mais recentes de cada instituto. Cada fonte tem a própria data e anda no próprio ritmo — o painel no topo da aba mostra as três lado a lado com a idade de cada uma'+(D.capturado?', e esta cópia foi baixada em '+esc(dhora(D.capturado)||dbr(D.capturado)):'')+'. A página não se atualiza sozinha: quem publica roda <span class="mn">site/refresh.py</span>, que rebaixa as quatro fontes e reconstrói o HTML. Não existe mercado de apostas para o governo do DF.</p>'+
-  '<p>As pesquisas trazem uma marca de fase: <b>pré-campanha</b> para o que foi a campo antes de '+dbr(CAMP)+' e <b>campanha oficial</b> para o que veio depois. '+dlonga(CAMP)+' é o primeiro dia em que a propaganda eleitoral é permitida (Lei 9.504/97, art. 36), no dia seguinte ao prazo de registro das candidaturas — é a fronteira entre medir uma corrida hipotética e medir a corrida que existe. Nos gráficos de série ela aparece como régua tracejada, com a área anterior sombreada.</p>'+'<p>Nas pesquisas, a variação é sempre contra a pesquisa nacional anterior <em>do mesmo instituto</em>. Comparar institutos diferentes entre si mede diferença de metodologia — presencial, telefone ou internet mudam o resultado de forma sistemática — e não movimento do eleitorado.</p>'+
+  '<p>As pesquisas trazem uma marca de fase: <b>pré-campanha</b> para o que foi a campo antes de '+dbr(CAMP)+' e <b>campanha oficial</b> para o que veio depois. '+dlonga(CAMP)+' é o primeiro dia em que a propaganda eleitoral é permitida (Lei 9.504/97, art. 36), no dia seguinte ao prazo de registro das candidaturas — é a fronteira entre medir uma corrida hipotética e medir a corrida que existe. Nos gráficos de série ela aparece como régua tracejada, com a área anterior sombreada. Os gráficos abrem mostrando só a campanha oficial, e o seletor ao lado do título alterna para a série inteira; onde o recorte deixaria menos de dois pontos — o caso da maioria dos institutos — o gráfico volta sozinho para a série inteira e avisa.</p>'+'<p>Nas pesquisas, a variação é sempre contra a pesquisa nacional anterior <em>do mesmo instituto</em>. Comparar institutos diferentes entre si mede diferença de metodologia — presencial, telefone ou internet mudam o resultado de forma sistemática — e não movimento do eleitorado.</p>'+
   '<h3>🚫 O que este site não é</h3>'+
   '<ul>'+
   '<li><b>As coordenadas e os vereditos não são dado oficial.</b> São classificação editorial deste projeto aplicada ao texto literal registrado. Outro leitor classificaria diferente em vários casos, e isso é esperado.</li>'+
@@ -1132,15 +1253,309 @@ function drawMetodo(){
   '<li><b>Quinze outros planos.</b> Foram extraídos e ficaram fora desta publicação, que cobre os dez com maior densidade programática nas duas disputas.</li>'+
   '</ul></section>';
 }
+/* ================= SENADO (DF) ================= */
+/* Esta aba é a única que fala de uma disputa sem plano de governo nenhum, e é
+   por um motivo de lei: o art. 11, § 1º, IX da Lei 9.504/97 só manda instruir o
+   pedido de registro com as "propostas defendidas pelo candidato a Prefeito, a
+   Governador de Estado e a Presidente da República". Senador não está na lista,
+   e o pacote proposta_governo_2026_DF do TSE confirma a letra — os onze PDFs
+   que ele traz são todos de candidatura ao governo do DF. Sem documento
+   registrado não há o que ler, classificar ou pontuar: aqui só entra a corrida
+   medida, com a origem de cada número à vista. */
+function senCor(l){return isDark()?(l.corD||l.cor||'var(--ink-3)'):(l.cor||'var(--ink-3)');}
+function senNome(l){return esc(l.nome)+(l.nr?'<u>'+esc(l.nr)+'</u>':'');}
+/* a coluna de nome tem largura fixa e os mais compridos ainda elidem; o title
+   devolve o nome inteiro sem alargar a linha para todo mundo */
+function senTit(l){return ' title="'+esc(l.nome+(l.partido?' ('+l.partido+')':'')+(l.nr?' — urna '+l.nr:''))+'"';}
+/* Barras do modelo: cada uma vai até 100, e a régua marca os 50% de onde a
+   eleição deixa de ser disputa e vira expectativa. */
+function senBarras(linhas,chave,regua,stf){
+  return linhas.map(function(l){
+    var col=senCor(l),v=l[chave];
+    return '<div class="senrow'+(stf?' stf':'')+'"><span class="nm"'+senTit(l)+' style="color:'+col+'">'+senNome(l)+'</span>'+
+      '<span class="rbar"><i style="left:0;width:'+Math.max(v,0.8)+'%;background:'+col+'"></i>'+
+      (regua?'<u style="left:50%"></u>':'')+'</span>'+
+      '<span class="rval">'+v.toFixed(1)+'%</span>'+(stf?stfBadge(l.sq):'')+'</div>';}).join('');
+}
+/* ---- impeachment de ministros do STF ---------------------------------- */
+/* A única coisa que esta aba mostra além da corrida. Senador não registra
+   plano, mas é o Senado quem processa e julga ministro do STF por crime de
+   responsabilidade (Constituição, art. 52, II), e a condenação só sai com dois
+   terços da Casa. Com isso em jogo na eleição, a posição de cada candidatura é
+   informação de voto — desde que venha com data e fonte. O levantamento mora
+   em data/senado_stf.json, feito à mão e reconferido na data do selo; nada
+   aqui é deduzido de partido. As cores são neutras de propósito: a seção
+   registra o que cada nome disse, não aprova nem reprova. */
+var STF_POS={
+  promete:{rot:'Promete apoiar o impeachment',curto:'promete impeachment',ic:'⚖'},
+  assinou:{rot:'Assinou pedido de impeachment',curto:'assinou pedido',ic:'✍'},
+  contra:{rot:'Contra a pauta do impeachment',curto:'contra',ic:'✋'},
+  sem:{rot:'Sem posição pública encontrada',curto:'sem posição',ic:'·'}};
+function stfDe(sq){var X=D.senadoSTF;return (X&&X.candidatos&&X.candidatos[sq])||null;}
+/* etiqueta curta na barra do modelo (vazia para quem não tem posição, para o
+   olho parar só onde há compromisso ou ato) ou longa no cartão */
+function stfBadge(sq,longo){
+  var o=stfDe(sq),k=(o&&STF_POS[o.posicao])?o.posicao:'sem',P=STF_POS[k];
+  if(!longo&&k==='sem')return '<span class="stfb vazio"></span>';
+  return '<span class="stfb '+k+'" title="'+esc(P.rot+(o&&o.alvo?' — alvo: '+o.alvo:''))+'">'+P.ic+
+    '<b> '+esc(longo?P.rot:P.curto)+'</b></span>';}
+function senSTF(SN){
+  var X=D.senadoSTF;if(!X||!X.candidatos)return '';
+  var por={};(SN.modelo.linhas||[]).forEach(function(l){if(l.sq)por[l.sq]=l;});
+  var G={promete:[],assinou:[],contra:[],sem:[]};
+  Object.keys(X.candidatos).forEach(function(sq){
+    var o=X.candidatos[sq],l=por[sq]||{nome:o.nome,sq:sq,pel:null};
+    (G[o.posicao]||G.sem).push({o:o,l:l});});
+  /* dentro de cada grupo, quem tem mais chance de chegar ao Senado vem antes */
+  Object.keys(G).forEach(function(k){G[k].sort(function(a,b){return (b.l.pel||0)-(a.l.pel||0);});});
+  var h='<div class="sechead" style="margin-top:30px"><h3>⚖ Impeachment de ministros do STF</h3>'+
+    '<span class="pill-n">posição pública de cada candidatura</span>'+selo(X.verificado,'verificado em')+'</div>'+
+    '<p class="lead">É o Senado quem processa e julga ministro do STF por crime de responsabilidade '+
+    '(Constituição, art. 52, II), e a condenação só sai com <b>dois terços dos votos</b> — 54 dos 81 senadores '+
+    '(art. 52, parágrafo único). Em 2026 estão em jogo 54 cadeiras, duas delas pelo DF. Abaixo, o que cada '+
+    'candidatura disse ou fez em público sobre o assunto, com a data, a citação literal quando existe e o link de '+
+    'onde saiu.</p>'+
+    '<div class="stfsum">'+Object.keys(STF_POS).map(function(k){
+      return '<div class="stfg '+k+'"><div class="sgh">'+STF_POS[k].ic+' '+esc(STF_POS[k].rot)+'<b>'+G[k].length+'</b></div>'+
+        '<div class="sgc">'+(G[k].length?G[k].map(function(t){
+          return '<span class="stfchip" style="color:'+senCor(t.l)+'">'+esc(t.l.nome)+'</span>';}).join('')
+          :'<span class="stfchip vaz">ninguém</span>')+'</div></div>';}).join('')+'</div>';
+  Object.keys(STF_POS).forEach(function(k){
+    G[k].filter(function(t){return (t.o.evidencias||[]).length;}).forEach(function(t){
+      var o=t.o,l=t.l,col=senCor(l);
+      h+='<div class="stfcard '+k+'">'+
+        '<div class="sch"><h5 style="color:'+col+'">'+esc(l.nome)+'</h5>'+
+        (l.nr?'<u>'+esc(l.nr)+'</u>':'')+(l.partido?'<span class="pill-n">'+esc(l.partido)+'</span>':'')+
+        stfBadge(l.sq,true)+
+        (o.alvo?'<span class="pill-n">alvo: '+esc(o.alvo)+'</span>':'')+
+        (l.pel!=null?'<span class="pill-n mn" title="chance de ficar com uma das duas vagas, pelo modelo">'+
+          l.pel.toFixed(1)+'% de chance de eleição</span>':'')+'</div>'+
+        (o.resumo?'<p class="sr">'+esc(o.resumo)+'</p>':'')+
+        /* mais recente primeiro: é a posição de hoje que o leitor procura, e o
+           histórico logo abaixo mostra se ela mudou */
+        o.evidencias.slice().sort(function(a,b){return a.data<b.data?1:(a.data>b.data?-1:0);}).map(function(e){
+          return '<div class="stfev"><div class="sd">'+dbr(e.data)+'<span class="stft">'+esc(e.tipo)+'</span></div><div>'+
+            (e.citacao?'<blockquote>“'+esc(e.citacao)+'”</blockquote>':'')+
+            (e.descricao?'<div class="sx">'+esc(e.descricao)+'</div>':'')+
+            '<div class="sf">'+(e.fala?esc(e.fala)+' · ':'')+
+            '<a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(e.veiculo)+' ↗</a></div></div></div>';}).join('')+
+        '</div>';});});
+  var cz=X.cruzamento;
+  h+='<div class="note info"><b>Como esta seção foi montada</b><ul style="margin:6px 0 0;padding-left:18px">'+
+    '<li>Só entra declaração ou ato público com data e link. Texto entre aspas é citação literal.</li>'+
+    '<li>Crítica ao STF ou a um ministro, sozinha, <b>não conta</b> como compromisso com impeachment.</li>'+
+    '<li>Ninguém foi classificado pelo partido. Exigência de legenda aparece só como contexto, ao lado da fala da própria candidatura.</li>'+
+    '<li><b>Assinar pedido</b> é pedir que o processo seja aberto — não é o voto final, que exige dois terços do Senado.</li>'+
+    '<li><b>Sem posição pública encontrada</b> não quer dizer contra nem a favor: quer dizer que a busca não achou '+
+      'manifestação até '+dbr(X.verificado)+'.</li>'+
+    '<li>Posição muda com o tempo, e esta seção não se atualiza sozinha: vale a data do selo.</li>'+
+    (cz?'<li>Cruzamento: <a href="'+esc(cz.url)+'" target="_blank" rel="noopener">'+esc(cz.fonte)+'</a>, base de '+
+      dbr(cz.atualizado)+', criada por '+esc(cz.autor)+'. Serviu só para conferir: toda posição aqui foi confirmada '+
+      'na reportagem citada no cartão.</li>':'')+
+    '</ul></div>';
+  return h;
+}
+/* Barras do agregador: faixa clara = intervalo, traço = ponto central. Mesma
+   gramática do "votos no primeiro turno" da aba Chances. */
+function senFaixas(linhas){
+  var mx=Math.max.apply(null,linhas.map(function(l){return l.hi;}))||1;
+  return linhas.map(function(l){
+    var col=senCor(l);
+    return '<div class="senrow"><span class="nm"'+senTit(l)+' style="color:'+col+'">'+senNome(l)+'</span>'+
+      '<span class="rbar"><i style="left:'+(l.lo/mx*100)+'%;width:'+Math.max((l.hi-l.lo)/mx*100,1)+
+      '%;background:'+col+';opacity:.28"></i>'+
+      '<i style="left:'+(l.share/mx*100)+'%;width:2.5px;background:'+col+';border-radius:1px"></i></span>'+
+      '<span class="rval">'+l.share.toFixed(1)+'%</span></div>';}).join('');
+}
+function drawSenado(){
+  var el=document.getElementById('v-senado'),SN=D.senadoDF;
+  zeraPlots();
+  if(!SN){el.innerHTML='<section><div class="note info"><b>Sem dado do Senado nesta cópia</b>'+
+    'Este HTML foi montado antes de o coletor do Senado entrar no ar. Rode '+
+    '<span class="mn">site/refresh.py</span> e monte de novo.</div></section>';return;}
+  var mo=SN.modelo,ag=SN.agg,baixado=D.capturado?(dhora(D.capturado)||dbr(D.capturado)):null;
+  var h='<section><div class="sechead"><h2>🏛 Senado pelo Distrito Federal</h2>'+
+    '<span class="vagapill">'+SN.vagas+' vagas em disputa</span>'+
+    selo(SN.atualizado,'dado mais novo')+
+    (baixado?'<span class="pill-n">baixado em '+esc(baixado)+'</span>':'')+'</div>'+
+    '<div class="note warn"><b>⚠ Aqui não existe plano de governo para ler</b>'+
+    'O resto deste site lê, classifica e confere propostas registradas no TSE. Para senador não há nenhuma: a '+
+    '<b>Lei 9.504/97, art. 11, § 1º, IX</b> só exige que o pedido de registro venha com as “propostas defendidas pelo '+
+    'candidato a <b>Prefeito</b>, a <b>Governador de Estado</b> e a <b>Presidente da República</b>”. Senador ficou de '+
+    'fora da lista, e o pacote <span class="mn">proposta_governo_2026_DF</span> do TSE confirma: os <b>11 planos</b> que '+
+    'ele traz são <b>todos de candidatura ao governo do DF</b>, nenhum de Senado. Por isso esta aba mostra a corrida medida — quem está na frente e com que '+
+    'margem —, e não a leitura de propostas que as outras abas fazem. O que cada candidatura promete circula em '+
+    'entrevista, debate e material de campanha, sem registro nenhum. A exceção é o <b>impeachment de ministros do '+
+    'STF</b>: como quem julga é o Senado, a posição pública de cada nome ganhou seção própria logo abaixo, montada só '+
+    'com declaração ou ato que tenha data e fonte.</div>'+
+    '<div class="note info"><b>🗳 São duas vagas, e cada eleitor vota em dois nomes</b>'+
+    'A renovação do Senado alterna um terço e dois terços das cadeiras, e 2026 é ano de <b>dois terços</b>: o DF elege '+
+    '<b>dois senadores</b> de uma vez. Isso muda como se lê tudo abaixo. As chances do modelo somam <b>200%</b>, não '+
+    '100 — são duas cadeiras sendo distribuídas —, e nas pesquisas em que o instituto pede os dois votos as '+
+    'porcentagens também passam de 100. Segundo e terceiro lugares não disputam sobra nenhuma: <b>os dois primeiros '+
+    'se elegem</b>, e não há segundo turno para Senado.</div>'+
+    senSTF(SN)+
+    '<div class="sechead" style="margin-top:26px"><h3>🏆 Chance de ficar com uma das duas vagas</h3>'+
+    '<span class="pill-n">'+esc(SN.fonte)+'</span><span class="pill-n mn">'+esc(mo.npesq)+'</span>'+
+    selo(mo.atualizado)+'</div>'+
+    '<p class="lead">Modelo do Plano Político: roda a eleição do DF milhares de vezes a partir das pesquisas '+
+    'registradas e conta em quantas delas cada nome terminou entre os dois mais votados. A régua no meio de cada '+
+    'barra marca os 50%. O número ao lado de cada nome é o da urna.</p>'+
+    '<div class="rank">'+senBarras(mo.linhas,'pel',true,!!D.senadoSTF)+
+    '<span class="cap" style="margin-top:12px;display:block">Soma 200% — são duas vagas · '+esc(mo.npesq)+
+    ' · modelo '+esc(mo.versao)+' de '+dbr(mo.atualizado)+
+    (D.senadoSTF?' · etiqueta à direita = posição pública sobre impeachment de ministros do STF, com as fontes na seção acima':'')+
+    '</span></div>'+
+    '<div class="sechead" style="margin-top:30px"><h3>📊 Média das pesquisas hoje</h3>'+
+    '<span class="pill-n mn">'+ag.npesq+' pesquisa'+(ag.npesq===1?'':'s')+' no agregador</span>'+
+    (ag.indecisos!=null?'<span class="pill-n mn">'+ag.indecisos.toFixed(1)+'% indecisos</span>':'')+
+    selo(ag.atualizado)+'</div>'+
+    '<p class="lead">Agregado do Plano Político sobre as pesquisas registradas no TSE, em <b>votos válidos</b> — por '+
+    'isso estes números não batem com a manchete do instituto, que costuma trazer o percentual sobre o total de '+
+    'entrevistados, indecisos incluídos. Cada pesquisa isolada aparece mais abaixo, com link para a divulgação '+
+    'original.</p>'+
+    '<div class="rank">'+senFaixas(ag.linhas)+
+    '<span class="cap" style="margin-top:10px;display:block">Barra clara = intervalo de confiança · traço = média do agregador</span></div>';
+  if(ag.traj&&ag.traj.length>1)h+=senChart();
+  h+=senPesquisas(SN)+
+    '<div class="note info" style="margin-top:26px"><b>Fontes desta aba</b>'+
+    '<ul style="margin:6px 0 0;padding-left:18px">'+
+    '<li>Modelo: <a href="'+esc(SN.urlModelo)+'" target="_blank" rel="noopener">'+esc(SN.fonte)+
+      ' — modelo do Senado</a>, rodada de '+dlonga(mo.atualizado)+' ('+esc(mo.versao)+').</li>'+
+    '<li>Agregador e pesquisas: <a href="'+esc(SN.urlAgg)+'" target="_blank" rel="noopener">'+esc(SN.fonte)+
+      ' — agregador do Senado</a>, atualizado em '+dlonga(ag.atualizado)+'.</li>'+
+    '<li>Candidaturas, números de urna e partidos: extrato de candidatos do TSE para o DF.</li>'+
+    '<li>Ausência de plano de governo: Lei 9.504/97, art. 11, § 1º, IX, e o próprio pacote '+
+      '<span class="mn">proposta_governo_2026_DF</span> do TSE.</li>'+
+    '</ul></div></section>';
+  el.innerHTML=h;
+  bindSen();bindPer();
+}
+/* ---- série semanal do agregador ---------------------------------------- */
+var SEN_GEO=null;
+function senChart(){return caixa('senbox',senInner);}
+function senInner(){
+  var ag=D.senadoDF.agg,TOT=ag.traj;
+  var T=TOT.filter(function(w){return noPer(w.d);}),caiu=-1;
+  if(T.length<2){caiu=T.length;T=TOT;}
+  /* treze linhas não se leem: entram as que chegaram a 3% em alguma semana, e
+     a legenda diz quantas ficaram de fora e por quê */
+  var cand=ag.linhas.filter(function(l){return l.nome!=='Outros';});
+  var vis=cand.filter(function(l){return T.some(function(w){return (w.p[l.nome]||0)>=3;});});
+  var fora=cand.length-vis.length;
+  var W=860,Ht=310,m={l:46,r:158,t:18,b:34},pw=W-m.l-m.r,ph=Ht-m.t-m.b;
+  var mx=0;
+  T.forEach(function(w){vis.forEach(function(l){if(w.p[l.nome]>mx)mx=w.p[l.nome];});});
+  var top=Math.max(Math.ceil(mx/10)*10,10);
+  var X=function(i){return m.l+i/(T.length-1)*pw;},Y=function(v){return m.t+(1-v/top)*ph;};
+  SEN_GEO={T:T,vis:vis,m:m,pw:pw,W:W};
+  var s='';
+  [0,.25,.5,.75,1].forEach(function(f){var g=top*f;
+    s+='<line class="grid-l" x1="'+m.l+'" y1="'+Y(g)+'" x2="'+(m.l+pw)+'" y2="'+Y(g)+'"/>'+
+       '<text class="tick" x="'+(m.l-8)+'" y="'+(Y(g)+3.5)+'" text-anchor="end">'+g.toFixed(0)+'%</text>';});
+  var xc=xFronteira(T.map(function(w){return w.d;}),X);
+  if(xc!=null)s+=marcaCamp(xc,m.l,m.t,ph);
+  var rot=[];
+  vis.forEach(function(l){
+    var col=senCor(l),d='',aberto=false;
+    T.forEach(function(w,i){var v=w.p[l.nome];
+      if(v==null){aberto=false;return;}
+      d+=(aberto?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1);aberto=true;});
+    if(!d)return;
+    s+='<path d="'+d+'" fill="none" stroke="'+col+'" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>';
+    var last=T[T.length-1].p[l.nome];
+    if(last!=null)rot.push({n:l.nome,col:col,v:last});});
+  rot.sort(function(a,b){return b.v-a.v;});
+  empilha(rot.map(function(o){return Y(o.v)+4;}),m.t+9,m.t+ph).forEach(function(y,i){
+    var o=rot[i];
+    s+='<text class="dotlab" x="'+(m.l+pw+8)+'" y="'+y.toFixed(1)+'" fill="'+o.col+'" font-size="12">'+
+       esc(o.n)+' '+o.v.toFixed(0)+'%</text>';});
+  [0,Math.floor(T.length/3),Math.floor(2*T.length/3),T.length-1].forEach(function(i){
+    s+='<text class="tick" x="'+X(i)+'" y="'+(m.t+ph+18)+'" text-anchor="middle">'+
+       T[i].d.split('-').reverse().slice(0,2).join('/')+'</text>';});
+  s+='<line id="sx" x1="0" y1="'+m.t+'" x2="0" y2="'+(m.t+ph)+'" stroke="var(--ink-3)" stroke-width="1" opacity="0"/>'+
+     '<rect id="scap" x="'+m.l+'" y="'+m.t+'" width="'+pw+'" height="'+ph+'" fill="transparent" style="cursor:crosshair"/>';
+  return '<div class="sechead" style="margin-top:30px"><h3>📉 Como a média andou, semana a semana</h3>'+
+    perCtl()+'<span class="pill-n">passe o mouse para ver cada semana</span>'+selo(T[T.length-1].d)+'</div>'+
+    '<p class="lead" style="font-size:15px">Cada ponto é o agregado fechado naquela semana, em votos válidos. Semana '+
+    'sem pesquisa nova repete o valor da anterior: a linha fica plana porque nada foi medido, não porque nada mudou.</p>'+
+    '<div class="plotwrap"><svg class="plot" id="sensvg" viewBox="0 0 '+W+' '+Ht+'" role="img" '+
+    'aria-label="Média das pesquisas para o Senado no DF, semana a semana">'+s+'</svg>'+
+    '<div class="legend"><span class="lgi">'+T.length+' semanas entre '+dbr(T[0].d)+' e '+dbr(T[T.length-1].d)+'</span>'+
+    (fora?'<span class="lgi">'+fora+' candidatura'+(fora===1?'':'s')+' fora do gráfico: '+
+      (fora===1?'nunca chegou':'nunca chegaram')+' a 3% em semana nenhuma</span>':'')+
+    (caiu>=0?legPoucos(caiu):'')+
+    (xc!=null?legCamp():'')+'</div></div>';
+}
+function bindSen(){
+  var g=SEN_GEO,svg=document.getElementById('sensvg');if(!g||!svg)return;
+  var cap=document.getElementById('scap'),line=document.getElementById('sx');
+  if(!cap||!line)return;
+  cap.addEventListener('mousemove',function(ev){
+    var r=svg.getBoundingClientRect(),sx=(ev.clientX-r.left)/r.width*g.W;
+    var i=Math.round((sx-g.m.l)/g.pw*(g.T.length-1));
+    i=Math.max(0,Math.min(g.T.length-1,i));
+    var x=g.m.l+i/(g.T.length-1)*g.pw,w=g.T[i];
+    line.setAttribute('x1',x);line.setAttribute('x2',x);line.setAttribute('opacity','.55');
+    var rows=g.vis.slice().sort(function(a,b){return (w.p[b.nome]||0)-(w.p[a.nome]||0);})
+      .map(function(l){var v=w.p[l.nome];
+        return '<div style="display:flex;gap:7px;align-items:center;font-size:12.5px'+(v==null?';opacity:.5':'')+
+          '"><i style="width:9px;height:9px;border-radius:50%;background:'+senCor(l)+
+          ';display:inline-block"></i>'+esc(l.nome)+'<b class="mn" style="margin-left:auto">'+
+          (v==null?'—':v.toFixed(1)+'%')+'</b></div>';}).join('');
+    showTip('<span class="tm">semana até '+dbr(w.d)+'</span> '+tagFase(w.d)+
+      '<div style="margin-top:4px;font-size:11px;color:var(--ink-3)">'+w.n+' pesquisa'+(w.n===1?'':'s')+
+      ' no agregado</div>'+
+      '<div style="margin-top:6px;display:flex;flex-direction:column;gap:3px">'+rows+'</div>',ev);});
+  cap.addEventListener('mouseleave',function(){line.setAttribute('opacity','0');hideTip();});
+}
+/* ---- cada pesquisa registrada, uma a uma ------------------------------- */
+function senPesquisas(SN){
+  var ps=SN.pesquisas||[];
+  if(!ps.length)return '';
+  var naCamp=ps.filter(function(r){return !pre(r.fim);}).length;
+  var cor={};(SN.agg.linhas||[]).forEach(function(l){cor[l.nome]=l;});
+  return '<div class="sechead" style="margin-top:32px"><h2>📋 Pesquisa por pesquisa</h2>'+
+    '<span class="pill-n">'+ps.length+' registrada'+(ps.length===1?'':'s')+' no TSE</span>'+
+    '<span class="pill-n">'+naCamp+' na campanha oficial</span></div>'+
+    '<p class="lead">Da coleta mais nova para a mais antiga, com o número de registro no TSE, o método e o tamanho da '+
+    'amostra. Clique em qualquer cartão para abrir a divulgação original. As porcentagens são as do agregador, em '+
+    'votos válidos — a manchete do instituto costuma trazer outro número, calculado sobre o total de entrevistados.</p>'+
+    '<div class="senpolls">'+ps.map(function(r){
+      var ks=Object.keys(r.s).filter(function(k){return r.s[k]!=null;})
+        .sort(function(a,b){return r.s[b]-r.s[a];});
+      var mx=Math.max.apply(null,ks.map(function(k){return r.s[k];}))||1;
+      return '<a class="pollcard" href="'+esc(r.url||'#')+'" target="_blank" rel="noopener">'+
+        '<div class="pollhead"><h5>'+esc(r.inst)+'</h5>'+mtag(r.m)+tagFase(r.fim)+
+        '<span class="pill-n mn" title="período de coleta">campo '+dbr(r.ini)+' a '+dbr(r.fim)+'</span>'+
+        (r.div?'<span class="pill-n mn" title="data de divulgação">div. '+dbr(r.div)+'</span>':'')+
+        (r.n?'<span class="pill-n mn">n='+r.n+'</span>':'')+
+        (r.reg?'<span class="pill-n mn" title="registro no TSE">'+esc(r.reg)+'</span>':'')+
+        (r.ind?'<span class="pill-n mn">'+r.ind.toFixed(1)+'% indecisos</span>':'')+
+        '<span style="margin-left:auto;font-family:Archivo;font-size:11.5px;font-weight:700;color:var(--accent-2)">'+
+        'ver divulgação ↗</span></div>'+
+        '<div class="pollbars">'+ks.map(function(k){
+          var l=cor[k],col=l?senCor(l):'var(--ink-3)';
+          return '<div class="pbrow"><span class="pn" style="color:'+col+'">'+esc(k)+'</span>'+
+            '<span class="pbar"><i style="width:'+Math.max(r.s[k]/mx*100,1)+'%;background:'+col+'"></i></span>'+
+            '<span class="pbv">'+r.s[k].toFixed(1)+'%</span></div>';}).join('')+
+        '</div></a>';}).join('')+'</div>';
+}
 /* ================= ROUTER ================= */
 var draws={matriz:drawMatriz,cands:drawCands,temas:drawTemas,comp:drawComp,polem:drawPolem,
-           odds:drawOdds,jud:drawJud,busca:drawBusca,metodo:drawMetodo};
+           odds:drawOdds,senado:drawSenado,jud:drawJud,busca:drawBusca,metodo:drawMetodo};
 function go(v){S.view=v;
   document.querySelectorAll('.tab').forEach(function(t){t.setAttribute('aria-selected',String(t.dataset.v===v));});
   document.querySelectorAll('.panel').forEach(function(p){p.hidden=(p.id!=='v-'+v);});
   draws[v]();}
 function setEsf(e){
   S.esf=e;S.cand=null;S.tema=null;S.topico=null;
+  /* Senado é disputa de unidade da federação: no recorte da Presidência a aba
+     não tem o que mostrar, então some do menu em vez de abrir vazia. Quem
+     estivesse nela ao trocar para a Presidência cai na Matriz. */
+  var ts=document.querySelector('.tab[data-v="senado"]');
+  if(ts)ts.hidden=(e!=='df');
+  if(e!=='df'&&S.view==='senado')S.view='matriz';
   S.selC=new Set(C.filter(function(c){return c.esfera===e;}).map(function(c){return c.sq;}));
   S.selS=new Set(SET.map(function(s){return s.id;}));
   document.querySelectorAll('[data-sw]').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.sw===e));});

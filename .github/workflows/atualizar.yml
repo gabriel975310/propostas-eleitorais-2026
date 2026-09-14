@@ -64,13 +64,14 @@ jobs:
           h = open('site/espectro-2026.html', encoding='utf-8').read()
           m = re.search(r'<script id="dados" type="application/json">(.*?)</script>', h, re.S)
           d = json.loads(m.group(1).replace('<\\/', '</'))
-          faltando = [k for k in ('candidatos', 'propostas', 'odds', 'pesquisas') if not d.get(k)]
+          faltando = [k for k in ('candidatos', 'propostas', 'odds', 'pesquisas', 'senadoDF', 'senadoSTF') if not d.get(k)]
           if faltando:
               sys.exit('bloco de dados incompleto: %s' % faltando)
           print('ok — capturado em', d.get('capturado'))
           print('   modelo   ', d['odds']['br']['modelo']['atualizado'])
           print('   mercado  ', d['odds']['br']['mercado']['atualizado'])
           print('   pesquisas', d['pesquisas']['atualizado'])
+          print('   senado DF', d['senadoDF']['atualizado'], '·', len(d['senadoDF']['pesquisas']), 'pesquisas')
           PY
 
       - name: Rodar as verificações do projeto
@@ -78,6 +79,7 @@ jobs:
         run: |
           node chk.js
           node chk2.js
+          node shim.js
 
       - name: Commitar os dados novos
         if: steps.refresh.outputs.mudou == 'sim'
