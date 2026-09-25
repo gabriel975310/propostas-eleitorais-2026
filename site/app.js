@@ -1250,7 +1250,7 @@ function drawMetodo(){
   '<li><b>Certidões criminais.</b> Não estão nos dados abertos e o firewall do TSE bloqueia conexões de fora do Brasil. Ver a aba Ficha judicial.</li>'+
   '<li><b>Prestação de contas e doadores.</b> Pacote separado do TSE, não incluído nos arquivos desta pasta.</li>'+
   '<li><b>Situação final das candidaturas.</b> O campo de deferimento veio vazio em todos os registros deste extrato, o que é esperado num arquivo gerado antes do julgamento dos pedidos.</li>'+
-  '<li><b>Quinze outros planos.</b> Foram extraídos e ficaram fora desta publicação, que cobre os dez com maior densidade programática nas duas disputas.</li>'+
+  '<li><b>Catorze outros planos.</b> Foram extraídos e ficaram fora desta publicação, que cobre os onze com maior densidade programática nas duas disputas.</li>'+
   '</ul></section>';
 }
 /* ================= SENADO (DF) ================= */

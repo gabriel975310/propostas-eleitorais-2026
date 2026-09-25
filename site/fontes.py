@@ -42,6 +42,7 @@ SQ_DF = {
     "Leandro Grass": "70002552496",
     "José Roberto Arruda": "70002552586",
     "Cappelli": "70002551557",
+    "Paula Belmonte": "70002552965",
 }
 
 # 16/08/2026: primeiro dia em que a propaganda eleitoral é permitida

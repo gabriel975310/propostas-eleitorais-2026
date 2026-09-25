@@ -1,45 +1,1106 @@
 {
-"sq":"70002552965","doc":"2026DF70002552965_01",
-"resumo_doc":"Plano organizado em 4 prioridades (pessoas, cidade, transparencia, gestao) e 5 compromissos (educacao integral, saude sem filas, seguranca inteligente, transporte eficiente, governo digital e transparente), sob o mote de que 'governar e cuidar das pessoas'. E o plano do DF mais denso em dados de diagnostico: cita orcamento de R$ 74,4 bilhoes em 2026 com apenas 2,67% em investimento, nota C de capacidade de pagamento junto ao Tesouro, 15.565 professores temporarios em abril de 2026, apenas 30% das escolas com refeitorio, quase R$ 1 bilhao gasto em transporte escolar, cerca de 1 milhao de moradores sem cadastro na atencao primaria e o modelo de onibus em que o usuario paga 30% e o governo 70%. E tambem o unico plano do DF que nomeia diretamente a crise do BRB como resultado de 'decisoes de gestao'. Em contrapartida, quase nao apresenta metas numericas proprias.",
-"propostas":[
-{"id":"psdb-df-01","titulo":"Ampliar a educacao integral comecando pelas regioes de maior vulnerabilidade","setor":"educacao","subtema":"Jornada escolar","resumo":"Expansao gradual condicionada a preparar as escolas para a jornada, combinando aprendizagem com esporte, cultura, leitura, tecnologia e idiomas, com o argumento explicito de dar tranquilidade a familias que precisam trabalhar.","citacao":"Expandir gradualmente a Educacao Integral, comecando pelas regioes de maior vulnerabilidade e preparando as escolas para receber os estudantes durante todo o dia.","econ":0,"social":null,"peso":3,"precedentes":["escola-tempo-integral-pernambuco","politica-tempo-integral-lei-14640","mais-educacao"]},
-{"id":"psdb-df-02","titulo":"Construir refeitorio em todas as escolas publicas do DF","setor":"educacao","subtema":"Infraestrutura","resumo":"Politica permanente de manutencao e expansao da rede, partindo do dado de que apenas 30% das escolas tem refeitorio, com equipamento de cozinhas, reforma de banheiros, quadras, bibliotecas, salas sensoriais e laboratorios.","citacao":"Apenas 30% das escolas publicas do Distrito Federal tem refeitorio... Construir refeitorios em todas as escolas publicas do Distrito Federal, equipar cozinhas, reformar banheiros, parquinhos e quadras.","econ":-1,"social":null,"peso":3,"precedentes":["pnae-alimentacao-escolar","pdde-recursos-escolas","infraestrutura-escolar-inep"]},
-{"id":"psdb-df-03","titulo":"Construir escolas perto de casa em vez de gastar R$ 1 bilhao em transporte escolar","setor":"educacao","subtema":"Rede fisica","resumo":"Mapear as regioes com maior demanda por transporte escolar e usar esse dado para orientar a construcao de novas unidades, deixando de tratar o transporte como substituto da falta de escolas.","citacao":"O Distrito Federal destina quase R$ 1 bilhao a esse servico... O transporte escolar deixara de ser tratado como substituto para a ausencia de unidades de ensino.","econ":1,"social":null,"peso":3,"precedentes":["caminho-da-escola-fnde","nucleacao-escolar-rural","transporte-escolar-tcu"]},
-{"id":"psdb-df-04","titulo":"Substituir gradualmente os 15.565 professores temporarios por concursados","setor":"educacao","subtema":"Forca de trabalho","resumo":"Fortalecer o quadro permanente para dar estabilidade as equipes e continuidade aos projetos pedagogicos, com formacao continuada articulada a UnDF.","citacao":"Em abril de 2026, 15.565 professores temporarios estavam em atividade na Secretaria de Educacao... Substituir gradualmente professores temporarios por concursados.","econ":-1,"social":null,"peso":3,"precedentes":["contratos-temporarios-educacao","concursos-magisterio-df","adi-3721-contratacao-temporaria"]},
-{"id":"psdb-df-05","titulo":"Reformular o PDAF e o Cartao PDAF para devolver autonomia aos diretores","setor":"educacao","subtema":"Gestao escolar","resumo":"Reduzir entraves e ampliar as possibilidades de contratacao, sob o argumento de que a limitacao a fornecedores credenciados eleva precos e reduz o poder de negociacao das escolas, e acabar com a dependencia de emendas parlamentares para manutencao basica.","citacao":"A limitacao a fornecedores credenciados restringe as opcoes de contratacao, pode elevar precos e reduz a capacidade de negociacao das escolas... Reformular o Programa de Descentralizacao Administrativa e Financeira (PDAF) e o Cartao PDAF.","econ":1,"social":null,"peso":3,"precedentes":["pdde-recursos-escolas","autonomia-financeira-escolas","emendas-parlamentares-educacao"]},
-{"id":"psdb-df-06","titulo":"Alfabetizacao no tempo certo com busca ativa contra a evasao","setor":"educacao","subtema":"Alfabetizacao","resumo":"Avaliacao diagnostica, reforco e acompanhamento da frequencia, integrando escola, familia e rede de protecao para agir antes que a dificuldade vire abandono.","citacao":"Fortalecer o acompanhamento da frequencia e a busca ativa para identificar faltas e situacoes de risco de abandono.","econ":0,"social":null,"peso":3,"precedentes":["alfabetiza-ceara","busca-ativa-escolar-unicef","pnaic","pe-de-meia"]},
-{"id":"psdb-df-07","titulo":"Educacao inclusiva com identificacao precoce de neurodivergencias","setor":"educacao","subtema":"Inclusao","resumo":"Integrar Educacao, Saude e Assistencia Social para facilitar acesso das familias a avaliacao, diagnostico e terapias, com acessibilidade fisica, pedagogica e tecnologica.","citacao":"Integrar Educacao, Saude e Assistencia Social para identificar precocemente necessidades de desenvolvimento e neurodesenvolvimento e facilitar o acesso das familias a avaliacao, ao diagnostico, as terapias.","econ":-1,"social":-1,"peso":3,"precedentes":["lei-berenice-piana","viver-sem-limite","aee-atendimento-especializado"]},
-{"id":"psdb-df-08","titulo":"Politica Na Moral de educacao para a integridade em todas as escolas","setor":"educacao","subtema":"Cultura escolar","resumo":"Expandir a iniciativa desenvolvida a partir do MPDFT, com etica, cidadania e participacao, integrada a mediacao de conflitos e a atencao a saude emocional.","citacao":"Fortalecer e ampliar para todas as escolas do Distrito Federal a Politica Distrital Na Moral - Educacao para a Integridade, desenvolvida a partir da iniciativa do Ministerio Publico do Distrito Federal e Territorios.","econ":null,"social":1,"peso":2,"precedentes":["educacao-etica-integridade","cultura-de-paz-unesco","mediacao-conflitos-escolar"]},
-{"id":"psdb-df-09","titulo":"Cadastrar na atencao primaria o milhao de moradores hoje sem vinculo","setor":"saude","subtema":"Atencao basica","resumo":"Ampliar cobertura e completar equipes de saude bucal e multiprofissionais, transformando a UBS na principal referencia de cada familia.","citacao":"Hoje, cerca de 1 milhao de moradores do Distrito Federal ainda nao tem o cadastro na Atencao Primaria.","econ":-1,"social":null,"peso":3,"precedentes":["esf-saude-familia","cobertura-aps-df","previne-brasil","cadastro-aps-esus"]},
-{"id":"psdb-df-10","titulo":"Prontuario eletronico integrado e saude digital para conectar a rede","setor":"saude","subtema":"Saude digital","resumo":"Historico clinico, exames, medicamentos e encaminhamentos acessiveis em todos os niveis, com telessaude aproximando especialistas da atencao primaria sem substituir o presencial.","citacao":"Implantar um prontuario eletronico integrado, acessivel aos diferentes niveis da rede, reunindo historico clinico, exames, medicamentos, encaminhamentos.","econ":0,"social":null,"peso":3,"precedentes":["rnds-prontuario","lei-telemedicina-14510","estonia-x-road"]},
-{"id":"psdb-df-11","titulo":"Fila com criterio clinico transparente e paciente informado da sua posicao","setor":"saude","subtema":"Filas","resumo":"Regulacao integrada de consultas, exames e cirurgias, com o paciente sabendo que esta na fila, qual a situacao do encaminhamento e sendo chamado por criterios clinicos claros.","citacao":"O paciente precisa saber que esta na fila, qual e a situacao do seu encaminhamento e ser chamado de acordo com criterios clinicos claros.","econ":0,"social":null,"peso":3,"precedentes":["fila-unica-regulacao-sus","fila-cirurgica-sus","nhs-waiting-times"]},
-{"id":"psdb-df-12","titulo":"Linha de cuidado do cancer da prevencao aos cuidados paliativos","setor":"saude","subtema":"Oncologia","resumo":"Fluxos prioritarios para exames e confirmacao diagnostica, reduzindo o tempo entre suspeita, diagnostico e inicio do tratamento, sob o argumento de que 'no cancer, o tempo tambem e parte do cuidado'.","citacao":"Criar fluxos prioritarios para exames e confirmacao diagnostica, reduzindo o tempo entre a suspeita da doenca, o diagnostico e o inicio do tratamento.","econ":-1,"social":null,"peso":3,"precedentes":["lei-dos-60-dias-12732","politica-oncologia-sus","rastreamento-cancer-mama-inca"]},
-{"id":"psdb-df-13","titulo":"Criar o Hospital do Idoso integrado a uma rede de cuidado ao envelhecimento","setor":"saude","subtema":"Envelhecimento","resumo":"Referencia especializada em geriatria articulada a UBSs, equipes de Saude da Familia, atendimento domiciliar, reabilitacao e rede hospitalar.","citacao":"Implantar o Hospital do Idoso como referencia especializada, integrado as UBSs, equipes de Saude da Familia, atendimento domiciliar, servicos especializados, reabilitacao e rede hospitalar.","econ":-1,"social":null,"peso":3,"precedentes":["hospital-idoso-curitiba","politica-nacional-cuidados","centros-dia-idoso"]},
-{"id":"psdb-df-14","titulo":"Levar o cuidado para dentro de casa com atencao domiciliar","setor":"saude","subtema":"Atencao domiciliar","resumo":"Acompanhamento apos alta hospitalar para idosos, pessoas com deficiencia e doencas cronicas, evitando deslocamentos e internacoes desnecessarias.","citacao":"Fortalecer o atendimento domiciliar para pessoas idosas, com deficiencia, doencas cronicas, limitacoes de mobilidade e quem necessita de acompanhamento continuo.","econ":-1,"social":null,"peso":3,"precedentes":["atencao-domiciliar-melhor-em-casa","hospital-at-home-reino-unido"]},
-{"id":"psdb-df-15","titulo":"Auditoria ampla no IGES-DF, com transparencia de contratos e resultados","setor":"saude","subtema":"Modelo de gestao","resumo":"Avaliar contratos, compras, despesas, indicadores assistenciais e resultados do instituto, mantendo o modelo mas submetendo-o a controle - posicao intermediaria entre quem quer extinguir o IGES e quem o defende sem ressalvas.","citacao":"Realizar uma auditoria ampla no IGES-DF, avaliando contratos, compras, despesas, processos de contratacao, indicadores assistenciais e resultados entregues a populacao. Autonomia administrativa precisa vir acompanhada de responsabilidade, transparencia e controle.","econ":1,"social":null,"peso":3,"precedentes":["os-saude-brasil","iges-df","contratos-gestao-metas","stf-adi-1923-os"]},
-{"id":"psdb-df-16","titulo":"Usar agentes de saude e visitas domiciliares para prevenir o feminicidio","setor":"saude","subtema":"Violencia contra a mulher","resumo":"Preparar equipes de Saude da Familia e agentes comunitarios para reconhecer sinais de violencia e acionar a rede de protecao, alcancando mulheres que ainda nao chegaram a uma delegacia. O diagnostico cita alta de 27% no feminicidio.","citacao":"A presenca dos profissionais de saude nos territorios e dentro das casas permite ao Estado estar proximo de mulheres que muitas vezes ainda nao chegaram a uma delegacia.","econ":0,"social":0,"peso":3,"precedentes":["lei-maria-da-penha","notificacao-compulsoria-violencia","patrulha-maria-da-penha","home-visiting-violencia"]},
-{"id":"psdb-df-17","titulo":"Muralha Digital com reconhecimento facial e leitura de placas integrados","setor":"seguranca","subtema":"Vigilancia","resumo":"Unificar as cameras hoje fragmentadas entre SSP, DER, Detran e Metro em uma central de inteligencia com IA, cruzamento com o Banco Nacional de Medidas Penais e Prisoes, alertas a viatura mais proxima e uso tambem para localizar idosos com Alzheimer e desaparecidos.","citacao":"Ampliar tambem o uso de Inteligencia Artificial e integrar os bancos de dados, utilizando recursos de reconhecimento facial para apoiar o trabalho das forcas de seguranca.","econ":0,"social":2,"peso":3,"precedentes":["reconhecimento-facial-bahia","reconhecimento-facial-erros-brasil","smart-sampa","ai-act-uniao-europeia","proibicao-reconhecimento-facial-eua"]},
-{"id":"psdb-df-18","titulo":"Recompor efetivos de PM, Policia Civil e Bombeiros com previsibilidade","setor":"seguranca","subtema":"Efetivo","resumo":"Concursos planejados com responsabilidade fiscal e investimento em investigacao, pericia e tecnologia, com atencao explicita a saude dos profissionais e aos casos de suicidio nas categorias.","citacao":"Cuidar de quem cuida da seguranca da populacao tambem sera uma prioridade. A saude dos profissionais sera tratada como questao de gestao, com atencao aos afastamentos e aos casos de suicidio nas categorias.","econ":-1,"social":1,"peso":3,"precedentes":["efetivo-policial-brasil","fundo-constitucional-df","saude-mental-policiais"]},
-{"id":"psdb-df-19","titulo":"Gabinete de Gestao Integrada Metropolitana com Goias","setor":"seguranca","subtema":"Integracao regional","resumo":"Compartilhar canais de comunicacao e inteligencia com as forcas de Goias para enfrentar o crime itinerante que ultrapassa as fronteiras do DF.","citacao":"Por meio da criacao de um Gabinete de Gestao Integrada Metropolitana, serao associados canais de comunicacao e inteligencia com as Forcas de Seguranca de Goias, enfrentando o crime itinerante.","econ":0,"social":1,"peso":2,"precedentes":["ggi-gabinetes-gestao-integrada","ride-df","susp-sistema-unico-seguranca"]},
-{"id":"psdb-df-20","titulo":"Inteligencia penitenciaria integrada a inteligencia policial","setor":"seguranca","subtema":"Sistema prisional","resumo":"Valorizar a Policia Penal e usar tecnologia para impedir que organizacoes criminosas articulem crimes de dentro dos presidios.","citacao":"Valorizar e qualificar a Policia Penal, ampliar a inteligencia penitenciaria e utilizar tecnologia para aumentar o controle das unidades.","econ":0,"social":1,"peso":2,"precedentes":["rdd-regime-disciplinar","bloqueadores-sinal-presidios","41-bis-italia"]},
-{"id":"psdb-df-21","titulo":"Ampliar prevencao e investigacao de crimes ciberneticos","setor":"seguranca","subtema":"Crimes digitais","resumo":"Profissionais especializados, inteligencia digital e pericia para golpes, fraudes eletronicas e invasoes de conta.","citacao":"Ampliar a capacidade de prevencao e investigacao dos crimes ciberneticos, com profissionais especializados, inteligencia digital, tecnologia e pericia.","econ":0,"social":1,"peso":2,"precedentes":["delegacias-crimes-ciberneticos","lei-carolina-dieckmann","mecanismo-especial-devolucao-pix"]},
-{"id":"psdb-df-22","titulo":"Tres novos eixos de expansao do metro: Asa Norte, Ceilandia/Sol Nascente e sul","setor":"cidade","subtema":"Metro","resumo":"Linha na Asa Norte ate Taquari, Grande Colorado, Sobradinho e Planaltina; expansao de Ceilandia ate Setor O e Sol Nascente; e derivacao da Asa Sul atendendo Nucleo Bandeirante, Park Way, Gama e Santa Maria. Inclui compra de novos trens e recuperacao da frota atual.","citacao":"Criacao da linha do metro na Asa Norte, com expansao para atender Taquari, Grande Colorado, Sobradinho, Mestre d'Armas e Planaltina; Expansao da linha de Ceilandia, chegando ao Setor O, Sol Nascente.","econ":-1,"social":null,"peso":3,"precedentes":["metro-df-expansao","custo-metro-brasil","atrasos-obras-metro-sp"]},
-{"id":"psdb-df-23","titulo":"Revisar os contratos de onibus e a tarifa tecnica que transferiram o risco de demanda ao Estado","setor":"cidade","subtema":"Concessoes","resumo":"O plano identifica que o usuario paga 30% e o governo 70% do custo, e que perder passageiros nao reduz a receita das empresas - portanto propoe redesenhar o contrato para reintroduzir incentivo a qualidade.","citacao":"Um contrato que transferiu ao poder publico o risco da demanda: perder passageiros nao reduz a receita das empresas e aumenta o custo para o governo... Revisar os contratos das empresas de onibus e a tarifa tecnica paga as operadoras.","econ":1,"social":null,"peso":3,"precedentes":["subsidio-transporte-brasil","contratos-onibus-sp-2019","risco-demanda-concessoes","brt-transmilenio-bogota"]},
-{"id":"psdb-df-24","titulo":"Auditoria independente da concessao da Rodoviaria do Plano Piloto","setor":"cidade","subtema":"Concessoes","resumo":"Revisao operacional, financeira e contratual para verificar cumprimento das obrigacoes do concessionario. Difere das propostas de esquerda, que pedem revogacao pura e simples.","citacao":"Promover uma revisao responsavel da concessao da Rodoviaria do Plano Piloto, por meio de auditoria independente completa, avaliando aspectos operacionais, financeiros e contratuais.","econ":1,"social":null,"peso":2,"precedentes":["concessao-rodoviaria-df","reequilibrio-contratos-concessao","tcdf-fiscalizacao"]},
-{"id":"psdb-df-25","titulo":"Bilhetagem unificada e planejamento do ultimo quilometro","setor":"cidade","subtema":"Integracao","resumo":"Sistema unico para onibus, BRT, metro e novos modais, com estacoes funcionando como pontos de conexao com bicicletas, patinetes, taxis e aplicativos e calcadas acessiveis.","citacao":"Cuidar do ultimo quilometro e garantir que a pessoa nao tenha apenas como chegar perto do seu destino, mas consiga completar sua jornada.","econ":0,"social":null,"peso":3,"precedentes":["bilhete-unico-sp","oyster-card-londres","mobilidade-como-servico-maas","integracao-tarifaria-df"]},
-{"id":"psdb-df-26","titulo":"Autorizar transporte por aplicativo nas faixas exclusivas","setor":"cidade","subtema":"Regulacao","resumo":"Liberar o uso das faixas por veiculos de aplicativo com regras de circulacao e monitoramento que preservem a prioridade do coletivo - proposta atipica, ausente dos demais planos.","citacao":"Autorizar o uso das faixas exclusivas por veiculos de transporte por aplicativo, com regras de circulacao e monitoramento que preservem a prioridade do transporte coletivo.","econ":2,"social":null,"peso":2,"precedentes":["faixas-exclusivas-sp","hov-lanes-eua","prioridade-transporte-coletivo"]},
-{"id":"psdb-df-27","titulo":"Reduzir o numero de secretarias a menos da metade no primeiro ato de governo","setor":"estado","subtema":"Reforma administrativa","resumo":"Revisao da estrutura em 100 dias eliminando sobreposicoes e contratos duplicados, com cumprimento da Lei 4.858/2012 que exige ao menos metade dos cargos em comissao ocupados por servidores efetivos.","citacao":"Reduzir o numero de secretarias para menos da metade da estrutura atual, ja no primeiro ato de governo... Cumprir a Lei no 4.858/2012, garantindo que ao menos metade dos cargos em comissao seja ocupada por servidores efetivos.","econ":2,"social":null,"peso":3,"precedentes":["reforma-ministerial-2019","cargos-comissionados-brasil","stf-nepotismo-sumula-13","reforma-administrativa-pec-32"]},
-{"id":"psdb-df-28","titulo":"Criar o Gabinete de Combate a Corrupcao ligado a governanca do governo","setor":"estado","subtema":"Corrupcao","resumo":"Estrutura permanente de prevencao com cruzamento de dados e acompanhamento de contratos para agir antes que o prejuizo ocorra, somada a politica permanente de integridade nos orgaos e estatais.","citacao":"Criar uma estrutura permanente e estrategica, diretamente ligada a governanca do governo, para atuar na prevencao e no combate a corrupcao, identificar riscos, acompanhar contratos e gastos publicos.","econ":0,"social":null,"peso":3,"precedentes":["alice-cgu","cgu-programa-integridade","koneps-coreia-do-sul","lei-anticorrupcao-12846"]},
-{"id":"psdb-df-29","titulo":"Auditoria independente do BRB com divulgacao publica dos resultados","setor":"economia","subtema":"Banco publico","resumo":"O plano nomeia diretamente a crise: 'um banco com mais de 60 anos de historia foi colocado em risco por decisoes de gestao', e coloca entre os quatro desafios centrais proteger e recuperar o BRB sem comprometer o desenvolvimento do DF.","citacao":"Dar transparencia a situacao do BRB e do patrimonio do Distrito Federal, com auditoria independente e divulgacao dos resultados.","econ":0,"social":null,"peso":3,"precedentes":["caso-brb-master","governanca-estatais-lei-13303","proer-1995","fgc-brasil"]},
-{"id":"psdb-df-30","titulo":"Painel publico de obras com etapa, prazo, responsavel e valor atualizado","setor":"estado","subtema":"Transparencia","resumo":"Dados abertos em linguagem compreensivel, com trilha de rastreamento acessivel sobre contratos, emendas, cargos comissionados e execucao orcamentaria.","citacao":"Criar um painel publico de obras, com etapa, prazo, responsavel e valor atualizado, e ampliar a transparencia sobre contratos, emendas, cargos comissionados e execucao orcamentaria.","econ":0,"social":null,"peso":2,"precedentes":["lai-lei-12527","obras-paradas-tcu","portal-transparencia-brasil","open-data-reino-unido"]},
-{"id":"psdb-df-31","titulo":"O governo pergunta uma vez so: dado ja fornecido nao pode ser exigido de novo","setor":"estado","subtema":"Governo digital","resumo":"Integrar sistemas para que os orgaos conversem entre si, simplificar processos antes de digitalizar e garantir atendimento presencial assistido em todas as RAs com prazo de resposta visivel.","citacao":"Adotar o principio de que o governo pergunta uma vez so: uma informacao ja fornecida pelo cidadao a um orgao publico nao devera ser exigida novamente por outro.","econ":1,"social":null,"peso":3,"precedentes":["once-only-uniao-europeia","estonia-x-road","gov-br-digitalizacao"]},
-{"id":"psdb-df-32","titulo":"Reduzir as despesas de exercicios anteriores com metas ano a ano","setor":"economia","subtema":"Regra fiscal","resumo":"Recuperar a capacidade de investimento, hoje em 2,67% do orcamento, vinculando orcamento, planejamento e resultado com metas publicas e avaliacoes periodicas por area.","citacao":"Enfrentar as despesas de exercicios anteriores, estabelecendo metas de reducao ano a ano, e recuperar gradualmente a capacidade de investimento do DF.","econ":1,"social":null,"peso":3,"precedentes":["restos-a-pagar-brasil","lrf-2000","capag-tesouro-nacional","spending-review-reino-unido"]},
-{"id":"psdb-df-33","titulo":"Ouvidoria com prazo de resposta e indice de cumprimento divulgado por orgao","setor":"estado","subtema":"Atendimento","resumo":"Usar as manifestacoes como instrumento permanente de avaliacao dos servicos, com historico unico das demandas de cada cidadao.","citacao":"Estabelecer prazo para resposta as manifestacoes dos cidadaos e divulgar o indice de cumprimento de cada orgao.","econ":0,"social":null,"peso":2,"precedentes":["ouvidorias-publicas-lei-13460","fix-my-street-reino-unido","sla-servicos-publicos"]},
-{"id":"psdb-df-34","titulo":"Transformar Brasilia no Vale do Silicio brasileiro","setor":"cti","subtema":"Inovacao","resumo":"Aproveitar universidades, centros de pesquisa e profissionais qualificados para fazer do DF polo nacional de tecnologia, atraindo empresas e estimulando startups.","citacao":"Brasilia tem condicoes de se tornar o Vale do Silicio brasileiro, conectando conhecimento, empreendedorismo, investimento e poder publico.","econ":1,"social":null,"peso":2,"precedentes":["parques-tecnologicos-brasil","biotic-df","silicon-valley-cluster","start-up-chile"]},
-{"id":"psdb-df-35","titulo":"Politica integrada para pessoas em situacao de rua com parcerias da sociedade civil","setor":"trabalho","subtema":"Populacao de rua","resumo":"Articular assistencia, saude mental, tratamento de dependencia quimica, qualificacao, habitacao e seguranca, com o Estado coordenando a rede e apoiando quem ja atua nos territorios em vez de fazer tudo sozinho. O diagnostico cita 3.521 pessoas e alta de 19,8%.","citacao":"O Estado nao precisa fazer tudo sozinho, mas precisa coordenar a rede, estabelecer criterios, acompanhar os resultados e apoiar quem ja realiza um trabalho serio nos territorios.","econ":1,"social":1,"peso":3,"precedentes":["housing-first-finlandia","politica-populacao-rua-brasil","comunidades-terapeuticas-financiamento","parcerias-osc-lei-13019"]},
-{"id":"psdb-df-36","titulo":"Transformar assistencia em oportunidade de autonomia","setor":"trabalho","subtema":"Assistencia social","resumo":"Conectar programas sociais a qualificacao, trabalho, empreendedorismo e geracao de renda, integrando informacoes para identificar vulnerabilidades e agir antes que a familia percorra varios orgaos.","citacao":"Fortalecer a protecao social para quem precisa, mas conectar os programas sociais a oportunidades de qualificacao, trabalho, empreendedorismo e geracao de renda.","econ":1,"social":1,"peso":3,"precedentes":["condicionalidades-bolsa-familia","welfare-to-work-eua","chile-solidario","acompanhamento-familiar-paif"]},
-{"id":"psdb-df-37","titulo":"Combater a grilagem enquanto acelera a regularizacao fundiaria","setor":"cidade","subtema":"Terra urbana","resumo":"Enfrentar o passivo existente sem estimular novas ocupacoes, protegendo o patrimonio publico e o planejamento da cidade.","citacao":"Regularizar nao significa estimular novas ocupacoes. Ao mesmo tempo em que o governo precisa enfrentar o passivo existente, devera combater a grilagem e impedir novas ocupacoes irregulares.","econ":1,"social":1,"peso":3,"precedentes":["regularizacao-fundiaria-lei-13465","grilagem-df","df-legal","reurb-avaliacoes"]},
-{"id":"psdb-df-38","titulo":"Lixo e dinheiro: economia circular com cooperativas e empresas","setor":"ambiente","subtema":"Residuos","resumo":"Ampliar coleta seletiva e reciclagem e fortalecer cooperativas, tratando residuos como cadeia produtiva capaz de gerar materia-prima, energia, produtos e empregos.","citacao":"Lixo tambem e dinheiro quando existe gestao, tecnologia e uma cadeia produtiva capaz de transformar residuos em valor.","econ":1,"social":null,"peso":2,"precedentes":["pnrs-2010","catadores-cooperativas","economia-circular-ue","logistica-reversa"]},
-{"id":"psdb-df-39","titulo":"Preparar Brasilia para as mudancas climaticas no planejamento urbano","setor":"ambiente","subtema":"Adaptacao climatica","resumo":"Incorporar adaptacao a drenagem, areas de risco, arborizacao, seca, ondas de calor e incendios, com prioridade aos territorios mais vulneraveis.","citacao":"Incorporar adaptacao climatica ao planejamento urbano, com atencao a drenagem, areas de risco, arborizacao, periodos de seca, ondas de calor, incendios e eventos extremos.","econ":-1,"social":null,"peso":2,"precedentes":["plano-adaptacao-clima-brasil","ilhas-calor-brasil","cemaden","solucoes-baseadas-natureza"]},
-{"id":"psdb-df-40","titulo":"Proteger nascentes, mananciais e areas de recarga como limite do crescimento urbano","setor":"ambiente","subtema":"Agua","resumo":"O crescimento urbano deve respeitar a capacidade ambiental do territorio, com preservacao e recuperacao de parques, areas verdes e unidades de conservacao.","citacao":"O crescimento urbano precisa respeitar a capacidade ambiental do territorio. Desenvolvimento e preservacao nao sao objetivos opostos.","econ":-1,"social":null,"peso":3,"precedentes":["crise-hidrica-df-2017","zee-df","codigo-florestal-2012","produtor-de-agua-ana"]}
-]}
+ "sq": "70002552965",
+ "doc": "2026DF70002552965_01",
+ "resumo_doc": "Plano organizado em 4 prioridades (pessoas, cidade, transparência e gestão) e 5 compromissos (educação integral, saúde sem filas, segurança inteligente, transporte eficiente e governo digital e transparente), sob o mote de que 'governar é cuidar das pessoas'. O diagnóstico é denso em dados: cita orçamento de R$ 74,4 bilhões em 2026 com apenas 2,67% em investimento, nota C de capacidade de pagamento junto ao Tesouro, 15.565 professores temporários em abril de 2026, apenas 30% das escolas com refeitório, quase R$ 1 bilhão gasto em transporte escolar, cerca de 1 milhão de moradores sem cadastro na atenção primária e o modelo de ônibus em que o usuário paga 30% e o governo 70%. Nomeia diretamente a crise do BRB, atribuída a 'decisões de gestão'.",
+ "propostas": [
+  {
+   "id": "psdb-df-01",
+   "titulo": "Ampliar a educação integral começando pelas regiões de maior vulnerabilidade",
+   "setor": "educacao",
+   "subtema": "Jornada escolar",
+   "resumo": "Expansão gradual condicionada a preparar as escolas para a jornada, combinando aprendizagem com esporte, cultura, leitura, tecnologia e idiomas, com o argumento explícito de dar tranquilidade às famílias que precisam trabalhar.",
+   "citacao": "Expandir gradualmente a Educação Integral, começando pelas regiões de maior vulnerabilidade e preparando as escolas para receber os estudantes durante todo o dia.",
+   "econ": 0,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "escola-tempo-integral-pernambuco",
+    "politica-tempo-integral-lei-14640",
+    "mais-educacao"
+   ],
+   "pagina": 22,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O ensino médio integral de Pernambuco, iniciado em 2008, é o caso brasileiro mais estudado e está associado a ganhos consistentes de aprendizagem e de fluxo. Já o Mais Educação (2007), que só estendia o turno com oficinas, não mostrou efeito sobre aprendizagem nas avaliações de impacto. A Lei 14.640/2023 criou o programa federal de tempo integral, com repasse por matrícula nova.",
+    "br_res": "parcial",
+    "mundo": "A Jornada Escolar Completa do Chile (1997) ampliou o dia letivo de toda a rede e teve efeito modesto em notas, mas reduziu gravidez na adolescência e crime juvenil. A lição comum é que horas a mais só rendem aprendizagem quando o currículo é redesenhado para elas.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Pernambuco mostra que o tempo integral funciona quando a escola é redesenhada para ele, e o Mais Educação mostra que só esticar o turno não funciona. O plano acerta ao condicionar a expansão ao preparo das escolas e ao priorizar as regiões vulneráveis, mas não diz quantas matrículas, em que prazo nem a que custo."
+  },
+  {
+   "id": "psdb-df-02",
+   "titulo": "Construir refeitório em todas as escolas públicas do DF",
+   "setor": "educacao",
+   "subtema": "Infraestrutura",
+   "resumo": "Política permanente de manutenção e expansão da rede, partindo do dado de que apenas 30% das escolas têm refeitório, com equipamento de cozinhas e reforma de banheiros, quadras, bibliotecas, salas sensoriais e laboratórios.",
+   "citacao": "Apenas 30% das escolas públicas do Distrito Federal têm refeitório [...] Construir refeitórios em todas as escolas públicas do Distrito Federal, equipar cozinhas, reformar banheiros, parquinhos e quadras.",
+   "econ": -1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "pnae-alimentacao-escolar",
+    "pdde-recursos-escolas",
+    "infraestrutura-escolar-inep"
+   ],
+   "pagina": 21,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O PNAE paga a comida, não o espaço: a verba federal de alimentação escolar não pode ser usada em obra, e a infraestrutura fica por conta de cada rede. O Censo Escolar mostra que refeitório ainda falta em boa parte das escolas públicas do país, e alunos comem no pátio ou na sala de aula.",
+    "br_res": "parcial",
+    "mundo": "A Finlândia oferece refeição gratuita em refeitório escolar desde 1948 e trata o almoço como parte do currículo. A literatura sobre alimentação escolar associa refeição regular a frequência e aprendizagem, e o espaço adequado é o que permite servir comida preparada em vez de lanche.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "É obra de baixa complexidade com benefício direto e bem documentado, e o dado de 30% dá a linha de base para cobrar. Falta dizer em quanto tempo as escolas restantes terão refeitório e com que dinheiro, num orçamento em que o próprio plano diz que só 2,67% vão para investimento."
+  },
+  {
+   "id": "psdb-df-03",
+   "titulo": "Construir escolas perto de casa em vez de gastar R$ 1 bilhão em transporte escolar",
+   "setor": "educacao",
+   "subtema": "Infraestrutura",
+   "resumo": "Mapear as regiões com maior demanda por transporte escolar e usar esse dado para orientar a construção de novas unidades, deixando de tratar o transporte como substituto da falta de escolas.",
+   "citacao": "o Distrito Federal destina quase R$ 1 bilhão a esse serviço [...] O transporte escolar deixará de ser tratado como substituto para a ausência de unidades de ensino.",
+   "econ": 1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "caminho-da-escola-fnde",
+    "nucleacao-escolar-rural",
+    "transporte-escolar-tcu"
+   ],
+   "pagina": 21,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A Lei 11.700/2008 garante vaga na escola pública mais próxima de casa a partir dos 4 anos. No campo, o Brasil fez o caminho oposto: a nucleação fechou escolas rurais e ampliou o transporte, com o Caminho da Escola financiando ônibus. Nas regiões de expansão urbana do DF, como Sol Nascente e Itapoã, a oferta de vagas não acompanhou o crescimento da população.",
+    "br_res": "parcial",
+    "mundo": "Um experimento em aldeias do Afeganistão (Burde e Linden, 2013) mostrou que abrir escola dentro da comunidade elevou fortemente a matrícula, sobretudo de meninas: distância é barreira real. Nos Estados Unidos, o transporte escolar é serviço consolidado, mas complementa uma rede planejada para ficar perto do aluno.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Usar a demanda por transporte como mapa de onde faltam escolas é boa ideia e quase ninguém faz. A troca, porém, não é imediata: escola nova leva anos e custa investimento que o DF diz não ter, e o gasto com transporte só cai depois que a vaga existe."
+  },
+  {
+   "id": "psdb-df-04",
+   "titulo": "Substituir gradualmente os 15.565 professores temporários por concursados",
+   "setor": "educacao",
+   "subtema": "Docentes",
+   "resumo": "Fortalecer o quadro permanente para dar estabilidade às equipes e continuidade aos projetos pedagógicos, com formação continuada articulada à UnDF.",
+   "citacao": "Em abril de 2026, 15.565 professores temporários estavam em atividade na Secretaria de Educação [...] Substituir gradualmente professores temporários por concursados.",
+   "econ": -1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "contratos-temporarios-educacao",
+    "concursos-magisterio-df",
+    "adi-3721-contratacao-temporaria"
+   ],
+   "pagina": 20,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O uso de temporários em larga escala é comum nas redes estaduais brasileiras, e o STF já derrubou leis que tornavam permanente o que a Constituição só admite como exceção (art. 37, IX). No DF, o dado de 15.565 temporários em abril de 2026 é do próprio plano. A troca por efetivos esbarra no custo de carreira e previdência, que é justamente o que pesa no orçamento.",
+    "br_res": "parcial",
+    "mundo": "Estudos com dados de Nova York (Ronfeldt, Loeb e Wyckoff, 2013) mostram que rotatividade de professores reduz a aprendizagem inclusive dos alunos cujos professores ficaram. Sistemas de alto desempenho, como Finlândia e Singapura, operam com quadro estável e carreira longa.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "A evidência a favor de equipes estáveis é sólida e o número de temporários é alto. Mas o mesmo plano diz que o DF compromete quase todo o orçamento com pessoal e custeio, e não diz quantos concursados por ano nem como a folha maior cabe nele."
+  },
+  {
+   "id": "psdb-df-05",
+   "titulo": "Reformular o PDAF e o Cartão PDAF para devolver autonomia aos diretores",
+   "setor": "educacao",
+   "subtema": "Gestão escolar",
+   "resumo": "Reduzir entraves e ampliar as possibilidades de contratação, sob o argumento de que a limitação a fornecedores credenciados eleva preços e reduz o poder de negociação das escolas, e acabar com a dependência de emendas parlamentares para a manutenção básica.",
+   "citacao": "A limitação a fornecedores credenciados restringe as opções de contratação, pode elevar preços e reduz a capacidade de negociação das escolas [...] Reformular o Programa de Descentralização Administrativa e Financeira (PDAF) e o Cartão PDAF.",
+   "econ": 1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "pdde-recursos-escolas",
+    "autonomia-financeira-escolas",
+    "emendas-parlamentares-educacao"
+   ],
+   "pagina": 20,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O PDAF repassa verba diretamente às escolas do DF, no mesmo espírito do PDDE federal (1995), que é bem avaliado como instrumento de pequena manutenção. O problema recorrente dos dois é a burocracia de prestação de contas, que faz diretores devolverem dinheiro ou dependerem de emenda parlamentar para consertos básicos.",
+    "br_res": "parcial",
+    "mundo": "A comparação internacional de Hanushek, Link e Woessmann (2013) mostra que autonomia escolar melhora resultados em países com boa prestação de contas e piora onde ela é fraca. Afrouxar o controle de compras sem reforçar a fiscalização por resultado é o desenho que costuma dar errado.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "vt": "promissora",
+   "vd": "Tirar a manutenção básica da dependência de emendas é correto e o diagnóstico sobre fornecedor credenciado é plausível. O ponto sensível é que o credenciamento existe para controlar gasto: ampliar a liberdade de compra exige dizer o que substitui esse controle, e o plano não diz."
+  },
+  {
+   "id": "psdb-df-06",
+   "titulo": "Alfabetização no tempo certo com busca ativa contra a evasão",
+   "setor": "educacao",
+   "subtema": "Alfabetização",
+   "resumo": "Avaliação diagnóstica, reforço e acompanhamento da frequência, integrando escola, família e rede de proteção para agir antes que a dificuldade vire abandono.",
+   "citacao": "Fortalecer o acompanhamento da frequência e a busca ativa para identificar faltas e situações de risco de abandono.",
+   "econ": 0,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "alfabetiza-ceara",
+    "busca-ativa-escolar-unicef",
+    "pnaic",
+    "pe-de-meia"
+   ],
+   "pagina": 22,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O PAIC do Ceará (2007), com avaliação diagnóstica, material estruturado e incentivo aos municípios, é o caso brasileiro de maior sucesso em alfabetização e virou modelo nacional. A Busca Ativa Escolar, plataforma do UNICEF usada por milhares de municípios desde 2017, organiza a identificação de quem saiu da escola.",
+    "br_res": "funcionou",
+    "mundo": "Sistemas de alerta precoce baseados em frequência, comportamento e notas, como o indicador \"on-track\" de Chicago, anteciparam o abandono e ajudaram a elevar a conclusão do ensino médio. Recomposição com reforço em pequenos grupos tem das evidências mais fortes em educação.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "É o pacote com melhor evidência disponível: o Ceará mostrou o caminho na alfabetização e os sistemas de alerta precoce funcionam contra a evasão. Falta a meta que o PAIC tinha, de quantos alunos alfabetizados até que série e em que ano."
+  },
+  {
+   "id": "psdb-df-07",
+   "titulo": "Educação inclusiva com identificação precoce de neurodivergências",
+   "setor": "educacao",
+   "subtema": "Inclusão",
+   "resumo": "Integrar Educação, Saúde e Assistência Social para facilitar o acesso das famílias a avaliação, diagnóstico e terapias, com acessibilidade física, pedagógica e tecnológica.",
+   "citacao": "Integrar Educação, Saúde e Assistência Social para identificar precocemente necessidades de desenvolvimento e neurodesenvolvimento e facilitar o acesso das famílias à avaliação, ao diagnóstico, às terapias.",
+   "econ": -1,
+   "social": -1,
+   "peso": 3,
+   "precedentes": [
+    "lei-berenice-piana",
+    "viver-sem-limite",
+    "aee-atendimento-especializado"
+   ],
+   "pagina": 23,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A Política Nacional de Educação Especial na Perspectiva Inclusiva (2008) levou a maioria dos alunos com deficiência para a escola comum, e a Lei Berenice Piana (12.764/2012) garantiu direitos às pessoas com autismo. O gargalo atual é a fila por avaliação e terapia na saúde pública, que deixa famílias anos à espera de laudo.",
+    "br_res": "parcial",
+    "mundo": "A Finlândia organiza o apoio em três níveis (geral, intensificado e especial) sem exigir diagnóstico para começar a ajudar, o que evita que a fila do laudo trave o atendimento. A evidência sobre intervenção precoce no desenvolvimento infantil é consistente.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Integrar as três áreas ataca o gargalo real, que é a fila por avaliação. A execução depende de neuropediatras, psicólogos e terapeutas que já faltam na rede, e o plano não dimensiona quantos profissionais nem quanto tempo a família esperaria."
+  },
+  {
+   "id": "psdb-df-08",
+   "titulo": "Política Na Moral de educação para a integridade em todas as escolas",
+   "setor": "educacao",
+   "subtema": "Cultura escolar",
+   "resumo": "Expandir a iniciativa nascida no MPDFT, com ética, cidadania e participação, integrada à mediação de conflitos e à atenção à saúde emocional.",
+   "citacao": "Fortalecer e ampliar para todas as escolas do Distrito Federal a Política Distrital Na Moral – Educação para a Integridade, desenvolvida a partir da iniciativa do Ministério Público do Distrito Federal e Territórios.",
+   "econ": null,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "educacao-etica-integridade",
+    "cultura-de-paz-unesco",
+    "mediacao-conflitos-escolar"
+   ],
+   "pagina": 24,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O Na Moral nasceu como projeto do Ministério Público do DF e já é política distrital; a proposta é levá-lo a toda a rede. Programas de mediação de conflitos escolares se espalharam pelo país depois da onda de ataques a escolas de 2023, com avaliação ainda escassa.",
+    "br_res": "em_curso",
+    "mundo": "Programas de aprendizagem socioemocional têm boa evidência de melhora de comportamento e clima escolar (meta-análise de Durlak e colegas, 2011, com mais de 200 programas). Já o efeito de educação para a integridade sobre corrupção na vida adulta não foi demonstrado.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "vt": "promissora",
+   "vd": "Custa pouco e aproveita um programa que já existe. O ganho provável está no clima escolar e na mediação de conflitos, onde há evidência; a promessa implícita de formar adultos menos tolerantes à corrupção não tem como ser medida."
+  },
+  {
+   "id": "psdb-df-09",
+   "titulo": "Cadastrar na atenção primária o milhão de moradores hoje sem vínculo",
+   "setor": "saude",
+   "subtema": "Atenção básica",
+   "resumo": "Ampliar a cobertura e completar equipes de saúde bucal e multiprofissionais, transformando a UBS na principal referência de cada família.",
+   "citacao": "Hoje, cerca de 1 milhão de moradores do Distrito Federal ainda não têm o cadastro na Atenção Primária.",
+   "econ": -1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "esf-saude-familia",
+    "cobertura-aps-df",
+    "previne-brasil",
+    "cadastro-aps-esus"
+   ],
+   "pagina": 27,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A Estratégia Saúde da Família está entre os programas de atenção primária mais bem avaliados do mundo, associada à queda da mortalidade infantil e das internações evitáveis. O DF converteu boa parte das UBS para o modelo de Saúde da Família a partir de 2017, mas a cobertura ainda é baixa para a renda do DF. O Previne Brasil (2019) passou a pagar por cadastro, o que fez o número crescer sem garantir acompanhamento.",
+    "br_res": "parcial",
+    "mundo": "Portugal reorganizou a atenção primária em unidades de saúde familiar com pagamento por desempenho e melhorou indicadores. A Costa Rica, com equipes territoriais (EBAIS), tem a melhor relação entre gasto e resultado da América Latina.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "É onde cada real de saúde rende mais, e o número de 1 milhão sem vínculo dá a medida do tamanho da tarefa. O risco é conhecido desde o Previne Brasil: cadastro sem equipe completa vira número de planilha, e o plano não diz quantas equipes novas pretende formar."
+  },
+  {
+   "id": "psdb-df-10",
+   "titulo": "Prontuário eletrônico integrado e saúde digital para conectar a rede",
+   "setor": "saude",
+   "subtema": "Saúde digital",
+   "resumo": "Histórico clínico, exames, medicamentos e encaminhamentos acessíveis em todos os níveis, com telessaúde aproximando especialistas da atenção primária sem substituir o atendimento presencial.",
+   "citacao": "Implantar um prontuário eletrônico integrado, acessível aos diferentes níveis da rede, reunindo histórico clínico, exames, medicamentos, encaminhamentos.",
+   "econ": 0,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "rnds-prontuario",
+    "lei-telemedicina-14510",
+    "estonia-x-road"
+   ],
+   "pagina": 31,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A Rede Nacional de Dados em Saúde (2020) e o Conecte SUS começaram a integrar registros no país, e a Lei 14.510/2022 regulamentou a telessaúde. No DF, sistemas da atenção primária e dos hospitais ainda não conversam por inteiro, e o paciente repete exames ao mudar de nível de atendimento.",
+    "br_res": "em_curso",
+    "mundo": "A Estônia tem prontuário nacional único desde 2008, acessível ao paciente, e a Dinamarca integra registros de toda a rede pública. Os dois reduziram exames duplicados e aceleraram encaminhamentos. Os fracassos conhecidos, como o programa inglês NPfIT, cancelado em 2011, vieram de tentar trocar todos os sistemas de uma vez.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Estônia e Dinamarca provam o ganho, e a integração no DF tem base nacional pronta na RNDS. O cuidado é não repetir o erro inglês de substituir tudo de uma vez; o plano não diz se vai integrar sistemas existentes ou trocá-los."
+  },
+  {
+   "id": "psdb-df-11",
+   "titulo": "Fila com critério clínico transparente e paciente informado da sua posição",
+   "setor": "saude",
+   "subtema": "Filas",
+   "resumo": "Regulação integrada de consultas, exames e cirurgias, com o paciente sabendo que está na fila, qual a situação do encaminhamento e sendo chamado por critérios clínicos claros.",
+   "citacao": "O paciente precisa saber que está na fila, qual é a situação do seu encaminhamento e ser chamado de acordo com critérios clínicos claros.",
+   "econ": 0,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "fila-unica-regulacao-sus",
+    "fila-cirurgica-sus",
+    "nhs-waiting-times"
+   ],
+   "pagina": 31,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O SUS regula o acesso por centrais como o Sisreg, mas a fila eletiva costuma ser opaca para o paciente. Vários estados e municípios passaram a publicar listas de espera na internet, o que reduziu queixas de fura-fila; publicar a fila, porém, não a encurta.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido reduziu a espera máxima para 18 semanas entre 2000 e 2008 com meta legal, dinheiro novo e publicação por hospital, e perdeu o ganho quando o financiamento parou. Portugal opera garantia de tempo máximo desde 2004. Transparência com prioridade clínica funciona como base; sem capacidade adicional, só reordena a fila.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Transparência e critério clínico são a base certa e custam pouco. Diferente dos planos que prometem reduzir a fila em um percentual e prazo, este não tem meta nem diz de onde virá a capacidade extra, e sem ela o paciente só passa a saber com precisão quanto vai esperar."
+  },
+  {
+   "id": "psdb-df-12",
+   "titulo": "Linha de cuidado do câncer, da prevenção aos cuidados paliativos",
+   "setor": "saude",
+   "subtema": "Oncologia",
+   "resumo": "Fluxos prioritários para exames e confirmação diagnóstica, reduzindo o tempo entre suspeita, diagnóstico e início do tratamento, sob o argumento de que \"no câncer, o tempo também é parte do cuidado\".",
+   "citacao": "Criar fluxos prioritários para exames e confirmação diagnóstica, reduzindo o tempo entre a suspeita da doença, o diagnóstico e o início do tratamento.",
+   "econ": -1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "lei-dos-60-dias-12732",
+    "politica-oncologia-sus",
+    "rastreamento-cancer-mama-inca"
+   ],
+   "pagina": 32,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A Lei 12.732/2012 fixou 60 dias entre diagnóstico e início do tratamento, e a Lei 13.896/2019, 30 dias para os exames em caso de suspeita. As duas são descumpridas em boa parte do país, porque o gargalo é a etapa diagnóstica, antes de o prazo legal começar a contar.",
+    "br_res": "parcial",
+    "mundo": "A Dinamarca criou em 2008 \"pacotes de percurso\" do câncer, com tempos pré-reservados para cada etapa, e reduziu de forma documentada o intervalo até o tratamento. O Reino Unido tem desde 2000 a regra das duas semanas para avaliação de suspeita, com efeito positivo sobre o estágio ao diagnóstico.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Mira exatamente onde o prazo legal falha, o trecho entre a suspeita e o diagnóstico, e a Dinamarca mostra que fluxo prioritário encurta esse tempo. Falta a meta em dias, que seria a forma de cobrar."
+  },
+  {
+   "id": "psdb-df-13",
+   "titulo": "Criar o Hospital do Idoso integrado a uma rede de cuidado ao envelhecimento",
+   "setor": "saude",
+   "subtema": "Envelhecimento",
+   "resumo": "Referência especializada em geriatria articulada às UBSs, às equipes de Saúde da Família, ao atendimento domiciliar, à reabilitação e à rede hospitalar.",
+   "citacao": "Implantar o Hospital do Idoso como referência especializada, integrado às UBSs, equipes de Saúde da Família, atendimento domiciliar, serviços especializados, reabilitação e rede hospitalar.",
+   "econ": -1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "hospital-idoso-curitiba",
+    "politica-nacional-cuidados",
+    "centros-dia-idoso"
+   ],
+   "pagina": 32,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "Curitiba inaugurou em 2012 o Hospital do Idoso Zilda Arns, referência municipal em geriatria. A maior parte do cuidado ao idoso no SUS, porém, acontece na atenção primária, e o país tem poucos geriatras. A Política Nacional de Cuidados (2024) aponta para cuidado comunitário e domiciliar.",
+    "br_res": "parcial",
+    "mundo": "A tendência internacional é levar a geriatria para dentro dos hospitais gerais, com unidades especializadas de cuidado agudo ao idoso, e para casa, com cuidado comunitário, em vez de concentrar atendimento num prédio próprio. Essas unidades reduzem declínio funcional e tempo de internação.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "vt": "arriscada",
+   "vd": "A rede integrada ao envelhecimento é o que a evidência recomenda. O hospital próprio é a parte cara, entre obra e custeio permanente, num DF que o próprio plano descreve sem capacidade de investir, e ela aparece sem estimativa de custo nem de prazo."
+  },
+  {
+   "id": "psdb-df-14",
+   "titulo": "Levar o cuidado para dentro de casa com atenção domiciliar",
+   "setor": "saude",
+   "subtema": "Atenção domiciliar",
+   "resumo": "Acompanhamento após a alta hospitalar para idosos, pessoas com deficiência e doenças crônicas, evitando deslocamentos e internações desnecessárias.",
+   "citacao": "Fortalecer o atendimento domiciliar para pessoas idosas, com deficiência, doenças crônicas, limitações de mobilidade e quem necessita de acompanhamento contínuo.",
+   "econ": -1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "atencao-domiciliar-melhor-em-casa",
+    "hospital-at-home-reino-unido"
+   ],
+   "pagina": 33,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O Melhor em Casa (2011) financia equipes de atenção domiciliar no SUS e é associado a redução de tempo de internação e liberação de leitos. A cobertura é desigual e depende de o estado ou município habilitar e manter equipes.",
+    "br_res": "funcionou",
+    "mundo": "Revisões Cochrane sobre \"hospital em casa\" encontram resultados clínicos equivalentes aos da internação, com menos readmissões em alguns grupos e maior satisfação. O modelo se expandiu no Reino Unido, na Espanha e na Austrália.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Evidência sólida, dentro e fora do Brasil, e custo menor que o leito. Falta dizer quantas equipes o DF tem hoje e quantas pretende ter."
+  },
+  {
+   "id": "psdb-df-15",
+   "titulo": "Auditoria ampla no IGES-DF, com transparência de contratos e resultados",
+   "setor": "saude",
+   "subtema": "Modelo de gestão",
+   "resumo": "Avaliar contratos, compras, despesas, indicadores assistenciais e resultados do instituto, mantendo o modelo mas submetendo-o a controle — posição intermediária entre quem quer extinguir o IGES e quem o defende sem ressalvas.",
+   "citacao": "Realizar uma auditoria ampla no IGES-DF, avaliando contratos, compras, despesas, processos de contratação, indicadores assistenciais e resultados entregues à população [...] Autonomia administrativa precisa vir acompanhada de responsabilidade, transparência e controle.",
+   "econ": 1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "os-saude-brasil",
+    "iges-df",
+    "contratos-gestao-metas",
+    "stf-adi-1923-os"
+   ],
+   "pagina": 34,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O IGES-DF nasceu do Instituto Hospital de Base, de 2017, e passou a gerir hospitais e UPAs com regras próprias de compra e contratação, sob questionamentos recorrentes de órgãos de controle. O STF validou o modelo de organizações sociais na ADI 1923 (2015). As OSs de saúde de São Paulo têm avaliação positiva de eficiência; as do Rio acumularam escândalos. A diferença esteve na fiscalização.",
+    "br_res": "parcial",
+    "mundo": "Portugal teve hospitais em parceria público-privada, como o de Braga, avaliados como mais eficientes que os públicos, e mesmo assim os encerrou por decisão política. O ponto comum das experiências que deram certo é contrato de gestão com metas públicas e auditoria independente.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Auditar e publicar metas é o que separa as OSs que funcionaram das que viraram escândalo. É também a posição mais defensável no debate do DF: nem extinguir sem avaliar, nem manter sem controle."
+  },
+  {
+   "id": "psdb-df-16",
+   "titulo": "Usar agentes de saúde e visitas domiciliares para prevenir o feminicídio",
+   "setor": "saude",
+   "subtema": "Violência contra a mulher",
+   "resumo": "Preparar equipes de Saúde da Família e agentes comunitários para reconhecer sinais de violência e acionar a rede de proteção, alcançando mulheres que ainda não chegaram a uma delegacia. O diagnóstico cita alta de 27% no feminicídio.",
+   "citacao": "A presença dos profissionais de saúde nos territórios e dentro das casas permite ao Estado estar próximo de mulheres que muitas vezes ainda não chegaram a uma delegacia.",
+   "econ": 0,
+   "social": 0,
+   "peso": 3,
+   "precedentes": [
+    "lei-maria-da-penha",
+    "notificacao-compulsoria-violencia",
+    "patrulha-maria-da-penha",
+    "home-visiting-violencia"
+   ],
+   "pagina": 34,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A notificação de violência contra a mulher atendida na saúde é obrigatória desde a Lei 10.778/2003, mas é subnotificada. O agente comunitário entra em casas que nenhum outro serviço público alcança, e há experiências municipais de treinamento para identificar violência, com pouca avaliação de impacto.",
+    "br_res": "parcial",
+    "mundo": "A OMS recomenda que o sistema de saúde identifique e encaminhe vítimas. As revisões mostram que o rastreamento aumenta a identificação, mas o efeito sobre a violência depende de haver para onde encaminhar; intervenções de apoio e acompanhamento da vítima têm melhor evidência que a triagem sozinha.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "vt": "promissora",
+   "vd": "Usa uma porta de entrada que já existe e chega a quem não vai à delegacia, o que é raro nos planos. Funciona se a rede de proteção der conta dos casos identificados e se o agente tiver segurança para atuar, e o plano não trata de nenhum dos dois."
+  },
+  {
+   "id": "psdb-df-17",
+   "titulo": "Muralha Digital com reconhecimento facial e leitura de placas integrados",
+   "setor": "seguranca",
+   "subtema": "Vigilância",
+   "resumo": "Unificar as câmeras hoje fragmentadas entre SSP, DER, Detran e Metrô numa central de inteligência com IA, cruzamento com o Banco Nacional de Medidas Penais e Prisões, alertas à viatura mais próxima e uso também para localizar idosos com Alzheimer e desaparecidos.",
+   "citacao": "Ampliar também o uso de Inteligência Artificial e integrar os bancos de dados, utilizando recursos de reconhecimento facial para apoiar o trabalho das forças de segurança.",
+   "econ": 0,
+   "social": 2,
+   "peso": 3,
+   "precedentes": [
+    "reconhecimento-facial-bahia",
+    "reconhecimento-facial-erros-brasil",
+    "smart-sampa",
+    "ai-act-uniao-europeia",
+    "proibicao-reconhecimento-facial-eua"
+   ],
+   "pagina": 40,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A Bahia usa reconhecimento facial desde 2018 e contabiliza centenas de prisões de foragidos, mas também casos documentados de pessoas presas por erro. Levantamento da Rede de Observatórios da Segurança de 2019 apontou que cerca de 90% dos presos por reconhecimento facial no país eram negros. A LGPD exclui a segurança pública do seu alcance e a lei específica nunca foi aprovada.",
+    "br_res": "parcial",
+    "mundo": "O AI Act europeu, de 2024, restringe o reconhecimento facial em tempo real em espaços públicos a exceções com autorização judicial. Cidades americanas como São Francisco proibiram o uso pela polícia em 2019. Onde é usado, a taxa de erro é maior para pessoas negras e mulheres, e o ganho sobre a criminalidade geral não foi demonstrado.",
+    "mundo_res": "inconclusivo",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "Integrar câmeras dispersas e leitura de placas tem ganho operacional claro. O reconhecimento facial é a parte arriscada: erro concentrado em pessoas negras, nenhuma lei que regule o uso e nenhuma salvaguarda descrita no plano, como revisão humana obrigatória antes da abordagem."
+  },
+  {
+   "id": "psdb-df-18",
+   "titulo": "Recompor efetivos de PM, Polícia Civil e Bombeiros com previsibilidade",
+   "setor": "seguranca",
+   "subtema": "Efetivo",
+   "resumo": "Concursos planejados com responsabilidade fiscal e investimento em investigação, perícia e tecnologia, com atenção explícita à saúde dos profissionais e aos casos de suicídio nas categorias.",
+   "citacao": "Cuidar de quem cuida da segurança da população também será uma prioridade. A saúde dos profissionais será tratada como questão de gestão, com atenção aos afastamentos e aos casos de suicídio nas categorias.",
+   "econ": -1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "efetivo-policial-brasil",
+    "fundo-constitucional-df",
+    "saude-mental-policiais"
+   ],
+   "pagina": 41,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "No DF, PM, Polícia Civil e Bombeiros são organizados e mantidos pela União, pelo Fundo Constitucional do DF (Constituição, art. 21, XIV; Lei 10.633/2002). Concursos dependem de dinheiro federal, e os efetivos estão abaixo do que as leis de fixação preveem. O suicídio de policiais é problema reconhecido, com taxa acima da população geral.",
+    "br_res": "parcial",
+    "mundo": "A literatura americana (Chalfin e McCrary, entre outros) encontra que mais policiais reduzem crimes violentos, sobretudo homicídios. Programas de saúde mental para policiais, como os adotados em Montreal nos anos 1990, reduziram suicídios na corporação.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Há evidência de que efetivo reduz crime violento, e tratar suicídio policial como questão de gestão é raro e correto. O plano não diz o essencial: no DF quem paga as polícias é a União, e recompor efetivo depende de negociação com Brasília que o texto não menciona."
+  },
+  {
+   "id": "psdb-df-19",
+   "titulo": "Gabinete de Gestão Integrada Metropolitana com Goiás",
+   "setor": "seguranca",
+   "subtema": "Integração regional",
+   "resumo": "Compartilhar canais de comunicação e inteligência com as forças de Goiás para enfrentar o crime itinerante que ultrapassa as fronteiras do DF.",
+   "citacao": "Por meio da criação de um Gabinete de Gestão Integrada Metropolitana, serão associados canais de comunicação e inteligência com as Forças de Segurança de Goiás, enfrentando o crime itinerante.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "ggi-gabinetes-gestao-integrada",
+    "ride-df",
+    "susp-sistema-unico-seguranca"
+   ],
+   "pagina": 41,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "Os Gabinetes de Gestão Integrada existem desde 2003 e foram incorporados ao Sistema Único de Segurança Pública (Lei 13.675/2018). A RIDE-DF existe desde 1998, e DF e Goiás já firmaram acordos de cooperação no Entorno, com resultados que dependem de continuidade política dos dois lados.",
+    "br_res": "parcial",
+    "mundo": "Nos Estados Unidos, forças-tarefa regionais como os HIDTA, que juntam polícias de várias jurisdições contra o tráfico, são avaliadas positivamente; os \"fusion centers\" de inteligência receberam críticas do Senado americano em 2012 por produzirem pouco resultado.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "O crime no Entorno não respeita a divisa, e integrar inteligência custa pouco. O histórico mostra que esses gabinetes funcionam quando têm metas e operações conjuntas, e esvaziam quando viram só reunião periódica; o plano não descreve o desenho."
+  },
+  {
+   "id": "psdb-df-20",
+   "titulo": "Inteligência penitenciária integrada à inteligência policial",
+   "setor": "seguranca",
+   "subtema": "Sistema prisional",
+   "resumo": "Valorizar a Polícia Penal e usar tecnologia para impedir que organizações criminosas articulem crimes de dentro dos presídios.",
+   "citacao": "Valorizar e qualificar a Polícia Penal, ampliar a inteligência penitenciária e utilizar tecnologia para aumentar o controle das unidades.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "rdd-regime-disciplinar",
+    "bloqueadores-sinal-presidios",
+    "41-bis-italia"
+   ],
+   "pagina": 39,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "As facções brasileiras nasceram e se organizam dentro das prisões. O sistema penitenciário federal, com isolamento rigoroso e monitoramento, é apontado como eficaz para cortar a comunicação de lideranças; nas prisões estaduais, bloqueadores de celular tiveram resultado limitado. A Polícia Penal foi criada pela EC 104/2019.",
+    "br_res": "parcial",
+    "mundo": "O regime 41-bis da Itália, de isolamento e controle de comunicação de chefes mafiosos, é considerado eficaz em quebrar o comando de dentro das prisões, embora criticado por organismos de direitos humanos.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Mira um problema real e a integração com a inteligência policial é o caminho recomendado. É uma diretriz genérica, sem metas de apreensão, tecnologia específica ou efetivo."
+  },
+  {
+   "id": "psdb-df-21",
+   "titulo": "Ampliar prevenção e investigação de crimes cibernéticos",
+   "setor": "seguranca",
+   "subtema": "Crimes digitais",
+   "resumo": "Profissionais especializados, inteligência digital e perícia para golpes, fraudes eletrônicas e invasões de conta.",
+   "citacao": "Ampliar a capacidade de prevenção e investigação dos crimes cibernéticos, com profissionais especializados, inteligência digital, tecnologia e perícia.",
+   "econ": 0,
+   "social": 1,
+   "peso": 2,
+   "precedentes": [
+    "delegacias-crimes-ciberneticos",
+    "lei-carolina-dieckmann",
+    "mecanismo-especial-devolucao-pix"
+   ],
+   "pagina": 41,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "Os golpes digitais cresceram mais que qualquer outro crime patrimonial no país na última década. A Polícia Civil do DF já tem delegacia especializada, e o Banco Central criou em 2021 o Mecanismo Especial de Devolução do Pix, com taxa de recuperação baixa. A maior parte das fraudes é interestadual e esbarra em limites de uma polícia local.",
+    "br_res": "parcial",
+    "mundo": "O Reino Unido centralizou as denúncias de fraude no Action Fraud e o modelo foi tão criticado pela baixa resolução que começou a ser substituído em 2024. Os resultados melhores vêm da cooperação com bancos e plataformas para bloquear o golpe antes de o dinheiro sair.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "vt": "promissora",
+   "vd": "O crime que mais cresce merece a especialização, mas uma polícia distrital sozinha resolve pouco de uma fraude feita de outro estado. O plano não fala em cooperação com bancos e plataformas, que é onde está a evidência de resultado."
+  },
+  {
+   "id": "psdb-df-22",
+   "titulo": "Três novos eixos de expansão do metrô: Asa Norte, Ceilândia/Sol Nascente e sul",
+   "setor": "cidade",
+   "subtema": "Metrô",
+   "resumo": "Linha na Asa Norte até Taquari, Grande Colorado, Sobradinho e Planaltina; expansão de Ceilândia até Setor O e Sol Nascente; e derivação da Asa Sul atendendo Núcleo Bandeirante, Park Way, Gama e Santa Maria. Inclui compra de novos trens e recuperação da frota atual.",
+   "citacao": "Criação da linha do metrô na Asa Norte, com expansão para atender Taquari, Grande Colorado, Sobradinho, Mestre d’Armas e Planaltina; Expansão da linha de Ceilândia, chegando ao Setor O, Sol Nascente.",
+   "econ": -1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "metro-df-expansao",
+    "custo-metro-brasil",
+    "atrasos-obras-metro-sp"
+   ],
+   "pagina": 44,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O metrô do DF começou a operar comercialmente em 2001 e cresceu muito pouco desde então. A extensão até a Asa Norte aparece em planos de sucessivos governos sem ter chegado a operar, e as expansões de Samambaia e Ceilândia levaram anos. Metrô no Brasil custa centenas de milhões de reais por quilômetro e depende de financiamento federal.",
+    "br_res": "fracassou",
+    "mundo": "O estudo de Flyvbjerg sobre grandes obras de transporte mostra que projetos ferroviários urbanos estouram o orçamento em média em mais de 40% e superestimam a demanda. Cidades que expandiram rápido, como Santiago, fizeram isso com empresa estatal estável e plano de longo prazo com dinheiro garantido.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "São três eixos que somam dezenas de quilômetros, sem custo, prazo nem fonte de recursos, num DF que o plano descreve com 2,67% do orçamento para investimento e nota C para tomar crédito. A extensão até a Asa Norte já foi prometida antes e não saiu."
+  },
+  {
+   "id": "psdb-df-23",
+   "titulo": "Revisar os contratos de ônibus e a tarifa técnica que transferiram o risco de demanda ao Estado",
+   "setor": "cidade",
+   "subtema": "Transporte público",
+   "resumo": "O plano identifica que o usuário paga 30% e o governo 70% do custo, e que perder passageiros não reduz a receita das empresas — por isso propõe redesenhar o contrato para reintroduzir incentivo à qualidade.",
+   "citacao": "um contrato que transferiu ao poder público o risco da demanda: perder passageiros não reduz a receita das empresas e aumenta o custo para o governo [...] Revisar os contratos das empresas de ônibus e a tarifa técnica paga às operadoras.",
+   "econ": 1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "subsidio-transporte-brasil",
+    "contratos-onibus-sp-2019",
+    "risco-demanda-concessoes",
+    "brt-transmilenio-bogota"
+   ],
+   "pagina": 43,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "As concessões de ônibus do DF, licitadas no início da década de 2010, remuneram as operadoras por uma tarifa técnica acima da que o usuário paga, e o subsídio cresceu ano a ano. São Paulo refez seus contratos em 2019 para pagar por custo e qualidade. Revisar contratos em vigor tem risco jurídico e costuma terminar em pedido de reequilíbrio.",
+    "br_res": "parcial",
+    "mundo": "Londres paga as operadoras por quilômetro e deixa o risco de demanda com o poder público de propósito, mas soma bônus e multas por pontualidade desde 2001, e é referência mundial. A lição é que o problema não é o Estado assumir a demanda, e sim o contrato não premiar a qualidade.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "O diagnóstico de falta de incentivo à qualidade está certo e é preciso. A premissa de que o problema é o Estado assumir o risco de demanda é discutível, porque Londres faz isso e funciona com bônus por qualidade. E revisar contrato em vigor custa tempo e, provavelmente, indenização."
+  },
+  {
+   "id": "psdb-df-24",
+   "titulo": "Auditoria independente da concessão da Rodoviária do Plano Piloto",
+   "setor": "cidade",
+   "subtema": "Concessões",
+   "resumo": "Revisão operacional, financeira e contratual para verificar o cumprimento das obrigações do concessionário. Difere das propostas de esquerda, que pedem a revogação pura e simples.",
+   "citacao": "Promover uma revisão responsável da concessão da Rodoviária do Plano Piloto, por meio de auditoria independente completa, avaliando aspectos operacionais, financeiros e contratuais.",
+   "econ": 1,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "concessao-rodoviaria-df",
+    "reequilibrio-contratos-concessao",
+    "tcdf-fiscalizacao"
+   ],
+   "pagina": 46,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "Auditoria de contratos de concessão é instrumento previsto em lei e usado por agências reguladoras e tribunais de contas; o TCDF acompanha as concessões do DF. A experiência brasileira mostra que concessões mal fiscalizadas terminam em aditivos e reequilíbrios a favor do concessionário.",
+    "br_res": "parcial",
+    "mundo": "No Reino Unido, auditorias do National Audit Office sobre as parcerias público-privadas (PFI) mostraram custo alto para o contribuinte e levaram o governo a encerrar o modelo em 2018. Auditar antes de decidir é a prática recomendada.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Auditar antes de decidir é o procedimento correto, custa pouco e dá base técnica a qualquer decisão posterior, inclusive a de rever o contrato. É mais responsável que a revogação sumária, que costuma virar indenização."
+  },
+  {
+   "id": "psdb-df-25",
+   "titulo": "Bilhetagem unificada e planejamento do último quilômetro",
+   "setor": "cidade",
+   "subtema": "Mobilidade",
+   "resumo": "Sistema único para ônibus, BRT, metrô e novos modais, com estações funcionando como pontos de conexão com bicicletas, patinetes, táxis e aplicativos, e calçadas acessíveis.",
+   "citacao": "Cuidar do último quilômetro é garantir que a pessoa não tenha apenas como chegar perto do seu destino, mas consiga completar sua jornada.",
+   "econ": 0,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "bilhete-unico-sp",
+    "oyster-card-londres",
+    "mobilidade-como-servico-maas",
+    "integracao-tarifaria-df"
+   ],
+   "pagina": 46,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O Bilhete Único de São Paulo (2004) é o caso brasileiro de maior sucesso em integração tarifária, com aumento de viagens e economia para quem faz baldeação. O DF já tem integração entre ônibus e metrô, mas com cartões e regras que o usuário descreve como confusos, e calçadas ruins em torno das estações.",
+    "br_res": "funcionou",
+    "mundo": "O cartão Oyster de Londres (2003) unificou a bilhetagem e virou padrão; a integração física com bicicletas e caminhada em torno das estações é prática consolidada em Copenhague e Amsterdã.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Bilhetagem única e atenção ao trecho a pé até a estação têm evidência sólida e custo baixo perto de obra de metrô. É das propostas de mobilidade mais executáveis do plano."
+  },
+  {
+   "id": "psdb-df-26",
+   "titulo": "Autorizar transporte por aplicativo nas faixas exclusivas",
+   "setor": "cidade",
+   "subtema": "Mobilidade",
+   "resumo": "Liberar o uso das faixas por veículos de aplicativo com regras de circulação e monitoramento que preservem a prioridade do coletivo — proposta atípica, ausente dos demais planos.",
+   "citacao": "Autorizar o uso das faixas exclusivas por veículos de transporte por aplicativo, com regras de circulação e monitoramento que preservem a prioridade do transporte coletivo.",
+   "econ": 2,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "faixas-exclusivas-sp",
+    "hov-lanes-eua",
+    "prioridade-transporte-coletivo"
+   ],
+   "pagina": 46,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "São Paulo permite táxis em parte das faixas de ônibus e recusou pedidos para estender o acesso a carros de aplicativo. A velocidade do ônibus é o principal ganho de uma faixa exclusiva, e cada veículo a mais na faixa a reduz, sobretudo nos horários de pico.",
+    "br_res": "parcial",
+    "mundo": "Londres permite táxis tradicionais nas faixas de ônibus, mas não carros de aplicativo, regra confirmada pelo Tribunal de Justiça da União Europeia em 2015. Faixas compartilhadas por veículo de alta ocupação nos Estados Unidos mostram que o benefício some quando a faixa congestiona.",
+    "mundo_res": "parcial",
+    "conf": "media"
+   },
+   "vt": "arriscada",
+   "vd": "A frota de aplicativos é grande demais para caber na faixa sem desacelerar o ônibus, que é o motivo de a faixa existir. A ressalva de \"preservar a prioridade\" não diz como isso seria garantido, e os casos de fora mostram que o limite costuma ser não liberar."
+  },
+  {
+   "id": "psdb-df-27",
+   "titulo": "Reduzir o número de secretarias a menos da metade no primeiro ato de governo",
+   "setor": "estado",
+   "subtema": "Gestão pública",
+   "resumo": "Revisão da estrutura em 100 dias, eliminando sobreposições e contratos duplicados, com cumprimento da Lei 4.858/2012, que exige ao menos metade dos cargos em comissão ocupados por servidores efetivos.",
+   "citacao": "Reduzir o número de secretarias para menos da metade da estrutura atual, já no primeiro ato de governo [...] Cumprir a Lei nº 4.858/2012, garantindo que ao menos metade dos cargos em comissão seja ocupada por servidores efetivos.",
+   "econ": 2,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "reforma-ministerial-2019",
+    "cargos-comissionados-brasil",
+    "stf-nepotismo-sumula-13",
+    "reforma-administrativa-pec-32"
+   ],
+   "pagina": 49,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "Cortes de ministérios e secretarias no primeiro dia são promessa recorrente e costumam ser revertidos: o governo federal passou de 29 para 22 ministérios em 2019, voltou a crescer no mesmo mandato e chegou a 37 em 2023. A economia de fundir pastas é pequena, porque o grosso do gasto é o pessoal, que continua.",
+    "br_res": "revertido",
+    "mundo": "O National Audit Office britânico estimou em 2010 que as reorganizações de órgãos custaram centenas de milhões de libras e raramente entregaram os benefícios prometidos. Reformas duradouras, como as da Nova Zelândia nos anos 1980, mexeram em regras de gestão, não em organograma.",
+    "mundo_res": "fracassou",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "O corte de secretarias é o gesto de maior visibilidade e o de menor efeito: rende manchete e pouca economia, e tende a ser desfeito. A parte mais consistente é cumprir a lei distrital que reserva metade dos cargos em comissão a servidores efetivos, que ataca o loteamento de cargos."
+  },
+  {
+   "id": "psdb-df-28",
+   "titulo": "Criar o Gabinete de Combate à Corrupção ligado à governança do governo",
+   "setor": "estado",
+   "subtema": "Controle",
+   "resumo": "Estrutura permanente de prevenção com cruzamento de dados e acompanhamento de contratos para agir antes que o prejuízo ocorra, somada a uma política permanente de integridade nos órgãos e estatais.",
+   "citacao": "Criar uma estrutura permanente e estratégica, diretamente ligada à governança do governo, para atuar na prevenção e no combate à corrupção, identificar riscos, acompanhar contratos e gastos públicos.",
+   "econ": 0,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "alice-cgu",
+    "cgu-programa-integridade",
+    "koneps-coreia-do-sul",
+    "lei-anticorrupcao-12846"
+   ],
+   "pagina": 15,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A CGU usa desde a década de 2010 a ferramenta Alice, que analisa editais de licitação e aponta riscos antes da contratação, com economia documentada. O DF já tem Controladoria-Geral própria, com funções parecidas; um gabinete novo corre o risco de sobrepor-se a ela.",
+    "br_res": "parcial",
+    "mundo": "A Coreia do Sul centralizou as compras públicas no sistema eletrônico KONEPS, com cruzamento automático de dados, e reduziu custos de transação e oportunidades de fraude. A evidência favorece controle preventivo baseado em dados.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Controle preventivo com cruzamento de dados é o que a experiência da CGU e da Coreia recomenda. O plano não explica o que o gabinete faria que a Controladoria-Geral do DF já não faça, e estrutura duplicada tende a disputar competência."
+  },
+  {
+   "id": "psdb-df-29",
+   "titulo": "Auditoria independente do BRB com divulgação pública dos resultados",
+   "setor": "economia",
+   "subtema": "Banco público",
+   "resumo": "O plano nomeia diretamente a crise — \"um banco com mais de 60 anos de história foi colocado em risco por decisões de gestão\" — e põe entre os desafios centrais proteger e recuperar o BRB sem comprometer o desenvolvimento do DF.",
+   "citacao": "Dar transparência à situação do BRB e do patrimônio do Distrito Federal, com auditoria independente e divulgação dos resultados.",
+   "econ": 0,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "caso-brb-master",
+    "governanca-estatais-lei-13303",
+    "proer-1995",
+    "fgc-brasil"
+   ],
+   "pagina": 50,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "Em 2025 o Banco Central vetou a compra do Banco Master pelo BRB e depois liquidou o Master. A exposição do BRB a carteiras compradas do banco privado virou investigação policial e abriu discussão sobre aporte do Tesouro distrital. Nos anos 1990, os bancos estaduais passaram por crise semelhante, e o Proes levou à privatização ou liquidação da maioria.",
+    "br_res": "parcial",
+    "mundo": "A revisão de qualidade de ativos do Banco Central Europeu, em 2014, é o modelo técnico: auditoria independente da carteira antes de decidir o que fazer com o banco, apontada como bem-sucedida em restaurar a credibilidade.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "É o procedimento consagrado para banco público em crise, e é mérito do plano nomear o problema, que o plano da atual governadora não nomeia. Diz pouco sobre o que vem depois da auditoria: capitalização, venda de ativos ou mudança de governança."
+  },
+  {
+   "id": "psdb-df-30",
+   "titulo": "Painel público de obras com etapa, prazo, responsável e valor atualizado",
+   "setor": "estado",
+   "subtema": "Transparência",
+   "resumo": "Dados abertos em linguagem compreensível, com trilha de rastreamento acessível sobre contratos, emendas, cargos comissionados e execução orçamentária.",
+   "citacao": "Criar um painel público de obras, com etapa, prazo, responsável e valor atualizado, e ampliar a transparência sobre contratos, emendas, cargos comissionados e execução orçamentária.",
+   "econ": 0,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "lai-lei-12527",
+    "obras-paradas-tcu",
+    "portal-transparencia-brasil",
+    "open-data-reino-unido"
+   ],
+   "pagina": 49,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O TCU identificou em 2019 mais de 14 mil obras federais paralisadas, e a resposta foi um cadastro nacional de obras públicas. A Lei de Acesso à Informação (2011) já obriga a transparência ativa; o problema costuma ser dado desatualizado e difícil de ler.",
+    "br_res": "parcial",
+    "mundo": "Portais de obras e contratos como os do Reino Unido e do Chile aumentaram o controle social, e a evidência indica que publicar prazo e responsável reduz atrasos quando alguém cobra. Painel que ninguém atualiza não muda nada.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Custa pouco e tem efeito comprovado quando o dado é mantido em dia. A novidade útil é o responsável nominal por obra, que permite cobrar alguém."
+  },
+  {
+   "id": "psdb-df-31",
+   "titulo": "O governo pergunta uma vez só: dado já fornecido não pode ser exigido de novo",
+   "setor": "estado",
+   "subtema": "Governo digital",
+   "resumo": "Integrar sistemas para que os órgãos conversem entre si, simplificar processos antes de digitalizar e garantir atendimento presencial assistido em todas as RAs, com prazo de resposta visível.",
+   "citacao": "Adotar o princípio de que o governo pergunta uma vez só: uma informação já fornecida pelo cidadão a um órgão público não deverá ser exigida novamente por outro.",
+   "econ": 1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "once-only-uniao-europeia",
+    "estonia-x-road",
+    "gov-br-digitalizacao"
+   ],
+   "pagina": 50,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A Lei 13.726/2018 já proíbe exigir do cidadão documento que o poder público possui, e a Lei do Governo Digital (14.129/2021) consagrou o princípio da pergunta única no âmbito federal. O gov.br mostrou que a digitalização funciona; o cumprimento da regra ainda esbarra em sistemas que não se comunicam.",
+    "br_res": "parcial",
+    "mundo": "A Estônia adota a regra de pergunta única desde os anos 2000, sobre a plataforma X-Road, e a União Europeia a tornou obrigatória entre países para dezenas de procedimentos a partir de 2023. É dos princípios de governo digital com melhor resultado.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "É prática consolidada, já prevista em lei federal, e o plano acerta ao mandar simplificar antes de digitalizar e manter atendimento presencial para quem não usa internet. O trabalho real é integrar sistemas legados, que o plano não dimensiona."
+  },
+  {
+   "id": "psdb-df-32",
+   "titulo": "Reduzir as despesas de exercícios anteriores com metas ano a ano",
+   "setor": "economia",
+   "subtema": "Regra fiscal",
+   "resumo": "Recuperar a capacidade de investimento, hoje em 2,67% do orçamento, vinculando orçamento, planejamento e resultado com metas públicas e avaliações periódicas por área.",
+   "citacao": "Enfrentar as despesas de exercícios anteriores, estabelecendo metas de redução ano a ano, e recuperar gradualmente a capacidade de investimento do DF.",
+   "econ": 1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "restos-a-pagar-brasil",
+    "lrf-2000",
+    "capag-tesouro-nacional",
+    "spending-review-reino-unido"
+   ],
+   "pagina": 50,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "Despesas de exercícios anteriores são contas de anos passados pagas com o orçamento corrente, sinal de que o orçamento foi subestimado. A Lei de Responsabilidade Fiscal (2000) proíbe deixar dívida sem caixa no fim de mandato, mas o uso de restos a pagar e despesas de exercícios anteriores para empurrar gasto é prática disseminada. A nota C de capacidade de pagamento, citada no plano, impede crédito com garantia da União.",
+    "br_res": "parcial",
+    "mundo": "As revisões de gasto do Reino Unido e o orçamento por resultados do Chile vinculam dinheiro a metas avaliadas e são referências da OCDE. Funcionam quando os cortes identificados chegam ao orçamento, e não ficam no relatório.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "O diagnóstico fiscal é franco, e atacar a conta empurrada de um ano para o outro é o ponto certo. Mas a proposta não traz número: nem quanto é o estoque hoje, nem quanto cai por ano, nem a meta de investimento."
+  },
+  {
+   "id": "psdb-df-33",
+   "titulo": "Ouvidoria com prazo de resposta e índice de cumprimento divulgado por órgão",
+   "setor": "estado",
+   "subtema": "Atendimento",
+   "resumo": "Usar as manifestações como instrumento permanente de avaliação dos serviços, com histórico único das demandas de cada cidadão.",
+   "citacao": "Estabelecer prazo para resposta às manifestações dos cidadãos e divulgar o índice de cumprimento de cada órgão.",
+   "econ": 0,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "ouvidorias-publicas-lei-13460",
+    "fix-my-street-reino-unido",
+    "sla-servicos-publicos"
+   ],
+   "pagina": 50,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A Lei 13.460/2017, do usuário de serviço público, já fixa prazo de 30 dias, prorrogável, para a resposta da ouvidoria. A novidade seria publicar o cumprimento por órgão, o que expõe quem descumpre.",
+    "br_res": "parcial",
+    "mundo": "O 311 de Nova York publica dados de cada chamado e o tempo de resposta por agência, e é usado para cobrar desempenho. Plataformas como o FixMyStreet britânico mostraram que publicar a demanda e a resposta aumenta a resolução.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "forte",
+   "vd": "Barato, já tem base legal e tem efeito comprovado quando o ranking é público. É um instrumento de gestão, não uma reforma, e funciona na medida em que alguém cobre os órgãos mal colocados."
+  },
+  {
+   "id": "psdb-df-34",
+   "titulo": "Transformar Brasília no Vale do Silício brasileiro",
+   "setor": "cti",
+   "subtema": "Inovação",
+   "resumo": "Aproveitar universidades, centros de pesquisa e profissionais qualificados para fazer do DF um polo nacional de tecnologia, atraindo empresas e estimulando startups.",
+   "citacao": "Brasília tem condições de se tornar o Vale do Silício brasileiro, conectando conhecimento, empreendedorismo, investimento e poder público.",
+   "econ": 1,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "parques-tecnologicos-brasil",
+    "biotic-df",
+    "silicon-valley-cluster",
+    "start-up-chile"
+   ],
+   "pagina": 18,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O Porto Digital do Recife, criado em 2000, é o caso brasileiro de polo tecnológico bem-sucedido, com décadas de continuidade. O Parque Tecnológico de Brasília (BioTIC) foi anunciado há mais de uma década e avançou devagar. Quase toda capital já prometeu virar o \"Vale do Silício brasileiro\".",
+    "br_res": "parcial",
+    "mundo": "Josh Lerner, em \"Boulevard of Broken Dreams\", documenta que a maior parte das tentativas de governos de fabricar um Vale do Silício fracassou, e as que deram certo, como Israel e Singapura, combinaram capital de risco privado, décadas de política estável e mercado externo. O Start-Up Chile atraiu empreendedores, mas poucos ficaram.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "arriscada",
+   "vd": "É slogan antes de ser política: o plano não diz qual instrumento usaria, se incentivo fiscal, fundo, compras públicas ou parque tecnológico. O DF tem ativos reais, como a UnB e a mão de obra qualificada, mas a experiência mostra que polo tecnológico leva décadas e depende pouco de governo estadual."
+  },
+  {
+   "id": "psdb-df-35",
+   "titulo": "Política integrada para pessoas em situação de rua com parcerias da sociedade civil",
+   "setor": "trabalho",
+   "subtema": "População de rua",
+   "resumo": "Articular assistência, saúde mental, tratamento de dependência química, qualificação, habitação e segurança, com o Estado coordenando a rede e apoiando quem já atua nos territórios. O diagnóstico cita 3.521 pessoas e alta de 19,8%.",
+   "citacao": "O Estado não precisa fazer tudo sozinho, mas precisa coordenar a rede, estabelecer critérios, acompanhar os resultados e apoiar quem já realiza um trabalho sério nos territórios.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "housing-first-finlandia",
+    "politica-populacao-rua-brasil",
+    "comunidades-terapeuticas-financiamento",
+    "parcerias-osc-lei-13019"
+   ],
+   "pagina": 12,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "A Política Nacional para a População em Situação de Rua existe desde 2009 (Decreto 7.053), e o STF, na ADPF 976 (2023), mandou os governos adotarem medidas e proibiu remoções forçadas. Parcerias com organizações civis seguem o Marco Regulatório de 2014 (Lei 13.019); o financiamento de comunidades terapêuticas é controverso pela baixa fiscalização.",
+    "br_res": "parcial",
+    "mundo": "A Finlândia é o único país europeu em que a população de rua caiu de forma contínua, com o modelo Housing First: moradia primeiro, sem exigir abstinência. Os estudos canadenses do programa At Home/Chez Soi confirmaram mais estabilidade na moradia.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "A coordenação da rede pelo Estado, com as organizações que já atuam, é desenho sensato. O plano cita habitação na lista, mas não prioriza a moradia como a evidência finlandesa indica, e o peso dado a tratamento de dependência abre espaço para financiar comunidades terapêuticas sem avaliação."
+  },
+  {
+   "id": "psdb-df-36",
+   "titulo": "Transformar assistência em oportunidade de autonomia",
+   "setor": "trabalho",
+   "subtema": "Assistência social",
+   "resumo": "Conectar programas sociais a qualificação, trabalho, empreendedorismo e geração de renda, integrando informações para identificar vulnerabilidades e agir antes que a família percorra vários órgãos.",
+   "citacao": "Fortalecer a proteção social para quem precisa, mas conectar os programas sociais a oportunidades de qualificação, trabalho, empreendedorismo e geração de renda.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "condicionalidades-bolsa-familia",
+    "welfare-to-work-eua",
+    "chile-solidario",
+    "acompanhamento-familiar-paif"
+   ],
+   "pagina": 12,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O Brasil já tentou ligar transferência de renda a inclusão produtiva no Brasil Sem Miséria (2011), com o Pronatec e o Acessuas Trabalho, com resultados modestos de emprego. A regra de proteção do Bolsa Família, que mantém parte do benefício quando a renda sobe, tenta evitar que trabalhar signifique perder o auxílio.",
+    "br_res": "parcial",
+    "mundo": "O Chile Solidário combinou transferência com acompanhamento familiar e melhorou o acesso a serviços, com efeito pequeno sobre renda. A reforma americana de 1996 aumentou o emprego de mães sozinhas, mas também a pobreza extrema de quem ficou fora.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Integrar os cadastros para agir antes que a família peregrine por órgãos é a parte mais sólida. A inclusão produtiva tem histórico modesto no Brasil e fora dele, e o plano não diz se haverá condicionalidade nova ou só oferta de cursos."
+  },
+  {
+   "id": "psdb-df-37",
+   "titulo": "Combater a grilagem enquanto acelera a regularização fundiária",
+   "setor": "cidade",
+   "subtema": "Terra urbana",
+   "resumo": "Enfrentar o passivo existente sem estimular novas ocupações, protegendo o patrimônio público e o planejamento da cidade.",
+   "citacao": "Regularizar não significa estimular novas ocupações. Ao mesmo tempo em que o governo precisa enfrentar o passivo existente, deverá combater a grilagem e impedir novas ocupações irregulares.",
+   "econ": 1,
+   "social": 1,
+   "peso": 3,
+   "precedentes": [
+    "regularizacao-fundiaria-lei-13465",
+    "grilagem-df",
+    "df-legal",
+    "reurb-avaliacoes"
+   ],
+   "pagina": 13,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O DF tem um dos maiores passivos fundiários do país, com bairros inteiros nascidos de grilagem, como Vicente Pires e Sol Nascente. A Lei 13.465/2017 facilitou a regularização, e cada rodada de regularização historicamente estimulou novas invasões na expectativa da próxima. O DF Legal intensificou derrubadas a partir de 2019.",
+    "br_res": "parcial",
+    "mundo": "A titulação em massa do Peru nos anos 1990 aumentou a oferta de trabalho das famílias tituladas, segundo Erica Field (2007), mas não conteve novas ocupações. Na América Latina, a expectativa de regularização futura é um dos motores documentados da ocupação irregular.",
+    "mundo_res": "parcial",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "O plano reconhece o dilema central, de que regularizar pode incentivar a próxima invasão, o que muitos planos ignoram. Não diz como quebrar esse ciclo, com marco temporal, fiscalização ou oferta legal de lotes, e sem isso a regularização tende a repetir o padrão."
+  },
+  {
+   "id": "psdb-df-38",
+   "titulo": "Lixo é dinheiro: economia circular com cooperativas e empresas",
+   "setor": "ambiente",
+   "subtema": "Resíduos",
+   "resumo": "Ampliar a coleta seletiva e a reciclagem e fortalecer cooperativas, tratando resíduos como cadeia produtiva capaz de gerar matéria-prima, energia, produtos e empregos.",
+   "citacao": "Lixo também é dinheiro quando existe gestão, tecnologia e uma cadeia produtiva capaz de transformar resíduos em valor.",
+   "econ": 1,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "pnrs-2010",
+    "catadores-cooperativas",
+    "economia-circular-ue",
+    "logistica-reversa"
+   ],
+   "pagina": 18,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O DF fechou em 2018 o Lixão da Estrutural, então o maior da América Latina, e passou a contratar cooperativas de catadores para a triagem. A Política Nacional de Resíduos Sólidos (2010) previa o fim dos lixões e a coleta seletiva, metas descumpridas na maior parte do país; o índice de reciclagem brasileiro continua baixo.",
+    "br_res": "parcial",
+    "mundo": "A União Europeia impôs metas obrigatórias de reciclagem e responsabilidade do fabricante pela embalagem, e países como Alemanha e Bélgica reciclam mais da metade do lixo urbano. O que fez a diferença foi obrigação legal e cobrança, não só incentivo.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "Parte de uma base real, o fim do lixão e o contrato com cooperativas, e aponta a direção certa. Não traz meta de reciclagem, nem de coleta seletiva, nem instrumento que obrigue os grandes geradores, que é o que moveu os números na Europa."
+  },
+  {
+   "id": "psdb-df-39",
+   "titulo": "Preparar Brasília para as mudanças climáticas no planejamento urbano",
+   "setor": "ambiente",
+   "subtema": "Adaptação climática",
+   "resumo": "Incorporar a adaptação à drenagem, às áreas de risco, à arborização, à seca, às ondas de calor e aos incêndios, com prioridade aos territórios mais vulneráveis.",
+   "citacao": "Incorporar adaptação climática ao planejamento urbano, com atenção à drenagem, áreas de risco, arborização, períodos de seca, ondas de calor, incêndios e eventos extremos.",
+   "econ": -1,
+   "social": null,
+   "peso": 2,
+   "precedentes": [
+    "plano-adaptacao-clima-brasil",
+    "ilhas-calor-brasil",
+    "cemaden",
+    "solucoes-baseadas-natureza"
+   ],
+   "pagina": 14,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "O DF viveu racionamento de água entre 2017 e 2018, e o incêndio de setembro de 2024 queimou grande parte do Parque Nacional de Brasília. O Brasil elaborou planos de adaptação nacionais, mas poucos estados os levaram ao planejamento urbano.",
+    "br_res": "em_curso",
+    "mundo": "Copenhague adotou em 2012 um plano contra chuvas extremas com parques que viram reservatórios, e Medellín reduziu a temperatura local com corredores verdes. São casos de sucesso porque vieram com projetos, orçamento e prazos.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "O diagnóstico é correto e urgente para o DF, entre seca, calor e incêndio. É uma diretriz, sem projeto, meta de arborização, orçamento ou prazo, o que os casos bem-sucedidos de fora tinham."
+  },
+  {
+   "id": "psdb-df-40",
+   "titulo": "Proteger nascentes, mananciais e áreas de recarga como limite do crescimento urbano",
+   "setor": "ambiente",
+   "subtema": "Água",
+   "resumo": "O crescimento urbano deve respeitar a capacidade ambiental do território, com preservação e recuperação de parques, áreas verdes e unidades de conservação.",
+   "citacao": "O crescimento urbano precisa respeitar a capacidade ambiental do território. Desenvolvimento e preservação não são objetivos opostos.",
+   "econ": -1,
+   "social": null,
+   "peso": 3,
+   "precedentes": [
+    "crise-hidrica-df-2017",
+    "zee-df",
+    "codigo-florestal-2012",
+    "produtor-de-agua-ana"
+   ],
+   "pagina": 14,
+   "citacao_aprox": false,
+   "historico": {
+    "br": "Na crise hídrica de 2016 a 2018, o reservatório do Descoberto chegou a níveis mínimos históricos e o DF racionou água. A ocupação irregular sobre áreas de recarga é uma das causas apontadas. O Zoneamento Ecológico-Econômico (Lei 6.269/2019) mapeou essas áreas, e o programa Produtor de Água no Pipiripau paga produtores rurais para conservar nascentes desde 2012.",
+    "br_res": "parcial",
+    "mundo": "Nova York preferiu, a partir de 1997, proteger as bacias das montanhas Catskill a construir uma estação de filtragem bilionária, e economizou bilhões. Pagar pela proteção do manancial costuma sair mais barato do que tratar a água depois.",
+    "mundo_res": "funcionou",
+    "conf": "alta"
+   },
+   "vt": "promissora",
+   "vd": "O princípio é correto e o DF tem instrumentos prontos, do zoneamento ao Produtor de Água. O plano fica no princípio: não diz se vai ampliar o pagamento por serviços ambientais nem como impedir a ocupação das áreas de recarga, que é onde a proteção costuma falhar."
+  }
+ ]
+}
